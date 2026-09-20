@@ -17,6 +17,15 @@
     burgerBtn.addEventListener('click', function(){
       var open = navlinks.classList.toggle('open');
       burgerBtn.setAttribute('aria-expanded', open ? 'true':'false');
+      document.body.style.overflow = open ? 'hidden' : '';
+    });
+    // Close the menu (and restore scrolling) when a link is tapped
+    navlinks.addEventListener('click', function(e){
+      if(e.target.closest('a')){
+        navlinks.classList.remove('open');
+        burgerBtn.setAttribute('aria-expanded','false');
+        document.body.style.overflow = '';
+      }
     });
   }
 

@@ -122,9 +122,13 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:700;letter-spacing:.01em
     top:calc(66px + env(safe-area-inset-top,0px));
     left:0;right:0;bottom:0;background:#0c0505;flex-direction:column;
     padding:16px 22px calc(28px + env(safe-area-inset-bottom,0px));
-    transform:translateX(100%);transition:transform .3s ease;overflow-y:auto;gap:0;
+    transform:translateX(100%);
+    transition:transform .3s ease, visibility .3s;
+    overflow-y:auto;gap:0;
+    visibility:hidden;
+    z-index:950;
   }
-  .navlinks.open{transform:translateX(0);}
+  .navlinks.open{transform:translateX(0);visibility:visible;}
   .navlinks a{padding:16px 4px;font-size:1.05rem;border-bottom:1px solid var(--iron-2);}
   .burger{display:block;}
   /* Keep Join Us reachable on mobile: show it as a full-width button
@@ -157,9 +161,11 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:700;letter-spacing:.01em
 
 /* ============ HERO ============ */
 .hero{
-  position:relative;min-height:96vh;display:flex;align-items:center;
-  padding:132px 0 60px;overflow:hidden;
+  position:relative;min-height:96vh;
+  display:flex;flex-direction:column;justify-content:center;
+  padding:132px 0 0;overflow:hidden;
 }
+.hero > .wrap{width:100%;}
 .hero-emblem{
   position:absolute;right:-4%;top:50%;transform:translateY(-50%);
   width:min(46vw,460px);opacity:.5;
@@ -201,9 +207,9 @@ h1.title{
 .btn-ghost:hover{background:rgba(196,30,42,.12);}
 
 .plaque{
-  position:relative;z-index:2;margin-top:60px;
-  border-top:1px solid var(--iron);border-bottom:1px solid var(--iron);
-  padding:18px 0;
+  position:relative;z-index:2;width:100%;margin-top:auto;
+  border-top:1px solid var(--iron);
+  padding:20px 0;
 }
 .plaque .wrap{display:flex;flex-wrap:wrap;gap:10px 36px;justify-content:space-between;}
 .plaque-item{font-family:var(--font-body);}
@@ -498,16 +504,17 @@ body.loaded main{animation:pageIn .5s ease both;}
   .wrap{padding:0 20px;}
 
   /* Hero: shorter, tighter, and clear of the fixed header */
-  .hero{min-height:auto;padding:104px 0 48px;}
+  .hero{min-height:auto;padding:96px 0 0;}
   h1.title{font-size:clamp(2.6rem,13vw,4rem);}
   .hero .lede{font-size:1.05rem;max-width:100%;}
-  .hero .cta-row{margin-top:28px;gap:12px;}
+  .hero .cta-row{margin-top:26px;gap:12px;}
   .hero .cta-row .btn{flex:1 1 100%;justify-content:center;}
 
   /* Stat plaque reads better as a 2-up grid than a squeezed row */
-  .plaque{margin-top:40px;padding:16px 0;}
-  .plaque .wrap{display:grid;grid-template-columns:1fr 1fr;gap:18px 20px;}
+  .plaque{margin-top:44px;padding:18px 0;}
+  .plaque .wrap{display:grid;grid-template-columns:1fr 1fr;gap:16px 18px;}
   .plaque-item b{font-size:1.3rem;}
+  .plaque-item span{font-size:.7rem;line-height:1.3;display:block;}
 
   .subhero{padding:120px 0 44px;}
   .section{padding:60px 0;}
