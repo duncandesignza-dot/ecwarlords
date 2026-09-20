@@ -91,6 +91,10 @@
     {faction:'tyranids', label:'TYRANIDS', title:'Winged Hive Tyrant', painter:'Gabriel Goddard', img:'assets/hive-tyrant.webp', color:'#8a6a1a', desc:'A Winged Hive Tyrant finished in bronze and gold carapace over a bone-white underbelly, with a striking electric-blue glow carried through every talon and bio-weapon tip.'}
   ];
 
+  function escAttr(s){
+    return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');
+  }
+
   var galleryGrid = document.getElementById('galleryGrid');
   if(galleryGrid){
     ARMY_DATA.forEach(function(item, idx){
@@ -98,8 +102,9 @@
       card.className = 'gcard show';
       card.dataset.faction = item.faction;
       card.dataset.idx = idx;
+      var altText = escAttr(item.title + ' painted by ' + item.painter);
       var artInner = item.img
-        ? '<div class="art has-photo"><img src="'+item.img+'" alt="'+item.title+' painted by '+item.painter+'" loading="lazy"></div>'
+        ? '<div class="art has-photo"><img src="'+item.img+'" alt="'+altText+'" loading="lazy"></div>'
         : '<div class="art" style="background:radial-gradient(circle at 50% 40%, '+item.color+'33, #0d0707 70%)">'+
             '<svg style="color:'+item.color+'"><use href="#'+item.icon+'"/></svg>'+
           '</div>';
@@ -136,7 +141,7 @@
         var lbArt = document.getElementById('lbArt');
         if(item.img){
           lbArt.className = 'art has-photo';
-          lbArt.innerHTML = '<img src="'+item.img+'" alt="'+item.title+' painted by '+item.painter+'">';
+          lbArt.innerHTML = '<img src="'+item.img+'" alt="'+escAttr(item.title + ' painted by ' + item.painter)+'">';
         } else {
           lbArt.className = 'art';
           lbArt.innerHTML = '<svg viewBox="0 0 100 100" style="color:'+item.color+'"><use href="#'+item.icon+'"/></svg>';
