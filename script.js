@@ -215,10 +215,20 @@
     entries.forEach(function(en){
       if(en.isIntersecting){ en.target.classList.add('in-view'); io.unobserve(en.target); }
     });
-  }, {threshold:.12}) : null;
+  }, {threshold:0, rootMargin:'0px 0px -40px 0px'}) : null;
 
   document.querySelectorAll('.reveal').forEach(function(el){
     if(io){ io.observe(el); } else { el.classList.add('in-view'); }
   });
+
+  // Safety net: if any .reveal element still hasn't appeared after a couple
+  // of seconds (e.g. a browser quirk that never fires the intersection
+  // callback for a very tall element), force it visible rather than leaving
+  // the page looking blank.
+  setTimeout(function(){
+    document.querySelectorAll('.reveal:not(.in-view)').forEach(function(el){
+      el.classList.add('in-view');
+    });
+  }, 2000);
 
 })();
