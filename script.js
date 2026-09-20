@@ -210,6 +210,40 @@
     });
   }
 
+  /* ---------- NAV: gains weight once scrolled ---------- */
+  if(topnav){
+    var lastScrolled = null;
+    var onScroll = function(){
+      var scrolled = window.scrollY > 24;
+      if(scrolled !== lastScrolled){
+        topnav.classList.toggle('scrolled', scrolled);
+        lastScrolled = scrolled;
+      }
+    };
+    // rAF-throttled so the scroll handler never blocks the main thread
+    var ticking = false;
+    window.addEventListener('scroll', function(){
+      if(!ticking){
+        window.requestAnimationFrame(function(){ onScroll(); ticking = false; });
+        ticking = true;
+      }
+    }, {passive:true});
+    onScroll();
+  }
+
+  /* ---------- Stagger grid children on reveal ---------- */
+  // The gallery grid is excluded: its cards are display-toggled by the
+  // faction filter, which conflicts with opacity-based staggering. Those
+  // get the cardIn keyframe animation in CSS instead.
+  [
+    '.teaser-grid', '.photo-grid', '.pillars', '.officer-row',
+    '.member-grid', '.steps', '.game-grid', '.news-feed'
+  ].forEach(function(sel){
+    document.querySelectorAll(sel).forEach(function(el){
+      el.classList.add('stagger');
+    });
+  });
+
   /* ---------- SCROLL REVEAL ---------- */
   var io = ('IntersectionObserver' in window) ? new IntersectionObserver(function(entries){
     entries.forEach(function(en){
