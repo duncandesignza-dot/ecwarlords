@@ -245,6 +245,28 @@ h1.title{
 .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease, transform .7s ease;}
 .reveal.in-view{opacity:1;transform:translateY(0);}
 
+/* A single fixed pair of character cutouts that sits behind the whole page
+   (not repeated per-section). The hero's own opaque background naturally
+   covers them while the hero is in view; they read through once you've
+   scrolled into the plain content sections below, so the motif spans the
+   page as one continuous element rather than several disjointed copies. */
+.page-flank{
+  position:fixed;bottom:0;z-index:0;pointer-events:none;user-select:none;
+  height:60vh;width:auto;max-width:24vw;object-fit:contain;object-position:bottom;
+  opacity:.14;
+}
+.page-flank-left{
+  left:0;object-position:bottom left;
+  -webkit-mask-image:linear-gradient(90deg, black 45%, transparent 100%);
+  mask-image:linear-gradient(90deg, black 45%, transparent 100%);
+}
+.page-flank-right{
+  right:0;object-position:bottom right;
+  -webkit-mask-image:linear-gradient(270deg, black 45%, transparent 100%);
+  mask-image:linear-gradient(270deg, black 45%, transparent 100%);
+}
+@media (max-width:1000px){.page-flank{display:none;}}
+
 /* ============ HOME TEASERS ============ */
 .teaser-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--iron);border:1px solid var(--iron);}
 .teaser{

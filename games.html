@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EC Warlords — Games We Play</title>
+<meta name="description" content="Every game system the Eastern Cape Warlords club plays: Warhammer 40,000, Age of Sigmar, Kings of War, Dungeons and Dragons, Blood Bowl, and board games.">
+<link rel="icon" href="assets/logo.webp">
+<link rel="stylesheet" href="style.css?v=202609201945">
+<style>
+  .game-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;}
+  @media (max-width:820px){.game-grid{grid-template-columns:1fr;}}
+  .game-card{border:1px solid var(--iron);background:var(--panel);padding:32px;transition:border-color .2s ease;}
+  .game-card:hover{border-color:var(--crimson-bright);}
+  .game-card .g-icon{width:44px;height:44px;color:var(--crimson-glow);margin-bottom:18px;}
+  .game-card .g-logo{max-width:230px;max-height:56px;width:auto;height:auto;margin-bottom:18px;object-fit:contain;}
+  .game-card .g-logo.tall{max-height:90px;}
+  .game-card h3{font-size:1.35rem;margin-bottom:12px;}
+  .game-card p{color:var(--bone-dim);font-size:.96rem;line-height:1.6;}
+  .game-card .g-tag{display:inline-block;margin-top:16px;font-size:.72rem;letter-spacing:.1em;font-weight:700;
+    color:var(--gold-bright,var(--bone));color:var(--bone);border:1px solid var(--iron);padding:4px 10px;}
+</style>
+</head>
+<body data-page="games">
+
+<img class="page-flank page-flank-left" src="assets/hero-left.webp" alt="" aria-hidden="true">
+<img class="page-flank page-flank-right" src="assets/hero-right.webp" alt="" aria-hidden="true">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<defs>
+  <symbol id="ico-marine" viewBox="0 0 100 100"><path fill="currentColor" d="M50 8c14 0 22 10 22 22 0 8-3 13-7 17 3 1 5 3 5 6v6H30v-6c0-3 2-5 5-6-4-4-7-9-7-17C28 18 36 8 50 8zM24 60h52l6 34H18z"/><rect x="40" y="30" width="20" height="8" fill="#0a0707"/></symbol>
+  <symbol id="ico-crest" viewBox="0 0 100 100"><path fill="currentColor" d="M50 8c2 6 1 11-2 15 9-3 17-1 23 6-8 0-14 3-17 9 10 2 17 8 20 18-9-4-16-3-21 2 6 4 9 10 8 18-6-6-12-8-18-6 2 7 0 13-5 18-5-5-7-11-5-18-6-2-12 0-18 6-1-8 2-14 8-18-5-5-12-6-21-2 3-10 10-16 20-18-3-6-9-9-17-9 6-7 14-9 23-6-3-4-4-9-2-15z"/></symbol>
+  <symbol id="ico-shield" viewBox="0 0 100 100"><path fill="currentColor" d="M50 6l34 12v26c0 24-14 42-34 50C30 86 16 68 16 44V18z"/></symbol>
+  <symbol id="ico-d20" viewBox="0 0 100 100"><path fill="currentColor" d="M50 4L92 28v44L50 96 8 72V28z"/><path fill="#0a0707" d="M50 4v46L8 28zM50 4v46l42-22zM8 28l42 22v46L8 72zM92 28L50 50v46l42-24z" opacity=".35"/><path fill="#0a0707" d="M50 50L8 28M50 50l42-22M50 50v46" stroke="#0a0707" stroke-width="2" fill="none"/></symbol>
+  <symbol id="ico-helmet" viewBox="0 0 100 100"><path fill="currentColor" d="M50 10c22 0 38 16 38 38v16H12V48C12 26 28 10 50 10zM12 66h76v10c0 6-5 10-10 10H22c-5 0-10-4-10-10z"/><rect x="30" y="40" width="10" height="14" fill="#0a0707"/><rect x="60" y="40" width="10" height="14" fill="#0a0707"/></symbol>
+  <symbol id="ico-dice" viewBox="0 0 100 100"><rect x="14" y="14" width="72" height="72" rx="10" fill="currentColor"/><circle cx="32" cy="32" r="6" fill="#0a0707"/><circle cx="68" cy="32" r="6" fill="#0a0707"/><circle cx="50" cy="50" r="6" fill="#0a0707"/><circle cx="32" cy="68" r="6" fill="#0a0707"/><circle cx="68" cy="68" r="6" fill="#0a0707"/></symbol>
+</defs>
+</svg>
+
+<nav class="topnav">
+  <div class="wrap">
+    <a href="./" class="brand">
+      <img src="assets/logo.webp" alt="Eastern Cape Warlords crest">
+      <span>EC WARLORDS<span class="b-sub">TABLETOP CLUB</span></span>
+    </a>
+    <ul class="navlinks" id="navlinks">
+      <li><a href="./" data-page="home">Home</a></li>
+      <li><a href="about" data-page="about">About</a></li>
+      <li><a href="gallery" data-page="gallery">The Armory</a></li>
+      <li><a href="members" data-page="members">The Roster</a></li>
+      <li><a href="news" data-page="news">The Dispatch</a></li>
+      <li><a href="games" data-page="games">Games We Play</a></li>
+      <li><a href="join" data-page="join" class="nav-cta">Join Us</a></li>
+    </ul>
+    <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+  </div>
+</nav>
+
+<main id="main">
+
+  <div class="subhero texture-void texture-stripes" style="--hero-img:url('assets/games-banner.webp');">
+    <div class="wrap">
+      <div class="eyebrow">WHAT WE PLAY</div>
+      <h1>Games we<br>play.</h1>
+      <p>We're not a single-system club. Whatever's on the table on a given Thursday, there's a good chance one of these is being played somewhere in the room.</p>
+    </div>
+  </div>
+
+  <div class="section" style="padding-top:20px;">
+    <div class="wrap">
+      <div class="game-grid reveal">
+
+        <div class="game-card">
+          <img class="g-logo" src="assets/w40k-logo.png" alt="Warhammer 40,000 logo">
+          <h3>Warhammer 40,000</h3>
+          <p>The club's flagship game and the one you'll find on the most tables on any given night. Weekly pickup games, ongoing narrative campaigns like Crusade of Embers, and regular 3v3 mixed-army experiments designed to pair newer players with veterans.</p>
+          <span class="g-tag">MOST TABLE TIME</span>
+        </div>
+
+        <div class="game-card">
+          <img class="g-logo" src="assets/aos-logo.png" alt="Warhammer Age of Sigmar logo">
+          <h3>Age of Sigmar</h3>
+          <p>Warhammer's fantasy side gets real love here too — several members paint and collect Age of Sigmar armies (Seraphon among them), and games get organised whenever there's a table and an opponent free.</p>
+          <span class="g-tag">FANTASY BATTLES</span>
+        </div>
+
+        <div class="game-card">
+          <img class="g-logo" src="assets/kow-logo.webp" alt="Kings of War logo">
+          <h3>Kings of War</h3>
+          <p>A faster, more streamlined mass-battle alternative some of our members turn to for bigger armies on a tighter schedule. Ask around the club if you want to get a game going.</p>
+          <span class="g-tag">MASS BATTLE</span>
+        </div>
+
+        <div class="game-card">
+          <img class="g-logo tall" src="assets/dnd-logo.svg" alt="Dungeons & Dragons logo">
+          <h3>Dungeons &amp; Dragons</h3>
+          <p>Our DnD table runs regularly enough that it competes for club-night attention with the wargaming tables — more than one Dispatch post has noted a quieter wargames night because the dice were rolling for a campaign instead.</p>
+          <span class="g-tag">TABLETOP RPG</span>
+        </div>
+
+        <div class="game-card">
+          <img class="g-logo" src="assets/bloodbowl-logo.png" alt="Warhammer Blood Bowl logo">
+          <h3>Blood Bowl</h3>
+          <p>Genuinely one of the club's biggest ongoing scenes. Season 1 of our league crowned the Fossil Fuels champions, we've run a standalone sevens tournament, and Season 2 is underway using the new 3rd edition rules — with a growing roster of teams and coaches every cycle.</p>
+          <span class="g-tag">RUNNING LEAGUE</span>
+        </div>
+
+        <div class="game-card">
+          <svg class="g-icon"><use href="#ico-dice"/></svg>
+          <h3>Board Games</h3>
+          <p>Not every night is about miniatures. We keep a rotating shelf of board games on hand for anyone who wants a shorter, lighter game between battles — or an entire evening of them.</p>
+          <span class="g-tag">CASUAL NIGHTS</span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="section" style="padding-top:0;">
+    <div class="wrap">
+      <div class="source-note reveal" style="border:1px solid var(--iron);background:var(--void-2);padding:22px 24px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;">
+        <p style="color:var(--bone-dim);font-size:.9rem;max-width:520px;">Not sure which of these to try first? Come to a Thursday meet — we'll point you toward whichever table has room and a mentor free.</p>
+        <a href="join" class="btn btn-primary">Join Us</a>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/logo.webp" alt="Eastern Cape Warlords crest">
+        Eastern Cape Warlords
+      </div>
+      <div class="footer-links">
+        <a href="./">Home</a>
+        <a href="about">About</a>
+        <a href="gallery">The Armory</a>
+        <a href="members">The Roster</a>
+        <a href="news">The Dispatch</a>
+        <a href="games">Games We Play</a>
+        <a href="join">Join Us</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Eastern Cape Warlords Wargaming Club. Warhammer 40,000, Warhammer Age of Sigmar, and Blood Bowl are trademarks of Games Workshop Ltd. Kings of War is a trademark of Mantic Games. Dungeons &amp; Dragons is a trademark of Wizards of the Coast. Not affiliated with or endorsed by any of the above.</span>
+      <span>Eastern Cape · Thursdays, 7–10 PM</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js?v=202609201945"></script>
+</body>
+</html>
