@@ -108,6 +108,27 @@
     }
   }
 
+  /* ---------- HOME PHOTO GALLERY LIGHTBOX ---------- */
+  var photoGrid = document.getElementById('photoGrid');
+  var photoLightbox = document.getElementById('photoLightbox');
+  if(photoGrid && photoLightbox){
+    var plbImg = document.getElementById('plbImg');
+    var plbCap = document.getElementById('plbCap');
+    photoGrid.addEventListener('click', function(e){
+      var card = e.target.closest('.photo-card');
+      if(!card) return;
+      var img = card.querySelector('img');
+      plbImg.src = img.src;
+      plbImg.alt = img.alt;
+      plbCap.textContent = card.dataset.caption || img.alt || '';
+      photoLightbox.classList.add('open');
+    });
+    var plbClose = document.getElementById('plbClose');
+    if(plbClose) plbClose.addEventListener('click', function(){ photoLightbox.classList.remove('open'); });
+    photoLightbox.addEventListener('click', function(e){ if(e.target===photoLightbox) photoLightbox.classList.remove('open'); });
+    document.addEventListener('keydown', function(e){ if(e.key==='Escape') photoLightbox.classList.remove('open'); });
+  }
+
   /* ---------- FAQ ACCORDION ---------- */
   var faqList = document.getElementById('faqList');
   if(faqList){
