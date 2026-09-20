@@ -197,9 +197,10 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:700;letter-spacing:.01em
 .hero .eyebrow{display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:22px;}
 .hero .eyebrow::before{content:"";width:34px;height:1px;background:var(--crimson-bright);}
 h1.title{
-  font-size:clamp(3rem, 8.6vw, 6.2rem);
-  line-height:.95;letter-spacing:.01em;
+  font-size:clamp(2.6rem, 7.6vw, 5.6rem);
+  line-height:1.02;letter-spacing:0;
   text-transform:uppercase;
+  white-space:nowrap;
   background:linear-gradient(180deg, var(--bone) 20%, var(--crimson-glow) 75%, var(--crimson-deep) 135%);
   -webkit-background-clip:text;background-clip:text;color:transparent;
   text-shadow:0 0 70px rgba(196,30,42,.3);
@@ -534,7 +535,7 @@ body.loaded main{animation:pageIn .5s ease both;}
 
   /* Hero: shorter, tighter, and clear of the fixed header */
   .hero{min-height:auto;padding:96px 0 0;}
-  h1.title{font-size:clamp(2.6rem,13vw,4rem);}
+  h1.title{font-size:clamp(2.1rem,11.5vw,3.6rem);}
   .hero .lede{font-size:1.05rem;max-width:100%;}
   .hero .cta-row{margin-top:26px;gap:12px;}
   .hero .cta-row .btn{flex:1 1 100%;justify-content:center;}
