@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EC Warlords — The Dispatch</title>
+<meta name="description" content="News, battle reports, and updates from the Eastern Cape Warlords wargaming club — straight from the clubhouse.">
+<link rel="icon" href="assets/logo.jpg">
+<link rel="stylesheet" href="style.css">
+<style>
+  /* ============ DISPATCH FEED ============ */
+  .news-feed{position:relative;margin-top:10px;padding-left:34px;border-left:1px solid var(--iron);}
+  .news-item{position:relative;padding-bottom:52px;}
+  .news-item:last-child{padding-bottom:0;}
+  .news-item::before{
+    content:"";position:absolute;left:-40px;top:6px;width:10px;height:10px;border-radius:50%;
+    background:var(--crimson-bright);box-shadow:0 0 0 4px var(--void), 0 0 12px rgba(196,30,42,.75);
+  }
+  .news-date{font-family:var(--font-display);color:var(--gold-bright,var(--bone));color:var(--bone);
+    font-size:.78rem;letter-spacing:.12em;font-weight:700;text-transform:uppercase;margin-bottom:10px;display:block;}
+  .news-card{border:1px solid var(--iron);background:var(--panel);overflow:hidden;transition:border-color .2s ease;}
+  .news-card:hover{border-color:var(--crimson-bright);}
+  .news-card-inner{display:grid;grid-template-columns:220px 1fr;}
+  .news-card.no-media .news-card-inner{grid-template-columns:1fr;}
+  .news-media{position:relative;background:var(--void-2);min-height:180px;}
+  .news-media img{width:100%;height:100%;object-fit:cover;display:block;}
+  .news-media.icon-media{display:flex;align-items:center;justify-content:center;
+    background:radial-gradient(circle at 50% 40%, rgba(196,30,42,.16), #0d0707 70%);}
+  .news-media.icon-media svg{width:44%;height:44%;color:var(--crimson-glow);opacity:.9;}
+  .news-body{padding:26px 28px;}
+  .news-tag{font-size:.7rem;letter-spacing:.12em;color:var(--crimson-glow);font-weight:700;text-transform:uppercase;}
+  .news-body h3{font-size:1.3rem;margin:8px 0 12px;}
+  .news-body p{color:var(--bone-dim);font-size:.95rem;margin-bottom:10px;white-space:pre-line;}
+  .news-body p:last-of-type{margin-bottom:0;}
+  .news-credit{margin-top:14px;font-size:.82rem;color:var(--bone);font-weight:700;}
+  .news-chips{margin-top:16px;display:flex;flex-wrap:wrap;gap:8px;}
+  .news-chip{border:1px solid var(--iron);color:var(--bone-dim);font-size:.72rem;padding:4px 10px;letter-spacing:.03em;}
+  @media (max-width:700px){
+    .news-card-inner{grid-template-columns:1fr;}
+    .news-media{min-height:160px;}
+    .news-feed{padding-left:26px;}
+    .news-item::before{left:-31px;}
+  }
+
+  .source-note{border:1px solid var(--iron);background:var(--void-2);padding:22px 24px;margin-top:56px;
+    display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;}
+  .source-note p{color:var(--bone-dim);font-size:.9rem;max-width:520px;}
+  .source-note a.btn{white-space:nowrap;}
+</style>
+</head>
+<body data-page="news">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<defs>
+  <symbol id="ico-marine" viewBox="0 0 100 100"><path fill="currentColor" d="M50 8c14 0 22 10 22 22 0 8-3 13-7 17 3 1 5 3 5 6v6H30v-6c0-3 2-5 5-6-4-4-7-9-7-17C28 18 36 8 50 8zM24 60h52l6 34H18z"/><rect x="40" y="30" width="20" height="8" fill="#0a0707"/></symbol>
+  <symbol id="ico-chaos" viewBox="0 0 100 100"><path fill="currentColor" d="M50 4l6 20 20-8-8 20 20 6-20 6 8 20-20-8-6 20-6-20-20 8 8-20-20-6 20-6-8-20 20 8z"/></symbol>
+  <symbol id="ico-tank" viewBox="0 0 100 100">
+    <rect x="10" y="55" width="80" height="10" rx="2" fill="currentColor"/>
+    <path fill="currentColor" d="M20 55V38c0-4 3-7 7-7h30l16 12h10c4 0 7 3 7 7v5z"/>
+    <rect x="46" y="20" width="34" height="7" fill="currentColor"/>
+    <circle cx="26" cy="70" r="8" fill="currentColor"/><circle cx="50" cy="70" r="8" fill="currentColor"/><circle cx="74" cy="70" r="8" fill="currentColor"/>
+  </symbol>
+  <symbol id="ico-dice" viewBox="0 0 100 100">
+    <rect x="14" y="14" width="72" height="72" rx="10" fill="currentColor"/>
+    <circle cx="32" cy="32" r="6" fill="#0a0707"/>
+    <circle cx="68" cy="32" r="6" fill="#0a0707"/>
+    <circle cx="50" cy="50" r="6" fill="#0a0707"/>
+    <circle cx="32" cy="68" r="6" fill="#0a0707"/>
+    <circle cx="68" cy="68" r="6" fill="#0a0707"/>
+  </symbol>
+  <symbol id="ico-trophy" viewBox="0 0 100 100">
+    <path fill="currentColor" d="M30 12h40v6h10a4 4 0 014 4c0 14-10 24-20 26-3 8-10 14-19 15v9h14v6H31v-6h14v-9c-9-1-16-7-19-15C16 46 6 36 6 22a4 4 0 014-4h10zM20 24h-6c0 6 4 12 9 15-2-5-3-10-3-15zm60 0h-6c0 5-1 10-3 15 5-3 9-9 9-15z"/>
+  </symbol>
+  <symbol id="ico-sword" viewBox="0 0 100 100"><path fill="currentColor" d="M60 10l8 8-6 6 20 20-8 8-20-20-6 6-8-8zM40 46l14 14-30 30c-3 3-8 3-11 0-3-3-3-8 0-11z"/></symbol>
+  <symbol id="ico-flame" viewBox="0 0 100 100"><path fill="currentColor" d="M50 6c4 14-4 20-10 28-8 10-10 18-10 26 0 18 14 32 20 32s20-14 20-32c0-6-2-10-6-14 2 8-2 14-8 14s-10-6-8-14c-4 4-6 8-6 14 0-16 14-24 8-40 6 6 10 14 10 22 6-8 8-18-10-36z"/></symbol>
+  <symbol id="ico-discord" viewBox="0 0 100 100"><path fill="currentColor" d="M30 22c14-6 26-6 40 0 6 10 10 22 11 36-9 8-19 12-29 13l-3-7c5-1 9-3 13-5-1-1-2-1-3-2-16 7-32 7-48 0-1 1-2 1-3 2 4 2 8 4 13 5l-3 7c-10-1-20-5-29-13 1-14 5-26 11-36zM38 46c-3 0-6 3-6 7s3 7 6 7 6-3 6-7-3-7-6-7zm24 0c-3 0-6 3-6 7s3 7 6 7 6-3 6-7-3-7-6-7z"/></symbol>
+</defs>
+</svg>
+
+<nav class="topnav">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <img src="assets/logo.jpg" alt="Eastern Cape Warlords crest">
+      <span>EC WARLORDS<span class="b-sub">WARHAMMER 40,000 CLUB</span></span>
+    </a>
+    <ul class="navlinks" id="navlinks">
+      <li><a href="index.html" data-page="home">Home</a></li>
+      <li><a href="about.html" data-page="about">About</a></li>
+      <li><a href="gallery.html" data-page="gallery">The Armory</a></li>
+      <li><a href="members.html" data-page="members">The Roster</a></li>
+      <li><a href="news.html" data-page="news">The Dispatch</a></li>
+      <li><a href="join.html" data-page="join" class="nav-cta">Join Us</a></li>
+    </ul>
+    <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+  </div>
+</nav>
+
+<main id="main">
+
+  <div class="subhero texture-void texture-stripes">
+    <div class="wrap">
+      <div class="eyebrow">THE DISPATCH</div>
+      <h1>News from<br>the front.</h1>
+      <p>Battle reports, painting showcases, and club updates — straight from our clubhouse floor. Everything below is real, pulled from our own Facebook page.</p>
+    </div>
+  </div>
+
+  <div class="section" style="padding-top:20px;">
+    <div class="wrap">
+
+      <div class="news-feed reveal">
+
+        <div class="news-item">
+          <span class="news-date">May 13, 2026</span>
+          <div class="news-card">
+            <div class="news-card-inner">
+              <div class="news-media"><img src="assets/logan-grimnar.webp" alt="Logan Grimnar painted by Steven John Ovens"></div>
+              <div class="news-body">
+                <div class="news-tag">Painting Showcase</div>
+                <h3>Grimnar takes the spotlight, again</h3>
+                <p>Steven John Ovens once again showing off his incredible painting skills with this Logan Grimnar for a painting competition! Can't wait to see the results when Leman Russ eventually returns to 40k.</p>
+                <div class="news-credit">Painted by Steven John Ovens</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">May 5, 2026</span>
+          <div class="news-card">
+            <div class="news-card-inner">
+              <div class="news-media"><img src="assets/logan-grimnar.webp" alt="Logan Grimnar close-up, painted by Steven John Ovens"></div>
+              <div class="news-body">
+                <div class="news-tag">The Bat Cave Palette Battle 2026</div>
+                <h3>The High King, in his own words</h3>
+                <p>"The High King does not just kill, he commands discipline. His axe, frozen solid… a daemon bound within, its fury locked beneath the ice. Silent. Controlled. Unstoppable. By Fang and Frost."</p>
+                <div class="news-credit">Steven John Ovens</div>
+                <div class="news-chips">
+                  <span class="news-chip">#SpaceWolves</span>
+                  <span class="news-chip">#LoganGrimnar</span>
+                  <span class="news-chip">#Fenris</span>
+                  <span class="news-chip">#MiniaturePainting</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">May 12, 2026</span>
+          <div class="news-card">
+            <div class="news-card-inner">
+              <div class="news-media"><img src="assets/belakor.webp" alt="Be'lakor painted by Devin Du Plessis"></div>
+              <div class="news-body">
+                <div class="news-tag">Painting Showcase</div>
+                <h3>Be'lakor emerges from the shadows</h3>
+                <p>Be'lakor, known as the Dark Master, was the first Daemon Prince ever created by the four Chaos Gods — Khorne, Tzeentch, Nurgle, and Slaanesh — who elevated him to immense power as their ultimate champion, but his ambition and desire for independence caused the gods to fear him, leading them to curse him so he could never openly rule and would instead be forced to manipulate events from the shadows.</p>
+                <div class="news-credit">Painted by Devin Du Plessis</div>
+                <div class="news-chips">
+                  <span class="news-chip">#GoldenDemon</span>
+                  <span class="news-chip">#AgeOfSigmar</span>
+                  <span class="news-chip">#DisplayPainting</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">May 1, 2026</span>
+          <div class="news-card">
+            <div class="news-card-inner">
+              <div class="news-media icon-media"><svg><use href="#ico-tank"/></svg></div>
+              <div class="news-body">
+                <div class="news-tag">Club Night · 8 Photos</div>
+                <h3>Prepping for Mayhammer</h3>
+                <p>Some prep being done for Mayhammer in Cape Town and Blood Bowl games being played to get a feel for different teams for Season 2.</p>
+                <p><strong>40k:</strong> Death Guard vs Chaos Knights · Space Wolves vs Dark Angels · Necrons vs Drukhari
+<strong>Blood Bowl:</strong> Orcs vs Khorne · Vampires vs Dark Elves</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">April 27, 2026</span>
+          <div class="news-card">
+            <div class="news-card-inner">
+              <div class="news-media icon-media"><svg><use href="#ico-trophy"/></svg></div>
+              <div class="news-body">
+                <div class="news-tag">Blood Bowl · 7s Tournament</div>
+                <h3>First sevens tournament a smash hit</h3>
+                <p>This weekend the club hosted the first sevens tournament. The tournament allowed for members to try out new teams and other players to try out Blood Bowl and see if they want to join for Season 2. And of course, the braai afterwards. Teams in the mix: Elves, Orcs, Khemri, Chorves, Humans, Halflings, Necromantic, Rats, Chaos.</p>
+                <p><strong>Top 3:</strong> Tied 1st – Brett &amp; Matt (Humans, Orcs) · 3rd – Jannie (Elves) · 4th – Steven John Ovens (Chaos Dwarves)</p>
+                <p>Next up: Season 2 of Blood Bowl using the new 3rd edition rules.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">April 26, 2026</span>
+          <div class="news-card no-media">
+            <div class="news-card-inner">
+              <div class="news-body">
+                <div class="news-tag">Shared from The Gaming Guild</div>
+                <h3>Sunday gaming, done</h3>
+                <p>"The Sundays gaming done!!" — a shared post from our friends at The Gaming Guild, out on a Sunday session of their own.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">March 22, 2026</span>
+          <div class="news-card">
+            <div class="news-card-inner">
+              <div class="news-media icon-media"><svg><use href="#ico-trophy"/></svg></div>
+              <div class="news-body">
+                <div class="news-tag">Blood Bowl League · Season 1 Finals</div>
+                <h3>Season one champions: the Fossil Fuels</h3>
+                <p>With the conclusion of the inaugural Blood Bowl league, the winner has been crowned. The Fossil Fuels put on a dominant performance to cruise their way to the top.</p>
+                <p><strong>Final standings:</strong> 1st – Fossil Fuels (Matt) · 2nd – The Lawyers of Hell (Daniel) · 3rd – Night Furies (Brett)</p>
+                <p>The first club league was a fun and successful event for everyone involved. The Fossil Fuels have extended Matt's contract to see if he can win back-to-back championships, while some teams parted ways with their coaches over "irreconcilable differences." Steven, head coach of the Polar Pain Train, is already bracing his team for a chorfing next season.</p>
+                <p>A 7s tournament will let coaches test out possible new jobs before Season 2 placements are decided — and with the Blood Bowl season winding down, focus is shifting back to 40k ahead of May, with a noticeable rise in Drukhari on the tables.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">February 11, 2026</span>
+          <div class="news-card">
+            <div class="news-card-inner">
+              <div class="news-media icon-media"><svg><use href="#ico-dice"/></svg></div>
+              <div class="news-body">
+                <div class="news-tag">Blood Bowl League · Mid-Season</div>
+                <h3>Back to regular schedule posting</h3>
+                <p>The club has seen a massive interest in Blood Bowl over the last few months, with veteran players returning and new players joining the freshly formed league. So far there have been a few thrashings — whether from skill or simply the betrayal of dice, we may never know.</p>
+                <p>The Rats have raw speed keeping them atop the log ahead of the playoffs. The Amazons, led by Contessa, are showing new players what experience can do. The Undead keep shambling toward the top game after game, while the Lizardmen have taken some skinnings but pulled off skilful wins to sit comfortably in playoff position. The Vampires are cruising in with a few unlucky rolls along the way, and the Norse are having a great debut season — if they can hold onto a playoff spot. Both Orc teams turned this into a boxing match, hunting for the krump at every blitz, and the Chaos Dwarves had a rough season but did enough damage to look forward to a triumphant Season 2.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">January 17, 2026</span>
+          <div class="news-card">
+            <div class="news-card-inner">
+              <div class="news-media icon-media"><svg><use href="#ico-dice"/></svg></div>
+              <div class="news-body">
+                <div class="news-tag">Club Night · 14 Photos</div>
+                <h3>Club night vs. dice night</h3>
+                <p>Wednesday club night with many players out for wargames due to DnD taking place — but nevertheless, the games continued, with some Blood Bowl and 40k learning games on the go.</p>
+                <p><strong>Blood Bowl:</strong> Skaven vs Gnomes
+<strong>40k:</strong> Dark Angels vs Ultramarines · Space Wolves vs Custodes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">January 6, 2026</span>
+          <div class="news-card">
+            <div class="news-card-inner">
+              <div class="news-media icon-media"><svg><use href="#ico-sword"/></svg></div>
+              <div class="news-body">
+                <div class="news-tag">40k · 3v3 Experiment</div>
+                <h3>Another attempt at 3v3 40k</h3>
+                <p>This time two new players captained the teams so experience levels stayed even. By pairing each new player with two veterans, everyone got through all phases of a higher-level game at a greater points value than usual.</p>
+                <p><strong>Chaos Knights, Chaos Space Marines &amp; Custodes</strong> vs <strong>Drukhari, Space Marines &amp; Tyranids</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">December 30, 2025</span>
+          <div class="news-card">
+            <div class="news-card-inner">
+              <div class="news-media icon-media"><svg><use href="#ico-flame"/></svg></div>
+              <div class="news-body">
+                <div class="news-tag">End-of-Year Special</div>
+                <h3>Closing out the year with a mixed 3v3</h3>
+                <p>A fun game format for the end-of-year break: 3v3 mixed armies and teams, with a random spin to assign both teams and armies — handing most players something unfamiliar to even out the skill level. 600pts per list, 1800pts total per side.</p>
+                <p>This format is being trialled ahead of a bigger tournament pairing new and experienced players together, so newer members can be guided through a larger game and learn from their partners.</p>
+                <p><strong>Chaos Daemons, Chaos Knights &amp; Space Marines</strong> vs <strong>Death Guard, Necrons &amp; Tyranids</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="source-note reveal">
+        <p>This page is a running log pulled from our own club Facebook page — real posts, real games, real questionable dice luck. Follow along there for updates between site refreshes.</p>
+        <a href="https://www.facebook.com/profile.php?id=61572983876990" target="_blank" rel="noopener" class="btn btn-ghost">Visit our Facebook</a>
+      </div>
+
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/logo.jpg" alt="Eastern Cape Warlords crest">
+        EC WARLORDS
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">The Armory</a>
+        <a href="members.html">The Roster</a>
+        <a href="news.html">The Dispatch</a>
+        <a href="join.html">Join Us</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Eastern Cape Warlords Wargaming Club. Warhammer 40,000 is a trademark of Games Workshop Ltd. Not affiliated with or endorsed by Games Workshop.</span>
+      <span>Eastern Cape · Thursdays, 7–10 PM</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

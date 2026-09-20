@@ -328,16 +328,17 @@ h1.title{
 }
 .lightbox.open{display:flex;}
 .lb-panel{
-  max-width:680px;width:100%;background:var(--panel);border:1px solid var(--crimson-bright);position:relative;
+  max-width:820px;width:100%;background:var(--panel);border:1px solid var(--crimson-bright);position:relative;
   display:grid;grid-template-columns:1fr 1fr;
+  max-height:85vh;
 }
 .lb-panel .art{aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;background:var(--void-2);}
 .lb-panel .art svg{width:70%;height:70%;}
-.lb-info{padding:30px;}
-.lb-info .faction{font-size:.72rem;letter-spacing:.12em;color:var(--crimson-glow);font-weight:700;}
-.lb-info h3{font-size:1.5rem;margin:10px 0 12px;}
-.lb-info p{color:var(--bone-dim);font-size:.94rem;margin-bottom:14px;}
-.lb-info .painter-tag{font-size:.85rem;color:var(--bone);font-weight:700;}
+.lb-info{padding:36px;max-height:85vh;overflow-y:auto;}
+.lb-info .faction{font-size:.74rem;letter-spacing:.12em;color:var(--crimson-glow);font-weight:700;}
+.lb-info h3{font-size:1.7rem;margin:12px 0 14px;}
+.lb-info p{color:var(--bone-dim);font-size:.96rem;line-height:1.55;margin-bottom:14px;}
+.lb-info .painter-tag{font-size:.88rem;color:var(--bone);font-weight:700;}
 .lb-close{
   position:absolute;top:12px;right:12px;background:none;border:1px solid var(--iron);color:var(--bone);
   width:34px;height:34px;font-size:1.1rem;line-height:1;z-index:2;
