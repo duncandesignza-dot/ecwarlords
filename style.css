@@ -119,12 +119,17 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:700;letter-spacing:.01em
   .brand .b-sub{font-size:.52rem;letter-spacing:.14em;}
   .navlinks{
     position:fixed;
-    top:calc(66px + env(safe-area-inset-top,0px));
-    left:0;right:0;bottom:0;background:#0c0505;flex-direction:column;
-    padding:16px 22px calc(28px + env(safe-area-inset-bottom,0px));
+    top:var(--nav-h, 66px);
+    left:0;right:0;
+    height:calc(100vh - var(--nav-h, 66px));
+    height:calc(100dvh - var(--nav-h, 66px));
+    background:#0c0505;flex-direction:column;
+    padding:16px 22px calc(40px + env(safe-area-inset-bottom,0px));
     transform:translateX(100%);
     transition:transform .3s ease, visibility .3s;
-    overflow-y:auto;gap:0;
+    overflow-y:auto;
+    -webkit-overflow-scrolling:touch;
+    gap:0;
     visibility:hidden;
     z-index:950;
   }
@@ -301,6 +306,14 @@ h1.title{
   display:flex;align-items:center;justify-content:center;
 }
 .gcard .art svg{width:64%;height:64%;filter:drop-shadow(0 8px 18px rgba(0,0,0,.6));}
+.gcard .art.has-photo{background:var(--void-2);}
+.gcard .art.has-photo img{
+  width:100%;height:100%;object-fit:cover;display:block;
+  transition:transform .5s cubic-bezier(.2,.7,.3,1);
+}
+.gcard:hover .art.has-photo img{transform:scale(1.06);}
+.gcard .art.has-photo::before{opacity:.35;}
+.lb-panel .art.has-photo img{width:100%;height:100%;object-fit:cover;}
 .gcard .art::before{content:"";position:absolute;inset:0;background:
   repeating-linear-gradient(115deg, rgba(255,255,255,.03) 0 2px, transparent 2px 6px);}
 .gcard .meta{padding:16px 18px;border-top:1px solid var(--iron);}

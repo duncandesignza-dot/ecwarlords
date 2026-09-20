@@ -13,6 +13,19 @@
   /* ---------- MOBILE NAV ---------- */
   var burgerBtn = document.getElementById('burgerBtn');
   var navlinks = document.getElementById('navlinks');
+  var topnav = document.querySelector('.topnav');
+
+  // The menu panel is sized from the real header height rather than a
+  // hardcoded value, so it never overlaps or leaves a gap on any device.
+  function setNavHeight(){
+    if(!topnav) return;
+    document.documentElement.style.setProperty('--nav-h', topnav.offsetHeight + 'px');
+  }
+  setNavHeight();
+  window.addEventListener('resize', setNavHeight);
+  window.addEventListener('orientationchange', function(){ setTimeout(setNavHeight, 150); });
+  window.addEventListener('load', setNavHeight);
+
   if(burgerBtn && navlinks){
     burgerBtn.addEventListener('click', function(){
       var open = navlinks.classList.toggle('open');
@@ -50,7 +63,7 @@
 
   /* ---------- GALLERY DATA (used on gallery.html) ---------- */
   var ARMY_DATA = [
-    {faction:'marines', label:'SPACE MARINES', title:'Iron Heralds 2nd Company', painter:'Marika "Ironbrow" Voss', icon:'ico-marine', color:'#c41e2a', desc:'A full 2000-point company painted over eight months, with hand-freehanded ember trim on every shoulder pad. Club spring league champion.'},
+    {faction:'marines', label:'SPACE WOLVES', title:'Logan Grimnar, Great Wolf', painter:'Steven John Ovens', img:'assets/logan-grimnar.webp', color:'#c41e2a', desc:'Steven\'s competition entry — Logan Grimnar flanked by Fenrisian wolves, with freehand frost effects on the axe, layered fur work, and a fully sculpted rocky base. Painted ahead of Leman Russ\'s long-awaited return to 40k.'},
     {faction:'guard', label:'ASTRA MILITARUM', title:'147th Kasrite Rifles', painter:'Cole Ferreira', icon:'ico-tank', color:'#8a6a3a', desc:'A tank-heavy Militarum force built around three Leman Russ variants, weathered with a sponge-chipping technique Cole teaches at clinic nights.'},
     {faction:'orks', label:'ORKS', title:'Da Scrapjaw Boyz', painter:'Jonah Pratt', icon:'ico-ork', color:'#5a6b2e', desc:'Built almost entirely from converted bits and kitbashes traded across the club table. Loud green, louder attitude.'},
     {faction:'necrons', label:'NECRONS', title:'Ashkatep Dynasty', painter:'Ines Calder', icon:'ico-necron', color:'#8a7a4a', desc:'A slow-and-steady project — three years in the making — with a signature verdigris wash technique on every warrior.'},
@@ -71,10 +84,13 @@
       card.className = 'gcard show';
       card.dataset.faction = item.faction;
       card.dataset.idx = idx;
+      var artInner = item.img
+        ? '<div class="art has-photo"><img src="'+item.img+'" alt="'+item.title+' painted by '+item.painter+'" loading="lazy"></div>'
+        : '<div class="art" style="background:radial-gradient(circle at 50% 40%, '+item.color+'33, #0d0707 70%)">'+
+            '<svg style="color:'+item.color+'"><use href="#'+item.icon+'"/></svg>'+
+          '</div>';
       card.innerHTML =
-        '<div class="art" style="background:radial-gradient(circle at 50% 40%, '+item.color+'33, #0d0707 70%)">'+
-          '<svg style="color:'+item.color+'"><use href="#'+item.icon+'"/></svg>'+
-        '</div>'+
+        artInner +
         '<div class="meta">'+
           '<div class="faction">'+item.label+'</div>'+
           '<h4>'+item.title+'</h4>'+
@@ -103,7 +119,14 @@
         var card = e.target.closest('.gcard');
         if(!card) return;
         var item = ARMY_DATA[+card.dataset.idx];
-        document.getElementById('lbArt').innerHTML = '<svg viewBox="0 0 100 100" style="color:'+item.color+'"><use href="#'+item.icon+'"/></svg>';
+        var lbArt = document.getElementById('lbArt');
+        if(item.img){
+          lbArt.className = 'art has-photo';
+          lbArt.innerHTML = '<img src="'+item.img+'" alt="'+item.title+' painted by '+item.painter+'">';
+        } else {
+          lbArt.className = 'art';
+          lbArt.innerHTML = '<svg viewBox="0 0 100 100" style="color:'+item.color+'"><use href="#'+item.icon+'"/></svg>';
+        }
         document.getElementById('lbFaction').textContent = item.label;
         document.getElementById('lbTitle').textContent = item.title;
         document.getElementById('lbDesc').textContent = item.desc;
