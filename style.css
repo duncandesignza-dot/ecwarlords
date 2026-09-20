@@ -69,7 +69,14 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:700;letter-spacing:.01em
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
   background-color: var(--void);
 }
-.texture-stripes{
+/* Stripes are drawn as an overlay layer so they never replace the
+   banner image declared by .texture-void on the same element. */
+.texture-stripes{position:relative;}
+.texture-stripes::after{
+  content:"";
+  position:absolute;inset:0;
+  pointer-events:none;
+  z-index:1;
   background-image:repeating-linear-gradient(115deg, rgba(255,255,255,.025) 0 2px, transparent 2px 16px);
 }
 
@@ -106,12 +113,32 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:700;letter-spacing:.01em
 .burger span::after{top:7px;}
 
 @media (max-width:880px){
-  .navlinks{position:fixed;top:98px;left:0;right:0;bottom:0;background:#0c0505;flex-direction:column;
-    padding:20px 28px;transform:translateX(100%);transition:transform .3s ease;overflow-y:auto;}
+  .topnav{padding:10px 0;}
+  .brand{gap:10px;font-size:.95rem;}
+  .brand img{width:46px;height:46px;}
+  .brand .b-sub{font-size:.52rem;letter-spacing:.14em;}
+  .navlinks{
+    position:fixed;
+    top:calc(66px + env(safe-area-inset-top,0px));
+    left:0;right:0;bottom:0;background:#0c0505;flex-direction:column;
+    padding:16px 22px calc(28px + env(safe-area-inset-bottom,0px));
+    transform:translateX(100%);transition:transform .3s ease;overflow-y:auto;gap:0;
+  }
   .navlinks.open{transform:translateX(0);}
   .navlinks a{padding:16px 4px;font-size:1.05rem;border-bottom:1px solid var(--iron-2);}
   .burger{display:block;}
-  .nav-cta{display:none;}
+  /* Keep Join Us reachable on mobile: show it as a full-width button
+     at the bottom of the open menu rather than hiding it. */
+  .nav-cta{
+    display:block;margin-top:20px;text-align:center;
+    padding:15px 18px!important;font-size:.95rem!important;
+    border:1px solid var(--crimson-bright);background:var(--crimson);
+    color:#f7e6e0!important;border-bottom:1px solid var(--crimson-bright)!important;
+  }
+}
+@media (max-width:420px){
+  .brand .b-sub{display:none;}
+  .brand img{width:42px;height:42px;}
 }
 
 /* ============ EMBERS ============ */
@@ -402,6 +429,7 @@ footer{border-top:1px solid var(--iron);padding:50px 0 34px;background:var(--voi
 .subhero{
   position:relative;padding:162px 0 60px;overflow:hidden;
 }
+.subhero .wrap{position:relative;z-index:2;}
 .subhero h1{font-size:clamp(2.4rem,6vw,4rem);text-transform:uppercase;}
 .subhero p{color:var(--bone-dim);max-width:560px;margin-top:16px;font-size:1.05rem;}
 
@@ -461,3 +489,66 @@ footer{border-top:1px solid var(--iron);padding:50px 0 34px;background:var(--voi
 
 body.loaded main{animation:pageIn .5s ease both;}
 @keyframes pageIn{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
+
+/* ============================================================
+   MOBILE REFINEMENTS
+   ============================================================ */
+@media (max-width:880px){
+  body{font-size:16px;}
+  .wrap{padding:0 20px;}
+
+  /* Hero: shorter, tighter, and clear of the fixed header */
+  .hero{min-height:auto;padding:104px 0 48px;}
+  h1.title{font-size:clamp(2.6rem,13vw,4rem);}
+  .hero .lede{font-size:1.05rem;max-width:100%;}
+  .hero .cta-row{margin-top:28px;gap:12px;}
+  .hero .cta-row .btn{flex:1 1 100%;justify-content:center;}
+
+  /* Stat plaque reads better as a 2-up grid than a squeezed row */
+  .plaque{margin-top:40px;padding:16px 0;}
+  .plaque .wrap{display:grid;grid-template-columns:1fr 1fr;gap:18px 20px;}
+  .plaque-item b{font-size:1.3rem;}
+
+  .subhero{padding:120px 0 44px;}
+  .section{padding:60px 0;}
+  .section-head{margin-bottom:34px;}
+
+  .about-lead,.join-grid{gap:38px;}
+  .spotlight-feature .info{padding:28px 24px;}
+  .spotlight-feature .info h3{font-size:1.6rem;}
+  .spotlight-feature .portrait{padding:24px 24px 34px;}
+
+  .timeline{padding-left:24px;}
+  .tl-item::before{left:-29px;}
+
+  .teaser{padding:26px 22px;}
+  .pillar{padding:26px 22px;}
+
+  /* Footer stacks instead of straining to sit on one line */
+  .footer-top{flex-direction:column;gap:22px;}
+  .footer-links{gap:16px 22px;}
+  .footer-bottom{flex-direction:column;gap:12px;}
+
+  .lb-info{padding:24px;}
+  .photo-lightbox{padding:20px;}
+}
+
+@media (max-width:560px){
+  .wrap{padding:0 16px;}
+  .photo-grid{gap:10px;}
+  .ticker span{font-size:.76rem;}
+  .filter-row{gap:8px;}
+  .filter-btn{padding:8px 13px;font-size:.78rem;}
+  .schedule-table th,.schedule-table td{padding:10px 6px;font-size:.86rem;}
+  .faq-q{font-size:.96rem;}
+}
+
+/* Touch devices don't hover: reveal photo captions by default so the
+   labels aren't unreachable, and drop transform-based hover effects. */
+@media (hover:none){
+  .photo-card .cap{opacity:1;transform:none;}
+  .photo-card img{filter:none;}
+  .photo-card:hover img{transform:none;}
+  .btn:hover{transform:none;}
+  .gcard:hover{transform:none;}
+}
