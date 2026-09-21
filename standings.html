@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EC Warlords — League Standings</title>
+<meta name="description" content="Current Blood Bowl and Warhammer 40,000 league standings for the Eastern Cape Warlords, plus past champions and season archive.">
+<link rel="icon" href="assets/logo.webp">
+<link rel="stylesheet" href="style.css?v=202609211428">
+<style>
+  /* ============ STANDINGS ============ */
+  .lg-tabs{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:30px;}
+  .lg-tab{
+    border:1px solid var(--iron);background:var(--panel);color:var(--bone-dim);
+    padding:10px 20px;font-weight:700;font-size:.82rem;letter-spacing:.06em;
+    text-transform:uppercase;cursor:pointer;font-family:var(--font-body);
+    transition:border-color .2s var(--ease), color .2s var(--ease), background .2s var(--ease);
+  }
+  .lg-tab:hover{color:var(--bone);border-color:var(--crimson-bright);}
+  .lg-tab.active{background:var(--crimson);border-color:var(--crimson-bright);color:#f7e9e4;}
+
+  .lg-panel{display:none;}
+  .lg-panel.active{display:block;}
+
+  .lg-meta{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px;}
+  .lg-meta span{border:1px solid var(--iron);color:var(--bone-dim);font-size:.72rem;padding:5px 11px;letter-spacing:.04em;}
+
+  .lg-table-wrap{overflow-x:auto;border:1px solid var(--iron);background:var(--panel);}
+  .lg-table{width:100%;border-collapse:collapse;min-width:620px;}
+  .lg-table th,.lg-table td{text-align:left;padding:13px 14px;border-bottom:1px solid var(--iron);font-size:.92rem;}
+  .lg-table thead th{
+    color:var(--crimson-glow);font-weight:700;font-size:.72rem;letter-spacing:.1em;
+    text-transform:uppercase;background:var(--void-2);white-space:nowrap;
+  }
+  .lg-table tbody tr:last-child td{border-bottom:none;}
+  .lg-table tbody tr{transition:background .18s var(--ease);}
+  .lg-table tbody tr:hover{background:#231010;}
+  .lg-table td{color:var(--bone-dim);}
+  .lg-table td.lg-pos{font-family:var(--font-display);color:var(--bone);width:52px;}
+  .lg-table td.lg-name{color:var(--bone);font-weight:600;}
+  .lg-table td.lg-pts{color:var(--crimson-glow);font-weight:700;}
+  .lg-table .lg-faction{display:block;font-size:.76rem;color:var(--bone-dim);font-weight:400;margin-top:3px;}
+  .lg-table tr.lg-top td.lg-pos{color:var(--crimson-glow);}
+  .lg-table tr.lg-top{background:rgba(196,30,42,.06);}
+
+  .lg-sub{font-family:var(--font-display);font-size:1.4rem;margin:52px 0 16px;}
+
+  .champ-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+  @media (max-width:860px){.champ-grid{grid-template-columns:1fr 1fr;}}
+  @media (max-width:560px){.champ-grid{grid-template-columns:1fr;}}
+  .champ{border:1px solid var(--iron);background:var(--panel);padding:24px 22px;position:relative;
+    transition:border-color .25s var(--ease), transform .25s var(--ease);}
+  .champ:hover{border-color:var(--crimson-bright);transform:translateY(-3px);}
+  .champ svg{width:30px;height:30px;color:var(--crimson-glow);margin-bottom:12px;}
+  .champ .c-season{font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--bone-dim);font-weight:700;}
+  .champ h4{font-size:1.1rem;margin:8px 0 4px;color:var(--bone);}
+  .champ .c-faction{font-size:.84rem;color:var(--crimson-glow);font-weight:600;}
+  .champ p{color:var(--bone-dim);font-size:.86rem;margin-top:10px;line-height:1.55;}
+
+  .lg-note{border:1px solid var(--iron);background:var(--void-2);padding:22px 24px;margin-top:56px;
+    display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;}
+  .lg-note p{color:var(--bone-dim);font-size:.9rem;max-width:560px;}
+  .lg-note a.btn{white-space:nowrap;}
+
+  @media (max-width:700px){
+    .lg-table th,.lg-table td{padding:11px 10px;font-size:.86rem;}
+  }
+</style>
+</head>
+<body data-page="standings">
+
+<img class="page-flank page-flank-left" src="assets/hero-left.webp" alt="" aria-hidden="true">
+<img class="page-flank page-flank-right" src="assets/hero-right.webp" alt="" aria-hidden="true">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<defs>
+  <symbol id="ico-trophy" viewBox="0 0 100 100">
+    <path fill="currentColor" d="M30 12h40v6h10a4 4 0 014 4c0 14-10 24-20 26-3 8-10 14-19 15v9h14v6H31v-6h14v-9c-9-1-16-7-19-15C16 46 6 36 6 22a4 4 0 014-4h10zM20 24h-6c0 6 4 12 9 15-2-5-3-10-3-15zm60 0h-6c0 5-1 10-3 15 5-3 9-9 9-15z"/>
+  </symbol>
+</defs>
+</svg>
+
+<nav class="topnav">
+  <div class="wrap">
+    <a href="./" class="brand">
+      <img src="assets/logo.webp" alt="Eastern Cape Warlords crest">
+      <span>TABLETOP COMMUNITY<span class="b-sub">GQEBERHA</span></span>
+    </a>
+    <ul class="navlinks" id="navlinks">
+      <li><a href="./" data-page="home">Home</a></li>
+      <li><a href="about" data-page="about">About</a></li>
+      <li><a href="gallery" data-page="gallery">The Armory</a></li>
+      <li><a href="members" data-page="members">The Roster</a></li>
+      <li><a href="news" data-page="news">The Dispatch</a></li>
+      <li><a href="games" data-page="games">Games We Play</a></li>
+      <li><a href="tools" data-page="tools">Tools</a></li>
+      <li><a href="join" data-page="join" class="nav-cta">Join Us</a></li>
+    </ul>
+    <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+  </div>
+</nav>
+
+<main id="main">
+
+  <div class="subhero texture-void texture-stripes" style="--hero-img:url('assets/dispatch-banner.webp');">
+    <div class="wrap">
+      <div class="eyebrow">LEAGUES &amp; RESULTS</div>
+      <h1>Standings<br>and silverware.</h1>
+      <p>Where everyone actually sits — current league tables, season fixtures, and the archive of every champion the club has crowned so far.</p>
+    </div>
+  </div>
+
+  <div class="section" style="padding-top:20px;">
+    <div class="wrap">
+
+      <div class="lg-tabs reveal" role="tablist">
+        <button class="lg-tab active" role="tab" aria-selected="true" aria-controls="lg-bb" data-target="lg-bb">Blood Bowl</button>
+        <button class="lg-tab" role="tab" aria-selected="false" aria-controls="lg-40k" data-target="lg-40k">Warhammer 40,000</button>
+      </div>
+
+      <!-- ===== BLOOD BOWL ===== -->
+      <div class="lg-panel active" id="lg-bb" role="tabpanel">
+        <div class="lg-meta">
+          <span>Season 2</span>
+          <span>Round 4 of 7</span>
+          <span>10 coaches</span>
+          <span>Updated after each league night</span>
+        </div>
+
+        <div class="lg-table-wrap reveal">
+          <table class="lg-table">
+            <thead>
+              <tr>
+                <th>#</th><th>Coach</th><th>P</th><th>W</th><th>D</th><th>L</th>
+                <th>TD+</th><th>TD−</th><th>Cas</th><th>Pts</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="lg-top"><td class="lg-pos">1</td><td class="lg-name">Coach name<span class="lg-faction">Team / race</span></td><td>4</td><td>3</td><td>1</td><td>0</td><td>11</td><td>4</td><td>7</td><td class="lg-pts">10</td></tr>
+              <tr class="lg-top"><td class="lg-pos">2</td><td class="lg-name">Coach name<span class="lg-faction">Team / race</span></td><td>4</td><td>3</td><td>0</td><td>1</td><td>9</td><td>5</td><td>5</td><td class="lg-pts">9</td></tr>
+              <tr class="lg-top"><td class="lg-pos">3</td><td class="lg-name">Coach name<span class="lg-faction">Team / race</span></td><td>4</td><td>2</td><td>1</td><td>1</td><td>8</td><td>6</td><td>9</td><td class="lg-pts">7</td></tr>
+              <tr><td class="lg-pos">4</td><td class="lg-name">Coach name<span class="lg-faction">Team / race</span></td><td>4</td><td>2</td><td>0</td><td>2</td><td>7</td><td>7</td><td>4</td><td class="lg-pts">6</td></tr>
+              <tr><td class="lg-pos">5</td><td class="lg-name">Coach name<span class="lg-faction">Team / race</span></td><td>4</td><td>1</td><td>2</td><td>1</td><td>6</td><td>6</td><td>6</td><td class="lg-pts">5</td></tr>
+              <tr><td class="lg-pos">6</td><td class="lg-name">Coach name<span class="lg-faction">Team / race</span></td><td>4</td><td>1</td><td>1</td><td>2</td><td>5</td><td>8</td><td>3</td><td class="lg-pts">4</td></tr>
+              <tr><td class="lg-pos">7</td><td class="lg-name">Coach name<span class="lg-faction">Team / race</span></td><td>4</td><td>1</td><td>0</td><td>3</td><td>4</td><td>9</td><td>8</td><td class="lg-pts">3</td></tr>
+              <tr><td class="lg-pos">8</td><td class="lg-name">Coach name<span class="lg-faction">Team / race</span></td><td>4</td><td>0</td><td>1</td><td>3</td><td>3</td><td>10</td><td>2</td><td class="lg-pts">1</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3 class="lg-sub">Season 2 fixtures</h3>
+        <div class="lg-table-wrap reveal">
+          <table class="lg-table">
+            <thead>
+              <tr><th>Round</th><th>Date</th><th>Status</th><th>Notes</th></tr>
+            </thead>
+            <tbody>
+              <tr><td class="lg-name">Round 1</td><td>Jul 16</td><td>Played</td><td>All fixtures reported</td></tr>
+              <tr><td class="lg-name">Round 2</td><td>Aug 6</td><td>Played</td><td>All fixtures reported</td></tr>
+              <tr><td class="lg-name">Round 3</td><td>Aug 20</td><td>Played</td><td>All fixtures reported</td></tr>
+              <tr><td class="lg-name">Round 4</td><td>Sep 17</td><td>Played</td><td>One match rescheduled</td></tr>
+              <tr class="lg-top"><td class="lg-name">Round 5</td><td>Oct 15</td><td>Upcoming</td><td>Pairings posted on Discord</td></tr>
+              <tr><td class="lg-name">Round 6</td><td>Nov 12</td><td>Scheduled</td><td>—</td></tr>
+              <tr><td class="lg-name">Final</td><td>Dec 10</td><td>Scheduled</td><td>Top four playoff</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- ===== 40K ===== -->
+      <div class="lg-panel" id="lg-40k" role="tabpanel">
+        <div class="lg-meta">
+          <span>Crusade of Embers</span>
+          <span>Session 3 of 6</span>
+          <span>12 players</span>
+          <span>2000 pts matched play</span>
+        </div>
+
+        <div class="lg-table-wrap reveal">
+          <table class="lg-table">
+            <thead>
+              <tr>
+                <th>#</th><th>Player</th><th>P</th><th>W</th><th>D</th><th>L</th>
+                <th>VP</th><th>Terr.</th><th>Pts</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="lg-top"><td class="lg-pos">1</td><td class="lg-name">Player name<span class="lg-faction">Faction</span></td><td>3</td><td>3</td><td>0</td><td>0</td><td>241</td><td>5</td><td class="lg-pts">9</td></tr>
+              <tr class="lg-top"><td class="lg-pos">2</td><td class="lg-name">Player name<span class="lg-faction">Faction</span></td><td>3</td><td>2</td><td>1</td><td>0</td><td>228</td><td>4</td><td class="lg-pts">7</td></tr>
+              <tr class="lg-top"><td class="lg-pos">3</td><td class="lg-name">Player name<span class="lg-faction">Faction</span></td><td>3</td><td>2</td><td>0</td><td>1</td><td>215</td><td>4</td><td class="lg-pts">6</td></tr>
+              <tr><td class="lg-pos">4</td><td class="lg-name">Player name<span class="lg-faction">Faction</span></td><td>3</td><td>2</td><td>0</td><td>1</td><td>203</td><td>3</td><td class="lg-pts">6</td></tr>
+              <tr><td class="lg-pos">5</td><td class="lg-name">Player name<span class="lg-faction">Faction</span></td><td>3</td><td>1</td><td>1</td><td>1</td><td>187</td><td>3</td><td class="lg-pts">4</td></tr>
+              <tr><td class="lg-pos">6</td><td class="lg-name">Player name<span class="lg-faction">Faction</span></td><td>3</td><td>1</td><td>0</td><td>2</td><td>174</td><td>2</td><td class="lg-pts">3</td></tr>
+              <tr><td class="lg-pos">7</td><td class="lg-name">Player name<span class="lg-faction">Faction</span></td><td>3</td><td>0</td><td>1</td><td>2</td><td>152</td><td>1</td><td class="lg-pts">1</td></tr>
+              <tr><td class="lg-pos">8</td><td class="lg-name">Player name<span class="lg-faction">Faction</span></td><td>3</td><td>0</td><td>0</td><td>3</td><td>138</td><td>1</td><td class="lg-pts">0</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3 class="lg-sub">Campaign sessions</h3>
+        <div class="lg-table-wrap reveal">
+          <table class="lg-table">
+            <thead>
+              <tr><th>Session</th><th>Date</th><th>Status</th><th>Notes</th></tr>
+            </thead>
+            <tbody>
+              <tr><td class="lg-name">Session 1</td><td>Jun 11</td><td>Played</td><td>Opening land grab</td></tr>
+              <tr><td class="lg-name">Session 2</td><td>Jul 9</td><td>Played</td><td>Supply lines contested</td></tr>
+              <tr><td class="lg-name">Session 3</td><td>Aug 13</td><td>Played</td><td>First territory flips</td></tr>
+              <tr class="lg-top"><td class="lg-name">Session 4</td><td>Oct 8</td><td>Upcoming</td><td>1000 pts Crusade forces</td></tr>
+              <tr><td class="lg-name">Session 5</td><td>Nov 12</td><td>Scheduled</td><td>—</td></tr>
+              <tr><td class="lg-name">Session 6</td><td>Dec 10</td><td>Scheduled</td><td>Campaign finale</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <h3 class="lg-sub">Hall of champions</h3>
+      <div class="champ-grid reveal stagger">
+        <div class="champ">
+          <svg><use href="#ico-trophy"/></svg>
+          <div class="c-season">Blood Bowl · Season 1</div>
+          <h4>Champion name</h4>
+          <div class="c-faction">Team / race</div>
+          <p>Season summary — record, the match that decided it, and anything worth remembering.</p>
+        </div>
+        <div class="champ">
+          <svg><use href="#ico-trophy"/></svg>
+          <div class="c-season">40k · 2025 League</div>
+          <h4>Champion name</h4>
+          <div class="c-faction">Faction</div>
+          <p>Season summary — record, the match that decided it, and anything worth remembering.</p>
+        </div>
+        <div class="champ">
+          <svg><use href="#ico-trophy"/></svg>
+          <div class="c-season">40k · End-of-Year 3v3</div>
+          <h4>Winning team</h4>
+          <div class="c-faction">Mixed armies</div>
+          <p>Season summary — record, the match that decided it, and anything worth remembering.</p>
+        </div>
+      </div>
+
+      <div class="lg-note reveal">
+        <p>Tables are updated after each league night. Played a fixture that isn't showing? Report the result to an officer on Discord and it'll go in before the next round. Full match write-ups live on the Dispatch.</p>
+        <a href="news" class="btn btn-ghost">Read the Dispatch</a>
+      </div>
+
+    </div>
+  </div>
+
+</main>
+
+<div class="footer-banner"><img src="assets/footer-banner.webp" alt="" loading="lazy"></div>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/logo.webp" alt="Eastern Cape Warlords crest">
+        Eastern Cape Warlords
+      </div>
+      <div class="footer-links">
+        <a href="./">Home</a>
+        <a href="about">About</a>
+        <a href="gallery">The Armory</a>
+        <a href="members">The Roster</a>
+        <a href="news">The Dispatch</a>
+        <a href="games">Games We Play</a>
+        <a href="tools">Tools</a>
+        <a href="join">Join Us</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Eastern Cape Warlords Wargaming Club. Warhammer 40,000, Warhammer Age of Sigmar, and Blood Bowl are trademarks of Games Workshop Ltd. Kings of War is a trademark of Mantic Games. Dungeons &amp; Dragons is a trademark of Wizards of the Coast. Not affiliated with or endorsed by any of the above.</span>
+      <span>Eastern Cape · Thursdays, 7–10 PM</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js?v=202609211428"></script>
+<script>
+(function(){
+  var tabs = document.querySelectorAll('.lg-tab');
+  if(!tabs.length) return;
+  tabs.forEach(function(tab){
+    tab.addEventListener('click', function(){
+      var id = tab.getAttribute('data-target');
+      tabs.forEach(function(t){
+        var on = t === tab;
+        t.classList.toggle('active', on);
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
+      });
+      document.querySelectorAll('.lg-panel').forEach(function(p){
+        p.classList.toggle('active', p.id === id);
+      });
+      // panels start hidden, so their .reveal children may never have been
+      // observed — force them visible when their panel is switched on
+      document.getElementById(id).querySelectorAll('.reveal').forEach(function(el){
+        el.classList.add('in-view');
+      });
+    });
+  });
+})();
+</script>
+</body>
+</html>

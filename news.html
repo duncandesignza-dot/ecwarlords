@@ -46,6 +46,21 @@
     display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;}
   .source-note p{color:var(--bone-dim);font-size:.9rem;max-width:520px;}
   .source-note a.btn{white-space:nowrap;}
+
+  /* --- hub cards (events / standings) --- */
+  .hub-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-bottom:64px;}
+  @media (max-width:760px){.hub-grid{grid-template-columns:1fr;}}
+  .hub-card{text-decoration:none;}
+  .hub-card h3{color:var(--bone);}
+
+  .feed-head{font-size:clamp(1.7rem,3.4vw,2.3rem);margin-bottom:6px;}
+
+  /* --- collapsed feed --- */
+  .news-item.is-extra{display:none;}
+  .news-feed.show-all .news-item.is-extra{display:block;}
+  .news-feed:not(.show-all) .news-item:nth-child(5){padding-bottom:0;}
+  .feed-more{margin-top:8px;padding-left:34px;}
+  @media (max-width:700px){.feed-more{padding-left:26px;}}
 </style>
 </head>
 <body data-page="news">
@@ -76,6 +91,17 @@
   </symbol>
   <symbol id="ico-sword" viewBox="0 0 100 100"><path fill="currentColor" d="M60 10l8 8-6 6 20 20-8 8-20-20-6 6-8-8zM40 46l14 14-30 30c-3 3-8 3-11 0-3-3-3-8 0-11z"/></symbol>
   <symbol id="ico-flame" viewBox="0 0 100 100"><path fill="currentColor" d="M50 6c4 14-4 20-10 28-8 10-10 18-10 26 0 18 14 32 20 32s20-14 20-32c0-6-2-10-6-14 2 8-2 14-8 14s-10-6-8-14c-4 4-6 8-6 14 0-16 14-24 8-40 6 6 10 14 10 22 6-8 8-18-10-36z"/></symbol>
+  <symbol id="ico-calendar" viewBox="0 0 100 100">
+    <rect x="10" y="20" width="80" height="72" rx="6" fill="currentColor"/>
+    <rect x="18" y="40" width="64" height="44" fill="#0a0707"/>
+    <rect x="24" y="8" width="10" height="22" rx="4" fill="currentColor"/>
+    <rect x="66" y="8" width="10" height="22" rx="4" fill="currentColor"/>
+    <rect x="28" y="50" width="12" height="10" fill="currentColor"/>
+    <rect x="46" y="50" width="12" height="10" fill="currentColor"/>
+    <rect x="64" y="50" width="12" height="10" fill="currentColor"/>
+    <rect x="28" y="66" width="12" height="10" fill="currentColor"/>
+    <rect x="46" y="66" width="12" height="10" fill="currentColor"/>
+  </symbol>
   <symbol id="ico-discord" viewBox="0 0 100 100"><path fill="currentColor" d="M30 22c14-6 26-6 40 0 6 10 10 22 11 36-9 8-19 12-29 13l-3-7c5-1 9-3 13-5-1-1-2-1-3-2-16 7-32 7-48 0-1 1-2 1-3 2 4 2 8 4 13 5l-3 7c-10-1-20-5-29-13 1-14 5-26 11-36zM38 46c-3 0-6 3-6 7s3 7 6 7 6-3 6-7-3-7-6-7zm24 0c-3 0-6 3-6 7s3 7 6 7 6-3 6-7-3-7-6-7z"/></symbol>
 </defs>
 </svg>
@@ -113,7 +139,26 @@
   <div class="section" style="padding-top:20px;">
     <div class="wrap">
 
-      <div class="news-feed reveal">
+      <div class="hub-grid reveal">
+        <a class="tool-card hub-card" href="events">
+          <span class="badge live">UPCOMING</span>
+          <svg><use href="#ico-calendar"/></svg>
+          <h3>Events Calendar</h3>
+          <p>Every club night, tournament, campaign session and painting clinic — with dates, times, points limits and RSVP so you know exactly what's on before you drive out.</p>
+          <span class="t-cta">See what's coming up</span>
+        </a>
+        <a class="tool-card hub-card" href="standings">
+          <span class="badge live">RESULTS</span>
+          <svg><use href="#ico-trophy"/></svg>
+          <h3>League Standings</h3>
+          <p>Current Blood Bowl table and 40k league positions, plus the archive of past seasons and champions — all in one place instead of buried in old posts below.</p>
+          <span class="t-cta">View the tables</span>
+        </a>
+      </div>
+
+      <h2 class="feed-head">Latest from the club</h2>
+
+      <div class="news-feed reveal" id="newsFeed">
 
         <div class="news-item">
           <span class="news-date">May 5, 2026</span>
@@ -201,7 +246,7 @@
           </div>
         </div>
 
-        <div class="news-item">
+        <div class="news-item is-extra">
           <span class="news-date">March 22, 2026</span>
           <div class="news-card">
             <div class="news-card-inner">
@@ -218,7 +263,7 @@
           </div>
         </div>
 
-        <div class="news-item">
+        <div class="news-item is-extra">
           <span class="news-date">February 11, 2026</span>
           <div class="news-card">
             <div class="news-card-inner">
@@ -233,7 +278,7 @@
           </div>
         </div>
 
-        <div class="news-item">
+        <div class="news-item is-extra">
           <span class="news-date">January 17, 2026</span>
           <div class="news-card">
             <div class="news-card-inner">
@@ -249,7 +294,7 @@
           </div>
         </div>
 
-        <div class="news-item">
+        <div class="news-item is-extra">
           <span class="news-date">January 6, 2026</span>
           <div class="news-card">
             <div class="news-card-inner">
@@ -264,7 +309,7 @@
           </div>
         </div>
 
-        <div class="news-item">
+        <div class="news-item is-extra">
           <span class="news-date">December 30, 2025</span>
           <div class="news-card">
             <div class="news-card-inner">
@@ -280,6 +325,12 @@
           </div>
         </div>
 
+      </div>
+
+      <div class="feed-more reveal">
+        <button type="button" class="btn btn-ghost" id="feedMoreBtn" aria-expanded="false" aria-controls="newsFeed">
+          Show all 10 posts
+        </button>
       </div>
 
       <div class="source-note reveal">
@@ -320,5 +371,28 @@
 </footer>
 
 <script src="script.js?v=202609211428"></script>
+<script>
+(function(){
+  var feed = document.getElementById('newsFeed');
+  var btn  = document.getElementById('feedMoreBtn');
+  if(!feed || !btn) return;
+
+  var extras = feed.querySelectorAll('.news-item.is-extra').length;
+  var total  = feed.querySelectorAll('.news-item').length;
+  if(!extras){ btn.parentNode.style.display = 'none'; return; }
+
+  btn.textContent = 'Show all ' + total + ' posts';
+
+  btn.addEventListener('click', function(){
+    var open = feed.classList.toggle('show-all');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    btn.textContent = open ? 'Show fewer posts' : 'Show all ' + total + ' posts';
+    if(!open){
+      // collapsing can leave you scrolled past the feed — bring the button back into view
+      btn.scrollIntoView({block:'center', behavior:'smooth'});
+    }
+  });
+})();
+</script>
 </body>
 </html>
