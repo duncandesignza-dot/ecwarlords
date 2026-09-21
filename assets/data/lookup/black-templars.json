@@ -1,0 +1,1725 @@
+{
+ "id": "black-templars",
+ "name": "Black Templars",
+ "source": "BSData/wh40k-10e",
+ "revision": "62",
+ "enhancements": [],
+ "weapons": [
+  {
+   "id": "artificer-crozius",
+   "name": "Artificer Crozius",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "plasma-pistol-supercharge",
+   "name": "➤ Plasma Pistol - Supercharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Hazardous, Pistol"
+   }
+  },
+  {
+   "id": "plasma-pistol-standard",
+   "name": "➤ Plasma Pistol - Standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "close-combat-weapon",
+   "name": "Close Combat Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "sword-of-the-high-marshals-sweep",
+   "name": "➤ Sword of the High Marshals - Sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "12",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-3",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "sword-of-the-high-marshals-strike",
+   "name": "➤ Sword of the High Marshals - Strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "ferocity",
+   "name": "Ferocity",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Anti-infantry 4+, Devastating Wounds"
+   }
+  },
+  {
+   "id": "master-crafted-power-weapon",
+   "name": "Master-crafted Power Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "neophyte-firearm",
+   "name": "Neophyte Firearm",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "pyre-pistol",
+   "name": "Pyre Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Ignores Cover, Pistol, Torrent"
+   }
+  },
+  {
+   "id": "thunder-hammer",
+   "name": "Thunder Hammer",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "astartes-chainsword",
+   "name": "Astartes Chainsword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "twin-lightning-claws",
+   "name": "Twin Lightning Claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "black-sword-strike",
+   "name": "➤ Black Sword - Strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Anti-Character 5+, Precision"
+   }
+  },
+  {
+   "id": "black-sword-sweep",
+   "name": "➤ Black Sword - Sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "10",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "lancer-laser-destroyer",
+   "name": "Lancer Laser Destroyer",
+   "type": "ranged",
+   "stats": {
+    "Range": "72\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "14",
+    "AP": "-4",
+    "D": "D6+3",
+    "Keywords": "Heavy"
+   }
+  },
+  {
+   "id": "tempest-bolter",
+   "name": "Tempest Bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "4",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Rapid Fire 4"
+   }
+  },
+  {
+   "id": "twin-heavy-onslaught-gatling-cannon",
+   "name": "Twin Heavy Onslaught Gatling Cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "12",
+    "BS": "3+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Devastating Wounds, Twin-linked"
+   }
+  },
+  {
+   "id": "twin-las-talon",
+   "name": "Twin Las-talon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "ironhail-skytalon-array",
+   "name": "Ironhail Skytalon Array",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "8",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-Fly 4+, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "las-talon",
+   "name": "Las-talon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-3",
+    "D": "D6",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "repulsor-executioner-defensive-array",
+   "name": "Repulsor Executioner Defensive Array",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "10",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "heavy-laser-destroyer",
+   "name": "Heavy Laser Destroyer",
+   "type": "ranged",
+   "stats": {
+    "Range": "72\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "16",
+    "AP": "-4",
+    "D": "D6+4",
+    "Keywords": "Heavy"
+   }
+  },
+  {
+   "id": "astartes-chainsword-2",
+   "name": "Astartes Chainsword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "7",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "master-crafted-power-weapon-2",
+   "name": "Master-crafted Power Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "heavy-bolt-pistol",
+   "name": "Heavy Bolt Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "combi-weapon",
+   "name": "Combi-weapon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
+   }
+  },
+  {
+   "id": "master-crafted-power-weapon-3",
+   "name": "Master-crafted Power Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "7",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "master-crafted-power-weapon-4",
+   "name": "Master-crafted Power Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Extra Attacks, Lethal Hits"
+   }
+  },
+  {
+   "id": "master-crafted-power-weapon-5",
+   "name": "Master-crafted Power Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "astartes-chainsword-3",
+   "name": "Astartes Chainsword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "power-weapon",
+   "name": "Power Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "power-fist",
+   "name": "Power Fist",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "power-fist-2",
+   "name": "Power Fist",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "crusader-squad",
+   "name": "Crusader Squad",
+   "role": "Battleline",
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Grenades",
+    "Imperium",
+    "Tacticus",
+    "Crusader Squad"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 10,
+     "pts": 150
+    },
+    {
+     "count": 20,
+     "pts": 300
+    }
+   ],
+   "minModels": 10,
+   "maxModels": 20,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Sword Brother",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Initiate",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Neophyte",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "master-crafted-power-weapon",
+    "neophyte-firearm",
+    "pyre-pistol"
+   ],
+   "abilities": [
+    "Righteous Zeal",
+    "Templar Vows",
+    "Attached Unit"
+   ]
+  },
+  {
+   "id": "castellan",
+   "name": "Castellan",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Tacticus",
+    "Lieutenant",
+    "Castellan"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "astartes-chainsword",
+     "name": "Astartes chainsword",
+     "pts": 0,
+     "group": "Melee Weapon",
+     "max": null
+    },
+    {
+     "id": "master-crafted-power-weapon",
+     "name": "Master-crafted Power Weapon",
+     "pts": 0,
+     "group": "Melee Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Castellan",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "astartes-chainsword-2",
+    "master-crafted-power-weapon-2",
+    "heavy-bolt-pistol",
+    "combi-weapon"
+   ],
+   "abilities": [
+    "Leader",
+    "Templar Vows",
+    "Vehement Aggression",
+    "Prioritised Eradication"
+   ]
+  },
+  {
+   "id": "crusade-ancient",
+   "name": "Crusade Ancient",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Ancient",
+    "Tacticus",
+    "Imperium",
+    "Crusade Ancient"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 55
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "master-crafted-power-weapon",
+     "name": "Master-crafted Power Weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Crusade Ancient",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "master-crafted-power-weapon-5"
+   ],
+   "abilities": [
+    "Leader",
+    "Templar Vows",
+    "Vengeful Exhortation",
+    "Martial Honour"
+   ]
+  },
+  {
+   "id": "emperor-s-champion",
+   "name": "Emperor's Champion",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Tacticus",
+    "Emperor's Champion"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "black-sword",
+     "name": "Black Sword",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "The Emperor's Champion",
+     "stats": {
+      "M": "8\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "black-sword-strike",
+    "black-sword-sweep"
+   ],
+   "abilities": [
+    "Armour of Faith",
+    "Sigismund's Heir",
+    "Leader",
+    "Chosen of the Emperor",
+    "Invulnerable Save",
+    "Templar Vows",
+    "Lone Operative"
+   ]
+  },
+  {
+   "id": "emperor-s-champion-anointed",
+   "name": "Emperor's Champion (Anointed)",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Tacticus",
+    "Emperor's Champion"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "black-sword",
+     "name": "Black Sword",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "battles-played",
+     "name": "Battles Played",
+     "pts": 0,
+     "group": "Battle Tallies",
+     "max": null
+    },
+    {
+     "id": "battles-survived",
+     "name": "Battles Survived",
+     "pts": 0,
+     "group": "Battle Tallies",
+     "max": null
+    },
+    {
+     "id": "enemy-units-destroyed",
+     "name": "Enemy Units Destroyed",
+     "pts": 0,
+     "group": "Battle Tallies",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "The Emperor's Champion",
+     "stats": {
+      "M": "8\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "black-sword-strike",
+    "black-sword-sweep"
+   ],
+   "abilities": [
+    "Armour of Faith",
+    "Sigismund's Heir",
+    "Leader",
+    "Chosen of the Emperor",
+    "Invulnerable Save",
+    "Templar Vows",
+    "Lone Operative"
+   ]
+  },
+  {
+   "id": "execrator",
+   "name": "Execrator",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Chaplain",
+    "Grenades",
+    "Imperium",
+    "Tacticus",
+    "Execrator"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 60
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "master-crafted-power-weapon",
+     "name": "Master-crafted Power Weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Execrator",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "5+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "master-crafted-power-weapon-4",
+    "pyre-pistol"
+   ],
+   "abilities": [
+    "Leader",
+    "Remorseless Persecution",
+    "Condemnatory Annihilation",
+    "Invulnerable Save",
+    "Templar Vows"
+   ]
+  },
+  {
+   "id": "marshal",
+   "name": "Marshal",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Tacticus",
+    "Marshal",
+    "Captain"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "master-crafted-power-weapon",
+     "name": "Master-crafted Power Weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "plasma-pistol",
+     "name": "Plasma Pistol",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Marshal",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "master-crafted-power-weapon-3",
+    "plasma-pistol-standard",
+    "plasma-pistol-supercharge",
+    "combi-weapon"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Leader",
+    "Templar Vows",
+    "Inspirational Exemplar",
+    "Pious Fervour"
+   ]
+  },
+  {
+   "id": "high-marshal-helbrecht",
+   "name": "High Marshal Helbrecht",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Grenades",
+    "Imperium",
+    "Tacticus",
+    "High Marshal Helbrecht",
+    "Infantry",
+    "Chapter Master"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 120
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "High Marshal Helbrecht",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "sword-of-the-high-marshals-sweep",
+    "sword-of-the-high-marshals-strike",
+    "ferocity"
+   ],
+   "abilities": [
+    "Crusade of Wrath",
+    "High Marshal",
+    "Leader",
+    "Invulnerable Save",
+    "Templar Vows"
+   ]
+  },
+  {
+   "id": "chaplain-grimaldus",
+   "name": "Chaplain Grimaldus",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Imperium",
+    "Tacticus"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 110
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Grimaldus",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "5+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Cenobyte Servitor",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "artificer-crozius",
+    "plasma-pistol-supercharge",
+    "plasma-pistol-standard",
+    "close-combat-weapon"
+   ],
+   "abilities": [
+    "Litanies of the Devout",
+    "Temple Relics",
+    "Leader",
+    "Invulnerable Save",
+    "Feel No Pain",
+    "Templar Vows"
+   ]
+  },
+  {
+   "id": "sternguard-veteran-squad",
+   "name": "Sternguard Veteran Squad",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Tacticus",
+    "Sternguard Veteran Squad"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 5,
+     "pts": 85
+    },
+    {
+     "count": 10,
+     "pts": 170
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 10,
+   "wargear": [
+    {
+     "id": "astartes-chainsword",
+     "name": "Astartes Chainsword",
+     "pts": 0,
+     "group": "Melee Option",
+     "max": null
+    },
+    {
+     "id": "power-weapon",
+     "name": "Power Weapon",
+     "pts": 0,
+     "group": "Melee Option",
+     "max": null
+    },
+    {
+     "id": "power-fist",
+     "name": "Power Fist",
+     "pts": 0,
+     "group": "Melee Option",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Sternguard Veteran Squad",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Sternguard Veteran Sergeant",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "astartes-chainsword-3",
+    "power-weapon",
+    "power-fist"
+   ],
+   "abilities": [
+    "Vitruous Onslaught",
+    "Templar Vows"
+   ]
+  },
+  {
+   "id": "sword-brethren-squad",
+   "name": "Sword Brethren Squad",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Tacticus",
+    "Primaris Sword Brethren"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 4,
+     "pts": 105
+    },
+    {
+     "count": 10,
+     "pts": 260
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 10,
+   "wargear": [
+    {
+     "id": "thunder-hammer",
+     "name": "Thunder Hammer",
+     "pts": 0,
+     "group": "Melee Option",
+     "max": 0
+    },
+    {
+     "id": "master-crafted-power-weapon",
+     "name": "Master-crafted Power Weapon",
+     "pts": 0,
+     "group": "Melee Option",
+     "max": null
+    },
+    {
+     "id": "astartes-chainsword",
+     "name": "Astartes Chainsword",
+     "pts": 0,
+     "group": "Melee Option",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Primaris Sword Brethren",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "thunder-hammer",
+    "master-crafted-power-weapon",
+    "astartes-chainsword",
+    "twin-lightning-claws",
+    "pyre-pistol"
+   ],
+   "abilities": [
+    "Exploit Their Cowardice",
+    "Templar Vows",
+    "Attached Unit"
+   ]
+  },
+  {
+   "id": "terminator-squad",
+   "name": "Terminator Squad",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Imperium",
+    "Terminator",
+    "Terminator Squad"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 5,
+     "pts": 175
+    },
+    {
+     "count": 10,
+     "pts": 330
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 10,
+   "wargear": [
+    {
+     "id": "cyclone-missile-launcher-storm-bolter",
+     "name": "Cyclone Missile Launcher & Storm Bolter",
+     "pts": 0,
+     "group": "Ranged Weapon Option",
+     "max": null
+    },
+    {
+     "id": "power-fist",
+     "name": "Power Fist",
+     "pts": 0,
+     "group": "Melee Weapon Option",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Terminator Sergeant",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Terminator Squad",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "power-fist-2"
+   ],
+   "abilities": [
+    "Deep Strike",
+    "Invulnerable Save",
+    "Templar Vows",
+    "Teleport Homer",
+    "Judgement of the Weak"
+   ]
+  },
+  {
+   "id": "gladiator-lancer",
+   "name": "Gladiator Lancer",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Imperium",
+    "Smoke",
+    "Gladiator Lancer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 160
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "lancer-laser-destroyer",
+     "name": "Lancer Laser Destroyer",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "2-fragstorm-grenade-launchers",
+     "name": "2 Fragstorm Grenade Launchers",
+     "pts": 0,
+     "group": "Sponson Weapons",
+     "max": null
+    },
+    {
+     "id": "2-storm-bolters",
+     "name": "2 Storm Bolters",
+     "pts": 0,
+     "group": "Sponson Weapons",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Black Templars Gladiator Lancer",
+     "stats": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "lancer-laser-destroyer"
+   ],
+   "abilities": [
+    "Aquilon Optics",
+    "Damaged: 1-4 Wounds Remaining",
+    "Deadly Demise",
+    "Templar Vows"
+   ]
+  },
+  {
+   "id": "gladiator-reaper",
+   "name": "Gladiator Reaper",
+   "role": "Vehicle",
+   "keywords": [
+    "Smoke",
+    "Imperium",
+    "Vehicle",
+    "Gladiator Reaper"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 160
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "tempest-bolter",
+     "name": "Tempest Bolter",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    },
+    {
+     "id": "twin-heavy-onslaught-gatling-cannon",
+     "name": "Twin Heavy Onslaught Gatling Cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Black Templars Gladiator Reaper",
+     "stats": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "tempest-bolter",
+    "twin-heavy-onslaught-gatling-cannon"
+   ],
+   "abilities": [
+    "Damaged: 1-4 Wounds Remaining",
+    "Deadly Demise",
+    "Templar Vows",
+    "Rotating Death"
+   ]
+  },
+  {
+   "id": "gladiator-valiant",
+   "name": "Gladiator Valiant",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Smoke",
+    "Imperium",
+    "Gladiator Valiant"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 150
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "twin-las-talon",
+     "name": "Twin Las-talon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Black Templars Gladiator Valiant",
+     "stats": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-las-talon"
+   ],
+   "abilities": [
+    "Ferocious Assault",
+    "Damaged: 1-4 Wounds Remaining",
+    "Deadly Demise",
+    "Templar Vows"
+   ]
+  },
+  {
+   "id": "impulsor",
+   "name": "Impulsor",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Transport",
+    "Dedicated Transport",
+    "Imperium",
+    "Impulsor"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "orbital-comms-array",
+     "name": "Orbital Comms Array",
+     "pts": 0,
+     "group": "Option",
+     "max": null
+    },
+    {
+     "id": "shield-dome",
+     "name": "Shield Dome",
+     "pts": 0,
+     "group": "Option",
+     "max": null
+    },
+    {
+     "id": "ironhail-skytalon-array",
+     "name": "Ironhail Skytalon Array",
+     "pts": 0,
+     "group": "Option",
+     "max": null
+    },
+    {
+     "id": "2-fragstorm-grenade-launchers",
+     "name": "2 Fragstorm Grenade Launchers",
+     "pts": 0,
+     "group": "Sponsons",
+     "max": null
+    },
+    {
+     "id": "2-storm-bolters",
+     "name": "2 Storm Bolters",
+     "pts": 0,
+     "group": "Sponsons",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Black Templars Impulsor",
+     "stats": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "11",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "ironhail-skytalon-array"
+   ],
+   "abilities": [
+    "Transport",
+    "Assault Vehicle",
+    "Deadly Demise",
+    "Firing Deck",
+    "Templar Vows",
+    "Orbital Comms Array [Aura]",
+    "Shield Dome"
+   ]
+  },
+  {
+   "id": "land-raider-crusader",
+   "name": "Land Raider Crusader",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Land Raider Crusader",
+    "Smoke",
+    "Imperium",
+    "Transport",
+    "Grenades",
+    "Land Raider"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 220
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Land Raider Crusader",
+     "stats": {
+      "M": "12\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Deadly Demise",
+    "Damaged: 1-5 Wounds Remaining",
+    "Templar Vows",
+    "Transport",
+    "Assault Ramp",
+    "Legacy of Jerulas"
+   ]
+  },
+  {
+   "id": "repulsor",
+   "name": "Repulsor",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Imperium",
+    "Smoke",
+    "Repulsor",
+    "Transport"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 180
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "las-talon",
+     "name": "Las-talon",
+     "pts": 0,
+     "group": "Turret Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Repulsor",
+     "stats": {
+      "M": "10\"",
+      "T": "12",
+      "SV": "3+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "las-talon"
+   ],
+   "abilities": [
+    "Transport",
+    "Stabilised Disembarkation",
+    "Damaged: 1-5 Wounds Remaining",
+    "Deadly Demise",
+    "Templar Vows"
+   ]
+  },
+  {
+   "id": "repulsor-executioner",
+   "name": "Repulsor Executioner",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Smoke",
+    "Imperium",
+    "Transport",
+    "Repulsor Executioner"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 235
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "repulsor-executioner-defensive-array",
+     "name": "Repulsor Executioner Defensive Array",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "heavy-laser-destroyer",
+     "name": "Heavy Laser Destroyer",
+     "pts": 0,
+     "group": "Turret Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Black Templars Repulsor Executioner",
+     "stats": {
+      "M": "10\"",
+      "T": "12",
+      "SV": "3+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "repulsor-executioner-defensive-array",
+    "heavy-laser-destroyer"
+   ],
+   "abilities": [
+    "Damaged: 1-5 Wounds Remaining",
+    "Deadly Demise",
+    "Templar Vows",
+    "Transport",
+    "Interception Strike"
+   ]
+  }
+ ]
+}

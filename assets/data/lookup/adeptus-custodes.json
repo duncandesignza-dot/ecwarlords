@@ -1,0 +1,3348 @@
+{
+ "id": "adeptus-custodes",
+ "name": "Adeptus Custodes",
+ "source": "BSData/wh40k-10e",
+ "revision": "92",
+ "enhancements": [],
+ "weapons": [
+  {
+   "id": "somnus",
+   "name": "Somnus",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Anti-Psyker 5+, Devastating Wounds"
+   }
+  },
+  {
+   "id": "guardian-spear",
+   "name": "Guardian Spear",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "guardian-spear-2",
+   "name": "Guardian Spear",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "castellan-axe",
+   "name": "Castellan axe",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "9",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "castellan-axe-2",
+   "name": "Castellan axe",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "misericordia",
+   "name": "Misericordia",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "balistus-grenade-launcher",
+   "name": "Balistus grenade launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "storm-bolter",
+   "name": "Storm Bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 2"
+   }
+  },
+  {
+   "id": "armoured-tracks",
+   "name": "Armoured tracks",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "hunter-killer-missile",
+   "name": "Hunter-killer missile",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "14",
+    "AP": "-3",
+    "D": "D6",
+    "Keywords": "One Shot"
+   }
+  },
+  {
+   "id": "vaultswords-behemor",
+   "name": "➤ Vaultswords - Behemor",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Precision"
+   }
+  },
+  {
+   "id": "vaultswords-hurricanis",
+   "name": "➤ Vaultswords - Hurricanis",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "9",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "vaultswords-victus",
+   "name": "➤ Vaultswords - Victus",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "sentinel-blade",
+   "name": "Sentinel Blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "sentinel-blade-2",
+   "name": "Sentinel Blade",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Assault, Pistol"
+   }
+  },
+  {
+   "id": "executioner-greatblade",
+   "name": "Executioner Greatblade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Anti-Psyker 5+, Devastating Wounds"
+   }
+  },
+  {
+   "id": "close-combat-weapon",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "2+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "master-crafted-boltgun",
+   "name": "Master-crafted boltgun",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "4",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "witchseeker-flamer",
+   "name": "Witchseeker flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "boltgun",
+   "name": "Boltgun",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "close-combat-weapon-2",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "guardian-spear-3",
+   "name": "Guardian Spear",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "7",
+    "WS": "2+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "castellan-axe-3",
+   "name": "Castellan axe",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "9",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "sentinel-blade-3",
+   "name": "Sentinel Blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "7",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "pyrithite-spear",
+   "name": "Pyrithite Spear",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "7",
+    "WS": "2+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "pyrithite-spear-2",
+   "name": "Pyrithite Spear",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2"
+   }
+  },
+  {
+   "id": "interceptor-lance",
+   "name": "Interceptor lance",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Lance"
+   }
+  },
+  {
+   "id": "vertus-hurricane-bolter",
+   "name": "Vertus hurricane bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Rapid Fire 3, Twin-linked"
+   }
+  },
+  {
+   "id": "salvo-launcher",
+   "name": "Salvo launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "10",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "watcher-s-axe",
+   "name": "Watcher's Axe",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "eagle-s-scream",
+   "name": "Eagle's Scream",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "gnosis",
+   "name": "Gnosis",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "gnosis-2",
+   "name": "Gnosis",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "7",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "combi-bolter",
+   "name": "Combi-bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 2"
+   }
+  },
+  {
+   "id": "contemptor-combat-weapon",
+   "name": "Contemptor combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "12",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "multi-melta",
+   "name": "Multi-melta",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2"
+   }
+  },
+  {
+   "id": "kheres-pattern-assault-cannon",
+   "name": "Kheres-pattern assault cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "2+",
+    "S": "7",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "armoured-tracks-2",
+   "name": "Armoured tracks",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "4+",
+    "S": "8",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "godhammer-lascannon",
+   "name": "Godhammer lascannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "storm-bolter",
+   "name": "Storm bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid fire 2"
+   }
+  },
+  {
+   "id": "twin-heavy-bolter",
+   "name": "Twin heavy bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Sustained Hits 1, Twin-linked"
+   }
+  },
+  {
+   "id": "interceptor-lance-2",
+   "name": "Interceptor lance",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Lance"
+   }
+  },
+  {
+   "id": "executioner-greatblade",
+   "name": "Executioner greatblade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Anti-Psyker 5+, Devastating Wounds"
+   }
+  },
+  {
+   "id": "adrasite-spear",
+   "name": "Adrasite spear",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "adrasite-spear-2",
+   "name": "Adrasite spear",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "pyrithite-spear",
+   "name": "Pyrithite spear",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "pyrithite-spear-2",
+   "name": "Pyrithite spear",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2"
+   }
+  },
+  {
+   "id": "adrastus-bolt-caliver",
+   "name": "Adrastus bolt caliver",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "misericordia-2",
+   "name": "Misericordia",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "solerite-power-gauntlet",
+   "name": "Solerite power gauntlet",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "lastrum-storm-bolter",
+   "name": "Lastrum storm bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Rapid Fire 2"
+   }
+  },
+  {
+   "id": "twin-adrathic-destructor",
+   "name": "Twin adrathic destructor",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "infernus-firepike",
+   "name": "Infernus firepike",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "solerite-power-talon",
+   "name": "Solerite power talon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "7",
+    "WS": "2+",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "lastrum-bolt-cannon",
+   "name": "Lastrum bolt cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "interceptor-lance",
+   "name": "Interceptor Lance",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Lance"
+   }
+  },
+  {
+   "id": "adrathic-devastator",
+   "name": "Adrathic devastator",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "7",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-las-pulsar",
+   "name": "Twin las-pulsar",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "9",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "venatari-lance",
+   "name": "Venatari lance",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "venatari-lance-2",
+   "name": "Venatari lance",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Lance"
+   }
+  },
+  {
+   "id": "kinetic-destroyer",
+   "name": "Kinetic destroyer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Pistol, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "tarsis-buckler",
+   "name": "Tarsis buckler",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "galatus-warblade",
+   "name": "Galatus warblade",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent, Twin-linked"
+   }
+  },
+  {
+   "id": "galatus-warblade-2",
+   "name": "Galatus warblade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "achillus-dreadspear",
+   "name": "Achillus dreadspear",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "achillus-dreadspear-2",
+   "name": "Achillus dreadspear",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "12",
+    "AP": "-2",
+    "D": "D6+1",
+    "Keywords": "Lance"
+   }
+  },
+  {
+   "id": "infernus-incinerator",
+   "name": "Infernus incinerator",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "armoured-hull",
+   "name": "Armoured hull",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-arachnus-blaze-cannon",
+   "name": "Twin arachnus blaze cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "8",
+    "BS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Devastating Wounds, Twin-linked"
+   }
+  },
+  {
+   "id": "twin-iliastus-accelerator-cannon",
+   "name": "Twin iliastus accelerator cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "4",
+    "BS": "2+",
+    "S": "10",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "Rapid Fire 4, Twin-linked"
+   }
+  },
+  {
+   "id": "twin-arachnus-heavy-blaze-cannon",
+   "name": "Twin arachnus heavy blaze cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "4",
+    "BS": "2+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+2",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "armoured-hull-2",
+   "name": "Armoured hull",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-lastrum-bolt-cannon",
+   "name": "Twin lastrum bolt cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "armoured-feet",
+   "name": "Armoured feet",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "7",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "spiculus-bolt-launcher",
+   "name": "Spiculus bolt launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D6+3",
+    "BS": "2+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "arachnus-storm-cannon",
+   "name": "Arachnus storm cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "12",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "iliastus-accelerator-culverin",
+   "name": "Iliastus accelerator culverin",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "4",
+    "BS": "2+",
+    "S": "9",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "telemon-caestus",
+   "name": "Telemon Caestus",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "12",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-plasma-projector",
+   "name": "Twin plasma projector",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D3",
+    "BS": "N/A",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Torrent, Twin-linked"
+   }
+  },
+  {
+   "id": "armoured-hull-3",
+   "name": "Armoured hull",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "4+",
+    "S": "8",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "arachnus-heavy-blaze-cannon",
+   "name": "Arachnus heavy blaze cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "4",
+    "BS": "2+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "armoured-hull-4",
+   "name": "Armoured hull",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "9",
+    "WS": "4+",
+    "S": "9",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "spiculus-heavy-bolt-launcher",
+   "name": "Spiculus heavy bolt launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D6+6",
+    "BS": "2+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "arachnus-magna-blaze-cannon",
+   "name": "Arachnus magna-blaze cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "3",
+    "BS": "2+",
+    "S": "18",
+    "AP": "-4",
+    "D": "D6+6",
+    "Keywords": "-"
+   }
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "custodian-guard",
+   "name": "Custodian Guard",
+   "role": "Battleline",
+   "keywords": [
+    "Custodian Guard",
+    "Infantry",
+    "Battleline",
+    "Imperium"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 4,
+     "pts": 160
+    },
+    {
+     "count": 5,
+     "pts": 200
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 5,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Custodian Guard",
+     "stats": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Custodian Guard (Shield)",
+     "stats": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Custodian Guard (Vexilla)",
+     "stats": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "guardian-spear",
+    "guardian-spear-2",
+    "sentinel-blade",
+    "sentinel-blade-2",
+    "misericordia"
+   ],
+   "abilities": [
+    "Stand Vigil",
+    "Sentinel Storm",
+    "Deep Strike",
+    "Martial Ka'tah",
+    "Invulnerable Save",
+    "Praesidium Shield",
+    "Vexilla"
+   ]
+  },
+  {
+   "id": "blade-champion",
+   "name": "Blade Champion",
+   "role": "Character",
+   "keywords": [
+    "Blade Champion",
+    "Infantry",
+    "Character",
+    "Imperium"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 120
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "vaultswords",
+     "name": "Vaultswords",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Blade Champion",
+     "stats": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "vaultswords-behemor",
+    "vaultswords-hurricanis",
+    "vaultswords-victus"
+   ],
+   "abilities": [
+    "Leader",
+    "Martial Inspiration",
+    "Swift Onslaught",
+    "Deep Strike",
+    "Martial Ka'tah",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "guardian-of-the-throne",
+   "name": "Guardian of the Throne [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Imperium",
+    "Guardian of the Throne",
+    "Crucible"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 130
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Guardian of the Throne",
+     "stats": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Invulnerable Save (4+)",
+    "Leader",
+    "Ka'tah Master",
+    "Deep Strike",
+    "Martial Ka'tah"
+   ]
+  },
+  {
+   "id": "kataphraktoi-exemplar",
+   "name": "Kataphraktoi Exemplar [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Imperium",
+    "Crucible",
+    "Kataphraktoi Exemplar",
+    "Mounted",
+    "Dawneagle Jetbike",
+    "Fly"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 150
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Kataphraktoi Exemplar",
+     "stats": {
+      "M": "12\"",
+      "T": "7",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Invulnerable Save (4+)",
+    "Leader",
+    "Fiend Slayer",
+    "Martial Ka'tah"
+   ]
+  },
+  {
+   "id": "knight-centura",
+   "name": "Knight-Centura",
+   "role": "Character",
+   "keywords": [
+    "Knight-Centura",
+    "Infantry",
+    "Anathema Psykana",
+    "Imperium",
+    "Character"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 55
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "executioner-greatblade",
+     "name": "Executioner Greatblade",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "witchseeker-flamer-and-ccw",
+     "name": "Witchseeker Flamer and CCW",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "master-crafted-boltgun-and-ccw",
+     "name": "Master-crafted boltgun and CCW",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Knight-Centura",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "executioner-greatblade",
+    "close-combat-weapon",
+    "master-crafted-boltgun",
+    "witchseeker-flamer"
+   ],
+   "abilities": [
+    "Leader",
+    "Seeker's Instincts",
+    "Corner the Quarry",
+    "Daughter of the Abyss",
+    "Invulnerable Save",
+    "Scouts"
+   ]
+  },
+  {
+   "id": "null-maiden",
+   "name": "Null Maiden [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Imperium",
+    "Crucible",
+    "Null Maiden",
+    "Anathema Psykana"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Null Maiden",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Invulnerable Save (5+)",
+    "Leader",
+    "Daughter of the Abyss",
+    "Scouts"
+   ]
+  },
+  {
+   "id": "shield-captain",
+   "name": "Shield-Captain",
+   "role": "Character",
+   "keywords": [
+    "Shield-Captain",
+    "Imperium",
+    "Character",
+    "Infantry"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 120
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "guardian-spear",
+     "name": "Guardian Spear",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    },
+    {
+     "id": "castellan-axe",
+     "name": "Castellan Axe",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    },
+    {
+     "id": "sentinel-blade-praesidium-shield",
+     "name": "Sentinel Blade & Praesidium Shield",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    },
+    {
+     "id": "sentinel-blade",
+     "name": "Sentinel Blade",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    },
+    {
+     "id": "pyrithite-spear-praesidium-shield",
+     "name": "Pyrithite Spear & Praesidium shield",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Shield-Captain",
+     "stats": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "guardian-spear-3",
+    "guardian-spear-2",
+    "castellan-axe-3",
+    "castellan-axe-2",
+    "sentinel-blade-3",
+    "sentinel-blade-2",
+    "pyrithite-spear",
+    "pyrithite-spear-2"
+   ],
+   "abilities": [
+    "Master of the Stances",
+    "Leader",
+    "Deep Strike",
+    "Martial Ka'tah",
+    "Invulnerable Save",
+    "Strategic Mastery"
+   ]
+  },
+  {
+   "id": "shield-captain-in-allarus-terminator-armour",
+   "name": "Shield-Captain in Allarus Terminator Armour",
+   "role": "Character",
+   "keywords": [
+    "Terminator",
+    "Shield-Captain",
+    "Infantry",
+    "Imperium",
+    "Character"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 130
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "guardian-spear",
+     "name": "Guardian Spear",
+     "pts": 0,
+     "group": "equipped with",
+     "max": null
+    },
+    {
+     "id": "castellan-axe",
+     "name": "Castellan Axe",
+     "pts": 0,
+     "group": "equipped with",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Shield-Captain in Allarus Terminator Armour",
+     "stats": {
+      "M": "5\"",
+      "T": "7",
+      "SV": "2+",
+      "W": "7",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "guardian-spear-3",
+    "guardian-spear-2",
+    "castellan-axe-3",
+    "castellan-axe-2",
+    "balistus-grenade-launcher"
+   ],
+   "abilities": [
+    "Leader",
+    "Auramite and Adamantite",
+    "Deep Strike",
+    "Martial Ka'tah",
+    "Invulnerable Save",
+    "Strategic Mastery"
+   ]
+  },
+  {
+   "id": "shield-captain-on-dawneagle-jetbike",
+   "name": "Shield-Captain on Dawneagle Jetbike",
+   "role": "Character",
+   "keywords": [
+    "Dawneagle Jetbike",
+    "Imperium",
+    "Mounted",
+    "Character",
+    "Fly",
+    "Shield-Captain"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 150
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "interceptor-lance",
+     "name": "Interceptor lance",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "vertus-hurricane-bolter",
+     "name": "Vertus hurricane bolter",
+     "pts": 0,
+     "group": "equipped with",
+     "max": null
+    },
+    {
+     "id": "salvo-launcher",
+     "name": "Salvo launcher",
+     "pts": 0,
+     "group": "equipped with",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Shield-Captain on Dawneagle Jetbike",
+     "stats": {
+      "M": "12\"",
+      "T": "7",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "interceptor-lance",
+    "vertus-hurricane-bolter",
+    "salvo-launcher"
+   ],
+   "abilities": [
+    "Leader",
+    "Sweeping Advance",
+    "Invulnerable Save",
+    "Martial Ka'tah",
+    "Strategic Mastery"
+   ]
+  },
+  {
+   "id": "aleya",
+   "name": "Aleya",
+   "role": "Epic Hero",
+   "keywords": [
+    "Aleya",
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Imperium",
+    "Anathema Psykana"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Aleya",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "somnus"
+   ],
+   "abilities": [
+    "Tactical Perception",
+    "Tenacious Spirit",
+    "Leader",
+    "Daughter of the Abyss",
+    "Invulnerable Save",
+    "Scouts",
+    "Feel No Pain"
+   ]
+  },
+  {
+   "id": "trajann-valoris",
+   "name": "Trajann Valoris",
+   "role": "Epic Hero",
+   "keywords": [
+    "Trajann Valoris",
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Imperium"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 140
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Trajann Valoris",
+     "stats": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "7",
+      "LD": "5+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "watcher-s-axe",
+    "eagle-s-scream"
+   ],
+   "abilities": [
+    "Feel No Pain",
+    "Leader",
+    "Captain-General",
+    "Moment Shackle",
+    "Martial Ka'tah",
+    "Invulnerable Save",
+    "Deep Strike"
+   ]
+  },
+  {
+   "id": "valerian",
+   "name": "Valerian",
+   "role": "Epic Hero",
+   "keywords": [
+    "Valerian",
+    "Infantry",
+    "Character",
+    "Imperium",
+    "Shield-Captain",
+    "Epic Hero"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 110
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Valerian",
+     "stats": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "gnosis",
+    "gnosis-2"
+   ],
+   "abilities": [
+    "Leader",
+    "Golden Laurels",
+    "Hero of Lion's Gate",
+    "Feel No Pain",
+    "Martial Ka'tah",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "allarus-custodians",
+   "name": "Allarus Custodians",
+   "role": "Infantry",
+   "keywords": [
+    "Allarus Custodians",
+    "Imperium",
+    "Terminator",
+    "Infantry"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 2,
+     "pts": 110
+    },
+    {
+     "count": 6,
+     "pts": 330
+    }
+   ],
+   "minModels": 2,
+   "maxModels": 6,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Allarus Custodian",
+     "stats": {
+      "M": "5\"",
+      "T": "7",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "guardian-spear",
+    "guardian-spear-2",
+    "castellan-axe",
+    "castellan-axe-2",
+    "misericordia",
+    "balistus-grenade-launcher"
+   ],
+   "abilities": [
+    "Slayers of Tyrants",
+    "From Golden Light",
+    "Deep Strike",
+    "Martial Ka'tah",
+    "Invulnerable Save",
+    "Vexilla"
+   ]
+  },
+  {
+   "id": "aquilon-custodians",
+   "name": "Aquilon Custodians",
+   "role": "Infantry",
+   "keywords": [
+    "Imperium",
+    "Terminator",
+    "Infantry",
+    "Aquilon Custodians"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 3,
+     "pts": 195
+    },
+    {
+     "count": 6,
+     "pts": 390
+    }
+   ],
+   "minModels": 3,
+   "maxModels": 6,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Aquilon Custodian",
+     "stats": {
+      "M": "5\"",
+      "T": "7",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "solerite-power-gauntlet",
+    "lastrum-storm-bolter",
+    "twin-adrathic-destructor",
+    "infernus-firepike",
+    "solerite-power-talon"
+   ],
+   "abilities": [
+    "Heavy Assault Infantry",
+    "From Golden Light",
+    "Deep Strike",
+    "Martial Ka'tah",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "custodian-guard-with-adrasite-and-pyrithite-spears",
+   "name": "Custodian Guard with Adrasite and Pyrithite spears",
+   "role": "Infantry",
+   "keywords": [
+    "Custodian Guard",
+    "Infantry",
+    "Imperium"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 5,
+     "pts": 250
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 5,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Custodian Guard",
+     "stats": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "adrasite-spear",
+    "adrasite-spear-2",
+    "pyrithite-spear",
+    "pyrithite-spear-2"
+   ],
+   "abilities": [
+    "Stand Vigil",
+    "No Foe Shall Stand",
+    "Deep Strike",
+    "Martial Ka'tah",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "custodian-wardens",
+   "name": "Custodian Wardens",
+   "role": "Infantry",
+   "keywords": [
+    "Custodian Wardens",
+    "Infantry",
+    "Imperium"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 4,
+     "pts": 210
+    },
+    {
+     "count": 5,
+     "pts": 260
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 5,
+   "wargear": [
+    {
+     "id": "guardian-spear",
+     "name": "Guardian Spear",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "castellan-axe",
+     "name": "Castellan Axe",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Custodian Warden",
+     "stats": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "guardian-spear",
+    "guardian-spear-2",
+    "castellan-axe",
+    "castellan-axe-2"
+   ],
+   "abilities": [
+    "Resolute Will",
+    "Living Fortress",
+    "Deep Strike",
+    "Martial Ka'tah",
+    "Feel No Pain",
+    "Invulnerable Save",
+    "Vexilla"
+   ]
+  },
+  {
+   "id": "prosecutors",
+   "name": "Prosecutors",
+   "role": "Infantry",
+   "keywords": [
+    "Prosecutors",
+    "Imperium",
+    "Infantry",
+    "Anathema Psykana"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 40
+    },
+    {
+     "count": 5,
+     "pts": 50
+    },
+    {
+     "count": 6,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Prosecutor Sister Superior",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "1",
+      "LD": "6+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Prosecutor",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "1",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "boltgun",
+    "close-combat-weapon-2"
+   ],
+   "abilities": [
+    "Purity of Execution",
+    "Daughter of the Abyss"
+   ]
+  },
+  {
+   "id": "sagittarum-custodians",
+   "name": "Sagittarum Custodians",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Imperium",
+    "Sagittarum Custodians"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 225
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Sagittarum Custodian",
+     "stats": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "adrastus-bolt-caliver",
+    "misericordia-2"
+   ],
+   "abilities": [
+    "Disintegration Beams",
+    "Saturation Volleys",
+    "Deep Strike",
+    "Martial Ka'tah",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "venatari-custodians",
+   "name": "Venatari Custodians",
+   "role": "Infantry",
+   "keywords": [
+    "Imperium",
+    "Infantry",
+    "Fly",
+    "Jump Pack",
+    "Venatari Custodians"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 3,
+     "pts": 165
+    },
+    {
+     "count": 6,
+     "pts": 330
+    }
+   ],
+   "minModels": 3,
+   "maxModels": 6,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Venatari Custodian",
+     "stats": {
+      "M": "10\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Venatari Custodian (Tarsis Buckler)",
+     "stats": {
+      "M": "10\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "venatari-lance",
+    "venatari-lance-2",
+    "kinetic-destroyer",
+    "tarsis-buckler"
+   ],
+   "abilities": [
+    "Strike from the Skies",
+    "Swooping Dive",
+    "Invulnerable Save",
+    "Martial Ka'tah",
+    "Deep Strike"
+   ]
+  },
+  {
+   "id": "vigilators",
+   "name": "Vigilators",
+   "role": "Infantry",
+   "keywords": [
+    "Vigilators",
+    "Anathema Psykana",
+    "Infantry",
+    "Imperium"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 45
+    },
+    {
+     "count": 5,
+     "pts": 55
+    },
+    {
+     "count": 6,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Vigilator Sister Superior",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "1",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Vigilator",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "1",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "executioner-greatblade"
+   ],
+   "abilities": [
+    "Deft Parry",
+    "Daughter of the Abyss",
+    "Devastating Wounds"
+   ]
+  },
+  {
+   "id": "witchseekers",
+   "name": "Witchseekers",
+   "role": "Infantry",
+   "keywords": [
+    "Witchseekers",
+    "Anathema Psykana",
+    "Infantry",
+    "Imperium"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 45
+    },
+    {
+     "count": 5,
+     "pts": 55
+    },
+    {
+     "count": 6,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Witchseeker Sister Superior",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "1",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Witchseeker",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "1",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon-2",
+    "witchseeker-flamer"
+   ],
+   "abilities": [
+    "Sanctified Flames",
+    "Daughter of the Abyss",
+    "Scouts"
+   ]
+  },
+  {
+   "id": "agamatus-custodians",
+   "name": "Agamatus Custodians",
+   "role": "Mounted",
+   "keywords": [
+    "Mounted",
+    "Fly",
+    "Imperium",
+    "Agamatus Custodians"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 3,
+     "pts": 225
+    },
+    {
+     "count": 6,
+     "pts": 450
+    }
+   ],
+   "minModels": 3,
+   "maxModels": 6,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Agamatus Custodians",
+     "stats": {
+      "M": "12\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "lastrum-bolt-cannon",
+    "interceptor-lance",
+    "adrathic-devastator",
+    "twin-las-pulsar"
+   ],
+   "abilities": [
+    "Implacable Vanguard",
+    "Turbo Boost",
+    "Martial Ka'tah",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "vertus-praetors",
+   "name": "Vertus Praetors",
+   "role": "Mounted",
+   "keywords": [
+    "Fly",
+    "Mounted",
+    "Imperium",
+    "Vertus Praetors"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 2,
+     "pts": 150
+    },
+    {
+     "count": 3,
+     "pts": 225
+    }
+   ],
+   "minModels": 2,
+   "maxModels": 3,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Vertus Praetors",
+     "stats": {
+      "M": "12\"",
+      "T": "7",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "interceptor-lance-2",
+    "salvo-launcher",
+    "vertus-hurricane-bolter"
+   ],
+   "abilities": [
+    "Turbo Boost",
+    "Quicksilver Execution",
+    "Martial Ka'tah",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "anathema-psykana-rhino",
+   "name": "Anathema Psykana Rhino",
+   "role": "Vehicle",
+   "keywords": [
+    "Rhino",
+    "Anathema Psykana",
+    "Vehicle",
+    "Dedicated Transport",
+    "Transport",
+    "Smoke",
+    "Imperium"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "storm-bolter",
+     "name": "Storm Bolter",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "armoured-tracks",
+     "name": "Armoured tracks",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Anathema Psykana Rhino",
+     "stats": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "storm-bolter",
+    "armoured-tracks",
+    "hunter-killer-missile"
+   ],
+   "abilities": [
+    "Self Repair",
+    "Daughter of the Abyss",
+    "Deadly Demise",
+    "Firing Deck"
+   ]
+  },
+  {
+   "id": "ares-gunship",
+   "name": "Ares Gunship",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Imperium",
+    "Ares Gunship"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 580
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "arachnus-heavy-blaze-cannon",
+     "name": "Arachnus heavy blaze cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    },
+    {
+     "id": "arachnus-magna-blaze-cannon",
+     "name": "Arachnus magna-blaze cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "armoured-hull",
+     "name": "Armoured hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Ares Gunship",
+     "stats": {
+      "M": "20+\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "22",
+      "LD": "6+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "arachnus-heavy-blaze-cannon",
+    "arachnus-magna-blaze-cannon",
+    "armoured-hull-4"
+   ],
+   "abilities": [
+    "Infernus Firebomb",
+    "Damaged: 1-7 wounds remaining",
+    "Invulnerable Save",
+    "Martial Ka'tah",
+    "Hover",
+    "Deadly Demise"
+   ]
+  },
+  {
+   "id": "caladius-grav-tank",
+   "name": "Caladius Grav-tank",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Imperium",
+    "Caladius Grav-tank"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 215
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "armoured-hull",
+     "name": "Armoured hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-lastrum-bolt-cannon",
+     "name": "Twin lastrum bolt cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-iliastus-accelerator-cannon",
+     "name": "Twin iliastus accelerator cannon",
+     "pts": 0,
+     "group": "Equipped with",
+     "max": null
+    },
+    {
+     "id": "twin-arachnus-heavy-blaze-cannon",
+     "name": "Twin arachnus heavy blaze cannon",
+     "pts": 0,
+     "group": "Equipped with",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Caladius Grav-tank",
+     "stats": {
+      "M": "10\"",
+      "T": "11",
+      "SV": "2+",
+      "W": "14",
+      "LD": "6+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-iliastus-accelerator-cannon",
+    "twin-arachnus-heavy-blaze-cannon",
+    "armoured-hull-2",
+    "twin-lastrum-bolt-cannon"
+   ],
+   "abilities": [
+    "Advanced Firepower",
+    "Damaged: 1-5 wounds remaining",
+    "Invulnerable Save",
+    "Martial Ka'tah",
+    "Deadly Demise"
+   ]
+  },
+  {
+   "id": "contemptor-achillus-dreadnought",
+   "name": "Contemptor-Achillus Dreadnought",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Imperium",
+    "Walker",
+    "Contemptor-Achillus Dreadnought",
+    "AC Walker"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 155
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "achillus-dreadspear",
+     "name": "Achillus dreadspear",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "infernus-incinerator",
+     "name": "Infernus incinerator",
+     "pts": 0,
+     "group": "equipped with",
+     "max": 2
+    },
+    {
+     "id": "lastrum-storm-bolter",
+     "name": "Lastrum storm bolter",
+     "pts": 0,
+     "group": "equipped with",
+     "max": 2
+    },
+    {
+     "id": "twin-adrathic-destructor",
+     "name": "Twin adrathic destructor",
+     "pts": 0,
+     "group": "equipped with",
+     "max": 2
+    }
+   ],
+   "stats": [
+    {
+     "name": "Contemptor-Achillus Dreadnought",
+     "stats": {
+      "M": "6\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "achillus-dreadspear",
+    "achillus-dreadspear-2",
+    "infernus-incinerator",
+    "lastrum-storm-bolter",
+    "twin-adrathic-destructor"
+   ],
+   "abilities": [
+    "Dread Foe",
+    "Invulnerable Save",
+    "Martial Ka'tah",
+    "Deadly Demise"
+   ]
+  },
+  {
+   "id": "contemptor-galatus-dreadnought",
+   "name": "Contemptor-Galatus Dreadnought",
+   "role": "Vehicle",
+   "keywords": [
+    "Contemptor-Galatus Dreadnought",
+    "Vehicle",
+    "Walker",
+    "Imperium",
+    "AC Walker"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 165
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "galatus-warblade",
+     "name": "Galatus warblade",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Contemptor-Galatus Dreadnought",
+     "stats": {
+      "M": "6\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "galatus-warblade",
+    "galatus-warblade-2"
+   ],
+   "abilities": [
+    "Galatus Shield",
+    "Martial Ka'tah",
+    "Invulnerable Save",
+    "Deadly Demise"
+   ]
+  },
+  {
+   "id": "coronus-grav-carrier",
+   "name": "Coronus Grav-carrier",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Transport",
+    "Fly",
+    "Imperium",
+    "Coronus Grav-carrier"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 200
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "armoured-hull",
+     "name": "Armoured hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-arachnus-blaze-cannon",
+     "name": "Twin arachnus blaze cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-lastrum-bolt-cannon",
+     "name": "Twin lastrum bolt cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Coronus Grav-carrier",
+     "stats": {
+      "M": "12\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "armoured-hull-3",
+    "twin-arachnus-blaze-cannon",
+    "twin-lastrum-bolt-cannon"
+   ],
+   "abilities": [
+    "Fire Support",
+    "Damaged: 1-5 wounds remaining",
+    "Invulnerable Save",
+    "Martial Ka'tah",
+    "Deadly Demise"
+   ]
+  },
+  {
+   "id": "orion-assault-dropship",
+   "name": "Orion Assault Dropship",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Transport",
+    "Aircraft",
+    "Fly",
+    "Imperium",
+    "Orion Assault Dropship"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 690
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "arachnus-heavy-blaze-cannon",
+     "name": "Arachnus heavy blaze cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    },
+    {
+     "id": "armoured-hull",
+     "name": "Armoured hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "spiculus-heavy-bolt-launcher",
+     "name": "Spiculus heavy bolt launcher",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    },
+    {
+     "id": "twin-lastrum-bolt-cannon",
+     "name": "Twin lastrum bolt cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    }
+   ],
+   "stats": [
+    {
+     "name": "Orion Assault Dropship",
+     "stats": {
+      "M": "20+\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "22",
+      "LD": "6+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "arachnus-heavy-blaze-cannon",
+    "armoured-hull-4",
+    "spiculus-heavy-bolt-launcher",
+    "twin-lastrum-bolt-cannon"
+   ],
+   "abilities": [
+    "Damaged: 1-7 wounds remaining",
+    "Assault Dropship",
+    "Invulnerable Save",
+    "Martial Ka'tah",
+    "Deadly Demise",
+    "Hover"
+   ]
+  },
+  {
+   "id": "pallas-grav-attack",
+   "name": "Pallas Grav-attack",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Pallas Grav-attack",
+    "Imperium"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 105
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "armoured-hull",
+     "name": "Armoured hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-arachnus-blaze-cannon",
+     "name": "Twin arachnus blaze cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Palas Grav-attack",
+     "stats": {
+      "M": "12\"",
+      "T": "8",
+      "SV": "2+",
+      "W": "9",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "armoured-hull",
+    "twin-arachnus-blaze-cannon"
+   ],
+   "abilities": [
+    "Merciless Hunter",
+    "Invulnerable Save",
+    "Deadly Demise"
+   ]
+  },
+  {
+   "id": "telemon-heavy-dreadnought",
+   "name": "Telemon Heavy Dreadnought",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Imperium",
+    "Telemon Heavy Dreadnought",
+    "Walker",
+    "AC Walker"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 225
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "armoured-feet",
+     "name": "Armoured feet",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "spiculus-bolt-launcher",
+     "name": "Spiculus bolt launcher",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "arachnus-storm-cannon",
+     "name": "Arachnus storm cannon",
+     "pts": 0,
+     "group": "Wargear Options",
+     "max": 2
+    },
+    {
+     "id": "iliastus-accelerator-culverin",
+     "name": "Iliastus accelerator culverin",
+     "pts": 0,
+     "group": "Wargear Options",
+     "max": 2
+    },
+    {
+     "id": "telemon-caestus-and-twin-plasma-projector",
+     "name": "Telemon caestus and twin plasma projector",
+     "pts": 0,
+     "group": "Wargear Options",
+     "max": 2
+    }
+   ],
+   "stats": [
+    {
+     "name": "Telemon Heavy Dreadnought",
+     "stats": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [
+    "armoured-feet",
+    "spiculus-bolt-launcher",
+    "arachnus-storm-cannon",
+    "iliastus-accelerator-culverin",
+    "telemon-caestus",
+    "twin-plasma-projector"
+   ],
+   "abilities": [
+    "Guardian Eternal",
+    "Damaged: 1-4 wounds remaining",
+    "Devoted to Destruction",
+    "Invulnerable Save",
+    "Martial Ka'tah",
+    "Deadly Demise"
+   ]
+  },
+  {
+   "id": "venerable-contemptor-dreadnought",
+   "name": "Venerable Contemptor Dreadnought",
+   "role": "Vehicle",
+   "keywords": [
+    "Venerable Contemptor Dreadnought",
+    "Vehicle",
+    "Walker",
+    "Imperium",
+    "AC Walker"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 170
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "combi-bolter",
+     "name": "Combi-bolter",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "contemptor-combat-weapon",
+     "name": "Contemptor combat weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "multi-melta",
+     "name": "Multi-melta",
+     "pts": 0,
+     "group": "equipped with",
+     "max": null
+    },
+    {
+     "id": "kheres-pattern-assault-cannon",
+     "name": "Kheres-pattern assault cannon",
+     "pts": 0,
+     "group": "equipped with",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Venerable Contemptor Dreadnought",
+     "stats": {
+      "M": "6\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "combi-bolter",
+    "contemptor-combat-weapon",
+    "multi-melta",
+    "kheres-pattern-assault-cannon"
+   ],
+   "abilities": [
+    "Unyielding Ancient",
+    "Martial Ka'tah",
+    "Invulnerable Save",
+    "Deadly Demise"
+   ]
+  },
+  {
+   "id": "venerable-land-raider",
+   "name": "Venerable Land Raider",
+   "role": "Vehicle",
+   "keywords": [
+    "Venerable Land Raider",
+    "Transport",
+    "Vehicle",
+    "Imperium",
+    "Smoke"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 220
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "armoured-tracks",
+     "name": "Armoured tracks",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "godhammer-lascannon",
+     "name": "Godhammer lascannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    },
+    {
+     "id": "storm-bolter",
+     "name": "Storm bolter",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-heavy-bolter",
+     "name": "Twin heavy bolter",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Venerable Land Raider",
+     "stats": {
+      "M": "10\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "armoured-tracks-2",
+    "godhammer-lascannon",
+    "storm-bolter",
+    "twin-heavy-bolter",
+    "hunter-killer-missile"
+   ],
+   "abilities": [
+    "Assault Ramp",
+    "Damaged: 1-5 Wounds remaining",
+    "Martial Ka'tah",
+    "Deadly Demise"
+   ]
+  }
+ ]
+}

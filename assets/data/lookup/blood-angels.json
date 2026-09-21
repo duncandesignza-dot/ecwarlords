@@ -1,0 +1,2272 @@
+{
+ "id": "blood-angels",
+ "name": "Blood Angels",
+ "source": "BSData/wh40k-10e",
+ "revision": "80",
+ "enhancements": [],
+ "weapons": [
+  {
+   "id": "the-executioner-s-axe",
+   "name": "The Executioner's Axe",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "7",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Devastating Wounds, Precision"
+   }
+  },
+  {
+   "id": "heavy-flamer",
+   "name": "Heavy Flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Assault, Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "heavy-bolter",
+   "name": "Heavy Bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Assault, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "baal-flamestorm-cannon",
+   "name": "Baal Flamestorm Cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6+3",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Assault, Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "twin-assault-cannon",
+   "name": "Twin Assault Cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault, Devastating wounds, Twin-linked"
+   }
+  },
+  {
+   "id": "heaven-s-teeth",
+   "name": "Heaven's Teeth",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "blood-song",
+   "name": "Blood Song",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Anti-Infantry 4+, Devastating Wounds, Melta 2"
+   }
+  },
+  {
+   "id": "dead-man-s-hand",
+   "name": "Dead Man's Hand",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "fury-of-the-ancients-witchfire",
+   "name": "➤ Fury of the Ancients - Witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "D3",
+    "Keywords": "Pistol, Psychic, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "fury-of-the-ancients-focused-witchfire",
+   "name": "➤ Fury of the Ancients - Focused Witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "D3",
+    "Keywords": "Hazardous, Pistol, Psychic, Sustained Hits 3"
+   }
+  },
+  {
+   "id": "vitarus",
+   "name": "Vitarus",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "9",
+    "AP": "-3",
+    "D": "D3",
+    "Keywords": "Lethal Hits, Psychic"
+   }
+  },
+  {
+   "id": "perdition",
+   "name": "Perdition",
+   "type": "ranged",
+   "stats": {
+    "Range": "6\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2, Pistol, Sustained Hits D3"
+   }
+  },
+  {
+   "id": "the-axe-mortalis",
+   "name": "The Axe Mortalis",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "storm-bolter",
+   "name": "Storm Bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 2"
+   }
+  },
+  {
+   "id": "blood-talons",
+   "name": "Blood Talons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "7",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "twin-furioso-fists",
+   "name": "Twin Furioso Fists",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "astartes-grenade-launcher-frag",
+   "name": "➤ Astartes Grenade Launcher - Frag",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D3",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "astartes-grenade-launcher-krak",
+   "name": "➤ Astartes Grenade Launcher - Krak",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "thunder-hammer",
+   "name": "Thunder Hammer",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "heavy-frag-cannon",
+   "name": "Heavy Frag Cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Blast, Rapid Fire D6"
+   }
+  },
+  {
+   "id": "furioso-fist",
+   "name": "Furioso Fist",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "blood-reaver",
+   "name": "Blood Reaver",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "the-blood-crozius",
+   "name": "The Blood Crozius",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "absolvor-bolt-pistol",
+   "name": "Absolvor Bolt Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "blood-lance-focused-witchfire",
+   "name": "➤ Blood Lance - Focused Witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+3",
+    "Keywords": "Hazardous, Psychic, Sustained Hits D3"
+   }
+  },
+  {
+   "id": "blood-lance-witchfire",
+   "name": "➤ Blood Lance - Witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-3",
+    "D": "D6",
+    "Keywords": "Psychic, Sustained Hits D3"
+   }
+  },
+  {
+   "id": "furioso-force-halberd",
+   "name": "Furioso Force Halberd",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "2+",
+    "S": "9",
+    "AP": "-3",
+    "D": "D6+3",
+    "Keywords": "Extra Attacks, Psychic"
+   }
+  },
+  {
+   "id": "encarmine-blade",
+   "name": "Encarmine Blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "encarmine-spear",
+   "name": "Encarmine Spear",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Lance"
+   }
+  },
+  {
+   "id": "angelus-boltgun",
+   "name": "Angelus Boltgun",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "encarmine-broadsword",
+   "name": "Encarmine Broadsword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "astartes-chainsword",
+   "name": "Astartes Chainsword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "power-fist",
+   "name": "Power Fist",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "master-crafted-chainsword",
+   "name": "Master-crafted Chainsword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "7",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "heavy-bolt-pistol",
+   "name": "Heavy Bolt Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "heavy-bolt-pistol-2",
+   "name": "Heavy Bolt Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "close-combat-weapon",
+   "name": "Close Combat Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "power-fist-2",
+   "name": "Power Fist",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "bolt-rifle",
+   "name": "Bolt Rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Assault, Heavy"
+   }
+  },
+  {
+   "id": "heavy-bolt-pistol-3",
+   "name": "Heavy Bolt Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "blood-fists",
+   "name": "Blood Fists",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "12",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "blood-fist-bolt-rifles",
+   "name": "Blood Fist Bolt Rifles",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "4",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "blood-talons-strike",
+   "name": "➤ Blood Talons - Strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "12",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "blood-talons-sweep",
+   "name": "➤ Blood Talons - Sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "10",
+    "WS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Twin-linked"
+   }
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "blood-angels-captain",
+   "name": "Blood Angels Captain",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Imperium",
+    "Captain",
+    "Tacticus"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "master-crafted-chainsword",
+     "name": "Master-crafted Chainsword",
+     "pts": 0,
+     "group": "Melee",
+     "max": null
+    },
+    {
+     "id": "heavy-bolt-pistol",
+     "name": "Heavy Bolt Pistol",
+     "pts": 0,
+     "group": "Pistol",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Blood Angels Captain",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "master-crafted-chainsword",
+    "heavy-bolt-pistol"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Rites of Battle",
+    "Finest Hour",
+    "Oath of Moment",
+    "Leader"
+   ]
+  },
+  {
+   "id": "death-company-captain",
+   "name": "Death Company Captain",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Imperium",
+    "Captain",
+    "Tacticus",
+    "Death Company"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "master-crafted-chainsword",
+     "name": "Master-crafted Chainsword",
+     "pts": 0,
+     "group": "Melee",
+     "max": null
+    },
+    {
+     "id": "heavy-bolt-pistol",
+     "name": "Heavy Bolt Pistol",
+     "pts": 0,
+     "group": "Pistol",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Death Company Captain",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "master-crafted-chainsword",
+    "heavy-bolt-pistol-2"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Black Rage",
+    "Feel No Pain",
+    "Leader",
+    "Forlorn Hero",
+    "Death Vision of Sanguinius"
+   ]
+  },
+  {
+   "id": "death-company-captain-with-jump-pack",
+   "name": "Death Company Captain with Jump Pack",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Captain",
+    "Grenades",
+    "Fly",
+    "Imperium",
+    "Jump Pack",
+    "Tacticus",
+    "Death Company"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "heavy-bolt-pistol",
+     "name": "Heavy Bolt Pistol",
+     "pts": 0,
+     "group": "Pistol",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Death Company Captain with Jump Pack",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "heavy-bolt-pistol-2"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Black Rage",
+    "Feel No Pain",
+    "Deep Strike",
+    "Death Vision of Sanguinius",
+    "Lost to Fury",
+    "Leader"
+   ]
+  },
+  {
+   "id": "sanguinary-priest",
+   "name": "Sanguinary Priest",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Sanguinary Priest",
+    "Tacticus"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Sanguinary Priest",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Sanguinary Priest",
+    "Blood Chalice",
+    "Leader",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "sanguinary-priest-on-bike",
+   "name": "Sanguinary Priest on Bike",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Mounted",
+    "Grenades",
+    "Imperium",
+    "Sanguinary Priest"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 135
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "power-fist",
+     "name": "Power Fist",
+     "pts": 0,
+     "group": "Chainsword Options",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Sanguinary Priest on Bike",
+     "stats": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "power-fist"
+   ],
+   "abilities": [
+    "Blood Chalice",
+    "Leader",
+    "Sanguinary Priest",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "sanguinary-priest-with-jump-pack",
+   "name": "Sanguinary Priest with Jump Pack",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Fly",
+    "Jump Pack",
+    "Sanguinary Priest"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "astartes-chainsword",
+     "name": "Astartes Chainsword",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Sanguinary Priest with Jump Pack",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "astartes-chainsword"
+   ],
+   "abilities": [
+    "Sanguinary Priest",
+    "Blood Chalice",
+    "Leader",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "astorath",
+   "name": "Astorath",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Fly",
+    "Jump Pack",
+    "Imperium",
+    "Chaplain",
+    "Astorath"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Astorath",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "5",
+      "LD": "5+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "the-executioner-s-axe"
+   ],
+   "abilities": [
+    "Redeemer of the Lost",
+    "Mass of Doom",
+    "Leader",
+    "Oath of Moment",
+    "Deep Strike",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "brother-corbulo",
+   "name": "Brother Corbulo",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Sanguinary Priest",
+    "Brother Corbulo"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Brother Corbulo",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "heaven-s-teeth"
+   ],
+   "abilities": [
+    "Sanguinary Priest",
+    "The Red Grail",
+    "Leader",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "captain-tycho",
+   "name": "Captain Tycho",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Captain",
+    "Grenades",
+    "Imperium",
+    "Tycho"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Captain Tycho",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "blood-song",
+    "dead-man-s-hand"
+   ],
+   "abilities": [
+    "Gifted Commander",
+    "Embittered",
+    "Leader",
+    "Tycho",
+    "Invulnerable Save",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "chief-librarian-mephiston",
+   "name": "Chief Librarian Mephiston",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Tacticus",
+    "Psyker",
+    "Chief Librarian Mephiston"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 120
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Chief Librarian Mephiston",
+     "stats": {
+      "M": "7\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "fury-of-the-ancients-witchfire",
+    "fury-of-the-ancients-focused-witchfire",
+    "vitarus"
+   ],
+   "abilities": [
+    "Lone Operative",
+    "Fights First",
+    "Feel No Pain",
+    "Oath of Moment",
+    "The Quickening [Psychic]",
+    "Transfixing Gaze [Aura, Psychic]",
+    "Invulnerable Save 5+"
+   ]
+  },
+  {
+   "id": "commander-dante",
+   "name": "Commander Dante",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Fly",
+    "Jump Pack",
+    "Tacticus",
+    "Chapter Master",
+    "Commander Dante"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 120
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Commander Dante",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "perdition",
+    "the-axe-mortalis"
+   ],
+   "abilities": [
+    "Death Mask of Sanguinius",
+    "Lord Regent of the Imperium Nihilus",
+    "Leader",
+    "Deep Strike",
+    "Oath of Moment",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "gabriel-seth",
+   "name": "Gabriel Seth",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Chapter Master",
+    "Imperium",
+    "Gabriel Seth"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Gabriel Seth",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "blood-reaver"
+   ],
+   "abilities": [
+    "Leader",
+    "Oath of Moment",
+    "Invulnerable Save",
+    "Lord of Slaughter",
+    "Whirlwind of Rage"
+   ]
+  },
+  {
+   "id": "lemartes",
+   "name": "Lemartes",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Fly",
+    "Chaplain",
+    "Lemartes",
+    "Jump Pack"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Lemartes",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "5+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "the-blood-crozius",
+    "absolvor-bolt-pistol"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Leader",
+    "Oath of Moment",
+    "Deep Strike",
+    "Feel No Pain",
+    "Guardian of the Lost",
+    "Fury Unbound"
+   ]
+  },
+  {
+   "id": "the-sanguinor",
+   "name": "The Sanguinor",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Fly",
+    "Imperium",
+    "Jump Pack",
+    "The Sanguinor"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 130
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "The Sanguinor",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "7",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "encarmine-broadsword"
+   ],
+   "abilities": [
+    "Lone Operative",
+    "Deep Strike",
+    "Fights First",
+    "Oath of Moment",
+    "Invulnerable Save",
+    "Aura of Fervour (Aura)",
+    "Miraculous Savior"
+   ]
+  },
+  {
+   "id": "tycho-the-lost",
+   "name": "Tycho the Lost",
+   "role": "Epic Hero",
+   "keywords": [
+    "Character",
+    "Epic Hero",
+    "Infantry",
+    "Captain",
+    "Imperium",
+    "Grenades",
+    "Tycho the Lost"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Tycho the Lost",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "blood-song",
+    "dead-man-s-hand"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Leader",
+    "Oath of Moment",
+    "Black Rage",
+    "Forlorn Hero",
+    "Death Visions of Sanguinius",
+    "Tycho"
+   ]
+  },
+  {
+   "id": "death-company-intercessors",
+   "name": "Death Company Intercessors",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Tacticus",
+    "Death Company Intercessors"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 5,
+     "pts": 75
+    },
+    {
+     "count": 10,
+     "pts": 150
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 10,
+   "wargear": [
+    {
+     "id": "bolt-rifle-bolt-pistol-close-combat-weapon",
+     "name": "Bolt Rifle, Bolt Pistol & Close Combat Weapon",
+     "pts": 0,
+     "group": "Weapon Option",
+     "max": 1
+    },
+    {
+     "id": "astartes-chainsword-heavy-bolt-pistol",
+     "name": "Astartes Chainsword & Heavy Bolt Pistol",
+     "pts": 0,
+     "group": "Weapon Option",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Death Company Intercessors",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "astartes-grenade-launcher-frag",
+    "astartes-grenade-launcher-krak"
+   ],
+   "abilities": [
+    "Feel No Pain",
+    "Oath of Moment",
+    "Black Rage",
+    "Visions of Heresy"
+   ]
+  },
+  {
+   "id": "death-company-marines",
+   "name": "Death Company Marines",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Death Company Marines",
+    "Tacticus",
+    "Death Company"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 5,
+     "pts": 85
+    },
+    {
+     "count": 10,
+     "pts": 160
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 10,
+   "wargear": [
+    {
+     "id": "heavy-bolt-pistol",
+     "name": "Heavy Bolt Pistol",
+     "pts": 0,
+     "group": "Replace Pistol",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Death Company Marines",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "heavy-bolt-pistol-3"
+   ],
+   "abilities": [
+    "An Honourable Death in Combat",
+    "Attached Unit",
+    "Feel No Pain",
+    "Oath of Moment",
+    "Black Rage"
+   ]
+  },
+  {
+   "id": "death-company-marines-with-bolt-rifles",
+   "name": "Death Company Marines with Bolt Rifles",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Death Company Marines with Bolt Rifles",
+    "Tacticus",
+    "Death Company"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 5,
+     "pts": 85
+    },
+    {
+     "count": 10,
+     "pts": 160
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 10,
+   "wargear": [
+    {
+     "id": "close-combat-weapon",
+     "name": "Close Combat Weapon",
+     "pts": 0,
+     "group": "Replace Close Combat Weapon",
+     "max": null
+    },
+    {
+     "id": "power-fist",
+     "name": "Power Fist",
+     "pts": 0,
+     "group": "Replace Close Combat Weapon",
+     "max": null
+    },
+    {
+     "id": "bolt-rifle",
+     "name": "Bolt Rifle",
+     "pts": 0,
+     "group": "Replace Bolt Rifle",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Death Company Marines with Bolt Rifles",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon",
+    "power-fist-2",
+    "bolt-rifle",
+    "astartes-grenade-launcher-frag",
+    "astartes-grenade-launcher-krak"
+   ],
+   "abilities": [
+    "Attached Unit",
+    "Feel No Pain",
+    "Oath of Moment",
+    "Black Rage",
+    "Visions of Heresy"
+   ]
+  },
+  {
+   "id": "death-company-marines-with-boltguns",
+   "name": "Death Company Marines with Boltguns",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Death Company Marines with Boltguns",
+    "Death Company"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 5,
+     "pts": 125
+    },
+    {
+     "count": 10,
+     "pts": 250
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 10,
+   "wargear": [
+    {
+     "id": "boltgun-and-close-combat-weapon",
+     "name": "Boltgun and Close Combat Weapon",
+     "pts": 0,
+     "group": "Weapon Options",
+     "max": null
+    },
+    {
+     "id": "melee-and-pistol",
+     "name": "Melee and Pistol",
+     "pts": 0,
+     "group": "Weapon Options",
+     "max": null
+    },
+    {
+     "id": "thunder-hammer",
+     "name": "Thunder Hammer",
+     "pts": 0,
+     "group": "Weapon Options",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Death Company Marine",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "thunder-hammer"
+   ],
+   "abilities": [
+    "An Honourable Death in Combat",
+    "Attached Leader",
+    "Feel No Pain",
+    "Oath of Moment",
+    "Black Rage"
+   ]
+  },
+  {
+   "id": "death-company-marines-with-boltguns-and-jump-packs",
+   "name": "Death Company Marines with Boltguns and Jump Packs",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Death Company Marines with Boltguns and Jump Packs",
+    "Death Company"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 5,
+     "pts": 140
+    },
+    {
+     "count": 10,
+     "pts": 280
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 10,
+   "wargear": [
+    {
+     "id": "boltgun-and-close-combat-weapon",
+     "name": "Boltgun and Close Combat Weapon",
+     "pts": 0,
+     "group": "Weapon Options",
+     "max": null
+    },
+    {
+     "id": "melee-and-pistol",
+     "name": "Melee and Pistol",
+     "pts": 0,
+     "group": "Weapon Options",
+     "max": null
+    },
+    {
+     "id": "thunder-hammer",
+     "name": "Thunder Hammer",
+     "pts": 0,
+     "group": "Weapon Options",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Death Company Marine",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "thunder-hammer"
+   ],
+   "abilities": [
+    "Beserk Fury",
+    "Attached Leader",
+    "Feel No Pain",
+    "Oath of Moment",
+    "Black Rage",
+    "Deep Strike"
+   ]
+  },
+  {
+   "id": "death-company-marines-with-jump-packs",
+   "name": "Death Company Marines with Jump Packs",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Death Company Marines with Jump Packs",
+    "Tacticus",
+    "Fly",
+    "Jump Pack",
+    "Death Company"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 5,
+     "pts": 120
+    },
+    {
+     "count": 10,
+     "pts": 230
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 10,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Death Company Marine with Jump Pack",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Savage Fury",
+    "Attached Unit",
+    "Feel No Pain",
+    "Deep Strike",
+    "Black Rage",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "sanguinary-guard",
+   "name": "Sanguinary Guard",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Fly",
+    "Grenades",
+    "Imperium",
+    "Sanguinary Guard",
+    "Jump Pack"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 3,
+     "pts": 125
+    },
+    {
+     "count": 6,
+     "pts": 260
+    }
+   ],
+   "minModels": 3,
+   "maxModels": 6,
+   "wargear": [
+    {
+     "id": "encarmine-blade",
+     "name": "Encarmine Blade",
+     "pts": 0,
+     "group": "Melee Weapon",
+     "max": null
+    },
+    {
+     "id": "encarmine-spear",
+     "name": "Encarmine Spear",
+     "pts": 0,
+     "group": "Melee Weapon",
+     "max": null
+    },
+    {
+     "id": "angelus-boltgun",
+     "name": "Angelus Boltgun",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Sanguinary Guard",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "encarmine-blade",
+    "encarmine-spear",
+    "angelus-boltgun"
+   ],
+   "abilities": [
+    "Angelic Visage",
+    "Heirs of Azkaellon",
+    "Attached Unit",
+    "Sanguinary Banner",
+    "Deep Strike",
+    "Oath of Moment",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "baal-predator",
+   "name": "Baal Predator",
+   "role": "Vehicle",
+   "keywords": [
+    "Imperium",
+    "Smoke",
+    "Vehicle",
+    "Baal Predator"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 125
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "2-heavy-flamers",
+     "name": "2 Heavy Flamers",
+     "pts": 0,
+     "group": "Sponson Weapons",
+     "max": null
+    },
+    {
+     "id": "2-heavy-bolters",
+     "name": "2 Heavy Bolters",
+     "pts": 0,
+     "group": "Sponson Weapons",
+     "max": null
+    },
+    {
+     "id": "baal-flamestorm-cannon",
+     "name": "Baal Flamestorm Cannon",
+     "pts": 0,
+     "group": "Turret Weapon",
+     "max": null
+    },
+    {
+     "id": "twin-assault-cannon",
+     "name": "Twin Assault Cannon",
+     "pts": 0,
+     "group": "Turret Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Baal Predator",
+     "stats": {
+      "M": "12\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "11",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "heavy-flamer",
+    "heavy-bolter",
+    "baal-flamestorm-cannon",
+    "twin-assault-cannon"
+   ],
+   "abilities": [
+    "Oath of Moment",
+    "Damaged: 1-4 Wounds Remaining",
+    "Deadly Demise",
+    "Overcharged Engines"
+   ]
+  },
+  {
+   "id": "death-company-dreadnought",
+   "name": "Death Company Dreadnought",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Imperium",
+    "Dreadnought",
+    "Death Company Dreadnought",
+    "Death Company"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 160
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "blood-fists-blood-fist-bolt-rifles",
+     "name": "Blood Fists & Blood Fist Bolt Rifles",
+     "pts": 0,
+     "group": "Melee Weapon Option",
+     "max": null
+    },
+    {
+     "id": "blood-talons",
+     "name": "Blood Talons",
+     "pts": 0,
+     "group": "Melee Weapon Option",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Death Company Dreadnought",
+     "stats": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [
+    "blood-fists",
+    "blood-fist-bolt-rifles",
+    "blood-talons-strike",
+    "blood-talons-sweep"
+   ],
+   "abilities": [
+    "Driven by Fury",
+    "Deadly Demise",
+    "Feel No Pain",
+    "Damaged: 1-4 Wounds Remaining",
+    "Black Rage"
+   ]
+  },
+  {
+   "id": "death-company-dreadnought-with-magna-grapple",
+   "name": "Death Company Dreadnought with Magna-Grapple",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Imperium",
+    "Death Company Dreadnought",
+    "Death Company",
+    "Dreadnought"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 145
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "smoke-launchers",
+     "name": "Smoke Launchers",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "storm-bolter",
+     "name": "Storm Bolter",
+     "pts": 0,
+     "group": "Weapon Option 1",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Death Company Dreadnought",
+     "stats": {
+      "M": "8\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "storm-bolter",
+    "blood-talons",
+    "twin-furioso-fists"
+   ],
+   "abilities": [
+    "Frenzied Reprisal",
+    "Magna-grapple",
+    "Black Rage",
+    "Feel No Pain",
+    "Deadly Demise",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "furioso-dreadnought",
+   "name": "Furioso Dreadnought",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Imperium",
+    "Furioso Dreadnought",
+    "Smoke",
+    "Dreadnought"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 150
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "heavy-frag-cannon-and-furioso-fist",
+     "name": "Heavy Frag Cannon and Furioso Fist",
+     "pts": 0,
+     "group": "Weapon Options",
+     "max": null
+    },
+    {
+     "id": "blood-talons-and-meltagun",
+     "name": "Blood Talons and Meltagun",
+     "pts": 0,
+     "group": "Weapon Options",
+     "max": null
+    },
+    {
+     "id": "twin-furioso-fists-and-meltagun",
+     "name": "Twin Furioso Fists and Meltagun",
+     "pts": 0,
+     "group": "Weapon Options",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Furioso Dreadnought",
+     "stats": {
+      "M": "6\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "heavy-frag-cannon",
+    "furioso-fist",
+    "blood-talons",
+    "twin-furioso-fists"
+   ],
+   "abilities": [
+    "Wrathful Rampage",
+    "Deadly Demise",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "librarian-dreadnought",
+   "name": "Librarian Dreadnought",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Psyker",
+    "Imperium",
+    "Librarian Dreadnought",
+    "Smoke",
+    "Dreadnought"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 170
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "blood-lance",
+     "name": "Blood Lance",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "furioso-fist",
+     "name": "Furioso Fist",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "furioso-force-halberd",
+     "name": "Furioso Force Halberd",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Librarian Dreadnought",
+     "stats": {
+      "M": "8\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "blood-lance-focused-witchfire",
+    "blood-lance-witchfire",
+    "furioso-fist",
+    "furioso-force-halberd"
+   ],
+   "abilities": [
+    "Shield of Sanguinius (Aura, Psychic)",
+    "Wings of Sanguinius (Psychic)",
+    "Deadly Demise",
+    "Oath of Moment"
+   ]
+  }
+ ]
+}

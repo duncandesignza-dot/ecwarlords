@@ -1,0 +1,3944 @@
+{
+ "id": "space-wolves",
+ "name": "Space Wolves",
+ "source": "BSData/wh40k-10e",
+ "revision": "77",
+ "enhancements": [],
+ "weapons": [
+  {
+   "id": "tyrnak-and-fenrir",
+   "name": "Tyrnak and Fenrir",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "axe-morkai-sweep",
+   "name": "➤ Axe Morkai - Sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "10",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "axe-morkai-strike",
+   "name": "➤ Axe Morkai - Strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "flurry-of-teeth-and-claws",
+   "name": "Flurry of teeth and claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "staff-of-the-stormcaller",
+   "name": "Staff of the Stormcaller",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "D3",
+    "Keywords": "Psychic, Sustained Hits 2"
+   }
+  },
+  {
+   "id": "living-lightning-witchfire",
+   "name": "➤ Living Lightning - witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Psychic, Sustained Hits 2"
+   }
+  },
+  {
+   "id": "living-lightning-focused-witchfire",
+   "name": "➤ Living Lightning - focused witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2D6",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Hazardous, Psychic, Sustained Hits 2"
+   }
+  },
+  {
+   "id": "trueclaw",
+   "name": "Trueclaw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "12",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "assault-cannon",
+   "name": "Assault cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "2+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "multi-melta",
+   "name": "Multi-melta",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2"
+   }
+  },
+  {
+   "id": "helfrost-cannon-dispersed",
+   "name": "➤ Helfrost cannon - dispersed",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Torrent"
+   }
+  },
+  {
+   "id": "helfrost-cannon-focused",
+   "name": "➤ Helfrost cannon - focused",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "10",
+    "AP": "-3",
+    "D": "5",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "foehammer",
+   "name": "Foehammer",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Anti-Monster 3+, Anti-Vehicle 3+, Precision"
+   }
+  },
+  {
+   "id": "foehammer-2",
+   "name": "Foehammer",
+   "type": "ranged",
+   "stats": {
+    "Range": "6\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Anti-Monster 3+, Anti-Vehicle 3+, Assault"
+   }
+  },
+  {
+   "id": "plasma-pistol-standard",
+   "name": "➤ Plasma pistol - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "plasma-pistol-supercharge",
+   "name": "➤ Plasma pistol - supercharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Hazardous, Pistol"
+   }
+  },
+  {
+   "id": "artificer-crozius",
+   "name": "Artificer crozius",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Anti-Monster 4+, Anti-Vehicle 4+"
+   }
+  },
+  {
+   "id": "frostfang",
+   "name": "Frostfang",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "wyrmclaw",
+   "name": "Wyrmclaw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "glacius",
+   "name": "Glacius",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "crushing-teeth-and-claws",
+   "name": "Crushing teeth and claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "bolt-pistol",
+   "name": "Bolt pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "5+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "wolf-claws",
+   "name": "Wolf claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "crushing-teeth-and-claws-2",
+   "name": "Crushing teeth and claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "chainfist",
+   "name": "Chainfist",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Anti-VEHICLE 3+"
+   }
+  },
+  {
+   "id": "close-combat-weapon",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "power-weapon",
+   "name": "Power weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "combi-weapon",
+   "name": "Combi-weapon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-infantry 4+, Devastating Wounds, Rapid Fire 1"
+   }
+  },
+  {
+   "id": "storm-bolter",
+   "name": "Storm bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 2"
+   }
+  },
+  {
+   "id": "thunder-hammer",
+   "name": "Thunder hammer",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "power-fist",
+   "name": "Power fist",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "close-combat-weapon-2",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-lightning-claws",
+   "name": "Twin lightning claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "7",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "relic-weapon",
+   "name": "Relic weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "plasma-pistol-supercharge-2",
+   "name": "➤ Plasma pistol - supercharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Hazardous, Pistol"
+   }
+  },
+  {
+   "id": "bolt-carbine",
+   "name": "Bolt Carbine",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "power-fist-2",
+   "name": "Power fist",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "power-weapon-2",
+   "name": "Power weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "plasma-pistol-supercharge-3",
+   "name": "➤ Plasma pistol - supercharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Hazardous, Pistol"
+   }
+  },
+  {
+   "id": "plasma-pistol-standard-2",
+   "name": "➤ Plasma pistol - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "heirloom-weapon",
+   "name": "Heirloom weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "combi-weapon-2",
+   "name": "Combi-weapon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-infantry 4+, Devastating Wounds, Rapid Fire 1"
+   }
+  },
+  {
+   "id": "claw-of-the-jackalwolf",
+   "name": "Claw of the Jackalwolf",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "master-crafted-power-weapon",
+   "name": "Master-crafted Power Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "storm-bolter",
+   "name": "Storm Bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 2"
+   }
+  },
+  {
+   "id": "assault-cannon",
+   "name": "Assault Cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "2+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "twin-lightning-claws-2",
+   "name": "Twin lightning claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "relic-great-axe",
+   "name": "Relic Great Axe",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "morkai-bolt-pistol",
+   "name": "Morkai bolt pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Anti-PSYKER 4+, Devastating Wounds, Pistol, Precision"
+   }
+  },
+  {
+   "id": "morkai-combat-knife",
+   "name": "Morkai combat knife",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-PSYKER 4+, Devastating Wounds, Precision"
+   }
+  },
+  {
+   "id": "wulfen-weapons",
+   "name": "Wulfen Weapons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "stormfrag-auto-launcher",
+   "name": "Stormfrag auto-launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D3",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault, Blast"
+   }
+  },
+  {
+   "id": "great-wolf-claw",
+   "name": "Great wolf claw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "10",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "storm-bolter-2",
+   "name": "Storm Bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 2"
+   }
+  },
+  {
+   "id": "fenrisian-great-axe-strike",
+   "name": "➤ Fenrisian great axe - strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "fenrisian-great-axe-sweep",
+   "name": "➤ Fenrisian great axe - sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "12",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "murderclaws",
+   "name": "Murderclaws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "3+",
+    "S": "14",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Sustained Hits 1, Twin-linked"
+   }
+  },
+  {
+   "id": "wolf-guard-weapon",
+   "name": "Wolf Guard Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": ""
+   }
+  },
+  {
+   "id": "teeth-and-claws",
+   "name": "Teeth and claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "close-combat-weapon-3",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "flamer",
+   "name": "Flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "grav-gun",
+   "name": "Grav-gun",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Anti-VEHICLE 2+"
+   }
+  },
+  {
+   "id": "plasma-gun-standard",
+   "name": "➤ Plasma gun - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "plasma-gun-supercharge",
+   "name": "➤ Plasma gun - supercharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Hazardous, Rapid Fire 1"
+   }
+  },
+  {
+   "id": "lascannon",
+   "name": "Lascannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "Heavy"
+   }
+  },
+  {
+   "id": "heavy-bolter",
+   "name": "Heavy bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Heavy, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "grav-cannon",
+   "name": "Grav-cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "Anti-VEHICLE 2+, Heavy"
+   }
+  },
+  {
+   "id": "missile-launcher-frag",
+   "name": "➤ Missile launcher - frag",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast, Heavy"
+   }
+  },
+  {
+   "id": "missile-launcher-krak",
+   "name": "➤ Missile launcher - krak",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "Heavy"
+   }
+  },
+  {
+   "id": "plasma-cannon-standard",
+   "name": "➤ Plasma cannon - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D3",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Blast, Heavy"
+   }
+  },
+  {
+   "id": "plasma-cannon-supercharge",
+   "name": "➤ Plasma cannon - supercharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D3",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Blast, Hazardous, Heavy"
+   }
+  },
+  {
+   "id": "heavy-flamer",
+   "name": "Heavy flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Heavy, Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "power-weapon-3",
+   "name": "Power weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "helfrost-destructor-dispersed",
+   "name": "➤ Helfrost destructor - dispersed",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D3",
+    "BS": "3+",
+    "S": "11",
+    "AP": "-3",
+    "D": "7",
+    "Keywords": "Sustained Hits D3"
+   }
+  },
+  {
+   "id": "helfrost-destructor-focused",
+   "name": "➤ Helfrost destructor - focused",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6+6",
+    "BS": "N/A",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Torrent"
+   }
+  },
+  {
+   "id": "twin-stormstrike-missile-launcher",
+   "name": "Twin stormstrike missile launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "twin-helfrost-cannon-dispersed",
+   "name": "➤ Twin helfrost cannon - dispersed",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Torrent, Twin-linked"
+   }
+  },
+  {
+   "id": "twin-helfrost-cannon-focused",
+   "name": "➤ Twin helfrost cannon - focused",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-3",
+    "D": "5",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "cyclone-missile-launcher-frag",
+   "name": "➤ Cyclone missile launcher - frag",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "2D6",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "cyclone-missile-launcher-krak",
+   "name": "➤ Cyclone missile launcher - krak",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "helfrost-pistol-dispersed",
+   "name": "➤ Helfrost pistol - dispersed",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Pistol, Torrent"
+   }
+  },
+  {
+   "id": "helfrost-pistol-focused",
+   "name": "➤ Helfrost pistol - focused",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "tempest-hammer-and-servo-arm",
+   "name": "Tempest hammer and Servo-arm",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "teeth-and-claws-2",
+   "name": "Teeth and claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "astartes-shotgun",
+   "name": "Astartes shotgun",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "combat-knife",
+   "name": "Combat knife",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "helfrost-cannon-focused-2",
+   "name": "➤ Helfrost cannon - focused",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-3",
+    "D": "5",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "iron-priest-hammer",
+   "name": "Iron Priest hammer",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "servo-arm",
+   "name": "Servo-arm",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "helfrost-pistol-dispersed-2",
+   "name": "➤ Helfrost pistol - dispersed",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D3",
+    "BS": "N/A",
+    "S": "3",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Pistol, Torrent"
+   }
+  },
+  {
+   "id": "master-crafted-power-weapon-2",
+   "name": "Master-crafted Power Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "7",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "master-crafted-bolt-carbine",
+   "name": "Master-crafted Bolt Carbine",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "master-crafted-heavy-bolt-pistol",
+   "name": "Master-crafted Heavy Bolt Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "paired-master-crafted-power-weapons",
+   "name": "Paired Master-crafted Power Weapons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "teeth-and-claws",
+   "name": "Teeth and Claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "thunder-hammer",
+   "name": "Thunder Hammer",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Anti-Monster 3+, Anti-Vehicle 3+"
+   }
+  },
+  {
+   "id": "combat-blade",
+   "name": "Combat Blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": ""
+   }
+  },
+  {
+   "id": "runic-stave",
+   "name": "Runic Stave",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "D3",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "thunderclap",
+   "name": "Thunderclap",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D3",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Blast, Psychic"
+   }
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "blood-claws",
+   "name": "Blood Claws",
+   "role": "Battleline",
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Grenades",
+    "Imperium",
+    "Blood Claws",
+    "Tacticus"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 10,
+     "pts": 135
+    },
+    {
+     "count": 20,
+     "pts": 285
+    }
+   ],
+   "minModels": 10,
+   "maxModels": 20,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Blood Claws",
+     "stats": {
+      "M": "7\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Berserk Charge",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "grey-hunters",
+   "name": "Grey Hunters",
+   "role": "Battleline",
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Grenades",
+    "Imperium",
+    "Grey Hunters",
+    "Tacticus"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 10,
+     "pts": 165
+    }
+   ],
+   "minModels": 10,
+   "maxModels": 10,
+   "wargear": [
+    {
+     "id": "bolt-carbine",
+     "name": "Bolt Carbine",
+     "pts": 0,
+     "group": "Replace Carbine",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Grey Hunters",
+     "stats": {
+      "M": "7\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "bolt-carbine",
+    "power-fist-2",
+    "power-weapon-2",
+    "plasma-pistol-supercharge-3",
+    "plasma-pistol-standard-2"
+   ],
+   "abilities": [
+    "Cunning Hunters",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "fenrisian-wolves",
+   "name": "Fenrisian Wolves",
+   "role": "Beast",
+   "keywords": [
+    "Beast",
+    "Imperium",
+    "Fenrisian Wolves"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 40
+    },
+    {
+     "count": 6,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Fenrisian Wolves",
+     "stats": {
+      "M": "10\"",
+      "T": "4",
+      "SV": "6+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "teeth-and-claws"
+   ],
+   "abilities": [
+    "Predatory Instinct",
+    "Hunting Hounds",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "hunting-wolves",
+   "name": "Hunting Wolves",
+   "role": "Beast",
+   "keywords": [
+    "Beast",
+    "Imperium",
+    "Hunting Wolves"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [],
+   "weapons": [
+    "teeth-and-claws"
+   ],
+   "abilities": []
+  },
+  {
+   "id": "cyberwolf",
+   "name": "Cyberwolf",
+   "role": "Character",
+   "keywords": [
+    "Beast",
+    "Character",
+    "Imperium",
+    "Cyberwolf"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 20
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "teeth-and-claws",
+     "name": "Teeth and claws",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Cyberwolf",
+     "stats": {
+      "M": "10\"",
+      "T": "4",
+      "SV": "6+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "teeth-and-claws-2"
+   ],
+   "abilities": [
+    "Alpha Hunter",
+    "Close In for the Kill",
+    "Invulnerable Save",
+    "Leader",
+    "Wolfkin",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "iron-priest",
+   "name": "Iron Priest",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Imperium",
+    "Techmarine",
+    "Iron Priest"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 55
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "helfrost-pistol",
+     "name": "Helfrost pistol",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "tempest-hammer-and-servo-arm",
+     "name": "Tempest hammer and Servo-arm",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Iron Priest",
+     "stats": {
+      "M": "7\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "helfrost-pistol-dispersed",
+    "helfrost-pistol-focused",
+    "tempest-hammer-and-servo-arm"
+   ],
+   "abilities": [
+    "Iron Priest",
+    "Gift of the Iron Wolf",
+    "Leader",
+    "Judgement of the Omnissiah",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "iron-priest-on-thunderwolf",
+   "name": "Iron Priest on Thunderwolf",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Mounted",
+    "Grenades",
+    "Imperium",
+    "Iron Priest"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 95
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "iron-priest-hammer",
+     "name": "Iron Priest hammer",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "servo-arm",
+     "name": "Servo-arm",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "helfrost-pistol",
+     "name": "Helfrost pistol",
+     "pts": 0,
+     "group": "Boltgun Options",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Iron Priest on Thunderwolf",
+     "stats": {
+      "M": "10\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "iron-priest-hammer",
+    "servo-arm",
+    "helfrost-pistol-dispersed-2",
+    "helfrost-pistol-focused",
+    "crushing-teeth-and-claws-2"
+   ],
+   "abilities": [
+    "Leader",
+    "Oath of Moment",
+    "Vengeance of the Omnissiah",
+    "Iron Priest",
+    "Blessing of the Omnissiah"
+   ]
+  },
+  {
+   "id": "wolf-guard-battle-leader",
+   "name": "Wolf Guard Battle Leader",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Imperium",
+    "Tacticus",
+    "Wolf Guard",
+    "Battle Leader"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "master-crafted-power-weapon",
+     "name": "Master-crafted Power Weapon",
+     "pts": 0,
+     "group": "Replace Master-crafted Power Weapon",
+     "max": null
+    },
+    {
+     "id": "storm-shield",
+     "name": "Storm Shield",
+     "pts": 0,
+     "group": "Replace Storm Shield",
+     "max": null
+    },
+    {
+     "id": "master-crafted-bolt-carbine",
+     "name": "Master-crafted Bolt Carbine",
+     "pts": 0,
+     "group": "Replace Storm Shield",
+     "max": null
+    },
+    {
+     "id": "master-crafted-heavy-bolt-pistol",
+     "name": "Master-crafted Heavy Bolt Pistol",
+     "pts": 0,
+     "group": "Replace Storm Shield",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Wolf Guard Battle Leader",
+     "stats": {
+      "M": "7\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "master-crafted-power-weapon-2",
+    "master-crafted-bolt-carbine",
+    "master-crafted-heavy-bolt-pistol"
+   ],
+   "abilities": [
+    "Tempered Ferocity",
+    "Heroic Last Stand",
+    "Leader",
+    "Invulnerable Save",
+    "Oath of Moment",
+    "Storm Shield"
+   ]
+  },
+  {
+   "id": "wolf-guard-battle-leader-in-terminator-armour",
+   "name": "Wolf Guard Battle Leader in Terminator Armour",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Imperium",
+    "Terminator",
+    "Wolf Guard Battle Leader in Terminator Armour"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "chainfist",
+     "name": "Chainfist",
+     "pts": 0,
+     "group": "Replace storm bolter",
+     "max": null
+    },
+    {
+     "id": "relic-shield-and-close-combat-weapon",
+     "name": "Relic shield and close combat weapon",
+     "pts": 0,
+     "group": "Replace power weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Wolf Guard Battle Leader in Terminator Armour",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "chainfist",
+    "close-combat-weapon",
+    "power-weapon",
+    "combi-weapon",
+    "storm-bolter",
+    "thunder-hammer",
+    "power-fist"
+   ],
+   "abilities": [
+    "Leader",
+    "Huskarl to the Jarl",
+    "Invulnerable Save",
+    "Deep Strike",
+    "Tactical Precision",
+    "Oath of Moment",
+    "Relic shield"
+   ]
+  },
+  {
+   "id": "wolf-guard-battle-leader-on-thunderwolf",
+   "name": "Wolf Guard Battle Leader on Thunderwolf",
+   "role": "Character",
+   "keywords": [
+    "Mounted",
+    "Character",
+    "Grenades",
+    "Imperium",
+    "Wolf Guard Battle Leader on Thunderwolf"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "storm-shield-and-close-combat-weapon",
+     "name": "Storm shield and close combat weapon",
+     "pts": 0,
+     "group": "Relic weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Wolf Guard Battle Leader on Thunderwolf",
+     "stats": {
+      "M": "10\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon-2",
+    "crushing-teeth-and-claws-2",
+    "relic-weapon",
+    "plasma-pistol-supercharge-2",
+    "plasma-pistol-standard",
+    "power-fist",
+    "thunder-hammer",
+    "combi-weapon",
+    "storm-bolter"
+   ],
+   "abilities": [
+    "Leader",
+    "Tactical Precision",
+    "Oath of Moment",
+    "Aggressive Hunter",
+    "Storm Shield"
+   ]
+  },
+  {
+   "id": "wolf-guard-pack-leader",
+   "name": "Wolf Guard Pack Leader",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Imperium",
+    "Pack Leader",
+    "Wolf Guard Pack Leader"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 30
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "storm-shield",
+     "name": "Storm shield",
+     "pts": 0,
+     "group": "Loadout",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Wolf Guard Pack Leader",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "plasma-pistol-supercharge-3",
+    "plasma-pistol-standard-2",
+    "combi-weapon",
+    "storm-bolter-2"
+   ],
+   "abilities": [
+    "Leader",
+    "Oath of Moment",
+    "Storm Shield"
+   ]
+  },
+  {
+   "id": "wolf-guard-pack-leader-in-terminator-armour",
+   "name": "Wolf Guard Pack Leader in Terminator Armour",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Imperium",
+    "Terminator",
+    "Pack Leader",
+    "Wolf Guard Pack Leader in Terminator Armour"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 40
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "storm-shield",
+     "name": "Storm shield",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "cyclone-missile-launcher",
+     "name": "Cyclone missile launcher",
+     "pts": 0,
+     "group": "Heavy weapons",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Wolf Guard Pack Leader in Terminator Armour",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "cyclone-missile-launcher-frag",
+    "cyclone-missile-launcher-krak",
+    "combi-weapon",
+    "storm-bolter-2",
+    "power-fist-2"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Oath of Moment",
+    "Leader",
+    "Storm Shield"
+   ]
+  },
+  {
+   "id": "wolf-guard-pack-leader-with-jump-pack",
+   "name": "Wolf Guard Pack Leader with Jump Pack",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Jump Pack",
+    "Fly",
+    "Grenades",
+    "Imperium",
+    "Pack Leader",
+    "Wolf Guard Pack Leader with Jump Pack"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 35
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "storm-shield",
+     "name": "Storm shield",
+     "pts": 0,
+     "group": "Loadout",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Wolf Guard Pack Leader with Jump Pack",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "plasma-pistol-supercharge-3",
+    "plasma-pistol-standard-2",
+    "combi-weapon",
+    "storm-bolter-2"
+   ],
+   "abilities": [
+    "Leader",
+    "Oath of Moment",
+    "Storm Shield"
+   ]
+  },
+  {
+   "id": "wolf-lord-on-thunderwolf",
+   "name": "Wolf Lord on Thunderwolf",
+   "role": "Character",
+   "keywords": [
+    "Mounted",
+    "Character",
+    "Grenades",
+    "Imperium",
+    "Captain",
+    "Wolf Lord on Thunderwolf"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "relic-shield-and-close-combat-weapon",
+     "name": "Relic shield and close combat weapon",
+     "pts": 0,
+     "group": "Replace relic weapon",
+     "max": null
+    },
+    {
+     "id": "twin-lightning-claws",
+     "name": "Twin lightning claws",
+     "pts": 0,
+     "group": "Replace relic weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Wolf Lord on Thunderwolf",
+     "stats": {
+      "M": "10\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon-2",
+    "twin-lightning-claws",
+    "crushing-teeth-and-claws-2"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Leader",
+    "Rites of Battle",
+    "Oath of Moment",
+    "Speed of the Hunter",
+    "Relic shield"
+   ]
+  },
+  {
+   "id": "wolf-priest",
+   "name": "Wolf Priest",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Imperium",
+    "Tacticus",
+    "Wolf Priest"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Wolf Priest",
+     "stats": {
+      "M": "7\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Leader",
+    "Healing Balms",
+    "Oath of Moment",
+    "Invulnerable Save",
+    "Litany of Hate"
+   ]
+  },
+  {
+   "id": "arjac-rockfist",
+   "name": "Arjac Rockfist",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Imperium",
+    "Terminator",
+    "Arjac Rockfist"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 105
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Arjac Rockfist",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "foehammer",
+    "foehammer-2"
+   ],
+   "abilities": [
+    "Deep Strike",
+    "Invulnerable Save",
+    "Leader",
+    "Oath of Moment",
+    "Anvil of Endurance",
+    "Champion of the Kingsguard"
+   ]
+  },
+  {
+   "id": "bjorn-the-fell-handed",
+   "name": "Bjorn the Fell-Handed",
+   "role": "Epic Hero",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Character",
+    "Epic Hero",
+    "Smoke",
+    "Imperium",
+    "Bjorn the Fell-Handed",
+    "Dreadnought"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 160
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "assault-cannon",
+     "name": "Assault cannon",
+     "pts": 0,
+     "group": "Ranged weapon",
+     "max": null
+    },
+    {
+     "id": "multi-melta",
+     "name": "Multi-melta",
+     "pts": 0,
+     "group": "Ranged weapon",
+     "max": null
+    },
+    {
+     "id": "helfrost-cannon",
+     "name": "Helfrost cannon",
+     "pts": 0,
+     "group": "Ranged weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Bjorn the Fell-Handed",
+     "stats": {
+      "M": "9\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "trueclaw",
+    "assault-cannon",
+    "multi-melta",
+    "helfrost-cannon-dispersed",
+    "helfrost-cannon-focused"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Feel No Pain",
+    "Oath of Moment",
+    "Legendary Tenacity",
+    "Ancient Tactician",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "canis-wolfborn",
+   "name": "Canis Wolfborn",
+   "role": "Epic Hero",
+   "keywords": [
+    "Mounted",
+    "Character",
+    "Epic Hero",
+    "Imperium",
+    "Canis Wolfborn"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Canis Wolfborn",
+     "stats": {
+      "M": "10\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "bolt-pistol",
+    "wolf-claws",
+    "crushing-teeth-and-claws-2"
+   ],
+   "abilities": [
+    "Leader",
+    "Oath of Moment",
+    "Born of Wolves",
+    "Alpha Predator"
+   ]
+  },
+  {
+   "id": "harald-deathwolf",
+   "name": "Harald Deathwolf",
+   "role": "Epic Hero",
+   "keywords": [
+    "Mounted",
+    "Character",
+    "Epic Hero",
+    "Grenades",
+    "Imperium",
+    "Captain",
+    "Harald Deathwolf"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Harald Deathwolf",
+     "stats": {
+      "M": "10\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "7",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "glacius",
+    "crushing-teeth-and-claws"
+   ],
+   "abilities": [
+    "Leader",
+    "Invulnerable Save",
+    "Oath of Moment",
+    "Lord of the Wolfkin",
+    "Mantle of the Troll King"
+   ]
+  },
+  {
+   "id": "krom-dragongaze",
+   "name": "Krom Dragongaze",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Grenades",
+    "Imperium",
+    "Captain",
+    "Krom Dragongaze"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Krom Dragongaze",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "wyrmclaw"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Leader",
+    "Oath of Moment",
+    "Refuse to Accept Defeat",
+    "The Fierce Eye"
+   ]
+  },
+  {
+   "id": "logan-grimnar",
+   "name": "Logan Grimnar",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Imperium",
+    "Terminator",
+    "Chapter Master",
+    "Logan Grimnar"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 110
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Logan Grimnar",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "tyrnak-and-fenrir",
+    "axe-morkai-sweep",
+    "axe-morkai-strike"
+   ],
+   "abilities": [
+    "Leader",
+    "High King of Fenris",
+    "Guile of the Wolf (Aura)",
+    "Embarking within Transports",
+    "Invulnerable Save",
+    "Deep Strike",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "logan-grimnar-on-stormrider",
+   "name": "Logan Grimnar on Stormrider",
+   "role": "Epic Hero",
+   "keywords": [
+    "Mounted",
+    "Character",
+    "Epic Hero",
+    "Imperium",
+    "Chapter Master",
+    "Logan Grimnar on Stormrider"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 180
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Logan Grimnar on Stormrider",
+     "stats": {
+      "M": "10\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [
+    "flurry-of-teeth-and-claws",
+    "axe-morkai-sweep",
+    "axe-morkai-strike"
+   ],
+   "abilities": [
+    "Leader",
+    "Logan Grimnar",
+    "Deadly Demise",
+    "Invulnerable Save",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "lukas-the-trickster",
+   "name": "Lukas the Trickster",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Grenades",
+    "Imperium",
+    "Lukas the Trickster"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 50
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Lukas the Trickster",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "claw-of-the-jackalwolf",
+    "plasma-pistol-supercharge-3",
+    "plasma-pistol-standard-2"
+   ],
+   "abilities": [
+    "Leader",
+    "Oath of Moment",
+    "Pelt of the Doppelgangrel:",
+    "Last Laugh",
+    "Master of Mischief"
+   ]
+  },
+  {
+   "id": "murderfang",
+   "name": "Murderfang",
+   "role": "Epic Hero",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Character",
+    "Epic Hero",
+    "Imperium",
+    "Murderfang",
+    "Wulfen",
+    "Dreadnought"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 150
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Murderfang",
+     "stats": {
+      "M": "9\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "murderclaws",
+    "storm-bolter-2"
+   ],
+   "abilities": [
+    "Murder-maker [Aura]",
+    "Force of Untamed Destruction",
+    "Beastial Fury",
+    "Deadly Demise",
+    "Feel No Pain",
+    "Oath of Moment",
+    "Curse of the Wulfen"
+   ]
+  },
+  {
+   "id": "njal-stormcaller",
+   "name": "Njal Stormcaller",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Psyker",
+    "Imperium",
+    "Njal Stormcaller",
+    "Tacticus"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Njal Stormcaller",
+     "stats": {
+      "M": "7\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "staff-of-the-stormcaller",
+    "living-lightning-witchfire",
+    "living-lightning-focused-witchfire"
+   ],
+   "abilities": [
+    "Leader",
+    "Wind Walker (Psychic)",
+    "Tempest's Wrath (Psychic)",
+    "Invulnerable Save",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "ragnar-blackmane",
+   "name": "Ragnar Blackmane",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Imperium",
+    "Grenades",
+    "Tacticus",
+    "Captain",
+    "Ragnar Blackmane"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Ragnar Blackmane",
+     "stats": {
+      "M": "7\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "frostfang"
+   ],
+   "abilities": [
+    "Leader",
+    "Invulnerable Save",
+    "Oath of Moment",
+    "War Howl",
+    "Battle-lust"
+   ]
+  },
+  {
+   "id": "ulrik-the-slayer",
+   "name": "Ulrik the Slayer",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Grenades",
+    "Imperium",
+    "Ulrik the Slayer",
+    "Wolf Priest"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Ulrik the Slayer",
+     "stats": {
+      "M": "7\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "5+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "plasma-pistol-standard",
+    "plasma-pistol-supercharge",
+    "artificer-crozius"
+   ],
+   "abilities": [
+    "Leader",
+    "Feel No Pain",
+    "Invulnerable Save",
+    "Oath of Moment",
+    "Slayer’s Oath",
+    "Oathbound"
+   ]
+  },
+  {
+   "id": "hounds-of-morkai",
+   "name": "Hounds of Morkai",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Smoke",
+    "Imperium",
+    "Phobos",
+    "Hounds of Morkai"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    },
+    {
+     "count": 6,
+     "pts": 160
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Hounds of Morkai",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "morkai-bolt-pistol",
+    "morkai-combat-knife"
+   ],
+   "abilities": [
+    "Morkai’s Howl",
+    "Invulnerable Save",
+    "Attached Unit",
+    "Scouts",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "long-fangs",
+   "name": "Long Fangs",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Long Fangs"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 4,
+     "pts": 120
+    },
+    {
+     "count": 6,
+     "pts": 145
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 5,
+   "wargear": [
+    {
+     "id": "power-weapon",
+     "name": "Power weapon",
+     "pts": 0,
+     "group": "Replace close combat weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Long Fangs",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Long Fang Pack Leader",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "lascannon",
+    "heavy-bolter",
+    "grav-cannon",
+    "missile-launcher-frag",
+    "missile-launcher-krak",
+    "plasma-cannon-standard",
+    "plasma-cannon-supercharge",
+    "heavy-flamer",
+    "power-weapon-3",
+    "close-combat-weapon-3",
+    "plasma-pistol-supercharge-3",
+    "plasma-pistol-standard-2"
+   ],
+   "abilities": [
+    "Fire Discipline",
+    "Attached Unit",
+    "Armorium Cherub",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "skyclaws",
+   "name": "Skyclaws",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Jump Pack",
+    "Fly",
+    "Grenades",
+    "Imperium",
+    "Skyclaws"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 4,
+     "pts": 90
+    },
+    {
+     "count": 14,
+     "pts": 240
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 14,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Skyclaw Pack Leader",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Skyclaws",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "plasma-pistol-supercharge-3",
+    "plasma-pistol-standard-2",
+    "close-combat-weapon-3",
+    "flamer",
+    "grav-gun",
+    "plasma-gun-standard",
+    "plasma-gun-supercharge"
+   ],
+   "abilities": [
+    "Deep Strike",
+    "Oath of Moment",
+    "Headstrong",
+    "Attached Unit"
+   ]
+  },
+  {
+   "id": "wolf-guard",
+   "name": "Wolf Guard",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Wolf Guard"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 5,
+     "pts": 85
+    },
+    {
+     "count": 10,
+     "pts": 170
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 10,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Wolf Guard",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "5+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "heirloom-weapon",
+    "combi-weapon-2",
+    "plasma-pistol-supercharge-3",
+    "plasma-pistol-standard-2"
+   ],
+   "abilities": [
+    "Chosen Companions",
+    "Attached Unit",
+    "Storm Shield",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "wolf-guard-headtakers",
+   "name": "Wolf Guard Headtakers",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 220
+    },
+    {
+     "count": 4,
+     "pts": 220
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Wolf Guard Headtakers",
+     "stats": {
+      "M": "7\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Hunting Wolves",
+     "stats": {
+      "M": "10\"",
+      "T": "4",
+      "SV": "6+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "master-crafted-power-weapon",
+    "paired-master-crafted-power-weapons",
+    "teeth-and-claws"
+   ],
+   "abilities": [
+    "Let Loose the Wolves",
+    "Headhunters",
+    "Hunting Hounds",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "wolf-guard-terminators",
+   "name": "Wolf Guard Terminators",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Imperium",
+    "Terminator",
+    "Wolf Guard Terminators",
+    "Wolf Guard"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 4,
+     "pts": 170
+    },
+    {
+     "count": 9,
+     "pts": 340
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "twin-linked-lightning-claws",
+     "name": "Twin-linked Lightning Claws",
+     "pts": 0,
+     "group": "Weapons",
+     "max": null
+    },
+    {
+     "id": "relic-great-axe",
+     "name": "Relic Great Axe",
+     "pts": 0,
+     "group": "Weapons",
+     "max": null
+    },
+    {
+     "id": "storm-bolter-master-crafted-power-weapon",
+     "name": "Storm Bolter & Master-crafted Power Weapon",
+     "pts": 0,
+     "group": "Weapons",
+     "max": null
+    },
+    {
+     "id": "storm-shield-master-crafted-power-weapon",
+     "name": "Storm Shield & Master-crafted Power Weapon",
+     "pts": 0,
+     "group": "Weapons",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Wolf Guard Terminator",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Wolf Guard Terminator (Storm shield)",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Wolf Guard Terminator Pack Leader",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "master-crafted-power-weapon",
+    "storm-bolter",
+    "assault-cannon",
+    "twin-lightning-claws-2",
+    "relic-great-axe",
+    "power-fist-2"
+   ],
+   "abilities": [
+    "Rugged Resilience",
+    "Invulnerable Save",
+    "Oath of Moment",
+    "Deep Strike"
+   ]
+  },
+  {
+   "id": "wolf-scouts",
+   "name": "Wolf Scouts",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Smoke",
+    "Imperium",
+    "Scout Squad",
+    "Wolf Scouts"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 4,
+     "pts": 80
+    },
+    {
+     "count": 9,
+     "pts": 160
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Wolf Scout Pack Leader",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Wolf Scouts",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "astartes-shotgun",
+    "combat-knife",
+    "combi-weapon",
+    "storm-bolter-2",
+    "plasma-pistol-supercharge-3",
+    "plasma-pistol-standard-2"
+   ],
+   "abilities": [
+    "Scouts",
+    "Infiltrators",
+    "Oath of Moment",
+    "Guerrilla Tactics"
+   ]
+  },
+  {
+   "id": "wulfen",
+   "name": "Wulfen",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Imperium",
+    "Wulfen"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 5,
+     "pts": 85
+    },
+    {
+     "count": 10,
+     "pts": 170
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 10,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Wulfen",
+     "stats": {
+      "M": "9\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "wulfen-weapons",
+    "stormfrag-auto-launcher"
+   ],
+   "abilities": [
+    "Death Totem",
+    "Savage Frenzy",
+    "Oath of Moment",
+    "Curse of the Wulfen"
+   ]
+  },
+  {
+   "id": "wulfen-with-storm-shields",
+   "name": "Wulfen with Storm Shields",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Imperium",
+    "Wulfen",
+    "Wulfen with Storm Shields"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 5,
+     "pts": 100
+    },
+    {
+     "count": 10,
+     "pts": 200
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 10,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Wulfen",
+     "stats": {
+      "M": "9\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "thunder-hammer",
+    "stormfrag-auto-launcher"
+   ],
+   "abilities": [
+    "Death Totem",
+    "Hammer Blow",
+    "Oath of Moment",
+    "Curse of the Wulfen"
+   ]
+  },
+  {
+   "id": "thunderwolf-cavalry",
+   "name": "Thunderwolf Cavalry",
+   "role": "Mounted",
+   "keywords": [
+    "Mounted",
+    "Grenades",
+    "Imperium",
+    "Thunderwolf Cavalry"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 3,
+     "pts": 115
+    },
+    {
+     "count": 6,
+     "pts": 230
+    }
+   ],
+   "minModels": 3,
+   "maxModels": 6,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Thunderwolf Cavalry",
+     "stats": {
+      "M": "12\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "wolf-guard-weapon",
+    "crushing-teeth-and-claws-2",
+    "plasma-pistol-supercharge-3",
+    "plasma-pistol-standard-2"
+   ],
+   "abilities": [
+    "Thunderous Charge",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "wolf-scout",
+   "name": "Wolf Scout",
+   "role": "Other",
+   "keywords": [],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [],
+   "weapons": [
+    "combat-blade"
+   ],
+   "abilities": []
+  },
+  {
+   "id": "wolf-scout-pack-leader",
+   "name": "Wolf Scout Pack Leader",
+   "role": "Other",
+   "keywords": [],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [],
+   "weapons": [],
+   "abilities": []
+  },
+  {
+   "id": "wolf-scout-w-haywire-mine",
+   "name": "Wolf Scout w/ haywire mine",
+   "role": "Other",
+   "keywords": [],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [],
+   "weapons": [
+    "combat-blade"
+   ],
+   "abilities": [
+    "Haywire Mine"
+   ]
+  },
+  {
+   "id": "wolf-scout-w-plasma-gun",
+   "name": "Wolf Scout w/ plasma gun",
+   "role": "Other",
+   "keywords": [],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [],
+   "weapons": [
+    "combat-blade"
+   ],
+   "abilities": []
+  },
+  {
+   "id": "wolf-scout-w-runic-stave-and-thunderclap",
+   "name": "Wolf Scout w/ runic stave and Thunderclap",
+   "role": "Other",
+   "keywords": [],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [],
+   "weapons": [
+    "runic-stave",
+    "thunderclap"
+   ],
+   "abilities": []
+  },
+  {
+   "id": "stormfang-gunship",
+   "name": "Stormfang Gunship",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Transport",
+    "Stormfang Gunship",
+    "Imperium"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 300
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "helfrost-destructor",
+     "name": "Helfrost destructor",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-stormstrike-missile-launcher",
+     "name": "Twin stormstrike missile launcher",
+     "pts": 0,
+     "group": "Nose weapon",
+     "max": null
+    },
+    {
+     "id": "two-skyhammer-missile-launchers",
+     "name": "Two skyhammer missile launchers",
+     "pts": 0,
+     "group": "Sponson weapons",
+     "max": null
+    },
+    {
+     "id": "two-twin-multi-meltas",
+     "name": "Two twin multi-meltas",
+     "pts": 0,
+     "group": "Sponson weapons",
+     "max": null
+    },
+    {
+     "id": "two-twin-heavy-bolters",
+     "name": "Two twin heavy bolters",
+     "pts": 0,
+     "group": "Sponson weapons",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Stormfang Gunship",
+     "stats": {
+      "M": "20+\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "14",
+      "LD": "6+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "helfrost-destructor-dispersed",
+    "helfrost-destructor-focused",
+    "twin-stormstrike-missile-launcher"
+   ],
+   "abilities": [
+    "Frozen Prey",
+    "Hover",
+    "Deadly Demise",
+    "Damaged: 1-5 Wounds Remaining",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "stormwolf",
+   "name": "Stormwolf",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Transport",
+    "Stormwolf",
+    "Imperium"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 250
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "twin-helfrost-cannon",
+     "name": "Twin helfrost cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "two-skyhammer-missile-launchers",
+     "name": "Two skyhammer missile launchers",
+     "pts": 0,
+     "group": "Sponson weapons",
+     "max": null
+    },
+    {
+     "id": "two-twin-multi-meltas",
+     "name": "Two twin multi-meltas",
+     "pts": 0,
+     "group": "Sponson weapons",
+     "max": null
+    },
+    {
+     "id": "two-twin-heavy-bolters",
+     "name": "Two twin heavy bolters",
+     "pts": 0,
+     "group": "Sponson weapons",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Stormwolf",
+     "stats": {
+      "M": "20+\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "14",
+      "LD": "6+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-helfrost-cannon-dispersed",
+    "twin-helfrost-cannon-focused"
+   ],
+   "abilities": [
+    "Into the Foe",
+    "Deadly Demise",
+    "Hover",
+    "Damaged: 1-5 Wounds Remaining",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "venerable-dreadnought",
+   "name": "Venerable Dreadnought",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Smoke",
+    "Imperium",
+    "Dreadnought",
+    "Venerable Dreadnought"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 130
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "fenrisian-great-axe-and-blizzard-shield",
+     "name": "Fenrisian great axe and blizzard shield",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "helfrost-cannon",
+     "name": "Helfrost cannon",
+     "pts": 0,
+     "group": "Replace assault cannon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Space Wolves Venerable Dreadnought",
+     "stats": {
+      "M": "8\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "helfrost-cannon-dispersed",
+    "helfrost-cannon-focused-2",
+    "fenrisian-great-axe-strike",
+    "fenrisian-great-axe-sweep",
+    "storm-bolter-2"
+   ],
+   "abilities": [
+    "Fervour of the Ancients (Aura)",
+    "Deadly Demise",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "wulfen-dreadnought",
+   "name": "Wulfen Dreadnought",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Imperium",
+    "Wulfen",
+    "Dreadnought"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 135
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "great-wolf-claw",
+     "name": "Great wolf claw",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Wulfen Dreadnought",
+     "stats": {
+      "M": "9\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "great-wolf-claw",
+    "storm-bolter-2",
+    "fenrisian-great-axe-strike",
+    "fenrisian-great-axe-sweep"
+   ],
+   "abilities": [
+    "Bestial Rage",
+    "Violent Fury",
+    "Feel No Pain",
+    "Deadly Demise",
+    "Oath of Moment",
+    "Curse of the Wulfen"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,184 @@
+{
+ "id": "iron-hands",
+ "name": "Iron Hands",
+ "source": "BSData/wh40k-10e",
+ "revision": "11",
+ "enhancements": [],
+ "weapons": [
+  {
+   "id": "gorgon-s-wrath",
+   "name": "Gorgon's Wrath",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Sustained Hits 2"
+   }
+  },
+  {
+   "id": "harrowhand",
+   "name": "Harrowhand",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "medusan-manipuli",
+   "name": "Medusan Manipuli",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "axiom-strike",
+   "name": "Axiom - Strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": ""
+   }
+  },
+  {
+   "id": "axiom-sweep",
+   "name": "Axiom - Sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "10",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": ""
+   }
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "caanok-var",
+   "name": "Caanok Var",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Imperium",
+    "Terminator",
+    "Captain",
+    "Caanok Var"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Caanok Var",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "axiom-strike",
+    "axiom-sweep"
+   ],
+   "abilities": [
+    "Cold and Calculating",
+    "Cerebrex Logic Engine",
+    "Leader",
+    "Feel No Pain",
+    "Deep Strike",
+    "Oath of Moment",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "iron-father-feirros",
+   "name": "Iron Father Feirros",
+   "role": "Epic Hero",
+   "keywords": [
+    "Character",
+    "Epic Hero",
+    "Infantry",
+    "Imperium",
+    "Gravis",
+    "Iron Father Ferrios"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 95
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Iron Father Ferrios",
+     "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "gorgon-s-wrath",
+    "harrowhand",
+    "medusan-manipuli"
+   ],
+   "abilities": [
+    "Leader",
+    "Oath of Moment",
+    "Rites of Tempering",
+    "Iron Father",
+    "Master of the Forge",
+    "Inspiring Commander"
+   ]
+  }
+ ]
+}

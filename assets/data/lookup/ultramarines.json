@@ -1,0 +1,1309 @@
+{
+ "id": "ultramarines",
+ "name": "Ultramarines",
+ "source": "BSData/wh40k-10e",
+ "revision": "48",
+ "enhancements": [],
+ "weapons": [
+  {
+   "id": "artisan-plasma-pistol",
+   "name": "Artisan Plasma Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "talassarian-tempest-blade",
+   "name": "Talassarian Tempest Blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "infernus",
+   "name": "Infernus",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Anti-Infantry 4+, Devastating Wounds, Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "artificer-crozius",
+   "name": "Artificer Crozius",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "storm-of-the-emperor-s-wrath-witchfire",
+   "name": "➤ Storm of the Emperor’s Wrath - Witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Blast, Psychic"
+   }
+  },
+  {
+   "id": "storm-of-the-emperor-s-wrath-focused-witchfire",
+   "name": "➤ Storm of the Emperor’s Wrath - Focused Witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2D6",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Blast, Hazardous, Psychic"
+   }
+  },
+  {
+   "id": "rod-of-tigurius",
+   "name": "Rod of Tigurius",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "D3",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "gauntlets-of-ultramar",
+   "name": "Gauntlets of Ultramar",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "4",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Pistol, Twin-linked"
+   }
+  },
+  {
+   "id": "gauntlets-of-ultramar-2",
+   "name": "Gauntlets of Ultramar",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "victrix-power-sword",
+   "name": "Victrix Power Sword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "hand-of-dominion",
+   "name": "Hand of Dominion",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Rapid Fire 2"
+   }
+  },
+  {
+   "id": "hand-of-dominion-2",
+   "name": "Hand of Dominion",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "7",
+    "WS": "2+",
+    "S": "14",
+    "AP": "-4",
+    "D": "4",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "the-emperor-s-sword",
+   "name": "The Emperor's Sword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "14",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "chronus-servo-arm",
+   "name": "Chronus' Servo-Arm",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "combat-knife",
+   "name": "Combat Knife",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "quietus",
+   "name": "Quietus",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Precision"
+   }
+  },
+  {
+   "id": "bolt-pistol",
+   "name": "Bolt Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-Tyranids 4+, Pistol"
+   }
+  },
+  {
+   "id": "boltgun",
+   "name": "Boltgun",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-Tyranids 4+"
+   }
+  },
+  {
+   "id": "close-combat-weapon",
+   "name": "Close Combat Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-Tyranids 4+"
+   }
+  },
+  {
+   "id": "invictus",
+   "name": "Invictus",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "sword-of-idaeus",
+   "name": "Sword of Idaeus",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "astartes-chainsword",
+   "name": "Astartes Chainsword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Anti-Infantry 2+"
+   }
+  },
+  {
+   "id": "talassarian-tempest-blade-strike",
+   "name": "➤ Talassarian Tempest Blade - Strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "talassarian-tempest-blade-coup-de-grace",
+   "name": "➤ Talassarian Tempest Blade - Coup de Grace",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Precision"
+   }
+  },
+  {
+   "id": "talassarian-tempest-blade-sweep",
+   "name": "➤ Talassarian Tempest Blade - Sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "9",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "master-crafted-bolt-carbine",
+   "name": "Master-crafted Bolt Carbine",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": ""
+   }
+  },
+  {
+   "id": "blades-of-honour",
+   "name": "Blades of Honour",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Precision, Twin-linked"
+   }
+  },
+  {
+   "id": "master-crafted-chainsword",
+   "name": "Master-crafted Chainsword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Anti-infantry 2+"
+   }
+  },
+  {
+   "id": "master-crafted-bolter",
+   "name": "Master-crafted Bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Assault, Heavy"
+   }
+  },
+  {
+   "id": "close-combat-weapon",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "astropathic-blast",
+   "name": "Astropathic Blast",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Blast, Psychic"
+   }
+  },
+  {
+   "id": "force-stave",
+   "name": "Force Stave",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "archeotech-laspistol",
+   "name": "Archeotech Laspistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "power-weapon",
+   "name": "Power Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "captain-sicarius",
+   "name": "Captain Sicarius",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Captain",
+    "Imperium",
+    "Sicarius"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Captain Sicarius",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "artisan-plasma-pistol",
+    "talassarian-tempest-blade"
+   ],
+   "abilities": [
+    "Oath of Moment",
+    "Leader",
+    "Invulnerable Save",
+    "Lead From the Front",
+    "Knight Champion of Macragge"
+   ]
+  },
+  {
+   "id": "captain-titus",
+   "name": "Captain Titus",
+   "role": "Epic Hero",
+   "keywords": [
+    "Titus",
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Imperium",
+    "Tacticus",
+    "Grenades",
+    "Captain"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Captain Titus",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "master-crafted-chainsword",
+    "master-crafted-bolter"
+   ],
+   "abilities": [
+    "Leader",
+    "Oath of Moment",
+    "Invulnerable Save",
+    "Feel No Pain",
+    "Press the Attack",
+    "Honour of Ultramar"
+   ]
+  },
+  {
+   "id": "cato-sicarius",
+   "name": "Cato Sicarius",
+   "role": "Epic Hero",
+   "keywords": [
+    "Character",
+    "Epic Hero",
+    "Infantry",
+    "Captain",
+    "Imperium",
+    "Tacticus",
+    "Sicarius",
+    "Cato"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 95
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Cato Sicarius",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "artisan-plasma-pistol",
+    "talassarian-tempest-blade-strike",
+    "talassarian-tempest-blade-coup-de-grace",
+    "talassarian-tempest-blade-sweep"
+   ],
+   "abilities": [
+    "Knight Champion of Macragge",
+    "Honour or Death",
+    "Leader",
+    "Invulnerable Save (4+)",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "chaplain-cassius",
+   "name": "Chaplain Cassius",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Chaplain Cassius",
+    "Imperium"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Chaplain Cassius",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "5+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "infernus",
+    "artificer-crozius"
+   ],
+   "abilities": [
+    "Leader",
+    "Oath of Moment",
+    "Invulnerable Save",
+    "Catechism of Death",
+    "Inspired Retribution"
+   ]
+  },
+  {
+   "id": "chief-librarian-tigurius",
+   "name": "Chief Librarian Tigurius",
+   "role": "Epic Hero",
+   "keywords": [
+    "Character",
+    "Epic Hero",
+    "Infantry",
+    "Imperium",
+    "Psyker",
+    "Chief Librarian Tigurius"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Chief Librarian Tigurius",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "storm-of-the-emperor-s-wrath-witchfire",
+    "storm-of-the-emperor-s-wrath-focused-witchfire",
+    "rod-of-tigurius"
+   ],
+   "abilities": [
+    "Leader",
+    "Oath of Moment",
+    "Invulnerable Save",
+    "Hood of Hellfire",
+    "Master of Prescience (Psychic)"
+   ]
+  },
+  {
+   "id": "lieutenant-titus",
+   "name": "Lieutenant Titus",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Imperium",
+    "Grenades",
+    "Epic Hero",
+    "Lieutenant",
+    "Titus",
+    "Tacticus"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Lieutenant Titus",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "astartes-chainsword"
+   ],
+   "abilities": [
+    "Press the Attack",
+    "Honour of the Chapter",
+    "Leader",
+    "Feel No Pain",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "marneus-calgar-in-armour-of-antilochus",
+   "name": "Marneus Calgar in Armour of Antilochus",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Imperium",
+    "Terminator",
+    "Chapter Master",
+    "Marneus Calgar"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 140
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Marneus Calgar in Armour of Antilochus",
+     "stats": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "gauntlets-of-ultramar",
+    "gauntlets-of-ultramar-2"
+   ],
+   "abilities": [
+    "Inspiring Leader",
+    "Master Tactician",
+    "Leader",
+    "Deep Strike",
+    "Oath of Moment",
+    "Invulnerable Save (4+)"
+   ]
+  },
+  {
+   "id": "roboute-guilliman",
+   "name": "Roboute Guilliman",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Imperium",
+    "Primarch",
+    "Roboute Guilliman",
+    "Monster"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 340
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Roboute Guilliman",
+     "stats": {
+      "M": "8\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "10",
+      "LD": "5+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [
+    "hand-of-dominion",
+    "hand-of-dominion-2",
+    "the-emperor-s-sword"
+   ],
+   "abilities": [
+    "Oath of Moment",
+    "Invulnerable Save",
+    "Author of the Codex",
+    "Ultramarines Bodyguard",
+    "Armour of Fate",
+    "Supreme Commander"
+   ]
+  },
+  {
+   "id": "sergeant-chronus",
+   "name": "Sergeant Chronus",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Imperium",
+    "Sergeant Chronus"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Sergeant Chronus",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "chronus-servo-arm"
+   ],
+   "abilities": [
+    "Oath of Moment",
+    "Tank Commander",
+    "Chronus"
+   ]
+  },
+  {
+   "id": "sergeant-telion",
+   "name": "Sergeant Telion",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Imperium",
+    "Sergeant Telion"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Sergeant Telion",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "combat-knife",
+    "quietus"
+   ],
+   "abilities": [
+    "Leader",
+    "Stealth",
+    "Scouts",
+    "Infiltrators",
+    "Oath of Moment",
+    "Voice of Experience",
+    "Guiding Hand"
+   ]
+  },
+  {
+   "id": "uriel-ventris",
+   "name": "Uriel Ventris",
+   "role": "Epic Hero",
+   "keywords": [
+    "Uriel Ventris",
+    "Character",
+    "Epic Hero",
+    "Infantry",
+    "Captain",
+    "Imperium",
+    "Tacticus"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 95
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Uriel Ventris",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "invictus",
+    "sword-of-idaeus"
+   ],
+   "abilities": [
+    "Leader",
+    "Oath of Moment",
+    "Invulnerable Save",
+    "Unorthodox Strategist [Aura]",
+    "Master of the Fleet"
+   ]
+  },
+  {
+   "id": "wardens-of-ultramar",
+   "name": "Wardens of Ultramar",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Epic Hero",
+    "Grenades",
+    "Imperium",
+    "Tacticus",
+    "Wardens of Ultramar"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 105
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Ancient Gadriel, Veteran Sergeant Metaurus",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Gaius Silva, Aemelia Minervas, Dainal Kornelius, Lucia Vestha",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon",
+    "astropathic-blast",
+    "force-stave",
+    "archeotech-laspistol",
+    "power-weapon"
+   ],
+   "abilities": [
+    "Second Company Banner",
+    "Strategium Command",
+    "Heroes of Ultramar",
+    "Storm Shield",
+    "Refractor Field"
+   ]
+  },
+  {
+   "id": "marneus-calgar",
+   "name": "Marneus Calgar",
+   "role": "Infantry",
+   "keywords": [
+    "Imperium",
+    "Infantry"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 200
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Marneus Calgar",
+     "stats": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Victrix Honour Guard",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "gauntlets-of-ultramar",
+    "gauntlets-of-ultramar-2",
+    "victrix-power-sword"
+   ],
+   "abilities": [
+    "Leader",
+    "Oath of Moment",
+    "Invulnerable Save",
+    "Inspiring Leader",
+    "Master Tactician",
+    "Honour Guard of Macragge"
+   ]
+  },
+  {
+   "id": "tyrannic-war-veterans",
+   "name": "Tyrannic War Veterans",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Tyrannic War Veterans"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 5,
+     "pts": 85
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 5,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Tyrannic War Veterans",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Veteran Sergeant",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "bolt-pistol",
+    "boltgun",
+    "close-combat-weapon"
+   ],
+   "abilities": [
+    "Oath of Moment",
+    "Tyrannic War Veterans"
+   ]
+  },
+  {
+   "id": "ultramarines-honour-guard",
+   "name": "Ultramarines Honour Guard",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Honor Guard"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 155
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Ultramarines Honor Guard",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Oath of Moment",
+    "Astartes Banner",
+    "Honour or Death",
+    "Honour Guard",
+    "Honour Guard of Macragge"
+   ]
+  },
+  {
+   "id": "victrix-honour-guard",
+   "name": "Victrix Honour Guard",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Imperium",
+    "Tacticus",
+    "Honor Guard",
+    "Victrix"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 110
+    },
+    {
+     "count": 6,
+     "pts": 220
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 6,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Victrix Honour Guard",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "master-crafted-bolt-carbine",
+    "blades-of-honour"
+   ],
+   "abilities": [
+    "Banner of Macragge",
+    "Attached Unit",
+    "Oath of Moment",
+    "Ultramarines Honour Guard",
+    "Glory of Ultramar"
+   ]
+  }
+ ]
+}

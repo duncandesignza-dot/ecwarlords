@@ -1,0 +1,190 @@
+{
+ "id": "white-scars",
+ "name": "White Scars",
+ "source": "BSData/wh40k-10e",
+ "revision": "15",
+ "enhancements": [],
+ "weapons": [
+  {
+   "id": "moonfang",
+   "name": "Moonfang",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Devastating Wounds, Precision"
+   }
+  },
+  {
+   "id": "onslaught-gatling-cannon",
+   "name": "Onslaught Gatling Cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "8",
+    "BS": "2+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "stormtooth",
+   "name": "Stormtooth",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Lance, Anti-monster 4+, Anti-vehicle 4+"
+   }
+  },
+  {
+   "id": "power-sword",
+   "name": "Power Sword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "kor-sarro-khan",
+   "name": "Kor'sarro Khan",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Captain",
+    "Imperium",
+    "Kor'sarro Khan",
+    "Tacticus"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 60
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Kor'sarro Khan",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "moonfang"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Oath of Moment",
+    "Leader",
+    "For the Khan!",
+    "Trophy Taker",
+    "Inspiring Commander"
+   ]
+  },
+  {
+   "id": "suboden-khan",
+   "name": "Suboden Khan",
+   "role": "Epic Hero",
+   "keywords": [
+    "Mounted",
+    "Character",
+    "Epic Hero",
+    "Imperium",
+    "Grenades",
+    "Captain",
+    "Suboden Khan"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 115
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "onslaught-gatling-cannon",
+     "name": "Onslaught Gatling Cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "stormtooth",
+     "name": "Stormtooth",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "power-sword",
+     "name": "Power Sword",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Suboden Khan",
+     "stats": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "onslaught-gatling-cannon",
+    "stormtooth",
+    "power-sword"
+   ],
+   "abilities": [
+    "Oath of Moment",
+    "Invulnerable Save",
+    "Leader",
+    "Spear of Chogoris",
+    "Skilled Riders"
+   ]
+  }
+ ]
+}

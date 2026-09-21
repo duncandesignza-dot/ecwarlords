@@ -1,0 +1,2030 @@
+{
+ "id": "chaos-knights",
+ "name": "Chaos Knights",
+ "source": "BSData/wh40k-10e",
+ "revision": "17",
+ "enhancements": [],
+ "weapons": [
+  {
+   "id": "commune-blade",
+   "name": "Commune blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "autopistol",
+   "name": "Autopistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "close-combat-weapon",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "warp-curse-witchfire",
+   "name": "➤ Warp Curse - witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "warp-curse-focused-witchfire",
+   "name": "➤ Warp Curse - focused witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Hazardous, Psychic, Sustained Hits 2"
+   }
+  },
+  {
+   "id": "commune-stave",
+   "name": "Commune stave",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "D3",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "power-fist",
+   "name": "Power fist",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "ogryn-weapons",
+   "name": "Ogryn weapons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "chainsword",
+   "name": "Chainsword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "power-weapon",
+   "name": "Power weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "corrupted-pistol",
+   "name": "Corrupted pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "boltgun",
+   "name": "Boltgun",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "lasgun",
+   "name": "Lasgun",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "flamer",
+   "name": "Flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "plasma-gun-standard",
+   "name": "➤ Plasma gun - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "plasma-gun-supercharge",
+   "name": "➤ Plasma gun - supercharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Hazardous, Rapid Fire 1"
+   }
+  },
+  {
+   "id": "meltagun",
+   "name": "Meltagun",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2"
+   }
+  },
+  {
+   "id": "cultist-sniper-rifle",
+   "name": "Cultist sniper rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "4",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Heavy, Precision"
+   }
+  },
+  {
+   "id": "cultist-grenade-launcher-frag",
+   "name": "➤ Cultist grenade launcher - frag",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D3",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "cultist-grenade-launcher-krak",
+   "name": "➤ Cultist grenade launcher - krak",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "brutal-weapons",
+   "name": "Brutal weapons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "hideous-mutations",
+   "name": "Hideous mutations",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "belly-flamer",
+   "name": "Belly flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "chainsword-2",
+   "name": "Chainsword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "bolt-pistol",
+   "name": "Bolt pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "plasma-pistol-standard",
+   "name": "➤ Plasma pistol - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "plasma-pistol-supercharge",
+   "name": "➤ Plasma pistol- supercharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Hazardous, Pistol"
+   }
+  },
+  {
+   "id": "close-combat-weapon-2",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "great-weapon",
+   "name": "Great weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "5+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "corrupted-stave",
+   "name": "Corrupted stave",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "4",
+    "AP": "-1",
+    "D": "D3",
+    "Keywords": "Devastating Wounds, Psychic"
+   }
+  },
+  {
+   "id": "corrupted-stave-2",
+   "name": "Corrupted stave",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D3",
+    "BS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Devastating Wounds, Psychic"
+   }
+  },
+  {
+   "id": "balefire-pike",
+   "name": "Balefire pike",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6+3",
+    "BS": "N/A",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "close-combat-weapon-3",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "heavy-stubber",
+   "name": "Heavy stubber",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "4",
+    "BS": "5+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Heavy, Rapid Fire 3"
+   }
+  },
+  {
+   "id": "diseased-claws-and-fangs",
+   "name": "Diseased claws and fangs",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "2",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "electro-goads",
+   "name": "Electro-goads",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Sustained Hits 2"
+   }
+  },
+  {
+   "id": "enforcer-melee-weapon",
+   "name": "Enforcer melee weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "power-weapon-2",
+   "name": "Power weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "enforcer-pistol",
+   "name": "Enforcer pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "autogun",
+   "name": "Autogun",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "lasgun-2",
+   "name": "Lasgun",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "shotgun",
+   "name": "Shotgun",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "renegade-firearm",
+   "name": "Renegade firearm",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "close-combat-weapons",
+   "name": "Close combat weapons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "heavy-bolter",
+   "name": "Heavy bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "5+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Heavy, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "autocannon",
+   "name": "Autocannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "2",
+    "BS": "5+",
+    "S": "9",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "Heavy"
+   }
+  },
+  {
+   "id": "lascannon",
+   "name": "Lascannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "5+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "Heavy"
+   }
+  },
+  {
+   "id": "missile-launcher-frag",
+   "name": "➤ Missile launcher - frag",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6",
+    "BS": "5+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast, Heavy"
+   }
+  },
+  {
+   "id": "missile-launcher-krak",
+   "name": "➤ Missile launcher - krak",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "5+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "mortar",
+   "name": "Mortar",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6",
+    "BS": "5+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast, Heavy, Indirect Fire"
+   }
+  },
+  {
+   "id": "mauler-goad-and-ripper-claw",
+   "name": "Mauler goad and ripper claw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "befouled-fangs-and-claws",
+   "name": "Befouled fangs and claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "hideous-mutations-2",
+   "name": "Hideous mutations",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "D6+2",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "blasphemous-appendages",
+   "name": "Blasphemous appendages",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "ogryn-weapon",
+   "name": "Ogryn weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "ogryn-power-drill",
+   "name": "Ogryn power drill",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "ogryn-plague-claws",
+   "name": "Ogryn plague claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "chaos-stave",
+   "name": "Chaos stave",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "D3",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "laspistol",
+   "name": "Laspistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "psychic-strike-focused-witchfire",
+   "name": "➤ Psychic Strike - focused witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6+3",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Blast, Devastating Wounds, Hazardous, Psychic"
+   }
+  },
+  {
+   "id": "psychic-strike-witchfire",
+   "name": "➤ Psychic Strike - witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Blast, Devastating Wounds, Psychic"
+   }
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "cultist-mob",
+   "name": "Cultist Mob",
+   "role": "Battleline",
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Grenades",
+    "Chaos",
+    "Cultist Mob",
+    "Damned"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 50
+    },
+    {
+     "count": 11,
+     "pts": 100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "bolt-pistol",
+     "name": "Bolt pistol",
+     "pts": 0,
+     "group": "Pistol",
+     "max": null
+    },
+    {
+     "id": "autopistol",
+     "name": "Autopistol",
+     "pts": 0,
+     "group": "Pistol",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Cultist Mob",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Cultist Champion",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "bolt-pistol",
+    "autopistol"
+   ],
+   "abilities": [
+    "For the Dark Gods",
+    "Dark Pacts",
+    "Brutal assault weapon"
+   ]
+  },
+  {
+   "id": "cultist-mob-with-firearms",
+   "name": "Cultist Mob with Firearms",
+   "role": "Battleline",
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Grenades",
+    "Chaos",
+    "Damned",
+    "Cultist Mob with Firearms"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 9,
+     "pts": 50
+    },
+    {
+     "count": 19,
+     "pts": 100
+    }
+   ],
+   "minModels": 9,
+   "maxModels": 19,
+   "wargear": [
+    {
+     "id": "bolt-pistol-and-brutal-assault-weapon",
+     "name": "Bolt pistol and brutal assault weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    },
+    {
+     "id": "autopistol-and-brutal-assault-weapon",
+     "name": "Autopistol and brutal assault weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    },
+    {
+     "id": "autogun-and-close-combat-weapon",
+     "name": "Autogun and close combat weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Cultist Mob",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "bolt-pistol",
+    "autopistol",
+    "flamer",
+    "cultist-grenade-launcher-frag",
+    "cultist-grenade-launcher-krak",
+    "heavy-stubber"
+   ],
+   "abilities": [
+    "For the Dark Gods",
+    "Dark Pacts",
+    "Brutal assault weapon",
+    "Close combat weapon",
+    "Autogun",
+    "Rapid Fire"
+   ]
+  },
+  {
+   "id": "renegade-ogryn-beast-handler",
+   "name": "Renegade Ogryn Beast Handler",
+   "role": "Beast",
+   "keywords": [
+    "Beast",
+    "Chaos",
+    "Renegade Ogryn Beast Handler",
+    "Damned"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 40
+    },
+    {
+     "count": 5,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Ogryn Pack Master",
+     "stats": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "5+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Chaos Mauler Hound",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "6+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "mauler-goad-and-ripper-claw",
+    "befouled-fangs-and-claws"
+   ],
+   "abilities": [
+    "Dark Pacts",
+    "Beastmaster"
+   ]
+  },
+  {
+   "id": "cultist-firebrand",
+   "name": "Cultist Firebrand",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Chaos",
+    "Damned",
+    "Cultist Firebrand"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 45
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "balefire-pike",
+     "name": "Balefire pike",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "close-combat-weapon",
+     "name": "Close combat weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Cultist Firebrand",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "balefire-pike",
+    "close-combat-weapon-3"
+   ],
+   "abilities": [
+    "Fiery Faith",
+    "Cursed Flames",
+    "Leader",
+    "Dark Pacts"
+   ]
+  },
+  {
+   "id": "dark-commune",
+   "name": "Dark Commune",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Damned",
+    "Infantry",
+    "Grenades",
+    "Dark Commune",
+    "Chaos"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "autopistol",
+     "name": "Autopistol",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "commune-stave",
+     "name": "Commune stave",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Blessed Blade",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Iconarch",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Mindwitch",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Cult Demagogue",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "commune-blade",
+    "autopistol",
+    "close-combat-weapon",
+    "warp-curse-witchfire",
+    "warp-curse-focused-witchfire",
+    "commune-stave"
+   ],
+   "abilities": [
+    "Leader",
+    "Faithful Flock",
+    "Dark Ritual",
+    "Dark Pacts"
+   ]
+  },
+  {
+   "id": "renegade-enforcer",
+   "name": "Renegade Enforcer",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Chaos",
+    "Renegade Enforcer",
+    "Damned"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "enforcer-melee-weapon",
+     "name": "Enforcer melee weapon",
+     "pts": 0,
+     "group": "Melee weapon",
+     "max": null
+    },
+    {
+     "id": "power-weapon",
+     "name": "Power weapon",
+     "pts": 0,
+     "group": "Melee weapon",
+     "max": null
+    },
+    {
+     "id": "power-fist",
+     "name": "Power fist",
+     "pts": 0,
+     "group": "Melee weapon",
+     "max": null
+    },
+    {
+     "id": "enforcer-pistol",
+     "name": "Enforcer pistol",
+     "pts": 0,
+     "group": "Ranged weapon",
+     "max": null
+    },
+    {
+     "id": "autogun",
+     "name": "Autogun",
+     "pts": 0,
+     "group": "Ranged weapon",
+     "max": null
+    },
+    {
+     "id": "lasgun",
+     "name": "Lasgun",
+     "pts": 0,
+     "group": "Ranged weapon",
+     "max": null
+    },
+    {
+     "id": "shotgun",
+     "name": "Shotgun",
+     "pts": 0,
+     "group": "Ranged weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Renegade Enforcer",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "enforcer-melee-weapon",
+    "power-weapon-2",
+    "power-fist",
+    "enforcer-pistol",
+    "autogun",
+    "lasgun-2",
+    "shotgun"
+   ],
+   "abilities": [
+    "Brutal Example",
+    "Enforcer",
+    "Leader",
+    "Invulnerable Save",
+    "Dark Pacts"
+   ]
+  },
+  {
+   "id": "rogue-psyker",
+   "name": "Rogue Psyker",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Psyker",
+    "Chaos",
+    "Rogue Psyker",
+    "Damned"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 60
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "chaos-stave",
+     "name": "Chaos stave",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "laspistol",
+     "name": "Laspistol",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "psychic-strike",
+     "name": "Psychic Strike",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Rogue Psyker",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "chaos-stave",
+    "laspistol",
+    "psychic-strike-focused-witchfire",
+    "psychic-strike-witchfire"
+   ],
+   "abilities": [
+    "Dark Pacts",
+    "Leader",
+    "Cursed Wardings (Psychic)",
+    "Psychic Barrier (Psychic)"
+   ]
+  },
+  {
+   "id": "traitor-enforcer",
+   "name": "Traitor Enforcer",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Damned"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 55
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "power-fist",
+     "name": "Power fist",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Traitor Enforcer",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Traitor Ogryn",
+     "stats": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "5+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "power-fist",
+    "ogryn-weapons"
+   ],
+   "abilities": [
+    "Leader",
+    "Brutal Example",
+    "Mutated Bodyguard",
+    "Dark Pacts",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "accursed-cultists",
+   "name": "Accursed Cultists",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Chaos",
+    "Accursed Cultists",
+    "Damned"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 90
+    },
+    {
+     "count": 9,
+     "pts": 195
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Torment",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "6+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Mutant",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "6+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "hideous-mutations-2",
+    "blasphemous-appendages"
+   ],
+   "abilities": [
+    "Howling Horde",
+    "Dark Pacts",
+    "Feel No Pain",
+    "Scouts"
+   ]
+  },
+  {
+   "id": "fellgor-beastmen",
+   "name": "Fellgor Beastmen",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Chaos",
+    "Fellgor Beastmen",
+    "Damned"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 9,
+     "pts": 70
+    }
+   ],
+   "minModels": 9,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "bolt-pistol",
+     "name": "Bolt pistol",
+     "pts": 0,
+     "group": "Pistol",
+     "max": null
+    },
+    {
+     "id": "plasma-pistol",
+     "name": "Plasma pistol",
+     "pts": 0,
+     "group": "Pistol",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Fellgor Beastmen",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "chainsword-2",
+    "bolt-pistol",
+    "plasma-pistol-standard",
+    "plasma-pistol-supercharge",
+    "autopistol",
+    "close-combat-weapon-2",
+    "great-weapon",
+    "corrupted-stave",
+    "corrupted-stave-2"
+   ],
+   "abilities": [
+    "Bestial Raiders",
+    "Dark Pacts"
+   ]
+  },
+  {
+   "id": "gellerpox-infected",
+   "name": "Gellerpox Infected",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Chaos",
+    "Nurgle",
+    "Gellerpox Infected",
+    "Damned"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 125
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Gellerpox Mutant",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "6+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Nightmare Hulk",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "6+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "brutal-weapons",
+    "hideous-mutations",
+    "belly-flamer"
+   ],
+   "abilities": [
+    "Dark Pacts",
+    "Feel No Pain",
+    "Fearsome (Aura)"
+   ]
+  },
+  {
+   "id": "negavolt-cultists",
+   "name": "Negavolt Cultists",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Chaos",
+    "Negavolt Cultists",
+    "Damned"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 55
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Negavolt Cultists",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "7+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "electro-goads"
+   ],
+   "abilities": [
+    "Dark Pacts",
+    "Feel No Pain",
+    "Invulnerable Save",
+    "Voltagheist Field",
+    "Servants of the Abyss"
+   ]
+  },
+  {
+   "id": "renegade-heavy-weapons-squad",
+   "name": "Renegade Heavy Weapons Squad",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Chaos",
+    "Renegade Heavy Weapons Squad",
+    "Damned"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "heavy-stubber",
+     "name": "Heavy stubber",
+     "pts": 0,
+     "group": "Heavy weapon",
+     "max": null
+    },
+    {
+     "id": "heavy-bolter",
+     "name": "Heavy bolter",
+     "pts": 0,
+     "group": "Heavy weapon",
+     "max": null
+    },
+    {
+     "id": "autocannon",
+     "name": "Autocannon",
+     "pts": 0,
+     "group": "Heavy weapon",
+     "max": null
+    },
+    {
+     "id": "lascannon",
+     "name": "Lascannon",
+     "pts": 0,
+     "group": "Heavy weapon",
+     "max": null
+    },
+    {
+     "id": "missile-launcher",
+     "name": "Missile launcher",
+     "pts": 0,
+     "group": "Heavy weapon",
+     "max": null
+    },
+    {
+     "id": "mortar",
+     "name": "Mortar",
+     "pts": 0,
+     "group": "Heavy weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Renegade Heavy Weapons Squad",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "renegade-firearm",
+    "close-combat-weapons",
+    "heavy-stubber",
+    "heavy-bolter",
+    "autocannon",
+    "lascannon",
+    "missile-launcher-frag",
+    "missile-launcher-krak",
+    "mortar"
+   ],
+   "abilities": [
+    "Covering Fire",
+    "Dark Pacts"
+   ]
+  },
+  {
+   "id": "renegade-ogryn-brutes",
+   "name": "Renegade Ogryn Brutes",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Chaos",
+    "Renegade Ogryn Brutes",
+    "Damned"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 3,
+     "pts": 95
+    }
+   ],
+   "minModels": 3,
+   "maxModels": 3,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Renegade Ogryn Brutes",
+     "stats": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "ogryn-weapon",
+    "ogryn-power-drill"
+   ],
+   "abilities": [
+    "Dark Pacts",
+    "Ogryn Combat Stimms"
+   ]
+  },
+  {
+   "id": "renegade-plague-ogryns",
+   "name": "Renegade Plague Ogryns",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Chaos",
+    "Nurgle",
+    "Renegade Plague Ogryns",
+    "Damned"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 95
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Renegade Plague Ogryns",
+     "stats": {
+      "M": "5\"",
+      "T": "7",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "ogryn-plague-claws"
+   ],
+   "abilities": [
+    "Wall of Muscle",
+    "Dark Pacts",
+    "Feel No Pain"
+   ]
+  },
+  {
+   "id": "traitor-guardsmen-squad",
+   "name": "Traitor Guardsmen Squad",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Chaos",
+    "Traitor Guardsmen Squad",
+    "Damned"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 9,
+     "pts": 70
+    }
+   ],
+   "minModels": 9,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "chainsword",
+     "name": "Chainsword",
+     "pts": 0,
+     "group": "Melee weapon",
+     "max": null
+    },
+    {
+     "id": "power-weapon",
+     "name": "Power weapon",
+     "pts": 0,
+     "group": "Melee weapon",
+     "max": null
+    },
+    {
+     "id": "corrupted-pistol",
+     "name": "Corrupted pistol",
+     "pts": 0,
+     "group": "Ranged weapon",
+     "max": null
+    },
+    {
+     "id": "boltgun",
+     "name": "Boltgun",
+     "pts": 0,
+     "group": "Ranged weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Traitor Guardsmen Squad",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "chainsword",
+    "power-weapon",
+    "corrupted-pistol",
+    "boltgun",
+    "lasgun",
+    "flamer",
+    "plasma-gun-standard",
+    "plasma-gun-supercharge",
+    "meltagun",
+    "cultist-sniper-rifle",
+    "cultist-grenade-launcher-frag",
+    "cultist-grenade-launcher-krak",
+    "close-combat-weapon"
+   ],
+   "abilities": [
+    "Twisted Defence Force",
+    "Dark Pacts"
+   ]
+  },
+  {
+   "id": "mutoid-vermin",
+   "name": "Mutoid Vermin",
+   "role": "Swarm",
+   "keywords": [
+    "Swarm",
+    "Chaos",
+    "Nurgle",
+    "Mutoid Vermin",
+    "Damned"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Mutoid Vermin",
+     "stats": {
+      "M": "8\"",
+      "T": "2",
+      "SV": "7+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "diseased-claws-and-fangs"
+   ],
+   "abilities": [
+    "Mischief Makers (Aura)",
+    "Feel No Pain",
+    "Dark Pacts"
+   ]
+  }
+ ]
+}

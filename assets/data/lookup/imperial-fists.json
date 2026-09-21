@@ -1,0 +1,234 @@
+{
+ "id": "imperial-fists",
+ "name": "Imperial Fists",
+ "source": "BSData/wh40k-10e",
+ "revision": "12",
+ "enhancements": [],
+ "weapons": [
+  {
+   "id": "fist-of-dorn",
+   "name": "Fist of Dorn",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "10",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "artificer-grav-gun",
+   "name": "Artificer Grav Gun",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Anti-vehicle 2+"
+   }
+  },
+  {
+   "id": "hand-of-defiance",
+   "name": "Hand of Defiance",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "12",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "dorn-s-arrow",
+   "name": "Dorn's Arrow",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Rapid Fire 2, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "fist-of-retribution",
+   "name": "Fist of Retribution",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "-"
+   }
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "darnath-lysander",
+   "name": "Darnath Lysander",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Captain",
+    "Imperium",
+    "Terminator",
+    "Darnath Lysander"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Darnath Lysander",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "7",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "fist-of-dorn"
+   ],
+   "abilities": [
+    "Icon of Obstinacy",
+    "Rampart",
+    "Leader",
+    "Inspiring Commander",
+    "Deep Strike",
+    "Invulnerable Save",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "pedro-kantor",
+   "name": "Pedro Kantor",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Chapter Master",
+    "Pedro Kantor"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Pedro Kantor",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "dorn-s-arrow",
+    "fist-of-retribution"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Feel No Pain",
+    "Oath of Moment",
+    "Leader",
+    "Oath of Rynn",
+    "To the Last",
+    "Inspiring Commander"
+   ]
+  },
+  {
+   "id": "tor-garadon",
+   "name": "Tor Garadon",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Captain",
+    "Gravis",
+    "Tor Garadon",
+    "Imperium"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Tor Garadon",
+     "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "artificer-grav-gun",
+    "hand-of-defiance"
+   ],
+   "abilities": [
+    "Leader",
+    "Invulnerable Save",
+    "Oath of Moment",
+    "Signum Array",
+    "Siege Captain"
+   ]
+  }
+ ]
+}

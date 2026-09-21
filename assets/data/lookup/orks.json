@@ -1,0 +1,8918 @@
+{
+ "id": "orks",
+ "name": "Orks",
+ "source": "BSData/wh40k-10e",
+ "revision": "162",
+ "enhancements": [
+  {
+   "id": "war-horde",
+   "name": "War Horde",
+   "enhancements": [
+    {
+     "id": "supa-cybork-body",
+     "name": "Supa-Cybork Body",
+     "pts": 15
+    },
+    {
+     "id": "headwoppa-s-killchoppa",
+     "name": "Headwoppa’s Killchoppa",
+     "pts": 20
+    },
+    {
+     "id": "kunnin-but-brutal",
+     "name": "Kunnin’ But Brutal",
+     "pts": 15
+    },
+    {
+     "id": "follow-me-ladz",
+     "name": "Follow Me Ladz",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "da-big-hunt",
+   "name": "Da Big Hunt",
+   "enhancements": [
+    {
+     "id": "surly-as-a-squiggoth",
+     "name": "Surly As A Squiggoth",
+     "pts": 20
+    },
+    {
+     "id": "skrag-every-stash",
+     "name": "Skrag Every Stash!",
+     "pts": 25
+    },
+    {
+     "id": "proper-killy",
+     "name": "Proper Killy",
+     "pts": 15
+    },
+    {
+     "id": "glory-hog",
+     "name": "Glory Hog",
+     "pts": 30
+    }
+   ]
+  },
+  {
+   "id": "dread-mob",
+   "name": "Dread Mob",
+   "enhancements": [
+    {
+     "id": "gitfinder-gogglez",
+     "name": "Gitfinder Gogglez",
+     "pts": 10
+    },
+    {
+     "id": "press-it-fasta",
+     "name": "Press It Fasta!",
+     "pts": 35
+    },
+    {
+     "id": "supa-glowy-fing",
+     "name": "Supa-glowy Fing",
+     "pts": 20
+    },
+    {
+     "id": "smoky-gubbinz",
+     "name": "Smoky Gubbinz",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "green-tide",
+   "name": "Green Tide",
+   "enhancements": [
+    {
+     "id": "ferocious-show-off",
+     "name": "Ferocious Show Off",
+     "pts": 10
+    },
+    {
+     "id": "brutal-but-kunnin",
+     "name": "Brutal But Kunnin'",
+     "pts": 25
+    },
+    {
+     "id": "raucous-warcaller",
+     "name": "Raucous Warcaller",
+     "pts": 20
+    },
+    {
+     "id": "bloodthirsty-belligerence",
+     "name": "Bloodthirsty Belligerence",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "bully-boyz",
+   "name": "Bully Boyz",
+   "enhancements": [
+    {
+     "id": "da-biggest-boss",
+     "name": "Da Biggest Boss",
+     "pts": 15
+    },
+    {
+     "id": "big-gob",
+     "name": "Big Gob",
+     "pts": 20
+    },
+    {
+     "id": "eadstompa",
+     "name": "'Eadstompa",
+     "pts": 10
+    },
+    {
+     "id": "tellyporta",
+     "name": "Tellyporta",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "kult-of-speed",
+   "name": "Kult of Speed",
+   "enhancements": [
+    {
+     "id": "fasta-than-yooz",
+     "name": "Fasta Than Yooz",
+     "pts": 35
+    },
+    {
+     "id": "squig-hide-tyres",
+     "name": "Squig-hide Tyres",
+     "pts": 15
+    },
+    {
+     "id": "speed-makes-right",
+     "name": "Speed Makes Right",
+     "pts": 25
+    },
+    {
+     "id": "wazblasta",
+     "name": "Wazblasta",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "taktikal-brigade",
+   "name": "Taktikal Brigade",
+   "enhancements": [
+    {
+     "id": "gob-boomer",
+     "name": "Gob Boomer",
+     "pts": 10
+    },
+    {
+     "id": "mork-s-kunnin",
+     "name": "Mork's Kunnin'",
+     "pts": 15
+    },
+    {
+     "id": "mek-kaptin",
+     "name": "Mek Kaptin",
+     "pts": 45
+    },
+    {
+     "id": "skwad-leader",
+     "name": "Skwad Leader",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "more-dakka",
+   "name": "More Dakka!",
+   "enhancements": [
+    {
+     "id": "da-gobshot-thunderbuss",
+     "name": "Da Gobshot Thunderbuss",
+     "pts": 15
+    },
+    {
+     "id": "targetin-squigs",
+     "name": "Targetin' Squigs",
+     "pts": 15
+    },
+    {
+     "id": "dead-shiny-shootas",
+     "name": "Dead Shiny Shootas",
+     "pts": 35
+    },
+    {
+     "id": "zog-off-and-eat-dakka",
+     "name": "Zog Off And Eat Dakka!",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "freebooter-krew",
+   "name": "Freebooter Krew",
+   "enhancements": [
+    {
+     "id": "razgit-s-magik-map",
+     "name": "Razgit's Magik Map",
+     "pts": 25
+    },
+    {
+     "id": "git-spotter-squig",
+     "name": "Git-spotter Squig",
+     "pts": 20
+    },
+    {
+     "id": "bionik-workshop",
+     "name": "Bionik Workshop",
+     "pts": 15
+    },
+    {
+     "id": "da-kaptin",
+     "name": "Da Kaptin",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "speedwaaagh",
+   "name": "Speedwaaagh!",
+   "enhancements": [
+    {
+     "id": "master-meknologist",
+     "name": "Master Meknologist",
+     "pts": 20
+    },
+    {
+     "id": "dakkamek",
+     "name": "Dakkamek",
+     "pts": 25
+    },
+    {
+     "id": "supa-burny-fuel",
+     "name": "Supa-burny Fuel",
+     "pts": 15
+    },
+    {
+     "id": "kustom-shokk-box",
+     "name": "Kustom Shokk Box",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "blitz-brigade",
+   "name": "Blitz Brigade",
+   "enhancements": [
+    {
+     "id": "supercharged-squig-oil",
+     "name": "Supercharged Squig Oil",
+     "pts": 10
+    },
+    {
+     "id": "runnin-boots",
+     "name": "Runnin' Boots",
+     "pts": 10
+    },
+    {
+     "id": "tuff-git",
+     "name": "Tuff Git",
+     "pts": 5
+    },
+    {
+     "id": "blitzkaptin",
+     "name": "Blitzkaptin",
+     "pts": 25
+    }
+   ]
+  }
+ ],
+ "weapons": [
+  {
+   "id": "killkannon",
+   "name": "Killkannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D6+1",
+    "BS": "5+",
+    "S": "9",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "zzap-gun",
+   "name": "Zzap gun",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "5+",
+    "S": "D6+6",
+    "AP": "-3",
+    "D": "5",
+    "Keywords": "Anti-Vehicle 4+"
+   }
+  },
+  {
+   "id": "kannon-shell",
+   "name": "➤ Kannon - shell",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "5+",
+    "S": "10",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "kannon-frag",
+   "name": "➤ Kannon - frag",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D6+3",
+    "BS": "5+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "deff-rolla",
+   "name": "Deff rolla",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "9",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "tracks-and-wheels",
+   "name": "Tracks and wheels",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "4+",
+    "S": "8",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "lobba",
+   "name": "Lobba",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6",
+    "BS": "5+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast, Indirect Fire"
+   }
+  },
+  {
+   "id": "wreckin-ball",
+   "name": "Wreckin' ball",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "4+",
+    "S": "10",
+    "AP": "0",
+    "D": "D6",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "grabbin-klaw",
+   "name": "Grabbin' klaw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "big-shoota",
+   "name": "Big shoota",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "5+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 2"
+   }
+  },
+  {
+   "id": "close-combat-weapon",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "thump-gun",
+   "name": "Thump gun",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D3",
+    "BS": "5+",
+    "S": "6",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "power-snappa",
+   "name": "Power snappa",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "slugga",
+   "name": "Slugga",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "5+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "choppa",
+   "name": "Choppa",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "beast-snagga-klaw",
+   "name": "Beast Snagga klaw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Anti-Monster 4+, Anti-Vehicle 4+"
+   }
+  },
+  {
+   "id": "shoota",
+   "name": "Shoota",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "beastchoppa",
+   "name": "Beastchoppa",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Anti-Monster 4+, Anti-Vehicle 4+"
+   }
+  },
+  {
+   "id": "squigosaur-s-jaws",
+   "name": "Squigosaur’s jaws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "7",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Devastating Wounds, Extra Attacks"
+   }
+  },
+  {
+   "id": "tellyport-blasta",
+   "name": "Tellyport blasta",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "3",
+    "BS": "5+",
+    "S": "8",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "kustom-mega-blasta",
+   "name": "Kustom mega-blasta",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "5+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "Hazardous"
+   }
+  },
+  {
+   "id": "kustom-shoota",
+   "name": "Kustom shoota",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "4",
+    "BS": "5+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 2"
+   }
+  },
+  {
+   "id": "kombi-weapon",
+   "name": "Kombi-weapon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "5+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
+   }
+  },
+  {
+   "id": "killsaw",
+   "name": "Killsaw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "12",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "power-klaw",
+   "name": "Power klaw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "choppa-2",
+   "name": "Choppa",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "close-combat-weapon-2",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "shokk-attack-gun",
+   "name": "Shokk attack gun",
+   "type": "ranged",
+   "stats": {
+    "Range": "60\"",
+    "A": "D6+1",
+    "BS": "5+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Blast, Heavy"
+   }
+  },
+  {
+   "id": "gaze-of-gork-glare",
+   "name": "➤ Gaze of Gork - glare",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D6",
+    "BS": "5+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast, Sustained Hits D3"
+   }
+  },
+  {
+   "id": "gaze-of-gork-squint",
+   "name": "➤ Gaze of Gork - squint",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "5+",
+    "S": "12",
+    "AP": "-4",
+    "D": "3",
+    "Keywords": "Sustained Hits D3"
+   }
+  },
+  {
+   "id": "twin-supa-shoota",
+   "name": "Twin supa-shoota",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "4",
+    "BS": "5+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Rapid Fire 2, Sustained Hits 1, Twin-linked"
+   }
+  },
+  {
+   "id": "armoured-hull",
+   "name": "Armoured hull",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "mek-speshul",
+   "name": "Mek speshul",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "12",
+    "BS": "5+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Assault, Rapid Fire 4, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "grot-blasta",
+   "name": "Grot blasta",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "spiked-wheels",
+   "name": "Spiked wheels",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "mork-s-teeth",
+   "name": "Mork’s Teeth",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Precision, Twin-linked"
+   }
+  },
+  {
+   "id": "slugga-2",
+   "name": "Slugga",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "da-vulcha-s-klaws-and-choppa",
+   "name": "Da Vulcha’s Klaws and choppa",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "choppa-3",
+   "name": "Choppa",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "shoota-2",
+   "name": "Shoota",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "5+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "close-combat-weapon-3",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "rokkit-launcha",
+   "name": "Rokkit launcha",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D3",
+    "BS": "5+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "big-choppa",
+   "name": "Big choppa",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "power-klaw-2",
+   "name": "Power klaw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "9",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "cuttin-flames",
+   "name": "Cuttin’ flames",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "burna",
+   "name": "Burna",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "close-combat-weapon-4",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "skorcha-missile-rack",
+   "name": "Skorcha missile rack",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "2D6",
+    "BS": "5+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Blast, Ignores Cover"
+   }
+  },
+  {
+   "id": "twin-big-shoota",
+   "name": "Twin big shoota",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "5+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 2, Twin-linked"
+   }
+  },
+  {
+   "id": "dread-klaw",
+   "name": "Dread klaw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "12",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Dead Choppy"
+   }
+  },
+  {
+   "id": "stompy-feet",
+   "name": "Stompy feet",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "skorcha",
+   "name": "Skorcha",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "deffkilla-boomstikks",
+   "name": "Deffkilla boomstikks",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "6",
+    "BS": "5+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "killa-jet-burna",
+   "name": "➤ Killa jet - burna",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "killa-jet-cutta",
+   "name": "➤ Killa jet - cutta",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "5+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2"
+   }
+  },
+  {
+   "id": "snagga-klaw",
+   "name": "Snagga klaw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "kopta-rokkits",
+   "name": "Kopta rokkits",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D3",
+    "BS": "5+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Blast, Twin-linked"
+   }
+  },
+  {
+   "id": "spinnin-blades",
+   "name": "Spinnin’ blades",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "snazzgun",
+   "name": "Snazzgun",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "5+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Heavy, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "mork-s-roar",
+   "name": "Mork’s Roar",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "12",
+    "BS": "5+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 4"
+   }
+  },
+  {
+   "id": "gork-s-klaw-strike",
+   "name": "➤ Gork’s Klaw - strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "14",
+    "AP": "-3",
+    "D": "4",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "gork-s-klaw-sweep",
+   "name": "➤ Gork’s Klaw - sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "12",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "makari-s-stabba",
+   "name": "Makari’s stabba",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "deffstorm-mega-shoota",
+   "name": "Deffstorm mega-shoota",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "20",
+    "BS": "5+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Rapid Fire 10"
+   }
+  },
+  {
+   "id": "klaw-of-gork-strike",
+   "name": "➤ Klaw of Gork - strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "18",
+    "AP": "-3",
+    "D": "6",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "klaw-of-gork-sweep",
+   "name": "➤ Klaw of Gork - sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "15",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "close-combat-weapon-5",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "5+",
+    "S": "2",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "grot-smacka",
+   "name": "Grot-smacka",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "eavy-lobba",
+   "name": "’Eavy lobba",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6",
+    "BS": "5+",
+    "S": "6",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "Blast, Indirect Fire"
+   }
+  },
+  {
+   "id": "butcha-boyz",
+   "name": "Butcha boyz",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Anti-Monster 4+, Anti-Vehicle 4+, Extra Attacks"
+   }
+  },
+  {
+   "id": "savage-horns-and-hooves",
+   "name": "Savage horns and hooves",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "8",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "Extra Attacks, Lance"
+   }
+  },
+  {
+   "id": "saw-blades",
+   "name": "Saw blades",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "stikka-kannon",
+   "name": "Stikka kannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "5+",
+    "S": "12",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Anti-Monster 2+, Anti-Vehicle 2+, Snagged"
+   }
+  },
+  {
+   "id": "choppa-4",
+   "name": "Choppa",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "da-rippa-standard",
+   "name": "➤ Da Rippa - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "5+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Heavy, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "da-rippa-supercharge",
+   "name": "➤ Da Rippa - supercharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "5+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Hazardous, Heavy, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "wurrtower",
+   "name": "Wurrtower",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D3",
+    "BS": "N/A",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6",
+    "Keywords": "Hazardous, Psychic, Torrent"
+   }
+  },
+  {
+   "id": "kan-shoota",
+   "name": "Kan shoota",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Devastating Wounds, Rapid Fire 2"
+   }
+  },
+  {
+   "id": "kan-klaw",
+   "name": "Kan klaw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "grotzooka",
+   "name": "Grotzooka",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D3+3",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Blast, Ignores Cover"
+   }
+  },
+  {
+   "id": "rokkit-launcha-2",
+   "name": "Rokkit launcha",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D3",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "breacha-ram",
+   "name": "Breacha ram",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "9",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "big-choppa-2",
+   "name": "Big choppa",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "burna-exhausts",
+   "name": "Burna exhausts",
+   "type": "ranged",
+   "stats": {
+    "Range": "6\"",
+    "A": "2D6",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent, Twin-linked"
+   }
+  },
+  {
+   "id": "rivet-kannon",
+   "name": "Rivet kannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "6",
+    "BS": "5+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Assault, Rapid Fire 3"
+   }
+  },
+  {
+   "id": "deffgun",
+   "name": "Deffgun",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "2",
+    "BS": "6+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Heavy, Rapid Fire 1"
+   }
+  },
+  {
+   "id": "power-klaw-3",
+   "name": "Power klaw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "urty-syringe",
+   "name": "’Urty syringe",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "3+",
+    "S": "2",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-Infantry 4+, Extra Attacks, Precision"
+   }
+  },
+  {
+   "id": "twin-killsaw",
+   "name": "Twin killsaw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "12",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "killsaw-2",
+   "name": "Killsaw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "12",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "nose-drill",
+   "name": "Nose drill",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "rokkit-cannon",
+   "name": "Rokkit cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D6+1",
+    "BS": "5+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "wing-missiles",
+   "name": "Wing missiles",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "5+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "wrench",
+   "name": "Wrench",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "killsaw-3",
+   "name": "Killsaw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "4+",
+    "S": "12",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "kustom-mega-slugga",
+   "name": "Kustom mega-slugga",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D3",
+    "BS": "5+",
+    "S": "8",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "Blast, Hazardous"
+   }
+  },
+  {
+   "id": "smasha-gun",
+   "name": "Smasha gun",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D3+1",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "1-2-bubblechukka-big-bubble",
+   "name": "1-2 Bubblechukka - big bubble",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "2D6",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Blast, Bubblechukka"
+   }
+  },
+  {
+   "id": "3-4-bubblechukka-wobbly-bubble",
+   "name": "3-4 Bubblechukka - wobbly bubble",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Blast, Bubblechukka"
+   }
+  },
+  {
+   "id": "5-6-bubblechukka-dense-bubble",
+   "name": "5-6 Bubblechukka - dense bubble",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D3",
+    "BS": "4+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+3",
+    "Keywords": "Blast, Bubblechukka"
+   }
+  },
+  {
+   "id": "kustom-mega-kannon",
+   "name": "Kustom mega-kannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D6",
+    "BS": "4+",
+    "S": "12",
+    "AP": "-1",
+    "D": "D6",
+    "Keywords": "Blast, Hazardous"
+   }
+  },
+  {
+   "id": "traktor-kannon",
+   "name": "Traktor kannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "10",
+    "AP": "-2",
+    "D": "D6+1",
+    "Keywords": "Anti-Fly 2+, Devastating Wounds"
+   }
+  },
+  {
+   "id": "grot-crew",
+   "name": "Grot crew",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "5+",
+    "S": "2",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "klaw-of-mork-strike",
+   "name": "➤ Klaw of Mork - strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "18",
+    "AP": "-3",
+    "D": "6",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "klaw-of-mork-sweep",
+   "name": "➤ Klaw of Mork - sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "12",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "kustom-mega-zappa",
+   "name": "Kustom mega-zappa",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D6+3",
+    "BS": "5+",
+    "S": "10",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "Blast, Hazardous"
+   }
+  },
+  {
+   "id": "big-chompa-s-jaws",
+   "name": "Big Chompa’s jaws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "4",
+    "Keywords": "Devastating Wounds, Extra Attacks"
+   }
+  },
+  {
+   "id": "gutrippa",
+   "name": "Gutrippa",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "7",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "Anti-Monster 4+, Anti-Vehicle 4+"
+   }
+  },
+  {
+   "id": "waaagh-banner",
+   "name": "Waaagh! banner",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "close-combat-weapon-6",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "beast-snagga-klaw-2",
+   "name": "Beast Snagga klaw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "9",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Anti-Monster 4+, Anti-Vehicle 4+"
+   }
+  },
+  {
+   "id": "sawn-off-shotgun",
+   "name": "Sawn-off shotgun",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "2",
+    "BS": "5+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "squig-launchas",
+   "name": "Squig launchas",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D6+6",
+    "BS": "5+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Blast, Ignores Cover, Indirect Fire"
+   }
+  },
+  {
+   "id": "saw-blades-2",
+   "name": "Saw blades",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "kustom-shokk-rifle",
+   "name": "Kustom shokk rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "D6+1",
+    "Keywords": "Devastating Wounds, Hazardous, Precision"
+   }
+  },
+  {
+   "id": "big-choppa-3",
+   "name": "Big choppa",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Anti-Monster 4+, Anti-Vehicle 4+"
+   }
+  },
+  {
+   "id": "squig-jaws",
+   "name": "Squig jaws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "stikka-melee",
+   "name": "Stikka (melee)",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Anti-Monster 4+, Anti-Vehicle 4+, Lance"
+   }
+  },
+  {
+   "id": "stikka-ranged",
+   "name": "Stikka (ranged)",
+   "type": "ranged",
+   "stats": {
+    "Range": "9\"",
+    "A": "1",
+    "BS": "5+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Assault, Anti-Monster 4+, Anti-Vehicle 4+"
+   }
+  },
+  {
+   "id": "saddlegit-weapons",
+   "name": "Saddlegit weapons",
+   "type": "ranged",
+   "stats": {
+    "Range": "9\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "deffkannon",
+   "name": "Deffkannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "72\"",
+    "A": "3D6",
+    "BS": "5+",
+    "S": "14",
+    "AP": "-3",
+    "D": "D6",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "mega-choppa-strike",
+   "name": "➤ Mega-choppa - strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "24",
+    "AP": "-5",
+    "D": "10",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "mega-choppa-sweep",
+   "name": "➤ Mega-choppa - sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "18",
+    "WS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "supa-gatler",
+   "name": "Supa-gatler",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "20",
+    "BS": "5+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "supa-rokkits",
+   "name": "Supa-rokkits",
+   "type": "ranged",
+   "stats": {
+    "Range": "100\"",
+    "A": "D6",
+    "BS": "5+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+2",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "smash-hammer",
+   "name": "Smash hammer",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Anti-Monster 4+, Anti-Vehicle 4+"
+   }
+  },
+  {
+   "id": "rokkit-pistol",
+   "name": "Rokkit pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "5+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "spiked-wheel",
+   "name": "Spiked wheel",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-dakkagun",
+   "name": "Twin dakkagun",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "5+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault, Rapid Fire 2, Twin-linked"
+   }
+  },
+  {
+   "id": "twin-slugga",
+   "name": "Twin slugga",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "2",
+    "BS": "5+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol, Twin-linked"
+   }
+  },
+  {
+   "id": "attack-squig",
+   "name": "Attack Squig",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "big-choppa-4",
+   "name": "Big choppa",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "power-klaw-4",
+   "name": "Power klaw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "big-shoota-2",
+   "name": "Big shoota",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 2"
+   }
+  },
+  {
+   "id": "uge-choppa",
+   "name": "’Uge choppa",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "12",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "smasha-gun-2",
+   "name": "Smasha gun",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D3",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-3",
+    "D": "4",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "twin-wazbom-mega-kannon",
+   "name": "Twin wazbom mega-kannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D3",
+    "BS": "4+",
+    "S": "12",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "Blast, Hazardous, Twin-linked"
+   }
+  },
+  {
+   "id": "twin-tellyport-mega-blasta",
+   "name": "Twin tellyport mega-blasta",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "5+",
+    "S": "9",
+    "AP": "-1",
+    "D": "D6+1",
+    "Keywords": "Blast, Twin-linked"
+   }
+  },
+  {
+   "id": "twin-supa-shoota-2",
+   "name": "Twin supa-shoota",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "4",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Rapid Fire 2, Sustained Hits 1, Twin-linked"
+   }
+  },
+  {
+   "id": "weirdboy-staff",
+   "name": "Weirdboy staff",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-1",
+    "D": "D3",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "eadbanger",
+   "name": "’Eadbanger",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-3",
+    "D": "1",
+    "Keywords": "Precision, Psychic"
+   }
+  },
+  {
+   "id": "eyez-of-mork",
+   "name": "Eyez of Mork",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6",
+    "BS": "5+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "da-grabzappa",
+   "name": "Da Grabzappa",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "squigstoppa",
+   "name": "Squigstoppa",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "5+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Anti-Monster 4+, Pistol"
+   }
+  },
+  {
+   "id": "grot-tank-shoota",
+   "name": "Grot tank shoota",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Devastating Wounds, Rapid Fire 2"
+   }
+  },
+  {
+   "id": "ramshackle-hull",
+   "name": "Ramshackle hull",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "5+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "kustom-mega-blasta-2",
+   "name": "Kustom mega-blasta",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "Hazardous"
+   }
+  },
+  {
+   "id": "armoured-hull-2",
+   "name": "Armoured hull",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "mega-tank-weapons",
+   "name": "Mega-tank weapons",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "10",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 10"
+   }
+  },
+  {
+   "id": "twin-big-shoota-2",
+   "name": "Twin big shoota",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 2, Twin-linked"
+   }
+  },
+  {
+   "id": "twin-grotzooka",
+   "name": "Twin grotzooka",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D3+3",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Blast, Ignores Cover, Twin-linked"
+   }
+  },
+  {
+   "id": "twin-kustom-mega-blasta",
+   "name": "Twin kustom mega-blasta",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "Hazardous, Twin-linked"
+   }
+  },
+  {
+   "id": "twin-rokkit-launcha",
+   "name": "Twin rokkit launcha",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D3",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Blast, Twin-linked"
+   }
+  },
+  {
+   "id": "twin-skorcha",
+   "name": "Twin skorcha",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent, Twin-linked"
+   }
+  },
+  {
+   "id": "gorin-horns-sweep",
+   "name": "➤ Gorin’ horns - sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "3+",
+    "S": "9",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "gorin-horns-strike",
+   "name": "➤ Gorin’ horns - strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "12",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "kannon-shell-2",
+   "name": "➤ Kannon - shell",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "5+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "kannon-frag-2",
+   "name": "➤ Kannon - frag",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D6",
+    "BS": "5+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "supa-kannon",
+   "name": "Supa-kannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "60\"",
+    "A": "2D6",
+    "BS": "5+",
+    "S": "12",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "huge-tusks-strike",
+   "name": "➤ Huge tusks - strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "14",
+    "AP": "-3",
+    "D": "12",
+    "Keywords": "Lance"
+   }
+  },
+  {
+   "id": "huge-tusks-sweep",
+   "name": "➤ Huge tusks - sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "18",
+    "WS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "bursta-kannon",
+   "name": "Bursta kannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3D6",
+    "BS": "5+",
+    "S": "14",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "giga-shoota",
+   "name": "Giga shoota",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "30",
+    "BS": "5+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "reinforced-ram",
+   "name": "Reinforced ram",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "4+",
+    "S": "9",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "boombits",
+   "name": "Boombits",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Torrent"
+   }
+  },
+  {
+   "id": "dread-killsaw",
+   "name": "Dread killsaw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "14",
+    "AP": "-3",
+    "D": "4",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "killkannon-2",
+   "name": "Killkannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D6+3",
+    "BS": "5+",
+    "S": "9",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "dread-rippa-klaw",
+   "name": "Dread rippa klaw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "12",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "stompy-feet-2",
+   "name": "Stompy feet",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "7",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "supa-kannon-shell",
+   "name": "➤ Supa-kannon - shell",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "5+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D3+3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "supa-kannon-frag",
+   "name": "➤ Supa-kannon - frag",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D6+3",
+    "BS": "5+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "power-stabba",
+   "name": "Power stabba",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Lance"
+   }
+  },
+  {
+   "id": "spiked-ram",
+   "name": "Spiked ram",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "8",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "kustom-grot-blasta",
+   "name": "Kustom grot blasta",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D3",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Devastating Wounds, Pistol"
+   }
+  },
+  {
+   "id": "icon-of-da-revolushun",
+   "name": "Icon of da Revolushun",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "spiked-wheel-2",
+   "name": "Spiked wheel",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "rack-of-rokkits",
+   "name": "Rack of rokkits",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D3+1",
+    "BS": "5+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "kannon-frag-3",
+   "name": "➤ Kannon - frag",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D6",
+    "BS": "6+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast, Heavy"
+   }
+  },
+  {
+   "id": "kannon-shell-3",
+   "name": "➤ Kannon - shell",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "6+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "Heavy"
+   }
+  },
+  {
+   "id": "lobba-2",
+   "name": "Lobba",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6",
+    "BS": "6+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast, Heavy, Indirect Fire"
+   }
+  },
+  {
+   "id": "zzap-gun-2",
+   "name": "Zzap gun",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "6+",
+    "S": "2D6",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Devastating Wounds, Heavy"
+   }
+  },
+  {
+   "id": "close-combat-weapons",
+   "name": "Close combat weapons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "krusha-kannon-tankhamma-shell",
+   "name": "➤ Krusha kannon - tankhamma shell",
+   "type": "ranged",
+   "stats": {
+    "Range": "60\"",
+    "A": "1",
+    "BS": "5+",
+    "S": "16",
+    "AP": "-3",
+    "D": "6",
+    "Keywords": "Heavy"
+   }
+  },
+  {
+   "id": "krusha-kannon-blast-burna",
+   "name": "➤ Krusha kannon - blast burna",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "3D6",
+    "BS": "5+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "tracks-and-wheels-2",
+   "name": "Tracks and wheels",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "4+",
+    "S": "8",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "zzap-gun-3",
+   "name": "Zzap gun",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "5+",
+    "S": "2D6",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "deffgun-2",
+   "name": "Deffgun",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "2",
+    "BS": "5+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "rattler-kannon",
+   "name": "Rattler kannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "5+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "grot-guided-bomm",
+   "name": "Grot-guided bomm",
+   "type": "ranged",
+   "stats": {
+    "Range": "72\"",
+    "A": "D6",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Blast, One Shot, Indirect Fire"
+   }
+  },
+  {
+   "id": "lifta-droppa",
+   "name": "Lifta-droppa",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "4",
+    "BS": "5+",
+    "S": "6",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "Anti-Vehicle 3+"
+   }
+  },
+  {
+   "id": "grot-guided-bomms",
+   "name": "Grot-guided bomms",
+   "type": "ranged",
+   "stats": {
+    "Range": "72\"",
+    "A": "D6",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Blast, One Shot, Indirect Fire"
+   }
+  },
+  {
+   "id": "power-klaw-5",
+   "name": "Power klaw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "9",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "bludgeoning-bag-of-gifts",
+   "name": "Bludgeoning bag of gifts",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "massive-gift-filled-gob",
+   "name": "Massive gift-filled gob",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "4",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "shokk-rifle",
+   "name": "Shokk rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "D6+1",
+    "Keywords": "Devastating Wounds, Hazardous, Precision"
+   }
+  },
+  {
+   "id": "princess-jaws",
+   "name": "Princess' jaws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "snazzhammer",
+   "name": "Snazzhammer",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "drilla",
+   "name": "Drilla",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "traktor-blasta",
+   "name": "Traktor blasta",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "5+",
+    "S": "10",
+    "AP": "-2",
+    "D": "D6+1",
+    "Keywords": "Anti-Fly 3+, Devastating Wounds"
+   }
+  },
+  {
+   "id": "tankhammer",
+   "name": "Tankhammer",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Anti-Monster 4+, Anti-Vehicle 4+, Devastating Wounds, Hazardous"
+   }
+  },
+  {
+   "id": "knucklebustas",
+   "name": "Knucklebustas",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Anti-Monster 4+, Anti-Vehicle 4+, Twin-linked"
+   }
+  },
+  {
+   "id": "kustom-grot-blasta-2",
+   "name": "Kustom grot blasta",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D3",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "close-combat-weapon-7",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "tinboy-s-kustom-shoota",
+   "name": "Tinboy's kustom shoota",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D3",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "tinboy-s-klaw",
+   "name": "Tinboy's klaw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "fixit-s-wrench",
+   "name": "Fixit's wrench",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "psyko-gatler",
+   "name": "Psyko-gatler",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "12",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Assault, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "grabba-dragga",
+   "name": "Grabba dragga",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Lance"
+   }
+  },
+  {
+   "id": "grabba-dragga-2",
+   "name": "Grabba dragga",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Assault, Precision"
+   }
+  },
+  {
+   "id": "speeding-bulk-and-flaming-exhaust",
+   "name": "Speeding bulk and flaming exhaust",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Extra Attacks"
+   }
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "beast-snagga-boyz",
+   "name": "Beast Snagga Boyz",
+   "role": "Battleline",
+   "keywords": [
+    "Infantry",
+    "Mob",
+    "Battleline",
+    "Beast Snagga",
+    "Beast Snagga Boyz"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 9,
+     "pts": 95
+    },
+    {
+     "count": 19,
+     "pts": 190
+    }
+   ],
+   "minModels": 9,
+   "maxModels": 19,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Beast Snagga Boy",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Beast Snagga Nob",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon",
+    "thump-gun",
+    "power-snappa",
+    "slugga",
+    "choppa"
+   ],
+   "abilities": [
+    "Monster Hunters",
+    "Feel No Pain",
+    "Waaagh!"
+   ]
+  },
+  {
+   "id": "boyz",
+   "name": "Boyz",
+   "role": "Battleline",
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Mob",
+    "Grenades",
+    "Boyz"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 9,
+     "pts": 80
+    },
+    {
+     "count": 19,
+     "pts": 170
+    }
+   ],
+   "minModels": 9,
+   "maxModels": 19,
+   "wargear": [
+    {
+     "id": "big-choppa-and-slugga",
+     "name": "Big choppa and slugga",
+     "pts": 0,
+     "group": "Big Choppa and Slugga",
+     "max": null
+    },
+    {
+     "id": "power-klaw-and-slugga",
+     "name": "Power klaw and slugga",
+     "pts": 0,
+     "group": "Big Choppa and Slugga",
+     "max": null
+    },
+    {
+     "id": "kombi-weapon-and-close-combat-weapon",
+     "name": "Kombi-weapon and close combat weapon",
+     "pts": 0,
+     "group": "Big Choppa and Slugga",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Boy",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Boss Nob",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "choppa-3",
+    "slugga",
+    "shoota-2",
+    "close-combat-weapon-3",
+    "big-shoota",
+    "rokkit-launcha",
+    "big-choppa",
+    "power-klaw-2",
+    "kombi-weapon"
+   ],
+   "abilities": [
+    "Get Da Good Bitz",
+    "Bodyguard",
+    "Waaagh!"
+   ]
+  },
+  {
+   "id": "beastboss",
+   "name": "Beastboss",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Beast Snagga",
+    "Beastboss",
+    "Warboss"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "beast-snagga-klaw",
+     "name": "Beast Snagga klaw",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "shoota",
+     "name": "Shoota",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Beastboss",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "beast-snagga-klaw",
+    "shoota",
+    "beastchoppa"
+   ],
+   "abilities": [
+    "Feel No Pain",
+    "Invulnerable Save (5+)",
+    "Waaagh!",
+    "Devastating Wounds",
+    "Leader",
+    "Beastboss",
+    "Ferocious Rage"
+   ]
+  },
+  {
+   "id": "beastboss-on-squigosaur",
+   "name": "Beastboss on Squigosaur",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Beast Snagga",
+    "Beastboss on Squigosaur",
+    "Warboss",
+    "Mounted"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 110
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "squigosaur-s-jaws",
+     "name": "Squigosaur’s jaws",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Beastboss on Squigosaur",
+     "stats": {
+      "M": "10\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "squigosaur-s-jaws",
+    "beastchoppa",
+    "slugga",
+    "thump-gun"
+   ],
+   "abilities": [
+    "Thundering Stampede",
+    "Single-minded Predator",
+    "Feel No Pain",
+    "Waaagh!",
+    "Invulnerable Save (5+)",
+    "Leader"
+   ]
+  },
+  {
+   "id": "big-mek",
+   "name": "Big Mek",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Mek",
+    "Big Mek"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Big Mek",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "drilla",
+    "power-klaw",
+    "traktor-blasta",
+    "kustom-mega-blasta"
+   ],
+   "abilities": [
+    "More Dakka",
+    "Shokk-boosta",
+    "Waaagh!",
+    "Leader"
+   ]
+  },
+  {
+   "id": "big-mek-in-mega-armour",
+   "name": "Big Mek in Mega Armour",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Big Mek in Mega Armour",
+    "Mega Armour",
+    "Mek"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "tellyport-blasta",
+     "name": "Tellyport blasta",
+     "pts": 0,
+     "group": "Additional Options",
+     "max": null
+    },
+    {
+     "id": "grot-oiler",
+     "name": "Grot oiler",
+     "pts": 0,
+     "group": "Grot Oiler",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Big Mek in Mega Armour",
+     "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "tellyport-blasta",
+    "kustom-mega-blasta",
+    "kustom-shoota",
+    "kombi-weapon",
+    "killsaw",
+    "power-klaw"
+   ],
+   "abilities": [
+    "More Dakka",
+    "Fix Dat Armour Up",
+    "Waaagh!",
+    "Leader",
+    "Grot Oiler"
+   ]
+  },
+  {
+   "id": "big-mek-on-warbike",
+   "name": "Big Mek on Warbike",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Mounted",
+    "Speed Freeks",
+    "Grenades",
+    "Big Mek on Warbike",
+    "Big Mek"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 105
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Big Mek on Warbike [Legends]",
+     "stats": {
+      "M": "12\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "slugga",
+    "kombi-weapon",
+    "kustom-mega-blasta",
+    "rokkit-launcha",
+    "big-choppa-2",
+    "power-klaw-5",
+    "kustom-mega-slugga",
+    "shokk-attack-gun",
+    "choppa-2",
+    "killsaw",
+    "twin-dakkagun",
+    "close-combat-weapon-2"
+   ],
+   "abilities": [
+    "More Dakka",
+    "Mekaniak",
+    "Waaagh!",
+    "Invulnerable Save (6+)",
+    "Leader"
+   ]
+  },
+  {
+   "id": "big-mek-with-kustom-force-field",
+   "name": "Big Mek with Kustom Force Field",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Big Mek with Kustom Force Field",
+    "Big Mek",
+    "Mek"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 55
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "grot-helper",
+     "name": "Grot helper",
+     "pts": 0,
+     "group": "Grot Helper",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Big Mek with Kustom Force Field",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "slugga",
+    "choppa-2"
+   ],
+   "abilities": [
+    "More Dakka",
+    "Kustom Force Field",
+    "Leader",
+    "Waaagh!",
+    "Grot Helper"
+   ]
+  },
+  {
+   "id": "big-mek-with-shokk-attack-gun",
+   "name": "Big Mek with Shokk Attack Gun",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Big Mek with Shokk Attack Gun",
+    "Mek"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "grot-assistant",
+     "name": "Grot assistant",
+     "pts": 0,
+     "group": "Grot Assistant",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Big Mek with Shokk Attack Gun",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon-2",
+    "shokk-attack-gun"
+   ],
+   "abilities": [
+    "More Dakka",
+    "Deranged Snotling Assault",
+    "Leader",
+    "Waaagh!",
+    "Grot Assistant"
+   ]
+  },
+  {
+   "id": "deffkilla-wartrike",
+   "name": "Deffkilla Wartrike",
+   "role": "Character",
+   "keywords": [
+    "Mounted",
+    "Warboss",
+    "Deffkilla Wartrike",
+    "Character",
+    "Speed Freeks"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "deffkilla-boomstikks",
+     "name": "Deffkilla boomstikks",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "killa-jet",
+     "name": "Killa jet",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "snagga-klaw",
+     "name": "Snagga klaw",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Deffkilla Wartrike",
+     "stats": {
+      "M": "12\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "9",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "deffkilla-boomstikks",
+    "killa-jet-burna",
+    "killa-jet-cutta",
+    "snagga-klaw"
+   ],
+   "abilities": [
+    "Speedboss",
+    "Fuel-mixa Grot",
+    "Deadly Demise",
+    "Waaagh!",
+    "Invulnerable Save (5+)",
+    "Leader"
+   ]
+  },
+  {
+   "id": "hordeboss",
+   "name": "Hordeboss [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Hordeboss",
+    "Crucible",
+    "Grenades"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Hordeboss",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Waaagh!",
+    "Leader",
+    "Crucible",
+    "More Lads, More Swagger"
+   ]
+  },
+  {
+   "id": "mek",
+   "name": "Mek",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Mek"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 45
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "wrench",
+     "name": "Wrench",
+     "pts": 0,
+     "group": "Wrench",
+     "max": null
+    },
+    {
+     "id": "killsaw",
+     "name": "Killsaw",
+     "pts": 0,
+     "group": "Wrench",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Mek",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "wrench",
+    "killsaw-3",
+    "kustom-mega-slugga"
+   ],
+   "abilities": [
+    "Leader",
+    "Waaagh!",
+    "Know-wotz",
+    "Mekaniak"
+   ]
+  },
+  {
+   "id": "nob-with-waaagh-banner",
+   "name": "Nob with Waaagh! Banner",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Nob with Waaagh! Banner"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "waaagh-banner",
+     "name": "Waaagh! banner",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Nob with Waaagh! Banner",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "waaagh-banner",
+    "kustom-shoota"
+   ],
+   "abilities": [
+    "Plant the Waaagh! Banner",
+    "Da Boss Iz Watchin’",
+    "Leader",
+    "Waaagh!"
+   ]
+  },
+  {
+   "id": "painboss",
+   "name": "Painboss",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Beast Snagga",
+    "Painboss"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "beast-snagga-klaw",
+     "name": "Beast Snagga klaw",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "grot-orderly",
+     "name": "Grot orderly",
+     "pts": 0,
+     "group": "Grot Orderly",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Painboss",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "beast-snagga-klaw-2"
+   ],
+   "abilities": [
+    "Dok’s Toolz",
+    "Sawbonez",
+    "Feel No Pain",
+    "Waaagh!",
+    "Leader",
+    "Grot Orderly"
+   ]
+  },
+  {
+   "id": "painboy",
+   "name": "Painboy",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Painboy"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "grot-orderly",
+     "name": "Grot orderly",
+     "pts": 0,
+     "group": "Grot Orderly",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Painboy",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "urty-syringe",
+    "power-klaw-2"
+   ],
+   "abilities": [
+    "Dok’s Toolz",
+    "Hold Still and Say ‘Aargh!’",
+    "Grot Orderly",
+    "Waaagh!",
+    "Leader"
+   ]
+  },
+  {
+   "id": "painboy-on-warbike",
+   "name": "Painboy on Warbike",
+   "role": "Character",
+   "keywords": [
+    "Mounted",
+    "Speed Freeks",
+    "Character",
+    "Painboy on Warbike"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Painboy on Warbike [Legends]",
+     "stats": {
+      "M": "12\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "urty-syringe",
+    "twin-dakkagun",
+    "power-klaw-2",
+    "killsaw-2"
+   ],
+   "abilities": [
+    "Hold Still and Say ‘Aargh!’",
+    "Invulnerable Save (6+)",
+    "Waaagh!",
+    "Leader",
+    "Feel No Pain",
+    "Dok’s Toolz"
+   ]
+  },
+  {
+   "id": "upstart-gretchin",
+   "name": "Upstart Gretchin [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Crucible",
+    "Grenades",
+    "Grots",
+    "Upstart Gretchin"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 40
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Upstart Gretchin",
+     "stats": {
+      "M": "6\"",
+      "T": "2",
+      "SV": "7+",
+      "W": "3",
+      "LD": "8+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Waaagh!",
+    "Crucible",
+    "Infiltrators",
+    "Stealth",
+    "Leader",
+    "Skulkin' Grot"
+   ]
+  },
+  {
+   "id": "warboss",
+   "name": "Warboss",
+   "role": "Character",
+   "keywords": [
+    "Warboss",
+    "Character",
+    "Infantry",
+    "Grenades"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "twin-slugga",
+     "name": "Twin slugga",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Warboss",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-slugga",
+    "kombi-weapon",
+    "attack-squig",
+    "big-choppa-4",
+    "power-klaw-4"
+   ],
+   "abilities": [
+    "Might is Right",
+    "Da Biggest and da Best",
+    "Waaagh!",
+    "Invulnerable Save (5+)",
+    "Leader"
+   ]
+  },
+  {
+   "id": "warboss-in-mega-armour",
+   "name": "Warboss in Mega Armour",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Warboss in Mega Armour",
+    "Mega Armour",
+    "Warboss"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "big-shoota",
+     "name": "Big shoota",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Warboss in Mega Armour",
+     "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "7",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "big-shoota-2",
+    "uge-choppa"
+   ],
+   "abilities": [
+    "Might is Right",
+    "Dead Brutal",
+    "Waaagh!",
+    "Invulnerable Save (5+)",
+    "Leader"
+   ]
+  },
+  {
+   "id": "warboss-on-warbike",
+   "name": "Warboss on Warbike",
+   "role": "Character",
+   "keywords": [
+    "Mounted",
+    "Character",
+    "Speed Freeks",
+    "Grenades",
+    "Warboss"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "killsaw",
+     "name": "Killsaw",
+     "pts": 0,
+     "group": "Killsaw",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Warboss on Warbike",
+     "stats": {
+      "M": "12\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "7",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "killsaw",
+    "twin-dakkagun",
+    "big-choppa-4",
+    "power-klaw-4"
+   ],
+   "abilities": [
+    "Speedboss",
+    "High-octane Fuel",
+    "Invulnerable Save (5+)",
+    "Waaagh!",
+    "Leader"
+   ]
+  },
+  {
+   "id": "warphead",
+   "name": "Warphead [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Crucible",
+    "Psyker",
+    "Warphead"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Warphead",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Waaagh!",
+    "Deadly Demise",
+    "Hazardous",
+    "Leader",
+    "Crucible",
+    "Channellin' da Waaagh!"
+   ]
+  },
+  {
+   "id": "weirdboy",
+   "name": "Weirdboy",
+   "role": "Character",
+   "keywords": [
+    "Weirdboy",
+    "Character",
+    "Infantry",
+    "Psyker"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Weirdboy",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "weirdboy-staff",
+    "eadbanger"
+   ],
+   "abilities": [
+    "Da Jump (Psychic)",
+    "Waaagh! Energy",
+    "Leader",
+    "Deadly Demise",
+    "Waaagh!",
+    "Hazardous"
+   ]
+  },
+  {
+   "id": "wurrboy",
+   "name": "Wurrboy",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Wurrboy",
+    "Psyker",
+    "Beast Snagga"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 60
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Wurrboy",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "eyez-of-mork",
+    "close-combat-weapon-6"
+   ],
+   "abilities": [
+    "Roar of Mork (Psychic)",
+    "Unstable Oracle",
+    "Leader",
+    "Deadly Demise",
+    "Feel No Pain",
+    "Waaagh!",
+    "Hazardous"
+   ]
+  },
+  {
+   "id": "boss-snikrot",
+   "name": "Boss Snikrot",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Boss Snikrot",
+    "Smoke"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Boss Snikrot",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "mork-s-teeth",
+    "slugga-2"
+   ],
+   "abilities": [
+    "Red Skull Kommandos",
+    "Kunnin’ Infiltrator",
+    "Infiltrators",
+    "Stealth",
+    "Waaagh!",
+    "Invulnerable Save (5+)",
+    "Lone Operative",
+    "Leader"
+   ]
+  },
+  {
+   "id": "boss-zagstruk",
+   "name": "Boss Zagstruk",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Jump Pack",
+    "Fly",
+    "Boss Zagstruk"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Boss Zagstruk",
+     "stats": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "da-vulcha-s-klaws-and-choppa",
+    "slugga"
+   ],
+   "abilities": [
+    "Drill Boss",
+    "Plummeting Descent",
+    "Invulnerable Save (5+)",
+    "Deep Strike",
+    "Feel No Pain",
+    "Waaagh!",
+    "Leader"
+   ]
+  },
+  {
+   "id": "da-red-gobbo",
+   "name": "Da Red Gobbo",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Da Red Gobbo",
+    "Grots"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 40
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Da Red Gobbo",
+     "stats": {
+      "M": "6\"",
+      "T": "2",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "kustom-grot-blasta",
+    "icon-of-da-revolushun"
+   ],
+   "abilities": [
+    "Da Revolushun!",
+    "Has Yoo Been a Good Little Grot This Year?",
+    "Waaagh!",
+    "Leader"
+   ]
+  },
+  {
+   "id": "da-red-gobbo-s-a-bomb-inable-snowman",
+   "name": "Da Red Gobbo's A-bomb-inable Snowman",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Da Red Gobbo A-bomb-inable Snowman"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 40
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Da Red Gobbo",
+     "stats": {
+      "M": "6\"",
+      "T": "2",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "kustom-grot-blasta-2",
+    "close-combat-weapon-7"
+   ],
+   "abilities": [
+    "Explosive Snowballs",
+    "A-bomb-inable Snowman",
+    "Lone Operative",
+    "Invulnerable Save (5+)",
+    "Scouts",
+    "Waaagh!",
+    "Deadly Demise"
+   ]
+  },
+  {
+   "id": "da-red-gobbo-s-tinboy",
+   "name": "Da Red Gobbo's Tinboy",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Da Red Gobbo",
+    "Grots",
+    "Vehicle",
+    "Walker"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 45
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Da Red Gobbo's Tinboy",
+     "stats": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "tinboy-s-kustom-shoota",
+    "tinboy-s-klaw"
+   ],
+   "abilities": [
+    "Redistributin' da Gifts",
+    "Waaagh!",
+    "Invulnerable Save (5+)",
+    "Deadly Demise",
+    "Lone Operative",
+    "Scouts"
+   ]
+  },
+  {
+   "id": "ghazghkull-thraka",
+   "name": "Ghazghkull Thraka",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Epic Hero",
+    "Character"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 235
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Ghazghkull Thraka",
+     "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "4"
+     }
+    },
+    {
+     "name": "Makari",
+     "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "7+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "mork-s-roar",
+    "gork-s-klaw-strike",
+    "gork-s-klaw-sweep",
+    "makari-s-stabba"
+   ],
+   "abilities": [
+    "Supreme Commander",
+    "Prophet of Da Great Waaagh!",
+    "Ghazghkull’s Waaagh! Banner (Aura)",
+    "Leader",
+    "Waaagh!",
+    "Lethal Hits",
+    "Invulnerable Save (4+)",
+    "Invulnerable Save (2+*) [Makari]"
+   ]
+  },
+  {
+   "id": "grotmas-gitz",
+   "name": "Grotmas Gitz",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Mounted",
+    "Gretchin",
+    "Fly",
+    "Grotmas Gitz"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 40
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Grotmas Gitz [Legends]",
+     "stats": {
+      "M": "10\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "bludgeoning-bag-of-gifts",
+    "massive-gift-filled-gob"
+   ],
+   "abilities": [
+    "Bludgeoning Cheer",
+    "Gifts for All! (Aura)",
+    "Waaagh!",
+    "Lone Operative",
+    "Feel No Pain",
+    "Scouts"
+   ]
+  },
+  {
+   "id": "kaptin-badrukk",
+   "name": "Kaptin Badrukk",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Infantry",
+    "Character",
+    "Kaptin Badrukk"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Kaptin Badrukk",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "choppa-4",
+    "da-rippa-standard",
+    "da-rippa-supercharge",
+    "slugga-2"
+   ],
+   "abilities": [
+    "Flashiest Gitz",
+    "Ded Glowy Ammo (Aura)",
+    "Waaagh!",
+    "Invulnerable Save (4+)",
+    "Leader"
+   ]
+  },
+  {
+   "id": "mad-dok-grotsnik",
+   "name": "Mad Dok Grotsnik",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Painboy",
+    "Mad Dok Grotsnik"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Mad Dok Grotsnik",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "power-klaw-3",
+    "slugga",
+    "urty-syringe"
+   ],
+   "abilities": [
+    "Mad Dok",
+    "One Scalpel Short of a Medpack",
+    "Feel No Pain",
+    "Waaagh!",
+    "Invulnerable Save (5+)",
+    "Leader"
+   ]
+  },
+  {
+   "id": "mozrog-skragbad",
+   "name": "Mozrog Skragbad",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Beast Snagga",
+    "Mozrog Skragbad",
+    "Mounted",
+    "Warboss"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 145
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Mozrog Skragbad",
+     "stats": {
+      "M": "10\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "big-chompa-s-jaws",
+    "gutrippa",
+    "thump-gun"
+   ],
+   "abilities": [
+    "Da Bigger Dey Iz…",
+    "One Last Kill",
+    "Feel No Pain",
+    "Waaagh!",
+    "Invulnerable Save (4+)",
+    "Leader"
+   ]
+  },
+  {
+   "id": "ufthak-blackhawk",
+   "name": "Ufthak Blackhawk",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Epic Hero",
+    "Character",
+    "Grenades",
+    "Warboss",
+    "Ufthak Blackhawk"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Ufthak Blackhawk",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "shokk-rifle",
+    "princess-jaws",
+    "snazzhammer"
+   ],
+   "abilities": [
+    "Tellyporta Tech",
+    "Gargantsmasha",
+    "Leader",
+    "Invulnerable Save (5+)",
+    "Waaagh!"
+   ]
+  },
+  {
+   "id": "wazdakka-gutsmek",
+   "name": "Wazdakka Gutsmek",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Wazdakka Gutsmek",
+    "Mounted",
+    "Vehicle",
+    "Speed Freeks",
+    "Smoke"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 175
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Wazdakka Gutsmek",
+     "stats": {
+      "M": "14\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "fixit-s-wrench",
+    "psyko-gatler",
+    "grabba-dragga",
+    "grabba-dragga-2",
+    "speeding-bulk-and-flaming-exhaust"
+   ],
+   "abilities": [
+    "Fixit da Grot",
+    "Waaagh! Wazdakka",
+    "Throttlerokkit Shokka Engine",
+    "Deadly Demise",
+    "Deep Strike",
+    "Lone Operative",
+    "Waaagh!",
+    "Invulnerable Save (4+)"
+   ]
+  },
+  {
+   "id": "zodgrod-wortsnagga",
+   "name": "Zodgrod Wortsnagga",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Zodgrod Wortsnagga"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Zodgrod Wortsnagga",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "da-grabzappa",
+    "squigstoppa"
+   ],
+   "abilities": [
+    "Super Runts",
+    "Special Dose",
+    "Leader",
+    "Feel No Pain",
+    "Waaagh!"
+   ]
+  },
+  {
+   "id": "breaka-boyz",
+   "name": "Breaka Boyz",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Breaka Boyz"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 5,
+     "pts": 140
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 5,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Breaka Boyz",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "tankhammer",
+    "knucklebustas",
+    "smash-hammer",
+    "rokkit-pistol",
+    "choppa-2"
+   ],
+   "abilities": [
+    "Attached Unit",
+    "Trophy Hunters",
+    "Waaagh!",
+    "Bomb Squigs"
+   ]
+  },
+  {
+   "id": "burna-boyz",
+   "name": "Burna Boyz",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Burna Boyz"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 60
+    },
+    {
+     "count": 6,
+     "pts": 120
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "1-spanner-and-4-burna-boyz",
+     "name": "1 Spanner and 4 Burna Boyz",
+     "pts": 0,
+     "group": "Unit Composition",
+     "max": null
+    },
+    {
+     "id": "2-spanners-and-8-burna-boyz",
+     "name": "2 Spanners and 8 Burna Boyz",
+     "pts": 0,
+     "group": "Unit Composition",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Burna Boyz",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "cuttin-flames",
+    "burna",
+    "close-combat-weapon-4",
+    "big-shoota",
+    "kustom-mega-blasta",
+    "rokkit-launcha"
+   ],
+   "abilities": [
+    "Pyromaniaks",
+    "Waaagh!"
+   ]
+  },
+  {
+   "id": "flash-gitz",
+   "name": "Flash Gitz",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Flash Gitz"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 4,
+     "pts": 80
+    },
+    {
+     "count": 9,
+     "pts": 160
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "ammo-runt",
+     "name": "Ammo Runt",
+     "pts": 0,
+     "group": "Ammo Runt",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Flash Gitz",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "choppa-2",
+    "snazzgun"
+   ],
+   "abilities": [
+    "Gun-crazy Show-offs",
+    "Waaagh!",
+    "Ammo Runt",
+    "Lethal Hits"
+   ]
+  },
+  {
+   "id": "gretchin",
+   "name": "Gretchin",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Gretchin",
+    "Grots"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 40
+    },
+    {
+     "count": 12,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "1-runtherd-and-10-gretchin",
+     "name": "1 Runtherd and 10 Gretchin",
+     "pts": 0,
+     "group": "Unit Composition",
+     "max": null
+    },
+    {
+     "id": "2-runtherds-and-20-gretchin",
+     "name": "2 Runtherds and 20 Gretchin",
+     "pts": 0,
+     "group": "Unit Composition",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Gretchin",
+     "stats": {
+      "M": "6\"",
+      "T": "2",
+      "SV": "7+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Runtherd",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon-5",
+    "grot-blasta",
+    "grot-smacka",
+    "slugga"
+   ],
+   "abilities": [
+    "Runtherd",
+    "Thievin’ Scavengers",
+    "Waaagh!"
+   ]
+  },
+  {
+   "id": "kommandos",
+   "name": "Kommandos",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Kommandos",
+    "Smoke"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 9,
+     "pts": 120
+    }
+   ],
+   "minModels": 9,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "distraction-grot",
+     "name": "Distraction Grot",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "bomb-squig",
+     "name": "Bomb Squig",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Kommandos",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Boss Nob",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "breacha-ram",
+    "slugga",
+    "choppa-3",
+    "kustom-shoota",
+    "close-combat-weapon-3",
+    "burna",
+    "rokkit-launcha",
+    "power-klaw-2",
+    "big-choppa-2"
+   ],
+   "abilities": [
+    "Stealth",
+    "Infiltrators",
+    "Waaagh!",
+    "Sneaky Surprise",
+    "Patrol Squad",
+    "Distraction Grot",
+    "Bomb Squigs"
+   ]
+  },
+  {
+   "id": "lootas",
+   "name": "Lootas",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Lootas"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 50
+    },
+    {
+     "count": 6,
+     "pts": 100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "2-spanners-and-8-lootas",
+     "name": "2 Spanners and 8 Lootas",
+     "pts": 0,
+     "group": "Unit Composition",
+     "max": null
+    },
+    {
+     "id": "1-spanner-and-4-lootas",
+     "name": "1 Spanner and 4 Lootas",
+     "pts": 0,
+     "group": "Unit Composition",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Lootas",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "big-shoota",
+    "kustom-mega-blasta",
+    "rokkit-launcha",
+    "close-combat-weapon-3",
+    "deffgun"
+   ],
+   "abilities": [
+    "Dat’s Our Loot!",
+    "Waaagh!"
+   ]
+  },
+  {
+   "id": "meganobz",
+   "name": "Meganobz",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Meganobz",
+    "Mega Armour"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 2,
+     "pts": 65
+    },
+    {
+     "count": 6,
+     "pts": 190
+    }
+   ],
+   "minModels": 2,
+   "maxModels": 6,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Meganobz",
+     "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-killsaw",
+    "kustom-shoota",
+    "power-klaw-2",
+    "kombi-weapon",
+    "killsaw-2"
+   ],
+   "abilities": [
+    "Krumpin’ Time",
+    "Waaagh!"
+   ]
+  },
+  {
+   "id": "nobz",
+   "name": "Nobz",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Nobz",
+    "Grenades"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 4,
+     "pts": 105
+    },
+    {
+     "count": 9,
+     "pts": 210
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "ammo-runt",
+     "name": "Ammo Runt",
+     "pts": 0,
+     "group": "Ammo Runts",
+     "max": 2
+    },
+    {
+     "id": "slugga-and-big-choppa",
+     "name": "Slugga and big choppa",
+     "pts": 0,
+     "group": "Wargear Options",
+     "max": null
+    },
+    {
+     "id": "slugga-and-power-klaw",
+     "name": "Slugga and power klaw",
+     "pts": 0,
+     "group": "Wargear Options",
+     "max": null
+    },
+    {
+     "id": "kombi-weapon",
+     "name": "Kombi-weapon",
+     "pts": 0,
+     "group": "Wargear Options",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Nobz",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "slugga",
+    "big-choppa",
+    "power-klaw-2",
+    "close-combat-weapon-6",
+    "kombi-weapon"
+   ],
+   "abilities": [
+    "Da Boss’ Ladz",
+    "Waaagh!",
+    "Ammo Runt",
+    "Lethal Hits"
+   ]
+  },
+  {
+   "id": "stormboyz",
+   "name": "Stormboyz",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Jump Pack",
+    "Fly",
+    "Grenades",
+    "Stormboyz"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 4,
+     "pts": 65
+    },
+    {
+     "count": 9,
+     "pts": 130
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Stormboy",
+     "stats": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Boss Nob",
+     "stats": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "slugga",
+    "choppa-3",
+    "power-klaw-2"
+   ],
+   "abilities": [
+    "Deep Strike",
+    "Waaagh!",
+    "Full Throttle"
+   ]
+  },
+  {
+   "id": "tankbustas",
+   "name": "Tankbustas",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Tankbustas",
+    "Grenades"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 5,
+     "pts": 140
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 5,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Tankbusta",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "smash-hammer",
+    "rokkit-pistol",
+    "choppa-2",
+    "rokkit-launcha",
+    "close-combat-weapon-6"
+   ],
+   "abilities": [
+    "Tank Hunters",
+    "Attached Unit",
+    "Waaagh!",
+    "Bomb Squigs",
+    "Pulsa Rokkit"
+   ]
+  },
+  {
+   "id": "gargantuan-squiggoth",
+   "name": "Gargantuan Squiggoth",
+   "role": "Monster",
+   "keywords": [
+    "Monster",
+    "Titanic",
+    "Towering",
+    "Transport",
+    "Gargantuan Squiggoth"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 440
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "huge-tusks",
+     "name": "Huge tusks",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "supa-kannon",
+     "name": "Supa-kannon",
+     "pts": 0,
+     "group": "Wargear Options",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Gargantuan Squiggoth",
+     "stats": {
+      "M": "10\"",
+      "T": "13",
+      "SV": "3+",
+      "W": "30",
+      "LD": "7+",
+      "OC": "12"
+     }
+    }
+   ],
+   "weapons": [
+    "supa-kannon",
+    "huge-tusks-strike",
+    "huge-tusks-sweep",
+    "kannon-shell-2",
+    "kannon-frag-2"
+   ],
+   "abilities": [
+    "Gargantuan",
+    "Walking Bastion",
+    "Damaged: 1-10 Wounds Remaining",
+    "Firing Deck",
+    "Deadly Demise",
+    "Waaagh!"
+   ]
+  },
+  {
+   "id": "hunta-rig",
+   "name": "Hunta Rig",
+   "role": "Monster",
+   "keywords": [
+    "Transport",
+    "Beast Snagga",
+    "Hunta Rig",
+    "Monster"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 135
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Hunta Rig",
+     "stats": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "16",
+      "LD": "7+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "eavy-lobba",
+    "butcha-boyz",
+    "savage-horns-and-hooves",
+    "saw-blades",
+    "stikka-kannon"
+   ],
+   "abilities": [
+    "On Da Hunt",
+    "Deadly Demise",
+    "Feel No Pain",
+    "Firing Deck",
+    "Waaagh!",
+    "Damaged: 1-5 Wounds Remaining"
+   ]
+  },
+  {
+   "id": "kill-rig",
+   "name": "Kill Rig",
+   "role": "Monster",
+   "keywords": [
+    "Transport",
+    "Psyker",
+    "Beast Snagga",
+    "Kill Rig",
+    "Monster"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 155
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "wurrtower",
+     "name": "Wurrtower",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Kill Rig",
+     "stats": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "16",
+      "LD": "7+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "wurrtower",
+    "eavy-lobba",
+    "butcha-boyz",
+    "savage-horns-and-hooves",
+    "saw-blades",
+    "stikka-kannon"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Feel No Pain",
+    "Waaagh!",
+    "Damaged: 1-5 Wounds Remaining",
+    "Spirit of Gork (Psychic)",
+    "Lethal Hits"
+   ]
+  },
+  {
+   "id": "squiggoth",
+   "name": "Squiggoth",
+   "role": "Monster",
+   "keywords": [
+    "Monster",
+    "Transport",
+    "Squiggoth"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 150
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "gorin-horns",
+     "name": "Gorin’ horns",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Squiggoth",
+     "stats": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "18",
+      "LD": "7+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "gorin-horns-sweep",
+    "gorin-horns-strike",
+    "kannon-shell-2",
+    "kannon-frag-2"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Firing Deck",
+    "Waaagh!",
+    "Trample",
+    "Damaged: 1-6 Wounds Remaining"
+   ]
+  },
+  {
+   "id": "grot-bomm-launcha",
+   "name": "Grot Bomm Launcha",
+   "role": "Mounted",
+   "keywords": [
+    "Mounted",
+    "Speed Freeks",
+    "Grot Bomm Launcha",
+    "Grots"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 50
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "grot-guided-bomms",
+     "name": "Grot-guided bomms",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Grot Bomm Launcha [Legends]",
+     "stats": {
+      "M": "12\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "grot-guided-bomms",
+    "spiked-wheel-2"
+   ],
+   "abilities": [
+    "Furious Barrage",
+    "Invulnerable Save (6+)",
+    "Waaagh!"
+   ]
+  },
+  {
+   "id": "nobz-on-warbikes",
+   "name": "Nobz on Warbikes",
+   "role": "Mounted",
+   "keywords": [
+    "Mounted",
+    "Speed Freeks",
+    "Nobz on Warbikes",
+    "Grenades"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 125
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "power-stabba",
+     "name": "Power stabba",
+     "pts": 0,
+     "group": "Choppa",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Nobz on Warbikes",
+     "stats": {
+      "M": "12\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "power-stabba",
+    "twin-dakkagun",
+    "slugga",
+    "choppa",
+    "big-choppa",
+    "power-klaw-2",
+    "killsaw-2",
+    "close-combat-weapon-6"
+   ],
+   "abilities": [
+    "Drive-by Krumpin'",
+    "Speed Freeks Mob",
+    "Invulnerable Save (6+)",
+    "Waaagh!"
+   ]
+  },
+  {
+   "id": "skorchas",
+   "name": "Skorchas",
+   "role": "Mounted",
+   "keywords": [
+    "Mounted",
+    "Speed Freeks",
+    "Skorchas"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 2,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Skorchas [Legends]",
+     "stats": {
+      "M": "12\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "skorcha",
+    "spiked-wheel-2"
+   ],
+   "abilities": [
+    "Pyromaniaks",
+    "Invulnerable Save (6+)",
+    "Waaagh!",
+    "Speed Freeks"
+   ]
+  },
+  {
+   "id": "squighog-boyz",
+   "name": "Squighog Boyz",
+   "role": "Mounted",
+   "keywords": [
+    "Mounted",
+    "Beast Snagga",
+    "Grenades",
+    "Squighog Boyz"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 150
+    },
+    {
+     "count": 5,
+     "pts": 300
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "bomb-squig",
+     "name": "Bomb squig",
+     "pts": 0,
+     "group": "Bomb Squigs",
+     "max": 2
+    },
+    {
+     "id": "1-nob-on-smasha-squig-and-3-squighog-boyz",
+     "name": "1 Nob on Smasha Squig and 3 Squighog Boyz",
+     "pts": 0,
+     "group": "Unit Composition",
+     "max": null
+    },
+    {
+     "id": "2-nobz-on-smasha-squig-and-6-squighog-boyz",
+     "name": "2 Nobz on Smasha Squig and 6 Squighog Boyz",
+     "pts": 0,
+     "group": "Unit Composition",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Nob on Smasha Squig",
+     "stats": {
+      "M": "10\"",
+      "T": "7",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Squighog Boyz",
+     "stats": {
+      "M": "10\"",
+      "T": "7",
+      "SV": "4+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "big-choppa-3",
+    "squig-jaws",
+    "slugga",
+    "stikka-melee",
+    "stikka-ranged",
+    "saddlegit-weapons"
+   ],
+   "abilities": [
+    "Wild Ride",
+    "Feel No Pain",
+    "Waaagh!",
+    "Bomb Squigs"
+   ]
+  },
+  {
+   "id": "warbikers",
+   "name": "Warbikers",
+   "role": "Mounted",
+   "keywords": [
+    "Mounted",
+    "Grenades",
+    "Warbikers",
+    "Speed Freeks"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 2,
+     "pts": 65
+    },
+    {
+     "count": 5,
+     "pts": 130
+    }
+   ],
+   "minModels": 2,
+   "maxModels": 5,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Warbiker",
+     "stats": {
+      "M": "12\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Boss Nob on Warbike",
+     "stats": {
+      "M": "12\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-dakkagun",
+    "close-combat-weapon-3",
+    "slugga",
+    "choppa-3",
+    "big-choppa",
+    "power-klaw-2"
+   ],
+   "abilities": [
+    "Drive-by Dakka",
+    "Waaagh!",
+    "Invulnerable Save (6+)"
+   ]
+  },
+  {
+   "id": "warbuggies",
+   "name": "Warbuggies",
+   "role": "Mounted",
+   "keywords": [
+    "Mounted",
+    "Speed Freeks",
+    "Warbuggies"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 2,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Warbuggies",
+     "stats": {
+      "M": "12\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-big-shoota",
+    "spiked-wheel",
+    "rack-of-rokkits"
+   ],
+   "abilities": [
+    "Invulnerable Save (6+)",
+    "Speed Freeks",
+    "Waaagh!",
+    "Outflank"
+   ]
+  },
+  {
+   "id": "wartrakks",
+   "name": "Wartrakks",
+   "role": "Mounted",
+   "keywords": [
+    "Mounted",
+    "Speed Freeks",
+    "Wartrakks"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 2,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Wartrakks",
+     "stats": {
+      "M": "12\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-big-shoota",
+    "spiked-wheel-2",
+    "rack-of-rokkits"
+   ],
+   "abilities": [
+    "Drive-by Dakka",
+    "Invulnerable Save (6+)",
+    "Waaagh!",
+    "Speed Freeks"
+   ]
+  },
+  {
+   "id": "burna-boy",
+   "name": "Burna Boy",
+   "role": "Other",
+   "keywords": [],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [],
+   "weapons": [
+    "cuttin-flames",
+    "burna"
+   ],
+   "abilities": []
+  },
+  {
+   "id": "loota",
+   "name": "Loota",
+   "role": "Other",
+   "keywords": [],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [],
+   "weapons": [
+    "deffgun",
+    "close-combat-weapon-3"
+   ],
+   "abilities": []
+  },
+  {
+   "id": "nob-on-smasha-squig",
+   "name": "Nob on Smasha Squig",
+   "role": "Other",
+   "keywords": [],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Nob on Smasha Squig",
+     "stats": {
+      "M": "10\"",
+      "T": "7",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "big-choppa-3",
+    "squig-jaws",
+    "slugga"
+   ],
+   "abilities": []
+  },
+  {
+   "id": "runtherd",
+   "name": "Runtherd",
+   "role": "Other",
+   "keywords": [],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Runtherd",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "grot-smacka",
+    "slugga"
+   ],
+   "abilities": []
+  },
+  {
+   "id": "spanner",
+   "name": "Spanner",
+   "role": "Other",
+   "keywords": [],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [],
+   "weapons": [
+    "big-shoota",
+    "kustom-mega-blasta",
+    "rokkit-launcha",
+    "close-combat-weapon-3"
+   ],
+   "abilities": []
+  },
+  {
+   "id": "squighog-boy",
+   "name": "Squighog Boy",
+   "role": "Other",
+   "keywords": [],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Squighog Boyz",
+     "stats": {
+      "M": "10\"",
+      "T": "7",
+      "SV": "4+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "stikka-melee",
+    "stikka-ranged",
+    "saddlegit-weapons",
+    "squig-jaws"
+   ],
+   "abilities": []
+  },
+  {
+   "id": "attack-fighta",
+   "name": "Attack Fighta",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Aircraft",
+    "Attack Fighta",
+    "Speed Freeks"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Attack Fighta [Legends]",
+     "stats": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-big-shoota",
+    "wing-missiles",
+    "armoured-hull"
+   ],
+   "abilities": [
+    "Interceptor",
+    "Small Bomms",
+    "Invulnerable Save (6+)",
+    "Deadly Demise",
+    "Waaagh!"
+   ]
+  },
+  {
+   "id": "battlewagon",
+   "name": "Battlewagon",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Transport",
+    "Battlewagon"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 160
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "ard-case",
+     "name": "’Ard Case",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "killkannon",
+     "name": "Killkannon",
+     "pts": 0,
+     "group": "Big Gun",
+     "max": null
+    },
+    {
+     "id": "zzap-gun",
+     "name": "Zzap gun",
+     "pts": 0,
+     "group": "Big Gun",
+     "max": null
+    },
+    {
+     "id": "kannon",
+     "name": "Kannon",
+     "pts": 0,
+     "group": "Big Gun",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Battlewagon",
+     "stats": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "16",
+      "LD": "7+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "killkannon",
+    "zzap-gun",
+    "kannon-shell",
+    "kannon-frag",
+    "deff-rolla",
+    "tracks-and-wheels",
+    "lobba",
+    "wreckin-ball",
+    "grabbin-klaw",
+    "big-shoota"
+   ],
+   "abilities": [
+    "Ramshackle but Rugged",
+    "Deadly Demise",
+    "Firing Deck",
+    "Waaagh!",
+    "Damaged: 1-5 Wounds Remaining",
+    "Invulnerable Save (6+)",
+    "’Ard Case"
+   ]
+  },
+  {
+   "id": "big-gunz",
+   "name": "Big Gunz",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Artillery",
+    "Big Gunz",
+    "Grots"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 2,
+   "wargear": [
+    {
+     "id": "kannon",
+     "name": "Kannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "lobba",
+     "name": "Lobba",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "zzap-gun",
+     "name": "Zzap gun",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Big Gunz",
+     "stats": {
+      "M": "3\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "3",
+      "LD": "8+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "kannon-frag-3",
+    "kannon-shell-3",
+    "lobba-2",
+    "zzap-gun-2",
+    "close-combat-weapons"
+   ],
+   "abilities": [
+    "Splat!",
+    "Big Gunz",
+    "Invulnerable Save (6+)",
+    "Waaagh!"
+   ]
+  },
+  {
+   "id": "big-trakk",
+   "name": "Big Trakk",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Transport",
+    "Big Trakk"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Big Trakk",
+     "stats": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "4+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "big-shoota",
+    "armoured-hull",
+    "kannon-shell-2",
+    "kannon-frag-2",
+    "supa-kannon-shell",
+    "supa-kannon-frag"
+   ],
+   "abilities": [
+    "Spiked Ram",
+    "Invulnerable Save (6+)",
+    "Deadly Demise",
+    "Firing Deck",
+    "Waaagh!",
+    "Damaged: 1-4 Wounds Remaining"
+   ]
+  },
+  {
+   "id": "big-ed-bossbunka",
+   "name": "Big'ed Bossbunka",
+   "role": "Vehicle",
+   "keywords": [
+    "Fortification",
+    "Vehicle",
+    "Transport",
+    "Big'ed Bossbunka"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 135
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Big'ed Bossbunka",
+     "stats": {
+      "M": "-",
+      "T": "10",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "gaze-of-gork-glare",
+    "gaze-of-gork-squint",
+    "big-shoota"
+   ],
+   "abilities": [
+    "Ramshackle Cover",
+    "Shoutin’ Pole (Aura)",
+    "Deadly Demise",
+    "Firing Deck",
+    "Waaagh!",
+    "Fortification"
+   ]
+  },
+  {
+   "id": "blitza-bommer",
+   "name": "Blitza-bommer",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Blitza-bommer",
+    "Speed Freeks"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 115
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Blitza-bommer",
+     "stats": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "big-shoota",
+    "twin-supa-shoota",
+    "armoured-hull"
+   ],
+   "abilities": [
+    "Boom Bomb",
+    "Waaagh!",
+    "Deadly Demise",
+    "Damaged: 1-4 Wounds Remaining",
+    "Invulnerable Save (6+)"
+   ]
+  },
+  {
+   "id": "boomdakka-snazzwagon",
+   "name": "Boomdakka Snazzwagon",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Grenades",
+    "Boomdakka Snazzwagon",
+    "Speed Freeks"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "mek-speshul",
+     "name": "Mek speshul",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Boomdakka Snazzwagon",
+     "stats": {
+      "M": "12\"",
+      "T": "7",
+      "SV": "4+",
+      "W": "9",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "mek-speshul",
+    "big-shoota",
+    "grot-blasta",
+    "spiked-wheels"
+   ],
+   "abilities": [
+    "Billowing Fumes (Aura)",
+    "Deadly Demise",
+    "Waaagh!",
+    "Invulnerable Save (6+)"
+   ]
+  },
+  {
+   "id": "burna-bommer",
+   "name": "Burna-bommer",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Aircraft",
+    "Burna-bommer",
+    "Speed Freeks"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 125
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "skorcha-missile-rack",
+     "name": "Skorcha missile rack",
+     "pts": 0,
+     "group": "Skorcha Missile Rack",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Burna-bommer",
+     "stats": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "skorcha-missile-rack",
+    "twin-big-shoota",
+    "twin-supa-shoota",
+    "armoured-hull"
+   ],
+   "abilities": [
+    "Burna Bomb",
+    "Deadly Demise",
+    "Waaagh!",
+    "Damaged: 1-4 Wounds Remaining",
+    "Invulnerable Save (6+)"
+   ]
+  },
+  {
+   "id": "chinork-warkopta",
+   "name": "Chinork Warkopta",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Transport",
+    "Chinork Warkopta",
+    "Speed Freeks"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 105
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "big-bomms",
+     "name": "Big bomms",
+     "pts": 0,
+     "group": "Big Bomms (0-2)",
+     "max": 2
+    },
+    {
+     "id": "2-deffguns",
+     "name": "2 Deffguns",
+     "pts": 0,
+     "group": "Deffguns",
+     "max": null
+    },
+    {
+     "id": "2-rattler-kannons",
+     "name": "2 Rattler kannons",
+     "pts": 0,
+     "group": "Deffguns",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Chinork Warkopta [Legends]",
+     "stats": {
+      "M": "14\"",
+      "T": "8",
+      "SV": "4+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "deffgun-2",
+    "rattler-kannon",
+    "big-shoota",
+    "kustom-mega-blasta",
+    "rokkit-launcha",
+    "skorcha",
+    "armoured-hull"
+   ],
+   "abilities": [
+    "Aerial Deployment",
+    "Invulnerable Save (6+)",
+    "Waaagh!",
+    "Deadly Demise",
+    "Firing Deck",
+    "Deep Strike",
+    "Big Bomms"
+   ]
+  },
+  {
+   "id": "dakkajet",
+   "name": "Dakkajet",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Aircraft",
+    "Dakkajet",
+    "Speed Freeks"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 135
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Dakkajet",
+     "stats": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-supa-shoota",
+    "armoured-hull"
+   ],
+   "abilities": [
+    "Dakkastorm",
+    "Deadly Demise",
+    "Waaagh!",
+    "Damaged: 1-4 Wounds Remaining",
+    "Invulnerable Save (6+)"
+   ]
+  },
+  {
+   "id": "deff-dread",
+   "name": "Deff Dread",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Deff Dread"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 120
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "stompy-feet",
+     "name": "Stompy feet",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "dread-klaw",
+     "name": "Dread klaw",
+     "pts": 0,
+     "group": "Wargear Options",
+     "max": 4
+    }
+   ],
+   "stats": [
+    {
+     "name": "Deff Dread",
+     "stats": {
+      "M": "8\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "8",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "dread-klaw",
+    "stompy-feet",
+    "big-shoota",
+    "kustom-mega-blasta",
+    "rokkit-launcha",
+    "skorcha"
+   ],
+   "abilities": [
+    "Piston-driven Brutality",
+    "Deadly Demise",
+    "Waaagh!",
+    "Invulnerable Save (6+)"
+   ]
+  },
+  {
+   "id": "deff-rolla-battle-fortress",
+   "name": "Deff Rolla Battle Fortress",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Titanic",
+    "Transport",
+    "Deff Rolla Battle Fortress"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 250
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "zzap-gun",
+     "name": "Zzap gun",
+     "pts": 0,
+     "group": "Big Gunz",
+     "max": 3
+    }
+   ],
+   "stats": [
+    {
+     "name": "Deff Rolla Battle Fortress [Legends]",
+     "stats": {
+      "M": "10\"",
+      "T": "12",
+      "SV": "3+",
+      "W": "22",
+      "LD": "7+",
+      "OC": "8"
+     }
+    }
+   ],
+   "weapons": [
+    "zzap-gun-3",
+    "deff-rolla",
+    "kannon-shell-2",
+    "kannon-frag-2",
+    "lobba",
+    "big-shoota",
+    "twin-big-shoota",
+    "skorcha",
+    "rokkit-launcha"
+   ],
+   "abilities": [
+    "Rolling Fortress",
+    "Invulnerable Save (6+)",
+    "Damaged: 1-7 Wounds Remaining",
+    "Deadly Demise",
+    "Waaagh!",
+    "Firing Deck"
+   ]
+  },
+  {
+   "id": "deffkoptas",
+   "name": "Deffkoptas",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Grenades",
+    "Deffkoptas",
+    "Speed Freeks"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 3,
+     "pts": 80
+    },
+    {
+     "count": 6,
+     "pts": 160
+    }
+   ],
+   "minModels": 3,
+   "maxModels": 6,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Deffkoptas",
+     "stats": {
+      "M": "12\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "kopta-rokkits",
+    "slugga",
+    "spinnin-blades",
+    "kustom-mega-blasta"
+   ],
+   "abilities": [
+    "Deff from Above",
+    "Deep Strike",
+    "Waaagh!",
+    "Invulnerable Save (6+)"
+   ]
+  },
+  {
+   "id": "deffkoptas-with-big-shootas",
+   "name": "Deffkoptas with Big Shootas",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Deffkoptas with Big Shootas",
+    "Fly",
+    "Grenades"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 130
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Deffkoptas with Big Shootas",
+     "stats": {
+      "M": "12\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "slugga",
+    "spinnin-blades",
+    "killsaw",
+    "twin-big-shoota",
+    "kopta-rokkits",
+    "kustom-mega-blasta"
+   ],
+   "abilities": [
+    "Deff from Above",
+    "Invulnerable Save (6+)",
+    "Deep Strike",
+    "Waaagh!"
+   ]
+  },
+  {
+   "id": "fighta-bommer",
+   "name": "Fighta-Bommer",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Aircraft",
+    "Fighta-Bommer",
+    "Speed Freeks"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "2-wing-missiles",
+     "name": "2 Wing missiles",
+     "pts": 0,
+     "group": "Wargear Options",
+     "max": null
+    },
+    {
+     "id": "2-grot-guided-bomms",
+     "name": "2 Grot-guided bomms",
+     "pts": 0,
+     "group": "Wargear Options",
+     "max": null
+    },
+    {
+     "id": "small-bomms",
+     "name": "Small bomms",
+     "pts": 0,
+     "group": "Wargear Options",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Fighta-Bommer [Legends]",
+     "stats": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "grot-guided-bomm",
+    "wing-missiles",
+    "twin-big-shoota",
+    "armoured-hull"
+   ],
+   "abilities": [
+    "Strafing Run",
+    "Invulnerable Save (6+)",
+    "Deadly Demise",
+    "Waaagh!",
+    "Damaged: 1-4 Wounds Remaining",
+    "Small Bomms"
+   ]
+  },
+  {
+   "id": "gorkanaut",
+   "name": "Gorkanaut",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Titanic",
+    "Towering",
+    "Walker",
+    "Transport",
+    "Gorkanaut"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 265
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "deffstorm-mega-shoota",
+     "name": "Deffstorm mega-shoota",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "klaw-of-gork",
+     "name": "Klaw of Gork",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Gorkanaut",
+     "stats": {
+      "M": "8\"",
+      "T": "12",
+      "SV": "3+",
+      "W": "20",
+      "LD": "7+",
+      "OC": "8"
+     }
+    }
+   ],
+   "weapons": [
+    "deffstorm-mega-shoota",
+    "klaw-of-gork-strike",
+    "klaw-of-gork-sweep",
+    "rokkit-launcha",
+    "skorcha",
+    "twin-big-shoota"
+   ],
+   "abilities": [
+    "Clankin’ Forward",
+    "Big an’ Stompy",
+    "Deadly Demise",
+    "Waaagh!",
+    "Damaged: 1-7 Wounds Remaining",
+    "Invulnerable Save (6+)"
+   ]
+  },
+  {
+   "id": "grot-mega-tank",
+   "name": "Grot Mega-Tank",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Grot Mega-Tank",
+    "Grots"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 110
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "armoured-hull",
+     "name": "Armoured hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "mega-tank-weapons",
+     "name": "Mega-tank weapons",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-big-shoota",
+     "name": "Twin big shoota",
+     "pts": 0,
+     "group": "Wargear Options",
+     "max": 2
+    },
+    {
+     "id": "twin-grotzooka",
+     "name": "Twin grotzooka",
+     "pts": 0,
+     "group": "Wargear Options",
+     "max": 2
+    },
+    {
+     "id": "twin-kustom-mega-blasta",
+     "name": "Twin kustom mega-blasta",
+     "pts": 0,
+     "group": "Wargear Options",
+     "max": 2
+    },
+    {
+     "id": "twin-rokkit-launcha",
+     "name": "Twin rokkit launcha",
+     "pts": 0,
+     "group": "Wargear Options",
+     "max": 2
+    },
+    {
+     "id": "twin-skorcha",
+     "name": "Twin skorcha",
+     "pts": 0,
+     "group": "Wargear Options",
+     "max": 2
+    }
+   ],
+   "stats": [
+    {
+     "name": "Grot Mega-Tank",
+     "stats": {
+      "M": "8\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "8+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [
+    "armoured-hull-2",
+    "mega-tank-weapons",
+    "twin-big-shoota-2",
+    "twin-grotzooka",
+    "twin-kustom-mega-blasta",
+    "twin-rokkit-launcha",
+    "twin-skorcha"
+   ],
+   "abilities": [
+    "Bizarrely Resilient",
+    "Deadly Demise",
+    "Waaagh!",
+    "Damaged: 1-4 Wounds Remaining"
+   ]
+  },
+  {
+   "id": "grot-tanks",
+   "name": "Grot Tanks",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Grot Tanks",
+    "Grots"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 4,
+     "pts": 155
+    },
+    {
+     "count": 10,
+     "pts": 310
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 10,
+   "wargear": [],
+   "stats": [],
+   "weapons": [
+    "grot-tank-shoota",
+    "ramshackle-hull",
+    "grotzooka",
+    "kustom-mega-blasta-2",
+    "rokkit-launcha-2",
+    "skorcha"
+   ],
+   "abilities": [
+    "Scatter!",
+    "Deadly Demise",
+    "Waaagh!",
+    "Grot Tanks"
+   ]
+  },
+  {
+   "id": "kannonwagon",
+   "name": "Kannonwagon",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Transport",
+    "Kannonwagon"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 115
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "spiked-ram",
+     "name": "Spiked ram",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Kannonwagon",
+     "stats": {
+      "M": "12\"",
+      "T": "10",
+      "SV": "4+",
+      "W": "16",
+      "LD": "7+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [
+    "spiked-ram",
+    "big-shoota",
+    "supa-kannon-shell",
+    "supa-kannon-frag"
+   ],
+   "abilities": [
+    "Big Booms",
+    "Invulnerable Save (6+)",
+    "Damaged: 1-5 Wounds Remaining",
+    "Deadly Demise",
+    "Firing Deck",
+    "Waaagh!"
+   ]
+  },
+  {
+   "id": "kill-krusha",
+   "name": "Kill Krusha",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Titanic",
+    "Transport",
+    "Kill Krusha"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 230
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "krusha-kannon",
+     "name": "Krusha kannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "tracks-and-wheels",
+     "name": "Tracks and wheels",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "2-rokkit-launchas",
+     "name": "2 Rokkit launchas",
+     "pts": 0,
+     "group": "Wargear Options (0-2)",
+     "max": 2
+    }
+   ],
+   "stats": [
+    {
+     "name": "Kill Krusha [Legends]",
+     "stats": {
+      "M": "10\"",
+      "T": "12",
+      "SV": "3+",
+      "W": "22",
+      "LD": "7+",
+      "OC": "8"
+     }
+    }
+   ],
+   "weapons": [
+    "krusha-kannon-tankhamma-shell",
+    "krusha-kannon-blast-burna",
+    "tracks-and-wheels-2",
+    "rokkit-launcha",
+    "twin-big-shoota",
+    "skorcha"
+   ],
+   "abilities": [
+    "Da Biggest Booms",
+    "Invulnerable Save (6+)",
+    "Firing Deck",
+    "Deadly Demise",
+    "Waaagh!",
+    "Damaged: 1-7 Wounds Remaining"
+   ]
+  },
+  {
+   "id": "kill-tank",
+   "name": "Kill Tank",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Titanic",
+    "Transport",
+    "Kill Tank"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 295
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "reinforced-ram",
+     "name": "Reinforced ram",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "bursta-kannon",
+     "name": "Bursta kannon",
+     "pts": 0,
+     "group": "Bursta Kannon",
+     "max": null
+    },
+    {
+     "id": "giga-shoota",
+     "name": "Giga shoota",
+     "pts": 0,
+     "group": "Bursta Kannon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Kill Tank",
+     "stats": {
+      "M": "12\"",
+      "T": "12",
+      "SV": "3+",
+      "W": "24",
+      "LD": "6+",
+      "OC": "10"
+     }
+    }
+   ],
+   "weapons": [
+    "bursta-kannon",
+    "giga-shoota",
+    "reinforced-ram",
+    "skorcha",
+    "twin-big-shoota"
+   ],
+   "abilities": [
+    "Wall of Dakka",
+    "Damaged: 1-8 Wounds Remaining",
+    "Deadly Demise",
+    "Waaagh!"
+   ]
+  },
+  {
+   "id": "killa-kans",
+   "name": "Killa Kans",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Killa Kans",
+    "Grots"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 3,
+     "pts": 125
+    },
+    {
+     "count": 6,
+     "pts": 250
+    }
+   ],
+   "minModels": 3,
+   "maxModels": 6,
+   "wargear": [
+    {
+     "id": "kan-shoota",
+     "name": "Kan shoota",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Killa Kans",
+     "stats": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "5",
+      "LD": "8+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "kan-shoota",
+    "kan-klaw",
+    "grotzooka",
+    "rokkit-launcha-2",
+    "skorcha"
+   ],
+   "abilities": [
+    "Shooty Power Trip",
+    "Deadly Demise",
+    "Waaagh!",
+    "Invulnerable Save (6+)"
+   ]
+  },
+  {
+   "id": "kustom-boosta-blasta",
+   "name": "Kustom Boosta-blasta",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Kustom Boosta-blasta",
+    "Grenades",
+    "Speed Freeks"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "burna-exhausts",
+     "name": "Burna exhausts",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "rivet-kannon",
+     "name": "Rivet kannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Kustom Boosta-blasta",
+     "stats": {
+      "M": "12\"",
+      "T": "7",
+      "SV": "4+",
+      "W": "9",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "burna-exhausts",
+    "rivet-kannon",
+    "grot-blasta",
+    "spiked-wheels"
+   ],
+   "abilities": [
+    "Rivetin’ Dakka",
+    "Deadly Demise",
+    "Waaagh!",
+    "Invulnerable Save (6+)"
+   ]
+  },
+  {
+   "id": "lifta-wagon",
+   "name": "Lifta Wagon",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Lifta Wagon"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 135
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "lifta-droppa",
+     "name": "Lifta-droppa",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "1-big-shoota",
+     "name": "1 Big shoota",
+     "pts": 0,
+     "group": "Gunz",
+     "max": null
+    },
+    {
+     "id": "2-big-shootas",
+     "name": "2 Big shootas",
+     "pts": 0,
+     "group": "Gunz",
+     "max": null
+    },
+    {
+     "id": "1-rokkit-launcha",
+     "name": "1 Rokkit launcha",
+     "pts": 0,
+     "group": "Gunz",
+     "max": null
+    },
+    {
+     "id": "2-rokkit-launchas",
+     "name": "2 Rokkit launchas",
+     "pts": 0,
+     "group": "Gunz",
+     "max": null
+    },
+    {
+     "id": "1-big-shoota-and-1-rokkit-launcha",
+     "name": "1 Big shoota and 1 rokkit launcha",
+     "pts": 0,
+     "group": "Gunz",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Lifta Wagon [Legends]",
+     "stats": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "16",
+      "LD": "7+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "lifta-droppa",
+    "deff-rolla",
+    "tracks-and-wheels",
+    "big-shoota",
+    "rokkit-launcha",
+    "grabbin-klaw",
+    "wreckin-ball"
+   ],
+   "abilities": [
+    "Da Bigger Dey Are, da Better Dey Drop",
+    "Damaged: 1-5 Wounds Remaining",
+    "Invulnerable Save (6+)",
+    "Waaagh!",
+    "Deadly Demise"
+   ]
+  },
+  {
+   "id": "mega-dread",
+   "name": "Mega Dread",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Mega Dread",
+    "Walker"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 225
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "boombits",
+     "name": "Boombits",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    }
+   ],
+   "stats": [
+    {
+     "name": "Mega Dread",
+     "stats": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "16",
+      "LD": "7+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "boombits",
+    "dread-killsaw",
+    "killkannon-2",
+    "dread-rippa-klaw",
+    "stompy-feet-2"
+   ],
+   "abilities": [
+    "Mega Carnage",
+    "Invulnerable Save (6+)",
+    "Deadly Demise",
+    "Waaagh!",
+    "Damaged: 1-5 Wounds Remaining",
+    "Dead Rippy",
+    "Twin-linked"
+   ]
+  },
+  {
+   "id": "megatrakk-scrapjet",
+   "name": "Megatrakk Scrapjet",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Megatrakk Scrapjet",
+    "Speed Freeks"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "nose-drill",
+     "name": "Nose drill",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "rokkit-cannon",
+     "name": "Rokkit cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "wing-missiles",
+     "name": "Wing missiles",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Megatrakk Scrapjet",
+     "stats": {
+      "M": "12\"",
+      "T": "7",
+      "SV": "4+",
+      "W": "9",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "nose-drill",
+    "rokkit-cannon",
+    "wing-missiles",
+    "twin-big-shoota"
+   ],
+   "abilities": [
+    "Drill Through",
+    "Deadly Demise",
+    "Waaagh!",
+    "Invulnerable Save (6+)"
+   ]
+  },
+  {
+   "id": "mek-gunz",
+   "name": "Mek Gunz",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Mek Gunz",
+    "Grots"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 3,
+   "wargear": [
+    {
+     "id": "smasha-gun",
+     "name": "Smasha gun",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "bubblechukka",
+     "name": "Bubblechukka",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "kustom-mega-kannon",
+     "name": "Kustom mega-kannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "traktor-kannon",
+     "name": "Traktor kannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Mek Gunz",
+     "stats": {
+      "M": "3\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "6",
+      "LD": "8+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "smasha-gun",
+    "1-2-bubblechukka-big-bubble",
+    "3-4-bubblechukka-wobbly-bubble",
+    "5-6-bubblechukka-dense-bubble",
+    "kustom-mega-kannon",
+    "traktor-kannon",
+    "grot-crew"
+   ],
+   "abilities": [
+    "Waaagh!",
+    "Invulnerable Save (6+)",
+    "Splat!"
+   ]
+  },
+  {
+   "id": "meka-dread",
+   "name": "Meka-Dread",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Meka-Dread"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 210
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Mega Dread",
+     "stats": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "16",
+      "LD": "7+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "dread-killsaw",
+    "killkannon-2",
+    "dread-rippa-klaw",
+    "stompy-feet-2"
+   ],
+   "abilities": [
+    "Mekaniak",
+    "Invulnerable Save (6+)",
+    "Deadly Demise",
+    "Waaagh!",
+    "Damaged: 1-5 Wounds Remaining",
+    "Dead Rippy",
+    "Twin-linked"
+   ]
+  },
+  {
+   "id": "mekboy-workshop",
+   "name": "Mekboy Workshop",
+   "role": "Vehicle",
+   "keywords": [
+    "Fortification",
+    "Vehicle",
+    "Mekboy Workshop"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Mekboy Workshop",
+     "stats": {
+      "M": "-",
+      "T": "9",
+      "SV": "4+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Ramshackle Cover",
+    "Workshop",
+    "Deadly Demise",
+    "Waaagh!",
+    "Fortification"
+   ]
+  },
+  {
+   "id": "morkanaut",
+   "name": "Morkanaut",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Titanic",
+    "Towering",
+    "Transport",
+    "Walker",
+    "Morkanaut"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 280
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "klaw-of-mork",
+     "name": "Klaw of Mork",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "kustom-mega-zappa",
+     "name": "Kustom mega-zappa",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Morkanaut",
+     "stats": {
+      "M": "8\"",
+      "T": "12",
+      "SV": "3+",
+      "W": "20",
+      "LD": "7+",
+      "OC": "8"
+     }
+    }
+   ],
+   "weapons": [
+    "klaw-of-mork-strike",
+    "klaw-of-mork-sweep",
+    "kustom-mega-zappa",
+    "kustom-mega-blasta",
+    "rokkit-launcha",
+    "twin-big-shoota"
+   ],
+   "abilities": [
+    "Clankin’ Forward",
+    "Big an’ Shooty",
+    "Deadly Demise",
+    "Waaagh!",
+    "Damaged: 1-7 Wounds Remaining",
+    "Invulnerable Save (5+)"
+   ]
+  },
+  {
+   "id": "rukkatrukk-squigbuggy",
+   "name": "Rukkatrukk Squigbuggy",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Rukkatrukk Squigbuggy",
+    "Speed Freeks"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 95
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "sawn-off-shotgun",
+     "name": "Sawn-off shotgun",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "squig-launchas",
+     "name": "Squig launchas",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Rukkatrukk Squigbuggy",
+     "stats": {
+      "M": "12\"",
+      "T": "7",
+      "SV": "4+",
+      "W": "9",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "sawn-off-shotgun",
+    "squig-launchas",
+    "saw-blades-2"
+   ],
+   "abilities": [
+    "Buzzer Squigs",
+    "Squig Mine",
+    "Deadly Demise",
+    "Waaagh!",
+    "Invulnerable Save (6+)"
+   ]
+  },
+  {
+   "id": "shokkjump-dragsta",
+   "name": "Shokkjump Dragsta",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Shokkjump Dragsta",
+    "Speed Freeks"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "kustom-shokk-rifle",
+     "name": "Kustom shokk rifle",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Shokkjump Dragsta",
+     "stats": {
+      "M": "12\"",
+      "T": "7",
+      "SV": "4+",
+      "W": "9",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "kustom-shokk-rifle",
+    "rokkit-launcha",
+    "saw-blades-2"
+   ],
+   "abilities": [
+    "Shokk Tunnel",
+    "Deadly Demise",
+    "Waaagh!",
+    "Invulnerable Save (6+)"
+   ]
+  },
+  {
+   "id": "stompa",
+   "name": "Stompa",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Transport",
+    "Titanic",
+    "Towering",
+    "Walker",
+    "Stompa"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 800
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "deffkannon",
+     "name": "Deffkannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "mega-choppa",
+     "name": "Mega-choppa",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "supa-gatler",
+     "name": "Supa-gatler",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "supa-rokkits",
+     "name": "Supa-rokkits",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Stompa",
+     "stats": {
+      "M": "10\"",
+      "T": "14",
+      "SV": "2+",
+      "W": "30",
+      "LD": "6+",
+      "OC": "12"
+     }
+    }
+   ],
+   "weapons": [
+    "deffkannon",
+    "mega-choppa-strike",
+    "mega-choppa-sweep",
+    "supa-gatler",
+    "supa-rokkits",
+    "big-shoota",
+    "skorcha",
+    "twin-big-shoota"
+   ],
+   "abilities": [
+    "Damaged: 1-10 Wounds Remaining",
+    "Waaagh! Effigy (Aura)",
+    "Stompin’ Forward",
+    "Invulnerable Save (6+)",
+    "Deadly Demise",
+    "Waaagh!"
+   ]
+  },
+  {
+   "id": "trukk",
+   "name": "Trukk",
+   "role": "Vehicle",
+   "keywords": [
+    "Dedicated Transport",
+    "Vehicle",
+    "Transport",
+    "Trukk"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Trukk",
+     "stats": {
+      "M": "12\"",
+      "T": "8",
+      "SV": "4+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "big-shoota",
+    "wreckin-ball",
+    "spiked-wheel"
+   ],
+   "abilities": [
+    "Grot Riggers",
+    "Deadly Demise",
+    "Firing Deck",
+    "Waaagh!",
+    "Invulnerable Save (6+)"
+   ]
+  },
+  {
+   "id": "wazbom-blastajet",
+   "name": "Wazbom Blastajet",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Grenades",
+    "Wazbom Blastajet",
+    "Speed Freeks"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 175
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "smasha-gun",
+     "name": "Smasha gun",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-wazbom-mega-kannon",
+     "name": "Twin wazbom mega-kannon",
+     "pts": 0,
+     "group": "Twin Wazbom Mega-kannon",
+     "max": null
+    },
+    {
+     "id": "twin-tellyport-mega-blasta",
+     "name": "Twin tellyport mega-blasta",
+     "pts": 0,
+     "group": "Twin Wazbom Mega-kannon",
+     "max": null
+    },
+    {
+     "id": "blastajet-force-field",
+     "name": "Blastajet Force Field",
+     "pts": 0,
+     "group": "Wargear Options",
+     "max": 1
+    },
+    {
+     "id": "twin-supa-shoota",
+     "name": "Twin supa-shoota",
+     "pts": 0,
+     "group": "Wargear Options",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Wazbom Blastajet",
+     "stats": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "smasha-gun-2",
+    "twin-wazbom-mega-kannon",
+    "twin-tellyport-mega-blasta",
+    "twin-supa-shoota-2",
+    "armoured-hull"
+   ],
+   "abilities": [
+    "Blastajet Attack Run",
+    "Deadly Demise",
+    "Waaagh!",
+    "Damaged: 1-4 Wounds Remaining",
+    "Invulnerable Save (6+)",
+    "Blastajet Force Field",
+    "Invulnerable Save (4+)"
+   ]
+  }
+ ]
+}

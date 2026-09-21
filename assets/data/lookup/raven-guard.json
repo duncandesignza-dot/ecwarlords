@@ -1,0 +1,163 @@
+{
+ "id": "raven-guard",
+ "name": "Raven Guard",
+ "source": "BSData/wh40k-10e",
+ "revision": "17",
+ "enhancements": [],
+ "weapons": [
+  {
+   "id": "blackout",
+   "name": "Blackout",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Pistol, Precision"
+   }
+  },
+  {
+   "id": "the-raven-s-talons",
+   "name": "The Raven's Talons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "7",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Precision, Twin-linked"
+   }
+  },
+  {
+   "id": "claws-of-severax",
+   "name": "Claws of Severax",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "7",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Sustained Hits 2, Twin-linked"
+   }
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "aethon-shaan",
+   "name": "Aethon Shaan",
+   "role": "Epic Hero",
+   "keywords": [
+    "Character",
+    "Epic Hero",
+    "Infantry",
+    "Fly",
+    "Jump Pack",
+    "Imperium",
+    "Tacticus",
+    "Chapter Master",
+    "Aethon Shaan"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 110
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Aethon Shaan",
+     "stats": {
+      "M": "14\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "claws-of-severax"
+   ],
+   "abilities": [
+    "Chapter Master of the Raven Guard",
+    "Master of Shadows",
+    "Blackwing Mantle",
+    "Invulnerable Save",
+    "Deep Strike",
+    "Oath of Moment",
+    "Stealth",
+    "Lone Operative"
+   ]
+  },
+  {
+   "id": "kayvaan-shrike",
+   "name": "Kayvaan Shrike",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Imperium",
+    "Fly",
+    "Jump Pack",
+    "Chapter Master",
+    "Kayvaan Shrike",
+    "Phobos"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Kayvaan Shrike",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "blackout",
+    "the-raven-s-talons"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Leader",
+    "Oath of Moment",
+    "Lone Operative",
+    "Deep Strike",
+    "Stealth",
+    "Trifold Path of Shadow",
+    "Echo of the Ravenspire",
+    "Inspiring Commander"
+   ]
+  }
+ ]
+}

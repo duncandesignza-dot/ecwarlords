@@ -1,0 +1,170 @@
+{
+ "id": "salamanders",
+ "name": "Salamanders",
+ "source": "BSData/wh40k-10e",
+ "revision": "17",
+ "enhancements": [],
+ "weapons": [
+  {
+   "id": "drakkis",
+   "name": "Drakkis",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6+3",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Pistol, Torrent"
+   }
+  },
+  {
+   "id": "malleus-noctum",
+   "name": "Malleus Noctum",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "gauntlet-of-the-forge",
+   "name": "Gauntlet of the Forge",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6+3",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Pistol, Torrent"
+   }
+  },
+  {
+   "id": "spear-of-vulkan",
+   "name": "Spear of Vulkan",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "adrax-agatone",
+   "name": "Adrax Agatone",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Captain",
+    "Adrax Agatone",
+    "Imperium",
+    "Tacticus"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Adrax Agatone",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "drakkis",
+    "malleus-noctum"
+   ],
+   "abilities": [
+    "Unto the Anvil",
+    "Lord of the Pyroclasts",
+    "Leader",
+    "Invulnerable Save",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "vulkan-he-stan",
+   "name": "Vulkan He'stan",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Captain",
+    "Imperium",
+    "Grenades",
+    "Vulkan He'stan",
+    "Tacticus"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Vulkan He'stan",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "gauntlet-of-the-forge",
+    "spear-of-vulkan"
+   ],
+   "abilities": [
+    "Forgefather",
+    "Seeker of the Unfound",
+    "Leader",
+    "Inspiring Commander",
+    "Invulnerable Save",
+    "Oath of Moment",
+    "Feel No Pain"
+   ]
+  }
+ ]
+}

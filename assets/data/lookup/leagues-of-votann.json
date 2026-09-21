@@ -1,0 +1,2758 @@
+{
+ "id": "leagues-of-votann",
+ "name": "Leagues of Votann",
+ "source": "BSData/wh40k-10e",
+ "revision": "84",
+ "enhancements": [],
+ "weapons": [
+  {
+   "id": "blade-of-the-ancestors",
+   "name": "Blade of the Ancestors",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "volkanite-disintegrator",
+   "name": "Volkanite disintegrator",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "2+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "close-combat-weapon",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "theyn-s-melee-weapon",
+   "name": "Theyn's melee weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "autoch-pattern-bolt-pistol",
+   "name": "Autoch-pattern bolt pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "autoch-pattern-bolter",
+   "name": "Autoch-pattern bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "ion-blaster",
+   "name": "Ion blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "theyn-s-pistol",
+   "name": "Theyn's pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "hylas-rotary-cannon",
+   "name": "HYLas rotary cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "5+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Heavy, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "hylas-auto-rifle",
+   "name": "HYLas auto rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Assault, Rapid Fire 3"
+   }
+  },
+  {
+   "id": "magna-rail-rifle",
+   "name": "Magna-rail rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "5+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D3+3",
+    "Keywords": "Devastating Wounds, Heavy"
+   }
+  },
+  {
+   "id": "etacarn-plasma-beamer",
+   "name": "EtaCarn plasma beamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Sustained Hits D3"
+   }
+  },
+  {
+   "id": "plasma-knife",
+   "name": "Plasma knife",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "mass-gauntlet",
+   "name": "Mass gauntlet",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "forgewrought-plasma-axe",
+   "name": "Forgewrought plasma axe",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "autoch-pattern-combi-bolter",
+   "name": "Autoch-pattern combi-bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "4",
+    "BS": "2+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "mass-hammer",
+   "name": "Mass hammer",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "darkstar-axe",
+   "name": "Darkstar axe",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "ancestral-ward-stave",
+   "name": "Ancestral ward stave",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "D3",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "ancestral-wrath-witchfire",
+   "name": "➤ Ancestral Wrath - witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "D3",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "ancestral-wrath-focused-witchfire",
+   "name": "➤ Ancestral Wrath - focused witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "D3",
+    "Keywords": "Hazardous, Psychic"
+   }
+  },
+  {
+   "id": "close-combat-weapon-2",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "autoch-pattern-bolt-pistol-2",
+   "name": "Autoch-pattern bolt pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "plasma-torch",
+   "name": "Plasma torch",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "4+",
+    "S": "6",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "manipulator-arms",
+   "name": "Manipulator arms",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "las-beam-cutter",
+   "name": "Las-beam cutter",
+   "type": "ranged",
+   "stats": {
+    "Range": "6\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-3",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "graviton-hammer",
+   "name": "Graviton hammer",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "9",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "Anti-MONSTER 3+, Anti-VEHICLE 3+"
+   }
+  },
+  {
+   "id": "graviton-rifle",
+   "name": "Graviton rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "Anti-MONSTER 3+, Anti-VEHICLE 3+"
+   }
+  },
+  {
+   "id": "exo-armour-grenade-launcher",
+   "name": "Exo-armour grenade launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D3",
+    "BS": "3+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "etacarn-plasma-gun",
+   "name": "EtaCarn plasma gun",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "volkanite-disintegrator-2",
+   "name": "Volkanite disintegrator",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "concussion-gauntlet",
+   "name": "Concussion gauntlet",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "plasma-blade-gauntlet",
+   "name": "Plasma blade gauntlet",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-concussion-gauntlets",
+   "name": "Twin concussion gauntlets",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "9",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "mole-grenade-launcher",
+   "name": "Mole grenade launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6",
+    "BS": "5+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Blast, Indirect Fire"
+   }
+  },
+  {
+   "id": "hylas-rotary-cannon-2",
+   "name": "HYLas rotary cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "ion-beamer",
+   "name": "Ion beamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D3+1",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "bolt-revolver",
+   "name": "Bolt revolver",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "bolt-shotgun",
+   "name": "Bolt shotgun",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "magna-coil-autocannon",
+   "name": "Magna-coil autocannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "armoured-wheels",
+   "name": "Armoured wheels",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "hylas-beam-cannon",
+   "name": "HYLas beam cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "sagitaur-missile-launcher",
+   "name": "Sagitaur missile launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "10",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-bolt-cannon",
+   "name": "Twin bolt cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Sustained Hits 2, Twin-linked"
+   }
+  },
+  {
+   "id": "matr-autocannon",
+   "name": "MATR autocannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Assault, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "close-combat-weapon-3",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "bolt-cannon",
+   "name": "Bolt cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Sustained Hits 2"
+   }
+  },
+  {
+   "id": "graviton-blast-cannon",
+   "name": "Graviton blast cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "5",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Anti-MONSTER 3+, Anti-VEHICLE 3+"
+   }
+  },
+  {
+   "id": "sp-conversion-beamer",
+   "name": "SP conversion beamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Conversion, Lethal Hits"
+   }
+  },
+  {
+   "id": "armoured-wheels-2",
+   "name": "Armoured wheels",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "4+",
+    "S": "8",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "sp-heavy-conversion-beamer",
+   "name": "SP heavy conversion beamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "4",
+    "BS": "4+",
+    "S": "10",
+    "AP": "-2",
+    "D": "4",
+    "Keywords": "Conversion, Lethal Hits"
+   }
+  },
+  {
+   "id": "heavy-magna-rail-cannon",
+   "name": "Heavy magna-rail cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "18",
+    "AP": "-4",
+    "D": "D6+4",
+    "Keywords": "Devastating Wounds, Heavy"
+   }
+  },
+  {
+   "id": "cyclic-ion-cannon",
+   "name": "Cyclic ion cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D6+2",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "twin-ion-beamer",
+   "name": "Twin ion beamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D3+1",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Blast, Twin-linked"
+   }
+  },
+  {
+   "id": "hekaton-warhead",
+   "name": "Hekaton warhead",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D6+3",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Blast, One Shot"
+   }
+  },
+  {
+   "id": "apm-launcher",
+   "name": "APM launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "Anti-MONSTER 3+, Anti-VEHICLE 3+"
+   }
+  },
+  {
+   "id": "magna-coil-rifle",
+   "name": "Magna-coil rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Ignores Cover, Precision"
+   }
+  },
+  {
+   "id": "autoch-pattern-bolt-pistol-3",
+   "name": "Autoch-pattern bolt pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "bane-strike",
+   "name": "➤ Bane - strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "12",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Precision"
+   }
+  },
+  {
+   "id": "bane-sweep",
+   "name": "➤ Bane - sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "10",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "transmatter-inverter-half-charge",
+   "name": "➤ Transmatter inverter - half charge",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "3",
+    "BS": "2+",
+    "S": "8",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "transmatter-inverter-full-charge",
+   "name": "➤ Transmatter inverter - full charge",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "2+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Hazardous, Rapid Fire 2"
+   }
+  },
+  {
+   "id": "transmatter-inverter-overcharge",
+   "name": "➤ Transmatter inverter - overcharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Hazardous, Overcharge, Rapid Fire 3"
+   }
+  },
+  {
+   "id": "armoured-hull",
+   "name": "Armoured hull",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "magna-rail-cannon",
+   "name": "Magna-rail cannon ",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "14",
+    "AP": "-4",
+    "D": "D3+3",
+    "Keywords": "Devastating Wounds, Heavy"
+   }
+  },
+  {
+   "id": "hylas-rotary-cannon-3",
+   "name": "HYLas rotary cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "twin-magna-coil-autocannon",
+   "name": "Twin magna-coil autocannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "heavy-volkanite-disintegrator",
+   "name": "Heavy volkanite disintegrator",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "plasma-knife-2",
+   "name": "Plasma knife",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "autoch-pattern-bolter-2",
+   "name": "Autoch-pattern bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "plasma-sword",
+   "name": "Plasma sword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "concussion-gauntlet-2",
+   "name": "Concussion gauntlet",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "10",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "plasma-picks",
+   "name": "Plasma picks",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "breacher-ordnance",
+   "name": "Breacher ordnance",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D6+1",
+    "BS": "5+",
+    "S": "10",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Blast, Heavy, Indirect Fire"
+   }
+  },
+  {
+   "id": "tremor-shells",
+   "name": "Tremor shells",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D6+4",
+    "BS": "5+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Blast, Heavy, Indirect Fire"
+   }
+  },
+  {
+   "id": "kroml-k-s-revenge-graviton-strikes",
+   "name": "➤ Kromlôk's Revenge - graviton strikes",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "10",
+    "AP": "-2",
+    "D": "4",
+    "Keywords": "Anti-Monster 3+, Anti-Vehicle 3+, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "kroml-k-s-revenge-plasma-sweeps",
+   "name": "➤ Kromlôk's Revenge - plasma sweeps",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "2+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "warforge-gauntlets",
+   "name": "Warforge gauntlets",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Extra Attacks, Sustained Hits 1"
+   }
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "hearthkyn-warriors",
+   "name": "Hearthkyn Warriors",
+   "role": "Battleline",
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Grenades",
+    "Hearthkyn Warriors"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 9,
+     "pts": 100
+    }
+   ],
+   "minModels": 9,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "autoch-pattern-bolter",
+     "name": "Autoch-pattern bolter",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "ion-blaster",
+     "name": "Ion blaster",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "theyn-s-pistol",
+     "name": "Theyn's pistol",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Hearthkyn Warriors",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon",
+    "theyn-s-melee-weapon",
+    "autoch-pattern-bolt-pistol",
+    "autoch-pattern-bolter",
+    "ion-blaster",
+    "theyn-s-pistol",
+    "hylas-rotary-cannon",
+    "hylas-auto-rifle",
+    "magna-rail-rifle",
+    "etacarn-plasma-beamer",
+    "plasma-knife"
+   ],
+   "abilities": [
+    "Luck Has, Need Keeps, Toil Earns",
+    "Pan-spectral Scanning",
+    "Prioritised Efficiency",
+    "Guerrilla Adepts",
+    "Feel No Pain",
+    "Blast",
+    "➤ L7 missile launcher - blast",
+    "➤ L7 missile launcher - focused"
+   ]
+  },
+  {
+   "id": "arkanyst-evaluator",
+   "name": "Arkanyst Evaluator",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Arkanyst Evaluator"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "transmatter-inverter",
+     "name": "Transmatter inverter",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "close-combat-weapon",
+     "name": "Close combat weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Arkanyst Evaluator",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "transmatter-inverter-half-charge",
+    "transmatter-inverter-full-charge",
+    "transmatter-inverter-overcharge",
+    "close-combat-weapon-2"
+   ],
+   "abilities": [
+    "Science Guild Support",
+    "Resource Transmutation",
+    "Prioritised Efficiency",
+    "Deadly Demise",
+    "Guerrilla Adepts"
+   ]
+  },
+  {
+   "id": "br-khyr-iron-master",
+   "name": "Brôkhyr Iron-master",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Brôkhyr"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "graviton-hammer",
+     "name": "Graviton hammer",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "graviton-rifle",
+     "name": "Graviton rifle",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "E-COG",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Ironkyn Assistant",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Brôkhyr Iron-master",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "autoch-pattern-bolt-pistol-2",
+    "close-combat-weapon-2",
+    "plasma-torch",
+    "manipulator-arms",
+    "las-beam-cutter",
+    "graviton-hammer",
+    "graviton-rifle"
+   ],
+   "abilities": [
+    "Multi-spectral visor",
+    "Brôkhyr Guild Support",
+    "Leader",
+    "Unit Composition",
+    "Forgewrought Expertise",
+    "Prioritised Efficiency",
+    "Guerrilla Adepts"
+   ]
+  },
+  {
+   "id": "einhyr-champion",
+   "name": "Einhyr Champion",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Exoarmour",
+    "Einhyr Champion"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "weavefield-crest",
+     "name": "Weavefield crest",
+     "pts": 0,
+     "group": "Crest",
+     "max": 1
+    },
+    {
+     "id": "mass-hammer",
+     "name": "Mass hammer",
+     "pts": 0,
+     "group": "Melee weapon",
+     "max": null
+    },
+    {
+     "id": "darkstar-axe",
+     "name": "Darkstar axe",
+     "pts": 0,
+     "group": "Melee weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Einhyr Champion",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "mass-hammer",
+    "darkstar-axe",
+    "autoch-pattern-combi-bolter"
+   ],
+   "abilities": [
+    "Leader",
+    "Exemplar of the Einhyr",
+    "Mass Driver Accelerators",
+    "Prioritised Efficiency",
+    "Guerrilla Adepts",
+    "Weavefield crest"
+   ]
+  },
+  {
+   "id": "grimnyr",
+   "name": "Grimnyr",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "ancestral-ward-stave",
+     "name": "Ancestral ward stave",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "ancestral-wrath",
+     "name": "Ancestral Wrath",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Grimnyr",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "CORV",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "1",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "ancestral-ward-stave",
+    "ancestral-wrath-witchfire",
+    "ancestral-wrath-focused-witchfire",
+    "autoch-pattern-bolter",
+    "close-combat-weapon-2"
+   ],
+   "abilities": [
+    "Leader",
+    "Invulnerable Save",
+    "Fortify (Psychic)",
+    "Grimnyr's Regard",
+    "Unit Composition",
+    "Prioritised Efficiency",
+    "Guerrilla Adepts"
+   ]
+  },
+  {
+   "id": "kinhost-commander",
+   "name": "Kinhost Commander [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Kinhost Commander",
+    "Crucible"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Kinhost Commander",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Invulnerable Save (4+)",
+    "Leader",
+    "Seized Opportunity",
+    "Prioritised Efficiency"
+   ]
+  },
+  {
+   "id": "k-hl",
+   "name": "Kâhl",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Kâhl"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "mass-gauntlet",
+     "name": "Mass gauntlet",
+     "pts": 0,
+     "group": "Melee weapon",
+     "max": null
+    },
+    {
+     "id": "forgewrought-plasma-axe",
+     "name": "Forgewrought plasma axe",
+     "pts": 0,
+     "group": "Melee weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Kâhl",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "mass-gauntlet",
+    "forgewrought-plasma-axe",
+    "autoch-pattern-combi-bolter",
+    "volkanite-disintegrator"
+   ],
+   "abilities": [
+    "Kindred Hero",
+    "Leader",
+    "Invulnerable Save",
+    "Seized Opportunity",
+    "Prioritised Efficiency",
+    "Guerrilla Adepts"
+   ]
+  },
+  {
+   "id": "living-ancestor",
+   "name": "Living Ancestor [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Crucible",
+    "Psyker",
+    "Living Ancestor"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Living Ancestor",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Invulnerable Save (4+)",
+    "Leader",
+    "Grimnyr's Regard",
+    "Prioritised Efficiency"
+   ]
+  },
+  {
+   "id": "memnyr-strategist",
+   "name": "Memnyr Strategist",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Memnyr Strategist"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 45
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "autoch-pattern-bolt-pistol",
+     "name": "Autoch-pattern bolt pistol",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "close-combat-weapon",
+     "name": "Close combat weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Memnyr Strategist",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "autoch-pattern-bolt-pistol",
+    "close-combat-weapon-2"
+   ],
+   "abilities": [
+    "Computational Mastermind",
+    "Predictive Guidance",
+    "Leader",
+    "Prioritised Efficiency",
+    "Guerrilla Adepts"
+   ]
+  },
+  {
+   "id": "steeljack-elder",
+   "name": "Steeljack Elder [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Crucible",
+    "Ironkin Steeljacks",
+    "Steeljack Elder"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Steeljack Elder",
+     "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Leader",
+    "Forgewrought Skill",
+    "Prioritised Efficiency"
+   ]
+  },
+  {
+   "id": "berehk-stornbr-w",
+   "name": "Berehk Stornbröw",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Infantry",
+    "Character",
+    "Cthonian",
+    "Berehk Stornbröw"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 95
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Berehk Stornbröw",
+     "stats": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "5+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "kroml-k-s-revenge-graviton-strikes",
+    "kroml-k-s-revenge-plasma-sweeps",
+    "warforge-gauntlets"
+   ],
+   "abilities": [
+    "Prioritised Efficiency",
+    "Leader",
+    "Feel No Pain",
+    "Invulnerable Save (5+)",
+    "Break the Foe",
+    "Relentless Avalanche"
+   ]
+  },
+  {
+   "id": "buri-aegnirssen",
+   "name": "Buri Aegnirssen",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Infantry",
+    "Character",
+    "Buri Aegnirssen"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 95
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Buri Aegnirssen",
+     "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "autoch-pattern-bolt-pistol-3",
+    "bane-strike",
+    "bane-sweep"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Grudge-fuelled Fortitude",
+    "Unhinged Vengeance",
+    "Lone Operative",
+    "Stealth",
+    "Prioritised Efficiency",
+    "Guerrilla Adepts"
+   ]
+  },
+  {
+   "id": "thar-the-destined",
+   "name": "Ûthar the Destined",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Ûthar the Destined"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 95
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Ûthar the Destined",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "blade-of-the-ancestors",
+    "volkanite-disintegrator"
+   ],
+   "abilities": [
+    "Ancestral Fortune",
+    "Leader",
+    "Invulnerable Save",
+    "Grim Efficiency",
+    "Prioritised Efficiency",
+    "Guerrilla Adepts"
+   ]
+  },
+  {
+   "id": "br-khyr-thunderkyn",
+   "name": "Brôkhyr Thunderkyn",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Exoframe",
+    "Thunderkyn",
+    "Brôkhyr"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    },
+    {
+     "count": 4,
+     "pts": 160
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "bolt-cannon",
+     "name": "Bolt cannon",
+     "pts": 0,
+     "group": "Weapon",
+     "max": 1
+    },
+    {
+     "id": "graviton-blast-cannon",
+     "name": "Graviton blast cannon",
+     "pts": 0,
+     "group": "Weapon",
+     "max": 1
+    },
+    {
+     "id": "sp-conversion-beamer",
+     "name": "SP conversion beamer",
+     "pts": 0,
+     "group": "Weapon",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Brôkhyr Thunderkyn",
+     "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon-3",
+    "bolt-cannon",
+    "graviton-blast-cannon",
+    "sp-conversion-beamer"
+   ],
+   "abilities": [
+    "Breaching Fire",
+    "Prioritised Efficiency",
+    "Guerrilla Adepts"
+   ]
+  },
+  {
+   "id": "cthonian-beserks",
+   "name": "Cthonian Beserks",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Cthonian",
+    "Beserks"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 5,
+     "pts": 100
+    },
+    {
+     "count": 10,
+     "pts": 200
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 10,
+   "wargear": [
+    {
+     "id": "concussion-maul",
+     "name": "Concussion maul",
+     "pts": 0,
+     "group": "Squad weapon choice",
+     "max": 1
+    },
+    {
+     "id": "heavy-plasma-axe",
+     "name": "Heavy plasma axe",
+     "pts": 0,
+     "group": "Squad weapon choice",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Beserk",
+     "stats": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "5+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-concussion-gauntlets",
+    "mole-grenade-launcher"
+   ],
+   "abilities": [
+    "Cyberstimms",
+    "Prioritised Efficiency",
+    "Feel No Pain",
+    "Guerrilla Adepts",
+    "Deep Strike",
+    "Concussion maul",
+    "Anti-",
+    "Heavy plasma axe",
+    "Subterranean Explosives"
+   ]
+  },
+  {
+   "id": "cthonian-earthshakers",
+   "name": "Cthonian Earthshakers",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Artillery",
+    "Cthonian",
+    "Earthshakers"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 110
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "breacher-ordnance",
+     "name": "Breacher ordnance",
+     "pts": 0,
+     "group": "Main weapon",
+     "max": null
+    },
+    {
+     "id": "tremor-shells",
+     "name": "Tremor shells",
+     "pts": 0,
+     "group": "Main weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Cthonian Earthshaker",
+     "stats": {
+      "M": "4\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "plasma-picks",
+    "autoch-pattern-bolt-pistol",
+    "breacher-ordnance",
+    "tremor-shells"
+   ],
+   "abilities": [
+    "Prioritised Efficiency",
+    "Guerrilla Adepts"
+   ]
+  },
+  {
+   "id": "einhyr-hearthguard",
+   "name": "Einhyr Hearthguard",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Exoarmour",
+    "Einhyr Hearthguard"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 4,
+     "pts": 135
+    },
+    {
+     "count": 9,
+     "pts": 270
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "etacarn-plasma-gun",
+     "name": "EtaCarn plasma gun",
+     "pts": 0,
+     "group": "Ranged weapon",
+     "max": 0
+    },
+    {
+     "id": "volkanite-disintegrator",
+     "name": "Volkanite disintegrator",
+     "pts": 0,
+     "group": "Ranged weapon",
+     "max": 0
+    },
+    {
+     "id": "concussion-gauntlet",
+     "name": "Concussion gauntlet",
+     "pts": 0,
+     "group": "Exchange melee weapon for hammer",
+     "max": 0
+    },
+    {
+     "id": "plasma-blade-gauntlet",
+     "name": "Plasma blade gauntlet",
+     "pts": 0,
+     "group": "Exchange melee weapon for hammer",
+     "max": 0
+    },
+    {
+     "id": "graviton-hammer",
+     "name": "Graviton hammer",
+     "pts": 0,
+     "group": "Exchange melee weapon for hammer",
+     "max": null
+    },
+    {
+     "id": "teleport-crest",
+     "name": "Teleport crest",
+     "pts": 0,
+     "group": "Crest",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Einhyr Hearthguard",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "exo-armour-grenade-launcher",
+    "etacarn-plasma-gun",
+    "volkanite-disintegrator-2",
+    "concussion-gauntlet",
+    "plasma-blade-gauntlet",
+    "graviton-hammer"
+   ],
+   "abilities": [
+    "Decisive Destruction",
+    "Prioritised Efficiency",
+    "Guerrilla Adepts",
+    "Teleport crest"
+   ]
+  },
+  {
+   "id": "hernkyn-yaegirs",
+   "name": "Hernkyn Yaegirs",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Hernkyn Yaegirs"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 9,
+     "pts": 90
+    }
+   ],
+   "minModels": 9,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "bolt-revolver-and-plasma-knife",
+     "name": "Bolt revolver and plasma knife",
+     "pts": 0,
+     "group": "Weapon",
+     "max": 1
+    },
+    {
+     "id": "bolt-shotgun",
+     "name": "Bolt shotgun",
+     "pts": 0,
+     "group": "Weapon",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Hernkyn Yaegirs",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "bolt-shotgun",
+    "apm-launcher",
+    "magna-coil-rifle",
+    "close-combat-weapon",
+    "bolt-revolver",
+    "plasma-knife"
+   ],
+   "abilities": [
+    "Pragmatic Hunters",
+    "Prioritised Efficiency",
+    "Infiltrators",
+    "Guerrilla Adepts"
+   ]
+  },
+  {
+   "id": "ironkin-steeljacks-with-heavy-volkanite-disintegrators",
+   "name": "Ironkin Steeljacks with Heavy Volkanite Disintegrators",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Ironkin Steeljacks",
+    "Ironkin Steeljacks with Heavy Volkanite Disintegrators"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    },
+    {
+     "count": 4,
+     "pts": 170
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "disintegrator-and-knife",
+     "name": "Disintegrator and knife",
+     "pts": 0,
+     "group": "Weapons",
+     "max": null
+    },
+    {
+     "id": "bolter-and-sword",
+     "name": "Bolter and sword",
+     "pts": 0,
+     "group": "Weapons",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Ironkin Steeljacks with Heavy Volkanite Disintegrators",
+     "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "heavy-volkanite-disintegrator",
+    "plasma-knife-2",
+    "autoch-pattern-bolter-2",
+    "plasma-sword"
+   ],
+   "abilities": [
+    "Purge Response",
+    "Guerrilla Adepts",
+    "Prioritised Efficiency"
+   ]
+  },
+  {
+   "id": "ironkin-steeljacks-with-melee-weapons",
+   "name": "Ironkin Steeljacks with Melee Weapons",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Ironkin Steeljacks",
+    "Ironkin Steeljacks with Melee Weapons"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 2,
+     "pts": 85
+    },
+    {
+     "count": 5,
+     "pts": 170
+    }
+   ],
+   "minModels": 2,
+   "maxModels": 5,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Ironkin Steeljacks with Melee Weapons",
+     "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "plasma-sword",
+    "concussion-gauntlet-2",
+    "autoch-pattern-bolter-2"
+   ],
+   "abilities": [
+    "Merciless Eradication",
+    "Guerrilla Adepts",
+    "Prioritised Efficiency"
+   ]
+  },
+  {
+   "id": "hernkyn-pioneers",
+   "name": "Hernkyn Pioneers",
+   "role": "Mounted",
+   "keywords": [
+    "Mounted",
+    "Grenades",
+    "Fly",
+    "Hernkyn Pioneers"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 3,
+     "pts": 80
+    },
+    {
+     "count": 6,
+     "pts": 160
+    }
+   ],
+   "minModels": 3,
+   "maxModels": 6,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Hernkyn Pioneer",
+     "stats": {
+      "M": "12\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "hylas-rotary-cannon-2",
+    "ion-beamer",
+    "bolt-revolver",
+    "bolt-shotgun",
+    "magna-coil-autocannon",
+    "plasma-knife"
+   ],
+   "abilities": [
+    "Outflanking Mag-Riders",
+    "Prioritised Efficiency",
+    "Scouts",
+    "Guerrilla Adepts",
+    "Comms array",
+    "Pan-spectral scanner",
+    "Rollbar searchlight"
+   ]
+  },
+  {
+   "id": "hekaton-land-fortress",
+   "name": "Hekaton Land Fortress",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Transport",
+    "Hekaton Land Fortress"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 240
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "armoured-wheels",
+     "name": "Armoured wheels",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "sp-heavy-conversion-beamer",
+     "name": "SP heavy conversion beamer",
+     "pts": 0,
+     "group": "Main weapon",
+     "max": null
+    },
+    {
+     "id": "heavy-magna-rail-cannon",
+     "name": "Heavy magna-rail cannon",
+     "pts": 0,
+     "group": "Main weapon",
+     "max": null
+    },
+    {
+     "id": "cyclic-ion-cannon",
+     "name": "Cyclic ion cannon",
+     "pts": 0,
+     "group": "Main weapon",
+     "max": null
+    },
+    {
+     "id": "twin-ion-beamer",
+     "name": "Twin ion beamer",
+     "pts": 0,
+     "group": "Sponson weapons",
+     "max": 2
+    },
+    {
+     "id": "pan-spectral-scanner",
+     "name": "Pan spectral scanner",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    },
+    {
+     "id": "hekaton-warhead",
+     "name": "Hekaton warhead",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Hekaton Land Fortress",
+     "stats": {
+      "M": "10\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "16",
+      "LD": "7+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "armoured-wheels-2",
+    "sp-heavy-conversion-beamer",
+    "heavy-magna-rail-cannon",
+    "cyclic-ion-cannon",
+    "twin-ion-beamer",
+    "hekaton-warhead",
+    "matr-autocannon",
+    "twin-bolt-cannon"
+   ],
+   "abilities": [
+    "MultiCOG Targeting",
+    "Damaged: 1-5 wounds remaining",
+    "Prioritised Efficiency",
+    "Deadly Demise",
+    "Guerrilla Adepts",
+    "Firebase Control (Aura)",
+    "Pan spectral scanner"
+   ]
+  },
+  {
+   "id": "kapricus-carrier",
+   "name": "Kapricus Carrier",
+   "role": "Vehicle",
+   "keywords": [
+    "Dedicated Transport",
+    "Transport",
+    "Vehicle",
+    "Fly",
+    "Hernkyn",
+    "Kapricus",
+    "Carrier"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "magna-coil-autocannon",
+     "name": "Magna-coil autocannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "smoke-launcher",
+     "name": "Smoke launcher",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "armoured-hull",
+     "name": "Armoured hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Kapricus Carrier",
+     "stats": {
+      "M": "12\"",
+      "T": "7",
+      "SV": "4+",
+      "W": "7",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "magna-coil-autocannon",
+    "armoured-hull",
+    "twin-magna-coil-autocannon"
+   ],
+   "abilities": [
+    "Scanner Uplinks",
+    "Smoke Launcher",
+    "Deadly Demise",
+    "Firing Deck",
+    "Scouts",
+    "Prioritised Efficiency",
+    "Guerrilla Adepts",
+    "Firebase Control (Aura)"
+   ]
+  },
+  {
+   "id": "kapricus-defenders",
+   "name": "Kapricus Defenders",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Hernkyn",
+    "Kapricus",
+    "Defenders"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "armoured-hull",
+     "name": "Armoured hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "smoke-launcher",
+     "name": "Smoke launcher",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "magna-rail-cannon",
+     "name": "Magna-rail cannon ",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "hylas-rotary-cannon",
+     "name": "HYLas rotary cannon",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Kapricus Defender",
+     "stats": {
+      "M": "12\"",
+      "T": "7",
+      "SV": "4+",
+      "W": "7",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "armoured-hull",
+    "magna-rail-cannon",
+    "hylas-rotary-cannon-3",
+    "twin-magna-coil-autocannon"
+   ],
+   "abilities": [
+    "Opportunistic Manoeuvre",
+    "Smoke Launcher",
+    "Prioritised Efficiency",
+    "Scouts",
+    "Deadly Demise",
+    "Guerrilla Adepts"
+   ]
+  },
+  {
+   "id": "sagitaur",
+   "name": "Sagitaur",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Transport",
+    "Dedicated Transport",
+    "Sagitaur"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "armoured-wheels",
+     "name": "Armoured wheels",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "hylas-beam-cannon",
+     "name": "HYLas beam cannon",
+     "pts": 0,
+     "group": "Turret weapon",
+     "max": null
+    },
+    {
+     "id": "l7-missile-launcher-and-sagitaur-missile-launcher",
+     "name": "L7 missile launcher and Sagitaur missile launcher",
+     "pts": 0,
+     "group": "Turret weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Sagitaur",
+     "stats": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "9",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "armoured-wheels",
+    "hylas-beam-cannon",
+    "sagitaur-missile-launcher",
+    "twin-bolt-cannon",
+    "matr-autocannon"
+   ],
+   "abilities": [
+    "Blistering Advance",
+    "Prioritised Efficiency",
+    "Deadly Demise",
+    "Guerrilla Adepts",
+    "Firebase Control (Aura)",
+    "➤ L7 missile launcher - blast",
+    "➤ L7 missile launcher - focused",
+    "Blast",
+    "Assault",
+    "Sustained Hits"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2536 @@
+{
+ "id": "genestealer-cults",
+ "name": "Genestealer Cults",
+ "source": "BSData/wh40k-10e",
+ "revision": "122",
+ "enhancements": [],
+ "weapons": [
+  {
+   "id": "aberrant-weapons",
+   "name": "Aberrant weapons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "power-sledgehammer",
+   "name": "Power sledgehammer",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "12",
+    "AP": "-2",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "armoured-hull",
+   "name": "Armoured hull",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-heavy-stubber",
+   "name": "Twin heavy stubber",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Twin-linked, Rapid Fire 3"
+   }
+  },
+  {
+   "id": "achilles-missile-launcher",
+   "name": "Achilles missile launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "heavy-mortar",
+   "name": "Heavy mortar",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6+3",
+    "BS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast, Indirect Fire"
+   }
+  },
+  {
+   "id": "heavy-mining-laser",
+   "name": "Heavy mining laser",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D3",
+    "BS": "4+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "demolition-charge",
+   "name": "Demolition charge",
+   "type": "ranged",
+   "stats": {
+    "Range": "8\"",
+    "A": "D6",
+    "BS": "5+",
+    "S": "9",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Assault, Blast, Hazardous, One Shot"
+   }
+  },
+  {
+   "id": "leader-s-bio-weapons",
+   "name": "Leader's bio-weapons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "hand-flamer",
+   "name": "Hand flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Ignores Cover, Pistol, Torrent"
+   }
+  },
+  {
+   "id": "cult-claws-and-knife",
+   "name": "Cult claws and knife",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "cult-claws",
+   "name": "Cult claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "autopistol",
+   "name": "Autopistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "mining-laser",
+   "name": "Mining laser",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "atalan-incinerator",
+   "name": "Atalan incinerator",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "heavy-stubber",
+   "name": "Heavy stubber",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault, Rapid Fire 3"
+   }
+  },
+  {
+   "id": "grenade-launcher-frag",
+   "name": "➤ Grenade launcher - frag",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D3",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "grenade-launcher-krak",
+   "name": "➤ Grenade launcher - krak",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "close-combat-weapon",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "atalan-small-arms",
+   "name": "Atalan small arms",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "atalan-power-weapon",
+   "name": "Atalan power weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "injector-goad",
+   "name": "Injector goad",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "3+",
+    "S": "2",
+    "AP": "0",
+    "D": "D3",
+    "Keywords": "Anti-infantry 2+"
+   }
+  },
+  {
+   "id": "chemical-vials",
+   "name": "Chemical vials",
+   "type": "ranged",
+   "stats": {
+    "Range": "6\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "1",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Anti-Infantry 2+"
+   }
+  },
+  {
+   "id": "close-combat-weapon-2",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "clearance-incinerator",
+   "name": "Clearance incinerator",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "2D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "heavy-seismic-cannon",
+   "name": "Heavy seismic cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "4",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "D3",
+    "Keywords": "Rapid Fire 2"
+   }
+  },
+  {
+   "id": "drilldozer-blade",
+   "name": "Drilldozer blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "heavy-stubber-2",
+   "name": "Heavy stubber",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 3"
+   }
+  },
+  {
+   "id": "demolition-charge-cache",
+   "name": "Demolition charge cache",
+   "type": "ranged",
+   "stats": {
+    "Range": "8\"",
+    "A": "D6",
+    "BS": "5+",
+    "S": "9",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Assault, Blast, Hazardous"
+   }
+  },
+  {
+   "id": "twin-autocannon",
+   "name": "Twin autocannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "goliath-wheels",
+   "name": "Goliath wheels",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "leader-s-bio-weapons",
+   "name": "Leader's Bio-weapons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "metamorph-mutations-strike",
+   "name": "➤ Metamorph mutations - strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "metamorph-mutations-sweep",
+   "name": "➤ Metamorph mutations - sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "autopistol-2",
+   "name": "Autopistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "cult-sniper-rifle",
+   "name": "Cult sniper rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Heavy, Precision"
+   }
+  },
+  {
+   "id": "close-combat-weapon-3",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "liberator-autostubs",
+   "name": "Liberator autostubs",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "6",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Devastating Wounds, Pistol"
+   }
+  },
+  {
+   "id": "locus-blades",
+   "name": "Locus blades",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "force-stave",
+   "name": "Force stave",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "D3",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "mining-laser-2",
+   "name": "Mining laser",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "5+",
+    "S": "10",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "Heavy"
+   }
+  },
+  {
+   "id": "seismic-cannon",
+   "name": "Seismic cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "5+",
+    "S": "6",
+    "AP": "-1",
+    "D": "D3",
+    "Keywords": "Heavy, Rapid Fire 2"
+   }
+  },
+  {
+   "id": "power-weapon",
+   "name": "Power weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "4+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "chainsword",
+   "name": "Chainsword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "hybrid-firearm",
+   "name": "Hybrid firearm",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "close-combat-weapon-4",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "webber",
+   "name": "Webber",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "2",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Devastating Wounds, Torrent"
+   }
+  },
+  {
+   "id": "flamer",
+   "name": "Flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "anointed-pistol",
+   "name": "Anointed pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "patriarch-s-claws",
+   "name": "Patriarch's claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Devastating Wounds, Twin-linked"
+   }
+  },
+  {
+   "id": "toxin-injector-claw",
+   "name": "Toxin injector claw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "2+",
+    "S": "2",
+    "AP": "0",
+    "D": "D3",
+    "Keywords": "Anti-infantry 2+, Extra Attacks"
+   }
+  },
+  {
+   "id": "scoped-needle-pistol",
+   "name": "Scoped needle pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "1",
+    "AP": "0",
+    "D": "D3",
+    "Keywords": "Anti-infantry 2+, Ignores Cover, Pistol"
+   }
+  },
+  {
+   "id": "cult-bonesword",
+   "name": "Cult bonesword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "cult-claws-and-talons",
+   "name": "Cult claws and talons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "demolition-charges",
+   "name": "Demolition charges",
+   "type": "ranged",
+   "stats": {
+    "Range": "8\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Assault, Blast, One Shot"
+   }
+  },
+  {
+   "id": "remote-explosives",
+   "name": "Remote explosives",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D6+3",
+    "BS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast, Indirect Fire"
+   }
+  },
+  {
+   "id": "sanctus-bio-dagger",
+   "name": "Sanctus bio-dagger",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "3",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Anti-infantry 3+, Precision"
+   }
+  },
+  {
+   "id": "cult-sniper-rifle-2",
+   "name": "Cult sniper rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Anti-Psyker 2+, Heavy, Precision"
+   }
+  },
+  {
+   "id": "fragdrill",
+   "name": "Fragdrill",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "6+",
+    "S": "12",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "psionic-cascade-witchfire",
+   "name": "➤ Psionic cascade - witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "Ignores Cover, Psychic"
+   }
+  },
+  {
+   "id": "psionic-cascade-focused-witchfire",
+   "name": "➤ Psionic cascade - focused witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "Hazardous, Ignores Cover, Psychic"
+   }
+  },
+  {
+   "id": "heavy-mining-tool",
+   "name": "Heavy mining tool",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Anti-Vehicle 4+"
+   }
+  },
+  {
+   "id": "leader-s-bio-weapons-2",
+   "name": "Leader's Bio-weapons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "acolyte-hybrids-with-autopistols",
+   "name": "Acolyte Hybrids with Autopistols",
+   "role": "Battleline",
+   "keywords": [
+    "Acolyte Hybrids",
+    "Infantry",
+    "Grenades",
+    "Great Devourer",
+    "Battleline",
+    "Acolyte Hybrids with Autopistols"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 4,
+     "pts": 65
+    },
+    {
+     "count": 9,
+     "pts": 130
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "leader-s-bio-weapons",
+     "name": "Leader's Bio-weapons",
+     "pts": 0,
+     "group": "Cult Claws and Knife",
+     "max": null
+    }
+   ],
+   "stats": [],
+   "weapons": [
+    "heavy-mining-tool",
+    "leader-s-bio-weapons-2",
+    "autopistol-2",
+    "cult-claws-and-knife"
+   ],
+   "abilities": [
+    "Deep Strike",
+    "Cult Ambush",
+    "Acolyte Hybrid",
+    "Claimed for the Cult"
+   ]
+  },
+  {
+   "id": "acolyte-hybrids-with-hand-flamers",
+   "name": "Acolyte Hybrids with Hand Flamers",
+   "role": "Battleline",
+   "keywords": [
+    "Acolyte Hybrids",
+    "Infantry",
+    "Grenades",
+    "Great Devourer",
+    "Battleline",
+    "Acolyte Hybrids with Hand Flamers"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 4,
+     "pts": 70
+    },
+    {
+     "count": 9,
+     "pts": 140
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "leader-s-bio-weapons",
+     "name": "Leader's bio-weapons",
+     "pts": 0,
+     "group": "Cult Claws and Knife",
+     "max": null
+    }
+   ],
+   "stats": [],
+   "weapons": [
+    "demolition-charge",
+    "leader-s-bio-weapons",
+    "hand-flamer",
+    "cult-claws-and-knife"
+   ],
+   "abilities": [
+    "Deep Strike",
+    "Cult Ambush",
+    "Acolyte Hybrid",
+    "Industrialised Destruction"
+   ]
+  },
+  {
+   "id": "neophyte-hybrids",
+   "name": "Neophyte Hybrids",
+   "role": "Battleline",
+   "keywords": [
+    "Neophyte Hybrids",
+    "Infantry",
+    "Grenades",
+    "Great Devourer",
+    "Battleline"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 9,
+     "pts": 65
+    },
+    {
+     "count": 19,
+     "pts": 145
+    }
+   ],
+   "minModels": 9,
+   "maxModels": 19,
+   "wargear": [
+    {
+     "id": "mining-laser",
+     "name": "Mining laser",
+     "pts": 0,
+     "group": "Heavy Weapon Selection",
+     "max": 1
+    },
+    {
+     "id": "seismic-cannon",
+     "name": "Seismic cannon",
+     "pts": 0,
+     "group": "Heavy Weapon Selection",
+     "max": 1
+    },
+    {
+     "id": "autopistol-hybrid-firearm-and-close-combat-weapon",
+     "name": "Autopistol, hybrid firearm and close combat weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    },
+    {
+     "id": "autopistol-anointed-pistol-and-power-weapon",
+     "name": "Autopistol, anointed pistol and power weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    },
+    {
+     "id": "autopistol-anointed-pistol-and-chainsword",
+     "name": "Autopistol, anointed pistol and chainsword",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Neophyte Hybrid",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "mining-laser-2",
+    "seismic-cannon",
+    "power-weapon",
+    "chainsword",
+    "hybrid-firearm",
+    "autopistol-2",
+    "close-combat-weapon-4",
+    "heavy-stubber-2",
+    "webber",
+    "flamer",
+    "grenade-launcher-frag",
+    "grenade-launcher-krak",
+    "anointed-pistol"
+   ],
+   "abilities": [
+    "Cult Icon",
+    "Deep Strike",
+    "Cult Ambush",
+    "A Plan Generations in the Making"
+   ]
+  },
+  {
+   "id": "abominant",
+   "name": "Abominant",
+   "role": "Character",
+   "keywords": [
+    "Abominant",
+    "Infantry",
+    "Character",
+    "Great Devourer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "power-sledgehammer",
+     "name": "Power sledgehammer",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Abominant",
+     "stats": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "5+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "power-sledgehammer"
+   ],
+   "abilities": [
+    "Feel No Pain 5+",
+    "The Chosen One",
+    "Regenerating Gene-mass",
+    "Deep Strike",
+    "Feel No Pain",
+    "Leader"
+   ]
+  },
+  {
+   "id": "acolyte-iconward",
+   "name": "Acolyte Iconward",
+   "role": "Character",
+   "keywords": [
+    "Acolyte Iconward",
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Great Devourer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 50
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "cult-claws",
+     "name": "Cult claws",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Acolyte Iconward",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "cult-claws",
+    "autopistol"
+   ],
+   "abilities": [
+    "Deep Strike",
+    "Scouts",
+    "Leader",
+    "Nexus of Devotion",
+    "Summon the Cult"
+   ]
+  },
+  {
+   "id": "benefictus",
+   "name": "Benefictus",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Psyker",
+    "Great Devourer",
+    "Benefictus"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Benefictus",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "psionic-cascade-witchfire",
+    "psionic-cascade-focused-witchfire",
+    "close-combat-weapon-2"
+   ],
+   "abilities": [
+    "Deep Strike",
+    "Invulnerable Save (5+)",
+    "Leader",
+    "Bio-horror Disruption (Psychic)",
+    "Psionic Shield (Psychic)"
+   ]
+  },
+  {
+   "id": "biophagus",
+   "name": "Biophagus",
+   "role": "Character",
+   "keywords": [
+    "Biophagus",
+    "Infantry",
+    "Character",
+    "Great Devourer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 50
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "alchemicus-familiar",
+     "name": "Alchemicus familiar",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Biophagus",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "injector-goad",
+    "autopistol",
+    "chemical-vials"
+   ],
+   "abilities": [
+    "Deep Strike",
+    "Lethal Hits",
+    "Leader",
+    "Twisted Science",
+    "Biological Warfare",
+    "Alchemicus Familiar"
+   ]
+  },
+  {
+   "id": "clamavus",
+   "name": "Clamavus",
+   "role": "Character",
+   "keywords": [
+    "Clamavus",
+    "Infantry",
+    "Character",
+    "Great Devourer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 50
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Clamavus",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "autopistol",
+    "close-combat-weapon-2"
+   ],
+   "abilities": [
+    "Deep Strike",
+    "Leader",
+    "Voice of New Truths",
+    "Scrambler Array"
+   ]
+  },
+  {
+   "id": "cult-guerrilla",
+   "name": "Cult Guerrilla [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Crucible",
+    "Great Devourer",
+    "Grenades",
+    "Cult Guerrilla"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 60
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Cult Guerrilla",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Lone Operative",
+    "Crucible",
+    "Deep Strike",
+    "Invulnerable Save (5+)",
+    "Infiltrators",
+    "Leader",
+    "Stealth",
+    "Battlefield Analysis"
+   ]
+  },
+  {
+   "id": "cult-insurrectionist",
+   "name": "Cult Insurrectionist [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Crucible",
+    "Great Devourer",
+    "Cult Insurrectionist"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Cult Insurrectionist",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Leader",
+    "Crucible",
+    "Deep Strike",
+    "Invulnerable Save (5+)",
+    "Cult Demagogue"
+   ]
+  },
+  {
+   "id": "jackal-alphus",
+   "name": "Jackal Alphus",
+   "role": "Character",
+   "keywords": [
+    "Jackal Alphus",
+    "Character",
+    "Grenades",
+    "Great Devourer",
+    "Mounted"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 55
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "cult-sniper-rifle",
+     "name": "Cult sniper rifle",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Jackal Alphus",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "cult-sniper-rifle",
+    "autopistol",
+    "close-combat-weapon-3"
+   ],
+   "abilities": [
+    "Priority Target",
+    "Master Outrider",
+    "Leader",
+    "Scouts",
+    "Stealth"
+   ]
+  },
+  {
+   "id": "kelermorph",
+   "name": "Kelermorph",
+   "role": "Character",
+   "keywords": [
+    "Kelermorph",
+    "Infantry",
+    "Character",
+    "Great Devourer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 60
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "liberator-autostubs",
+     "name": "Liberator autostubs",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Kelermorph",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "liberator-autostubs",
+    "close-combat-weapon-3"
+   ],
+   "abilities": [
+    "Invulnerable Save (5+)",
+    "Deep Strike",
+    "Lone Operative",
+    "Hypersensory Abilities",
+    "Heroic Fusillade"
+   ]
+  },
+  {
+   "id": "locus",
+   "name": "Locus",
+   "role": "Character",
+   "keywords": [
+    "Locus",
+    "Infantry",
+    "Character",
+    "Great Devourer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 45
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "locus-blades",
+     "name": "Locus blades",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Locus",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "locus-blades"
+   ],
+   "abilities": [
+    "Invulnerable Save (4+)",
+    "Deep Strike",
+    "Fights First",
+    "Sudden Assault",
+    "Bodyguard",
+    "Leader"
+   ]
+  },
+  {
+   "id": "magus",
+   "name": "Magus",
+   "role": "Character",
+   "keywords": [
+    "Magus",
+    "Infantry",
+    "Character",
+    "Psyker",
+    "Great Devourer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 50
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Magus",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "force-stave",
+    "autopistol"
+   ],
+   "abilities": [
+    "Psychic Familiar",
+    "Mind Control (Psychic)",
+    "Spiritual Leader",
+    "Leader",
+    "Deep Strike",
+    "Invulnerable Save (5+)"
+   ]
+  },
+  {
+   "id": "nexos",
+   "name": "Nexos",
+   "role": "Character",
+   "keywords": [
+    "Nexos",
+    "Infantry",
+    "Character",
+    "Great Devourer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 60
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Nexos",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "autopistol",
+    "close-combat-weapon-2"
+   ],
+   "abilities": [
+    "Battlefield Analysis",
+    "Cult Infiltration",
+    "Leader",
+    "Deep Strike"
+   ]
+  },
+  {
+   "id": "patriarch",
+   "name": "Patriarch",
+   "role": "Character",
+   "keywords": [
+    "Patriarch",
+    "Infantry",
+    "Character",
+    "Psyker",
+    "Great Devourer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "patriarch-s-claws",
+     "name": "Patriarch's claws",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Patriarch",
+     "stats": {
+      "M": "8\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "patriarch-s-claws"
+   ],
+   "abilities": [
+    "Deep Strike",
+    "Infiltrators",
+    "Invulnerable Save (4+)",
+    "Leader",
+    "Might From Beyond",
+    "Cosmic Horror (Psychic)",
+    "Psychic Familiar",
+    "Supreme Commander"
+   ]
+  },
+  {
+   "id": "primus",
+   "name": "Primus",
+   "role": "Character",
+   "keywords": [
+    "Primus",
+    "Infantry",
+    "Character",
+    "Great Devourer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Primus",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "toxin-injector-claw",
+    "scoped-needle-pistol",
+    "cult-bonesword"
+   ],
+   "abilities": [
+    "Invulnerable Save (5+)",
+    "Deep Strike",
+    "Leader",
+    "Cult Demagogue",
+    "Decoys and Misdirection"
+   ]
+  },
+  {
+   "id": "reductus-saboteur",
+   "name": "Reductus Saboteur",
+   "role": "Character",
+   "keywords": [
+    "Reductus Saboteur",
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Great Devourer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "demolition-charges",
+     "name": "Demolition charges",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Reductus Saboteur",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "demolition-charges",
+    "autopistol",
+    "remote-explosives",
+    "close-combat-weapon-2"
+   ],
+   "abilities": [
+    "Primed and Ready",
+    "Planted Explosives",
+    "Infiltrators",
+    "Lone Operative",
+    "Deep Strike",
+    "Stealth",
+    "Invulnerable Save (5+)"
+   ]
+  },
+  {
+   "id": "sanctus",
+   "name": "Sanctus",
+   "role": "Character",
+   "keywords": [
+    "Sanctus",
+    "Infantry",
+    "Character",
+    "Great Devourer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 50
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "sanctus-bio-dagger",
+     "name": "Sanctus bio-dagger",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    },
+    {
+     "id": "cult-sniper-rifle-and-close-combat-weapon",
+     "name": "Cult sniper rifle and close combat weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Sanctus",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "sanctus-bio-dagger",
+    "cult-sniper-rifle-2",
+    "close-combat-weapon-2"
+   ],
+   "abilities": [
+    "Creeping Shadow",
+    "Psychic Spoor",
+    "Cloaked Assassin",
+    "Deep Strike",
+    "Lone Operative",
+    "Infiltrators",
+    "Invulnerable Save (5+)",
+    "Stealth"
+   ]
+  },
+  {
+   "id": "voice-of-the-patriarch",
+   "name": "Voice of the Patriarch [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Crucible",
+    "Great Devourer",
+    "Psyker",
+    "Voice of the Patriarch"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Voice of the Patriarch",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Leader",
+    "Crucible",
+    "Deep Strike",
+    "Invulnerable Save (5+)",
+    "Lethal Hits",
+    "Biohorror Disruption (Psychic)"
+   ]
+  },
+  {
+   "id": "aberrants",
+   "name": "Aberrants",
+   "role": "Infantry",
+   "keywords": [
+    "Aberrants",
+    "Infantry",
+    "Great Devourer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 135
+    },
+    {
+     "count": 6,
+     "pts": 300
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Aberrant Hypermorph",
+     "stats": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Aberrant",
+     "stats": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "aberrant-weapons"
+   ],
+   "abilities": [
+    "Deep Strike",
+    "Feel No Pain",
+    "Cult Ambush",
+    "Feel No Pain 5+",
+    "Hulking Bodyguards"
+   ]
+  },
+  {
+   "id": "hybrid-metamorphs",
+   "name": "Hybrid Metamorphs",
+   "role": "Infantry",
+   "keywords": [
+    "Hybrid Metamorphs",
+    "Infantry",
+    "Grenades",
+    "Great Devourer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 4,
+     "pts": 70
+    },
+    {
+     "count": 9,
+     "pts": 140
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "leader-s-bio-weapons",
+     "name": "Leader's Bio-weapons",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Hybrid Leader",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "leader-s-bio-weapons",
+    "metamorph-mutations-strike",
+    "metamorph-mutations-sweep",
+    "autopistol-2",
+    "hand-flamer"
+   ],
+   "abilities": [
+    "Hybrid Metamorph",
+    "Deep Strike",
+    "Scouts",
+    "Cult Ambush",
+    "Feel No Pain",
+    "Brood Surge"
+   ]
+  },
+  {
+   "id": "purestrain-genestealers",
+   "name": "Purestrain Genestealers",
+   "role": "Infantry",
+   "keywords": [
+    "Purestrain Genestealers",
+    "Infantry",
+    "Great Devourer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    },
+    {
+     "count": 6,
+     "pts": 140
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Purestrain Genestealer",
+     "stats": {
+      "M": "8\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "cult-claws-and-talons"
+   ],
+   "abilities": [
+    "Deep Strike",
+    "Invulnerable Save (5+)",
+    "Infiltrators",
+    "Cult Ambush",
+    "Swift and Deadly"
+   ]
+  },
+  {
+   "id": "atalan-jackals",
+   "name": "Atalan Jackals",
+   "role": "Mounted",
+   "keywords": [
+    "Atalan Jackals",
+    "Mounted",
+    "Grenades",
+    "Great Devourer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 4,
+     "pts": 85
+    },
+    {
+     "count": 8,
+     "pts": 150
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 8,
+   "wargear": [
+    {
+     "id": "mining-laser",
+     "name": "Mining laser",
+     "pts": 0,
+     "group": "Heavy Stubber",
+     "max": null
+    },
+    {
+     "id": "atalan-incinerator",
+     "name": "Atalan incinerator",
+     "pts": 0,
+     "group": "Heavy Stubber",
+     "max": null
+    },
+    {
+     "id": "heavy-stubber",
+     "name": "Heavy stubber",
+     "pts": 0,
+     "group": "Heavy Stubber",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Atalan Jackal",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Atalan Wolfquad",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "mining-laser",
+    "atalan-incinerator",
+    "heavy-stubber",
+    "grenade-launcher-frag",
+    "grenade-launcher-krak",
+    "close-combat-weapon",
+    "atalan-small-arms",
+    "atalan-power-weapon"
+   ],
+   "abilities": [
+    "Outrider Gangs",
+    "Demolition Run",
+    "Cult Ambush",
+    "Scouts",
+    "Stealth"
+   ]
+  },
+  {
+   "id": "achilles-ridgerunners",
+   "name": "Achilles Ridgerunners",
+   "role": "Vehicle",
+   "keywords": [
+    "Achilles Ridgerunners",
+    "Vehicle",
+    "Great Devourer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 95
+    },
+    {
+     "count": 2,
+     "pts": 170
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "armoured-hull",
+     "name": "Armoured hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-heavy-stubber",
+     "name": "Twin heavy stubber",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "flare-launcher",
+     "name": "Flare launcher",
+     "pts": 0,
+     "group": "Flare Launcher",
+     "max": null
+    },
+    {
+     "id": "spotter",
+     "name": "Spotter",
+     "pts": 0,
+     "group": "Flare Launcher",
+     "max": null
+    },
+    {
+     "id": "survey-augur",
+     "name": "Survey augur",
+     "pts": 0,
+     "group": "Flare Launcher",
+     "max": null
+    },
+    {
+     "id": "achilles-missile-launcher",
+     "name": "Achilles missile launcher",
+     "pts": 0,
+     "group": "Heavy Mining Laser",
+     "max": null
+    },
+    {
+     "id": "heavy-mortar",
+     "name": "Heavy mortar",
+     "pts": 0,
+     "group": "Heavy Mining Laser",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Achilles Ridge Runner",
+     "stats": {
+      "M": "12\"",
+      "T": "7",
+      "SV": "3+",
+      "W": "8",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "armoured-hull",
+    "twin-heavy-stubber",
+    "achilles-missile-launcher",
+    "heavy-mortar",
+    "heavy-mining-laser"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Scouts",
+    "Crossfire",
+    "Flare Launcher",
+    "Spotter",
+    "Survey Augur",
+    "Ignores Cover"
+   ]
+  },
+  {
+   "id": "goliath-rockgrinder",
+   "name": "Goliath Rockgrinder",
+   "role": "Vehicle",
+   "keywords": [
+    "Goliath Rockgrinder",
+    "Vehicle",
+    "Great Devourer",
+    "Transport"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 120
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "drilldozer-blade",
+     "name": "Drilldozer blade",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "clearance-incinerator",
+     "name": "Clearance incinerator",
+     "pts": 0,
+     "group": "Heavy Mining Laser",
+     "max": null
+    },
+    {
+     "id": "heavy-seismic-cannon",
+     "name": "Heavy seismic cannon",
+     "pts": 0,
+     "group": "Heavy Mining Laser",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Goliath Rockgrinder",
+     "stats": {
+      "M": "12\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "clearance-incinerator",
+    "heavy-seismic-cannon",
+    "drilldozer-blade",
+    "heavy-mining-laser",
+    "heavy-stubber-2",
+    "demolition-charge-cache"
+   ],
+   "abilities": [
+    "Grinding Line-breaker",
+    "Deadly Demise",
+    "Firing Deck",
+    "Damaged: 1-3 Wounds Remaining"
+   ]
+  },
+  {
+   "id": "goliath-truck",
+   "name": "Goliath Truck",
+   "role": "Vehicle",
+   "keywords": [
+    "Goliath Truck",
+    "Vehicle",
+    "Dedicated Transport",
+    "Transport",
+    "Great Devourer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "twin-autocannon",
+     "name": "Twin autocannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "goliath-wheels",
+     "name": "Goliath wheels",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Goliath Truck",
+     "stats": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-autocannon",
+    "goliath-wheels",
+    "demolition-charge-cache",
+    "heavy-stubber-2"
+   ],
+   "abilities": [
+    "Firing Deck",
+    "Deadly Demise",
+    "Fire Support"
+   ]
+  },
+  {
+   "id": "tectonic-fragdrill",
+   "name": "Tectonic Fragdrill",
+   "role": "Vehicle",
+   "keywords": [
+    "Fortification",
+    "Vehicle",
+    "Tectonic Fragdrill"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 125
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Tectonic Fragdrill",
+     "stats": {
+      "M": "-",
+      "T": "11",
+      "SV": "3+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "fragdrill"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Tectonic Fragdrill",
+    "Underground Egress",
+    "Manufactorum Cover",
+    "Fortification"
+   ]
+  }
+ ]
+}

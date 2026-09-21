@@ -1,0 +1,5787 @@
+{
+ "id": "necrons",
+ "name": "Necrons",
+ "source": "BSData/wh40k-10e",
+ "revision": "106",
+ "enhancements": [],
+ "weapons": [
+  {
+   "id": "staff-of-tomorrow",
+   "name": "Staff of Tomorrow",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-3",
+    "D": "D3",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "gauntlet-of-fire",
+   "name": "Gauntlet of Fire",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "staff-of-the-destroyer",
+   "name": "Staff of the Destroyer",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "staff-of-the-destroyer-2",
+   "name": "Staff of the Destroyer",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "warscythe",
+   "name": "Warscythe",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "tachyon-arrow",
+   "name": "Tachyon arrow",
+   "type": "ranged",
+   "stats": {
+    "Range": "72\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "16",
+    "AP": "-5",
+    "D": "D6+2",
+    "Keywords": "One Shot"
+   }
+  },
+  {
+   "id": "warscythe-2",
+   "name": "Warscythe",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Devastating Wounds, Precision"
+   }
+  },
+  {
+   "id": "eldritch-lance",
+   "name": "Eldritch lance",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "eldritch-lance-2",
+   "name": "Eldritch lance",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "9",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "impaling-legs",
+   "name": "Impaling legs",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "staff-of-light",
+   "name": "Staff of light",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "staff-of-light-2",
+   "name": "Staff of light",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "empathic-obliterator",
+   "name": "Empathic Obliterator",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "7",
+    "AP": "0",
+    "D": "D3",
+    "Keywords": "Sustained Hits D3"
+   }
+  },
+  {
+   "id": "close-combat-weapon",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "relic-gauss-blaster",
+   "name": "Relic gauss blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Lethal Hits, Rapid Fire 2"
+   }
+  },
+  {
+   "id": "enmitic-annihilator",
+   "name": "Enmitic annihilator",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Rapid Fire 2"
+   }
+  },
+  {
+   "id": "flensing-claw",
+   "name": "Flensing claw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "hyperphase-harvester",
+   "name": "Hyperphase harvester",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "10",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "lord-s-blade",
+   "name": "Lord's blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "staff-of-light-3",
+   "name": "Staff of light",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "staff-of-light-4",
+   "name": "Staff of light",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "lord-s-blade-2",
+   "name": "Lord's blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "staff-of-light-5",
+   "name": "Staff of light",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "gauss-cannon",
+   "name": "Gauss cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "tesla-cannon",
+   "name": "Tesla cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "4",
+    "BS": "3+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Sustained Hits 2"
+   }
+  },
+  {
+   "id": "overlord-s-blade",
+   "name": "Overlord's blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "voidscythe",
+   "name": "Voidscythe",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "staff-of-light-6",
+   "name": "Staff of light",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "staff-of-light-7",
+   "name": "Staff of light",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "abyssal-lance",
+   "name": "Abyssal lance",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "abyssal-lance-2",
+   "name": "Abyssal lance",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "4+",
+    "S": "6",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "chronomancer-s-stave",
+   "name": "Chronomancer's stave",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "chronomancer-s-stave-2",
+   "name": "Chronomancer's stave",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6",
+    "BS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "plasmic-lance",
+   "name": "Plasmic lance",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "plasmic-lance-2",
+   "name": "Plasmic lance",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "7",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "gauss-flayer",
+   "name": "Gauss flayer",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Lethal Hits, Rapid Fire 1"
+   }
+  },
+  {
+   "id": "gauss-reaper",
+   "name": "Gauss reaper",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "close-combat-weapon-2",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "gauss-blaster",
+   "name": "Gauss blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "tesla-carbine",
+   "name": "Tesla carbine",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault, Sustained Hits 2"
+   }
+  },
+  {
+   "id": "close-combat-weapon-3",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "atomiser-beam",
+   "name": "Atomiser beam",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "reanimator-s-claws",
+   "name": "Reanimator's claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "enmitic-disintegrator-pistols",
+   "name": "Enmitic disintegrator pistols",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "6",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Ignores Cover, Pistol"
+   }
+  },
+  {
+   "id": "warscythe-3",
+   "name": "Warscythe",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "hyperphase-sword",
+   "name": "Hyperphase sword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "synaptic-disintegrator",
+   "name": "Synaptic disintegrator",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Heavy, Precision"
+   }
+  },
+  {
+   "id": "flayer-claws",
+   "name": "Flayer claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Sustained Hits 1, Twin-linked"
+   }
+  },
+  {
+   "id": "scouring-eye",
+   "name": "Scouring eye",
+   "type": "ranged",
+   "stats": {
+    "Range": "6\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "scythed-limbs",
+   "name": "Scythed limbs",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "skorpekh-hyperphase-weapons",
+   "name": "Skorpekh hyperphase weapons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "stalker-s-forelimbs",
+   "name": "Stalker's forelimbs",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "heat-ray-dispersed",
+   "name": "➤ Heat ray - dispersed",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "2D6",
+    "BS": "N/A",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "heat-ray-focused",
+   "name": "➤ Heat ray - focused",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 4"
+   }
+  },
+  {
+   "id": "particle-shredder",
+   "name": "Particle shredder",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6+6",
+    "BS": "2+",
+    "S": "7",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast, Devastating Wounds"
+   }
+  },
+  {
+   "id": "heavy-gauss-cannon-array",
+   "name": "Heavy gauss cannon array",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "cosmic-insanity",
+   "name": "Cosmic insanity",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "6",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Anti-CHARACTER 4+, Devastating Wounds, Precision"
+   }
+  },
+  {
+   "id": "golden-fists",
+   "name": "Golden fists",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "2+",
+    "S": "10",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "gaze-of-death",
+   "name": "Gaze of death",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D3",
+    "BS": "2+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "scythe-of-the-nightbringer-strike",
+   "name": "➤ Scythe of the Nightbringer - strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "14",
+    "AP": "-4",
+    "D": "D6+2",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "scythe-of-the-nightbringer-sweep",
+   "name": "➤ Scythe of the Nightbringer - sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "14",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "spear-of-the-void-dragon",
+   "name": "Spear of the Void Dragon",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D3",
+    "BS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "D6+2",
+    "Keywords": "Anti-VEHICLE 2+"
+   }
+  },
+  {
+   "id": "spear-of-the-void-dragon-strike",
+   "name": "➤ Spear of the Void Dragon - strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "12",
+    "AP": "-4",
+    "D": "D6+2",
+    "Keywords": "Anti-VEHICLE 2+"
+   }
+  },
+  {
+   "id": "spear-of-the-void-dragon-sweep",
+   "name": "➤ Spear of the Void Dragon - sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "10",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "voltaic-storm",
+   "name": "Voltaic storm",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6+3",
+    "BS": "2+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Blast, Sustained Hits 2"
+   }
+  },
+  {
+   "id": "canoptek-tail-blades",
+   "name": "Canoptek tail blades",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "crackling-tendrils",
+   "name": "Crackling tendrils",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "2+",
+    "S": "10",
+    "AP": "-3",
+    "D": "D6",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "seismic-assault",
+   "name": "Seismic assault",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "6",
+    "BS": "2+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Assault, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "automaton-claws",
+   "name": "Automaton claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "particle-beamer",
+   "name": "Particle beamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast, Devastating Wounds"
+   }
+  },
+  {
+   "id": "feeder-mandibles",
+   "name": "Feeder mandibles",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "5+",
+    "S": "2",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "ophydian-hyperphase-weapons",
+   "name": "Ophydian hyperphase weapons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-gauss-blaster",
+   "name": "Twin gauss blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Lethal Hits, Twin-linked"
+   }
+  },
+  {
+   "id": "particle-beamer-2",
+   "name": "Particle beamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast, Devastating Wounds"
+   }
+  },
+  {
+   "id": "twin-tesla-carbine",
+   "name": "Twin tesla carbine",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault, Sustained Hits 2, Twin-linked"
+   }
+  },
+  {
+   "id": "rod-of-covenant",
+   "name": "Rod of covenant",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "rod-of-covenant-2",
+   "name": "Rod of covenant",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "particle-caster",
+   "name": "Particle caster",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Devastating Wounds, Pistol"
+   }
+  },
+  {
+   "id": "voidblade",
+   "name": "Voidblade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "vicious-claws",
+   "name": "Vicious claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "transdimensional-beamer",
+   "name": "Transdimensional beamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "4",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "particle-caster-2",
+   "name": "Particle caster",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Devastating Wounds, Pistol"
+   }
+  },
+  {
+   "id": "whip-coils",
+   "name": "Whip coils",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-tesla-destructor",
+   "name": "Twin tesla destructor",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "8",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "Sustained Hits 2, Twin-linked"
+   }
+  },
+  {
+   "id": "armoured-bulk",
+   "name": "Armoured bulk",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "doomsday-cannon",
+   "name": "Doomsday cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "72\"",
+    "A": "D6+1",
+    "BS": "3+",
+    "S": "18",
+    "AP": "-4",
+    "D": "4",
+    "Keywords": "Blast, Heavy"
+   }
+  },
+  {
+   "id": "gauss-flayer-array",
+   "name": "Gauss flayer array",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "5",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Lethal Hits, Rapid Fire 5"
+   }
+  },
+  {
+   "id": "enmitic-exterminator",
+   "name": "Enmitic exterminator",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Heavy, Rapid Fire 6, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "gauss-destructor",
+   "name": "Gauss destructor",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "14",
+    "AP": "-4",
+    "D": "6",
+    "Keywords": "Heavy, Lethal Hits"
+   }
+  },
+  {
+   "id": "doomsday-blaster",
+   "name": "Doomsday blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6+1",
+    "BS": "4+",
+    "S": "14",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Blast, Heavy"
+   }
+  },
+  {
+   "id": "doomstalker-limbs",
+   "name": "Doomstalker limbs",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-gauss-flayer",
+   "name": "Twin gauss flayer",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Lethal Hits, Rapid Fire 1, Twin-linked"
+   }
+  },
+  {
+   "id": "heavy-death-ray",
+   "name": "Heavy death ray",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "16",
+    "AP": "-4",
+    "D": "D6+1",
+    "Keywords": "Sustained Hits D3"
+   }
+  },
+  {
+   "id": "armoured-bulk-2",
+   "name": "Armoured bulk",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "4+",
+    "S": "8",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "tesla-sphere",
+   "name": "Tesla sphere",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "7",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-FLY 4+, Sustained Hits 2"
+   }
+  },
+  {
+   "id": "tesla-sphere-2",
+   "name": "Tesla sphere",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "7",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Sustained Hits 2"
+   }
+  },
+  {
+   "id": "particle-whip",
+   "name": "Particle whip",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3D6",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Blast, Devastating Wounds"
+   }
+  },
+  {
+   "id": "portal-of-exile",
+   "name": "Portal of exile",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "death-ray",
+   "name": "Death ray",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "12",
+    "AP": "-4",
+    "D": "D6+1",
+    "Keywords": "Sustained Hits D3"
+   }
+  },
+  {
+   "id": "gauss-flux-arc",
+   "name": "Gauss flux arc",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Lethal Hits, Rapid Fire 3"
+   }
+  },
+  {
+   "id": "sceptre-of-eternal-glory",
+   "name": "Sceptre of Eternal Glory",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "10",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "staff-of-stars",
+   "name": "Staff of Stars",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "12",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Indirect Fire"
+   }
+  },
+  {
+   "id": "weapons-of-the-final-triarch",
+   "name": "Weapons of the Final Triarch",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "12",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "annihilator-beam",
+   "name": "Annihilator beam",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "14",
+    "AP": "-4",
+    "D": "6",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "armoured-bulk-3",
+   "name": "Armoured bulk",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "transdimensional-abductor",
+   "name": "Transdimensional abductor",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "gauss-slicers",
+   "name": "Gauss slicers",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "8",
+    "BS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "tomb-stalker-claws",
+   "name": "Tomb Stalker claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "exile-cannon",
+   "name": "Exile cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6+1",
+    "BS": "4+",
+    "S": "10",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "tomb-sentinel-claws",
+   "name": "Tomb Sentinel claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "cutting-beam",
+   "name": "Cutting beam",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2"
+   }
+  },
+  {
+   "id": "voidblade-2",
+   "name": "Voidblade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "tesseract-singularity-chamber-particle",
+   "name": "➤ Tesseract singularity chamber - particle",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6+3",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "tesseract-singularity-chamber-seismic-lash",
+   "name": "➤ Tesseract singularity chamber - seismic lash",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D3",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "titanic-forelimbs-strike",
+   "name": "➤ Titanic forelimbs - strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "14",
+    "AP": "-3",
+    "D": "5",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "titanic-forelimbs-sweep",
+   "name": "➤ Titanic forelimbs - sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "12",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "singularity-generator",
+   "name": "Singularity generator",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "2D6",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-3",
+    "D": "4",
+    "Keywords": "Blast, Devastating Wounds"
+   }
+  },
+  {
+   "id": "synaptic-obliterator",
+   "name": "Synaptic obliterator",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "8",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Sustained Hits 2"
+   }
+  },
+  {
+   "id": "transdimensional-projector",
+   "name": "Transdimensional projector",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "24",
+    "AP": "-4",
+    "D": "D6+4",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "gauss-annihilator",
+   "name": "Gauss annihilator",
+   "type": "ranged",
+   "stats": {
+    "Range": "120\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "16",
+    "AP": "-4",
+    "D": "D6+6",
+    "Keywords": "Anti-FLY 2+, Lethal Hits"
+   }
+  },
+  {
+   "id": "tesla-arc",
+   "name": "Tesla arc",
+   "type": "ranged",
+   "stats": {
+    "Range": "6\"",
+    "A": "6",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Sustained Hits 2"
+   }
+  },
+  {
+   "id": "focused-death-ray",
+   "name": "Focused death ray",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "6",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Sustained Hits 2"
+   }
+  },
+  {
+   "id": "gauss-exterminator",
+   "name": "Gauss exterminator",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "14",
+    "AP": "-3",
+    "D": "6",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "heat-cannon",
+   "name": "Heat cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 4"
+   }
+  },
+  {
+   "id": "atomiser-beam-2",
+   "name": "Atomiser beam",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "tesla-caster",
+   "name": "Tesla caster",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "gauss-scalpel",
+   "name": "Gauss scalpel",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "claws",
+   "name": "Claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-gauss-reaper",
+   "name": "Twin gauss reaper",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Lethal Hits, Twin-linked"
+   }
+  },
+  {
+   "id": "claws-2",
+   "name": "Claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "dimensional-isolator",
+   "name": "Dimensional isolator",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "4",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "tremorglaive-reverberating-beam",
+   "name": "➤ Tremorglaive - reverberating beam",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Melta 2"
+   }
+  },
+  {
+   "id": "tremorglaive-shock-wave-pulse",
+   "name": "➤ Tremorglaive - shock wave pulse",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6+2",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "tremorglaive",
+   "name": "Tremorglaive",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "blade-tail-and-whip-coils",
+   "name": "Blade tail and whip coils",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "enmitic-disintegrators",
+   "name": "Enmitic disintegrators",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "4",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Ignores Cover, Pistol, Sustained Hits 2"
+   }
+  },
+  {
+   "id": "unmaker-gauntlet",
+   "name": "Unmaker gauntlet",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "10",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "-"
+   }
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "immortals",
+   "name": "Immortals",
+   "role": "Battleline",
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Immortals"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 5,
+     "pts": 70
+    },
+    {
+     "count": 10,
+     "pts": 150
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 10,
+   "wargear": [
+    {
+     "id": "gauss-blaster",
+     "name": "Gauss blaster",
+     "pts": 0,
+     "group": "Weapons",
+     "max": 1
+    },
+    {
+     "id": "tesla-carbine",
+     "name": "Tesla carbine",
+     "pts": 0,
+     "group": "Weapons",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Immortals",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "gauss-blaster",
+    "tesla-carbine",
+    "close-combat-weapon-3"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Implacable Eradication"
+   ]
+  },
+  {
+   "id": "necron-warriors",
+   "name": "Necron Warriors",
+   "role": "Battleline",
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Necron Warriors"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 10,
+     "pts": 90
+    },
+    {
+     "count": 20,
+     "pts": 200
+    }
+   ],
+   "minModels": 10,
+   "maxModels": 20,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Necron Warriors",
+     "stats": {
+      "M": "5\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "gauss-flayer",
+    "gauss-reaper",
+    "close-combat-weapon-2"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Their Number is Legion"
+   ]
+  },
+  {
+   "id": "canoptek-acanthrites",
+   "name": "Canoptek Acanthrites",
+   "role": "Beast",
+   "keywords": [
+    "Beast",
+    "Fly",
+    "Canoptek",
+    "Acanthrites"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    },
+    {
+     "count": 4,
+     "pts": 170
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Canoptek Acanthrites",
+     "stats": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "2",
+      "LD": "8+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "cutting-beam",
+    "voidblade-2"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Infiltrators",
+    "Damaged Armour"
+   ]
+  },
+  {
+   "id": "canoptek-macrocytes",
+   "name": "Canoptek Macrocytes",
+   "role": "Beast",
+   "keywords": [
+    "Beast",
+    "Fly",
+    "Canoptek",
+    "Macrocytes"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 5,
+     "pts": 85
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 5,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Canoptek Macrocytes",
+     "stats": {
+      "M": "8\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "atomiser-beam-2",
+    "tesla-caster",
+    "gauss-scalpel",
+    "claws"
+   ],
+   "abilities": [
+    "Scouts",
+    "Reanimation Protocols",
+    "Harassment Swarm (Aura)",
+    "Nanoscarab Projector",
+    "Accelerator Mandible"
+   ]
+  },
+  {
+   "id": "canoptek-tomb-crawlers",
+   "name": "Canoptek Tomb Crawlers",
+   "role": "Beast",
+   "keywords": [
+    "Beast",
+    "Canoptek",
+    "Tomb Crawlers"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 50
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "twin-gauss-reaper",
+     "name": "Twin gauss reaper",
+     "pts": 0,
+     "group": "Weapon choice",
+     "max": null
+    },
+    {
+     "id": "dimensional-isolator",
+     "name": "Dimensional isolator",
+     "pts": 0,
+     "group": "Weapon choice",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Canoptek Tomb Crawlers",
+     "stats": {
+      "M": "5\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "3",
+      "LD": "8+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-gauss-reaper",
+    "claws-2",
+    "dimensional-isolator"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Weapon Sentinels",
+    "Canoptek Retinue"
+   ]
+  },
+  {
+   "id": "canoptek-wraiths",
+   "name": "Canoptek Wraiths",
+   "role": "Beast",
+   "keywords": [
+    "Beast",
+    "Fly",
+    "Canoptek",
+    "Wraiths"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 3,
+     "pts": 110
+    },
+    {
+     "count": 6,
+     "pts": 220
+    }
+   ],
+   "minModels": 3,
+   "maxModels": 6,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Canoptek Wraiths",
+     "stats": {
+      "M": "10\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "4",
+      "LD": "8+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "vicious-claws",
+    "transdimensional-beamer",
+    "particle-caster-2",
+    "whip-coils"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Wraith Form",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "catacomb-command-barge",
+   "name": "Catacomb Command Barge",
+   "role": "Character",
+   "keywords": [
+    "Vehicle",
+    "Character",
+    "Fly",
+    "Catacomb Command Barge"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 120
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "resurrection-orb",
+     "name": "Resurrection orb",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "gauss-cannon",
+     "name": "Gauss cannon",
+     "pts": 0,
+     "group": "Main weapon",
+     "max": null
+    },
+    {
+     "id": "tesla-cannon",
+     "name": "Tesla cannon",
+     "pts": 0,
+     "group": "Main weapon",
+     "max": null
+    },
+    {
+     "id": "staff-of-light",
+     "name": "Staff of light",
+     "pts": 0,
+     "group": "Overlord's Weapon",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Catacomb Command Barge",
+     "stats": {
+      "M": "10\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "9",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "gauss-cannon",
+    "tesla-cannon",
+    "staff-of-light-3",
+    "staff-of-light-2",
+    "overlord-s-blade"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Deadly Demise",
+    "Invulnerable Save",
+    "Carrier Wave (Aura)",
+    "Advanced Quantum Shielding",
+    "Resurrection orb"
+   ]
+  },
+  {
+   "id": "chronomancer",
+   "name": "Chronomancer",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Cryptek",
+    "Chronomancer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "chronomancer-s-stave",
+     "name": "Chronomancer's stave",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Chronomancer",
+     "stats": {
+      "M": "5\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "chronomancer-s-stave",
+    "chronomancer-s-stave-2"
+   ],
+   "abilities": [
+    "Leader",
+    "Reanimation Protocols",
+    "Timesplinter Mantle",
+    "Chronometron",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "dynastic-conqueror",
+   "name": "Dynastic Conqueror [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Noble",
+    "Dynastic Conqueror",
+    "Crucible"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Dynastic Conqueror",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Invulnerable Save (4+)",
+    "Leader",
+    "Implacable Resistance",
+    "Reanimation Protocols"
+   ]
+  },
+  {
+   "id": "geomancer",
+   "name": "Geomancer",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Cryptek",
+    "Geomancer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "tremorglaive",
+     "name": "Tremorglaive",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Geomancer",
+     "stats": {
+      "M": "8\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "tremorglaive-reverberating-beam",
+    "tremorglaive-shock-wave-pulse",
+    "tremorglaive"
+   ],
+   "abilities": [
+    "Leader",
+    "Reanimation Protocols",
+    "Tectonic Reverberations",
+    "Obelisk Node Control"
+   ]
+  },
+  {
+   "id": "hexmark-destroyer",
+   "name": "Hexmark Destroyer",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Destroyer Cult",
+    "Hexmark Destroyer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "close-combat-weapon",
+     "name": "Close combat weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "enmitic-disintegrator-pistols",
+     "name": "Enmitic disintegrator pistols",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Hexmark Destroyer",
+     "stats": {
+      "M": "8\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon",
+    "enmitic-disintegrator-pistols"
+   ],
+   "abilities": [
+    "Deep Strike",
+    "Lone Operative",
+    "Reanimation Protocols",
+    "Inescapable Death",
+    "Multi-threat Eliminator"
+   ]
+  },
+  {
+   "id": "hyperscientist",
+   "name": "Hyperscientist [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Crucible",
+    "Hyperscientist",
+    "Cryptek"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Hyperscientist",
+     "stats": {
+      "M": "5\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Leader",
+    "Reanimation Protocols"
+   ]
+  },
+  {
+   "id": "lokhust-lord",
+   "name": "Lokhust Lord",
+   "role": "Character",
+   "keywords": [
+    "Mounted",
+    "Character",
+    "Fly",
+    "Destroyer Cult",
+    "Lokhust Lord"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "lord-s-blade",
+     "name": "Lord's blade",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "staff-of-light",
+     "name": "Staff of light",
+     "pts": 0,
+     "group": "Weapon",
+     "max": 1
+    },
+    {
+     "id": "nanoscarab-amulet",
+     "name": "Nanoscarab amulet",
+     "pts": 0,
+     "group": "Equipment",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Lokhust Lord",
+     "stats": {
+      "M": "8\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "lord-s-blade",
+    "staff-of-light-3",
+    "staff-of-light-4"
+   ],
+   "abilities": [
+    "Leader",
+    "Reanimation Protocols",
+    "Invulnerable Save",
+    "Destroyer Cult",
+    "Driven by Hatred",
+    "Nanoscarab amulet",
+    "Feel No Pain"
+   ]
+  },
+  {
+   "id": "lord",
+   "name": "Lord",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Noble",
+    "Lord"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "lord-s-blade",
+     "name": "Lord's blade",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "staff-of-light",
+     "name": "Staff of light",
+     "pts": 0,
+     "group": "Weapon",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Lord",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "lord-s-blade-2",
+    "staff-of-light",
+    "staff-of-light-5"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Relentless March",
+    "The Lord’s Will",
+    "Leader"
+   ]
+  },
+  {
+   "id": "overlord",
+   "name": "Overlord",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Noble",
+    "Overlord"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "overlord-s-blade-and-tachyon-arrow",
+     "name": "Overlord's blade and tachyon arrow",
+     "pts": 0,
+     "group": "Weapons",
+     "max": null
+    },
+    {
+     "id": "voidscythe",
+     "name": "Voidscythe",
+     "pts": 0,
+     "group": "Weapons",
+     "max": null
+    },
+    {
+     "id": "staff-of-light",
+     "name": "Staff of light",
+     "pts": 0,
+     "group": "Weapons",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Overlord",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "voidscythe",
+    "staff-of-light-3",
+    "staff-of-light-4",
+    "overlord-s-blade",
+    "tachyon-arrow"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "My Will Be Done",
+    "Implacable Resilience",
+    "Invulnerable Save",
+    "Leader"
+   ]
+  },
+  {
+   "id": "overlord-with-translocation-shroud",
+   "name": "Overlord with Translocation Shroud",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Noble",
+    "Overlord",
+    "Overlord with Translocation Shroud"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Overlord with Translocation Shroud",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "overlord-s-blade"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "My Will Be Done",
+    "Translocation Shroud",
+    "Invulnerable Save",
+    "Leader"
+   ]
+  },
+  {
+   "id": "plasmancer",
+   "name": "Plasmancer",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Cryptek",
+    "Plasmancer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 55
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "plasmic-lance",
+     "name": "Plasmic lance",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Plasmancer",
+     "stats": {
+      "M": "5\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "plasmic-lance",
+    "plasmic-lance-2"
+   ],
+   "abilities": [
+    "Leader",
+    "Reanimation Protocols",
+    "Harbinger of Destruction",
+    "Living Lightning"
+   ]
+  },
+  {
+   "id": "psychomancer",
+   "name": "Psychomancer",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Cryptek",
+    "Psychomancer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 55
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "abyssal-lance",
+     "name": "Abyssal lance",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Psychomancer",
+     "stats": {
+      "M": "5\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "abyssal-lance",
+    "abyssal-lance-2"
+   ],
+   "abilities": [
+    "Leader",
+    "Reanimation Protocols",
+    "Nightmare Shroud (Aura)",
+    "Harbinger of Despair"
+   ]
+  },
+  {
+   "id": "royal-warden",
+   "name": "Royal Warden",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Royal Warden"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 50
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "close-combat-weapon",
+     "name": "Close combat weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "relic-gauss-blaster",
+     "name": "Relic gauss blaster",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Royal Warden",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon",
+    "relic-gauss-blaster"
+   ],
+   "abilities": [
+    "Leader",
+    "Reanimation Protocols",
+    "Adaptive Strategy",
+    "Engrammatic Logic"
+   ]
+  },
+  {
+   "id": "skorpekh-lord",
+   "name": "Skorpekh Lord",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Destroyer Cult",
+    "Skorpekh Lord"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "enmitic-annihilator",
+     "name": "Enmitic annihilator",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "flensing-claw",
+     "name": "Flensing claw",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "hyperphase-harvester",
+     "name": "Hyperphase harvester",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Skorpekh Lord",
+     "stats": {
+      "M": "8\"",
+      "T": "7",
+      "SV": "3+",
+      "W": "7",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "enmitic-annihilator",
+    "flensing-claw",
+    "hyperphase-harvester"
+   ],
+   "abilities": [
+    "Leader",
+    "Reanimation Protocols",
+    "United In Destruction",
+    "Crimson Harvest",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "technomancer",
+   "name": "Technomancer",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Fly",
+    "Cryptek",
+    "Technomancer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "staff-of-light",
+     "name": "Staff of light",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Technomancer",
+     "stats": {
+      "M": "10\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "staff-of-light-6",
+    "staff-of-light-7"
+   ],
+   "abilities": [
+    "Leader",
+    "Reanimation Protocols",
+    "Rites of Reanimation",
+    "Technomancer"
+   ]
+  },
+  {
+   "id": "transcendent-c-tan",
+   "name": "Transcendent C'tan",
+   "role": "Character",
+   "keywords": [
+    "Monster",
+    "Character",
+    "Fly",
+    "Transcendent C'tan"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 325
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "crackling-tendrils",
+     "name": "Crackling tendrils",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "seismic-assault",
+     "name": "Seismic assault",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "relatavistic-tether",
+     "name": "Relatavistic Tether",
+     "pts": 40,
+     "group": "Wargear",
+     "max": 0
+    }
+   ],
+   "stats": [
+    {
+     "name": "Transcendent C'tan",
+     "stats": {
+      "M": "8\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [
+    "crackling-tendrils",
+    "seismic-assault"
+   ],
+   "abilities": [
+    "Invulnerable Save (4+)",
+    "Transdimensional Displacement",
+    "C'tan Shard",
+    "Reanimation Protocols",
+    "Deadly Demise",
+    "Necrodermis",
+    "Enslaved Star God",
+    "Deep Strike",
+    "Feel No Pain",
+    "Distortion Fields (Aura)",
+    "Relatavistic Tether"
+   ]
+  },
+  {
+   "id": "triarchal-overseer",
+   "name": "Triarchal Overseer [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Crucible",
+    "Vehicle",
+    "Walker",
+    "Triarch",
+    "Triarchal Overseer",
+    "Stalker"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 120
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Triarchal Overseer",
+     "stats": {
+      "M": "8\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Invulnerable Save (4+)",
+    "Targeting Relay",
+    "Reanimation Protocols",
+    "Deadly Demise",
+    "Scouts"
+   ]
+  },
+  {
+   "id": "anrakyr-the-traveller",
+   "name": "Anrakyr the Traveller",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Noble",
+    "Anrakyr the Traveller"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 95
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Anrakyr the Traveller",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "warscythe",
+    "tachyon-arrow"
+   ],
+   "abilities": [
+    "Leader",
+    "Invulnerable Save",
+    "Lord of the Pyrrhian Eternals",
+    "Mind in the Machine",
+    "Reanimation Protocols"
+   ]
+  },
+  {
+   "id": "c-tan-shard-of-the-deceiver",
+   "name": "C'tan Shard of the Deceiver",
+   "role": "Epic Hero",
+   "keywords": [
+    "Monster",
+    "Character",
+    "Epic Hero",
+    "Fly",
+    "C'tan Shard of the Deceiver"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 310
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "C'tan Shard of the Deceiver",
+     "stats": {
+      "M": "8\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [
+    "cosmic-insanity",
+    "golden-fists"
+   ],
+   "abilities": [
+    "Grand Illusion",
+    "Reanimation Protocols",
+    "Deadly Demise",
+    "Stealth",
+    "Necrodermis",
+    "Enslaved Star God",
+    "Feel No Pain",
+    "Deep Strike",
+    "Distortion Fields (Aura)",
+    "Invulnerable Save (4+)",
+    "Lord of Deceit (Aura)"
+   ]
+  },
+  {
+   "id": "c-tan-shard-of-the-nightbringer",
+   "name": "C'tan Shard of the Nightbringer",
+   "role": "Epic Hero",
+   "keywords": [
+    "Monster",
+    "Character",
+    "Epic Hero",
+    "Fly",
+    "C'tan Shard of the Nightbringer"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 340
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "C'tan Shard of the Nightbringer",
+     "stats": {
+      "M": "10\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [
+    "gaze-of-death",
+    "scythe-of-the-nightbringer-strike",
+    "scythe-of-the-nightbringer-sweep"
+   ],
+   "abilities": [
+    "Drain Life",
+    "Reanimation Protocols",
+    "Deadly Demise",
+    "Necrodermis",
+    "Enslaved Star God",
+    "Feel No Pain",
+    "Deep Strike",
+    "Distortion Fields (Aura)",
+    "Invulnerable Save (4+)",
+    "Quantum Goad"
+   ]
+  },
+  {
+   "id": "c-tan-shard-of-the-void-dragon",
+   "name": "C'tan Shard of the Void Dragon",
+   "role": "Epic Hero",
+   "keywords": [
+    "Monster",
+    "Character",
+    "Epic Hero",
+    "Fly",
+    "C'tan Shard of the Void Dragon"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 330
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "C'tan Shard of the Void Dragon",
+     "stats": {
+      "M": "10\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [
+    "spear-of-the-void-dragon",
+    "spear-of-the-void-dragon-strike",
+    "spear-of-the-void-dragon-sweep",
+    "voltaic-storm",
+    "canoptek-tail-blades"
+   ],
+   "abilities": [
+    "Matter Absorption",
+    "Reanimation Protocols",
+    "Deadly Demise",
+    "Necrodermis",
+    "Enslaved Star God",
+    "Feel No Pain",
+    "Deep Strike",
+    "Distortion Fields (Aura)",
+    "Invulnerable Save (4+)",
+    "Animus Damper"
+   ]
+  },
+  {
+   "id": "illuminor-szeras",
+   "name": "Illuminor Szeras",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Cryptek",
+    "Illuminor Szeras"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 165
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Illuminor Szeras",
+     "stats": {
+      "M": "8\"",
+      "T": "8",
+      "SV": "2+",
+      "W": "9",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "eldritch-lance",
+    "eldritch-lance-2",
+    "impaling-legs"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Feel No Pain",
+    "Invulnerable Save",
+    "Illuminor",
+    "Mechanical Augmentation (Aura)",
+    "Atomic Energy Manipulator"
+   ]
+  },
+  {
+   "id": "imotekh-the-stormlord",
+   "name": "Imotekh the Stormlord",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Noble",
+    "Imotekh the Stormlord"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Imotekh the Stormlord",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "gauntlet-of-fire",
+    "staff-of-the-destroyer",
+    "staff-of-the-destroyer-2"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Leader",
+    "Invulnerable Save",
+    "Grand Strategist",
+    "Lord of the Storm"
+   ]
+  },
+  {
+   "id": "nekrosor-ammentar",
+   "name": "Nekrosor Ammentar",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Destroyer Cult",
+    "Nekrosor Ammentar"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 185
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "blade-tail-and-whip-coils",
+     "name": "Blade tail and whip coils",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "enmitic-disintegrators",
+     "name": "Enmitic disintegrators",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "nullstone-field-generator",
+     "name": "Nullstone field generator",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "unmaker-gauntlet",
+     "name": "Unmaker gauntlet",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Nekrosor Ammentar",
+     "stats": {
+      "M": "10\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "9",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "blade-tail-and-whip-coils",
+    "enmitic-disintegrators",
+    "unmaker-gauntlet"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Deep Strike",
+    "Fights First",
+    "Feel No Pain",
+    "Invulnerable Save (4+)",
+    "Protective Disciples",
+    "Infectious Murder‑madness (Aura)",
+    "Prophet of Destruction",
+    "Nullstone Field Generator (Aura)"
+   ]
+  },
+  {
+   "id": "nemesor-zahndrekh",
+   "name": "Nemesor Zahndrekh",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Noble",
+    "Nemesor Zahndrekh"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Nemesor Zahndrekh",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "staff-of-light",
+    "staff-of-light-2"
+   ],
+   "abilities": [
+    "Leader",
+    "Reanimation Protocols",
+    "Lord of Deceit (Aura)",
+    "Invulnerable Save",
+    "Transient Madness",
+    "Counter-tactics"
+   ]
+  },
+  {
+   "id": "orikan-the-diviner",
+   "name": "Orikan the Diviner",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Cryptek",
+    "Chronomancer",
+    "Orikan the Diviner"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Orikan the Diviner",
+     "stats": {
+      "M": "5\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "staff-of-tomorrow"
+   ],
+   "abilities": [
+    "Master Chronomancer",
+    "Invulnerable Save",
+    "The Stars Are Right",
+    "Leader",
+    "Reanimation Protocols"
+   ]
+  },
+  {
+   "id": "the-silent-king",
+   "name": "The Silent King",
+   "role": "Epic Hero",
+   "keywords": [
+    "Vehicle",
+    "Epic Hero",
+    "Triarch"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 400
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Szarekh",
+     "stats": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "6"
+     }
+    },
+    {
+     "name": "Triarchal Menhir",
+     "stats": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "sceptre-of-eternal-glory",
+    "staff-of-stars",
+    "weapons-of-the-final-triarch",
+    "annihilator-beam",
+    "armoured-bulk-3"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Invulnerable Save",
+    "Damaged: 1-6 wounds remaining",
+    "Voice of the Triarch",
+    "The Silent King (Aura)",
+    "Deadly Demise",
+    "Triarchal Menhirs"
+   ]
+  },
+  {
+   "id": "trazyn-the-infinite",
+   "name": "Trazyn the Infinite",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Noble",
+    "Trazyn the Infinite"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Trazyn the Infinite",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "empathic-obliterator"
+   ],
+   "abilities": [
+    "Leader",
+    "Reanimation Protocols",
+    "Invulnerable Save",
+    "Ancient Collector",
+    "Surrogate Hosts"
+   ]
+  },
+  {
+   "id": "vargard-obyron",
+   "name": "Vargard Obyron",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Vargard Obyron"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Vargard Obyron",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "warscythe-2"
+   ],
+   "abilities": [
+    "Leader",
+    "Ghostwalk Mantle",
+    "The Vargard’s Duty",
+    "Reanimation Protocols"
+   ]
+  },
+  {
+   "id": "cryptothralls",
+   "name": "Cryptothralls",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Cryptothralls"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 60
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Cryptothralls",
+     "stats": {
+      "M": "5\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "3",
+      "LD": "8+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "scouring-eye",
+    "scythed-limbs"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Bound Creation",
+    "Systematic Vigour",
+    "Cryptek Retinue"
+   ]
+  },
+  {
+   "id": "deathmarks",
+   "name": "Deathmarks",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Deathmarks"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 60
+    },
+    {
+     "count": 6,
+     "pts": 120
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Deathmarks",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "synaptic-disintegrator",
+    "close-combat-weapon-3"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Deep Strike",
+    "Hyperspace Hunters"
+   ]
+  },
+  {
+   "id": "flayed-ones",
+   "name": "Flayed Ones",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Flayed Ones"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 5,
+     "pts": 60
+    },
+    {
+     "count": 10,
+     "pts": 120
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 10,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Flayed Ones",
+     "stats": {
+      "M": "5\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "flayer-claws"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Stealth",
+    "Infiltrators",
+    "Flesh Hunger"
+   ]
+  },
+  {
+   "id": "lychguard",
+   "name": "Lychguard",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Lychguard"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 5,
+     "pts": 85
+    },
+    {
+     "count": 10,
+     "pts": 170
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 10,
+   "wargear": [
+    {
+     "id": "warscythe",
+     "name": "Warscythe",
+     "pts": 0,
+     "group": "Weapons",
+     "max": 1
+    },
+    {
+     "id": "hyperphase-sword-and-dispersion-shield",
+     "name": "Hyperphase sword and dispersion shield",
+     "pts": 0,
+     "group": "Weapons",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Lychguard",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "warscythe-3",
+    "hyperphase-sword"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Dispersion Shield",
+    "Guardian Protocols"
+   ]
+  },
+  {
+   "id": "ophydian-destroyers",
+   "name": "Ophydian Destroyers",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Destroyer Cult",
+    "Ophydian Destroyers"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    },
+    {
+     "count": 4,
+     "pts": 160
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Ophydian Destroyers",
+     "stats": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "ophydian-hyperphase-weapons"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Deep Strike",
+    "Tunnelling Horrors"
+   ]
+  },
+  {
+   "id": "skorpekh-destroyers",
+   "name": "Skorpekh Destroyers",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Destroyer Cult",
+    "Skorpekh Destroyers"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 90
+    },
+    {
+     "count": 4,
+     "pts": 180
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Skorpekh Destroyers",
+     "stats": {
+      "M": "8\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "skorpekh-hyperphase-weapons"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Whirling Onslaught"
+   ]
+  },
+  {
+   "id": "triarch-praetorians",
+   "name": "Triarch Praetorians",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Fly",
+    "Triarch Praetorians"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 90
+    },
+    {
+     "count": 6,
+     "pts": 180
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "rod-of-covenant",
+     "name": "Rod of covenant",
+     "pts": 0,
+     "group": "Weapons",
+     "max": 1
+    },
+    {
+     "id": "particle-caster-and-voidblade",
+     "name": "Particle caster and voidblade",
+     "pts": 0,
+     "group": "Weapons",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Triarch Praetorians",
+     "stats": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "rod-of-covenant",
+    "rod-of-covenant-2",
+    "particle-caster",
+    "voidblade"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Deep Strike",
+    "Relentless Combatants"
+   ]
+  },
+  {
+   "id": "canoptek-tomb-sentinel",
+   "name": "Canoptek Tomb Sentinel",
+   "role": "Monster",
+   "keywords": [
+    "Monster",
+    "Canoptek",
+    "Tomb Sentinel"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 115
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "exile-cannon",
+     "name": "Exile cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "tomb-sentinel-claws",
+     "name": "Tomb Sentinel claws",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Canoptek Tomb Sentinel",
+     "stats": {
+      "M": "10\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "9",
+      "LD": "8+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "exile-cannon",
+    "tomb-sentinel-claws"
+   ],
+   "abilities": [
+    "Deep Strike",
+    "Reanimation Protocols",
+    "Distortion Fields (Aura)",
+    "Invulnerable Save",
+    "Aggressor Guardian"
+   ]
+  },
+  {
+   "id": "canoptek-tomb-stalker",
+   "name": "Canoptek Tomb Stalker",
+   "role": "Monster",
+   "keywords": [
+    "Monster",
+    "Canoptek",
+    "Tomb Stalker"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 130
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "gauss-slicers",
+     "name": "Gauss slicers",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "tomb-stalker-claws",
+     "name": "Tomb Stalker claws",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Canoptek Tomb Stalker",
+     "stats": {
+      "M": "10\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "9",
+      "LD": "8+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "gauss-slicers",
+    "tomb-stalker-claws"
+   ],
+   "abilities": [
+    "Deep Strike",
+    "Reanimation Protocols",
+    "Distortion Fields (Aura)",
+    "Invulnerable Save",
+    "Snaking Ambush"
+   ]
+  },
+  {
+   "id": "lokhust-destroyers",
+   "name": "Lokhust Destroyers",
+   "role": "Mounted",
+   "keywords": [
+    "Mounted",
+    "Fly",
+    "Destroyer Cult",
+    "Lokhust Destroyers"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 40
+    },
+    {
+     "count": 2,
+     "pts": 60
+    },
+    {
+     "count": 3,
+     "pts": 90
+    },
+    {
+     "count": 4,
+     "pts": 180
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Lokhust Destroyers",
+     "stats": {
+      "M": "8\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "gauss-cannon",
+    "close-combat-weapon-3"
+   ],
+   "abilities": [
+    "Hard-wired for Destruction",
+    "Reanimation Protocols"
+   ]
+  },
+  {
+   "id": "lokhust-heavy-destroyers",
+   "name": "Lokhust Heavy Destroyers",
+   "role": "Mounted",
+   "keywords": [
+    "Mounted",
+    "Fly",
+    "Destroyer Cult",
+    "Lokhust Heavy Destroyers"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 3,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Lokhust Heavy Destroyers",
+     "stats": {
+      "M": "8\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "enmitic-exterminator",
+    "gauss-destructor",
+    "close-combat-weapon-3"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Optimised for Slaughter"
+   ]
+  },
+  {
+   "id": "tomb-blades",
+   "name": "Tomb Blades",
+   "role": "Mounted",
+   "keywords": [
+    "Mounted",
+    "Fly",
+    "Tomb Blades"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    },
+    {
+     "count": 4,
+     "pts": 150
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "twin-gauss-blaster",
+     "name": "Twin gauss blaster",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "particle-beamer",
+     "name": "Particle beamer",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "twin-tesla-carbine",
+     "name": "Twin tesla carbine",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "shadowloom",
+     "name": "Shadowloom",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    },
+    {
+     "id": "nebuloscope",
+     "name": "Nebuloscope",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Tomb Blade",
+     "stats": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-gauss-blaster",
+    "particle-beamer-2",
+    "twin-tesla-carbine",
+    "close-combat-weapon-2"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Scouts",
+    "Evasion Engrams",
+    "Shadowloom",
+    "Stealth",
+    "Nebuloscope",
+    "Shieldvanes"
+   ]
+  },
+  {
+   "id": "canoptek-scarab-swarms",
+   "name": "Canoptek Scarab Swarms",
+   "role": "Swarm",
+   "keywords": [
+    "Swarm",
+    "Fly",
+    "Canoptek",
+    "Scarab Swarms"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 40
+    },
+    {
+     "count": 4,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Canoptek Scarab Swarms",
+     "stats": {
+      "M": "10\"",
+      "T": "2",
+      "SV": "6+",
+      "W": "4",
+      "LD": "8+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "feeder-mandibles"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Self-destruction",
+    "Chittering Swarm"
+   ]
+  },
+  {
+   "id": "annihilation-barge",
+   "name": "Annihilation Barge",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Annihilation Barge"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 105
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "twin-tesla-destructor",
+     "name": "Twin tesla destructor",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "gauss-cannon",
+     "name": "Gauss cannon",
+     "pts": 0,
+     "group": "Secondary weapon",
+     "max": null
+    },
+    {
+     "id": "tesla-cannon",
+     "name": "Tesla cannon",
+     "pts": 0,
+     "group": "Secondary weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Annihilation Barge",
+     "stats": {
+      "M": "10\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "9",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-tesla-destructor",
+    "gauss-cannon",
+    "tesla-cannon",
+    "armoured-bulk"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Reanimation Protocols",
+    "Malevolent Arcing",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "canoptek-doomstalker",
+   "name": "Canoptek Doomstalker",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Canoptek",
+    "Doomstalker"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 140
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "doomsday-blaster",
+     "name": "Doomsday blaster",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "doomstalker-limbs",
+     "name": "Doomstalker limbs",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-gauss-flayer",
+     "name": "Twin gauss flayer",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Canoptek Doomstalker",
+     "stats": {
+      "M": "8\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "12",
+      "LD": "8+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [
+    "doomsday-blaster",
+    "doomstalker-limbs",
+    "twin-gauss-flayer"
+   ],
+   "abilities": [
+    "Damaged: 1-4 wounds remaining",
+    "Sentinel Construct",
+    "Invulnerable Save",
+    "Reanimation Protocols",
+    "Deadly Demise"
+   ]
+  },
+  {
+   "id": "canoptek-reanimator",
+   "name": "Canoptek Reanimator",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Canoptek",
+    "Reanimator"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "atomiser-beam",
+     "name": "Atomiser beam",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    },
+    {
+     "id": "reanimator-s-claws",
+     "name": "Reanimator's claws",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Canoptek Reanimator",
+     "stats": {
+      "M": "8\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "6",
+      "LD": "8+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "atomiser-beam",
+    "reanimator-s-claws"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Feel No Pain",
+    "Nanoscarab Reanimation Beam (Aura)"
+   ]
+  },
+  {
+   "id": "canoptek-spyders",
+   "name": "Canoptek Spyders",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Canoptek",
+    "Spyders"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "automaton-claws",
+     "name": "Automaton claws",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "fabricator-claw-array",
+     "name": "Fabricator claw array",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "two-particle-beamers",
+     "name": "Two particle beamers",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Canoptek Spyder",
+     "stats": {
+      "M": "5\"",
+      "T": "7",
+      "SV": "3+",
+      "W": "6",
+      "LD": "8+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "automaton-claws",
+    "particle-beamer"
+   ],
+   "abilities": [
+    "Fabricator Claw Array (Aura)",
+    "Canoptek Swarm",
+    "Reanimation Protocols",
+    "Deadly Demise"
+   ]
+  },
+  {
+   "id": "convergence-of-dominion",
+   "name": "Convergence of Dominion",
+   "role": "Vehicle",
+   "keywords": [
+    "Fortification",
+    "Vehicle",
+    "Convergence of Dominion"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Convergence of Dominion",
+     "stats": {
+      "M": "-",
+      "T": "9",
+      "SV": "3+",
+      "W": "7",
+      "LD": "8+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "transdimensional-abductor"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Fortification",
+    "Reanimation Nodes (Aura)",
+    "Ancient Cover",
+    "Deployment"
+   ]
+  },
+  {
+   "id": "doom-scythe",
+   "name": "Doom Scythe",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Doom Scythe"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 230
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "heavy-death-ray",
+     "name": "Heavy death ray",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-tesla-destructor",
+     "name": "Twin tesla destructor",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Doom Scythe",
+     "stats": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "heavy-death-ray",
+    "twin-tesla-destructor",
+    "armoured-bulk"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Deadly Demise",
+    "Atavistic Instigation",
+    "Damaged: 1-4 wounds remaining"
+   ]
+  },
+  {
+   "id": "doomsday-ark",
+   "name": "Doomsday Ark",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Doomsday Ark"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 200
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "doomsday-cannon",
+     "name": "Doomsday cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "gauss-flayer-array",
+     "name": "Gauss flayer array",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    }
+   ],
+   "stats": [
+    {
+     "name": "Doomsday Ark",
+     "stats": {
+      "M": "10\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "doomsday-cannon",
+    "gauss-flayer-array",
+    "armoured-bulk"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Reanimation Protocols",
+    "Invulnerable Save",
+    "Damaged: 1-5 wounds remaining",
+    "Overwhelming Obliteration"
+   ]
+  },
+  {
+   "id": "gauss-pylon",
+   "name": "Gauss Pylon",
+   "role": "Vehicle",
+   "keywords": [
+    "Fortification",
+    "Vehicle",
+    "Towering",
+    "Titanic",
+    "Gauss Pylon"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 210
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Gauss Pylon",
+     "stats": {
+      "M": "-",
+      "T": "12",
+      "SV": "3+",
+      "W": "22",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "gauss-annihilator",
+    "tesla-arc"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Phase Shift Generator (Aura)",
+    "Phase-shifted Cover",
+    "Damaged: 1-7 wounds remaining",
+    "Deadly Demise",
+    "Fortification",
+    "Reanimation Protocols"
+   ]
+  },
+  {
+   "id": "ghost-ark",
+   "name": "Ghost Ark",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Transport",
+    "Dedicated Transport",
+    "Ghost Ark"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 115
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "gauss-flayer-array",
+     "name": "Gauss flayer array",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    }
+   ],
+   "stats": [
+    {
+     "name": "Ghost Ark",
+     "stats": {
+      "M": "10\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "gauss-flayer-array",
+    "armoured-bulk"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Reanimation Protocols",
+    "Invulnerable Save",
+    "Repair Barge"
+   ]
+  },
+  {
+   "id": "monolith",
+   "name": "Monolith",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Titanic",
+    "Fly",
+    "Towering",
+    "Monolith"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 400
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "particle-whip",
+     "name": "Particle whip",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "portal-of-exile",
+     "name": "Portal of exile",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "four-death-rays",
+     "name": "Four death rays",
+     "pts": 0,
+     "group": "Weapons",
+     "max": null
+    },
+    {
+     "id": "four-gauss-flux-arcs",
+     "name": "Four gauss flux arcs",
+     "pts": 0,
+     "group": "Weapons",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Monolith",
+     "stats": {
+      "M": "8\"",
+      "T": "13",
+      "SV": "2+",
+      "W": "22",
+      "LD": "7+",
+      "OC": "8"
+     }
+    }
+   ],
+   "weapons": [
+    "particle-whip",
+    "portal-of-exile",
+    "death-ray",
+    "gauss-flux-arc"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Deadly Demise",
+    "Deep Strike",
+    "Damaged: 1-7 wounds remaining",
+    "Eternity Gate"
+   ]
+  },
+  {
+   "id": "night-scythe",
+   "name": "Night Scythe",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Transport",
+    "Night Scythe"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 145
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "twin-tesla-destructor",
+     "name": "Twin tesla destructor",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Night Scythe",
+     "stats": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-tesla-destructor",
+    "armoured-bulk"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Deadly Demise",
+    "Deep Strike",
+    "Invasion Beams",
+    "Damaged: 1-4 wounds remaining",
+    "Quantum Invader"
+   ]
+  },
+  {
+   "id": "night-shroud",
+   "name": "Night Shroud",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Night Shroud"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 140
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "twin-tesla-destructor",
+     "name": "Twin tesla destructor",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Night Shroud",
+     "stats": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-tesla-destructor",
+    "armoured-bulk"
+   ],
+   "abilities": [
+    "Death Sphere Bombardment",
+    "Damaged: 1-5 wounds remaining",
+    "Deadly Demise",
+    "Reanimation Protocols"
+   ]
+  },
+  {
+   "id": "obelisk",
+   "name": "Obelisk",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Titanic",
+    "Fly",
+    "Towering",
+    "Obelisk"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 300
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "armoured-bulk",
+     "name": "Armoured bulk",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "tesla-sphere",
+     "name": "Tesla sphere",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 4
+    }
+   ],
+   "stats": [
+    {
+     "name": "Obelisk",
+     "stats": {
+      "M": "8\"",
+      "T": "13",
+      "SV": "2+",
+      "W": "24",
+      "LD": "7+",
+      "OC": "8"
+     }
+    }
+   ],
+   "weapons": [
+    "armoured-bulk-2",
+    "tesla-sphere"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Deadly Demise",
+    "Deep Strike",
+    "Damaged: 1-8 wounds remaining",
+    "Gravitic Pulse"
+   ]
+  },
+  {
+   "id": "sentry-pylon",
+   "name": "Sentry Pylon",
+   "role": "Vehicle",
+   "keywords": [
+    "Fortification",
+    "Vehicle",
+    "Sentry Pylon"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 120
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "focused-death-ray",
+     "name": "Focused death ray",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "gauss-exterminator",
+     "name": "Gauss exterminator",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "heat-cannon",
+     "name": "Heat cannon",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Sentry Pylon",
+     "stats": {
+      "M": "-",
+      "T": "8",
+      "SV": "3+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "focused-death-ray",
+    "gauss-exterminator",
+    "heat-cannon"
+   ],
+   "abilities": [
+    "Teleportation Matrix",
+    "Phase-shifted Cover",
+    "Deadly Demise",
+    "Reanimation Protocols"
+   ]
+  },
+  {
+   "id": "seraptek-heavy-construct",
+   "name": "Seraptek Heavy Construct",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Titanic",
+    "Towering",
+    "Seraptek Heavy Construct"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 540
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "titanic-forelimbs",
+     "name": "Titanic forelimbs",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "two-singularity-generators",
+     "name": "Two singularity generators",
+     "pts": 0,
+     "group": "Weapons",
+     "max": null
+    },
+    {
+     "id": "two-synaptic-obliterators-and-two-transdimensional-projectors",
+     "name": "Two synaptic obliterators and two transdimensional projectors",
+     "pts": 0,
+     "group": "Weapons",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Seraptek Heavy Construct",
+     "stats": {
+      "M": "10\"",
+      "T": "12",
+      "SV": "3+",
+      "W": "24",
+      "LD": "7+",
+      "OC": "10"
+     }
+    }
+   ],
+   "weapons": [
+    "titanic-forelimbs-strike",
+    "titanic-forelimbs-sweep",
+    "singularity-generator",
+    "synaptic-obliterator",
+    "transdimensional-projector"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Deadly Demise",
+    "Terrifying Monstrosity",
+    "Damaged: 1-9 wounds remaining",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "tesseract-ark",
+   "name": "Tesseract Ark",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Tesseract Ark"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 130
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "tesseract-singularity-chamber",
+     "name": "Tesseract singularity chamber",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "two-gauss-cannons",
+     "name": "Two gauss cannons",
+     "pts": 0,
+     "group": "Secondary weapons",
+     "max": null
+    },
+    {
+     "id": "two-particle-beamers",
+     "name": "Two particle beamers",
+     "pts": 0,
+     "group": "Secondary weapons",
+     "max": null
+    },
+    {
+     "id": "two-tesla-cannons",
+     "name": "Two tesla cannons",
+     "pts": 0,
+     "group": "Secondary weapons",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Tesseract Ark",
+     "stats": {
+      "M": "9\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "tesseract-singularity-chamber-particle",
+    "tesseract-singularity-chamber-seismic-lash",
+    "gauss-cannon",
+    "particle-beamer",
+    "tesla-cannon",
+    "armoured-bulk"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Reanimation Protocols",
+    "Invulnerable Save",
+    "Gravitational Field"
+   ]
+  },
+  {
+   "id": "tesseract-vault",
+   "name": "Tesseract Vault",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Titanic",
+    "Fly",
+    "Towering",
+    "Tesseract Vault"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 425
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "armoured-bulk",
+     "name": "Armoured bulk",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "c-tan-powers",
+     "name": "C'tan Powers",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "tesla-sphere",
+     "name": "Tesla sphere",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 4
+    }
+   ],
+   "stats": [
+    {
+     "name": "Tesseract Vault",
+     "stats": {
+      "M": "8\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "24",
+      "LD": "7+",
+      "OC": "8"
+     }
+    }
+   ],
+   "weapons": [
+    "armoured-bulk-2",
+    "tesla-sphere-2"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Deadly Demise",
+    "Damaged: 1-8 wounds remaining",
+    "Powers of the C’tan",
+    "Invulnerable Save",
+    "Anti-",
+    "Blast",
+    "Indirect Fire",
+    "Ignores Cover",
+    "Devastating Wounds",
+    "Torrent",
+    "Precision"
+   ]
+  },
+  {
+   "id": "triarch-stalker",
+   "name": "Triarch Stalker",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Triarch Stalker"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 110
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "stalker-s-forelimbs",
+     "name": "Stalker's forelimbs",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "heat-ray",
+     "name": "Heat ray",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "particle-shredder",
+     "name": "Particle shredder",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "heavy-gauss-cannon-array",
+     "name": "Heavy gauss cannon array",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Triarch Stalker",
+     "stats": {
+      "M": "8\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [
+    "stalker-s-forelimbs",
+    "heat-ray-dispersed",
+    "heat-ray-focused",
+    "particle-shredder",
+    "heavy-gauss-cannon-array"
+   ],
+   "abilities": [
+    "Reanimation Protocols",
+    "Deadly Demise",
+    "Scouts",
+    "Invulnerable Save",
+    "Targeting Relay"
+   ]
+  }
+ ]
+}

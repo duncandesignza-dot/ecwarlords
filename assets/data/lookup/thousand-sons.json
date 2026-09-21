@@ -1,0 +1,4716 @@
+{
+ "id": "thousand-sons",
+ "name": "Thousand Sons",
+ "source": "BSData/wh40k-10e",
+ "revision": "113",
+ "enhancements": [],
+ "weapons": [
+  {
+   "id": "transmogrifying-blast",
+   "name": "Transmogrifying Blast",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6+1",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "D3",
+    "Keywords": "Blast, Psychic"
+   }
+  },
+  {
+   "id": "black-staff-of-ahriman",
+   "name": "Black Staff of Ahriman",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "7",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "inferno-bolt-pistol",
+   "name": "Inferno bolt pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "armoured-tracks",
+   "name": "Armoured tracks",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "4+",
+    "S": "8",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "soulshatter-lascannon",
+   "name": "Soulshatter lascannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "havoc-launcher",
+   "name": "Havoc launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "twin-inferno-heavy-bolter",
+   "name": "Twin inferno heavy bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Sustained Hits 1, Twin-linked"
+   }
+  },
+  {
+   "id": "inferno-combi-bolter",
+   "name": "Inferno combi-bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Rapid Fire 2"
+   }
+  },
+  {
+   "id": "inferno-combi-weapon",
+   "name": "Inferno combi-weapon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
+   }
+  },
+  {
+   "id": "predator-twin-lascannon",
+   "name": "Predator twin lascannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "14",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "armoured-tracks-2",
+   "name": "Armoured tracks",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "inferno-heavy-bolter",
+   "name": "Inferno heavy bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "lascannon",
+   "name": "Lascannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "predator-autocannon",
+   "name": "Predator autocannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "4",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "Rapid Fire 2"
+   }
+  },
+  {
+   "id": "hideous-mutations",
+   "name": "Hideous Mutations",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "D6+2",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "demolisher-cannon",
+   "name": "Demolisher cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D6+3",
+    "BS": "3+",
+    "S": "14",
+    "AP": "-3",
+    "D": "D6",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "astral-blast",
+   "name": "Astral Blast",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "D3",
+    "Keywords": "Blast, Devastating Wounds, Psychic"
+   }
+  },
+  {
+   "id": "prosperine-khopesh",
+   "name": "Prosperine khopesh",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "force-weapon",
+   "name": "Force weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "D3",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "arcane-fire",
+   "name": "Arcane Fire",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-2",
+    "D": "D3",
+    "Keywords": "Ignores Cover, Psychic, Torrent"
+   }
+  },
+  {
+   "id": "forgefiend-claws",
+   "name": "Forgefiend claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "forgefiend-jaws",
+   "name": "Forgefiend jaws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "7",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "ectoplasma-cannon",
+   "name": "Ectoplasma cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D3",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "hades-autocannon",
+   "name": "Hades autocannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "close-combat-weapon",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "missile-launcher-frag",
+   "name": "➤ Missile launcher - frag",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "missile-launcher-krak",
+   "name": "➤ Missile launcher - krak",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "helbrute-hammer",
+   "name": "Helbrute hammer",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "4+",
+    "S": "14",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "power-scourge",
+   "name": "Power scourge",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "multi-melta",
+   "name": "Multi-melta",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2"
+   }
+  },
+  {
+   "id": "twin-autocannon",
+   "name": "Twin autocannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "helbrute-plasma-cannon",
+   "name": "Helbrute plasma cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D3",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Blast, Hazardous"
+   }
+  },
+  {
+   "id": "heavy-flamer",
+   "name": "Heavy flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "twin-lascannon",
+   "name": "Twin lascannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "heldrake-claws",
+   "name": "Heldrake claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Anti-FLY 2+, Devastating Wounds"
+   }
+  },
+  {
+   "id": "baleflamer",
+   "name": "Baleflamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6+3",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "fires-of-the-abyss-witchfire",
+   "name": "➤ Fires of the Abyss - witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Psychic, Torrent"
+   }
+  },
+  {
+   "id": "fires-of-the-abyss-focused-witchfire",
+   "name": "➤ Fires of the Abyss - focused witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Hazardous, Psychic, Torrent"
+   }
+  },
+  {
+   "id": "gaze-of-magnus",
+   "name": "Gaze of Magnus",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3D3",
+    "BS": "2+",
+    "S": "11",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Devastating Wounds, Psychic"
+   }
+  },
+  {
+   "id": "blade-of-magnus-strike",
+   "name": "➤ Blade of Magnus - strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "7",
+    "WS": "2+",
+    "S": "16",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Devastating Wounds, Psychic"
+   }
+  },
+  {
+   "id": "blade-of-magnus-sweep",
+   "name": "➤ Blade of Magnus - sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "14",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "tzeentch-s-firestorm",
+   "name": "Tzeentch's Firestorm",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D6+3",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Blast, Ignores Cover, Psychic"
+   }
+  },
+  {
+   "id": "maulerfiend-fists",
+   "name": "Maulerfiend fists",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "14",
+    "AP": "-2",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "magma-cutter",
+   "name": "Magma cutter",
+   "type": "ranged",
+   "stats": {
+    "Range": "6\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2"
+   }
+  },
+  {
+   "id": "lasher-tendrils",
+   "name": "Lasher tendrils",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "betentacled-maw",
+   "name": "Betentacled maw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "15",
+    "WS": "3+",
+    "S": "7",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "mutalith-claws",
+   "name": "Mutalith claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "warp-vortex-blast",
+   "name": "➤ Warp vortex - blast",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D6+3",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "warp-vortex-beam",
+   "name": "➤ Warp vortex - beam",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "18",
+    "AP": "-3",
+    "D": "D6+6",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "warp-vortex-torrent",
+   "name": "➤ Warp vortex - torrent",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "inferno-bolt-pistol-2",
+   "name": "Inferno bolt pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "warpflame-pistol",
+   "name": "Warpflame pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "3",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Pistol, Torrent"
+   }
+  },
+  {
+   "id": "force-weapon-2",
+   "name": "Force weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "D3",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "malefic-curse",
+   "name": "Malefic Curse",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-3",
+    "D": "1",
+    "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Psychic"
+   }
+  },
+  {
+   "id": "inferno-boltgun",
+   "name": "Inferno boltgun",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "close-combat-weapon-2",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "warpflamer",
+   "name": "Warpflamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "soulreaper-cannon",
+   "name": "Soulreaper cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "prosperine-khopesh-2",
+   "name": "Prosperine khopesh",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "hellfyre-missile-rack",
+   "name": "Hellfyre missile rack",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "heavy-warpflamer",
+   "name": "Heavy warpflamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "pandaemonic-delusion",
+   "name": "Pandaemonic Delusion",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Psychic, Sustained Hits 3"
+   }
+  },
+  {
+   "id": "gaze-of-hate",
+   "name": "Gaze of Hate",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Anti-MONSTER 4+, Anti-VEHICLE 4+, Devastating Wounds, Psychic"
+   }
+  },
+  {
+   "id": "dark-blessing",
+   "name": "Dark Blessing",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "9",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Psychic, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "hellforged-weapons-strike",
+   "name": "➤ Hellforged weapons - strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Devastating Wounds, Psychic"
+   }
+  },
+  {
+   "id": "hellforged-weapons-sweep",
+   "name": "➤ Hellforged weapons - sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "12",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Devastating Wounds, Psychic"
+   }
+  },
+  {
+   "id": "infernal-cannon",
+   "name": "Infernal cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "divining-spear",
+   "name": "Divining spear",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Lance, Precision"
+   }
+  },
+  {
+   "id": "autopistol",
+   "name": "Autopistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "chainsword",
+   "name": "Chainsword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Precision"
+   }
+  },
+  {
+   "id": "baleful-devolution",
+   "name": "Baleful Devolution",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "9",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast, Devastating Wounds, Psychic"
+   }
+  },
+  {
+   "id": "force-stave",
+   "name": "Force stave",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "D3",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "chainsword-2",
+   "name": "Chainsword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "armoured-hull",
+   "name": "Armoured hull",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "armoured-hull-2",
+   "name": "Armoured hull",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "autocannon",
+   "name": "Autocannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "infernal-gaze-witchfire",
+   "name": "➤ Infernal Gaze - witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "D3",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "infernal-gaze-focused-witchfire",
+   "name": "➤ Infernal Gaze - focused witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "D3",
+    "Keywords": "Devastating Wounds, Hazardous, Psychic"
+   }
+  },
+  {
+   "id": "bolt-pistol",
+   "name": "Bolt pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "accursed-weapon",
+   "name": "Accursed weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "combi-bolter",
+   "name": "Combi-bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 2"
+   }
+  },
+  {
+   "id": "power-fist",
+   "name": "Power fist",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "plasma-pistol-standard",
+   "name": "➤ Plasma pistol - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "plasma-pistol-supercharge",
+   "name": "➤ Plasma pistol - supercharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Hazardous, Pistol"
+   }
+  },
+  {
+   "id": "combi-weapon",
+   "name": "Combi-weapon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
+   }
+  },
+  {
+   "id": "astartes-chainsword",
+   "name": "Astartes chainsword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "close-combat-weapon-3",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "astartes-chainsword-2",
+   "name": "Astartes chainsword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "7",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "paired-accursed-weapons",
+   "name": "Paired accursed weapons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "7",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "combi-weapon-2",
+   "name": "Combi-weapon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
+   }
+  },
+  {
+   "id": "pyreflux-meltagun",
+   "name": "Pyreflux meltagun",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "10",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2"
+   }
+  },
+  {
+   "id": "power-claw",
+   "name": "Power claw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "10",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "warpflame-projector",
+   "name": "Warpflame projector",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D3",
+    "BS": "N/A",
+    "S": "3",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "close-combat-weapon-4",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "hellfyre-missile-rack-2",
+   "name": "Hellfyre missile rack",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "fatecaster-greatbow",
+   "name": "Fatecaster greatbow",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Ignores Cover, Lethal Hits, Precision"
+   }
+  },
+  {
+   "id": "close-combat-weapon-5",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "infernal-gateway-witchfire",
+   "name": "➤ Infernal Gateway - witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D6+3",
+    "BS": "2+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D3",
+    "Keywords": "Blast, Indirect Fire, Psychic"
+   }
+  },
+  {
+   "id": "infernal-gateway-focused-witchfire",
+   "name": "➤ Infernal Gateway - focused witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D3+6",
+    "BS": "2+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Blast, Hazardous, Indirect Fire, Psychic"
+   }
+  },
+  {
+   "id": "staff-of-tomorrow",
+   "name": "Staff of Tomorrow",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2D3",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "bolt-of-change-witchfire",
+   "name": "➤ Bolt of Change - witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "9",
+    "BS": "2+",
+    "S": "9",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "bolt-of-change-focused-witchfire",
+   "name": "➤ Bolt of Change - focused witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "9",
+    "BS": "2+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Hazardous, Psychic"
+   }
+  },
+  {
+   "id": "staff-of-tzeentch",
+   "name": "Staff of Tzeentch",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "rod-of-sorcery",
+   "name": "Rod of sorcery",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "6",
+    "BS": "2+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "baleful-sword",
+   "name": "Baleful sword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "flamer-mouths",
+   "name": "Flamer mouths",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "flickering-flames",
+   "name": "Flickering flames",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Psychic, Torrent"
+   }
+  },
+  {
+   "id": "lamprey-bite",
+   "name": "Lamprey bite",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Anti-MONSTER 4+, Anti-VEHICLE 4+"
+   }
+  },
+  {
+   "id": "coruscating-pink-flames",
+   "name": "Coruscating pink flames",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Pistol, Psychic"
+   }
+  },
+  {
+   "id": "pink-claws",
+   "name": "Pink claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "blue-claws-ref-only",
+   "name": "Blue claws (ref. only)",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "coruscating-blue-flames-ref-only",
+   "name": "Coruscating blue flames (ref. only)",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "3",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Pistol, Psychic"
+   }
+  },
+  {
+   "id": "coruscating-yellow-flames-ref-only",
+   "name": "Coruscating yellow flames (ref. only)",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "5+",
+    "S": "2",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Pistol, Psychic"
+   }
+  },
+  {
+   "id": "yellow-claws-ref-only",
+   "name": "Yellow claws (ref. only)",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "5+",
+    "S": "2",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "coruscating-yellow-flames-ref-only",
+   "name": "Coruscating Yellow flames (ref. only)",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "5+",
+    "S": "2",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Pistol, Psychic"
+   }
+  },
+  {
+   "id": "coruscating-blue-flames",
+   "name": "Coruscating Blue flames",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "3",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Pistol, Psychic"
+   }
+  },
+  {
+   "id": "blue-claws",
+   "name": "Blue claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "shearing-claws-strike",
+   "name": "Shearing claws - strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "16",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "shearing-claws-sweep",
+   "name": "Shearing claws - sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "10",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "heavy-missile-launcher-frag",
+   "name": "➤ Heavy missile launcher - frag",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "2D6",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "heavy-missile-launcher-krak",
+   "name": "➤ Heavy missile launcher - krak",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "hades-battle-cannon",
+   "name": "Hades battle cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6+3",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "ectoplasma-destructor",
+   "name": "Ectoplasma destructor",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "heavy-baleflamer",
+   "name": "Heavy baleflamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6+3",
+    "BS": "N/A",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "excruciator-cannon",
+   "name": "Excruciator cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "pyraflux-magma-cutter",
+   "name": "Pyraflux magma cutter",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2"
+   }
+  },
+  {
+   "id": "electroscourge",
+   "name": "Electroscourge",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "12",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Extra Attacks, Sustained Hits 2"
+   }
+  },
+  {
+   "id": "hades-lascannon",
+   "name": "Hades lascannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "heavy-reaper-autocannon",
+   "name": "Heavy reaper autocannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "4",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Devastating Wounds, Sustained Hits 1"
+   }
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "blue-horrors",
+   "name": "Blue Horrors",
+   "role": "Battleline",
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Chaos",
+    "Daemon",
+    "Tzeentch",
+    "Summoned",
+    "Horrors"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Blue Horror",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "7+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "coruscating-yellow-flames-ref-only",
+    "yellow-claws-ref-only",
+    "coruscating-blue-flames",
+    "blue-claws"
+   ],
+   "abilities": []
+  },
+  {
+   "id": "pink-horrors",
+   "name": "Pink Horrors",
+   "role": "Battleline",
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Chaos",
+    "Daemon",
+    "Tzeentch",
+    "Summoned",
+    "Horrors"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 115
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Pink Horror",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "7+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Blue/Brimstone Horror (ref. only)",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "7+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "coruscating-pink-flames",
+    "pink-claws",
+    "blue-claws-ref-only",
+    "coruscating-blue-flames-ref-only",
+    "coruscating-yellow-flames-ref-only",
+    "yellow-claws-ref-only"
+   ],
+   "abilities": []
+  },
+  {
+   "id": "rubric-marines",
+   "name": "Rubric Marines",
+   "role": "Battleline",
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Chaos",
+    "Tzeentch",
+    "Rubric Marines",
+    "Rubricae"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 4,
+     "pts": 100
+    },
+    {
+     "count": 9,
+     "pts": 190
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "inferno-bolt-pistol",
+     "name": "Inferno bolt pistol",
+     "pts": 0,
+     "group": "Pistol",
+     "max": null
+    },
+    {
+     "id": "warpflame-pistol",
+     "name": "Warpflame pistol",
+     "pts": 0,
+     "group": "Pistol",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Rubric Marine",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Aspiring Sorcerer",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "inferno-bolt-pistol-2",
+    "warpflame-pistol",
+    "force-weapon-2",
+    "malefic-curse",
+    "inferno-boltgun",
+    "close-combat-weapon-2",
+    "warpflamer",
+    "soulreaper-cannon"
+   ],
+   "abilities": [
+    "Bringers of Change",
+    "Invulnerable Save",
+    "Cabal of Sorcerers",
+    "Icon of Flame",
+    "Mortal Sorcery (Aura)"
+   ]
+  },
+  {
+   "id": "chaos-spawn",
+   "name": "Chaos Spawn",
+   "role": "Beast",
+   "keywords": [
+    "Beast",
+    "Chaos",
+    "Tzeentch",
+    "Spawn",
+    "Mutant"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Chaos Spawn",
+     "stats": {
+      "M": "8\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "hideous-mutations"
+   ],
+   "abilities": [
+    "Regenerating Monstrosities",
+    "Invulnerable Save",
+    "Feel No Pain",
+    "Mortal Sorcery (Aura)"
+   ]
+  },
+  {
+   "id": "chaos-spawn-flesh-change",
+   "name": "Chaos Spawn (Flesh Change)",
+   "role": "Beast",
+   "keywords": [
+    "Beast",
+    "Chaos",
+    "Tzeentch",
+    "Spawn",
+    "Mutant"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Chaos Spawn",
+     "stats": {
+      "M": "8\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "hideous-mutations"
+   ],
+   "abilities": [
+    "Regenerating Monstrosities",
+    "Invulnerable Save",
+    "Feel No Pain",
+    "Mortal Sorcery (Aura)",
+    "Lone Operative"
+   ]
+  },
+  {
+   "id": "screamers",
+   "name": "Screamers",
+   "role": "Beast",
+   "keywords": [
+    "Beast",
+    "Fly",
+    "Chaos",
+    "Daemon",
+    "Tzeentch",
+    "Summoned",
+    "Screamers"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    },
+    {
+     "count": 4,
+     "pts": 160
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Screamers",
+     "stats": {
+      "M": "14\"",
+      "T": "4",
+      "SV": "6+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "lamprey-bite"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Slashing Dive",
+    "Deep Strike",
+    "Daemonic Illusions (Aura)"
+   ]
+  },
+  {
+   "id": "brayherd-chieftain",
+   "name": "Brayherd Chieftain [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Chaos",
+    "Tzeentch",
+    "Mutant",
+    "Brayherd Chieftain"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 60
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Brayherd Chieftain (Crucible)",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Cabal of Sorcerers",
+    "Leader",
+    "Scouts",
+    "Invulnerable Save (5+)",
+    "Fate's Guide"
+   ]
+  },
+  {
+   "id": "brayherd-shaman",
+   "name": "Brayherd Shaman [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Chaos",
+    "Tzeentch",
+    "Mutant",
+    "Psyker",
+    "Brayherd Shaman"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 60
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Brayherd Shaman (Crucible)",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Cabal of Sorcerers",
+    "Leader",
+    "Scouts",
+    "Invulnerable Save (5+)",
+    "Bestial Prophet"
+   ]
+  },
+  {
+   "id": "chaos-lord-on-disc-of-tzeentch",
+   "name": "Chaos Lord on Disc of Tzeentch",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Chaos",
+    "Tzeentch",
+    "Chaos Lord",
+    "Disc of Tzeentch"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "close-combat-weapon",
+     "name": "Close combat weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "astartes-chainsword",
+     "name": "Astartes chainsword",
+     "pts": 0,
+     "group": "Astartes Chainsword",
+     "max": null
+    },
+    {
+     "id": "accursed-weapon",
+     "name": "Accursed weapon",
+     "pts": 0,
+     "group": "Astartes Chainsword",
+     "max": null
+    },
+    {
+     "id": "power-fist",
+     "name": "Power fist",
+     "pts": 0,
+     "group": "Astartes Chainsword",
+     "max": null
+    },
+    {
+     "id": "paired-accursed-weapons",
+     "name": "Paired accursed weapons",
+     "pts": 0,
+     "group": "Astartes Chainsword",
+     "max": null
+    },
+    {
+     "id": "bolt-pistol",
+     "name": "Bolt pistol",
+     "pts": 0,
+     "group": "Astartes Chainsword",
+     "max": null
+    },
+    {
+     "id": "plasma-pistol",
+     "name": "Plasma pistol",
+     "pts": 0,
+     "group": "Astartes Chainsword",
+     "max": null
+    },
+    {
+     "id": "combi-bolter",
+     "name": "Combi-bolter",
+     "pts": 0,
+     "group": "Bolt Pistol",
+     "max": null
+    },
+    {
+     "id": "combi-weapon",
+     "name": "Combi-weapon",
+     "pts": 0,
+     "group": "Bolt Pistol",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Chaos Lord on Disc of Tzeentch",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon-3",
+    "astartes-chainsword-2",
+    "accursed-weapon",
+    "power-fist",
+    "paired-accursed-weapons",
+    "bolt-pistol",
+    "plasma-pistol-standard",
+    "plasma-pistol-supercharge",
+    "combi-bolter",
+    "combi-weapon-2"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Leader",
+    "Lord of Fate",
+    "Lord of Chaos",
+    "Mortal Sorcery (Aura)"
+   ]
+  },
+  {
+   "id": "daemon-prince-of-tzeentch",
+   "name": "Daemon Prince of Tzeentch",
+   "role": "Character",
+   "keywords": [
+    "Monster",
+    "Character",
+    "Daemon",
+    "Psyker",
+    "Chaos",
+    "Tzeentch",
+    "Daemon Prince"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 180
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "dark-blessing",
+     "name": "Dark Blessing",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "hellforged-weapons",
+     "name": "Hellforged weapons",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "infernal-cannon",
+     "name": "Infernal cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Daemon Prince of Tzeentch",
+     "stats": {
+      "M": "9\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "dark-blessing",
+    "hellforged-weapons-strike",
+    "hellforged-weapons-sweep",
+    "infernal-cannon"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Spirit Snare",
+    "Servile Pawns",
+    "Glamour of Tzeentch (Aura, Psychic)",
+    "Deadly Demise",
+    "Mortal Sorcery (Aura)",
+    "Cabal of Sorcerers"
+   ]
+  },
+  {
+   "id": "daemon-prince-of-tzeentch-with-wings",
+   "name": "Daemon Prince of Tzeentch with wings",
+   "role": "Character",
+   "keywords": [
+    "Monster",
+    "Character",
+    "Daemon",
+    "Psyker",
+    "Chaos",
+    "Tzeentch",
+    "Daemon Prince",
+    "Fly"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 170
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "dark-blessing",
+     "name": "Dark Blessing",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "hellforged-weapons",
+     "name": "Hellforged weapons",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "infernal-cannon",
+     "name": "Infernal cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Daemon Prince of Tzeentch with wings",
+     "stats": {
+      "M": "13\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "dark-blessing",
+    "hellforged-weapons-strike",
+    "hellforged-weapons-sweep",
+    "infernal-cannon"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Aetherstride (Psychic)",
+    "Hunter of Souls",
+    "Deadly Demise",
+    "Mortal Sorcery (Aura)",
+    "Cabal of Sorcerers",
+    "Deep Strike"
+   ]
+  },
+  {
+   "id": "exalted-sorcerer",
+   "name": "Exalted Sorcerer",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Psyker",
+    "Chaos",
+    "Tzeentch",
+    "Exalted Sorcerer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "astral-blast",
+     "name": "Astral Blast",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "prosperine-khopesh",
+     "name": "Prosperine khopesh",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Exalted Sorcerer",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "astral-blast",
+    "prosperine-khopesh",
+    "force-weapon",
+    "inferno-bolt-pistol"
+   ],
+   "abilities": [
+    "Arcane Shield (Psychic)",
+    "Invulnerable Save",
+    "Rebind Rubricae (Psychic)",
+    "Leader",
+    "Mortal Sorcery (Aura)",
+    "Cabal of Sorcerers"
+   ]
+  },
+  {
+   "id": "exalted-sorcerer-on-disc-of-tzeentch",
+   "name": "Exalted Sorcerer on Disc of Tzeentch",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Psyker",
+    "Chaos",
+    "Tzeentch",
+    "Exalted Sorcerer",
+    "Fly",
+    "Grenades",
+    "Mounted"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "arcane-fire",
+     "name": "Arcane Fire",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "prosperine-khopesh",
+     "name": "Prosperine khopesh",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Exalted Sorcerer on Disc of Tzeentch",
+     "stats": {
+      "M": "10\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "arcane-fire",
+    "prosperine-khopesh",
+    "force-weapon",
+    "inferno-bolt-pistol"
+   ],
+   "abilities": [
+    "Arcane Shield (Psychic)",
+    "Invulnerable Save",
+    "Binding Tendrils (Psychic)",
+    "Leader",
+    "Mortal Sorcery (Aura)",
+    "Cabal of Sorcerers"
+   ]
+  },
+  {
+   "id": "infernal-master",
+   "name": "Infernal Master",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Psyker",
+    "Chaos",
+    "Tzeentch",
+    "Infernal Master"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 95
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "fires-of-the-abyss",
+     "name": "Fires of the Abyss",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Infernal Master",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "fires-of-the-abyss-witchfire",
+    "fires-of-the-abyss-focused-witchfire",
+    "force-weapon",
+    "inferno-bolt-pistol"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Malefic Maelstrom (Psychic)",
+    "Glimpse of Eternity (Psychic)",
+    "Leader",
+    "Mortal Sorcery (Aura)",
+    "Cabal of Sorcerers"
+   ]
+  },
+  {
+   "id": "lord-of-change",
+   "name": "Lord of Change",
+   "role": "Character",
+   "keywords": [
+    "Monster",
+    "Character",
+    "Fly",
+    "Psyker",
+    "Chaos",
+    "Daemon",
+    "Tzeentch",
+    "Summoned",
+    "Lord of Change"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 285
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "rod-of-sorcery",
+     "name": "Rod of sorcery",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "baleful-sword",
+     "name": "Baleful sword",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Lord of Change",
+     "stats": {
+      "M": "12\"",
+      "T": "10",
+      "SV": "6+",
+      "W": "18",
+      "LD": "6+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "bolt-of-change-witchfire",
+    "bolt-of-change-focused-witchfire",
+    "staff-of-tzeentch",
+    "rod-of-sorcery",
+    "baleful-sword"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Damaged: 1-7 wounds remaining",
+    "Daemon Lord of Tzeentch (Aura)",
+    "Master of Magicks (Aura)",
+    "Deadly Demise",
+    "Deep Strike",
+    "Daemonic Illusions (Aura)"
+   ]
+  },
+  {
+   "id": "magister",
+   "name": "Magister [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Psyker",
+    "Chaos",
+    "Tzeentch",
+    "Magister"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 105
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Magister (Crucible)",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Cabal of Sorcerers",
+    "Leader",
+    "Rebinding (Psychic)",
+    "Invulnerable Save (5+)"
+   ]
+  },
+  {
+   "id": "sorcerer",
+   "name": "Sorcerer",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Psyker",
+    "Grenades",
+    "Chaos",
+    "Tzeentch",
+    "Sorcerer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "pandaemonic-delusion",
+     "name": "Pandaemonic Delusion",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "prosperine-khopesh",
+     "name": "Prosperine khopesh",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Sorcerer",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "pandaemonic-delusion",
+    "prosperine-khopesh-2",
+    "force-weapon",
+    "inferno-bolt-pistol"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Leader",
+    "Twisted Sorceries (Psychic)",
+    "Empyric Guidance (Psychic)",
+    "Mortal Sorcery (Aura)",
+    "Cabal of Sorcerers"
+   ]
+  },
+  {
+   "id": "sorcerer-in-terminator-armour",
+   "name": "Sorcerer in Terminator Armour",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Psyker",
+    "Chaos",
+    "Tzeentch",
+    "Sorcerer",
+    "Terminator"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "gaze-of-hate",
+     "name": "Gaze of Hate",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Sorcerer in Terminator Armour",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "gaze-of-hate",
+    "force-weapon",
+    "inferno-combi-bolter",
+    "inferno-combi-weapon"
+   ],
+   "abilities": [
+    "Leader",
+    "Deep Strike",
+    "Empyric Guidance (Psychic)",
+    "Mortal Sorcery (Aura)",
+    "Cabal of Sorcerers",
+    "Invulnerable Save",
+    "Marked by Fate (Psychic)"
+   ]
+  },
+  {
+   "id": "sorcerer-on-disc-of-tzeentch",
+   "name": "Sorcerer on Disc of Tzeentch",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Psyker",
+    "Fly",
+    "Chaos",
+    "Tzeentch",
+    "Sorcerer",
+    "Disc of Tzeentch"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "force-weapon",
+     "name": "Force weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "infernal-gaze",
+     "name": "Infernal Gaze",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "bolt-pistol",
+     "name": "Bolt pistol",
+     "pts": 0,
+     "group": "Bolt pistol",
+     "max": null
+    },
+    {
+     "id": "accursed-weapon",
+     "name": "Accursed weapon",
+     "pts": 0,
+     "group": "Bolt pistol",
+     "max": null
+    },
+    {
+     "id": "combi-bolter",
+     "name": "Combi-bolter",
+     "pts": 0,
+     "group": "Bolt pistol",
+     "max": null
+    },
+    {
+     "id": "power-fist",
+     "name": "Power fist",
+     "pts": 0,
+     "group": "Bolt pistol",
+     "max": null
+    },
+    {
+     "id": "plasma-pistol",
+     "name": "Plasma pistol",
+     "pts": 0,
+     "group": "Bolt pistol",
+     "max": null
+    },
+    {
+     "id": "combi-weapon",
+     "name": "Combi-weapon",
+     "pts": 0,
+     "group": "Bolt pistol",
+     "max": null
+    },
+    {
+     "id": "astartes-chainsword",
+     "name": "Astartes chainsword",
+     "pts": 0,
+     "group": "Bolt pistol",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Sorcerer on Disc of Tzeentch [Legends]",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "force-weapon",
+    "infernal-gaze-witchfire",
+    "infernal-gaze-focused-witchfire",
+    "bolt-pistol",
+    "accursed-weapon",
+    "combi-bolter",
+    "power-fist",
+    "plasma-pistol-standard",
+    "plasma-pistol-supercharge",
+    "combi-weapon",
+    "astartes-chainsword"
+   ],
+   "abilities": [
+    "Leader",
+    "Mortal Sorcery (Aura)",
+    "Flames of Change (Psychic)",
+    "Altered Reality (Psychic)"
+   ]
+  },
+  {
+   "id": "tzaangor-shaman",
+   "name": "Tzaangor Shaman",
+   "role": "Character",
+   "keywords": [
+    "Mounted",
+    "Character",
+    "Fly",
+    "Psyker",
+    "Chaos",
+    "Tzeentch",
+    "Tzaangor Shaman",
+    "Infantry",
+    "Mutant"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 60
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "baleful-devolution",
+     "name": "Baleful Devolution",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "force-stave",
+     "name": "Force stave",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Tzaangor Shaman",
+     "stats": {
+      "M": "10\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "baleful-devolution",
+    "force-stave"
+   ],
+   "abilities": [
+    "Leader",
+    "Mortal Sorcery (Aura)",
+    "Cabal of Sorcerers",
+    "Sacrificial Blessing",
+    "Bestial Prophet",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "ahriman",
+   "name": "Ahriman",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Psyker",
+    "Chaos",
+    "Tzeentch",
+    "Fly",
+    "Mounted",
+    "Ahriman"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Ahriman",
+     "stats": {
+      "M": "10\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "transmogrifying-blast",
+    "black-staff-of-ahriman",
+    "inferno-bolt-pistol"
+   ],
+   "abilities": [
+    "Scryer of Fates (Psychic)",
+    "Arch-Sorcerer of Tzeentch (Psychic)",
+    "Invulnerable Save",
+    "Leader",
+    "Mortal Sorcery (Aura)",
+    "Cabal of Sorcerers"
+   ]
+  },
+  {
+   "id": "kairos-fateweaver",
+   "name": "Kairos Fateweaver",
+   "role": "Epic Hero",
+   "keywords": [
+    "Monster",
+    "Character",
+    "Epic Hero",
+    "Fly",
+    "Psyker",
+    "Chaos",
+    "Daemon",
+    "Tzeentch",
+    "Summoned",
+    "Kairos Fateweaver"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 295
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Kairos Fateweaver",
+     "stats": {
+      "M": "12\"",
+      "T": "10",
+      "SV": "6+",
+      "W": "20",
+      "LD": "6+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "infernal-gateway-witchfire",
+    "infernal-gateway-focused-witchfire",
+    "staff-of-tomorrow"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "One Head Looks Forward",
+    "One Head Looks Back (Aura)",
+    "Damaged: 1-7 wounds remaining",
+    "Deadly Demise",
+    "Deep Strike",
+    "Daemonic Illusions (Aura)"
+   ]
+  },
+  {
+   "id": "magnus-the-red",
+   "name": "Magnus the Red",
+   "role": "Epic Hero",
+   "keywords": [
+    "Monster",
+    "Psyker",
+    "Fly",
+    "Character",
+    "Epic Hero",
+    "Daemon",
+    "Chaos",
+    "Tzeentch",
+    "Primarch",
+    "Magnus the Red"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 435
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Magnus the Red",
+     "stats": {
+      "M": "14\"",
+      "T": "11",
+      "SV": "2+",
+      "W": "16",
+      "LD": "5+",
+      "OC": "6"
+     }
+    }
+   ],
+   "weapons": [
+    "gaze-of-magnus",
+    "blade-of-magnus-strike",
+    "blade-of-magnus-sweep",
+    "tzeentch-s-firestorm"
+   ],
+   "abilities": [
+    "Damaged: 1-6 wounds remaining",
+    "Invulnerable Save",
+    "Unearthly Power",
+    "Lord of the Planet of the Sorcerers (Psychic)",
+    "Deep Strike",
+    "Deadly Demise",
+    "Mortal Sorcery (Aura)",
+    "Cabal of Sorcerers"
+   ]
+  },
+  {
+   "id": "flamers",
+   "name": "Flamers",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Fly",
+    "Chaos",
+    "Daemon",
+    "Tzeentch",
+    "Summoned",
+    "Flamers"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    },
+    {
+     "count": 4,
+     "pts": 130
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Flamers",
+     "stats": {
+      "M": "9\"",
+      "T": "4",
+      "SV": "7+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "flamer-mouths",
+    "flickering-flames"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Bounding Leaps",
+    "Deep Strike",
+    "Daemonic Illusions (Aura)"
+   ]
+  },
+  {
+   "id": "scarab-occult-terminators",
+   "name": "Scarab Occult Terminators",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Chaos",
+    "Tzeentch",
+    "Scarab Occult",
+    "Rubricae",
+    "Terminator"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 4,
+     "pts": 180
+    },
+    {
+     "count": 9,
+     "pts": 360
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "prosperine-khopesh",
+     "name": "Prosperine khopesh",
+     "pts": 0,
+     "group": "Weapon",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Scarab Occult Terminators",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Scarab Occult Sorcerer",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "force-weapon",
+    "malefic-curse",
+    "prosperine-khopesh-2",
+    "hellfyre-missile-rack",
+    "inferno-combi-bolter",
+    "soulreaper-cannon",
+    "heavy-warpflamer"
+   ],
+   "abilities": [
+    "Rites of Coalescence",
+    "Invulnerable Save",
+    "Deep Strike",
+    "Mortal Sorcery (Aura)",
+    "Cabal of Sorcerers"
+   ]
+  },
+  {
+   "id": "tzaangors",
+   "name": "Tzaangors",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Chaos",
+    "Tzeentch",
+    "Tzaangors",
+    "Mutant"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 9,
+     "pts": 70
+    },
+    {
+     "count": 19,
+     "pts": 160
+    }
+   ],
+   "minModels": 9,
+   "maxModels": 19,
+   "wargear": [
+    {
+     "id": "brayhorn",
+     "name": "Brayhorn",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "herd-banner",
+     "name": "Herd banner",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "pistol-and-chainsword",
+     "name": "Pistol and chainsword",
+     "pts": 0,
+     "group": "Weapons",
+     "max": null
+    },
+    {
+     "id": "tzaangor-blades",
+     "name": "Tzaangor blades",
+     "pts": 0,
+     "group": "Weapons",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Tzaangors",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "6+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "chainsword-2",
+    "autopistol"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Ambushing Hunters",
+    "Tzaangor blades",
+    "Brayhorn",
+    "Herd banner",
+    "Scouts",
+    "Mortal Sorcery (Aura)"
+   ]
+  },
+  {
+   "id": "mutalith-vortex-beast",
+   "name": "Mutalith Vortex Beast",
+   "role": "Monster",
+   "keywords": [
+    "Monster",
+    "Chaos",
+    "Tzeentch",
+    "Mutalith Vortex Beast",
+    "Mutant"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 170
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "betentacled-maw",
+     "name": "Betentacled maw",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "mutalith-claws",
+     "name": "Mutalith claws",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "warp-vortex",
+     "name": "Warp vortex",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Mutalith Vortex Beast",
+     "stats": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "4+",
+      "W": "13",
+      "LD": "6+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [
+    "betentacled-maw",
+    "mutalith-claws",
+    "warp-vortex-blast",
+    "warp-vortex-beam",
+    "warp-vortex-torrent"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Mutating Vortex (Aura)",
+    "Immaterial Flare (Aura)",
+    "Damaged: 1-4 wounds remaining",
+    "Deadly Demise",
+    "Feel No Pain",
+    "Mortal Sorcery (Aura)"
+   ]
+  },
+  {
+   "id": "tzaangor-enlightened",
+   "name": "Tzaangor Enlightened",
+   "role": "Mounted",
+   "keywords": [
+    "Mounted",
+    "Fly",
+    "Chaos",
+    "Tzeentch",
+    "Tzaangor Enlightened",
+    "Mutant"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 2,
+     "pts": 45
+    },
+    {
+     "count": 5,
+     "pts": 90
+    }
+   ],
+   "minModels": 2,
+   "maxModels": 5,
+   "wargear": [
+    {
+     "id": "autopistol-and-chainsword",
+     "name": "Autopistol and chainsword",
+     "pts": 0,
+     "group": "Weapons",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Tzaangor Enlightened",
+     "stats": {
+      "M": "10\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "divining-spear",
+    "autopistol",
+    "chainsword"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Prophesied Doom",
+    "Precision",
+    "Mortal Sorcery (Aura)"
+   ]
+  },
+  {
+   "id": "tzaangor-enlightened-with-fatecaster-greatbows",
+   "name": "Tzaangor Enlightened with Fatecaster greatbows",
+   "role": "Mounted",
+   "keywords": [
+    "Mounted",
+    "Fly",
+    "Chaos",
+    "Tzeentch",
+    "Tzaangor Enlightened",
+    "Mutant",
+    "Tzaangor Enlightened with Fatecaster greatbows"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 55
+    },
+    {
+     "count": 4,
+     "pts": 110
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Tzaangor Enlightened with Fatecaster greatbows",
+     "stats": {
+      "M": "10\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "fatecaster-greatbow",
+    "close-combat-weapon-5"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Malign Trickery",
+    "Mortal Sorcery (Aura)"
+   ]
+  },
+  {
+   "id": "chaos-land-raider",
+   "name": "Chaos Land Raider",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Transport",
+    "Smoke",
+    "Chaos",
+    "Tzeentch",
+    "Land Raider"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 220
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "armoured-tracks",
+     "name": "Armoured tracks",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "soulshatter-lascannon",
+     "name": "Soulshatter lascannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    }
+   ],
+   "stats": [
+    {
+     "name": "Chaos Land Raider",
+     "stats": {
+      "M": "10\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "armoured-tracks",
+    "soulshatter-lascannon",
+    "havoc-launcher",
+    "twin-inferno-heavy-bolter",
+    "inferno-combi-bolter",
+    "inferno-combi-weapon"
+   ],
+   "abilities": [
+    "Assault Ramp",
+    "Deadly Demise",
+    "Damaged: 1-5 wounds remaining",
+    "Mortal Sorcery (Aura)"
+   ]
+  },
+  {
+   "id": "chaos-predator-annihilator",
+   "name": "Chaos Predator Annihilator",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Smoke",
+    "Chaos",
+    "Tzeentch",
+    "Predator Annihilator"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 130
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "predator-twin-lascannon",
+     "name": "Predator twin lascannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "2-inferno-heavy-bolters",
+     "name": "2 inferno heavy bolters",
+     "pts": 0,
+     "group": "Sponsons",
+     "max": null
+    },
+    {
+     "id": "2-lascannons",
+     "name": "2 lascannons",
+     "pts": 0,
+     "group": "Sponsons",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Chaos Predator Annihilator",
+     "stats": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "11",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "predator-twin-lascannon",
+    "armoured-tracks-2",
+    "havoc-launcher",
+    "inferno-combi-bolter",
+    "inferno-combi-weapon",
+    "inferno-heavy-bolter",
+    "lascannon"
+   ],
+   "abilities": [
+    "Ensorcelled Annihilation",
+    "Deadly Demise",
+    "Damaged: 1-4 wounds remaining",
+    "Mortal Sorcery (Aura)"
+   ]
+  },
+  {
+   "id": "chaos-predator-destructor",
+   "name": "Chaos Predator Destructor",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Smoke",
+    "Chaos",
+    "Tzeentch",
+    "Predator Destructor"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 130
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "predator-autocannon",
+     "name": "Predator autocannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "2-inferno-heavy-bolters",
+     "name": "2 inferno heavy bolters",
+     "pts": 0,
+     "group": "Sponsons",
+     "max": null
+    },
+    {
+     "id": "2-lascannons",
+     "name": "2 lascannons",
+     "pts": 0,
+     "group": "Sponsons",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Chaos Predator Destructor",
+     "stats": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "11",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "predator-autocannon",
+    "armoured-tracks-2",
+    "havoc-launcher",
+    "inferno-combi-bolter",
+    "inferno-combi-weapon",
+    "inferno-heavy-bolter",
+    "lascannon"
+   ],
+   "abilities": [
+    "Ensorcelled Destruction",
+    "Deadly Demise",
+    "Damaged: 1-4 wounds remaining",
+    "Mortal Sorcery (Aura)"
+   ]
+  },
+  {
+   "id": "chaos-rhino",
+   "name": "Chaos Rhino",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Transport",
+    "Dedicated Transport",
+    "Chaos",
+    "Tzeentch",
+    "Rhino",
+    "Smoke"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Chaos Rhino",
+     "stats": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "armoured-tracks-2",
+    "havoc-launcher",
+    "inferno-combi-bolter",
+    "inferno-combi-weapon"
+   ],
+   "abilities": [
+    "Sorcerous Support",
+    "Deadly Demise",
+    "Firing Deck",
+    "Mortal Sorcery (Aura)"
+   ]
+  },
+  {
+   "id": "chaos-vindicator",
+   "name": "Chaos Vindicator",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Smoke",
+    "Chaos",
+    "Tzeentch",
+    "Vindicator"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 185
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "demolisher-cannon",
+     "name": "Demolisher cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Chaos Vindicator",
+     "stats": {
+      "M": "9\"",
+      "T": "11",
+      "SV": "2+",
+      "W": "11",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "demolisher-cannon",
+    "armoured-tracks-2",
+    "havoc-launcher",
+    "inferno-combi-bolter",
+    "inferno-combi-weapon"
+   ],
+   "abilities": [
+    "Siege Shield",
+    "Deadly Demise",
+    "Damaged: 1-4 wounds remaining",
+    "Mortal Sorcery (Aura)"
+   ]
+  },
+  {
+   "id": "defiler",
+   "name": "Defiler",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Chaos",
+    "Daemon",
+    "Defiler",
+    "Tzeentch"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 250
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "shearing-claws",
+     "name": "Shearing claws",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "heavy-missile-launcher",
+     "name": "Heavy missile launcher",
+     "pts": 0,
+     "group": "Replace heavy missile launcher",
+     "max": null
+    },
+    {
+     "id": "hades-battle-cannon",
+     "name": "Hades battle cannon",
+     "pts": 0,
+     "group": "Main cannon",
+     "max": null
+    },
+    {
+     "id": "ectoplasma-destructor",
+     "name": "Ectoplasma destructor",
+     "pts": 0,
+     "group": "Main cannon",
+     "max": null
+    },
+    {
+     "id": "heavy-baleflamer",
+     "name": "Heavy baleflamer",
+     "pts": 0,
+     "group": "Replace heavy baleflamer",
+     "max": null
+    },
+    {
+     "id": "two-excruciator-cannons",
+     "name": "Two excruciator cannons",
+     "pts": 0,
+     "group": "Replace excruciator cannons",
+     "max": null
+    },
+    {
+     "id": "two-pyraflux-magma-cutters",
+     "name": "Two pyraflux magma cutters",
+     "pts": 0,
+     "group": "Replace excruciator cannons",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Defiler",
+     "stats": {
+      "M": "12\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "18",
+      "LD": "6+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "shearing-claws-strike",
+    "shearing-claws-sweep",
+    "heavy-missile-launcher-frag",
+    "heavy-missile-launcher-krak",
+    "hades-battle-cannon",
+    "ectoplasma-destructor",
+    "heavy-baleflamer",
+    "excruciator-cannon",
+    "pyraflux-magma-cutter",
+    "electroscourge",
+    "hades-lascannon",
+    "heavy-reaper-autocannon"
+   ],
+   "abilities": [
+    "Scuttling Walker",
+    "Destroyer of Futures",
+    "Deadly Demise",
+    "Damaged: 1-6 wounds remaining",
+    "Invulnerable Save (5+)",
+    "Feel No Pain"
+   ]
+  },
+  {
+   "id": "forgefiend",
+   "name": "Forgefiend",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Daemon",
+    "Chaos",
+    "Tzeentch",
+    "Forgefiend"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 130
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "2-ectoplasma-cannons",
+     "name": "2 ectoplasma cannons",
+     "pts": 0,
+     "group": "Arm weapons",
+     "max": null
+    },
+    {
+     "id": "2-hades-autocannons",
+     "name": "2 Hades autocannons",
+     "pts": 0,
+     "group": "Arm weapons",
+     "max": null
+    },
+    {
+     "id": "ectoplasma-cannon-and-claws",
+     "name": "Ectoplasma cannon and claws",
+     "pts": 0,
+     "group": "Head weapons",
+     "max": null
+    },
+    {
+     "id": "forgefiend-jaws",
+     "name": "Forgefiend jaws",
+     "pts": 0,
+     "group": "Head weapons",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Forgefiend",
+     "stats": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "forgefiend-claws",
+    "forgefiend-jaws",
+    "ectoplasma-cannon",
+    "hades-autocannon"
+   ],
+   "abilities": [
+    "Blazing Salvos",
+    "Invulnerable Save",
+    "Deadly Demise",
+    "Damaged: 1-4 wounds remaining",
+    "Mortal Sorcery (Aura)"
+   ]
+  },
+  {
+   "id": "helbrute",
+   "name": "Helbrute",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Chaos",
+    "Tzeentch",
+    "Helbrute"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 110
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "close-combat-weapon",
+     "name": "Close combat weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "helbrute-fist-with-combi-bolter",
+     "name": "Helbrute fist with combi-bolter",
+     "pts": 0,
+     "group": "Missile launcher",
+     "max": null
+    },
+    {
+     "id": "helbrute-fist-with-heavy-flamer",
+     "name": "Helbrute fist with heavy flamer",
+     "pts": 0,
+     "group": "Missile launcher",
+     "max": null
+    },
+    {
+     "id": "missile-launcher",
+     "name": "Missile launcher",
+     "pts": 0,
+     "group": "Missile launcher",
+     "max": null
+    },
+    {
+     "id": "helbrute-hammer",
+     "name": "Helbrute hammer",
+     "pts": 0,
+     "group": "Missile launcher",
+     "max": null
+    },
+    {
+     "id": "power-scourge",
+     "name": "Power scourge",
+     "pts": 0,
+     "group": "Missile launcher",
+     "max": null
+    },
+    {
+     "id": "multi-melta",
+     "name": "Multi-melta",
+     "pts": 0,
+     "group": "Multi-melta",
+     "max": null
+    },
+    {
+     "id": "twin-autocannon",
+     "name": "Twin autocannon",
+     "pts": 0,
+     "group": "Multi-melta",
+     "max": null
+    },
+    {
+     "id": "helbrute-plasma-cannon",
+     "name": "Helbrute plasma cannon",
+     "pts": 0,
+     "group": "Multi-melta",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Helbrute",
+     "stats": {
+      "M": "8\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon",
+    "missile-launcher-frag",
+    "missile-launcher-krak",
+    "helbrute-hammer",
+    "power-scourge",
+    "multi-melta",
+    "twin-autocannon",
+    "helbrute-plasma-cannon",
+    "inferno-combi-bolter",
+    "heavy-flamer",
+    "twin-inferno-heavy-bolter",
+    "twin-lascannon"
+   ],
+   "abilities": [
+    "Terrifying Assault",
+    "Devoted to Destruction",
+    "Invulnerable Save",
+    "Deadly Demise",
+    "Mortal Sorcery (Aura)",
+    "Helbrute fist"
+   ]
+  },
+  {
+   "id": "heldrake",
+   "name": "Heldrake",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Chaos",
+    "Tzeentch",
+    "Heldrake"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 215
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "heldrake-claws",
+     "name": "Heldrake claws",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "baleflamer",
+     "name": "Baleflamer",
+     "pts": 0,
+     "group": "Mouth weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Heldrake",
+     "stats": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "heldrake-claws",
+    "baleflamer",
+    "hades-autocannon"
+   ],
+   "abilities": [
+    "Flame-wreathed",
+    "Invulnerable Save",
+    "Deadly Demise",
+    "Hover",
+    "Mortal Sorcery (Aura)"
+   ]
+  },
+  {
+   "id": "hell-talon",
+   "name": "Hell Talon",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Chaos",
+    "Tzeentch",
+    "Hell Talon"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 140
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "armoured-hull",
+     "name": "Armoured hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "autocannon",
+     "name": "Autocannon",
+     "pts": 0,
+     "group": "Autocannon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Hell Talon",
+     "stats": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "14",
+      "LD": "6+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "armoured-hull-2",
+    "autocannon",
+    "twin-lascannon",
+    "havoc-launcher"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Damaged: 1-5 wounds remaining",
+    "Mortal Sorcery (Aura)",
+    "Invulnerable Save",
+    "Bomb Rack"
+   ]
+  },
+  {
+   "id": "hellblade",
+   "name": "Hellblade",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Chaos",
+    "Tzeentch",
+    "Hellblade"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 115
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "armoured-hull",
+     "name": "Armoured hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "two-twin-autocannons",
+     "name": "Two twin autocannons",
+     "pts": 0,
+     "group": "Weapons",
+     "max": null
+    },
+    {
+     "id": "two-twin-lascannons",
+     "name": "Two twin lascannons",
+     "pts": 0,
+     "group": "Weapons",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Hellblade",
+     "stats": {
+      "M": "20+\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "armoured-hull",
+    "twin-lascannon"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Interceptor",
+    "Deadly Demise",
+    "Mortal Sorcery (Aura)"
+   ]
+  },
+  {
+   "id": "maulerfiend",
+   "name": "Maulerfiend",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Daemon",
+    "Chaos",
+    "Tzeentch",
+    "Maulerfiend"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 120
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "maulerfiend-fists",
+     "name": "Maulerfiend fists",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "2-magma-cutters",
+     "name": "2 magma cutters",
+     "pts": 0,
+     "group": "Head weapons",
+     "max": null
+    },
+    {
+     "id": "lasher-tendrils",
+     "name": "Lasher tendrils",
+     "pts": 0,
+     "group": "Head weapons",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Maulerfiend",
+     "stats": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "maulerfiend-fists",
+    "magma-cutter",
+    "lasher-tendrils"
+   ],
+   "abilities": [
+    "Snarling Protector",
+    "Invulnerable Save",
+    "Deadly Demise",
+    "Damaged: 1-4 wounds remaining",
+    "Mortal Sorcery (Aura)"
+   ]
+  },
+  {
+   "id": "sekhetar-robots",
+   "name": "Sekhetar Robots",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Chaos",
+    "Tzeentch",
+    "Sekhetar Robots"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 2,
+     "pts": 80
+    },
+    {
+     "count": 4,
+     "pts": 160
+    }
+   ],
+   "minModels": 2,
+   "maxModels": 4,
+   "wargear": [
+    {
+     "id": "pyreflux-meltagun",
+     "name": "Pyreflux meltagun",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "power-claw",
+     "name": "Power claw",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "warpflame-projector",
+     "name": "Warpflame projector",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Sekhetar Robots",
+     "stats": {
+      "M": "8\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "pyreflux-meltagun",
+    "power-claw",
+    "warpflame-projector",
+    "close-combat-weapon-4",
+    "heavy-warpflamer",
+    "hellfyre-missile-rack-2"
+   ],
+   "abilities": [
+    "Prophetic Sentinels",
+    "Invulnerable Save",
+    "Infiltrators",
+    "Stealth",
+    "Mortal Sorcery (Aura)"
+   ]
+  }
+ ]
+}

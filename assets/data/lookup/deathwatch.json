@@ -1,0 +1,2180 @@
+{
+ "id": "deathwatch",
+ "name": "Deathwatch",
+ "source": "BSData/wh40k-10e",
+ "revision": "65",
+ "enhancements": [],
+ "weapons": [
+  {
+   "id": "vigil-spear",
+   "name": "Vigil spear",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "vigil-spear-2",
+   "name": "Vigil spear",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "D3",
+    "Keywords": "Lance"
+   }
+  },
+  {
+   "id": "hellfire-extremis",
+   "name": "Hellfire Extremis",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Anti-Infantry 4+, Devastating Wounds, Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "master-crafted-power-weapon",
+   "name": "Master-crafted power weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "armoured-hull",
+   "name": "Armoured hull",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "hurricane-bolter",
+   "name": "Hurricane bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 6, Twin-Linked"
+   }
+  },
+  {
+   "id": "twin-assault-cannon",
+   "name": "Twin assault cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Devastating Wounds, Twin-Linked"
+   }
+  },
+  {
+   "id": "twin-lascannon",
+   "name": "Twin lascannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "Twin-Linked"
+   }
+  },
+  {
+   "id": "blackstar-rocket-launcher",
+   "name": "Blackstar rocket launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "D6+1",
+    "BS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "stormstrike-missile-launcher",
+   "name": "Stormstrike missile launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "artificer-crozius",
+   "name": "Artificer crozius",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "close-combat-weapon",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "frag-cannon",
+   "name": "Frag cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D3",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Blast, Heavy, Rapid Fire D3"
+   }
+  },
+  {
+   "id": "twin-lightning-claws",
+   "name": "Twin lightning claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Twin-Linked"
+   }
+  },
+  {
+   "id": "psychic-cleanse",
+   "name": "Psychic Cleanse",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "D3",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "force-weapon",
+   "name": "Force weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-3",
+    "D": "D3",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "heavy-flamer",
+   "name": "Heavy Flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "power-fist",
+   "name": "Power fist",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "deathwatch-twin-boltgun",
+   "name": "Deathwatch twin boltgun",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "4",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "boltgun",
+   "name": "Boltgun",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "long-vigil-ranged-weapon",
+   "name": "Long Vigil ranged weapon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
+   }
+  },
+  {
+   "id": "long-vigil-melee-weapon",
+   "name": "Long Vigil melee weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "power-weapon",
+   "name": "Power Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "thunder-hammer",
+   "name": "Thunder Hammer",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "chainfist",
+   "name": "Chainfist",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "8+",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Anti-Vehicle 3+"
+   }
+  },
+  {
+   "id": "superfrag-missile-launcher",
+   "name": "Superfrag missile launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6+1",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast, Heavy"
+   }
+  },
+  {
+   "id": "superkrak-missile-launcher",
+   "name": "Superkrak missile launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "10",
+    "AP": "-2",
+    "D": "D6+1",
+    "Keywords": "Heavy"
+   }
+  },
+  {
+   "id": "heavy-bolt-pistol",
+   "name": "Heavy bolt pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "close-combat-weapon-2",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "plasma-pistol-standard",
+   "name": "➤ Plasma pistol - Standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "plasma-pistol-supercharge",
+   "name": "➤ Plasma pistol - Supercharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Hazardous, Pistol"
+   }
+  },
+  {
+   "id": "plasma-incinerator-standard",
+   "name": "➤ Plasma incinerator - Standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Assault, Heavy"
+   }
+  },
+  {
+   "id": "plasma-incinerator-supercharge",
+   "name": "➤ Plasma incinerator - Supercharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Assault, Hazardous, Heavy"
+   }
+  },
+  {
+   "id": "deathwatch-bolt-rifle",
+   "name": "Deathwatch bolt rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Assault, Heavy, Lethal Hits"
+   }
+  },
+  {
+   "id": "auto-boltstorm-gauntlets",
+   "name": "Auto boltstorm gauntlets",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "twin-power-fists",
+   "name": "Twin power fists",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "flamestorm-gauntlets",
+   "name": "Flamestorm gauntlets",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6+1",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent, Twin-linked"
+   }
+  },
+  {
+   "id": "deathwatch-heavy-bolt-rifle",
+   "name": "Deathwatch heavy bolt rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Assault, Heavy, Lethal Hits"
+   }
+  },
+  {
+   "id": "deathwatch-heavy-bolter",
+   "name": "Deathwatch heavy bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Assault, Heavy, Lethal Hits, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "deathwatch-marksman-bolt-carbine",
+   "name": "Deathwatch marksman bolt carbine",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Heavy, Lethal Hits"
+   }
+  },
+  {
+   "id": "deathwatch-occulus-bolt-carbine",
+   "name": "Deathwatch occulus bolt carbine",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Assault, Ignores Cover, Lethal Hits"
+   }
+  },
+  {
+   "id": "paired-combat-blades",
+   "name": "Paired combat blades",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "special-issue-bolt-pistol",
+   "name": "Special-issue bolt pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Pistol, Precision"
+   }
+  },
+  {
+   "id": "combat-knife",
+   "name": "Combat knife",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Precision"
+   }
+  },
+  {
+   "id": "deathwatch-bolt-carbine",
+   "name": "Deathwatch Bolt carbine",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Lethal Hits, Precision"
+   }
+  },
+  {
+   "id": "instigator-bolt-carbine",
+   "name": "Instigator bolt carbine",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Heavy"
+   }
+  },
+  {
+   "id": "bolt-sniper-rifle",
+   "name": "Bolt sniper rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Heavy, Precision"
+   }
+  },
+  {
+   "id": "deathwatch-thunder-hammer",
+   "name": "Deathwatch thunder hammer",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "stalker-pattern-boltgun",
+   "name": "Stalker-pattern boltgun",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Heavy, Precision"
+   }
+  },
+  {
+   "id": "deathwatch-shotgun",
+   "name": "Deathwatch shotgun",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "blackshield-blades",
+   "name": "Blackshield blades",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "power-weapon",
+   "name": "Power weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "infernus-heavy-bolter-heavy-bolter",
+   "name": "➤ Infernus heavy bolter - heavy bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Heavy, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "infernus-heavy-bolter-heavy-flamer",
+   "name": "➤ Infernus heavy bolter - heavy flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "xenophase-blade",
+   "name": "Xenophase blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "combi-weapon",
+   "name": "Combi-weapon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
+   }
+  },
+  {
+   "id": "assault-bolters",
+   "name": "Assault bolters",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Assault, Pistol, Sustained Hits 2, Twin-linked"
+   }
+  },
+  {
+   "id": "plasma-exterminators-standard",
+   "name": "➤ Plasma exterminators - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Assault, Pistol, Twin-linked"
+   }
+  },
+  {
+   "id": "plasma-exterminators-supercharge",
+   "name": "➤ Plasma exterminators - supercharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Assault, Hazardous, Pistol, Twin-linked"
+   }
+  },
+  {
+   "id": "power-weapon-2",
+   "name": "Power weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "stalker-bolt-rifle",
+   "name": "Stalker bolt rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Heavy, Lethal Hits, Precision"
+   }
+  },
+  {
+   "id": "bolt-pistol",
+   "name": "Bolt pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol, Lethal Hits"
+   }
+  },
+  {
+   "id": "heavy-thunder-hammer",
+   "name": "Heavy thunder hammer",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "special-issue-bolt-pistol-2",
+   "name": "Special-issue bolt pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Pistol, Precision, Lethal Hits"
+   }
+  },
+  {
+   "id": "frag-cannon-2",
+   "name": "Frag cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D3",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Blast, Heavy, Lethal Hits, Rapid Fire D3"
+   }
+  },
+  {
+   "id": "hellstorm-bolt-rifle",
+   "name": "Hellstorm bolt rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Assault, Heavy, Lethal Hits"
+   }
+  },
+  {
+   "id": "astartes-grenade-launcher-frag",
+   "name": "➤ Astartes grenade launcher - frag",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D3",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "astartes-grenade-launcher-krak",
+   "name": "➤ Astartes grenade launcher - krak",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "infernus-heavy-bolter-heavy-bolter-2",
+   "name": "➤ Infernus heavy bolter - heavy bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Sustained Hits 1"
+   }
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "deathwatch-veterans",
+   "name": "Deathwatch Veterans",
+   "role": "Battleline",
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Grenades",
+    "Imperium",
+    "Ordo Xenos",
+    "Retinue",
+    "Deathwatch Kill Team"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 5,
+     "pts": 100
+    },
+    {
+     "count": 10,
+     "pts": 190
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 10,
+   "wargear": [],
+   "stats": [],
+   "weapons": [
+    "deathwatch-thunder-hammer",
+    "frag-cannon",
+    "stalker-pattern-boltgun",
+    "deathwatch-shotgun",
+    "blackshield-blades",
+    "boltgun",
+    "power-weapon",
+    "close-combat-weapon-2",
+    "infernus-heavy-bolter-heavy-bolter",
+    "infernus-heavy-bolter-heavy-flamer",
+    "xenophase-blade",
+    "combi-weapon"
+   ],
+   "abilities": [
+    "Death to the Alien",
+    "Attached Unit",
+    "Deathwatch Veterans",
+    "Mission Tactics",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "decimus-kill-team",
+   "name": "Decimus Kill Team",
+   "role": "Battleline",
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Grenades",
+    "Imperium",
+    "Kill Team",
+    "Tacticus",
+    "Decimus Kill Team"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 1,
+     "pts": 200
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "5-models",
+     "name": "5 models",
+     "pts": 0,
+     "group": "Unit composition",
+     "max": null
+    },
+    {
+     "id": "10-models",
+     "name": "10 models",
+     "pts": 0,
+     "group": "Unit composition",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Kill Team Sergeant",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Deathwatch Veteran",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Gravis Veteran",
+     "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "xenophase-blade",
+    "plasma-pistol-standard",
+    "plasma-pistol-supercharge",
+    "power-weapon-2",
+    "stalker-bolt-rifle",
+    "bolt-pistol",
+    "close-combat-weapon-2",
+    "plasma-incinerator-standard",
+    "plasma-incinerator-supercharge",
+    "heavy-thunder-hammer",
+    "deathwatch-marksman-bolt-carbine",
+    "combat-knife",
+    "special-issue-bolt-pistol-2",
+    "frag-cannon-2",
+    "hellstorm-bolt-rifle",
+    "astartes-grenade-launcher-frag",
+    "astartes-grenade-launcher-krak",
+    "infernus-heavy-bolter-heavy-bolter-2",
+    "infernus-heavy-bolter-heavy-flamer"
+   ],
+   "abilities": [
+    "Mission Tactics",
+    "Oath of Moment",
+    "Death to the Alien",
+    "Attached Unit"
+   ]
+  },
+  {
+   "id": "watch-master",
+   "name": "Watch Master",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Captain",
+    "Grenades",
+    "Imperium",
+    "Watch Master"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 95
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "vigil-spear",
+     "name": "Vigil spear",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Watch Master",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "vigil-spear",
+    "vigil-spear-2"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Strategic Knowledge",
+    "Watch Master",
+    "Leader",
+    "Oath of Moment",
+    "Mission Tactics"
+   ]
+  },
+  {
+   "id": "watch-captain-artemis",
+   "name": "Watch Captain Artemis",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Watch Captain Artemis",
+    "Captain"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Watch Captain Artemis",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "hellfire-extremis",
+    "master-crafted-power-weapon"
+   ],
+   "abilities": [
+    "Leader",
+    "Feel No Pain",
+    "Mission Tactics",
+    "Oath of Moment",
+    "Invulnerable Save",
+    "Tactical Instinct",
+    "Unstoppable Champion"
+   ]
+  },
+  {
+   "id": "deathwatch-terminator-squad",
+   "name": "Deathwatch Terminator Squad",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Imperium",
+    "Deathwatch Terminator Squad",
+    "Terminator",
+    "Kill Team"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 5,
+     "pts": 190
+    },
+    {
+     "count": 10,
+     "pts": 350
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 10,
+   "wargear": [
+    {
+     "id": "power-fist-storm-bolter",
+     "name": "Power Fist & Storm Bolter",
+     "pts": 0,
+     "group": "Terminator Weapons",
+     "max": 1
+    },
+    {
+     "id": "storm-bolter-power-weapon",
+     "name": "Storm Bolter & Power Weapon",
+     "pts": 0,
+     "group": "Terminator Weapons",
+     "max": 1
+    },
+    {
+     "id": "thunder-hammer-storm-shield",
+     "name": "Thunder Hammer & Storm Shield",
+     "pts": 0,
+     "group": "Terminator Weapons",
+     "max": 1
+    },
+    {
+     "id": "storm-bolter-chainfist",
+     "name": "Storm Bolter & Chainfist",
+     "pts": 0,
+     "group": "Terminator Weapons",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Deathwatch Terminator",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Deathwatch Terminator Sergeant",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "power-weapon",
+    "thunder-hammer",
+    "chainfist"
+   ],
+   "abilities": [
+    "Terminatus Assault",
+    "Teleport Homer",
+    "Invulnerable Save",
+    "Attached Unit",
+    "Deep Strike",
+    "Oath of Moment",
+    "Mission Tactics",
+    "Power Fist",
+    "Storm Bolter",
+    "Rapid Fire",
+    "Storm Shield"
+   ]
+  },
+  {
+   "id": "fortis-kill-team",
+   "name": "Fortis Kill Team",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Fortis Kill Team",
+    "Tacticus",
+    "Kill Team"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 9,
+     "pts": 180
+    }
+   ],
+   "minModels": 9,
+   "maxModels": 9,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Kill Team Sergeant",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "superfrag-missile-launcher",
+    "superkrak-missile-launcher",
+    "heavy-bolt-pistol",
+    "close-combat-weapon-2",
+    "plasma-pistol-standard",
+    "plasma-pistol-supercharge",
+    "plasma-incinerator-standard",
+    "plasma-incinerator-supercharge",
+    "deathwatch-bolt-rifle"
+   ],
+   "abilities": [
+    "Kill Team Intercessor",
+    "Fortis Doctrines",
+    "Attached Unit",
+    "Mission Tactics",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "indomitor-kill-team",
+   "name": "Indomitor Kill Team",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Indomitor Kill Team",
+    "Gravis",
+    "Kill Team"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 265
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Kill Team Heavy Intercessor",
+     "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Kill Team Heavy Intercessor w/ Heavy Bolter",
+     "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "auto-boltstorm-gauntlets",
+    "twin-power-fists",
+    "flamestorm-gauntlets",
+    "deathwatch-heavy-bolt-rifle",
+    "deathwatch-heavy-bolter",
+    "close-combat-weapon-2"
+   ],
+   "abilities": [
+    "Indomitor Doctrines",
+    "Attached Unit",
+    "Mission Tactics",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "kill-team-cassius",
+   "name": "Kill Team Cassius",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Kill Team",
+    "Kill Team Cassius",
+    "Deathwatch",
+    "Ordo Xenos"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 220
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Chaplain Cassius",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "5+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Vael Donatus",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Zameon Gydrael",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Rodricus Grytt",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Antor Delassio",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Edryc Setorax",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Jensus Natorian",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Drenn Redblade",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Garran Branatar",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Ennox Sorrlock",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Jetek Suberei",
+     "stats": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "artificer-crozius",
+    "close-combat-weapon",
+    "frag-cannon",
+    "twin-lightning-claws",
+    "psychic-cleanse",
+    "force-weapon",
+    "heavy-flamer",
+    "power-fist",
+    "deathwatch-twin-boltgun",
+    "boltgun",
+    "long-vigil-ranged-weapon",
+    "long-vigil-melee-weapon"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Jump Pack",
+    "Psychic Hood",
+    "Deep Strike",
+    "Mission Tactics",
+    "Oath of Moment",
+    "Catechism of Death",
+    "Unflinching"
+   ]
+  },
+  {
+   "id": "spectrus-kill-team",
+   "name": "Spectrus Kill Team",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Smoke",
+    "Spectrus Kill Team",
+    "Kill Team",
+    "Phobos"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 5,
+     "pts": 180
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 10,
+   "wargear": [
+    {
+     "id": "helix-gauntlet",
+     "name": "Helix Gauntlet",
+     "pts": 0,
+     "group": "Equipment",
+     "max": 1
+    },
+    {
+     "id": "infiltrator-comms-array",
+     "name": "Infiltrator Comms Array",
+     "pts": 0,
+     "group": "Equipment",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Kill Team Infiltrator",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "deathwatch-marksman-bolt-carbine",
+    "deathwatch-occulus-bolt-carbine",
+    "paired-combat-blades",
+    "special-issue-bolt-pistol",
+    "combat-knife",
+    "deathwatch-bolt-carbine",
+    "instigator-bolt-carbine",
+    "bolt-sniper-rifle",
+    "close-combat-weapon-2"
+   ],
+   "abilities": [
+    "Attached Unit",
+    "Spectrus Doctrines",
+    "Helix Gauntlet",
+    "Infiltrator Comms Array",
+    "Scouts",
+    "Infiltrators",
+    "Mission Tactics",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "talonstrike-kill-team",
+   "name": "Talonstrike Kill Team",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Fly",
+    "Jump Pack",
+    "Grenades",
+    "Imperium",
+    "Kill Team",
+    "Talonstrike Kill Team"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 9,
+     "pts": 275
+    }
+   ],
+   "minModels": 9,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "assault-bolters",
+     "name": "Assault bolters",
+     "pts": 0,
+     "group": "Weapons",
+     "max": null
+    },
+    {
+     "id": "plasma-exterminators",
+     "name": "Plasma exterminators",
+     "pts": 0,
+     "group": "Weapons",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Kill Team Sergeant w/ Jump Pack",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Kill Team Intercessor w/ Jump Pack",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Kill Team Heavy Intercessor w/ Jump Pack",
+     "stats": {
+      "M": "10\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "assault-bolters",
+    "plasma-exterminators-standard",
+    "plasma-exterminators-supercharge",
+    "plasma-pistol-standard",
+    "plasma-pistol-supercharge",
+    "power-weapon"
+   ],
+   "abilities": [
+    "Talonstrike Doctrines",
+    "Attached Unit",
+    "Oath of Moment",
+    "Deep Strike",
+    "Mission Tactics"
+   ]
+  },
+  {
+   "id": "deathwatch-veteran-w-carbine",
+   "name": "Deathwatch Veteran w/ carbine",
+   "role": "Other",
+   "keywords": [
+    "Tacticus"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "deathwatch-marksman-bolt-carbine",
+     "name": "Deathwatch marksman bolt carbine",
+     "pts": 0,
+     "group": "Exchange carbine",
+     "max": null
+    },
+    {
+     "id": "combat-knife",
+     "name": "Combat knife",
+     "pts": 0,
+     "group": "Exchange carbine",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Deathwatch Veteran",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "deathwatch-marksman-bolt-carbine",
+    "combat-knife",
+    "close-combat-weapon-2",
+    "special-issue-bolt-pistol-2"
+   ],
+   "abilities": []
+  },
+  {
+   "id": "deathwatch-veteran-w-heavy-thunder-hammer",
+   "name": "Deathwatch Veteran w/ heavy thunder hammer",
+   "role": "Other",
+   "keywords": [
+    "Tacticus"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "power-weapon-and-astartes-shield",
+     "name": "Power weapon and Astartes shield",
+     "pts": 0,
+     "group": "Exchange hammer",
+     "max": null
+    },
+    {
+     "id": "heavy-thunder-hammer",
+     "name": "Heavy thunder hammer",
+     "pts": 0,
+     "group": "Exchange hammer",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Deathwatch Veteran",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "heavy-thunder-hammer",
+    "bolt-pistol",
+    "power-weapon-2"
+   ],
+   "abilities": [
+    "Astartes shield"
+   ]
+  },
+  {
+   "id": "deathwatch-veteran-w-stalker-bolt-rifle",
+   "name": "Deathwatch Veteran w/ stalker bolt rifle",
+   "role": "Other",
+   "keywords": [
+    "Tacticus"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "stalker-bolt-rifle",
+     "name": "Stalker bolt rifle",
+     "pts": 0,
+     "group": "Exchange rifle",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Deathwatch Veteran",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "stalker-bolt-rifle",
+    "bolt-pistol",
+    "close-combat-weapon-2",
+    "plasma-incinerator-standard",
+    "plasma-incinerator-supercharge"
+   ],
+   "abilities": []
+  },
+  {
+   "id": "gravis-veteran-w-infernus-heavy-bolter",
+   "name": "Gravis Veteran w/ infernus heavy bolter",
+   "role": "Other",
+   "keywords": [
+    "Gravis"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "frag-cannon",
+     "name": "Frag cannon",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "hellstorm-bolt-rifle-and-grenade-launcher",
+     "name": "Hellstorm bolt rifle and grenade launcher",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "infernus-heavy-bolter",
+     "name": "Infernus heavy bolter",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Gravis Veteran",
+     "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "frag-cannon-2",
+    "hellstorm-bolt-rifle",
+    "astartes-grenade-launcher-frag",
+    "astartes-grenade-launcher-krak",
+    "infernus-heavy-bolter-heavy-bolter-2",
+    "infernus-heavy-bolter-heavy-flamer",
+    "bolt-pistol",
+    "close-combat-weapon-2"
+   ],
+   "abilities": []
+  },
+  {
+   "id": "kill-team-sergeant",
+   "name": "Kill Team Sergeant",
+   "role": "Other",
+   "keywords": [
+    "Tacticus"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Kill Team Sergeant",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "plasma-pistol-standard",
+    "plasma-pistol-supercharge",
+    "power-weapon-2"
+   ],
+   "abilities": []
+  },
+  {
+   "id": "corvus-blackstar",
+   "name": "Corvus Blackstar",
+   "role": "Vehicle",
+   "keywords": [
+    "Fly",
+    "Vehicle",
+    "Aircraft",
+    "Imperium",
+    "Transport",
+    "Corvus Blackstar"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 180
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "armoured-hull",
+     "name": "Armoured hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "hurricane-bolter",
+     "name": "Hurricane bolter",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-assault-cannon",
+     "name": "Twin assault cannon",
+     "pts": 0,
+     "group": "Centreline weapon",
+     "max": 1
+    },
+    {
+     "id": "twin-lascannon",
+     "name": "Twin lascannon",
+     "pts": 0,
+     "group": "Centreline weapon",
+     "max": 1
+    },
+    {
+     "id": "2-blackstar-rocket-launchers",
+     "name": "2 Blackstar rocket launchers",
+     "pts": 0,
+     "group": "Missile choice",
+     "max": 1
+    },
+    {
+     "id": "2-stormstrike-missile-launchers",
+     "name": "2 Stormstrike missile launchers",
+     "pts": 0,
+     "group": "Missile choice",
+     "max": 1
+    },
+    {
+     "id": "auspex-array",
+     "name": "Auspex array",
+     "pts": 0,
+     "group": "Wargear Options",
+     "max": 1
+    },
+    {
+     "id": "infernum-halo-launcher",
+     "name": "Infernum halo-launcher",
+     "pts": 0,
+     "group": "Wargear Options",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Corvus Blackstar",
+     "stats": {
+      "M": "20+\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "14",
+      "LD": "6+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "armoured-hull",
+    "hurricane-bolter",
+    "twin-assault-cannon",
+    "twin-lascannon",
+    "blackstar-rocket-launcher",
+    "stormstrike-missile-launcher"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Hover",
+    "Stealth",
+    "Mission Tactics",
+    "Oath of Moment",
+    "Blackstar Cluster Launcher",
+    "Damaged: 1-5 Wounds Remaining",
+    "Transport",
+    "Auspex Array",
+    "Ignores Cover",
+    "Infernum Halo-launcher"
+   ]
+  }
+ ]
+}

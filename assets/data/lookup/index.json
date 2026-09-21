@@ -1,0 +1,251 @@
+{
+ "generated": "2026-09-21",
+ "source": "BSData/wh40k-10e",
+ "factions": [
+  {
+   "id": "adepta-sororitas",
+   "name": "Adepta Sororitas",
+   "file": "adepta-sororitas.json",
+   "datasheets": 46,
+   "weapons": 109
+  },
+  {
+   "id": "adeptus-custodes",
+   "name": "Adeptus Custodes",
+   "file": "adeptus-custodes.json",
+   "datasheets": 34,
+   "weapons": 84
+  },
+  {
+   "id": "adeptus-mechanicus",
+   "name": "Adeptus Mechanicus",
+   "file": "adeptus-mechanicus.json",
+   "datasheets": 41,
+   "weapons": 124
+  },
+  {
+   "id": "agents-of-the-imperium",
+   "name": "Agents of the Imperium",
+   "file": "agents-of-the-imperium.json",
+   "datasheets": 55,
+   "weapons": 211
+  },
+  {
+   "id": "astra-militarum",
+   "name": "Astra Militarum",
+   "file": "astra-militarum.json",
+   "datasheets": 137,
+   "weapons": 295
+  },
+  {
+   "id": "black-templars",
+   "name": "Black Templars",
+   "file": "black-templars.json",
+   "datasheets": 19,
+   "weapons": 34
+  },
+  {
+   "id": "blood-angels",
+   "name": "Blood Angels",
+   "file": "blood-angels.json",
+   "datasheets": 27,
+   "weapons": 44
+  },
+  {
+   "id": "chaos-daemons",
+   "name": "Chaos Daemons",
+   "file": "chaos-daemons.json",
+   "datasheets": 31,
+   "weapons": 108
+  },
+  {
+   "id": "chaos-knights",
+   "name": "Chaos Knights",
+   "file": "chaos-knights.json",
+   "datasheets": 17,
+   "weapons": 61
+  },
+  {
+   "id": "chaos-space-marines",
+   "name": "Chaos Space Marines",
+   "file": "chaos-space-marines.json",
+   "datasheets": 83,
+   "weapons": 257
+  },
+  {
+   "id": "craftworlds",
+   "name": "Craftworlds",
+   "file": "craftworlds.json",
+   "datasheets": 99,
+   "weapons": 282
+  },
+  {
+   "id": "dark-angels",
+   "name": "Dark Angels",
+   "file": "dark-angels.json",
+   "datasheets": 19,
+   "weapons": 62
+  },
+  {
+   "id": "death-guard",
+   "name": "Death Guard",
+   "file": "death-guard.json",
+   "datasheets": 50,
+   "weapons": 150
+  },
+  {
+   "id": "deathwatch",
+   "name": "Deathwatch",
+   "file": "deathwatch.json",
+   "datasheets": 16,
+   "weapons": 69
+  },
+  {
+   "id": "drukhari",
+   "name": "Drukhari",
+   "file": "drukhari.json",
+   "datasheets": 48,
+   "weapons": 160
+  },
+  {
+   "id": "emperors-children",
+   "name": "Emperor's Children",
+   "file": "emperors-children.json",
+   "datasheets": 26,
+   "weapons": 77
+  },
+  {
+   "id": "genestealer-cults",
+   "name": "Genestealer Cults",
+   "file": "genestealer-cults.json",
+   "datasheets": 28,
+   "weapons": 63
+  },
+  {
+   "id": "grey-knights",
+   "name": "Grey Knights",
+   "file": "grey-knights.json",
+   "datasheets": 35,
+   "weapons": 84
+  },
+  {
+   "id": "imperial-fists",
+   "name": "Imperial Fists",
+   "file": "imperial-fists.json",
+   "datasheets": 3,
+   "weapons": 5
+  },
+  {
+   "id": "imperial-knights",
+   "name": "Imperial Knights",
+   "file": "imperial-knights.json",
+   "datasheets": 5,
+   "weapons": 19
+  },
+  {
+   "id": "iron-hands",
+   "name": "Iron Hands",
+   "file": "iron-hands.json",
+   "datasheets": 2,
+   "weapons": 5
+  },
+  {
+   "id": "leagues-of-votann",
+   "name": "Leagues of Votann",
+   "file": "leagues-of-votann.json",
+   "datasheets": 25,
+   "weapons": 78
+  },
+  {
+   "id": "necrons",
+   "name": "Necrons",
+   "file": "necrons.json",
+   "datasheets": 66,
+   "weapons": 137
+  },
+  {
+   "id": "orks",
+   "name": "Orks",
+   "file": "orks.json",
+   "datasheets": 98,
+   "weapons": 210
+  },
+  {
+   "id": "raven-guard",
+   "name": "Raven Guard",
+   "file": "raven-guard.json",
+   "datasheets": 2,
+   "weapons": 3
+  },
+  {
+   "id": "salamanders",
+   "name": "Salamanders",
+   "file": "salamanders.json",
+   "datasheets": 2,
+   "weapons": 4
+  },
+  {
+   "id": "space-marines",
+   "name": "Space Marines",
+   "file": "space-marines.json",
+   "datasheets": 129,
+   "weapons": 304
+  },
+  {
+   "id": "space-wolves",
+   "name": "Space Wolves",
+   "file": "space-wolves.json",
+   "datasheets": 46,
+   "weapons": 99
+  },
+  {
+   "id": "tau-empire",
+   "name": "T'au Empire",
+   "file": "tau-empire.json",
+   "datasheets": 66,
+   "weapons": 183
+  },
+  {
+   "id": "thousand-sons",
+   "name": "Thousand Sons",
+   "file": "thousand-sons.json",
+   "datasheets": 42,
+   "weapons": 129
+  },
+  {
+   "id": "tyranids",
+   "name": "Tyranids",
+   "file": "tyranids.json",
+   "datasheets": 44,
+   "weapons": 93
+  },
+  {
+   "id": "ultramarines",
+   "name": "Ultramarines",
+   "file": "ultramarines.json",
+   "datasheets": 16,
+   "weapons": 34
+  },
+  {
+   "id": "white-scars",
+   "name": "White Scars",
+   "file": "white-scars.json",
+   "datasheets": 2,
+   "weapons": 4
+  },
+  {
+   "id": "world-eaters",
+   "name": "World Eaters",
+   "file": "world-eaters.json",
+   "datasheets": 36,
+   "weapons": 97
+  },
+  {
+   "id": "ynnari",
+   "name": "Ynnari",
+   "file": "ynnari.json",
+   "datasheets": 90,
+   "weapons": 277
+  }
+ ]
+}

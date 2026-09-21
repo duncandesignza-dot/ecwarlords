@@ -1,0 +1,4429 @@
+{
+ "id": "adepta-sororitas",
+ "name": "Adepta Sororitas",
+ "source": "BSData/wh40k-10e",
+ "revision": "111",
+ "enhancements": [
+  {
+   "id": "army-of-faith",
+   "name": "Army of Faith",
+   "enhancements": [
+    {
+     "id": "divine-aspect",
+     "name": "Divine Aspect",
+     "pts": 5
+    },
+    {
+     "id": "triptych-of-the-macharian-crusade",
+     "name": "Triptych of the Macharian Crusade",
+     "pts": 20
+    },
+    {
+     "id": "blade-of-saint-ellynor",
+     "name": "Blade of Saint Ellynor",
+     "pts": 15
+    },
+    {
+     "id": "litanies-of-faith",
+     "name": "Litanies of Faith",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "hallowed-martyrs",
+   "name": "Hallowed Martyrs",
+   "enhancements": [
+    {
+     "id": "saintly-example",
+     "name": "Saintly Example",
+     "pts": 10
+    },
+    {
+     "id": "through-suffering-strength",
+     "name": "Through Suffering, Strength",
+     "pts": 25
+    },
+    {
+     "id": "chaplet-of-sacrifice",
+     "name": "Chaplet of Sacrifice",
+     "pts": 25
+    },
+    {
+     "id": "mantle-of-ophelia",
+     "name": "Mantle of Ophelia",
+     "pts": 20
+    }
+   ]
+  },
+  {
+   "id": "penitent-host",
+   "name": "Penitent Host",
+   "enhancements": [
+    {
+     "id": "catechism-of-divine-penitence",
+     "name": "Catechism of Divine Penitence",
+     "pts": 20
+    },
+    {
+     "id": "psalm-of-righteous-judgement",
+     "name": "Psalm of Righteous Judgement",
+     "pts": 30
+    },
+    {
+     "id": "verse-of-holy-piety",
+     "name": "Verse of Holy Piety",
+     "pts": 15
+    },
+    {
+     "id": "refrain-of-enduring-faith",
+     "name": "Refrain of Enduring Faith",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "bringers-of-flame",
+   "name": "Bringers of Flame",
+   "enhancements": [
+    {
+     "id": "iron-surplice-of-saint-istalela",
+     "name": "Iron Surplice of Saint Istalela",
+     "pts": 10
+    },
+    {
+     "id": "righteous-rage",
+     "name": "Righteous Rage",
+     "pts": 15
+    },
+    {
+     "id": "manual-of-saint-griselda",
+     "name": "Manual of Saint Griselda",
+     "pts": 20
+    },
+    {
+     "id": "fire-and-fury",
+     "name": "Fire and Fury",
+     "pts": 30
+    }
+   ]
+  },
+  {
+   "id": "champions-of-faith",
+   "name": "Champions of Faith",
+   "enhancements": [
+    {
+     "id": "triptych-of-judgement",
+     "name": "Triptych of Judgement",
+     "pts": 15
+    },
+    {
+     "id": "mark-of-devotion",
+     "name": "Mark of Devotion",
+     "pts": 30
+    },
+    {
+     "id": "eyes-of-the-oracle",
+     "name": "Eyes of the Oracle",
+     "pts": 10
+    },
+    {
+     "id": "sanctified-amulet",
+     "name": "Sanctified Amulet",
+     "pts": 25
+    }
+   ]
+  }
+ ],
+ "weapons": [
+  {
+   "id": "blade-of-vigil",
+   "name": "Blade of Vigil",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "scribe-s-staff",
+   "name": "Scribe's staff",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "arco-flails",
+   "name": "Arco-flails",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "boltgun",
+   "name": "Boltgun",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "brazier-of-holy-fire",
+   "name": "Brazier of Holy Fire",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Ignores Cover, One Shot, Torrent"
+   }
+  },
+  {
+   "id": "blessed-blade",
+   "name": "Blessed blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "power-weapon",
+   "name": "Power weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "hallowed-chainsword",
+   "name": "Hallowed Chainsword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "3",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "bolt-pistol",
+   "name": "Bolt Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "condemnor-boltgun",
+   "name": "Condemnor boltgun",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-Psyker 2+, Devastating Wounds, Precision, Rapid Fire 1"
+   }
+  },
+  {
+   "id": "inferno-pistol",
+   "name": "Inferno Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "6\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "8",
+    "AP": "-4",
+    "D": "D3",
+    "Keywords": "Melta 2, Pistol"
+   }
+  },
+  {
+   "id": "plasma-pistol-standard",
+   "name": "➤ Plasma pistol - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "plasma-pistol-supercharge",
+   "name": "➤ Plasma pistol - supercharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Hazardous, Pistol"
+   }
+  },
+  {
+   "id": "heavy-bolter",
+   "name": "Heavy bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "castigator-autocannons",
+   "name": "Castigator autocannons",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "4",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "Twin-Linked, Rapid Fire 4"
+   }
+  },
+  {
+   "id": "castigator-battle-cannon",
+   "name": "Castigator battle cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6+3",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "Blast, Ignores Cover"
+   }
+  },
+  {
+   "id": "armoured-tracks",
+   "name": "Armoured tracks",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "storm-bolter",
+   "name": "Storm bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 2"
+   }
+  },
+  {
+   "id": "hunter-killer-missile",
+   "name": "Hunter-killer missile",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "14",
+    "AP": "-3",
+    "D": "D6",
+    "Keywords": "One Shot"
+   }
+  },
+  {
+   "id": "anointed-halberd",
+   "name": "Anointed Halberd",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "spear-of-the-faithful",
+   "name": "Spear of the Faithful",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "hallowed-mace",
+   "name": "Hallowed Mace",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "sanctity",
+   "name": "Sanctity",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Anti-Chaos 2+, Precision"
+   }
+  },
+  {
+   "id": "the-outcast-s-blades",
+   "name": "The Outcast's Blades",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Precision"
+   }
+  },
+  {
+   "id": "dialogus-staff",
+   "name": "Dialogus staff",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "mace-of-the-righteous",
+   "name": "Mace of the Righteous",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "artificer-crafted-storm-bolter",
+   "name": "Artificer-crafted storm bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "Rapid Fire 2, Assault"
+   }
+  },
+  {
+   "id": "meltagun",
+   "name": "Meltagun",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2, Assault"
+   }
+  },
+  {
+   "id": "ministorum-flamer",
+   "name": "Ministorum flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault, Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "heavy-bolter",
+   "name": "Heavy Bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "exorcist-missile-launcher",
+   "name": "Exorcist Missile Launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D6+2",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-3",
+    "D": "D6",
+    "Keywords": "Indirect Fire"
+   }
+  },
+  {
+   "id": "exorcist-conflagration-rockets",
+   "name": "Exorcist Conflagration Rockets",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3D6",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Blast, Ignores Cover, Indirect Fire"
+   }
+  },
+  {
+   "id": "chirugeon-s-tools",
+   "name": "Chirugeon's tools",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "close-combat-weapon",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "immolation-flamers",
+   "name": "Immolation Flamers",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "twin-heavy-bolter",
+   "name": "Twin Heavy Bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Sustained Hits 2, Twin-Linked"
+   }
+  },
+  {
+   "id": "twin-multi-melta",
+   "name": "Twin Multi-melta",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2, Twin-Linked"
+   }
+  },
+  {
+   "id": "twin-ministorum-heavy-flamer",
+   "name": "Twin Ministorum Heavy Flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent, Twin-Linked"
+   }
+  },
+  {
+   "id": "mace-of-castigation",
+   "name": "Mace of Castigation",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-penitent-buzz-blades",
+   "name": "Twin Penitent Buzz-Blades",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "10",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Sustained Hits 1,Twin-Linked"
+   }
+  },
+  {
+   "id": "twin-penitent-flails",
+   "name": "Twin Penitent Flails",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Sustained Hits 1, Twin-Linked"
+   }
+  },
+  {
+   "id": "penitent-buzz-blade",
+   "name": "Penitent Buzz-Blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "10",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "penitent-flail",
+   "name": "Penitent Flail",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "mortifier-flamer",
+   "name": "Mortifier flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "n/a",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent, Twin-Linked"
+   }
+  },
+  {
+   "id": "lance-of-illumination-strike",
+   "name": "➤ Lance of Illumination - strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "lance-of-illumination-sweep",
+   "name": "➤ Lance of Illumination - sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "10",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "fidelis",
+   "name": "Fidelis",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "paragon-missile-launcher-prioris",
+   "name": "➤ Paragon missile launcher - prioris",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "paragon-missile-launcher-sanctorum",
+   "name": "➤ Paragon missile launcher - sanctorum",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "2D6",
+    "BS": "2+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "palatine-blade",
+   "name": "Palatine blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "paragon-storm-bolters",
+   "name": "Paragon Storm Bolters",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 2, Twin-Linked"
+   }
+  },
+  {
+   "id": "paragon-grenade-launchers",
+   "name": "Paragon Grenade Launchers",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D3",
+    "Keywords": "Twin-Linked"
+   }
+  },
+  {
+   "id": "paragon-war-blade",
+   "name": "Paragon War Blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "paragon-war-mace",
+   "name": "Paragon War Mace",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "12",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "multi-melta",
+   "name": "Multi-melta",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2"
+   }
+  },
+  {
+   "id": "ministorum-heavy-flamer",
+   "name": "Ministorum heavy flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "penitent-flamers",
+   "name": "Penitent Flamers",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "2D6",
+    "BS": "N/A",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault, Ignores Cover, Torrent, Twin-Linked"
+   }
+  },
+  {
+   "id": "twin-penitent-buzz-blades-2",
+   "name": "Twin Penitent Buzz-Blades",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "10",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Sustained Hits 1, Twin-Linked"
+   }
+  },
+  {
+   "id": "twin-penitent-flails-2",
+   "name": "Twin Penitent Flails",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Sustained Hits 1, Twin-Linked"
+   }
+  },
+  {
+   "id": "penitent-buzz-blade-2",
+   "name": "Penitent Buzz-Blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "10",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "penitent-flail-2",
+   "name": "Penitent Flail",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "holy-pistol",
+   "name": "Holy Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "power-weapon-2",
+   "name": "Power weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "zealot-s-vindictor",
+   "name": "Zealot's vindictor",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "zealot-s-vindictor-2",
+   "name": "Zealot's vindictor",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "penitent-eviscerator",
+   "name": "Penitent Eviscerator",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "neural-whips",
+   "name": "Neural Whips",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "3",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Anti-Infantry 4+"
+   }
+  },
+  {
+   "id": "multi-melta-2",
+   "name": "Multi-melta",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Heavy, Melta 2"
+   }
+  },
+  {
+   "id": "heavy-bolter-2",
+   "name": "Heavy bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Heavy, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "the-ardent-blade",
+   "name": "The Ardent Blade",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "the-ardent-blade-2",
+   "name": "The Ardent Blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "power-weapon",
+   "name": "Power Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "bolt-pistol-2",
+   "name": "Bolt Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "power-weapon-2",
+   "name": "Power Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "chainsword",
+   "name": "Chainsword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "inferno-pistol-2",
+   "name": "Inferno Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "6\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-4",
+    "D": "D3",
+    "Keywords": "Melta 2, Pistol"
+   }
+  },
+  {
+   "id": "plasma-pistol-supercharge-2",
+   "name": "➤ Plasma pistol - supercharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Hazardous, Pistol"
+   }
+  },
+  {
+   "id": "plasma-pistol-standard-2",
+   "name": "➤ Plasma pistol - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "close-combat-weapon-2",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "ministorum-hand-flamer",
+   "name": "Ministorum hand flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Ignores Cover, Pistol, Torrent"
+   }
+  },
+  {
+   "id": "novitiate-autogun",
+   "name": "Novitiate autogun",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "novitiate-melee-weapon",
+   "name": "Novitiate melee weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "ministorum-flamer-2",
+   "name": "Ministorum flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "bolt-pistols",
+   "name": "Bolt Pistols",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "6",
+    "BS": "2+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "relic-weapons",
+   "name": "Relic Weapons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "18",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "dozer-ram",
+   "name": "Dozer Ram",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "7",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "repressor-twin-heavy-flamer",
+   "name": "Repressor twin heavy flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent, Twin-Linked"
+   }
+  },
+  {
+   "id": "heavy-flamer",
+   "name": "Heavy flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "blessed-halberd",
+   "name": "Blessed Halberd",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "holy-eviscerator",
+   "name": "Holy Eviscerator",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "death-cult-power-blades",
+   "name": "Death Cult power blades",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Precision"
+   }
+  },
+  {
+   "id": "power-weapon-3",
+   "name": "Power Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "the-thorn-of-the-white-rose",
+   "name": "The Thorn of the White Rose",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "plasma-gun-standard",
+   "name": "➤ Plasma gun - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "plasma-gun-supercharge",
+   "name": "➤ Plasma gun - supercharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Hazardous, Rapid Fire 1"
+   }
+  },
+  {
+   "id": "meltagun-2",
+   "name": "Meltagun",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2"
+   }
+  },
+  {
+   "id": "holy-fire",
+   "name": "Holy fire",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Ignores Cover, One Shot, Torrent"
+   }
+  },
+  {
+   "id": "burning-hands",
+   "name": "Burning hands",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "death-cult-blades",
+   "name": "Death Cult blades",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Precision"
+   }
+  },
+  {
+   "id": "sanctifier-melee-weapon",
+   "name": "Sanctifier melee weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "blessed-sword",
+   "name": "Blessed sword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "virge-of-admonition",
+   "name": "Virge of Admonition",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Anti-PSYKER 4+, Devastating Wounds"
+   }
+  },
+  {
+   "id": "null-mace",
+   "name": "Null mace",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Anti-PSYKER 4+, Devastating Wounds"
+   }
+  },
+  {
+   "id": "inferno-pistol",
+   "name": "Inferno pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "6\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-4",
+    "D": "D3",
+    "Keywords": "Melta 2, Pistol"
+   }
+  },
+  {
+   "id": "condemnor-bolt-pistol",
+   "name": "Condemnor bolt pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-PSYKER 4+, Devastating Wounds, Pistol"
+   }
+  },
+  {
+   "id": "heavy-bolter-3",
+   "name": "Heavy bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "melta-missile-array",
+   "name": "Melta missile array",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D3",
+    "Keywords": "Melta 2"
+   }
+  },
+  {
+   "id": "mace-of-saint-praxedes",
+   "name": "Mace of Saint Praxedes",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "throne-of-blame",
+   "name": "Throne of Blame",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Extra Attacks"
+   }
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "battle-sisters-squad",
+   "name": "Battle Sisters Squad",
+   "role": "Battleline",
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Grenades",
+    "Battle Sisters Squad",
+    "Imperium"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 9,
+     "pts": 105
+    }
+   ],
+   "minModels": 9,
+   "maxModels": 9,
+   "wargear": [],
+   "stats": [],
+   "weapons": [
+    "boltgun"
+   ],
+   "abilities": [
+    "Battle Sister",
+    "Defenders of the Faith",
+    "Invulnerable Save",
+    "Cherub",
+    "Acts of Faith"
+   ]
+  },
+  {
+   "id": "canoness",
+   "name": "Canoness",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Canoness"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 60
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "null-rod",
+     "name": "Null Rod",
+     "pts": 0,
+     "group": "May have:",
+     "max": 1
+    },
+    {
+     "id": "brazier-of-holy-fire",
+     "name": "Brazier of Holy Fire",
+     "pts": 0,
+     "group": "May have:",
+     "max": 1
+    },
+    {
+     "id": "rod-of-office",
+     "name": "Rod of Office",
+     "pts": 0,
+     "group": "May have:",
+     "max": 1
+    },
+    {
+     "id": "blessed-blade",
+     "name": "Blessed blade",
+     "pts": 0,
+     "group": "Melee Weapon",
+     "max": 1
+    },
+    {
+     "id": "power-weapon",
+     "name": "Power weapon",
+     "pts": 0,
+     "group": "Melee Weapon",
+     "max": 1
+    },
+    {
+     "id": "hallowed-chainsword",
+     "name": "Hallowed Chainsword",
+     "pts": 0,
+     "group": "Melee Weapon",
+     "max": null
+    },
+    {
+     "id": "bolt-pistol",
+     "name": "Bolt Pistol",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": 1
+    },
+    {
+     "id": "condemnor-boltgun",
+     "name": "Condemnor boltgun",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": 1
+    },
+    {
+     "id": "inferno-pistol",
+     "name": "Inferno pistol",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": 1
+    },
+    {
+     "id": "plasma-pistol",
+     "name": "Plasma pistol",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Canoness",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "brazier-of-holy-fire",
+    "blessed-blade",
+    "power-weapon",
+    "hallowed-chainsword",
+    "bolt-pistol",
+    "condemnor-boltgun",
+    "inferno-pistol",
+    "plasma-pistol-standard",
+    "plasma-pistol-supercharge"
+   ],
+   "abilities": [
+    "Acts of Faith",
+    "Sacred Command",
+    "Null Rod",
+    "Rod of Office",
+    "The Emperor's Grace",
+    "Invulnerable Save",
+    "Leader"
+   ]
+  },
+  {
+   "id": "canoness-with-jump-pack",
+   "name": "Canoness with Jump Pack",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Canoness",
+    "Jump Pack",
+    "Fly",
+    "Imperium"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "blessed-halberd",
+     "name": "Blessed Halberd",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "ministorum-hand-flamer-and-power-weapon",
+     "name": "Ministorum Hand Flamer and Power Weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "holy-eviscerator",
+     "name": "Holy Eviscerator",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Canoness with Jump Pack",
+     "stats": {
+      "M": "12\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "blessed-halberd",
+    "power-weapon",
+    "holy-eviscerator",
+    "ministorum-hand-flamer"
+   ],
+   "abilities": [
+    "Acts of Faith",
+    "Deep Strike",
+    "Sacred Command",
+    "Divine Deliverance",
+    "Invulnerable Save",
+    "Leader"
+   ]
+  },
+  {
+   "id": "dialogus",
+   "name": "Dialogus",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Imperium",
+    "Dialogus"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 40
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "dialogus-staff",
+     "name": "Dialogus Staff",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Dialogus",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "dialogus-staff"
+   ],
+   "abilities": [
+    "Leader",
+    "Laud Hailer",
+    "Stirring Rhetoric",
+    "Invulnerable Save",
+    "Acts of Faith"
+   ]
+  },
+  {
+   "id": "dogmata",
+   "name": "Dogmata",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Imperium",
+    "Dogmata"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 45
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "mace-of-the-righteous",
+     "name": "Mace of the Righteous",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Dogmata",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "mace-of-the-righteous"
+   ],
+   "abilities": [
+    "Executioner of Heretics (Aura)",
+    "Unflinching Determination",
+    "Invulnerable Save",
+    "Leader",
+    "Acts of Faith"
+   ]
+  },
+  {
+   "id": "hospitaller",
+   "name": "Hospitaller",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Imperium",
+    "Hospitaller"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 60
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "chirugeon-s-tools",
+     "name": "Chirugeon's tools",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Hospitaller",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "chirugeon-s-tools"
+   ],
+   "abilities": [
+    "Leader",
+    "Medicus Ministorum",
+    "Sacred Healing",
+    "Invulnerable Save",
+    "Acts of Faith"
+   ]
+  },
+  {
+   "id": "imagifier",
+   "name": "Imagifier",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Imperium",
+    "Imagifier"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "close-combat-weapon",
+     "name": "Close combat weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Imagifier",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon",
+    "boltgun"
+   ],
+   "abilities": [
+    "Leader",
+    "Acts of Faith",
+    "Litany of Deeds",
+    "Stanchion of Holy Martyrs",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "inspiring-devotee",
+   "name": "Inspiring Devotee [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Crucible",
+    "Inspiring Devotee"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 50
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Inspiring Devotee",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Sacred Devotions",
+    "Leader",
+    "Invulnerable Save (6+)",
+    "Acts of Faith"
+   ]
+  },
+  {
+   "id": "militant-commander",
+   "name": "Militant Commander [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Canoness",
+    "Militant Commander",
+    "Crucible"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Militant Commander",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Sacred Command",
+    "Leader",
+    "Invulnerable Save (4+)",
+    "Acts of Faith"
+   ]
+  },
+  {
+   "id": "ministorum-priest",
+   "name": "Ministorum Priest",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Imperium",
+    "Ministorum Priest",
+    "Penitent"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 50
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "holy-pistol-and-power-weapon",
+     "name": "Holy Pistol and Power Weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "zealot-s-vindictor",
+     "name": "Zealot's vindictor",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Ministorum Priest",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "holy-pistol",
+    "power-weapon-2",
+    "zealot-s-vindictor",
+    "zealot-s-vindictor-2"
+   ],
+   "abilities": [
+    "Acts of Faith",
+    "Leader",
+    "Righteous Smiting",
+    "Zealot",
+    "Holy Mission",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "palatine",
+   "name": "Palatine",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Imperium",
+    "Palatine"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 50
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "palatine-blade",
+     "name": "Palatine blade",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "bolt-pistol",
+     "name": "Bolt pistol",
+     "pts": 0,
+     "group": "Pistols",
+     "max": 1
+    },
+    {
+     "id": "plasma-pistol",
+     "name": "Plasma pistol",
+     "pts": 0,
+     "group": "Pistols",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Palatine",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "palatine-blade",
+    "plasma-pistol-supercharge",
+    "plasma-pistol-standard"
+   ],
+   "abilities": [
+    "Acts of Faith",
+    "Leader",
+    "Bolt pistol",
+    "Fury of the Righteous",
+    "Rapturous Blows",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "reliquant-knight",
+   "name": "Reliquant Knight [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Grenades",
+    "Imperium",
+    "Crucible",
+    "Vehicle",
+    "Walker",
+    "Reliquant Knight",
+    "Paragon Warsuits"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Reliquant Knight",
+     "stats": {
+      "M": "8\"",
+      "T": "7",
+      "SV": "2+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Adamant Wrath",
+    "Leader",
+    "Invulnerable Save (4+)",
+    "Acts of Faith"
+   ]
+  },
+  {
+   "id": "aestred-thurga-and-agathae-dolan",
+   "name": "Aestred Thurga and Agathae Dolan",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Aestred Thurga and Agathae Dolan",
+    "Character",
+    "Imperium",
+    "Grenades",
+    "Infantry"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Aestred Thurga",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Agathae Dolan",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "blade-of-vigil",
+    "scribe-s-staff"
+   ],
+   "abilities": [
+    "Auto-Tapestry of the Emperor's Judgement",
+    "Bolt pistol",
+    "Pistol",
+    "Recount the Deeds of the Saints",
+    "Invulnerable Save",
+    "Acts of Faith",
+    "Leader"
+   ]
+  },
+  {
+   "id": "celestian-sacresant-aveline",
+   "name": "Celestian Sacresant Aveline",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Infantry",
+    "Character",
+    "Imperium",
+    "Grenades",
+    "Celestian Sacresant Aveline"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Celestian Sacresant Aveline",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "the-thorn-of-the-white-rose",
+    "ministorum-hand-flamer"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Instrument of the Emperor's Wrath",
+    "Daemonbreaker",
+    "Feel No Pain",
+    "Lone Operative",
+    "Acts of Faith"
+   ]
+  },
+  {
+   "id": "daemonifuge",
+   "name": "Daemonifuge",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Infantry",
+    "Grenades",
+    "Character",
+    "Imperium",
+    "Daemonifuge"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Ephrael Stern",
+     "stats": {
+      "M": "8\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Kyganil of the Bloody Tears",
+     "stats": {
+      "M": "8\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "sanctity",
+    "the-outcast-s-blades"
+   ],
+   "abilities": [
+    "Holy Judgement",
+    "Mysterious Saviours",
+    "Invulnerable Save",
+    "Acts of Faith",
+    "Fights First",
+    "Lone Operative",
+    "Deep Strike"
+   ]
+  },
+  {
+   "id": "intranzia-fraye",
+   "name": "Intranzia Fraye",
+   "role": "Epic Hero",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Imperium",
+    "Character",
+    "Penitent",
+    "Epic Hero",
+    "Intranzia Fraye"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 150
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "heavy-bolter",
+     "name": "Heavy bolter",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    },
+    {
+     "id": "melta-missile-array",
+     "name": "Melta missile array",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "mace-of-saint-praxedes",
+     "name": "Mace of Saint Praxedes",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "throne-of-blame",
+     "name": "Throne of Blame",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Intranzia Fraye",
+     "stats": {
+      "M": "8\"",
+      "T": "7",
+      "SV": "3+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "heavy-bolter-3",
+    "melta-missile-array",
+    "mace-of-saint-praxedes",
+    "throne-of-blame",
+    "ministorum-heavy-flamer"
+   ],
+   "abilities": [
+    "Acts of Faith",
+    "Deadly Demise",
+    "Invulnerable Save (4+)",
+    "Feel No Pain",
+    "Righteous Denunciation",
+    "Judged for Execution"
+   ]
+  },
+  {
+   "id": "junith-eruita",
+   "name": "Junith Eruita",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Fly",
+    "Imperium",
+    "Junith Eruita",
+    "Mounted"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Junith Eruita",
+     "stats": {
+      "M": "8\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-ministorum-heavy-flamer",
+    "mace-of-castigation"
+   ],
+   "abilities": [
+    "Acts of Faith",
+    "Deadly Demise",
+    "Leader",
+    "The Pulpit of Saint Holline’s Basilica",
+    "Fiery Conviction",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "morvenn-vahl",
+   "name": "Morvenn Vahl",
+   "role": "Epic Hero",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Character",
+    "Epic Hero",
+    "Imperium",
+    "Morvenn Vahl"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 185
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Morvenn Vahl",
+     "stats": {
+      "M": "8\"",
+      "T": "7",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "lance-of-illumination-strike",
+    "lance-of-illumination-sweep",
+    "fidelis",
+    "paragon-missile-launcher-prioris",
+    "paragon-missile-launcher-sanctorum"
+   ],
+   "abilities": [
+    "Acts of Faith",
+    "Deadly Demise",
+    "Leader",
+    "Abbess Sanctorum",
+    "Righteous Repugnance",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "saint-celestine",
+   "name": "Saint Celestine",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Fly",
+    "Grenades",
+    "Imperium",
+    "Epic Hero",
+    "Jump Pack"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 150
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Saint Celestine",
+     "stats": {
+      "M": "12\"",
+      "T": "3",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Geminae Superia",
+     "stats": {
+      "M": "12\"",
+      "T": "3",
+      "SV": "2",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "the-ardent-blade",
+    "the-ardent-blade-2",
+    "power-weapon",
+    "bolt-pistol-2"
+   ],
+   "abilities": [
+    "Acts of Faith",
+    "Deep Strike",
+    "Leader",
+    "Healing Tears",
+    "Lifewards",
+    "Miraculous Intervention",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "triumph-of-saint-katherine",
+   "name": "Triumph of Saint Katherine",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Character",
+    "Epic Hero",
+    "Imperium",
+    "Triumph of Saint Katherine"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 235
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Triumph of Saint Katherine",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "18",
+      "LD": "6+",
+      "OC": "6"
+     }
+    }
+   ],
+   "weapons": [
+    "bolt-pistols",
+    "relic-weapons"
+   ],
+   "abilities": [
+    "Acts of Faith",
+    "Leader",
+    "Damaged: 1-6 Wounds Remaining",
+    "Relics of the Matriarchs",
+    "Relic of the Matriarch - The Fiery Heart (Aura)",
+    "Relic of the Matriarch - Censer of the Sacred Rose (Aura)",
+    "Relic of the Matriarch - Simulacrum of the Ebon Chalice (Aura)",
+    "Relic of the Matriarch - Simulacrum of the Argent Shroud (Aura)",
+    "Relic of the Matriarch - Icon of the Valorous Heart (Aura)",
+    "Relic of the Matriarch - Petals of the Bloody Rose (Aura)",
+    "Solemn Procession",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "battle-sanctum",
+   "name": "Battle Sanctum",
+   "role": "Fortification",
+   "keywords": [
+    "Fortification",
+    "Imperium",
+    "Towering",
+    "Battle Sanctum"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 170
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Battle Sanctum",
+     "stats": {
+      "M": "-",
+      "T": "11",
+      "SV": "3+",
+      "W": "20",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Consecrated Ground",
+    "Holy Cover",
+    "Acts of Faith",
+    "Deadly Demise"
+   ]
+  },
+  {
+   "id": "arco-flagellants",
+   "name": "Arco-Flagellants",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Imperium",
+    "Penitent"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 45
+    },
+    {
+     "count": 4,
+     "pts": 140
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Arco-Flagellants",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "7+",
+      "W": "2",
+      "LD": "8+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "arco-flails"
+   ],
+   "abilities": [
+    "Acts of Faith",
+    "Feel No Pain",
+    "Extremis Trigger Word",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "celestian-insidiants",
+   "name": "Celestian Insidiants",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Celestian Insidiants"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 9,
+     "pts": 120
+    }
+   ],
+   "minModels": 9,
+   "maxModels": 9,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Celestian Insidiants",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Celestian Insidiant Superior",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "blessed-sword",
+    "virge-of-admonition",
+    "null-mace",
+    "inferno-pistol",
+    "condemnor-bolt-pistol",
+    "ministorum-hand-flamer"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Rituale Nullificatus",
+    "Virtue of Intolerance",
+    "Attached Unit",
+    "Acts of Faith",
+    "Denuncia Oratory",
+    "Simulacrum Imperialis"
+   ]
+  },
+  {
+   "id": "celestian-sacresants",
+   "name": "Celestian Sacresants",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Celestian Sacresants"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    },
+    {
+     "count": 6,
+     "pts": 140
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "spear-of-the-faithful",
+     "name": "Spear of the Faithful",
+     "pts": 0,
+     "group": "Melee Weapon",
+     "max": null
+    }
+   ],
+   "stats": [],
+   "weapons": [
+    "spear-of-the-faithful",
+    "anointed-halberd",
+    "hallowed-mace"
+   ],
+   "abilities": [
+    "Sworn Protectors",
+    "Invulnerable Save",
+    "Acts of Faith",
+    "Celestian Sacresant"
+   ]
+  },
+  {
+   "id": "crusaders",
+   "name": "Crusaders",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Imperium",
+    "Crusaders"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 40
+    },
+    {
+     "count": 3,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Crusader",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "power-weapon-3"
+   ],
+   "abilities": [
+    "Acts of Faith",
+    "Spiritual Fortitude",
+    "Attached Unit",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "death-cult-assassins",
+   "name": "Death Cult Assassins",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Imperium",
+    "Death Cult Assassins"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 55
+    },
+    {
+     "count": 3,
+     "pts": 110
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [],
+   "weapons": [
+    "death-cult-power-blades"
+   ],
+   "abilities": [
+    "Acts of Faith",
+    "Fights First",
+    "Infiltrators",
+    "Lone Operative",
+    "Death Cult",
+    "Invulnerable Save",
+    "Death Cult Assassin"
+   ]
+  },
+  {
+   "id": "dominion-squad",
+   "name": "Dominion Squad",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Dominion Squad"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 9,
+     "pts": 120
+    }
+   ],
+   "minModels": 9,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "artificer-crafted-storm-bolter",
+     "name": "Artificer-crafted storm bolter",
+     "pts": 0,
+     "group": "Dominion Special Weapon",
+     "max": 1
+    },
+    {
+     "id": "meltagun",
+     "name": "Meltagun",
+     "pts": 0,
+     "group": "Dominion Special Weapon",
+     "max": 1
+    },
+    {
+     "id": "ministorum-flamer",
+     "name": "Ministorum Flamer",
+     "pts": 0,
+     "group": "Dominion Special Weapon",
+     "max": 1
+    }
+   ],
+   "stats": [],
+   "weapons": [
+    "artificer-crafted-storm-bolter",
+    "meltagun",
+    "ministorum-flamer",
+    "boltgun"
+   ],
+   "abilities": [
+    "Acts of Faith",
+    "Cherub",
+    "Scouts",
+    "Dominion Superior",
+    "Dominion",
+    "Holy Vanguard",
+    "Righteous Awareness",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "geminae-superia",
+   "name": "Geminae Superia",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Fly",
+    "Grenades",
+    "Imperium",
+    "Jump Pack"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Geminae Superia",
+     "stats": {
+      "M": "12\"",
+      "T": "3",
+      "SV": "2",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "power-weapon",
+    "bolt-pistol-2"
+   ],
+   "abilities": []
+  },
+  {
+   "id": "repentia-squad",
+   "name": "Repentia Squad",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Repentia Squad",
+    "Penitent"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    },
+    {
+     "count": 6,
+     "pts": 160
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [],
+   "weapons": [
+    "penitent-eviscerator",
+    "neural-whips"
+   ],
+   "abilities": [
+    "Acts of Faith",
+    "Feel No Pain",
+    "Sister Repentia",
+    "Repentia Superior",
+    "Overseer of Redemption",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "retributor-squad",
+   "name": "Retributor Squad",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Retributor Squad"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 4,
+     "pts": 120
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 4,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Retributor Superior",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Retributor",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "ministorum-heavy-flamer",
+    "multi-melta-2",
+    "heavy-bolter-2"
+   ],
+   "abilities": [
+    "Acts of Faith",
+    "Close combat weapon",
+    "Cherubs",
+    "Storm of Retribution",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "sanctifiers",
+   "name": "Sanctifiers",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Sanctifiers"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 110
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "plasma-gun",
+     "name": "Plasma gun",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "meltagun",
+     "name": "Meltagun",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Sanctifiers",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon-2",
+    "plasma-gun-standard",
+    "plasma-gun-supercharge",
+    "meltagun-2",
+    "holy-fire",
+    "burning-hands",
+    "death-cult-blades",
+    "ministorum-hand-flamer",
+    "sanctifier-melee-weapon"
+   ],
+   "abilities": [
+    "Ministorum Sermon",
+    "Cherub",
+    "Attached Unit",
+    "Invulnerable Save",
+    "Scouts",
+    "Assigned Agents",
+    "Acts of Faith",
+    "Simulacrum Imperialis",
+    "Salvationist Medikit"
+   ]
+  },
+  {
+   "id": "seraphim-squad",
+   "name": "Seraphim Squad",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Fly",
+    "Grenades",
+    "Imperium",
+    "Seraphim Squad",
+    "Jump Pack"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 4,
+     "pts": 80
+    },
+    {
+     "count": 9,
+     "pts": 160
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "2-bolt-pistols",
+     "name": "2 Bolt Pistols",
+     "pts": 0,
+     "group": "Weapons",
+     "max": 1
+    },
+    {
+     "id": "bolt-pistol-and-plasma-pistol",
+     "name": "Bolt Pistol and Plasma Pistol",
+     "pts": 0,
+     "group": "Weapons",
+     "max": 1
+    },
+    {
+     "id": "plasma-pistol-and-power-weapon",
+     "name": "Plasma Pistol and Power Weapon",
+     "pts": 0,
+     "group": "Weapons",
+     "max": 1
+    },
+    {
+     "id": "bolt-pistol-and-power-weapon",
+     "name": "Bolt Pistol and Power Weapon",
+     "pts": 0,
+     "group": "Weapons",
+     "max": 1
+    },
+    {
+     "id": "bolt-pistol-and-chainsword",
+     "name": "Bolt Pistol and Chainsword",
+     "pts": 0,
+     "group": "Weapons",
+     "max": 1
+    },
+    {
+     "id": "plasma-pistol-and-chainsword",
+     "name": "Plasma Pistol and Chainsword",
+     "pts": 0,
+     "group": "Weapons",
+     "max": 1
+    },
+    {
+     "id": "2x-ministorum-hand-flamers",
+     "name": "2x Ministorum Hand Flamers",
+     "pts": 0,
+     "group": "Special Weapon",
+     "max": 1
+    },
+    {
+     "id": "2x-inferno-pistols",
+     "name": "2x Inferno Pistols",
+     "pts": 0,
+     "group": "Special Weapon",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Seraphim",
+     "stats": {
+      "M": "12\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "power-weapon-2",
+    "chainsword",
+    "inferno-pistol-2",
+    "plasma-pistol-supercharge-2",
+    "plasma-pistol-standard-2",
+    "close-combat-weapon-2",
+    "ministorum-hand-flamer"
+   ],
+   "abilities": [
+    "Acts of Faith",
+    "Deep Strike",
+    "Angelic Ascent",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "sisters-novitiate-squad",
+   "name": "Sisters Novitiate Squad",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Sisters Novitiate Squad"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 9,
+     "pts": 100
+    }
+   ],
+   "minModels": 9,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "bolt-pistol-and-boltgun",
+     "name": "Bolt Pistol and Boltgun",
+     "pts": 0,
+     "group": "Weapons",
+     "max": 1
+    },
+    {
+     "id": "bolt-pistol-and-power-weapon",
+     "name": "Bolt Pistol and Power Weapon",
+     "pts": 0,
+     "group": "Weapons",
+     "max": 1
+    },
+    {
+     "id": "plasma-pistol-and-power-weapon",
+     "name": "Plasma Pistol and Power Weapon",
+     "pts": 0,
+     "group": "Weapons",
+     "max": 1
+    }
+   ],
+   "stats": [],
+   "weapons": [
+    "novitiate-autogun",
+    "novitiate-melee-weapon",
+    "ministorum-flamer-2",
+    "boltgun",
+    "plasma-pistol-supercharge-2",
+    "plasma-pistol-standard-2"
+   ],
+   "abilities": [
+    "Acts of Faith",
+    "Infiltrators",
+    "Sacred Banner",
+    "Sister Novitiate",
+    "Novitiate autopistol",
+    "Novitiate Superior",
+    "Impetuous Fervour",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "zephyrim-squad",
+   "name": "Zephyrim Squad",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Fly",
+    "Grenades",
+    "Imperium",
+    "Zephyrim Squad",
+    "Jump Pack"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    },
+    {
+     "count": 6,
+     "pts": 160
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Zephyrim Squad",
+     "stats": {
+      "M": "12\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "power-weapon-2",
+    "plasma-pistol-supercharge-2",
+    "plasma-pistol-standard-2"
+   ],
+   "abilities": [
+    "Acts of Faith",
+    "Deep Strike",
+    "Sacred Banner",
+    "Embodied Prophecy",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "celestian-sacresant-anointed-halberd",
+   "name": "Celestian Sacresant (Anointed Halberd)",
+   "role": "Other",
+   "keywords": [],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [],
+   "weapons": [
+    "anointed-halberd"
+   ],
+   "abilities": [
+    "Celestian Sacresant"
+   ]
+  },
+  {
+   "id": "celestian-sacresant-hallowed-mace",
+   "name": "Celestian Sacresant (Hallowed Mace)",
+   "role": "Other",
+   "keywords": [],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [],
+   "weapons": [
+    "hallowed-mace"
+   ],
+   "abilities": [
+    "Celestian Sacresant"
+   ]
+  },
+  {
+   "id": "sister-novitiate-autogun",
+   "name": "Sister Novitiate (Autogun)",
+   "role": "Other",
+   "keywords": [],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [],
+   "weapons": [
+    "novitiate-autogun"
+   ],
+   "abilities": [
+    "Sister Novitiate"
+   ]
+  },
+  {
+   "id": "sister-novitiate-melee-weapon",
+   "name": "Sister Novitiate (Melee Weapon)",
+   "role": "Other",
+   "keywords": [],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [],
+   "weapons": [
+    "novitiate-melee-weapon"
+   ],
+   "abilities": [
+    "Sister Novitiate"
+   ]
+  },
+  {
+   "id": "castigator",
+   "name": "Castigator",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Smoke",
+    "Imperium",
+    "Castigator"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 160
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "heavy-bolter",
+     "name": "Heavy bolter",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 3
+    },
+    {
+     "id": "castigator-autocannons",
+     "name": "Castigator autocannons",
+     "pts": 0,
+     "group": "Main gun",
+     "max": 1
+    },
+    {
+     "id": "castigator-battle-cannon",
+     "name": "Castigator battle cannon",
+     "pts": 0,
+     "group": "Main gun",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Castigator",
+     "stats": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "11",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "heavy-bolter",
+    "castigator-autocannons",
+    "castigator-battle-cannon",
+    "armoured-tracks",
+    "storm-bolter",
+    "hunter-killer-missile"
+   ],
+   "abilities": [
+    "Rites of Castigation",
+    "Damaged: 1-4 Wounds Remaining",
+    "Invulnerable Save",
+    "Acts of Faith",
+    "Deadly Demise"
+   ]
+  },
+  {
+   "id": "exorcist",
+   "name": "Exorcist",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Smoke",
+    "Imperium",
+    "Exorcist"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 210
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "heavy-bolter",
+     "name": "Heavy Bolter",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "exorcist-missile-launcher",
+     "name": "Exorcist Missile Launcher",
+     "pts": 0,
+     "group": "Main Weapon",
+     "max": 1
+    },
+    {
+     "id": "exorcist-conflagration-rockets",
+     "name": "Exorcist Conflagration Rockets",
+     "pts": 0,
+     "group": "Main Weapon",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Exorcist",
+     "stats": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "11",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "heavy-bolter",
+    "exorcist-missile-launcher",
+    "exorcist-conflagration-rockets",
+    "armoured-tracks",
+    "hunter-killer-missile"
+   ],
+   "abilities": [
+    "Acts of Faith",
+    "Deadly Demise",
+    "Damaged: 1-4 Wounds Remaining",
+    "Devastating Refrain",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "immolator",
+   "name": "Immolator",
+   "role": "Vehicle",
+   "keywords": [
+    "Dedicated Transport",
+    "Vehicle",
+    "Smoke",
+    "Transport",
+    "Imperium",
+    "Immolator"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 115
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "heavy-bolter",
+     "name": "Heavy Bolter",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "immolation-flamers",
+     "name": "Immolation Flamers",
+     "pts": 0,
+     "group": "Immolator Weapons",
+     "max": 1
+    },
+    {
+     "id": "twin-heavy-bolter",
+     "name": "Twin Heavy Bolter",
+     "pts": 0,
+     "group": "Immolator Weapons",
+     "max": 1
+    },
+    {
+     "id": "twin-multi-melta",
+     "name": "Twin Multi-melta",
+     "pts": 0,
+     "group": "Immolator Weapons",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Immolator",
+     "stats": {
+      "M": "12\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "11",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "heavy-bolter",
+    "immolation-flamers",
+    "twin-heavy-bolter",
+    "twin-multi-melta",
+    "armoured-tracks",
+    "hunter-killer-missile"
+   ],
+   "abilities": [
+    "Acts of Faith",
+    "Deadly Demise",
+    "Transport",
+    "Purge and Cleanse",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "mortifiers",
+   "name": "Mortifiers",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Imperium",
+    "Mortifiers",
+    "Penitent"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    },
+    {
+     "count": 2,
+     "pts": 140
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "anchorite-sarcophagus",
+     "name": "Anchorite Sarcophagus",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-penitent-buzz-blades",
+     "name": "Twin Penitent Buzz-Blades",
+     "pts": 0,
+     "group": "Melee Weapons",
+     "max": 1
+    },
+    {
+     "id": "twin-penitent-flails",
+     "name": "Twin Penitent Flails",
+     "pts": 0,
+     "group": "Melee Weapons",
+     "max": 1
+    },
+    {
+     "id": "penitent-buzz-blade-and-penitent-flail",
+     "name": "Penitent Buzz-Blade and Penitent Flail",
+     "pts": 0,
+     "group": "Melee Weapons",
+     "max": 1
+    },
+    {
+     "id": "2-heavy-bolters",
+     "name": "2 Heavy Bolters",
+     "pts": 0,
+     "group": "Ranged Weapons",
+     "max": 1
+    },
+    {
+     "id": "2-mortifier-flamers",
+     "name": "2 Mortifier Flamers",
+     "pts": 0,
+     "group": "Ranged Weapons",
+     "max": 1
+    },
+    {
+     "id": "heavy-bolter-and-mortifier-flamer",
+     "name": "Heavy Bolter and Mortifier Flamer",
+     "pts": 0,
+     "group": "Ranged Weapons",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Mortifier",
+     "stats": {
+      "M": "8\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-penitent-buzz-blades",
+    "twin-penitent-flails",
+    "penitent-buzz-blade",
+    "penitent-flail",
+    "heavy-bolter",
+    "mortifier-flamer"
+   ],
+   "abilities": [
+    "Acts of Faith",
+    "Deadly Demise",
+    "Feel No Pain",
+    "Anchorite Sarcophagus",
+    "Anguish of the Unredeemed",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "paragon-warsuits",
+   "name": "Paragon Warsuits",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Grenades",
+    "Imperium",
+    "Paragon Warsuits"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 210
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "paragon-storm-bolters",
+     "name": "Paragon Storm Bolters",
+     "pts": 0,
+     "group": "Paragon Carapace Weapon",
+     "max": 1
+    },
+    {
+     "id": "paragon-grenade-launchers",
+     "name": "Paragon Grenade Launchers",
+     "pts": 0,
+     "group": "Paragon Carapace Weapon",
+     "max": 1
+    },
+    {
+     "id": "paragon-war-blade",
+     "name": "Paragon War Blade",
+     "pts": 0,
+     "group": "Paragon Melee Weapon",
+     "max": 1
+    },
+    {
+     "id": "paragon-war-mace",
+     "name": "Paragon War Mace",
+     "pts": 0,
+     "group": "Paragon Melee Weapon",
+     "max": 1
+    },
+    {
+     "id": "heavy-bolter",
+     "name": "Heavy Bolter",
+     "pts": 0,
+     "group": "Paragon Ranged Weapon",
+     "max": 1
+    },
+    {
+     "id": "multi-melta",
+     "name": "Multi-melta",
+     "pts": 0,
+     "group": "Paragon Ranged Weapon",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Paragon Warsuit",
+     "stats": {
+      "M": "8\"",
+      "T": "7",
+      "SV": "2+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Paragon Superior",
+     "stats": {
+      "M": "8\"",
+      "T": "7",
+      "SV": "2+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "paragon-storm-bolters",
+    "paragon-grenade-launchers",
+    "paragon-war-blade",
+    "paragon-war-mace",
+    "heavy-bolter",
+    "multi-melta",
+    "ministorum-heavy-flamer"
+   ],
+   "abilities": [
+    "Acts of Faith",
+    "Righteous Paragons",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "penitent-engines",
+   "name": "Penitent Engines",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Imperium",
+    "Penitent Engines",
+    "Penitent"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    },
+    {
+     "count": 2,
+     "pts": 150
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "penitent-flamers",
+     "name": "Penitent Flamers",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-penitent-buzz-blades",
+     "name": "Twin Penitent Buzz-Blades",
+     "pts": 0,
+     "group": "Melee Weapons",
+     "max": 1
+    },
+    {
+     "id": "twin-penitent-flails",
+     "name": "Twin Penitent Flails",
+     "pts": 0,
+     "group": "Melee Weapons",
+     "max": 1
+    },
+    {
+     "id": "penitent-buzz-blade-and-penitent-flail",
+     "name": "Penitent Buzz-Blade and Penitent Flail",
+     "pts": 0,
+     "group": "Melee Weapons",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Penitent Engine",
+     "stats": {
+      "M": "8\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "penitent-flamers",
+    "twin-penitent-buzz-blades-2",
+    "twin-penitent-flails-2",
+    "penitent-buzz-blade-2",
+    "penitent-flail-2"
+   ],
+   "abilities": [
+    "Acts of Faith",
+    "Deadly Demise",
+    "Feel No Pain",
+    "Endless Suffering",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "repressor",
+   "name": "Repressor",
+   "role": "Vehicle",
+   "keywords": [
+    "Dedicated Transport",
+    "Vehicle",
+    "Transport",
+    "Smoke",
+    "Imperium",
+    "Sororitas Rhino",
+    "Repressor"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 130
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "dozer-ram",
+     "name": "Dozer Ram",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "repressor-twin-heavy-flamer",
+     "name": "Repressor twin heavy flamer",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "heavy-flamer",
+     "name": "Heavy flamer",
+     "pts": 0,
+     "group": "May be equipped with",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Repressor",
+     "stats": {
+      "M": "12\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "dozer-ram",
+    "repressor-twin-heavy-flamer",
+    "heavy-flamer",
+    "armoured-tracks",
+    "hunter-killer-missile",
+    "storm-bolter"
+   ],
+   "abilities": [
+    "Acts of Faith",
+    "Firing Deck",
+    "Deadly Demise",
+    "Transport",
+    "Invulnerable Save",
+    "Emergency Combat Embarkation"
+   ]
+  },
+  {
+   "id": "sororitas-rhino",
+   "name": "Sororitas Rhino",
+   "role": "Vehicle",
+   "keywords": [
+    "Dedicated Transport",
+    "Vehicle",
+    "Transport",
+    "Smoke",
+    "Imperium",
+    "Sororitas Rhino"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Sororitas Rhino",
+     "stats": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "armoured-tracks",
+    "hunter-killer-missile",
+    "storm-bolter"
+   ],
+   "abilities": [
+    "Acts of Faith",
+    "Firing Deck",
+    "Deadly Demise",
+    "Transport",
+    "Invulnerable Save",
+    "Self Repair"
+   ]
+  }
+ ]
+}

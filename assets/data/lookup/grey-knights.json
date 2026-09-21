@@ -1,0 +1,3394 @@
+{
+ "id": "grey-knights",
+ "name": "Grey Knights",
+ "source": "BSData/wh40k-10e",
+ "revision": "107",
+ "enhancements": [
+  {
+   "id": "warpbane-task-force",
+   "name": "Warpbane Task Force",
+   "enhancements": [
+    {
+     "id": "paragon-of-sanctity",
+     "name": "Paragon of Sanctity",
+     "pts": 10
+    },
+    {
+     "id": "phial-of-the-abyss",
+     "name": "Phial of the Abyss",
+     "pts": 25
+    },
+    {
+     "id": "mandulian-reliquary",
+     "name": "Mandulian Reliquary",
+     "pts": 20
+    },
+    {
+     "id": "radiant-champion",
+     "name": "Radiant Champion",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "hallowed-conclave",
+   "name": "Hallowed Conclave",
+   "enhancements": [
+    {
+     "id": "eye-of-the-augurium",
+     "name": "Eye of the Augurium",
+     "pts": 25
+    },
+    {
+     "id": "sanctic-reaper",
+     "name": "Sanctic Reaper",
+     "pts": 15
+    },
+    {
+     "id": "inescapable-judgement-psychic",
+     "name": "Inescapable Judgement (Psychic)",
+     "pts": 20
+    },
+    {
+     "id": "nemesis-rounds",
+     "name": "Nemesis Rounds",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "sanctic-spearhead",
+   "name": "Sanctic Spearhead",
+   "enhancements": [
+    {
+     "id": "sigil-of-exigence",
+     "name": "Sigil of Exigence",
+     "pts": 30
+    },
+    {
+     "id": "driven-by-duty",
+     "name": "Driven by Duty",
+     "pts": 10
+    },
+    {
+     "id": "quickening-foci",
+     "name": "Quickening Foci",
+     "pts": 15
+    },
+    {
+     "id": "spiritus-machina",
+     "name": "Spiritus Machina",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "brotherhood-strike",
+   "name": "Brotherhood Strike",
+   "enhancements": [
+    {
+     "id": "blinding-aura",
+     "name": "Blinding Aura",
+     "pts": 10
+    },
+    {
+     "id": "tome-of-forbidden-ways",
+     "name": "Tome of Forbidden Ways",
+     "pts": 25
+    },
+    {
+     "id": "banishing-wave-psychic",
+     "name": "Banishing Wave (Psychic)",
+     "pts": 20
+    },
+    {
+     "id": "purity-of-purpose",
+     "name": "Purity of Purpose",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "banishers",
+   "name": "Banishers",
+   "enhancements": [
+    {
+     "id": "pyresoul-psychic",
+     "name": "Pyresoul (Psychic)",
+     "pts": 20
+    },
+    {
+     "id": "ephemeral-tome",
+     "name": "Ephemeral Tome",
+     "pts": 15
+    },
+    {
+     "id": "sixty-sixth-seal",
+     "name": "Sixty-sixth Seal",
+     "pts": 25
+    },
+    {
+     "id": "sigil-of-the-hunt",
+     "name": "Sigil of the Hunt",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "augurium-task-force",
+   "name": "Augurium Task Force",
+   "enhancements": [
+    {
+     "id": "one-foot-in-the-future",
+     "name": "One Foot in the Future",
+     "pts": 15
+    },
+    {
+     "id": "doomseer-s-amulet",
+     "name": "Doomseer's Amulet",
+     "pts": 25
+    },
+    {
+     "id": "grimoire-of-conjunctions",
+     "name": "Grimoire of Conjunctions",
+     "pts": 10
+    },
+    {
+     "id": "shield-of-prophecy",
+     "name": "Shield of Prophecy",
+     "pts": 20
+    }
+   ]
+  }
+ ],
+ "weapons": [
+  {
+   "id": "storm-bolter",
+   "name": "Storm bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 2"
+   }
+  },
+  {
+   "id": "incinerator",
+   "name": "Incinerator",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "psycannon",
+   "name": "Psycannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "2+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "psilencer",
+   "name": "Psilencer",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "2+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Precision, Psychic, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "nemesis-force-weapon",
+   "name": "Nemesis force weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "nemesis-force-sword",
+   "name": "Nemesis force sword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "nemesis-force-weapon-2",
+   "name": "Nemesis force weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Precision, Psychic"
+   }
+  },
+  {
+   "id": "crozius-arcanum",
+   "name": "Crozius arcanum",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "storm-bolter-2",
+   "name": "Storm bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 2"
+   }
+  },
+  {
+   "id": "nemesis-force-weapon-3",
+   "name": "Nemesis force weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "combi-weapon",
+   "name": "Combi-weapon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-infantry 4+, Devastating Wounds, Rapid Fire 1"
+   }
+  },
+  {
+   "id": "vortex-of-doom",
+   "name": "Vortex of Doom",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6+3",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Blast, Psychic"
+   }
+  },
+  {
+   "id": "servo-arm",
+   "name": "Servo-arm",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "omnissian-power-axe",
+   "name": "Omnissian power axe",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "grav-pistol",
+   "name": "Grav-pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Anti-Vehicle 2+, Pistol"
+   }
+  },
+  {
+   "id": "forge-bolter",
+   "name": "Forge bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "nemesis-force-weapon-4",
+   "name": "Nemesis force weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "psycannon-2",
+   "name": "Psycannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "psilencer-2",
+   "name": "Psilencer",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Precision, Psychic, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "purifying-flame",
+   "name": "Purifying Flame",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Anti-Infantry 2+, Ignores Cover, Psychic"
+   }
+  },
+  {
+   "id": "black-blade-of-antwyr",
+   "name": "Black Blade of Antwyr",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Devastating Wounds, Precision"
+   }
+  },
+  {
+   "id": "nemesis-force-weapon-5",
+   "name": "Nemesis force weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "nemesis-mace",
+   "name": "Nemesis mace",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Anti-Character 2+, Precision, Psychic"
+   }
+  },
+  {
+   "id": "nemesis-flail",
+   "name": "Nemesis flail",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "10",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "dreadfists",
+   "name": "Dreadfists",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "nemesis-daemon-greathammer",
+   "name": "Nemesis daemon greathammer",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "14",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "nemesis-greatsword-strike",
+   "name": "➤ Nemesis greatsword - strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "10",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "nemesis-greatsword-sweep",
+   "name": "➤ Nemesis greatsword - sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "10",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "sublimator",
+   "name": "Sublimator",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 4, Psychic, Twin-linked"
+   }
+  },
+  {
+   "id": "gatling-psilencer",
+   "name": "Gatling psilencer",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "12",
+    "BS": "3+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Psychic, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "heavy-incinerator",
+   "name": "Heavy incinerator",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "heavy-psycannon",
+   "name": "Heavy psycannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Ignores Cover, Psychic"
+   }
+  },
+  {
+   "id": "fragstorm-grenade-launcher",
+   "name": "Fragstorm grenade launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "malleus-argyrum",
+   "name": "Malleus Argyrum",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "searing-purity",
+   "name": "Searing Purity",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D3+1",
+    "BS": "2+",
+    "S": "12",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Devastating Wounds, Psychic"
+   }
+  },
+  {
+   "id": "godhammer-lascannon",
+   "name": "Godhammer lascannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "hunter-killer-missile",
+   "name": "Hunter-killer missile",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "14",
+    "AP": "-3",
+    "D": "D6",
+    "Keywords": "One Shot"
+   }
+  },
+  {
+   "id": "multi-melta",
+   "name": "Multi-melta",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2"
+   }
+  },
+  {
+   "id": "twin-heavy-bolter",
+   "name": "Twin heavy bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Sustained Hits 1, Twin-Linked"
+   }
+  },
+  {
+   "id": "armoured-tracks",
+   "name": "Armoured tracks",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "4+",
+    "S": "8",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-assault-cannon",
+   "name": "Twin assault cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Devastating Wounds, Twin-Linked"
+   }
+  },
+  {
+   "id": "hurricane-bolter",
+   "name": "Hurricane bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 6, Twin-Linked"
+   }
+  },
+  {
+   "id": "flamestorm-cannon",
+   "name": "Flamestorm cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6+3",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "twin-lascannon",
+   "name": "Twin lascannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "armoured-tracks-2",
+   "name": "Armoured tracks",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "las-talon",
+   "name": "Las-talon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "icarus-stormcannon",
+   "name": "Icarus stormcannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Anti-Fly 2+"
+   }
+  },
+  {
+   "id": "typhoon-missile-launcher-frag",
+   "name": "➤ Typhoon missile launcher - frag",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "2D6",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "typhoon-missile-launcher-krak",
+   "name": "➤ Typhoon missile launcher - krak",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "skyhammer-missile-launcher",
+   "name": "Skyhammer missile launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-1",
+    "D": "D3",
+    "Keywords": "Anti-Fly 2+"
+   }
+  },
+  {
+   "id": "armoured-hull",
+   "name": "Armoured hull",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "armoured-hull-2",
+   "name": "Armoured hull",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "4+",
+    "S": "8",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "stormstrike-missile-launcher",
+   "name": "Stormstrike missile launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-3",
+    "D": "D6+2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-heavy-plasma-cannon-standard",
+   "name": "➤ Twin heavy plasma cannon - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Blast, Twin-linked"
+   }
+  },
+  {
+   "id": "twin-heavy-plasma-cannon-supercharge",
+   "name": "➤ Twin heavy plasma cannon - supercharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Blast, Hazardous, Twin-linked"
+   }
+  },
+  {
+   "id": "twin-multi-melta",
+   "name": "Twin multi-melta",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2, Twin-linked"
+   }
+  },
+  {
+   "id": "assault-cannon",
+   "name": "Assault cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "heavy-plasma-cannon-standard",
+   "name": "➤ Heavy plasma cannon - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D3",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "heavy-plasma-cannon-supercharge",
+   "name": "➤ Heavy plasma cannon - supercharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D3",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Blast, Hazardous"
+   }
+  },
+  {
+   "id": "dreadnought-combat-weapon",
+   "name": "Dreadnought combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "12",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "heavy-flamer",
+   "name": "Heavy flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "nemesis-force-weapon-6",
+   "name": "Nemesis force weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "close-combat-weapon",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "scourging",
+   "name": "Scourging",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Anti-Daemon 2+, Ignores Cover, Psychic"
+   }
+  },
+  {
+   "id": "the-titansword",
+   "name": "The Titansword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-4",
+    "D": "3",
+    "Keywords": "Anti-Daemon 2+, Psychic"
+   }
+  },
+  {
+   "id": "purifying-flame-2",
+   "name": "Purifying Flame",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Anti-Infantry 2+, Ignores Cover, Psychic"
+   }
+  },
+  {
+   "id": "servo-arm-2",
+   "name": "Servo-arm",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "5+",
+    "S": "6",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "heavy-bolter",
+   "name": "Heavy bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Heavy, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "multi-melta-2",
+   "name": "Multi-melta",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Heavy, Melta 2"
+   }
+  },
+  {
+   "id": "plasma-cannon-standard",
+   "name": "➤ Plasma cannon - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D3",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Blast, Heavy"
+   }
+  },
+  {
+   "id": "plasma-cannon-supercharge",
+   "name": "➤ Plasma cannon - supercharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D3",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Blast, Hazardous, Heavy"
+   }
+  },
+  {
+   "id": "servitor-s-tools",
+   "name": "Servitor's tools",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "lascannon",
+   "name": "Lascannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "armored-hull",
+   "name": "Armored Hull",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "4+",
+    "S": "8",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "thunderhawk-heavy-cannon",
+   "name": "Thunderhawk heavy cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6+6",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "turbo-laser-destructor",
+   "name": "Turbo-laser destructor",
+   "type": "ranged",
+   "stats": {
+    "Range": "96\"",
+    "A": "D3+1",
+    "BS": "3+",
+    "S": "20",
+    "AP": "-4",
+    "D": "D6+6",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "hellstrike-missile-battery",
+   "name": "Hellstrike missile battery",
+   "type": "ranged",
+   "stats": {
+    "Range": "72\"",
+    "A": "4",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Anti-Fly 4+"
+   }
+  },
+  {
+   "id": "twin-psycannon",
+   "name": "Twin psycannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Psychic, Sustained Hits 1, Twin-linked"
+   }
+  },
+  {
+   "id": "missile-launcher-frag",
+   "name": "➤ Missile launcher - frag",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "missile-launcher-krak",
+   "name": "➤ Missile launcher - krak",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "armoured-feet",
+   "name": "Armoured feet",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "nemesis-doomglaive",
+   "name": "Nemesis doomglaive",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "14",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "heavy-psycannon-2",
+   "name": "Heavy psycannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "twin-psycannon",
+   "name": "Twin Psycannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Psychic, Twin-linked"
+   }
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "brotherhood-terminator-squad",
+   "name": "Brotherhood Terminator Squad",
+   "role": "Battleline",
+   "keywords": [
+    "Battleline",
+    "Infantry",
+    "Grenades",
+    "Psyker",
+    "Imperium",
+    "Terminator",
+    "Brotherhood Terminator Squad"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 4,
+     "pts": 150
+    },
+    {
+     "count": 10,
+     "pts": 375
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 10,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Brotherhood Terminator Squad",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "nemesis-force-weapon-4",
+    "storm-bolter-2",
+    "incinerator",
+    "psycannon-2",
+    "psilencer-2"
+   ],
+   "abilities": [
+    "Force Edge (Psychic)",
+    "Deep Strike",
+    "Invulnerable Save (4+)",
+    "Gate of Infinity",
+    "Ancient's Banner",
+    "Apothecary's narthecium"
+   ]
+  },
+  {
+   "id": "strike-squad",
+   "name": "Strike Squad",
+   "role": "Battleline",
+   "keywords": [
+    "Strike Squad",
+    "Psyker",
+    "Imperium",
+    "Grenades",
+    "Battleline",
+    "Infantry"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 4,
+     "pts": 120
+    },
+    {
+     "count": 9,
+     "pts": 240
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Strike Squad",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "nemesis-force-weapon-6",
+    "storm-bolter-2",
+    "incinerator",
+    "psycannon-2",
+    "psilencer-2",
+    "close-combat-weapon"
+   ],
+   "abilities": [
+    "Sanctifying Ritual (Psychic)",
+    "Deep Strike",
+    "Scouts",
+    "Gate of Infinity"
+   ]
+  },
+  {
+   "id": "brother-captain",
+   "name": "Brother-Captain",
+   "role": "Character",
+   "keywords": [
+    "Brother-Captain",
+    "Terminator",
+    "Psyker",
+    "Infantry",
+    "Imperium",
+    "Character"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Brother-Captain",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "storm-bolter",
+    "incinerator",
+    "psycannon",
+    "psilencer",
+    "nemesis-force-weapon"
+   ],
+   "abilities": [
+    "Leader",
+    "Hammerhand (Psychic)",
+    "Eye of Judgement (Psychic)",
+    "Deep Strike",
+    "Invulnerable Save (4+)",
+    "Gate of Infinity"
+   ]
+  },
+  {
+   "id": "brotherhood-champion",
+   "name": "Brotherhood Champion",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Psyker",
+    "Imperium",
+    "Brotherhood Champion"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "nemesis-force-weapon",
+     "name": "Nemesis force weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Brotherhood Champion",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "nemesis-force-weapon-2",
+    "storm-bolter"
+   ],
+   "abilities": [
+    "Leader",
+    "Clarion of Haste (Psychic)",
+    "Inspiring Exemplar",
+    "Deep Strike",
+    "Invulnerable Save (4+)",
+    "Gate of Infinity"
+   ]
+  },
+  {
+   "id": "brotherhood-chaplain",
+   "name": "Brotherhood Chaplain",
+   "role": "Character",
+   "keywords": [
+    "Brotherhood Chaplain",
+    "Terminator",
+    "Psyker",
+    "Imperium",
+    "Infantry",
+    "Character"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Brotherhood Chaplain",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "5",
+      "LD": "5+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "crozius-arcanum",
+    "storm-bolter-2"
+   ],
+   "abilities": [
+    "Zealous Path",
+    "Leader",
+    "Deep Strike",
+    "Litanies of Sanctity",
+    "Invulnerable Save (4+)",
+    "Gate of Infinity"
+   ]
+  },
+  {
+   "id": "brotherhood-librarian",
+   "name": "Brotherhood Librarian",
+   "role": "Character",
+   "keywords": [
+    "Brotherhood Librarian",
+    "Imperium",
+    "Terminator",
+    "Infantry",
+    "Character",
+    "Psyker"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "nemesis-force-weapon",
+     "name": "Nemesis force weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "combi-weapon",
+     "name": "Combi-weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Brotherhood Librarian",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "nemesis-force-weapon-3",
+    "combi-weapon",
+    "storm-bolter-2",
+    "vortex-of-doom"
+   ],
+   "abilities": [
+    "Haloed in Soulfire (Psychic)",
+    "Leader",
+    "Sanctic Hood",
+    "Deep Strike",
+    "Invulnerable Save (4+)",
+    "Gate of Infinity",
+    "Feel No Pain"
+   ]
+  },
+  {
+   "id": "brotherhood-techmarine",
+   "name": "Brotherhood Techmarine",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Psyker",
+    "Imperium",
+    "Brotherhood Techmarine"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Brotherhood Techmarine",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "servo-arm",
+    "omnissian-power-axe",
+    "grav-pistol",
+    "forge-bolter"
+   ],
+   "abilities": [
+    "Leader",
+    "Guardians of the Machine",
+    "Blessing of the Omnissiah",
+    "Techmarine",
+    "Deep Strike",
+    "Gate of Infinity"
+   ]
+  },
+  {
+   "id": "champion-of-titan",
+   "name": "Champion of Titan [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Crucible",
+    "Psyker",
+    "Grenades",
+    "Imperium",
+    "Champion of Titan"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Champion of Titan",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Gate of Infinity",
+    "Leader",
+    "Crucible",
+    "Deep Strike",
+    "Invulnerable Save (4+)",
+    "Might of Titan"
+   ]
+  },
+  {
+   "id": "dreadknight-champion",
+   "name": "Dreadknight Champion [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Crucible",
+    "Psyker",
+    "Imperium",
+    "Vehicle",
+    "Walker",
+    "Dreadknight Champion"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 210
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Dreadknight Champion",
+     "stats": {
+      "M": "8\"",
+      "T": "8",
+      "SV": "2+",
+      "W": "13",
+      "LD": "6+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Gate of Infinity",
+    "Deadly Demise",
+    "Crucible",
+    "Deep Strike",
+    "Invulnerable Save (4+)",
+    "Surge of Wrath",
+    "Damaged: 1-4 Wounds Remaining"
+   ]
+  },
+  {
+   "id": "grand-master",
+   "name": "Grand Master",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Psyker",
+    "Terminator",
+    "Grand Master",
+    "Imperium"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 95
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Grand Master",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "7",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "storm-bolter",
+    "incinerator",
+    "psycannon",
+    "psilencer",
+    "nemesis-force-weapon-5"
+   ],
+   "abilities": [
+    "Might of Titan (Psychic)",
+    "Leader",
+    "Invulnerable Save (4+)",
+    "Gate of Infinity",
+    "Warrior Strategist",
+    "Deep Strike"
+   ]
+  },
+  {
+   "id": "grand-master-in-nemesis-dreadknight",
+   "name": "Grand Master in Nemesis Dreadknight",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Vehicle",
+    "Walker",
+    "Psyker",
+    "Imperium",
+    "Grand Master in Nemesis Dreadknight"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 225
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Grand Master in Nemesis Dreadknight",
+     "stats": {
+      "M": "8\"",
+      "T": "8",
+      "SV": "2+",
+      "W": "13",
+      "LD": "6+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [
+    "nemesis-mace",
+    "nemesis-flail",
+    "dreadfists",
+    "nemesis-daemon-greathammer",
+    "nemesis-greatsword-strike",
+    "nemesis-greatsword-sweep",
+    "sublimator",
+    "gatling-psilencer",
+    "heavy-incinerator",
+    "heavy-psycannon",
+    "fragstorm-grenade-launcher"
+   ],
+   "abilities": [
+    "Surge of Wrath (Psychic)",
+    "Deep Strike",
+    "Deadly Demise",
+    "Damaged: 1-4 Wounds Remaining",
+    "Invulnerable Save (4+)",
+    "Gate of Infinity",
+    "Warrior Strategist"
+   ]
+  },
+  {
+   "id": "venerable-daemon-slayer",
+   "name": "Venerable Daemon Slayer [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Crucible",
+    "Psyker",
+    "Imperium",
+    "Vehicle",
+    "Walker",
+    "Smoke",
+    "Venerable Daemon Slayer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 175
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Venerable Daemon Slayer",
+     "stats": {
+      "M": "8\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Gate of Infinity",
+    "Deadly Demise",
+    "Crucible",
+    "Deep Strike",
+    "Guidance of the Ancients"
+   ]
+  },
+  {
+   "id": "venerable-dreadnought",
+   "name": "Venerable Dreadnought",
+   "role": "Character",
+   "keywords": [
+    "Venerable Dreadnought",
+    "Walker",
+    "Vehicle",
+    "Psyker",
+    "Smoke",
+    "Imperium",
+    "Character"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 140
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "storm-bolter-and-dreadnought-combat-weapon",
+     "name": "Storm bolter and Dreadnought combat weapon",
+     "pts": 0,
+     "group": "Storm Bolter and Dreadnought Combat Weapon",
+     "max": null
+    },
+    {
+     "id": "heavy-flamer-and-dreadnought-combat-weapon",
+     "name": "Heavy flamer and Dreadnought combat weapon",
+     "pts": 0,
+     "group": "Storm Bolter and Dreadnought Combat Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Venerable Dreadnought",
+     "stats": {
+      "M": "8\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "assault-cannon",
+    "heavy-plasma-cannon-standard",
+    "heavy-plasma-cannon-supercharge",
+    "twin-lascannon",
+    "storm-bolter-2",
+    "dreadnought-combat-weapon",
+    "heavy-flamer"
+   ],
+   "abilities": [
+    "Guidance of the Ancients (Psychic)",
+    "Deadly Demise",
+    "Deep Strike",
+    "Gate of Infinity"
+   ]
+  },
+  {
+   "id": "brother-captain-stern",
+   "name": "Brother-Captain Stern",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Imperium",
+    "Psyker",
+    "Terminator",
+    "Brother-Captain Stern"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Brother-Captain Stern",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "nemesis-force-sword",
+    "storm-bolter"
+   ],
+   "abilities": [
+    "Leader",
+    "Exemplar of the Silvered Host",
+    "Strands of Fate (Psychic)",
+    "Deep Strike",
+    "Invulnerable Save (4+)",
+    "Gate of Infinity"
+   ]
+  },
+  {
+   "id": "castellan-crowe",
+   "name": "Castellan Crowe",
+   "role": "Epic Hero",
+   "keywords": [
+    "Castellan Crowe",
+    "Psyker",
+    "Imperium",
+    "Epic Hero",
+    "Infantry",
+    "Character"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Castellan Crowe",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "purifying-flame",
+    "black-blade-of-antwyr",
+    "storm-bolter"
+   ],
+   "abilities": [
+    "Champion of the Order of Purifiers (Psychic)",
+    "Foesight (Psychic)",
+    "Leader",
+    "Deep Strike",
+    "Invulnerable Save (4+)",
+    "Gate of Infinity"
+   ]
+  },
+  {
+   "id": "grand-master-voldus",
+   "name": "Grand Master Voldus",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Psyker",
+    "Imperium",
+    "Terminator",
+    "Grand Master Voldus"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 110
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Grand Master Voldus",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "7",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "malleus-argyrum",
+    "searing-purity",
+    "storm-bolter"
+   ],
+   "abilities": [
+    "Sanctuary (Psychic)",
+    "Hammer Aflame (Psychic)",
+    "Leader",
+    "Deep Strike",
+    "Invulnerable Save (4+)",
+    "Gate of Infinity"
+   ]
+  },
+  {
+   "id": "kaldor-draigo",
+   "name": "Kaldor Draigo",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Psyker",
+    "Terminator",
+    "Imperium",
+    "Kaldor Draigo"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 125
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Kaldor Draigo",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "7",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "scourging",
+    "the-titansword",
+    "storm-bolter"
+   ],
+   "abilities": [
+    "Untouchable Purity",
+    "One With the Warp (Psychic)",
+    "Leader",
+    "Supreme Commander",
+    "Deep Strike",
+    "Invulnerable Save (4+)",
+    "Gate of Infinity"
+   ]
+  },
+  {
+   "id": "interceptor-squad",
+   "name": "Interceptor Squad",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Fly",
+    "Psyker",
+    "Interceptor Squad"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 4,
+     "pts": 125
+    },
+    {
+     "count": 9,
+     "pts": 250
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Interceptor Squad",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "nemesis-force-weapon-6",
+    "storm-bolter-2",
+    "close-combat-weapon",
+    "incinerator",
+    "psilencer-2",
+    "psycannon-2"
+   ],
+   "abilities": [
+    "Personal Teleporters",
+    "Deep Strike",
+    "Gate of Infinity"
+   ]
+  },
+  {
+   "id": "paladin-squad",
+   "name": "Paladin Squad",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Psyker",
+    "Terminator",
+    "Paladin Squad"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 3,
+     "pts": 180
+    },
+    {
+     "count": 9,
+     "pts": 450
+    }
+   ],
+   "minModels": 3,
+   "maxModels": 9,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Paladin Squad",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "nemesis-force-weapon",
+    "storm-bolter",
+    "incinerator",
+    "psycannon",
+    "psilencer"
+   ],
+   "abilities": [
+    "Attuned Onslaught (Psychic)",
+    "Deep Strike",
+    "Invulnerable Save (4+)",
+    "Gate of Infinity",
+    "Ancient's Banner",
+    "Apothecary's narthecium"
+   ]
+  },
+  {
+   "id": "purgation-squad",
+   "name": "Purgation Squad",
+   "role": "Infantry",
+   "keywords": [
+    "Purgation Squad",
+    "Psyker",
+    "Imperium",
+    "Grenades",
+    "Infantry"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 4,
+     "pts": 115
+    },
+    {
+     "count": 9,
+     "pts": 230
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Purgation Squad",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "nemesis-force-weapon-6",
+    "storm-bolter-2",
+    "close-combat-weapon",
+    "incinerator",
+    "psilencer-2",
+    "psycannon-2"
+   ],
+   "abilities": [
+    "Righteous Persecution",
+    "Deep Strike",
+    "Gate of Infinity"
+   ]
+  },
+  {
+   "id": "purifier-squad",
+   "name": "Purifier Squad",
+   "role": "Infantry",
+   "keywords": [
+    "Purifier Squad",
+    "Psyker",
+    "Imperium",
+    "Grenades",
+    "Infantry"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 4,
+     "pts": 125
+    },
+    {
+     "count": 9,
+     "pts": 250
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Purifier Squad",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "nemesis-force-weapon-6",
+    "storm-bolter-2",
+    "purifying-flame-2",
+    "close-combat-weapon",
+    "incinerator",
+    "psilencer-2",
+    "psycannon-2"
+   ],
+   "abilities": [
+    "Sanctity of Purpose",
+    "Deep Strike",
+    "Gate of Infinity"
+   ]
+  },
+  {
+   "id": "servitors",
+   "name": "Servitors",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Imperium",
+    "Servitors"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 4,
+     "pts": 50
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 4,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Servitors",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "servo-arm-2",
+    "heavy-bolter",
+    "multi-melta-2",
+    "plasma-cannon-standard",
+    "plasma-cannon-supercharge",
+    "servitor-s-tools"
+   ],
+   "abilities": [
+    "Invulnerable Save (6+)",
+    "Mindlock",
+    "Servitor Retinue",
+    "Retinue",
+    "Deep Strike"
+   ]
+  },
+  {
+   "id": "grey-knights-dreadnought",
+   "name": "Grey Knights Dreadnought",
+   "role": "Vehicle",
+   "keywords": [
+    "Dreadnought",
+    "Walker",
+    "Vehicle",
+    "Psyker",
+    "Smoke",
+    "Imperium"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 160
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "assault-cannon-storm-bolter-and-dreadnought-combat-weapon",
+     "name": "Assault cannon, storm bolter and Dreadnought combat weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    },
+    {
+     "id": "heavy-psycannon-storm-bolter-and-nemesis-doomglaive",
+     "name": "Heavy psycannon, storm bolter and Nemesis doomglaive",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    },
+    {
+     "id": "heavy-psycannon-incinerator-and-nemesis-doomglaive",
+     "name": "Heavy psycannon, incinerator and Nemesis doomglaive",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    },
+    {
+     "id": "storm-bolter-and-dreadnought-combat-weapon",
+     "name": "Storm bolter and Dreadnought combat weapon",
+     "pts": 0,
+     "group": "Storm Bolter and Dreadnought Combat Weapon",
+     "max": null
+    },
+    {
+     "id": "missile-launcher-and-armoured-feet",
+     "name": "Missile launcher and armoured feet",
+     "pts": 0,
+     "group": "Storm Bolter and Dreadnought Combat Weapon",
+     "max": null
+    },
+    {
+     "id": "heavy-flamer-and-dreadnought-combat-weapon",
+     "name": "Heavy flamer and Dreadnought combat weapon",
+     "pts": 0,
+     "group": "Storm Bolter and Dreadnought Combat Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Grey Knights Dreadnought",
+     "stats": {
+      "M": "6\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "missile-launcher-frag",
+    "missile-launcher-krak",
+    "assault-cannon",
+    "heavy-plasma-cannon-standard",
+    "heavy-plasma-cannon-supercharge",
+    "multi-melta",
+    "twin-lascannon",
+    "storm-bolter-2",
+    "dreadnought-combat-weapon",
+    "armoured-feet",
+    "heavy-flamer",
+    "nemesis-doomglaive",
+    "heavy-psycannon-2",
+    "incinerator"
+   ],
+   "abilities": [
+    "Wisdom of the Ancients (Aura)",
+    "Deadly Demise",
+    "Gate of Infinity"
+   ]
+  },
+  {
+   "id": "grey-knights-relic-razorback",
+   "name": "Grey Knights Relic Razorback",
+   "role": "Vehicle",
+   "keywords": [
+    "Dedicated Transport",
+    "Vehicle",
+    "Transport",
+    "Smoke",
+    "Imperium",
+    "Relic Razorback"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 1,
+     "pts": 95
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "twin-psycannon",
+     "name": "Twin Psycannon",
+     "pts": 0,
+     "group": "Twin Heavy Bolter",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Grey Knights Relic Razorback [Legends]",
+     "stats": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-psycannon",
+    "twin-assault-cannon",
+    "twin-lascannon",
+    "twin-heavy-bolter",
+    "multi-melta",
+    "storm-bolter-2",
+    "hunter-killer-missile",
+    "armoured-tracks-2"
+   ],
+   "abilities": [
+    "Fire Support",
+    "Deadly Demise"
+   ]
+  },
+  {
+   "id": "grey-knights-thunderhawk-gunship",
+   "name": "Grey Knights Thunderhawk Gunship",
+   "role": "Vehicle",
+   "keywords": [
+    "Thunderhawk Gunship",
+    "Titanic",
+    "Vehicle",
+    "Fly",
+    "Transport",
+    "Aircraft",
+    "Imperium"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 805
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "lascannon",
+     "name": "Lascannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    },
+    {
+     "id": "armoured-hull",
+     "name": "Armoured Hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "thunderhawk-heavy-cannon",
+     "name": "Thunderhawk heavy cannon",
+     "pts": 0,
+     "group": "Thunderhawk Heavy Cannon",
+     "max": null
+    },
+    {
+     "id": "turbo-laser-destructor",
+     "name": "Turbo-laser destructor",
+     "pts": 0,
+     "group": "Thunderhawk Heavy Cannon",
+     "max": null
+    },
+    {
+     "id": "thunderhawk-cluster-bombs",
+     "name": "Thunderhawk cluster bombs",
+     "pts": 0,
+     "group": "Thunderhawk Cluster Bombs",
+     "max": null
+    },
+    {
+     "id": "hellstrike-missile-battery",
+     "name": "Hellstrike missile battery",
+     "pts": 0,
+     "group": "Thunderhawk Cluster Bombs",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Grey Knights Thunderhawk Gunship",
+     "stats": {
+      "M": "20+\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "30",
+      "LD": "6+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "lascannon",
+    "armored-hull",
+    "thunderhawk-heavy-cannon",
+    "turbo-laser-destructor",
+    "hellstrike-missile-battery",
+    "twin-heavy-bolter"
+   ],
+   "abilities": [
+    "Damaged: 1-10 Wounds Remaining",
+    "Aerial Assault",
+    "Thunderhawk cluster bombs",
+    "Hover",
+    "Deadly Demise"
+   ]
+  },
+  {
+   "id": "land-raider",
+   "name": "Land Raider",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Smoke",
+    "Transport",
+    "Imperium",
+    "Land Raider"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 220
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "godhammer-lascannon",
+     "name": "Godhammer lascannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    }
+   ],
+   "stats": [
+    {
+     "name": "Land Raider",
+     "stats": {
+      "M": "10\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "godhammer-lascannon",
+    "storm-bolter-2",
+    "hunter-killer-missile",
+    "multi-melta",
+    "twin-heavy-bolter",
+    "armoured-tracks"
+   ],
+   "abilities": [
+    "Assault Ramp",
+    "Deadly Demise",
+    "Damaged: 1-5 Wounds Remaining"
+   ]
+  },
+  {
+   "id": "land-raider-banisher",
+   "name": "Land Raider Banisher",
+   "role": "Vehicle",
+   "keywords": [
+    "Transport",
+    "Vehicle",
+    "Smoke",
+    "Imperium",
+    "Land Raider Banisher"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 255
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "twin-psycannon",
+     "name": "Twin psycannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Land Raider Banisher",
+     "stats": {
+      "M": "10\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-psycannon",
+    "storm-bolter-2",
+    "hunter-killer-missile",
+    "multi-melta",
+    "heavy-incinerator",
+    "armoured-tracks"
+   ],
+   "abilities": [
+    "Assault Ramp",
+    "Land Raider Banisher",
+    "Deadly Demise",
+    "Damaged: 1-5 Wounds Remaining"
+   ]
+  },
+  {
+   "id": "land-raider-crusader",
+   "name": "Land Raider Crusader",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Transport",
+    "Smoke",
+    "Imperium",
+    "Grenades",
+    "Land Raider Crusader"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 220
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Land Raider Crusader",
+     "stats": {
+      "M": "12\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "storm-bolter-2",
+    "hunter-killer-missile",
+    "multi-melta",
+    "twin-assault-cannon",
+    "armoured-tracks",
+    "hurricane-bolter"
+   ],
+   "abilities": [
+    "Assault Ramp",
+    "Deadly Demise",
+    "Damaged: 1-5 Wounds Remaining"
+   ]
+  },
+  {
+   "id": "land-raider-redeemer",
+   "name": "Land Raider Redeemer",
+   "role": "Vehicle",
+   "keywords": [
+    "Land Raider Redeemer",
+    "Grenades",
+    "Imperium",
+    "Vehicle",
+    "Transport",
+    "Smoke"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 270
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "flamestorm-cannon",
+     "name": "Flamestorm cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    }
+   ],
+   "stats": [
+    {
+     "name": "Land Raider Redeemer",
+     "stats": {
+      "M": "12\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "flamestorm-cannon",
+    "storm-bolter-2",
+    "hunter-killer-missile",
+    "multi-melta",
+    "twin-assault-cannon",
+    "armoured-tracks"
+   ],
+   "abilities": [
+    "Assault Ramp",
+    "Deadly Demise",
+    "Damaged: 1-5 Wounds Remaining"
+   ]
+  },
+  {
+   "id": "nemesis-dreadknight",
+   "name": "Nemesis Dreadknight",
+   "role": "Vehicle",
+   "keywords": [
+    "Nemesis Dreadknight",
+    "Vehicle",
+    "Walker",
+    "Psyker",
+    "Imperium"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 210
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Nemesis Dreadknight",
+     "stats": {
+      "M": "8\"",
+      "T": "8",
+      "SV": "2+",
+      "W": "13",
+      "LD": "6+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [
+    "nemesis-greatsword-strike",
+    "nemesis-greatsword-sweep",
+    "nemesis-daemon-greathammer",
+    "dreadfists",
+    "gatling-psilencer",
+    "heavy-psycannon",
+    "heavy-incinerator"
+   ],
+   "abilities": [
+    "Indomitable Spirit (Psychic)",
+    "Deep Strike",
+    "Deadly Demise",
+    "Invulnerable Save (4+)",
+    "Gate of Infinity",
+    "Damaged: 1-4 Wounds Remaining"
+   ]
+  },
+  {
+   "id": "razorback",
+   "name": "Razorback",
+   "role": "Vehicle",
+   "keywords": [
+    "Razorback",
+    "Dedicated Transport",
+    "Vehicle",
+    "Transport",
+    "Smoke",
+    "Imperium"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Razorback",
+     "stats": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-lascannon",
+    "twin-heavy-bolter",
+    "storm-bolter-2",
+    "hunter-killer-missile",
+    "armoured-tracks-2"
+   ],
+   "abilities": [
+    "Fire Focus",
+    "Deadly Demise"
+   ]
+  },
+  {
+   "id": "rhino",
+   "name": "Rhino",
+   "role": "Vehicle",
+   "keywords": [
+    "Rhino",
+    "Transport",
+    "Vehicle",
+    "Dedicated Transport",
+    "Imperium",
+    "Smoke",
+    "Rhino"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Rhino",
+     "stats": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "storm-bolter-2",
+    "hunter-killer-missile",
+    "armoured-tracks-2"
+   ],
+   "abilities": [
+    "Truesilver Aegis (Psychic)",
+    "Deadly Demise",
+    "Firing Deck"
+   ]
+  },
+  {
+   "id": "stormhawk-interceptor",
+   "name": "Stormhawk Interceptor",
+   "role": "Vehicle",
+   "keywords": [
+    "Stormhawk Interceptor",
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Smoke",
+    "Imperium"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 160
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "las-talon",
+     "name": "Las-talon",
+     "pts": 0,
+     "group": "Las-talon",
+     "max": null
+    },
+    {
+     "id": "icarus-stormcannon",
+     "name": "Icarus stormcannon",
+     "pts": 0,
+     "group": "Las-talon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Stormhawk Interceptor",
+     "stats": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "las-talon",
+    "icarus-stormcannon",
+    "twin-heavy-bolter",
+    "typhoon-missile-launcher-frag",
+    "typhoon-missile-launcher-krak",
+    "skyhammer-missile-launcher",
+    "twin-assault-cannon",
+    "armoured-hull"
+   ],
+   "abilities": [
+    "Interceptor",
+    "Hover",
+    "Deadly Demise"
+   ]
+  },
+  {
+   "id": "stormraven-gunship",
+   "name": "Stormraven Gunship",
+   "role": "Vehicle",
+   "keywords": [
+    "Stormraven Gunship",
+    "Aircraft",
+    "Vehicle",
+    "Transport",
+    "Fly",
+    "Imperium"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 280
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "2-hurricane-bolters",
+     "name": "2 Hurricane bolters",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "armoured-hull",
+     "name": "Armoured hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "stormstrike-missile-launcher",
+     "name": "Stormstrike missile launcher",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    },
+    {
+     "id": "twin-heavy-plasma-cannon",
+     "name": "Twin heavy plasma cannon",
+     "pts": 0,
+     "group": "Twin Assault Cannon",
+     "max": null
+    },
+    {
+     "id": "twin-multi-melta",
+     "name": "Twin multi-melta",
+     "pts": 0,
+     "group": "Typhoon missile launcher",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Stormraven Gunship",
+     "stats": {
+      "M": "20+\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "14",
+      "LD": "6+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "armoured-hull-2",
+    "stormstrike-missile-launcher",
+    "twin-heavy-plasma-cannon-standard",
+    "twin-heavy-plasma-cannon-supercharge",
+    "twin-multi-melta",
+    "hurricane-bolter",
+    "twin-assault-cannon",
+    "twin-lascannon",
+    "twin-heavy-bolter",
+    "typhoon-missile-launcher-frag",
+    "typhoon-missile-launcher-krak"
+   ],
+   "abilities": [
+    "Armoured Resilience",
+    "Hover",
+    "Deadly Demise",
+    "Damaged: 1-5 Wounds Remaining"
+   ]
+  },
+  {
+   "id": "stormtalon-gunship",
+   "name": "Stormtalon Gunship",
+   "role": "Vehicle",
+   "keywords": [
+    "Stormtalon Gunship",
+    "Aircraft",
+    "Vehicle",
+    "Fly",
+    "Imperium"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 170
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Stormtalon Gunship",
+     "stats": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-lascannon",
+    "twin-heavy-bolter",
+    "typhoon-missile-launcher-frag",
+    "typhoon-missile-launcher-krak",
+    "skyhammer-missile-launcher",
+    "twin-assault-cannon",
+    "armoured-hull"
+   ],
+   "abilities": [
+    "Strafing Run",
+    "Hover",
+    "Deadly Demise"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EC Warlords — Datasheet Lookup</title>
+<meta name="description" content="Searchable Warhammer 40,000 datasheet reference from the Eastern Cape Warlords — unit stats, weapon profiles, abilities and keywords for every faction.">
+<link rel="icon" href="assets/logo.webp">
+<link rel="stylesheet" href="style.css?v=202609212018">
+</head>
+<body data-page="tools">
+
+<img class="page-flank page-flank-left" src="assets/hero-left.webp" alt="" aria-hidden="true">
+<img class="page-flank page-flank-right" src="assets/hero-right.webp" alt="" aria-hidden="true">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<defs>
+  <symbol id="ico-ext" viewBox="0 0 100 100"><path fill="currentColor" d="M40 16h44v44h-12V36.5L30.5 78 22 69.5 63.5 28H40zM20 30h16v12H32v38h38V64h12v16a8 8 0 01-8 8H20a8 8 0 01-8-8V38a8 8 0 018-8z"/></symbol>
+</defs>
+</svg>
+
+<nav class="topnav">
+  <div class="wrap">
+    <a href="./" class="brand">
+      <img src="assets/logo.webp" alt="Eastern Cape Warlords crest">
+      <span>TABLETOP COMMUNITY</span>
+    </a>
+    <ul class="navlinks" id="navlinks">
+      <li><a href="./" data-page="home">Home</a></li>
+      <li><a href="about" data-page="about">About</a></li>
+      <li><a href="gallery" data-page="gallery">The Armory</a></li>
+      <li><a href="members" data-page="members">The Roster</a></li>
+      <li><a href="news" data-page="news">The Dispatch</a></li>
+      <li><a href="games" data-page="games">Games We Play</a></li>
+      <li><a href="tools" data-page="tools">Tools</a></li>
+      <li><a href="join" data-page="join" class="nav-cta">Join Us</a></li>
+    </ul>
+    <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+  </div>
+</nav>
+
+<main id="main">
+
+  <div class="subhero texture-void texture-stripes" style="padding-bottom:30px;">
+    <div class="wrap">
+      <div class="eyebrow"><a href="tools" style="color:inherit;">TOOLS</a> · DATASHEET LOOKUP</div>
+      <h1>Datasheet Lookup</h1>
+      <p>Unit stats, weapon profiles, abilities and keywords for every faction — so nobody's scrolling a PDF halfway through a shooting phase. Numbers only; full rules wording links out to Wahapedia.</p>
+    </div>
+  </div>
+
+  <div class="section" style="padding-top:24px;">
+    <div class="wrap">
+
+      <!-- TOP BAR -->
+      <div class="ab-bar reveal">
+        <div class="fld">
+          <label for="dl-faction">Faction</label>
+          <select id="dl-faction"><option>Loading…</option></select>
+        </div>
+        <div class="fld" style="flex:2 1 260px;">
+          <label for="dl-search">Search</label>
+          <input class="ab-search" id="dl-search" type="search" placeholder="Search units, weapons, abilities…" aria-label="Search datasheets" style="margin-top:0;">
+        </div>
+        <div class="ab-total" style="min-width:120px;">
+          <div class="t-num" id="dl-count" style="font-size:1.4rem;">0</div>
+          <div class="t-lbl">DATASHEETS</div>
+        </div>
+      </div>
+
+      <!-- TWO COLUMNS -->
+      <div class="dl-cols reveal">
+
+        <div class="ab-panel">
+          <h3>Units <small id="dl-listcount"></small></h3>
+          <div class="ab-list" id="dl-list"></div>
+        </div>
+
+        <div class="ab-panel dl-detail-panel">
+          <div id="dl-detail">
+            <div class="ab-empty">Pick a faction, then choose a unit from the list to see its full datasheet.</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="source-note reveal" style="border:1px solid var(--iron);background:var(--void-2);padding:22px 24px;margin-top:26px;">
+        <p style="color:var(--bone-dim);font-size:.87rem;line-height:1.6;">
+          Stats and weapon profiles are pulled from the community-maintained
+          <a href="https://github.com/BSData/wh40k-10e" target="_blank" rel="noopener" style="color:var(--crimson-glow);">BSData wh40k-10e</a>
+          project, the same source that powers the Army Builder above. We show ability and keyword
+          <em>names</em> only — for the full official wording of any rule, follow the "View full rules on Wahapedia"
+          link on the unit's datasheet, which goes to
+          <a href="https://wahapedia.ru" target="_blank" rel="noopener" style="color:var(--crimson-glow);">wahapedia.ru</a>,
+          a well-established third-party rules reference. Those links are generated from the unit name and
+          aren't guaranteed to land exactly right for every unit — if one 404s, search Wahapedia directly.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+</main>
+
+<div class="footer-banner"><img src="assets/footer-banner.webp" alt="" loading="lazy"></div>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/logo.webp" alt="Eastern Cape Warlords crest">
+        Eastern Cape Warlords
+      </div>
+      <div class="footer-links">
+        <a href="./">Home</a>
+        <a href="about">About</a>
+        <a href="gallery">The Armory</a>
+        <a href="members">The Roster</a>
+        <a href="news">The Dispatch</a>
+        <a href="games">Games We Play</a>
+        <a href="tools">Tools</a>
+        <a href="join">Join Us</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Eastern Cape Warlords Wargaming Club. Warhammer 40,000, Warhammer Age of Sigmar, and Blood Bowl are trademarks of Games Workshop Ltd. Kings of War is a trademark of Mantic Games. Dungeons &amp; Dragons is a trademark of Wizards of the Coast. Not affiliated with or endorsed by any of the above.</span>
+      <span>Eastern Cape · Thursdays, 7–10 PM</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js?v=202609212018"></script>
+<script>
+(function(){
+  var $ = function(id){ return document.getElementById(id); };
+
+  // Faction id -> Wahapedia faction-slug (several factions share one Wahapedia
+  // page - e.g. every Space Marine chapter except Grey Knights lives under
+  // "space-marines"; Craftworlds + Ynnari both live under "aeldari"). Kept as
+  // a small lookup here, separate from the JSON data, so it's easy to fix
+  // without regenerating any faction file.
+  var WAHA_FACTION = {
+    'craftworlds':'aeldari','ynnari':'aeldari','drukhari':'drukhari',
+    'chaos-daemons':'chaos-daemons','chaos-knights':'chaos-knights',
+    'chaos-space-marines':'chaos-space-marines','death-guard':'death-guard',
+    'emperors-children':'emperor-s-children','thousand-sons':'thousand-sons',
+    'world-eaters':'world-eaters','genestealer-cults':'genestealer-cults',
+    'adepta-sororitas':'adepta-sororitas','adeptus-custodes':'adeptus-custodes',
+    'adeptus-mechanicus':'adeptus-mechanicus','agents-of-the-imperium':'imperial-agents',
+    'astra-militarum':'astra-militarum','black-templars':'space-marines',
+    'blood-angels':'space-marines','dark-angels':'space-marines',
+    'deathwatch':'space-marines','grey-knights':'grey-knights',
+    'imperial-fists':'space-marines','imperial-knights':'imperial-knights',
+    'iron-hands':'space-marines','raven-guard':'space-marines',
+    'salamanders':'space-marines','space-marines':'space-marines',
+    'space-wolves':'space-marines','ultramarines':'space-marines',
+    'white-scars':'space-marines','leagues-of-votann':'leagues-of-votann',
+    'necrons':'necrons','orks':'orks','tau-empire':'t-au-empire',
+    'tyranids':'tyranids'
+  };
+
+  function waUnitSlug(name){
+    return (name||'')
+      .replace(/'/g,'-')
+      .replace(/[^\w\s-]/g,'')
+      .trim()
+      .replace(/\s+/g,'-')
+      .replace(/-+/g,'-');
+  }
+  function wahaLink(factionId, unitName){
+    var fs = WAHA_FACTION[factionId];
+    if (!fs) return null;
+    return 'https://wahapedia.ru/wh40k10ed/factions/' + fs + '/' + waUnitSlug(unitName);
+  }
+  function esc(s){
+    return String(s==null?'':s).replace(/[&<>"']/g, function(c){
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+    });
+  }
+
+  var index = null, faction = null, weaponsById = {}, currentFactionId = '';
+
+  function loadIndex(){
+    return fetch('assets/data/lookup/index.json')
+      .then(function(r){ return r.json(); })
+      .then(function(idx){
+        index = idx;
+        var sel = $('dl-faction');
+        sel.innerHTML = '';
+        idx.factions.forEach(function(f){
+          var o = document.createElement('option');
+          o.value = f.id; o.textContent = f.name + ' (' + f.datasheets + ')';
+          sel.appendChild(o);
+        });
+        sel.addEventListener('change', function(){ loadFaction(sel.value); });
+        return loadFaction(idx.factions[0].id);
+      })
+      .catch(function(){
+        $('dl-list').innerHTML = '<div class="ab-empty">Couldn\'t load datasheet data. Try refreshing the page.</div>';
+      });
+  }
+
+  function loadFaction(id){
+    var meta = (index.factions||[]).filter(function(f){ return f.id === id; })[0];
+    if (!meta) return;
+    currentFactionId = id;
+    return fetch('assets/data/lookup/' + meta.file)
+      .then(function(r){ return r.json(); })
+      .then(function(d){
+        faction = d;
+        weaponsById = {};
+        (d.weapons||[]).forEach(function(w){ weaponsById[w.id] = w; });
+        $('dl-detail').innerHTML = '<div class="ab-empty">Pick a unit from the list to see its full datasheet.</div>';
+        renderList();
+      });
+  }
+
+  function renderList(){
+    var q = ($('dl-search').value||'').trim().toLowerCase();
+    var list = (faction.datasheets||[]);
+    if (q){
+      list = list.filter(function(d){
+        if ((d.name||'').toLowerCase().indexOf(q) !== -1) return true;
+        if ((d.keywords||[]).some(function(k){ return k.toLowerCase().indexOf(q) !== -1; })) return true;
+        if ((d.abilities||[]).some(function(a){ return a.toLowerCase().indexOf(q) !== -1; })) return true;
+        return false;
+      });
+    }
+    $('dl-count').textContent = faction.datasheets.length;
+    $('dl-listcount').textContent = list.length + ' shown';
+    var html = list.map(function(d){
+      return '<div class="ab-item" data-id="' + esc(d.id) + '" tabindex="0" role="button">' +
+        '<span class="n">' + esc(d.name) + '</span>' +
+        '<span class="m">' + esc(d.role||'') + (d.epicHero ? ' · Epic Hero' : '') + '</span>' +
+      '</div>';
+    }).join('') || '<div class="ab-empty">No units match that search.</div>';
+    $('dl-list').innerHTML = html;
+    $('dl-list').querySelectorAll('.ab-item').forEach(function(el){
+      el.addEventListener('click', function(){ renderDetail(el.getAttribute('data-id')); });
+      el.addEventListener('keydown', function(e){ if (e.key==='Enter') renderDetail(el.getAttribute('data-id')); });
+    });
+  }
+
+  var STAT_COLS = ['M','T','SV','W','LD','OC'];
+
+  function renderDetail(id){
+    var d = (faction.datasheets||[]).filter(function(x){ return x.id === id; })[0];
+    if (!d) return;
+
+    var statRows = (d.stats||[]).map(function(row){
+      var cells = STAT_COLS.map(function(c){ return '<td>' + esc(row.stats[c]||'—') + '</td>'; }).join('');
+      return '<tr><th>' + esc(row.name) + '</th>' + cells + '</tr>';
+    }).join('');
+    var statsHtml = (d.stats && d.stats.length) ?
+      '<table class="dl-stats"><thead><tr><th></th>' +
+        STAT_COLS.map(function(c){ return '<th>' + c + '</th>'; }).join('') +
+      '</tr></thead><tbody>' + statRows + '</tbody></table>' :
+      '<p class="ab-empty" style="padding:10px 0;">No stat profile parsed for this entry.</p>';
+
+    var ranged = (d.weapons||[]).map(function(wid){ return weaponsById[wid]; }).filter(function(w){ return w && w.type==='ranged'; });
+    var melee  = (d.weapons||[]).map(function(wid){ return weaponsById[wid]; }).filter(function(w){ return w && w.type==='melee'; });
+
+    function wtable(weapons, kind){
+      if (!weapons.length) return '';
+      var cols = kind==='ranged' ? ['Range','A','BS','S','AP','D'] : ['Range','A','WS','S','AP','D'];
+      var rows = weapons.map(function(w){
+        var cells = cols.map(function(c){ return '<td>' + esc(w.stats[c]||'—') + '</td>'; }).join('');
+        var kw = (w.stats.Keywords||'').trim();
+        if (kw === '-') kw = '';
+        return '<tr><th>' + esc(w.name) + '</th>' + cells + '</tr>' +
+          (kw ? '<tr class="dl-kwrow"><td colspan="' + (cols.length+1) + '">' + esc(kw) + '</td></tr>' : '');
+      }).join('');
+      return '<h4>' + (kind==='ranged' ? 'Ranged weapons' : 'Melee weapons') + '</h4>' +
+        '<table class="dl-weapons"><thead><tr><th></th>' +
+          cols.map(function(c){ return '<th>' + c + '</th>'; }).join('') +
+        '</tr></thead><tbody>' + rows + '</tbody></table>';
+    }
+
+    var kwChips = (d.keywords||[]).map(function(k){ return '<span class="ab-kw">' + esc(k) + '</span>'; }).join('');
+    var abChips = (d.abilities||[]).map(function(a){ return '<span class="chip">' + esc(a) + '</span>'; }).join('');
+
+    var waUrl = wahaLink(currentFactionId, d.name);
+    var waBtn = waUrl ?
+      '<a class="btn btn-ghost dl-walink" href="' + esc(waUrl) + '" target="_blank" rel="noopener">' +
+        '<svg><use href="#ico-ext"/></svg> View full rules on Wahapedia' +
+      '</a>' : '';
+
+    var pts = (d.models||[]).map(function(b){
+      return (b.count ? b.count + ' models' : '') + (b.pts!=null ? ' — ' + b.pts + 'pts' : '');
+    }).join(' · ');
+
+    $('dl-detail').innerHTML =
+      '<div class="dl-head">' +
+        '<h3>' + esc(d.name) + '</h3>' +
+        '<div class="ab-item m" style="padding:0;border:none;background:none;">' +
+          esc(d.role||'') + (pts ? ' · ' + esc(pts) : '') +
+          (d.epicHero ? ' · <strong style="color:var(--crimson-glow);">Epic Hero</strong>' : '') +
+        '</div>' +
+        (kwChips ? '<div class="ab-chiprow" style="margin-top:10px;">' + kwChips + '</div>' : '') +
+      '</div>' +
+      statsHtml +
+      wtable(ranged,'ranged') + wtable(melee,'melee') +
+      (abChips ? '<h4>Abilities</h4><div class="chips">' + abChips + '</div>' : '') +
+      (waBtn ? '<div style="margin-top:18px;">' + waBtn + '</div>' : '');
+  }
+
+  $('dl-search').addEventListener('input', renderList);
+  loadIndex();
+})();
+</script>
+</body>
+</html>

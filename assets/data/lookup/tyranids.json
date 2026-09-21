@@ -1,0 +1,3869 @@
+{
+ "id": "tyranids",
+ "name": "Tyranids",
+ "source": "BSData/wh40k-10e",
+ "revision": "124",
+ "enhancements": [],
+ "weapons": [
+  {
+   "id": "massive-scything-talons-strike",
+   "name": "➤ Massive scything talons - strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "massive-scything-talons-sweep",
+   "name": "➤ Massive scything talons - sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "massive-crushing-claws",
+   "name": "Massive crushing claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "bone-sabres",
+   "name": "Bone Sabres",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "2+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "synaptic-pulse",
+   "name": "Synaptic Pulse",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6+3",
+    "BS": "N/A",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Psychic, Torrent"
+   }
+  },
+  {
+   "id": "broodlord-claws-and-talons",
+   "name": "Broodlord Claws and Talons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Devastating Wounds, Twin-linked"
+   }
+  },
+  {
+   "id": "old-one-eye-s-claws-and-talons-strike",
+   "name": "➤ Old One Eye’s claws and talons - Strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "14",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "old-one-eye-s-claws-and-talons-sweep",
+   "name": "➤ Old One Eye’s claws and talons - Sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "12",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "tyranid-warrior-claws-and-talons",
+   "name": "Tyranid Warrior claws and talons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "deathspitter",
+   "name": "Deathspitter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "spinefists",
+   "name": "Spinefists",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault, Pistol, Twin-linked"
+   }
+  },
+  {
+   "id": "venom-cannon",
+   "name": "Venom cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D3",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "barbed-strangler",
+   "name": "Barbed strangler",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D6+1",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "devourer",
+   "name": "Devourer",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "5",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "tyranid-warrior-claws-and-talons-2",
+   "name": "Tyranid Warrior claws and talons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "fleshborer",
+   "name": "Fleshborer",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "termagant-spinefist",
+   "name": "Termagant spinefist",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault, Pistol, Twin-linked"
+   }
+  },
+  {
+   "id": "termagant-devourer",
+   "name": "Termagant devourer",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "shardlauncher",
+   "name": "Shardlauncher",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D3",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast, Heavy"
+   }
+  },
+  {
+   "id": "spike-rifle",
+   "name": "Spike rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Heavy"
+   }
+  },
+  {
+   "id": "strangleweb",
+   "name": "Strangleweb",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "2",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault, Devastating Wounds, Torrent"
+   }
+  },
+  {
+   "id": "chitinous-claws-and-teeth",
+   "name": "Chitinous claws and teeth",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "hormagaunt-talons",
+   "name": "Hormagaunt talons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "3",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "massive-toxic-lashes",
+   "name": "Massive toxic lashes",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "12",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Anti-infantry 2+"
+   }
+  },
+  {
+   "id": "massive-toxic-lashes-2",
+   "name": "Massive toxic lashes",
+   "type": "ranged",
+   "stats": {
+    "Range": "9\"",
+    "A": "2D6",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Anti-infantry 2+"
+   }
+  },
+  {
+   "id": "scything-talons-and-rending-claws",
+   "name": "Scything talons and rending claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "bone-cleaver-lash-whip-and-rending-claws",
+   "name": "Bone cleaver, lash whip and rending claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "crushing-claws-and-rending-claws",
+   "name": "Crushing claws and rending claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "neurotyrant-claws-and-lashes",
+   "name": "Neurotyrant claws and lashes",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "massive-scything-talons-strike-2",
+   "name": "➤ Massive scything talons - strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "massive-scything-talons-sweep-2",
+   "name": "➤ Massive scything talons - sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "flamespurt",
+   "name": "Flamespurt",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6+1",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent, Twin-linked"
+   }
+  },
+  {
+   "id": "chitin-barbed-limbs",
+   "name": "Chitin-barbed limbs",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "grasping-tongue",
+   "name": "Grasping tongue",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "D6+1",
+    "Keywords": "Precision"
+   }
+  },
+  {
+   "id": "shovelling-claws",
+   "name": "Shovelling claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "14",
+    "AP": "-2",
+    "D": "D6+1",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "toxic-lashes",
+   "name": "Toxic lashes",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-Infantry 2+"
+   }
+  },
+  {
+   "id": "chitinous-claws-and-teeth-2",
+   "name": "Chitinous claws and teeth",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "warp-blast-witchfire",
+   "name": "➤ Warp blast - witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D3",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "D3",
+    "Keywords": "Blast, Psychic"
+   }
+  },
+  {
+   "id": "warp-blast-focused-witchfire",
+   "name": "➤ Warp blast - focused witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "Lethal Hits, Psychic"
+   }
+  },
+  {
+   "id": "bio-plasmic-cannon",
+   "name": "Bio-plasmic cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D6+3",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Blast, Heavy"
+   }
+  },
+  {
+   "id": "powerful-limbs",
+   "name": "Powerful limbs",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "7",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "spore-mine-launcher",
+   "name": "Spore mine launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D3",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Blast, Devastating Wounds, Heavy, Indirect Fire"
+   }
+  },
+  {
+   "id": "chitinous-claws-and-teeth-3",
+   "name": "Chitinous claws and teeth",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "carnifex-scything-talons",
+   "name": "Carnifex scything talons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "4+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "heavy-venom-cannon",
+   "name": "Heavy venom cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D3",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "stranglethorn-cannon",
+   "name": "Stranglethorn cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D6+1",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "carnifex-extra-scything-talons",
+   "name": "Carnifex extra scything talons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "bio-plasma",
+   "name": "Bio-plasma",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D3",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Assault, Blast"
+   }
+  },
+  {
+   "id": "spine-banks",
+   "name": "Spine banks",
+   "type": "ranged",
+   "stats": {
+    "Range": "6\"",
+    "A": "5",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "deathspitters-with-slimer-maggots",
+   "name": "Deathspitters with slimer maggots",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "devourers-with-brainleech-worms",
+   "name": "Devourers with brainleech worms",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "12",
+    "BS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "carnifex-crushing-claws",
+   "name": "Carnifex crushing claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "bio-plasmic-scream",
+   "name": "Bio-plasmic scream",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6+3",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Assault, Blast"
+   }
+  },
+  {
+   "id": "screamer-killer-talons",
+   "name": "Screamer-killer talons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "10",
+    "WS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "shockcannon",
+   "name": "Shockcannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "Anti-Vehicle 2+"
+   }
+  },
+  {
+   "id": "impaler-cannon",
+   "name": "Impaler cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "4",
+    "BS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Heavy, Indirect Fire"
+   }
+  },
+  {
+   "id": "chitinous-claws-and-teeth-4",
+   "name": "Chitinous claws and teeth",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "powerful-limbs-2",
+   "name": "Powerful limbs",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "8",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "drool-cannon",
+   "name": "Drool cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "2D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Torrent"
+   }
+  },
+  {
+   "id": "tentaclids",
+   "name": "Tentaclids",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "4",
+    "BS": "3+",
+    "S": "7",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "Anti-vehicle 4+, Devastating Wounds"
+   }
+  },
+  {
+   "id": "thorax-spur",
+   "name": "Thorax spur",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "3+",
+    "S": "10",
+    "AP": "-3",
+    "D": "D6",
+    "Keywords": "Anti-fly 2+, Extra Attacks"
+   }
+  },
+  {
+   "id": "scything-wings",
+   "name": "Scything wings",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-stranglethorn-cannon",
+   "name": "Twin stranglethorn cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D6+1",
+    "BS": "2+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Blast, Twin-linked"
+   }
+  },
+  {
+   "id": "twin-heavy-venom-cannon",
+   "name": "Twin heavy venom cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D3",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Blast, Twin-linked"
+   }
+  },
+  {
+   "id": "flensing-whips",
+   "name": "Flensing whips",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "sporocyst-bio-weapon",
+   "name": "Sporocyst bio-weapon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "10",
+    "BS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Hive Defences"
+   }
+  },
+  {
+   "id": "talons-and-betentacled-maw",
+   "name": "Talons and betentacled maw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Anti-Psyker 4+, Devastating Wounds"
+   }
+  },
+  {
+   "id": "barblauncher",
+   "name": "Barblauncher",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D6",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast, Heavy"
+   }
+  },
+  {
+   "id": "chitinous-claws-and-teeth-5",
+   "name": "Chitinous claws and teeth",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "bio-cannon",
+   "name": "Bio-cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6+3",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "hierodule-scything-talons",
+   "name": "Hierodule scything talons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "3+",
+    "S": "14",
+    "AP": "-2",
+    "D": "D3+3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "bio-acid-spray",
+   "name": "Bio-acid spray",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Torrent"
+   }
+  },
+  {
+   "id": "hierodule-scything-talons-2",
+   "name": "Hierodule scything talons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "10",
+    "WS": "3+",
+    "S": "14",
+    "AP": "-2",
+    "D": "D3+3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "dire-bio-cannon",
+   "name": "Dire bio-cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6+6",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "gargantuan-scything-talons",
+   "name": "Gargantuan scything talons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "14",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "bio-plasma-torrent",
+   "name": "Bio-plasma torrent",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "3D6",
+    "BS": "N/A",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Assault, Torrent"
+   }
+  },
+  {
+   "id": "lashwhip-pods",
+   "name": "Lashwhip pods",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "10",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "titanic-scything-talons",
+   "name": "Titanic scything talons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "3+",
+    "S": "20",
+    "AP": "-2",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "genestealers-claws-and-talons",
+   "name": "Genestealers claws and talons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "massive-scything-talons",
+   "name": "Massive scything talons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "10",
+    "WS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "claws-and-teeth",
+   "name": "Claws and teeth",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "5+",
+    "S": "2",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "spinemaws",
+   "name": "Spinemaws",
+   "type": "ranged",
+   "stats": {
+    "Range": "6\"",
+    "A": "4",
+    "BS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "grasping-tail",
+   "name": "Grasping tail",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4",
+    "S": "5",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "monstrous-scything-talons",
+   "name": "Monstrous scything talons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "toxinjecter-harpoon",
+   "name": "Toxinjecter Harpoon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "toxinjecter-harpoon-2",
+   "name": "Toxinjecter Harpoon",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "Harpooned"
+   }
+  },
+  {
+   "id": "monstrous-rending-claws",
+   "name": "Monstrous rending claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "psychic-tendril-neuroparasite",
+   "name": "➤ Psychic tendril - neuroparasite",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "8",
+    "AP": "-2",
+    "D": "D3",
+    "Keywords": "Precision, Psychic"
+   }
+  },
+  {
+   "id": "psychic-tendril-neurolance",
+   "name": "➤ Psychic tendril - neurolance",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6",
+    "Keywords": "Melta 2, Psychic"
+   }
+  },
+  {
+   "id": "psychic-tendril-neuroblast",
+   "name": "➤ Psychic tendril - neuroblast",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2D6",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Blast, Psychic"
+   }
+  },
+  {
+   "id": "rending-claw",
+   "name": "Rending claw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "lash-whip",
+   "name": "Lash whip",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "scything-talons",
+   "name": "Scything talons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "hormagaunts",
+   "name": "Hormagaunts",
+   "role": "Battleline",
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Great Devourer",
+    "Endless Multitude",
+    "Hormagaunts"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    },
+    {
+     "count": 11,
+     "pts": 130
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Hormagaunts",
+     "stats": {
+      "M": "10\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "hormagaunt-talons"
+   ],
+   "abilities": [
+    "Bounding Leap",
+    "Synapse"
+   ]
+  },
+  {
+   "id": "termagants",
+   "name": "Termagants",
+   "role": "Battleline",
+   "keywords": [
+    "Battleline",
+    "Infantry",
+    "Great Devourer",
+    "Endless Multitude",
+    "Termagants"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 10,
+     "pts": 60
+    },
+    {
+     "count": 20,
+     "pts": 120
+    }
+   ],
+   "minModels": 10,
+   "maxModels": 20,
+   "wargear": [
+    {
+     "id": "fleshborer",
+     "name": "Fleshborer",
+     "pts": 0,
+     "group": "Weapons",
+     "max": 1
+    },
+    {
+     "id": "termagant-spinefist",
+     "name": "Termagant spinefist",
+     "pts": 0,
+     "group": "Weapons",
+     "max": 1
+    },
+    {
+     "id": "termagant-devourer",
+     "name": "Termagant devourer",
+     "pts": 0,
+     "group": "Weapons",
+     "max": 1
+    }
+   ],
+   "stats": [],
+   "weapons": [
+    "fleshborer",
+    "termagant-spinefist",
+    "termagant-devourer",
+    "shardlauncher",
+    "spike-rifle",
+    "strangleweb",
+    "chitinous-claws-and-teeth"
+   ],
+   "abilities": [
+    "Skulking Horrors",
+    "Synapse",
+    "Termagants"
+   ]
+  },
+  {
+   "id": "mucolid-spores",
+   "name": "Mucolid Spores",
+   "role": "Beast",
+   "keywords": [
+    "Mucolid Spores",
+    "Beast",
+    "Fly",
+    "Great Devourer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [],
+   "weapons": [],
+   "abilities": [
+    "Mucolid Spore",
+    "Bio-minefield",
+    "Deep Strike",
+    "Floating Death",
+    "Synapse"
+   ]
+  },
+  {
+   "id": "mucolid-spores-sporocyst",
+   "name": "Mucolid Spores (Sporocyst)",
+   "role": "Beast",
+   "keywords": [
+    "Mucolid Spores",
+    "Beast",
+    "Fly",
+    "Great Devourer",
+    "Reference"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [],
+   "weapons": [],
+   "abilities": [
+    "Mucolid Spore",
+    "Bio-minefield",
+    "Deep Strike",
+    "Floating Death",
+    "Synapse"
+   ]
+  },
+  {
+   "id": "spore-mines",
+   "name": "Spore Mines",
+   "role": "Beast",
+   "keywords": [
+    "Spore Mines",
+    "Beast",
+    "Fly",
+    "Great Devourer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 55
+    },
+    {
+     "count": 4,
+     "pts": 110
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [],
+   "weapons": [],
+   "abilities": [
+    "Bio-minefield",
+    "Deep Strike",
+    "Synapse",
+    "Floating Death",
+    "Spore Mine"
+   ]
+  },
+  {
+   "id": "spore-mines-biovore",
+   "name": "Spore Mines (Biovore)",
+   "role": "Beast",
+   "keywords": [
+    "Spore Mines",
+    "Beast",
+    "Fly",
+    "Great Devourer",
+    "Reference"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [],
+   "weapons": [],
+   "abilities": [
+    "Floating Death",
+    "Bio-minefield",
+    "Deep Strike",
+    "Synapse",
+    "Spore Mine"
+   ]
+  },
+  {
+   "id": "broodlord",
+   "name": "Broodlord",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Psyker",
+    "Broodlord",
+    "Great Devourer",
+    "Vanguard Invader",
+    "Synapse"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "broodlord-claws-and-talons",
+     "name": "Broodlord Claws and Talons",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Broodlord",
+     "stats": {
+      "M": "8\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "broodlord-claws-and-talons"
+   ],
+   "abilities": [
+    "Vicious Insight",
+    "Hypnotic Gaze (Psychic)",
+    "Leader",
+    "Scouts",
+    "Invulnerable Save (4+)",
+    "Synapse",
+    "Shadow in the Warp"
+   ]
+  },
+  {
+   "id": "hive-tyrant",
+   "name": "Hive Tyrant",
+   "role": "Character",
+   "keywords": [
+    "Monster",
+    "Character",
+    "Psyker",
+    "Hive Tyrant",
+    "Great Devourer",
+    "Synapse"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 195
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Hive Tyrant",
+     "stats": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Invulnerable Save (4+)",
+    "Deadly Demise",
+    "Shadow in the Warp",
+    "Synapse",
+    "Will of the Hive Mind",
+    "Leader",
+    "Onslaught (Aura, Psychic)"
+   ]
+  },
+  {
+   "id": "malanthrope",
+   "name": "Malanthrope",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Fly",
+    "Great Devourer",
+    "Synapse"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "grasping-tail",
+     "name": "Grasping tail",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Malanthrope",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "grasping-tail"
+   ],
+   "abilities": [
+    "Enhanced Toxic Miasma",
+    "Prey Adaptation",
+    "Leader",
+    "Stealth",
+    "Lance",
+    "Lethal Hits",
+    "Sustained Hits"
+   ]
+  },
+  {
+   "id": "neurotyrant",
+   "name": "Neurotyrant",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Monster",
+    "Fly",
+    "Psyker",
+    "Great Devourer",
+    "Neurotyrant",
+    "Synapse"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 105
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "neurotyrant-claws-and-lashes",
+     "name": "Neurotyrant claws and lashes",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Neurotyrant",
+     "stats": {
+      "M": "6\"",
+      "T": "8",
+      "SV": "4+",
+      "W": "9",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "neurotyrant-claws-and-lashes"
+   ],
+   "abilities": [
+    "Node Lash (Psychic)",
+    "Psychic Terror (Psychic)",
+    "Synaptic Relays",
+    "Leader",
+    "Invulnerable Save (4+)",
+    "Shadow in the Warp",
+    "Synapse"
+   ]
+  },
+  {
+   "id": "tervigon",
+   "name": "Tervigon",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Monster",
+    "Psyker",
+    "Great Devourer",
+    "Tervigon",
+    "Synapse"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 160
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "massive-scything-talons",
+     "name": "Massive scything talons",
+     "pts": 0,
+     "group": "Massive Scything Talons",
+     "max": 1
+    },
+    {
+     "id": "massive-crushing-claws",
+     "name": "Massive crushing claws",
+     "pts": 0,
+     "group": "Massive Scything Talons",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Tervigon",
+     "stats": {
+      "M": "8\"",
+      "T": "11",
+      "SV": "2+",
+      "W": "16",
+      "LD": "7+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "massive-scything-talons-strike",
+    "massive-scything-talons-sweep",
+    "massive-crushing-claws"
+   ],
+   "abilities": [
+    "Spawn Termagants",
+    "Brood Progenitor (Aura, Psychic)",
+    "Deadly Demise",
+    "Shadow in the Warp",
+    "Synapse",
+    "Damaged: 1-5 Wounds Remaining"
+   ]
+  },
+  {
+   "id": "tyranid-prime-with-lash-whip",
+   "name": "Tyranid Prime with Lash Whip",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Great Devourer",
+    "Synapse",
+    "Tyranid Prime with Lash Whip"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "rending-claw",
+     "name": "Rending claw",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "lash-whip",
+     "name": "Lash whip",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "scything-talons",
+     "name": "Scything talons",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Tyranid Prime with Lash Whip",
+     "stats": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "rending-claw",
+    "lash-whip",
+    "scything-talons"
+   ],
+   "abilities": [
+    "Alpha Warrior",
+    "Aggressive Leader‑beast",
+    "Leader",
+    "Synapse",
+    "Shadow in the Warp",
+    "Sustained Hits"
+   ]
+  },
+  {
+   "id": "old-one-eye",
+   "name": "Old One Eye",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Monster",
+    "Character",
+    "Great Devourer",
+    "Old One Eye"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 150
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Old One Eye",
+     "stats": {
+      "M": "8\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "9",
+      "LD": "8+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "old-one-eye-s-claws-and-talons-strike",
+    "old-one-eye-s-claws-and-talons-sweep"
+   ],
+   "abilities": [
+    "Alpha Leader",
+    "Unstoppable Monster",
+    "Leader",
+    "Synapse",
+    "Feel No Pain"
+   ]
+  },
+  {
+   "id": "the-swarmlord",
+   "name": "The Swarmlord",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Monster",
+    "The Swarmlord",
+    "Great Devourer",
+    "Synapse",
+    "Psyker",
+    "Hive Tyrant"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 220
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "bone-sabres",
+     "name": "Bone Sabres",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "synaptic-pulse",
+     "name": "Synaptic Pulse",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "The Swarmlord",
+     "stats": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "bone-sabres",
+    "synaptic-pulse"
+   ],
+   "abilities": [
+    "Hive Commander",
+    "Malign Presence (Aura)",
+    "Domination of the Hive Mind (Aura)",
+    "Leader",
+    "Deadly Demise",
+    "Invulnerable Save (4+)",
+    "Shadow in the Warp",
+    "Synapse",
+    "Lord of Deceit (Aura)"
+   ]
+  },
+  {
+   "id": "barbgaunts",
+   "name": "Barbgaunts",
+   "role": "Infantry",
+   "keywords": [
+    "Barbgaunts",
+    "Infantry",
+    "Great Devourer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 55
+    },
+    {
+     "count": 6,
+     "pts": 110
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "barblauncher",
+     "name": "Barblauncher",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "chitinous-claws-and-teeth",
+     "name": "Chitinous claws and teeth",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Barbgaunt",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "2",
+      "LD": "8+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "barblauncher",
+    "chitinous-claws-and-teeth-5"
+   ],
+   "abilities": [
+    "Disruption Bombardment",
+    "Synapse"
+   ]
+  },
+  {
+   "id": "biovores",
+   "name": "Biovores",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Great Devourer",
+    "Biovore"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "spore-mine-launcher",
+     "name": "Spore mine launcher",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Biovore",
+     "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "5",
+      "LD": "8+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "spore-mine-launcher",
+    "chitin-barbed-limbs"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Synapse",
+    "Seed Spore Mines"
+   ]
+  },
+  {
+   "id": "genestealers",
+   "name": "Genestealers",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Great Devourer",
+    "Genestealers",
+    "Vanguard Invader"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    },
+    {
+     "count": 6,
+     "pts": 140
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "genestealers-claws-and-talons",
+     "name": "Genestealers claws and talons",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Genestealers",
+     "stats": {
+      "M": "8\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "genestealers-claws-and-talons"
+   ],
+   "abilities": [
+    "Vanguard Predator",
+    "Scouts",
+    "Synapse",
+    "Invulnerable Save (5+)"
+   ]
+  },
+  {
+   "id": "hive-guard",
+   "name": "Hive Guard",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Great Devourer",
+    "Hive Guard"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 3,
+     "pts": 90
+    },
+    {
+     "count": 6,
+     "pts": 180
+    }
+   ],
+   "minModels": 3,
+   "maxModels": 6,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Hive Guard",
+     "stats": {
+      "M": "6\"",
+      "T": "7",
+      "SV": "3+",
+      "W": "4",
+      "LD": "8+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "shockcannon",
+    "impaler-cannon",
+    "chitinous-claws-and-teeth-4"
+   ],
+   "abilities": [
+    "Defensive Stance",
+    "Synapse"
+   ]
+  },
+  {
+   "id": "neurogaunts",
+   "name": "Neurogaunts",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Great Devourer",
+    "Neurogaunts",
+    "Endless Multitude"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 45
+    },
+    {
+     "count": 12,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Neurogaunt Nodebeast",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Neurogaunt",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "chitinous-claws-and-teeth"
+   ],
+   "abilities": [
+    "Neurocytes",
+    "Synapse"
+   ]
+  },
+  {
+   "id": "pyrovores",
+   "name": "Pyrovores",
+   "role": "Infantry",
+   "keywords": [
+    "Pyrovores",
+    "Infantry",
+    "Great Devourer",
+    "Harvester"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 40
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Pyrovores",
+     "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "5",
+      "LD": "8+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "flamespurt",
+    "chitin-barbed-limbs"
+   ],
+   "abilities": [
+    "Burning Spray",
+    "Deadly Demise",
+    "Synapse"
+   ]
+  },
+  {
+   "id": "tyranid-warriors-with-melee-bio-weapons",
+   "name": "Tyranid Warriors with Melee Bio-Weapons",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Tyranid Warriors with Melee Bio-weapons",
+    "Great Devourer",
+    "Synapse",
+    "Tyranid Warriors"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    },
+    {
+     "count": 4,
+     "pts": 150
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Tyranid Prime",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Tyranid Warrior",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "tyranid-warrior-claws-and-talons-2"
+   ],
+   "abilities": [
+    "Adaptive Instincts",
+    "Shadow in the Warp",
+    "Synapse",
+    "Invulnerable Save (5+)"
+   ]
+  },
+  {
+   "id": "tyranid-warriors-with-ranged-bio-weapons",
+   "name": "Tyranid Warriors with Ranged Bio-Weapons",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Tyranid Warriors with Ranged Bio-weapons",
+    "Synapse",
+    "Great Devourer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    },
+    {
+     "count": 4,
+     "pts": 130
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Tyranid Prime",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Tyranid Warrior",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "tyranid-warrior-claws-and-talons",
+    "deathspitter",
+    "spinefists",
+    "venom-cannon",
+    "barbed-strangler",
+    "devourer"
+   ],
+   "abilities": [
+    "Adaptable Predators",
+    "Shadow in the Warp",
+    "Synapse",
+    "Invulnerable Save (5+)"
+   ]
+  },
+  {
+   "id": "tyrant-guard",
+   "name": "Tyrant Guard",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Great Devourer",
+    "Tyrant Guard"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    },
+    {
+     "count": 4,
+     "pts": 160
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "scything-talons-and-rending-claws",
+     "name": "Scything talons and rending claws",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    },
+    {
+     "id": "bone-cleaver-lash-whip-and-rending-claws",
+     "name": "Bone cleaver, lash whip and rending claws",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    },
+    {
+     "id": "crushing-claws-and-rending-claws",
+     "name": "Crushing claws and rending claws",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Tyrant Guard",
+     "stats": {
+      "M": "6\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "4",
+      "LD": "8+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "scything-talons-and-rending-claws",
+    "bone-cleaver-lash-whip-and-rending-claws",
+    "crushing-claws-and-rending-claws"
+   ],
+   "abilities": [
+    "Guardian Organism",
+    "Synapse"
+   ]
+  },
+  {
+   "id": "venomthropes",
+   "name": "Venomthropes",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Fly",
+    "Venomthropes",
+    "Great Devourer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    },
+    {
+     "count": 4,
+     "pts": 140
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Venomthropes",
+     "stats": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "3",
+      "LD": "8+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "toxic-lashes"
+   ],
+   "abilities": [
+    "Stealth",
+    "Synapse",
+    "Foul Spores (Aura)"
+   ]
+  },
+  {
+   "id": "zoanthropes",
+   "name": "Zoanthropes",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Fly",
+    "Psyker",
+    "Great Devourer",
+    "Zoanthropes",
+    "Synapse"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 100
+    },
+    {
+     "count": 4,
+     "pts": 200
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Neurothrope",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Zoanthrope",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "chitinous-claws-and-teeth-2",
+    "warp-blast-witchfire",
+    "warp-blast-focused-witchfire"
+   ],
+   "abilities": [
+    "Spirit Leech (Aura, Psychic)",
+    "Warp Field (Aura, Psychic)",
+    "Invulnerable Save (4+)",
+    "Shadow in the Warp",
+    "Synapse"
+   ]
+  },
+  {
+   "id": "barbed-hierodule",
+   "name": "Barbed Hierodule",
+   "role": "Monster",
+   "keywords": [
+    "Monster",
+    "Great Devourer",
+    "Barbed Hierodule"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 340
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "bio-cannon",
+     "name": "Bio-cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    },
+    {
+     "id": "hierodule-scything-talons",
+     "name": "Hierodule scything talons",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Barbed Hierodule",
+     "stats": {
+      "M": "8\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "18",
+      "LD": "8+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "bio-cannon",
+    "hierodule-scything-talons"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Damaged: 1-6 Wounds Remaining",
+    "Overgrown Barbs"
+   ]
+  },
+  {
+   "id": "carnifexes",
+   "name": "Carnifexes",
+   "role": "Monster",
+   "keywords": [
+    "Monster",
+    "Great Devourer",
+    "Carnifexes"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "chitinous-claws-and-teeth",
+     "name": "Chitinous claws and teeth",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "bio-plasma",
+     "name": "Bio-plasma",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "spine-banks",
+     "name": "Spine banks",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "carnifex-scything-talons",
+     "name": "Carnifex scything talons",
+     "pts": 0,
+     "group": "Carnifex Scything Talon",
+     "max": null
+    },
+    {
+     "id": "heavy-venom-cannon",
+     "name": "Heavy venom cannon",
+     "pts": 0,
+     "group": "Carnifex Extra Scything Talons",
+     "max": null
+    },
+    {
+     "id": "stranglethorn-cannon",
+     "name": "Stranglethorn cannon",
+     "pts": 0,
+     "group": "Carnifex Extra Scything Talons",
+     "max": null
+    },
+    {
+     "id": "carnifex-extra-scything-talons",
+     "name": "Carnifex extra scything talons",
+     "pts": 0,
+     "group": "Carnifex Extra Scything Talons",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Carnifex",
+     "stats": {
+      "M": "8\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "8",
+      "LD": "8+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "chitinous-claws-and-teeth-3",
+    "carnifex-scything-talons",
+    "heavy-venom-cannon",
+    "stranglethorn-cannon",
+    "carnifex-extra-scything-talons",
+    "bio-plasma",
+    "spine-banks",
+    "deathspitters-with-slimer-maggots",
+    "devourers-with-brainleech-worms",
+    "carnifex-crushing-claws"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Synapse",
+    "Blistering Assault"
+   ]
+  },
+  {
+   "id": "dimachaeron",
+   "name": "Dimachaeron",
+   "role": "Monster",
+   "keywords": [
+    "Monster",
+    "Great Devourer",
+    "Dimachaeron"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 200
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "massive-scything-talons",
+     "name": "Massive scything talons",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Dimachaeron",
+     "stats": {
+      "M": "12\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "16",
+      "LD": "7+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "massive-scything-talons"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Damaged: 1-5 Wounds Remaining",
+    "Invulnerable Save (5+)",
+    "Digestion Spine"
+   ]
+  },
+  {
+   "id": "exocrine",
+   "name": "Exocrine",
+   "role": "Monster",
+   "keywords": [
+    "Monster",
+    "Great Devourer",
+    "Exocrine"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 140
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "bio-plasmic-cannon",
+     "name": "Bio-plasmic cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "powerful-limbs",
+     "name": "Powerful limbs",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Exocrine",
+     "stats": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "14",
+      "LD": "8+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [
+    "bio-plasmic-cannon",
+    "powerful-limbs"
+   ],
+   "abilities": [
+    "Symbiotic Targeting",
+    "Deadly Demise",
+    "Damaged: 1-5 Wounds Remaining",
+    "Synapse"
+   ]
+  },
+  {
+   "id": "harpy",
+   "name": "Harpy",
+   "role": "Monster",
+   "keywords": [
+    "Harpy",
+    "Monster",
+    "Fly",
+    "Aircraft",
+    "Great Devourer",
+    "Vanguard Invader"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 215
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "twin-stranglethorn-cannon",
+     "name": "Twin stranglethorn cannon",
+     "pts": 0,
+     "group": "Stranglethorn Cannon",
+     "max": null
+    },
+    {
+     "id": "twin-heavy-venom-cannon",
+     "name": "Twin heavy venom cannon",
+     "pts": 0,
+     "group": "Stranglethorn Cannon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Harpy",
+     "stats": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "8+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-stranglethorn-cannon",
+    "twin-heavy-venom-cannon",
+    "scything-wings"
+   ],
+   "abilities": [
+    "Spore Mine Cysts",
+    "Deadly Demise",
+    "Hover",
+    "Damaged: 1-4 Wounds Remaining",
+    "Synapse"
+   ]
+  },
+  {
+   "id": "harridan",
+   "name": "Harridan",
+   "role": "Monster",
+   "keywords": [
+    "Monster",
+    "Titanic",
+    "Fly",
+    "Aircraft",
+    "Transport",
+    "Great Devourer",
+    "Harridan"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 610
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "dire-bio-cannon",
+     "name": "Dire bio-cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    },
+    {
+     "id": "gargantuan-scything-talons",
+     "name": "Gargantuan scything talons",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Harridan",
+     "stats": {
+      "M": "20+\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "30",
+      "LD": "8+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "dire-bio-cannon",
+    "gargantuan-scything-talons"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Hover",
+    "Synapse",
+    "Damaged: 1-10 wounds remaining",
+    "Frenzied Metabolism"
+   ]
+  },
+  {
+   "id": "haruspex",
+   "name": "Haruspex",
+   "role": "Monster",
+   "keywords": [
+    "Monster",
+    "Great Devourer",
+    "Haruspex",
+    "Harvester"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 125
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "grasping-tongue",
+     "name": "Grasping tongue",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "shovelling-claws",
+     "name": "Shovelling claws",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Haruspex",
+     "stats": {
+      "M": "8\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "14",
+      "LD": "8+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [
+    "grasping-tongue",
+    "shovelling-claws"
+   ],
+   "abilities": [
+    "Damaged: 1-5 Wounds Remaining",
+    "Deadly Demise",
+    "Synapse",
+    "Grisly Spectacle"
+   ]
+  },
+  {
+   "id": "hierophant",
+   "name": "Hierophant",
+   "role": "Monster",
+   "keywords": [
+    "Monster",
+    "Titanic",
+    "Towering",
+    "Transport",
+    "Great Devourer",
+    "Hierophant"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 810
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "bio-plasma-torrent",
+     "name": "Bio-plasma torrent",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "dire-bio-cannon",
+     "name": "Dire bio-cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    },
+    {
+     "id": "lashwhip-pods",
+     "name": "Lashwhip pods",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "titanic-scything-talons",
+     "name": "Titanic scything talons",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Hierophant",
+     "stats": {
+      "M": "12\"",
+      "T": "14",
+      "SV": "2+",
+      "W": "30",
+      "LD": "8+",
+      "OC": "12"
+     }
+    }
+   ],
+   "weapons": [
+    "bio-plasma-torrent",
+    "dire-bio-cannon",
+    "lashwhip-pods",
+    "titanic-scything-talons"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Synapse",
+    "Invulnerable Save (5+)",
+    "Damaged: 1-10 wounds remaining",
+    "Apex-beast",
+    "Stalking Forward"
+   ]
+  },
+  {
+   "id": "hive-crone",
+   "name": "Hive Crone",
+   "role": "Monster",
+   "keywords": [
+    "Aircraft",
+    "Monster",
+    "Fly",
+    "Great Devourer",
+    "Hive Crone",
+    "Vanguard Invader"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 200
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "drool-cannon",
+     "name": "Drool cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "tentaclids",
+     "name": "Tentaclids",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "thorax-spur",
+     "name": "Thorax spur",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Hive Crone",
+     "stats": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "8+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "drool-cannon",
+    "tentaclids",
+    "thorax-spur",
+    "scything-wings"
+   ],
+   "abilities": [
+    "Airborne Predator",
+    "Hover",
+    "Damaged: 1-4 Wounds Remaining",
+    "Deadly Demise",
+    "Synapse"
+   ]
+  },
+  {
+   "id": "maleceptor",
+   "name": "Maleceptor",
+   "role": "Monster",
+   "keywords": [
+    "Monster",
+    "Psyker",
+    "Great Devourer",
+    "Malceptor",
+    "Synapse"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 170
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "massive-scything-talons",
+     "name": "Massive scything talons",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Maleceptor",
+     "stats": {
+      "M": "8\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [
+    "massive-scything-talons-strike-2",
+    "massive-scything-talons-sweep-2"
+   ],
+   "abilities": [
+    "Encephalic Diffusion (Aura, Psychic)",
+    "Damaged: 1-5 Wounds Remaining",
+    "Deadly Demise",
+    "Invulnerable Save (4+)",
+    "Shadow in the Warp",
+    "Synapse"
+   ]
+  },
+  {
+   "id": "norn-assimilator",
+   "name": "Norn Assimilator",
+   "role": "Monster",
+   "keywords": [
+    "Monster",
+    "Great Devourer",
+    "Synapse",
+    "Norn Assimilator",
+    "Harvester"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 275
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "monstrous-scything-talons",
+     "name": "Monstrous scything talons",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "toxinjecter-harpoon",
+     "name": "Toxinjecter harpoon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Norn Assimilator",
+     "stats": {
+      "M": "10\"",
+      "T": "11",
+      "SV": "2+",
+      "W": "16",
+      "LD": "7+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "monstrous-scything-talons",
+    "toxinjecter-harpoon",
+    "toxinjecter-harpoon-2"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Shadow in the Warp",
+    "Synapse",
+    "Damaged: 1-5 Wounds Remaining",
+    "Singular Purpose",
+    "Harpoon Barbs"
+   ]
+  },
+  {
+   "id": "norn-emissary",
+   "name": "Norn Emissary",
+   "role": "Monster",
+   "keywords": [
+    "Monster",
+    "Psyker",
+    "Great Devourer",
+    "Synapse",
+    "Norn Emissary"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 260
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "monstrous-rending-claws",
+     "name": "Monstrous rending claws",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "monstrous-scything-talons",
+     "name": "Monstrous scything talons",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "psychic-tendril",
+     "name": "Psychic tendril",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Norn Emissary",
+     "stats": {
+      "M": "10\"",
+      "T": "11",
+      "SV": "2+",
+      "W": "16",
+      "LD": "7+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "monstrous-rending-claws",
+    "monstrous-scything-talons",
+    "psychic-tendril-neuroparasite",
+    "psychic-tendril-neurolance",
+    "psychic-tendril-neuroblast"
+   ],
+   "abilities": [
+    "Invulnerable Save (4+)",
+    "Singular Purpose",
+    "Damaged: 1-5 Wounds Remaining",
+    "Deadly Demise",
+    "Shadow in the Warp",
+    "Synapse",
+    "Unnatural Resistance",
+    "Feel No Pain"
+   ]
+  },
+  {
+   "id": "psychophage",
+   "name": "Psychophage",
+   "role": "Monster",
+   "keywords": [
+    "Monster",
+    "Great Devourer",
+    "Psychophage",
+    "Harvester",
+    "Smoke"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 110
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "talons-and-betentacled-maw",
+     "name": "Talons and betentacled maw",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Psychophage",
+     "stats": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "8+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "talons-and-betentacled-maw"
+   ],
+   "abilities": [
+    "Bio-stimulus",
+    "Feeding Frenzy",
+    "Deadly Demise",
+    "Synapse",
+    "Feel No Pain"
+   ]
+  },
+  {
+   "id": "screamer-killer",
+   "name": "Screamer-killer",
+   "role": "Monster",
+   "keywords": [
+    "Monster",
+    "Great Devourer",
+    "Screamer-killer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 125
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "bio-plasmic-scream",
+     "name": "Bio-plasmic scream",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "screamer-killer-talons",
+     "name": "Screamer-killer talons",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Screamer-killer",
+     "stats": {
+      "M": "8\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "10",
+      "LD": "8+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "bio-plasmic-scream",
+    "screamer-killer-talons"
+   ],
+   "abilities": [
+    "Death Scream",
+    "Deadly Demise",
+    "Synapse"
+   ]
+  },
+  {
+   "id": "scythed-hierodule",
+   "name": "Scythed Hierodule",
+   "role": "Monster",
+   "keywords": [
+    "Monster",
+    "Great Devourer",
+    "Scythed Hierodule"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 330
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "bio-acid-spray",
+     "name": "Bio-acid spray",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "hierodule-scything-talons",
+     "name": "Hierodule scything talons",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Scythed Hierodule",
+     "stats": {
+      "M": "12\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "18",
+      "LD": "8+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "bio-acid-spray",
+    "hierodule-scything-talons-2"
+   ],
+   "abilities": [
+    "Damaged: 1-6 Wounds Remaining",
+    "Deadly Demise",
+    "Irresistible Force"
+   ]
+  },
+  {
+   "id": "sporocyst",
+   "name": "Sporocyst",
+   "role": "Monster",
+   "keywords": [
+    "Monster",
+    "Sporocyst",
+    "Great Devourer"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 145
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "flensing-whips",
+     "name": "Flensing whips",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "sporocyst-bio-weapon",
+     "name": "Sporocyst bio-weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Sporocyst",
+     "stats": {
+      "M": "-",
+      "T": "10",
+      "SV": "3+",
+      "W": "10",
+      "LD": "8+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "flensing-whips",
+    "sporocyst-bio-weapon"
+   ],
+   "abilities": [
+    "Seed Mucolids",
+    "Hive Defences",
+    "Deadly Demise",
+    "Synapse"
+   ]
+  },
+  {
+   "id": "toxicrene",
+   "name": "Toxicrene",
+   "role": "Monster",
+   "keywords": [
+    "Monster",
+    "Great Devourer",
+    "Toxicrene"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 150
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "massive-toxic-lashes",
+     "name": "Massive toxic lashes",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Toxicrene",
+     "stats": {
+      "M": "8\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "14",
+      "LD": "8+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [
+    "massive-toxic-lashes",
+    "massive-toxic-lashes-2"
+   ],
+   "abilities": [
+    "Grasping Tendrils",
+    "Hypertoxic Miasma (Aura)",
+    "Deadly Demise",
+    "Damaged: 1-5 Wounds Remaining",
+    "Synapse"
+   ]
+  },
+  {
+   "id": "tyrannofex",
+   "name": "Tyrannofex",
+   "role": "Monster",
+   "keywords": [
+    "Monster",
+    "Great Devourer",
+    "Tyrannofex"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 200
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "powerful-limbs",
+     "name": "Powerful limbs",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Tyrannofex",
+     "stats": {
+      "M": "9\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "16",
+      "LD": "8+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "powerful-limbs-2"
+   ],
+   "abilities": [
+    "Resilient Organism",
+    "Damaged: 1-5 Wounds Remaining",
+    "Deadly Demise",
+    "Synapse"
+   ]
+  },
+  {
+   "id": "sky-slasher-swarms",
+   "name": "Sky-slasher Swarms",
+   "role": "Swarm",
+   "keywords": [
+    "Swarm",
+    "Great Devourer",
+    "Fly",
+    "Sky-slasher Swarms"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 3,
+     "pts": 60
+    }
+   ],
+   "minModels": 3,
+   "maxModels": 3,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Sky-slasher Swarms",
+     "stats": {
+      "M": "12\"",
+      "T": "2",
+      "SV": "6+",
+      "W": "4",
+      "LD": "8+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "claws-and-teeth",
+    "spinemaws"
+   ],
+   "abilities": [
+    "Chitinous Horrors",
+    "Deep Strike"
+   ]
+  }
+ ]
+}

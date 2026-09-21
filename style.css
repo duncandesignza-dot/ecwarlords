@@ -1005,6 +1005,28 @@ body.loaded main{animation:pageIn .5s ease both;}
 .m-msg.ok{color:#7fbf7f;}
 .m-msg.err{color:var(--crimson-glow);}
 
+/* ---------- Datasheet Lookup ---------- */
+.dl-cols{display:grid;grid-template-columns:300px minmax(0,1fr);gap:22px;align-items:start;}
+@media (max-width:760px){.dl-cols{grid-template-columns:1fr;}}
+.dl-detail-panel{min-height:200px;}
+.dl-head h3{font-family:var(--font-display);font-size:1.5rem;color:var(--bone);margin-bottom:6px;}
+.dl-detail-panel h4{font-size:.87rem;letter-spacing:.1em;font-weight:700;color:var(--crimson-glow);
+  margin:20px 0 10px;text-transform:uppercase;}
+.dl-stats,.dl-weapons{width:100%;border-collapse:collapse;font-size:.89rem;margin-bottom:6px;}
+.dl-stats th,.dl-weapons th,.dl-stats td,.dl-weapons td{
+  border:1px solid var(--iron);padding:7px 9px;text-align:center;font-variant-numeric:tabular-nums;
+}
+.dl-stats th:first-child,.dl-weapons th:first-child{text-align:left;font-variant-numeric:normal;}
+.dl-stats td:first-child,.dl-weapons td:first-child{text-align:left;font-weight:700;color:var(--bone);}
+.dl-stats thead th,.dl-weapons thead th{background:var(--void-2);color:var(--bone-dim);
+  font-size:.74rem;letter-spacing:.06em;font-weight:700;}
+.dl-weapons tbody th{background:var(--void-2);}
+.dl-kwrow td{text-align:left;color:var(--bone-dim);font-size:.81rem;font-style:italic;
+  border-top:none;background:var(--void);}
+.dl-walink{display:inline-flex;align-items:center;gap:8px;}
+.dl-walink svg{width:16px;height:16px;}
+/* ---------------------------------------- */
+
 /* printable list sheet */
 #ab-print{display:none;}
 @media print{

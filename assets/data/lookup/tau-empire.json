@@ -1,0 +1,6983 @@
+{
+ "id": "tau-empire",
+ "name": "T'au Empire",
+ "source": "BSData/wh40k-10e",
+ "revision": "160",
+ "enhancements": [
+  {
+   "id": "kauyon",
+   "name": "Kauyon",
+   "enhancements": [
+    {
+     "id": "exemplar-of-the-kauyon",
+     "name": "Exemplar of the Kauyon",
+     "pts": 20
+    },
+    {
+     "id": "precision-of-the-patient-hunter",
+     "name": "Precision of the Patient Hunter",
+     "pts": 15
+    },
+    {
+     "id": "solid-image-projection-unit",
+     "name": "Solid-image Projection Unit",
+     "pts": 30
+    },
+    {
+     "id": "through-unity-devastation",
+     "name": "Through Unity, Devastation",
+     "pts": 40
+    }
+   ]
+  },
+  {
+   "id": "mont-ka",
+   "name": "Mont'ka",
+   "enhancements": [
+    {
+     "id": "exemplar-of-the-mont-ka",
+     "name": "Exemplar of the Mont'ka",
+     "pts": 10
+    },
+    {
+     "id": "strike-swiftly",
+     "name": "Strike Swiftly",
+     "pts": 25
+    },
+    {
+     "id": "strategic-conqueror",
+     "name": "Strategic Conqueror",
+     "pts": 15
+    },
+    {
+     "id": "coordinated-exploitation",
+     "name": "Coordinated Exploitation",
+     "pts": 40
+    }
+   ]
+  },
+  {
+   "id": "retaliation-cadre",
+   "name": "Retaliation Cadre",
+   "enhancements": [
+    {
+     "id": "starflare-ignition-system",
+     "name": "Starflare Ignition System",
+     "pts": 20
+    },
+    {
+     "id": "prototype-weapon-system",
+     "name": "Prototype Weapon System",
+     "pts": 15
+    },
+    {
+     "id": "internal-grenade-racks",
+     "name": "Internal Grenade Racks",
+     "pts": 20
+    },
+    {
+     "id": "puretide-engram-neurochip",
+     "name": "Puretide Engram Neurochip",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "kroot-hunting-pack",
+   "name": "Kroot Hunting Pack",
+   "enhancements": [
+    {
+     "id": "nomadic-hunter",
+     "name": "Nomadic Hunter",
+     "pts": 20
+    },
+    {
+     "id": "borthrod-gland",
+     "name": "Borthrod Gland",
+     "pts": 15
+    },
+    {
+     "id": "root-carved-weapons",
+     "name": "Root-carved Weapons",
+     "pts": 10
+    },
+    {
+     "id": "kroothawk-flock",
+     "name": "Kroothawk Flock",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "auxiliary-cadre",
+   "name": "Auxiliary Cadre",
+   "enhancements": [
+    {
+     "id": "student-of-kauyon",
+     "name": "Student of Kauyon",
+     "pts": 15
+    },
+    {
+     "id": "admired-leader",
+     "name": "Admired Leader",
+     "pts": 20
+    },
+    {
+     "id": "fanatical-convert",
+     "name": "Fanatical Convert",
+     "pts": 10
+    },
+    {
+     "id": "transponder-lock-module",
+     "name": "Transponder Lock Module",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "experimental-prototype-cadre",
+   "name": "Experimental Prototype Cadre",
+   "enhancements": [
+    {
+     "id": "fusion-blades",
+     "name": "Fusion Blades",
+     "pts": 25
+    },
+    {
+     "id": "thermoneutronic-projector",
+     "name": "Thermoneutronic Projector",
+     "pts": 20
+    },
+    {
+     "id": "plasma-accelerator-rifle",
+     "name": "Plasma Accelerator Rifle",
+     "pts": 10
+    },
+    {
+     "id": "supernova-launcher",
+     "name": "Supernova Launcher",
+     "pts": 15
+    }
+   ]
+  }
+ ],
+ "weapons": [
+  {
+   "id": "light-missile-pod",
+   "name": "Light missile pod",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "7",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "high-energy-fusion-blaster",
+   "name": "High-energy fusion blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "10",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2"
+   }
+  },
+  {
+   "id": "flechette-launcher",
+   "name": "Flechette launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "5",
+    "BS": "2+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "battlesuit-fists",
+   "name": "Battlesuit fists",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "pulse-pistol",
+   "name": "Pulse pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "high-intensity-plasma-rifle",
+   "name": "High-intensity plasma rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "dawn-blade-strike",
+   "name": "➤ Dawn Blade - strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "dawn-blade-sweep",
+   "name": "➤ Dawn Blade - sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "missile-pod",
+   "name": "Missile pod",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "burst-cannon",
+   "name": "Burst cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "4",
+    "BS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "airbursting-fragmentation-projector",
+   "name": "Airbursting fragmentation projector",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast, Indirect Fire"
+   }
+  },
+  {
+   "id": "cyclic-ion-blaster-standard",
+   "name": "➤ Cyclic ion blaster - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "cyclic-ion-blaster-overcharge",
+   "name": "➤ Cyclic ion blaster - overcharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Hazardous"
+   }
+  },
+  {
+   "id": "t-au-flamer",
+   "name": "T'au flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "fusion-blaster",
+   "name": "Fusion blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2"
+   }
+  },
+  {
+   "id": "plasma-rifle",
+   "name": "Plasma rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "high-output-burst-cannon",
+   "name": "High-output burst cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "8",
+    "BS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "fireblade-pulse-rifle",
+   "name": "Fireblade pulse rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "close-combat-weapon",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "honour-stave",
+   "name": "Honour stave",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "close-combat-weapon-2",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "6+",
+    "S": "2",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "supreme-honour-blade",
+   "name": "Supreme honour blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "fidelity",
+   "name": "Fidelity",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "shade",
+   "name": "Shade",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "5",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "railgun",
+   "name": "Railgun",
+   "type": "ranged",
+   "stats": {
+    "Range": "72\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "20",
+    "AP": "-5",
+    "D": "D6+6",
+    "Keywords": "Devastating Wounds, Heavy"
+   }
+  },
+  {
+   "id": "ion-cannon-standard",
+   "name": "➤ Ion cannon - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "60\"",
+    "A": "D6+3",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "ion-cannon-overcharge",
+   "name": "➤ Ion cannon - overcharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "60\"",
+    "A": "D6+3",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Blast, Hazardous"
+   }
+  },
+  {
+   "id": "armoured-hull",
+   "name": "Armoured hull",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "5+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "seeker-missile",
+   "name": "Seeker missile",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "14",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "One Shot"
+   }
+  },
+  {
+   "id": "accelerator-burst-cannon",
+   "name": "Accelerator burst cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "4",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-pulse-carbine",
+   "name": "Twin pulse carbine",
+   "type": "ranged",
+   "stats": {
+    "Range": "20\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Twin-linked, Assault"
+   }
+  },
+  {
+   "id": "smart-missile-system",
+   "name": "Smart missile system",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Indirect Fire"
+   }
+  },
+  {
+   "id": "pulse-carbine",
+   "name": "Pulse carbine",
+   "type": "ranged",
+   "stats": {
+    "Range": "20\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "pulse-pistol-2",
+   "name": "Pulse pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "close-combat-weapon-3",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "pulse-rifle",
+   "name": "Pulse rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "support-turret",
+   "name": "Support turret",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "2",
+    "BS": "5+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Indirect Fire, Twin-linked"
+   }
+  },
+  {
+   "id": "pulse-blaster",
+   "name": "Pulse blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "10\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "close-combat-weapon-4",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "kroot-rifle",
+   "name": "Kroot rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "tanglebomb-launcher",
+   "name": "Tanglebomb launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D3",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "kroot-carbine",
+   "name": "Kroot carbine",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "kroot-pistol",
+   "name": "Kroot pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "krootox-fists",
+   "name": "Krootox fists",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "repeater-cannon",
+   "name": "Repeater cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Rapid Fire 2"
+   }
+  },
+  {
+   "id": "tanglecannon",
+   "name": "Tanglecannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D6+1",
+    "BS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast, Heavy"
+   }
+  },
+  {
+   "id": "battlesuit-fists-2",
+   "name": "Battlesuit fists",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "5+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "burst-cannon-2",
+   "name": "Burst cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "4",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "missile-pod-2",
+   "name": "Missile pod",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "plasma-rifle-2",
+   "name": "Plasma rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "airbursting-fragmentation-projector-2",
+   "name": "Airbursting fragmentation projector",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D6",
+    "BS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast, Indirect Fire"
+   }
+  },
+  {
+   "id": "cyclic-ion-blaster-standard-2",
+   "name": "➤ Cyclic ion blaster - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "cyclic-ion-blaster-overcharge-2",
+   "name": "➤ Cyclic ion blaster - overcharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Hazardous"
+   }
+  },
+  {
+   "id": "fusion-blaster-2",
+   "name": "Fusion blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2"
+   }
+  },
+  {
+   "id": "battlesuit-fists-3",
+   "name": "Battlesuit fists",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "5+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-burst-cannon",
+   "name": "Twin burst cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "4",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "fusion-collider",
+   "name": "Fusion collider",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "12",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2"
+   }
+  },
+  {
+   "id": "cyclic-ion-raker-standard",
+   "name": "➤ Cyclic ion raker - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "6",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "cyclic-ion-raker-overcharge",
+   "name": "➤ Cyclic ion raker - overcharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "6",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Hazardous"
+   }
+  },
+  {
+   "id": "ghostkeel-fists",
+   "name": "Ghostkeel fists",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "5+",
+    "S": "6",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-t-au-flamer",
+   "name": "Twin T'au flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent, Twin-linked"
+   }
+  },
+  {
+   "id": "twin-fusion-blaster",
+   "name": "Twin fusion blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2, Twin-linked"
+   }
+  },
+  {
+   "id": "close-combat-weapons",
+   "name": "Close combat weapons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "longshot-pulse-rifles",
+   "name": "Longshot pulse rifles",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Heavy, Precision"
+   }
+  },
+  {
+   "id": "ion-rifle-standard",
+   "name": "➤ Ion rifle - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "3",
+    "BS": "5+",
+    "S": "7",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Heavy"
+   }
+  },
+  {
+   "id": "ion-rifle-overcharge",
+   "name": "➤ Ion rifle - overcharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "3",
+    "BS": "5+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Hazardous, Heavy"
+   }
+  },
+  {
+   "id": "rail-rifle",
+   "name": "Rail rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "1",
+    "BS": "5+",
+    "S": "10",
+    "AP": "-4",
+    "D": "3",
+    "Keywords": "Devastating Wounds, Heavy"
+   }
+  },
+  {
+   "id": "drone-burst-cannon",
+   "name": "Drone burst cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "4",
+    "BS": "5+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "semi-automatic-grenade-launcher-emp",
+   "name": "➤ Semi-automatic grenade launcher - EMP",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-Vehicle 4+, Devastating Wounds"
+   }
+  },
+  {
+   "id": "semi-automatic-grenade-launcher-fusion",
+   "name": "➤ Semi-automatic grenade launcher - fusion",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "piranha-burst-cannon",
+   "name": "Piranha burst cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "4",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "piranha-fusion-blaster",
+   "name": "Piranha fusion blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 4"
+   }
+  },
+  {
+   "id": "armoured-hull-2",
+   "name": "Armoured hull",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "5+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "neutron-grenade-launcher",
+   "name": "Neutron grenade launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6",
+    "BS": "4+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Anti-Infantry 3+, Blast"
+   }
+  },
+  {
+   "id": "neutron-rail-rifle",
+   "name": "Neutron rail rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "10",
+    "AP": "-4",
+    "D": "3",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "stingwing-claws",
+   "name": "Stingwing claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "4+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "neutron-blaster",
+   "name": "Neutron blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "ripping-fangs",
+   "name": "Ripping fangs",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "crushing-bulk",
+   "name": "Crushing bulk",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "5+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "heavy-rail-rifle",
+   "name": "Heavy rail rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "60\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "12",
+    "AP": "-4",
+    "D": "D6+1",
+    "Keywords": "Heavy, Devastating Wounds"
+   }
+  },
+  {
+   "id": "high-yield-missile-pods",
+   "name": "High-yield missile pods",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "6",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "twin-plasma-rifle",
+   "name": "Twin plasma rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "twin-smart-missile-system",
+   "name": "Twin smart missile system",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "4",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Indirect Fire, Twin-linked"
+   }
+  },
+  {
+   "id": "riptide-fists",
+   "name": "Riptide fists",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "5+",
+    "S": "6",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "heavy-burst-cannon",
+   "name": "Heavy burst cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "12",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "ion-accelerator-standard",
+   "name": "➤ Ion accelerator - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "72\"",
+    "A": "6",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "ion-accelerator-overcharge",
+   "name": "➤ Ion accelerator - overcharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "72\"",
+    "A": "6",
+    "BS": "4+",
+    "S": "10",
+    "AP": "-3",
+    "D": "4",
+    "Keywords": "Hazardous"
+   }
+  },
+  {
+   "id": "twin-smart-missile-system-2",
+   "name": "Twin smart missile system",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Indirect Fire, Twin-linked"
+   }
+  },
+  {
+   "id": "missile-pod-3",
+   "name": "Missile pod",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "2",
+    "BS": "5+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "railgun-2",
+   "name": "Railgun",
+   "type": "ranged",
+   "stats": {
+    "Range": "72\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "20",
+    "AP": "-5",
+    "D": "D6+6",
+    "Keywords": "Heavy, Devastating Wounds"
+   }
+  },
+  {
+   "id": "ion-cannon-standard-2",
+   "name": "➤ Ion cannon - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "60\"",
+    "A": "D6+3",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "ion-cannon-overcharge-2",
+   "name": "➤ Ion cannon - overcharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "60\"",
+    "A": "D6+3",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Blast, Hazardous"
+   }
+  },
+  {
+   "id": "twin-pulse-carbine-2",
+   "name": "Twin pulse carbine",
+   "type": "ranged",
+   "stats": {
+    "Range": "20\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "seeker-missile-rack",
+   "name": "Seeker missile rack",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "14",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "quad-ion-turret-standard",
+   "name": "➤ Quad ion turret - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "8",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "quad-ion-turret-overcharge",
+   "name": "➤ Quad ion turret - overcharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "8",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Hazardous, Twin-linked"
+   }
+  },
+  {
+   "id": "twin-ion-rifle-standard",
+   "name": "➤ Twin ion rifle - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "twin-ion-rifle-overcharged",
+   "name": "➤ Twin ion rifle - overcharged",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Hazardous, Twin-linked"
+   }
+  },
+  {
+   "id": "twin-missile-pod",
+   "name": "Twin missile pod",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "drone-defenders",
+   "name": "Drone defenders",
+   "type": "ranged",
+   "stats": {
+    "Range": "20\"",
+    "A": "8",
+    "BS": "5+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault, Twin-linked"
+   }
+  },
+  {
+   "id": "supremacy-railgun",
+   "name": "Supremacy railgun",
+   "type": "ranged",
+   "stats": {
+    "Range": "72\"",
+    "A": "1",
+    "BS": "5+",
+    "S": "20",
+    "AP": "-5",
+    "D": "D6+6",
+    "Keywords": "Devastating Wounds, Twin-linked"
+   }
+  },
+  {
+   "id": "cluster-rocket-system",
+   "name": "Cluster rocket system",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "4D6",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast, Heavy"
+   }
+  },
+  {
+   "id": "destroyer-missiles",
+   "name": "Destroyer missiles",
+   "type": "ranged",
+   "stats": {
+    "Range": "72\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "16",
+    "AP": "-4",
+    "D": "D6+2",
+    "Keywords": "Heavy"
+   }
+  },
+  {
+   "id": "thunderous-footfalls",
+   "name": "Thunderous footfalls",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "5+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-smart-missile-system-3",
+   "name": "Twin smart missile system",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Heavy, Indirect Fire, Twin-Linked"
+   }
+  },
+  {
+   "id": "pulse-driver-cannon",
+   "name": "Pulse Driver Cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "72\"",
+    "A": "D6+3",
+    "BS": "4+",
+    "S": "12",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Blast, Heavy"
+   }
+  },
+  {
+   "id": "pulse-blast-cannon-focused",
+   "name": "➤ Pulse blast cannon - focused",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "24",
+    "AP": "-6",
+    "D": "12",
+    "Keywords": "Heavy"
+   }
+  },
+  {
+   "id": "pulse-blast-cannon-dispersed",
+   "name": "➤ Pulse blast cannon - dispersed",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "6",
+    "BS": "4+",
+    "S": "10",
+    "AP": "-2",
+    "D": "4",
+    "Keywords": "Heavy"
+   }
+  },
+  {
+   "id": "twin-airbursting-fragmentation-projector",
+   "name": "Twin airbursting fragmentation projector",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D6",
+    "BS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast, Heavy, Indirect Fire, Twin-linked"
+   }
+  },
+  {
+   "id": "twin-burst-cannon-2",
+   "name": "Twin burst cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "4",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Heavy, Twin-linked"
+   }
+  },
+  {
+   "id": "close-combat-weapon-5",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "6+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-pulse-carbine-3",
+   "name": "Twin pulse carbine",
+   "type": "ranged",
+   "stats": {
+    "Range": "20\"",
+    "A": "2",
+    "BS": "5+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault, Twin-linked"
+   }
+  },
+  {
+   "id": "ritual-blade",
+   "name": "Ritual blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "farstalker-firearm",
+   "name": "Farstalker firearm",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "t-au-tech-rifle",
+   "name": "T'au tech rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "dvorgite-skinner",
+   "name": "Dvorgite skinner",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "londaxi-tribalest",
+   "name": "Londaxi tribalest",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "5+",
+    "S": "7",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Anti-Vehicle 4+, Devastating Wounds, Heavy"
+   }
+  },
+  {
+   "id": "pulse-submunitions-cannon",
+   "name": "Pulse submunitions cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "60\"",
+    "A": "D6+2",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "battlesuit-fists-4",
+   "name": "Battlesuit fists",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "5+",
+    "S": "6",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "flechette-pod",
+   "name": "Flechette pod",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "5",
+    "BS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "ionic-discharge-cannon-standard",
+   "name": "➤ Ionic discharge cannon - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6+1",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "ionic-discharge-cannon-overcharge",
+   "name": "➤ Ionic discharge cannon - overcharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6+1",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Blast, Hazardous"
+   }
+  },
+  {
+   "id": "phased-plasma-flamer",
+   "name": "Phased plasma-flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "10",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "close-combat-weapons-2",
+   "name": "Close combat weapons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "close-combat-weapon-6",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "5+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "remora-seeker-missile",
+   "name": "Remora seeker missile",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "14",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "One Shot"
+   }
+  },
+  {
+   "id": "twin-long-barrelled-burst-cannon",
+   "name": "Twin long-barrelled burst cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "4",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "crushing-feet",
+   "name": "Crushing feet",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "5+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "tri-axis-ion-cannon-standard",
+   "name": "➤ Tri-axis ion cannon - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D6+3",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "tri-axis-ion-cannon-supercharge",
+   "name": "➤ Tri-axis ion cannon - supercharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D6+3",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Blast, Hazardous"
+   }
+  },
+  {
+   "id": "fusion-eradicator",
+   "name": "Fusion eradicator",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "5",
+    "BS": "4+",
+    "S": "10",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 3"
+   }
+  },
+  {
+   "id": "pulse-ordnance-driver",
+   "name": "Pulse ordnance driver",
+   "type": "ranged",
+   "stats": {
+    "Range": "60\"",
+    "A": "8",
+    "BS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "Anti-Infantry 2+"
+   }
+  },
+  {
+   "id": "nexus-missile-launcher",
+   "name": "Nexus missile launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "8",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "heavy-rail-cannon-array",
+   "name": "Heavy rail cannon array",
+   "type": "ranged",
+   "stats": {
+    "Range": "120\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "26",
+    "AP": "-5",
+    "D": "16",
+    "Keywords": "Devastating Wounds, Heavy"
+   }
+  },
+  {
+   "id": "fragmentation-cluster-shell-launcher",
+   "name": "Fragmentation cluster shell launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2D6+6",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "swiftstrike-burst-cannon",
+   "name": "Swiftstrike burst cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "16",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "long-barrelled-burst-cannon",
+   "name": "Long-barrelled burst cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "8",
+    "BS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "swiftstrike-railgun",
+   "name": "Swiftstrike railgun",
+   "type": "ranged",
+   "stats": {
+    "Range": "72\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "20",
+    "AP": "-5",
+    "D": "D6+6",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "skyspear-missile-rack",
+   "name": "Skyspear missile rack",
+   "type": "ranged",
+   "stats": {
+    "Range": "72\"",
+    "A": "D6+1",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Anti-Fly 3+, Blast"
+   }
+  },
+  {
+   "id": "twin-heavy-rail-cannon",
+   "name": "Twin heavy rail cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "120\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "26",
+    "AP": "-5",
+    "D": "12",
+    "Keywords": "Devastating Wounds, Twin-linked"
+   }
+  },
+  {
+   "id": "armoured-hull-3",
+   "name": "Armoured hull",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "5+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "heavy-rail-cannon",
+   "name": "Heavy rail cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "120\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "26",
+    "AP": "-5",
+    "D": "12",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "long-barrelled-burst-cannon-array",
+   "name": "Long-barrelled burst cannon array",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "32",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "armoured-hull-4",
+   "name": "Armoured hull",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "5+",
+    "S": "8",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "long-barrelled-burst-cannon-2",
+   "name": "Long-barrelled burst cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "4",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-burst-cannon-3",
+   "name": "Twin burst cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "4",
+    "BS": "5+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "great-knarloc-beak-and-talons",
+   "name": "Great Knarloc beak and talons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "kroot-bolt-thrower",
+   "name": "Kroot bolt thrower",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "12",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Hooked"
+   }
+  },
+  {
+   "id": "kroot-rifle-ranged",
+   "name": "Kroot rifle (Ranged)",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "kroot-rifle-melee",
+   "name": "Kroot rifle (Melee)",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-kroot-gun",
+   "name": "Twin Kroot gun",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "7",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "rail-rifle-2",
+   "name": "Rail rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "10",
+    "AP": "-4",
+    "D": "3",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "knarloc-beak-and-talons",
+   "name": "Knarloc beak and talons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "experimental-pulse-submunitions-rifle-emp",
+   "name": "➤ Experimental pulse submunitions rifle - EMP",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "1",
+    "AP": "0",
+    "D": "3",
+    "Keywords": "Anti-Vehicle 3+, Devastating Wounds"
+   }
+  },
+  {
+   "id": "experimental-pulse-submunitions-rifle-ionic-cluster-beam-shell",
+   "name": "➤ Experimental pulse submunitions rifle - ionic cluster-beam shell",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "fusion-cascade",
+   "name": "Fusion cascade",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 4"
+   }
+  },
+  {
+   "id": "phased-ion-gun",
+   "name": "Phased ion gun",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "4",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-hazard-burst-cannon",
+   "name": "Twin hazard burst cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "4",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "twin-plasma-rifle-2",
+   "name": "Twin plasma rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "5+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "twin-fusion-blaster-2",
+   "name": "Twin fusion blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "5+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2, Twin-linked"
+   }
+  },
+  {
+   "id": "twin-missile-pod-2",
+   "name": "Twin missile pod",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "2",
+    "BS": "5+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "shaper-s-blade",
+   "name": "Shaper's blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "bladestave-and-prey-hook",
+   "name": "Bladestave and prey-hook",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "dart-bow-and-tri-blade",
+   "name": "Dart-bow and tri-blade",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D3+1",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "Anti-Infantry 3+, Assault, Heavy"
+   }
+  },
+  {
+   "id": "twin-ritualistic-blades",
+   "name": "Twin ritualistic blades",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "kroot-scattergun",
+   "name": "Kroot scattergun",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "hunting-javelin",
+   "name": "Hunting javelin",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Lance"
+   }
+  },
+  {
+   "id": "close-combat-weapon-7",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "blast-javelin",
+   "name": "Blast javelin",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6",
+    "BS": "4+",
+    "S": "10",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Assault, Blast"
+   }
+  },
+  {
+   "id": "kroot-long-gun",
+   "name": "Kroot long gun",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Heavy, Precision"
+   }
+  },
+  {
+   "id": "kalamandra-s-bite",
+   "name": "Kalamandra's bite",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "hunting-blades",
+   "name": "Hunting blades",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Lance"
+   }
+  },
+  {
+   "id": "kroot-pistol-and-hunting-javelins",
+   "name": "Kroot pistol and hunting javelins",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault, Pistol"
+   }
+  },
+  {
+   "id": "rampager-fists",
+   "name": "Rampager fists",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Extra Attacks, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "fusion-eliminator",
+   "name": "Fusion eliminator",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "10",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2"
+   }
+  },
+  {
+   "id": "fusion-eliminator-2",
+   "name": "Fusion eliminator",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "4+",
+    "S": "10",
+    "AP": "-4",
+    "D": "D6+2",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "ion-scattercannon-overcharge",
+   "name": "➤ Ion scattercannon - overcharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "4",
+    "BS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Hazardous, Rapid Fire 2"
+   }
+  },
+  {
+   "id": "ion-scattercannon",
+   "name": "Ion scattercannon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "ion-scattercannon-standard",
+   "name": "➤ Ion scattercannon - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "4",
+    "BS": "2+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Rapid Fire 2"
+   }
+  },
+  {
+   "id": "shardstorm-burst-system",
+   "name": "Shardstorm burst system",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6",
+    "BS": "2+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "twin-pulse-blaster",
+   "name": "Twin pulse blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "10\"",
+    "A": "2",
+    "BS": "5+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Assault, Twin-linked"
+   }
+  },
+  {
+   "id": "xv-pulse-pistol",
+   "name": "XV pulse pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Rapid Fire 2"
+   }
+  },
+  {
+   "id": "xv-pulse-pistol-2",
+   "name": "XV pulse pistol",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "breacher-team",
+   "name": "Breacher Team",
+   "role": "Battleline",
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Grenades",
+    "Markerlight",
+    "Fire Warrior",
+    "Breacher Team",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 1,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Breacher Fire Warrior",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Breacher Fire Warrior Shas'ui",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "pulse-pistol-2",
+    "close-combat-weapon-3",
+    "pulse-blaster",
+    "support-turret"
+   ],
+   "abilities": [
+    "Breach and Clear",
+    "DS8 Support Turret",
+    "For The Greater Good"
+   ]
+  },
+  {
+   "id": "strike-team",
+   "name": "Strike Team",
+   "role": "Battleline",
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Grenades",
+    "Markerlight",
+    "Fire Warrior",
+    "Strike Team",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 9,
+     "pts": 70
+    }
+   ],
+   "minModels": 9,
+   "maxModels": 9,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Strike Team",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Fire Warrior Shas'ui",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "pulse-carbine",
+    "pulse-pistol-2",
+    "close-combat-weapon-3",
+    "pulse-rifle",
+    "support-turret"
+   ],
+   "abilities": [
+    "Suppression Volley",
+    "DS8 Support Turret",
+    "For The Greater Good"
+   ]
+  },
+  {
+   "id": "kroot-hounds",
+   "name": "Kroot Hounds",
+   "role": "Beast",
+   "keywords": [
+    "Beast",
+    "Kroot",
+    "Hounds"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 0,
+   "models": [
+    {
+     "count": 1,
+     "pts": 40
+    },
+    {
+     "count": 6,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Kroot Hounds",
+     "stats": {
+      "M": "12\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "ripping-fangs"
+   ],
+   "abilities": [
+    "Loping Pounce",
+    "Hunting Hounds",
+    "Scouts",
+    "Stealth"
+   ]
+  },
+  {
+   "id": "battlesuit-veteran",
+   "name": "Battlesuit Veteran [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Crucible",
+    "Fly",
+    "Battlesuit",
+    "Battlesuit Veteran"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 60
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Battlesuit Veteran",
+     "stats": {
+      "M": "8\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "For The Greater Good",
+    "Leader",
+    "Crucible",
+    "Infiltrators",
+    "Stealth",
+    "Invulnerable Save (4+)",
+    "Strategic Redeployment"
+   ]
+  },
+  {
+   "id": "cadre-fireblade",
+   "name": "Cadre Fireblade",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Cadre Fireblade",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 50
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Cadre Fireblade",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "fireblade-pulse-rifle",
+    "close-combat-weapon"
+   ],
+   "abilities": [
+    "Volley Fire",
+    "Crack Shot",
+    "Leader",
+    "For The Greater Good"
+   ]
+  },
+  {
+   "id": "commander-in-coldstar-battlesuit",
+   "name": "Commander in Coldstar Battlesuit",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Vehicle",
+    "Walker",
+    "Fly",
+    "Battlesuit",
+    "Commander in Coldstar Battlesuit",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 95
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "high-output-burst-cannon",
+     "name": "High-output burst cannon",
+     "pts": 0,
+     "group": "Support Systems (1-4)",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Commander in Coldstar Battlesuit",
+     "stats": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "high-output-burst-cannon",
+    "missile-pod",
+    "burst-cannon",
+    "airbursting-fragmentation-projector",
+    "cyclic-ion-blaster-standard",
+    "cyclic-ion-blaster-overcharge",
+    "t-au-flamer",
+    "fusion-blaster",
+    "plasma-rifle",
+    "battlesuit-fists"
+   ],
+   "abilities": [
+    "Deep Strike",
+    "For The Greater Good",
+    "Leader",
+    "Assault",
+    "Coldstar Commander"
+   ]
+  },
+  {
+   "id": "commander-in-crisis-battlesuit",
+   "name": "Commander in Crisis Battlesuit",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Vehicle",
+    "Walker",
+    "Fly",
+    "Battlesuit",
+    "Commander in Crisis Battlesuit",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Commander in Crisis Battlesuit",
+     "stats": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "missile-pod",
+    "burst-cannon",
+    "airbursting-fragmentation-projector",
+    "cyclic-ion-blaster-standard",
+    "cyclic-ion-blaster-overcharge",
+    "t-au-flamer",
+    "fusion-blaster",
+    "plasma-rifle",
+    "battlesuit-fists"
+   ],
+   "abilities": [
+    "Deep Strike",
+    "For The Greater Good",
+    "Leader",
+    "Crisis Commander"
+   ]
+  },
+  {
+   "id": "commander-in-enforcer-battlesuit",
+   "name": "Commander in Enforcer Battlesuit",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Vehicle",
+    "Walker",
+    "Fly",
+    "Battlesuit",
+    "Commander in Enforcer Battlesuit",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Commander in Enforcer Battlesuit",
+     "stats": {
+      "M": "8\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "missile-pod",
+    "burst-cannon",
+    "airbursting-fragmentation-projector",
+    "cyclic-ion-blaster-standard",
+    "cyclic-ion-blaster-overcharge",
+    "t-au-flamer",
+    "fusion-blaster",
+    "plasma-rifle",
+    "battlesuit-fists"
+   ],
+   "abilities": [
+    "Deep Strike",
+    "For The Greater Good",
+    "Leader",
+    "Enforcer Commander"
+   ]
+  },
+  {
+   "id": "ethereal",
+   "name": "Ethereal",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Ethereal",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 50
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "honour-stave",
+     "name": "Honour stave",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "hover-drone",
+     "name": "Hover Drone",
+     "pts": 0,
+     "group": "Hover Drone",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Ethereal",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "honour-stave"
+   ],
+   "abilities": [
+    "Coordinated Leadership",
+    "Leader",
+    "Invulnerable Save (5+)",
+    "For The Greater Good",
+    "Failure Is Not an Option",
+    "Feel No Pain",
+    "Hover Drone"
+   ]
+  },
+  {
+   "id": "firesight-team",
+   "name": "Firesight Team",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Markerlight",
+    "Firesight Team",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 60
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "close-combat-weapons",
+     "name": "Close combat weapons",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "longshot-pulse-rifles",
+     "name": "Longshot pulse rifles",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Firesight Team",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapons",
+    "longshot-pulse-rifles",
+    "pulse-pistol"
+   ],
+   "abilities": [
+    "Precise Targeting",
+    "Infiltrators",
+    "Lone Operative",
+    "Stealth",
+    "For The Greater Good"
+   ]
+  },
+  {
+   "id": "kinband-champion",
+   "name": "Kinband Champion [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Crucible",
+    "Kroot",
+    "Kinband Champion"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 55
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Kinband Champion",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Stealth",
+    "Leader",
+    "Crucible",
+    "War Leader",
+    "Scouts",
+    "Infiltrators"
+   ]
+  },
+  {
+   "id": "kroot-flesh-shaper",
+   "name": "Kroot Flesh Shaper",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Kroot",
+    "Shaper",
+    "Flesh Shaper"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 45
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Kroot Flesh Shaper",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-ritualistic-blades",
+    "kroot-scattergun"
+   ],
+   "abilities": [
+    "Leader",
+    "Rites of Feasting",
+    "Ritual Butchery",
+    "Infiltrators",
+    "Scouts",
+    "Stealth",
+    "Feel No Pain",
+    "Sustained Hits"
+   ]
+  },
+  {
+   "id": "kroot-lone-spear",
+   "name": "Kroot Lone-spear",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Mounted",
+    "Kroot",
+    "Lone-spear"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "close-combat-weapon",
+     "name": "Close combat weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "blast-javelin-and-hunting-javelin",
+     "name": "Blast javelin and hunting javelin",
+     "pts": 0,
+     "group": "Wargear Options",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Kroot Lone-spear",
+     "stats": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "hunting-javelin",
+    "close-combat-weapon-7",
+    "blast-javelin",
+    "kroot-long-gun",
+    "kalamandra-s-bite"
+   ],
+   "abilities": [
+    "Fire and Fade",
+    "Advanced Scouting",
+    "Stealth",
+    "Lone Operative",
+    "Scouts"
+   ]
+  },
+  {
+   "id": "kroot-trail-shaper",
+   "name": "Kroot Trail Shaper",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Kroot",
+    "Shaper",
+    "Trail Shaper"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 55
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Kroot Trail Shaper",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "kroot-rifle",
+    "shaper-s-blade"
+   ],
+   "abilities": [
+    "Kroot Ambush",
+    "Trail Finding",
+    "Leader",
+    "Infiltrators",
+    "Scouts",
+    "Stealth"
+   ]
+  },
+  {
+   "id": "kroot-war-shaper",
+   "name": "Kroot War Shaper",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Kroot",
+    "Shaper",
+    "War Shaper"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 50
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Kroot War Shaper",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "bladestave-and-prey-hook",
+    "dart-bow-and-tri-blade",
+    "shaper-s-blade",
+    "kroot-pistol"
+   ],
+   "abilities": [
+    "Root of Honour",
+    "Leader",
+    "Infiltrators",
+    "Scouts",
+    "War Leader",
+    "Stealth"
+   ]
+  },
+  {
+   "id": "shas-nel",
+   "name": "Shas'nel [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Crucible",
+    "Grenades",
+    "Shas'nel"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 50
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Shas'nel",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "For The Greater Good",
+    "Leader",
+    "Crucible",
+    "Volley Fire"
+   ]
+  },
+  {
+   "id": "aun-shi",
+   "name": "Aun'shi",
+   "role": "Epic Hero",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Ethereal",
+    "Aun'shi",
+    "Epic Hero",
+    "Non-Kroot"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 50
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Aun'shi",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "fidelity"
+   ],
+   "abilities": [
+    "Inspirational Defiance",
+    "Leader",
+    "Invulnerable Save (5+)",
+    "Martial Warrior",
+    "Precision",
+    "Devastating Wounds",
+    "Sustained Hits"
+   ]
+  },
+  {
+   "id": "aun-va",
+   "name": "Aun'va",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Non-Kroot"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Aun'va",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Ethereal Guard",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon-2",
+    "supreme-honour-blade"
+   ],
+   "abilities": [
+    "Duality Shield",
+    "Paradox of Duality",
+    "Supreme Loyalty (Aura)",
+    "Lone Operative",
+    "Invulnerable Save (4+)"
+   ]
+  },
+  {
+   "id": "commander-farsight",
+   "name": "Commander Farsight",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Vehicle",
+    "Walker",
+    "Fly",
+    "Character",
+    "Battlesuit",
+    "Commander Farsight",
+    "Non-Kroot"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Commander Farsight",
+     "stats": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "high-intensity-plasma-rifle",
+    "dawn-blade-strike",
+    "dawn-blade-sweep"
+   ],
+   "abilities": [
+    "Deep Strike",
+    "Invulnerable Save (4+)",
+    "For The Greater Good",
+    "Leader",
+    "Way of the Short Blade",
+    "Puretide's Teachings"
+   ]
+  },
+  {
+   "id": "commander-shadowsun",
+   "name": "Commander Shadowsun",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Infantry",
+    "Fly",
+    "Character",
+    "Battlesuit",
+    "Commander Shadowsun",
+    "Non-Kroot"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Commander Shadowsun",
+     "stats": {
+      "M": "10\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "light-missile-pod",
+    "high-energy-fusion-blaster",
+    "flechette-launcher",
+    "battlesuit-fists",
+    "pulse-pistol"
+   ],
+   "abilities": [
+    "Infiltrators",
+    "Lone Operative",
+    "Stealth",
+    "Invulnerable Save (5+)",
+    "For The Greater Good",
+    "Agile Combatant",
+    "Hero of the Empire (Aura)",
+    "Advanced Guardian Drone",
+    "Command-link Drone (Aura)",
+    "Supreme Commander"
+   ]
+  },
+  {
+   "id": "darkstrider",
+   "name": "Darkstrider",
+   "role": "Epic Hero",
+   "keywords": [
+    "Character",
+    "Epic Hero",
+    "Darkstrider",
+    "Markerlight",
+    "Infantry",
+    "Non-Kroot"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 60
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Darkstrider",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "shade",
+    "close-combat-weapon"
+   ],
+   "abilities": [
+    "Structural Analyser",
+    "Jammer Array",
+    "Leader",
+    "Infiltrators",
+    "Scouts",
+    "For The Greater Good"
+   ]
+  },
+  {
+   "id": "longstrike",
+   "name": "Longstrike",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Fly",
+    "Vehicle",
+    "Longstrike",
+    "Non-Kroot"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 140
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "railgun",
+     "name": "Railgun",
+     "pts": 0,
+     "group": "Railgun",
+     "max": null
+    },
+    {
+     "id": "ion-cannon",
+     "name": "Ion cannon",
+     "pts": 0,
+     "group": "Railgun",
+     "max": null
+    },
+    {
+     "id": "2-accelerator-burst-cannons",
+     "name": "2 Accelerator burst cannons",
+     "pts": 0,
+     "group": "Twin Pulse Carbines",
+     "max": null
+    },
+    {
+     "id": "2-twin-pulse-carbines",
+     "name": "2 Twin pulse carbines",
+     "pts": 0,
+     "group": "Twin Pulse Carbines",
+     "max": null
+    },
+    {
+     "id": "2-smart-missile-systems",
+     "name": "2 Smart missile systems",
+     "pts": 0,
+     "group": "Twin Pulse Carbines",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Longstrike",
+     "stats": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "railgun",
+    "ion-cannon-standard",
+    "ion-cannon-overcharge",
+    "armoured-hull",
+    "seeker-missile",
+    "accelerator-burst-cannon",
+    "twin-pulse-carbine",
+    "smart-missile-system"
+   ],
+   "abilities": [
+    "Armour Hunter",
+    "Deadly Demise",
+    "Damaged: 1-5 Wounds Remaining",
+    "Targeting Array",
+    "For The Greater Good",
+    "XV02 Pilot Battlesuit",
+    "Lethal Hits"
+   ]
+  },
+  {
+   "id": "shas-o-r-alai",
+   "name": "Shas'o R'alai",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Vehicle",
+    "Walker",
+    "Fly",
+    "Markerlight",
+    "Shas'o R'alai",
+    "Battlesuit",
+    "Non-Kroot"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Shas'o R'alai",
+     "stats": {
+      "M": "8\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "battlesuit-fists",
+    "experimental-pulse-submunitions-rifle-emp",
+    "experimental-pulse-submunitions-rifle-ionic-cluster-beam-shell"
+   ],
+   "abilities": [
+    "Deep Strike",
+    "For The Greater Good",
+    "Invulnerable Save (4+)",
+    "Leader",
+    "Eclipse Field Generator",
+    "Assassin",
+    "Blacklight Marker Drones"
+   ]
+  },
+  {
+   "id": "the-twin-lance",
+   "name": "The Twin Lance",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Vehicle",
+    "Walker",
+    "Fly",
+    "Character",
+    "Battlesuit",
+    "Non-Kroot",
+    "The Twin Lance"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 185
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "The Twin Lance",
+     "stats": {
+      "M": "10\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "fusion-eliminator",
+    "fusion-eliminator-2",
+    "ion-scattercannon-overcharge",
+    "ion-scattercannon",
+    "ion-scattercannon-standard",
+    "shardstorm-burst-system",
+    "twin-pulse-blaster",
+    "xv-pulse-pistol",
+    "xv-pulse-pistol-2"
+   ],
+   "abilities": [
+    "Sustained Hits",
+    "Invulnerable Save (4+)",
+    "For The Greater Good",
+    "Scouts",
+    "Ignores Cover",
+    "Deep Strike",
+    "Neocapacitor Shields",
+    "Exemplars of Mont’ka",
+    "Retro-thrusters"
+   ]
+  },
+  {
+   "id": "remote-sensor-tower",
+   "name": "Remote Sensor Tower",
+   "role": "Fortification",
+   "keywords": [
+    "Fortification",
+    "Remote Sensor Tower",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 50
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Remote Sensor Tower [Legends]",
+     "stats": {
+      "M": "-",
+      "T": "8",
+      "SV": "4+",
+      "W": "4",
+      "LD": "8+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Orbital Comms Array (Aura)",
+    "Reinforced Cover",
+    "Fortification"
+   ]
+  },
+  {
+   "id": "kroot-carnivores",
+   "name": "Kroot Carnivores",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Kroot",
+    "Carnivores"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 9,
+     "pts": 65
+    },
+    {
+     "count": 19,
+     "pts": 140
+    }
+   ],
+   "minModels": 9,
+   "maxModels": 19,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Kroot Carnivores",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon-4",
+    "kroot-rifle",
+    "tanglebomb-launcher",
+    "kroot-carbine",
+    "kroot-pistol"
+   ],
+   "abilities": [
+    "Fieldcraft",
+    "Bodyguard",
+    "Scouts",
+    "Stealth"
+   ]
+  },
+  {
+   "id": "kroot-farstalkers",
+   "name": "Kroot Farstalkers",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Kroot",
+    "Farstalkers"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 0,
+   "models": [
+    {
+     "count": 9,
+     "pts": 85
+    }
+   ],
+   "minModels": 9,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "farstalker-firearm",
+     "name": "Farstalker firearm",
+     "pts": 0,
+     "group": "Farstalker Firearm",
+     "max": null
+    },
+    {
+     "id": "t-au-tech-rifle",
+     "name": "T'au tech rifle",
+     "pts": 0,
+     "group": "Farstalker Firearm",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Farstalkers & Kill-broker",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Kroot Hounds",
+     "stats": {
+      "M": "12\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "ripping-fangs",
+    "ritual-blade",
+    "farstalker-firearm",
+    "t-au-tech-rifle",
+    "kroot-pistol",
+    "close-combat-weapon-4",
+    "dvorgite-skinner",
+    "londaxi-tribalest"
+   ],
+   "abilities": [
+    "Infiltrators",
+    "Stealth",
+    "Bounty Hunters",
+    "Precision",
+    "Lethal Hits",
+    "Pech'ra",
+    "Ignores Cover"
+   ]
+  },
+  {
+   "id": "pathfinder-team",
+   "name": "Pathfinder Team",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Markerlight",
+    "Pathfinder Team",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 9,
+     "pts": 90
+    }
+   ],
+   "minModels": 9,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "pulse-carbine",
+     "name": "Pulse carbine",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "grav-inhibitor-drone",
+     "name": "Grav-inhibitor drone",
+     "pts": 0,
+     "group": "Pathfinder Drone",
+     "max": null
+    },
+    {
+     "id": "pulse-accelerator-drone",
+     "name": "Pulse accelerator drone",
+     "pts": 0,
+     "group": "Pathfinder Drone",
+     "max": null
+    },
+    {
+     "id": "recon-drone",
+     "name": "Recon drone",
+     "pts": 0,
+     "group": "Pathfinder Drone",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Pathfinder Team",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Pathfinder Shas'ui",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "pulse-carbine",
+    "ion-rifle-standard",
+    "ion-rifle-overcharge",
+    "rail-rifle",
+    "drone-burst-cannon",
+    "pulse-pistol-2",
+    "close-combat-weapon-3",
+    "semi-automatic-grenade-launcher-emp",
+    "semi-automatic-grenade-launcher-fusion"
+   ],
+   "abilities": [
+    "Target Uploaded",
+    "Scouts",
+    "For The Greater Good",
+    "Infiltrators",
+    "Ignores Cover",
+    "Grav-inhibitor Drone",
+    "Pulse Accelerator Drone",
+    "Recon Drone"
+   ]
+  },
+  {
+   "id": "stealth-battlesuits",
+   "name": "Stealth Battlesuits",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Fly",
+    "Battlesuit",
+    "Stealth",
+    "Grenades",
+    "Markerlight",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 4,
+     "pts": 100
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 4,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Stealth Shas'ui",
+     "stats": {
+      "M": "8\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Stealth Shas'vre",
+     "stats": {
+      "M": "8\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "battlesuit-fists-3",
+    "burst-cannon-2",
+    "fusion-blaster-2",
+    "pulse-pistol-2"
+   ],
+   "abilities": [
+    "Forward Observers",
+    "Infiltrators",
+    "Stealth",
+    "For The Greater Good"
+   ]
+  },
+  {
+   "id": "vespid-stingwings",
+   "name": "Vespid Stingwings",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Fly",
+    "Vespid Stingwings",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 4,
+     "pts": 65
+    },
+    {
+     "count": 9,
+     "pts": 130
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "oversight-drone",
+     "name": "Oversight Drone",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Vespid Stingwings",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "neutron-grenade-launcher",
+    "neutron-rail-rifle",
+    "stingwing-claws",
+    "neutron-blaster",
+    "t-au-flamer"
+   ],
+   "abilities": [
+    "Airborne Agility",
+    "Deep Strike",
+    "Oversight Drone",
+    "Ignores Cover"
+   ]
+  },
+  {
+   "id": "great-knarloc",
+   "name": "Great Knarloc",
+   "role": "Monster",
+   "keywords": [
+    "Monster",
+    "Kroot",
+    "Great Knarloc"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "great-knarloc-beak-and-talons",
+     "name": "Great Knarloc beak and talons",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "kroot-bolt-thrower-and-kroot-rifle",
+     "name": "Kroot bolt thrower and Kroot rifle",
+     "pts": 0,
+     "group": "Wargear Options",
+     "max": 1
+    },
+    {
+     "id": "twin-kroot-gun",
+     "name": "Twin Kroot gun",
+     "pts": 0,
+     "group": "Wargear Options",
+     "max": 1
+    },
+    {
+     "id": "baggage-harness",
+     "name": "Baggage harness",
+     "pts": 0,
+     "group": "Wargear Options",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Great Knarloc [Legends]",
+     "stats": {
+      "M": "9\"",
+      "T": "8",
+      "SV": "4+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "great-knarloc-beak-and-talons",
+    "kroot-bolt-thrower",
+    "kroot-rifle-ranged",
+    "kroot-rifle-melee",
+    "twin-kroot-gun"
+   ],
+   "abilities": [
+    "Loping Stride",
+    "Scouts",
+    "Baggage Harness (Aura)",
+    "Sustained Hits"
+   ]
+  },
+  {
+   "id": "knarloc-riders",
+   "name": "Knarloc Riders",
+   "role": "Mounted",
+   "keywords": [
+    "Mounted",
+    "Kroot",
+    "Knarloc Riders"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 110
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Knarloc Riders [Legends]",
+     "stats": {
+      "M": "7\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "knarloc-beak-and-talons",
+    "kroot-rifle-ranged",
+    "kroot-rifle-melee"
+   ],
+   "abilities": [
+    "Thunderous Pounce",
+    "Lance",
+    "Stealth",
+    "Scouts"
+   ]
+  },
+  {
+   "id": "krootox-rampagers",
+   "name": "Krootox Rampagers",
+   "role": "Mounted",
+   "keywords": [
+    "Mounted",
+    "Grenades",
+    "Kroot",
+    "Krootox Rampagers"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 3,
+     "pts": 85
+    },
+    {
+     "count": 6,
+     "pts": 170
+    }
+   ],
+   "minModels": 3,
+   "maxModels": 6,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Krootox Rampagers",
+     "stats": {
+      "M": "7\"",
+      "T": "6",
+      "SV": "5+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "hunting-blades",
+    "kroot-pistol-and-hunting-javelins",
+    "rampager-fists"
+   ],
+   "abilities": [
+    "Kroot Linebreakers",
+    "Scouts"
+   ]
+  },
+  {
+   "id": "krootox-riders",
+   "name": "Krootox Riders",
+   "role": "Mounted",
+   "keywords": [
+    "Mounted",
+    "Kroot",
+    "Krootox Riders",
+    "Grenades"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 0,
+   "models": [
+    {
+     "count": 1,
+     "pts": 40
+    },
+    {
+     "count": 3,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 3,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Krootox Riders",
+     "stats": {
+      "M": "7\"",
+      "T": "6",
+      "SV": "5+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "krootox-fists",
+    "repeater-cannon",
+    "tanglecannon",
+    "close-combat-weapon-4"
+   ],
+   "abilities": [
+    "Kroot Packmates",
+    "Scouts"
+   ]
+  },
+  {
+   "id": "tactical-drones",
+   "name": "Tactical Drones",
+   "role": "Other",
+   "keywords": [
+    "Drone",
+    "Fly",
+    "Tactical Drones",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Tactical Drones",
+     "stats": {
+      "M": "8\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon-5",
+    "twin-pulse-carbine-3"
+   ],
+   "abilities": [
+    "Deep Strike"
+   ]
+  },
+  {
+   "id": "ax-1-0-tiger-shark",
+   "name": "AX-1-0 Tiger Shark",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "AX-1-0 Tiger Shark",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 315
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "twin-heavy-rail-cannon",
+     "name": "Twin heavy rail cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "2-burst-cannons",
+     "name": "2 burst cannons",
+     "pts": 0,
+     "group": "Burst Cannons",
+     "max": null
+    },
+    {
+     "id": "2-cyclic-ion-blasters",
+     "name": "2 cyclic ion blasters",
+     "pts": 0,
+     "group": "Burst Cannons",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Tiger Shark",
+     "stats": {
+      "M": "20+\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "18",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-heavy-rail-cannon",
+    "burst-cannon-2",
+    "cyclic-ion-blaster-standard-2",
+    "cyclic-ion-blaster-overcharge-2",
+    "seeker-missile",
+    "missile-pod-2",
+    "armoured-hull"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Invulnerable Save (5+)",
+    "For The Greater Good",
+    "Damaged: 1-6 Wounds Remaining",
+    "Titan Hunter",
+    "Anti-"
+   ]
+  },
+  {
+   "id": "barracuda",
+   "name": "Barracuda",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Barracuda",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 220
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "swiftstrike-burst-cannon",
+     "name": "Swiftstrike burst cannon",
+     "pts": 0,
+     "group": "Swiftstrike Burst Cannon",
+     "max": null
+    },
+    {
+     "id": "ion-cannon",
+     "name": "Ion cannon",
+     "pts": 0,
+     "group": "Swiftstrike Burst Cannon",
+     "max": null
+    },
+    {
+     "id": "2-long-barrelled-burst-cannons",
+     "name": "2 Long-barrelled burst cannons",
+     "pts": 0,
+     "group": "Long-barrelled Burst Cannons",
+     "max": null
+    },
+    {
+     "id": "2-cyclic-ion-blasters",
+     "name": "2 Cyclic ion blasters",
+     "pts": 0,
+     "group": "Long-barrelled Burst Cannons",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Barracuda",
+     "stats": {
+      "M": "20+\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "swiftstrike-burst-cannon",
+    "ion-cannon-standard-2",
+    "ion-cannon-overcharge-2",
+    "long-barrelled-burst-cannon",
+    "swiftstrike-railgun",
+    "cyclic-ion-blaster-standard-2",
+    "cyclic-ion-blaster-overcharge-2",
+    "seeker-missile",
+    "missile-pod-2",
+    "armoured-hull"
+   ],
+   "abilities": [
+    "Agile Dogfighter",
+    "Invulnerable Save (5+)",
+    "Damaged: 1-5 Wounds Remaining",
+    "Deadly Demise",
+    "For The Greater Good"
+   ]
+  },
+  {
+   "id": "broadside-battlesuits",
+   "name": "Broadside Battlesuits",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Battlesuit",
+    "Broadside",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    },
+    {
+     "count": 3,
+     "pts": 270
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Broadside Shas’ui",
+     "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "8",
+      "LD": "7+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Broadside Shas’vre",
+     "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "8",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "crushing-bulk",
+    "heavy-rail-rifle",
+    "high-yield-missile-pods",
+    "seeker-missile",
+    "twin-plasma-rifle",
+    "twin-smart-missile-system"
+   ],
+   "abilities": [
+    "For The Greater Good",
+    "Feel No Pain",
+    "Advanced Armour"
+   ]
+  },
+  {
+   "id": "crisis-battlesuits",
+   "name": "Crisis Battlesuits",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Fly",
+    "Battlesuit",
+    "Crisis",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 200
+    },
+    {
+     "count": 4,
+     "pts": 400
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Crisis Shas’ui",
+     "stats": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Crisis Shas’vre",
+     "stats": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "battlesuit-fists-2",
+    "t-au-flamer",
+    "burst-cannon-2",
+    "missile-pod-2",
+    "plasma-rifle-2",
+    "airbursting-fragmentation-projector-2",
+    "cyclic-ion-blaster-standard-2",
+    "cyclic-ion-blaster-overcharge-2",
+    "fusion-blaster-2"
+   ],
+   "abilities": [
+    "Turbo-jets",
+    "Crisis Bodyguard",
+    "Deep Strike",
+    "For The Greater Good"
+   ]
+  },
+  {
+   "id": "crisis-fireknife-battlesuits",
+   "name": "Crisis Fireknife Battlesuits",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Fly",
+    "Battlesuit",
+    "Crisis",
+    "Fireknife",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 120
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Crisis Fireknife Shas’ui",
+     "stats": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Crisis Fireknife Shas’vre",
+     "stats": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "battlesuit-fists-2",
+    "plasma-rifle-2",
+    "missile-pod-2"
+   ],
+   "abilities": [
+    "Fireknife",
+    "Weapon Support System",
+    "Deep Strike",
+    "For The Greater Good"
+   ]
+  },
+  {
+   "id": "crisis-starscythe-battlesuits",
+   "name": "Crisis Starscythe Battlesuits",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Fly",
+    "Battlesuit",
+    "Crisis",
+    "Starscythe",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 110
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Crisis Starscythe Shas’ui",
+     "stats": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Crisis Starscythe Shas’vre",
+     "stats": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "battlesuit-fists-2",
+    "burst-cannon-2",
+    "t-au-flamer"
+   ],
+   "abilities": [
+    "Starscythe",
+    "Battlesuit Support System",
+    "Deep Strike",
+    "For The Greater Good"
+   ]
+  },
+  {
+   "id": "crisis-sunforge-battlesuits",
+   "name": "Crisis Sunforge Battlesuits",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Fly",
+    "Battlesuit",
+    "Crisis",
+    "Sunforge",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 140
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Crisis Sunforge Shas’ui",
+     "stats": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Crisis Sunforge Shas’vre",
+     "stats": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "battlesuit-fists-2",
+    "fusion-blaster-2"
+   ],
+   "abilities": [
+    "Sunforge",
+    "Deep Strike",
+    "For The Greater Good",
+    "Invulnerable Save (4+)"
+   ]
+  },
+  {
+   "id": "devilfish",
+   "name": "Devilfish",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Transport",
+    "Dedicated Transport",
+    "Devilfish",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "2-twin-pulse-carbines",
+     "name": "2 Twin pulse carbines",
+     "pts": 0,
+     "group": "Twin Pulse Carbines",
+     "max": null
+    },
+    {
+     "id": "2-smart-missile-systems",
+     "name": "2 Smart missile systems",
+     "pts": 0,
+     "group": "Twin Pulse Carbines",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Devilfish",
+     "stats": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "13",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-pulse-carbine",
+    "smart-missile-system",
+    "seeker-missile",
+    "accelerator-burst-cannon",
+    "armoured-hull"
+   ],
+   "abilities": [
+    "Rapid Deployment",
+    "Deadly Demise",
+    "For The Greater Good"
+   ]
+  },
+  {
+   "id": "drone-sentry-turret",
+   "name": "Drone Sentry Turret",
+   "role": "Vehicle",
+   "keywords": [
+    "Fortification",
+    "Vehicle",
+    "Drone Sentry Turret",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 50
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "twin-plasma-rifle",
+     "name": "Twin plasma rifle",
+     "pts": 0,
+     "group": "Twin Plasma Rifle",
+     "max": null
+    },
+    {
+     "id": "twin-fusion-blaster",
+     "name": "Twin fusion blaster",
+     "pts": 0,
+     "group": "Twin Plasma Rifle",
+     "max": null
+    },
+    {
+     "id": "twin-missile-pod",
+     "name": "Twin missile pod",
+     "pts": 0,
+     "group": "Twin Plasma Rifle",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Drone Sentry Turret [Legends]",
+     "stats": {
+      "M": "-",
+      "T": "8",
+      "SV": "4+",
+      "W": "4",
+      "LD": "8+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-plasma-rifle-2",
+    "twin-fusion-blaster-2",
+    "twin-missile-pod-2",
+    "twin-burst-cannon-3"
+   ],
+   "abilities": [
+    "Reinforced Cover",
+    "Sentinel Protocols",
+    "Fortification"
+   ]
+  },
+  {
+   "id": "ghostkeel-battlesuit",
+   "name": "Ghostkeel Battlesuit",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Fly",
+    "Smoke",
+    "Battlesuit",
+    "Ghostkeel",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 160
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "ghostkeel-fists",
+     "name": "Ghostkeel fists",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-burst-cannon",
+     "name": "Twin burst cannon",
+     "pts": 0,
+     "group": "Twin T'au flamer",
+     "max": null
+    },
+    {
+     "id": "battlesuit-support-system",
+     "name": "Battlesuit support system",
+     "pts": 0,
+     "group": "Battlesuit Support System",
+     "max": 1
+    },
+    {
+     "id": "fusion-collider",
+     "name": "Fusion collider",
+     "pts": 0,
+     "group": "Fusion collider",
+     "max": null
+    },
+    {
+     "id": "cyclic-ion-raker",
+     "name": "Cyclic ion raker",
+     "pts": 0,
+     "group": "Fusion collider",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Ghostkeel Battlesuit",
+     "stats": {
+      "M": "10\"",
+      "T": "8",
+      "SV": "2+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-burst-cannon",
+    "fusion-collider",
+    "cyclic-ion-raker-standard",
+    "cyclic-ion-raker-overcharge",
+    "ghostkeel-fists",
+    "twin-t-au-flamer",
+    "twin-fusion-blaster"
+   ],
+   "abilities": [
+    "Stealth Drones",
+    "Deadly Demise",
+    "Infiltrators",
+    "Lone Operative",
+    "Stealth",
+    "Damaged: 1-4 Wounds Remaining",
+    "For The Greater Good",
+    "Battlesuit Support System"
+   ]
+  },
+  {
+   "id": "hammerhead-gunship",
+   "name": "Hammerhead Gunship",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Hammerhead Gunship",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 145
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "railgun",
+     "name": "Railgun",
+     "pts": 0,
+     "group": "Railgun",
+     "max": null
+    },
+    {
+     "id": "ion-cannon",
+     "name": "Ion cannon",
+     "pts": 0,
+     "group": "Railgun",
+     "max": null
+    },
+    {
+     "id": "2-accelerator-burst-cannons",
+     "name": "2 Accelerator burst cannons",
+     "pts": 0,
+     "group": "Twin Pulse Carbines",
+     "max": null
+    },
+    {
+     "id": "2-twin-pulse-carbines",
+     "name": "2 Twin pulse carbines",
+     "pts": 0,
+     "group": "Twin Pulse Carbines",
+     "max": null
+    },
+    {
+     "id": "2-smart-missile-systems",
+     "name": "2 Smart missile systems",
+     "pts": 0,
+     "group": "Twin Pulse Carbines",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Hammerhead Gunship",
+     "stats": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "railgun-2",
+    "ion-cannon-standard-2",
+    "ion-cannon-overcharge-2",
+    "twin-pulse-carbine-2",
+    "seeker-missile",
+    "accelerator-burst-cannon",
+    "smart-missile-system",
+    "armoured-hull"
+   ],
+   "abilities": [
+    "Armour Hunter",
+    "Deadly Demise",
+    "Damaged: 1-5 Wounds Remaining",
+    "Targeting Array",
+    "For The Greater Good"
+   ]
+  },
+  {
+   "id": "heavy-gun-drones",
+   "name": "Heavy Gun Drones",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Heavy Gun Drones",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 2,
+     "pts": 45
+    }
+   ],
+   "minModels": 2,
+   "maxModels": 2,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Heavy Gun Drone",
+     "stats": {
+      "M": "8\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "2",
+      "LD": "8+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "burst-cannon-2",
+    "close-combat-weapon-5",
+    "twin-burst-cannon-3"
+   ],
+   "abilities": [
+    "Drone Escort"
+   ]
+  },
+  {
+   "id": "manta",
+   "name": "Manta",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Titanic",
+    "Transport",
+    "Markerlight",
+    "Manta",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 2100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "armoured-hull",
+     "name": "Armoured hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "heavy-rail-cannon",
+     "name": "Heavy rail cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    },
+    {
+     "id": "long-barrelled-burst-cannon-array",
+     "name": "Long-barrelled burst cannon array",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    },
+    {
+     "id": "ion-cannon",
+     "name": "Ion cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 6
+    }
+   ],
+   "stats": [
+    {
+     "name": "Manta",
+     "stats": {
+      "M": "20+\"",
+      "T": "14",
+      "SV": "2+",
+      "W": "60",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "armoured-hull-3",
+    "heavy-rail-cannon",
+    "long-barrelled-burst-cannon-array",
+    "ion-cannon-standard-2",
+    "ion-cannon-overcharge-2",
+    "seeker-missile",
+    "missile-pod-2"
+   ],
+   "abilities": [
+    "Aggressive Deployment",
+    "Air Caste Colossus",
+    "Damaged: 1-20 Wounds Remaining",
+    "Invulnerable Save (5+)",
+    "Deadly Demise",
+    "Hover",
+    "For The Greater Good"
+   ]
+  },
+  {
+   "id": "orca-dropship",
+   "name": "Orca Dropship",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Titanic",
+    "Transport",
+    "Orca Dropship",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 275
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "armoured-hull",
+     "name": "Armoured hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "long-barrelled-burst-cannon",
+     "name": "Long-barrelled burst cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    }
+   ],
+   "stats": [
+    {
+     "name": "Orca Dropship",
+     "stats": {
+      "M": "20+\"",
+      "T": "12",
+      "SV": "3+",
+      "W": "28",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "armoured-hull-4",
+    "long-barrelled-burst-cannon-2",
+    "missile-pod-2"
+   ],
+   "abilities": [
+    "Jet Pack Insertion",
+    "Damaged: 1-9 Wounds Remaining",
+    "Deadly Demise",
+    "Hover",
+    "For The Greater Good"
+   ]
+  },
+  {
+   "id": "piranha",
+   "name": "Piranha",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Piranha",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "piranha-burst-cannon",
+     "name": "Piranha burst cannon",
+     "pts": 0,
+     "group": "Piranha Burst Cannon",
+     "max": null
+    },
+    {
+     "id": "piranha-fusion-blaster",
+     "name": "Piranha fusion blaster",
+     "pts": 0,
+     "group": "Piranha Burst Cannon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Piranha",
+     "stats": {
+      "M": "14\"",
+      "T": "7",
+      "SV": "4+",
+      "W": "7",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "piranha-burst-cannon",
+    "piranha-fusion-blaster",
+    "armoured-hull-2",
+    "twin-pulse-carbine",
+    "seeker-missile"
+   ],
+   "abilities": [
+    "Piranha",
+    "Deadly Demise",
+    "Scouts",
+    "For The Greater Good"
+   ]
+  },
+  {
+   "id": "r-varna-battlesuit",
+   "name": "R'varna Battlesuit",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Fly",
+    "R'varna",
+    "Battlesuit",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 200
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "pulse-submunitions-cannon",
+     "name": "Pulse submunitions cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    }
+   ],
+   "stats": [
+    {
+     "name": "R'varna Battlesuit",
+     "stats": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "15",
+      "LD": "7+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [
+    "pulse-submunitions-cannon",
+    "missile-pod-3",
+    "battlesuit-fists-4"
+   ],
+   "abilities": [
+    "Nova Shielding",
+    "Invulnerable Save (5+)",
+    "Deadly Demise",
+    "For The Greater Good",
+    "Damaged: 1-5 Wounds Remaining",
+    "Weapon Support System",
+    "Battlesuit Support System"
+   ]
+  },
+  {
+   "id": "razorshark-strike-fighter",
+   "name": "Razorshark Strike Fighter",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Razorshark Strike Fighter",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 170
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "quad-ion-turret",
+     "name": "Quad ion turret",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Razorshark Strike Fighter",
+     "stats": {
+      "M": "20+\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "quad-ion-turret-standard",
+    "quad-ion-turret-overcharge",
+    "missile-pod-2",
+    "accelerator-burst-cannon",
+    "seeker-missile",
+    "armoured-hull"
+   ],
+   "abilities": [
+    "Ground Strike Fighter",
+    "Deadly Demise",
+    "Damaged: 1-4 Wounds Remaining",
+    "For The Greater Good"
+   ]
+  },
+  {
+   "id": "remora-stealth-drones",
+   "name": "Remora Stealth Drones",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Markerlight",
+    "Remora Stealth Drones",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 160
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "close-combat-weapon",
+     "name": "Close combat weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "remora-seeker-missile",
+     "name": "Remora seeker missile",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    },
+    {
+     "id": "twin-long-barrelled-burst-cannon",
+     "name": "Twin long-barrelled burst cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Remora Stealth Drone",
+     "stats": {
+      "M": "16\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon-6",
+    "remora-seeker-missile",
+    "twin-long-barrelled-burst-cannon"
+   ],
+   "abilities": [
+    "Aerial Disengagement",
+    "Infiltrators",
+    "Stealth",
+    "For The Greater Good"
+   ]
+  },
+  {
+   "id": "riptide-battlesuit",
+   "name": "Riptide Battlesuit",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Fly",
+    "Battlesuit",
+    "Riptide",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 200
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "riptide-fists",
+     "name": "Riptide fists",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "heavy-burst-cannon",
+     "name": "Heavy burst cannon",
+     "pts": 0,
+     "group": "Heavy Burst Cannon",
+     "max": null
+    },
+    {
+     "id": "ion-accelerator",
+     "name": "Ion accelerator",
+     "pts": 0,
+     "group": "Heavy Burst Cannon",
+     "max": null
+    },
+    {
+     "id": "twin-smart-missile-system",
+     "name": "Twin smart missile system",
+     "pts": 0,
+     "group": "Twin Plasma Rifles",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Riptide Battlesuit",
+     "stats": {
+      "M": "10\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [
+    "riptide-fists",
+    "heavy-burst-cannon",
+    "ion-accelerator-standard",
+    "ion-accelerator-overcharge",
+    "twin-smart-missile-system-2",
+    "missile-pod-3",
+    "twin-fusion-blaster",
+    "twin-plasma-rifle"
+   ],
+   "abilities": [
+    "Nova Charge",
+    "Deadly Demise",
+    "Damaged: 1-4 Wounds Remaining",
+    "Invulnerable Save (4+)",
+    "Battlesuit Support System",
+    "Weapon Support System",
+    "For The Greater Good",
+    "Devastating Wounds"
+   ]
+  },
+  {
+   "id": "sky-ray-gunship",
+   "name": "Sky Ray Gunship",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Markerlight",
+    "Sky Ray Gunship",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 150
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "seeker-missile-rack",
+     "name": "Seeker missile rack",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "2-accelerator-burst-cannons",
+     "name": "2 Accelerator burst cannons",
+     "pts": 0,
+     "group": "Twin Pulse Carbines",
+     "max": null
+    },
+    {
+     "id": "2-twin-pulse-carbines",
+     "name": "2 Twin pulse carbines",
+     "pts": 0,
+     "group": "Twin Pulse Carbines",
+     "max": null
+    },
+    {
+     "id": "2-smart-missile-systems",
+     "name": "2 Smart missile systems",
+     "pts": 0,
+     "group": "Twin Pulse Carbines",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Sky Ray Gunship",
+     "stats": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "seeker-missile-rack",
+    "accelerator-burst-cannon",
+    "twin-pulse-carbine",
+    "smart-missile-system",
+    "armoured-hull"
+   ],
+   "abilities": [
+    "Velocity Tracker",
+    "Damaged: 1-5 Wounds Remaining",
+    "Deadly Demise",
+    "Targeting Array",
+    "For The Greater Good"
+   ]
+  },
+  {
+   "id": "stormsurge",
+   "name": "Stormsurge",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Titanic",
+    "Towering",
+    "Stormsurge",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 360
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "cluster-rocket-system",
+     "name": "Cluster rocket system",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "destroyer-missiles",
+     "name": "Destroyer missiles",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "thunderous-footfalls",
+     "name": "Thunderous footfalls",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-smart-missile-system",
+     "name": "Twin smart missile system",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    },
+    {
+     "id": "pulse-driver-cannon",
+     "name": "Pulse driver cannon",
+     "pts": 0,
+     "group": "Pulse Driver Cannon",
+     "max": null
+    },
+    {
+     "id": "pulse-blast-cannon",
+     "name": "Pulse blast cannon",
+     "pts": 0,
+     "group": "Pulse Driver Cannon",
+     "max": null
+    },
+    {
+     "id": "twin-airbursting-fragmentation-projector",
+     "name": "Twin airbursting fragmentation projector",
+     "pts": 0,
+     "group": "Twin T'au Flamer",
+     "max": null
+    },
+    {
+     "id": "twin-burst-cannon",
+     "name": "Twin burst cannon",
+     "pts": 0,
+     "group": "Twin T'au Flamer",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Stormsurge",
+     "stats": {
+      "M": "8\"",
+      "T": "11",
+      "SV": "2+",
+      "W": "20",
+      "LD": "7+",
+      "OC": "6"
+     }
+    }
+   ],
+   "weapons": [
+    "cluster-rocket-system",
+    "destroyer-missiles",
+    "thunderous-footfalls",
+    "twin-smart-missile-system-3",
+    "pulse-driver-cannon",
+    "pulse-blast-cannon-focused",
+    "pulse-blast-cannon-dispersed",
+    "twin-airbursting-fragmentation-projector",
+    "twin-burst-cannon-2",
+    "twin-t-au-flamer"
+   ],
+   "abilities": [
+    "Damaged: 1-5 Wounds Remaining",
+    "Heavy Walker",
+    "Support System",
+    "Titan-killer",
+    "Deadly Demise",
+    "Invulnerable Save (4+)",
+    "For The Greater Good"
+   ]
+  },
+  {
+   "id": "sun-shark-bomber",
+   "name": "Sun Shark Bomber",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Sun Shark Bomber",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 160
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "twin-ion-rifle",
+     "name": "Twin ion rifle",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    },
+    {
+     "id": "twin-missile-pod",
+     "name": "Twin missile pod",
+     "pts": 0,
+     "group": "Missile Pod",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Sun Shark Bomber",
+     "stats": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-ion-rifle-standard",
+    "twin-ion-rifle-overcharged",
+    "twin-missile-pod",
+    "missile-pod-2",
+    "seeker-missile",
+    "armoured-hull"
+   ],
+   "abilities": [
+    "Pulse Bombs",
+    "Deadly Demise",
+    "Damaged: 1-4 Wounds Remaining",
+    "For The Greater Good"
+   ]
+  },
+  {
+   "id": "tx42-piranha",
+   "name": "TX42 Piranha",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "TX42 Piranha",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 60
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "2-plasma-rifles",
+     "name": "2 Plasma rifles",
+     "pts": 0,
+     "group": "Plasma Rifles",
+     "max": null
+    },
+    {
+     "id": "2-fusion-blasters",
+     "name": "2 Fusion blasters",
+     "pts": 0,
+     "group": "Plasma Rifles",
+     "max": null
+    },
+    {
+     "id": "2-missile-pods",
+     "name": "2 Missile pods",
+     "pts": 0,
+     "group": "Plasma Rifles",
+     "max": null
+    },
+    {
+     "id": "2-rail-rifles",
+     "name": "2 Rail rifles",
+     "pts": 0,
+     "group": "Plasma Rifles",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "TX42 Piranha",
+     "stats": {
+      "M": "14\"",
+      "T": "7",
+      "SV": "4+",
+      "W": "7",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "rail-rifle-2",
+    "plasma-rifle-2",
+    "fusion-blaster-2",
+    "missile-pod-2",
+    "armoured-hull-2"
+   ],
+   "abilities": [
+    "Outflank",
+    "Deadly Demise",
+    "Scouts",
+    "For The Greater Good"
+   ]
+  },
+  {
+   "id": "ta-unar-supremacy-armour",
+   "name": "Ta'unar Supremacy Armour",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Titanic",
+    "Walker",
+    "Towering",
+    "Ta'unar Supremacy Armour",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 790
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "crushing-feet",
+     "name": "Crushing feet",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "tri-axis-ion-cannon",
+     "name": "Tri-axis ion cannon",
+     "pts": 0,
+     "group": "Arm Weapons",
+     "max": 2
+    },
+    {
+     "id": "fusion-eradicator",
+     "name": "Fusion eradicator",
+     "pts": 0,
+     "group": "Arm Weapons",
+     "max": 2
+    },
+    {
+     "id": "3-pulse-ordnance-drivers",
+     "name": "3 Pulse ordnance drivers",
+     "pts": 0,
+     "group": "Carapace Weapon",
+     "max": null
+    },
+    {
+     "id": "2-nexus-missile-launchers",
+     "name": "2 Nexus missile launchers",
+     "pts": 0,
+     "group": "Carapace Weapon",
+     "max": null
+    },
+    {
+     "id": "heavy-rail-cannon-array-and-fragmentation-cluster-shell-launcher",
+     "name": "Heavy rail cannon array and fragmentation cluster shell launcher",
+     "pts": 0,
+     "group": "Carapace Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Ta'unar Supremacy Armour",
+     "stats": {
+      "M": "8\"",
+      "T": "13",
+      "SV": "2+",
+      "W": "30",
+      "LD": "7+",
+      "OC": "10"
+     }
+    }
+   ],
+   "weapons": [
+    "crushing-feet",
+    "tri-axis-ion-cannon-standard",
+    "tri-axis-ion-cannon-supercharge",
+    "fusion-eradicator",
+    "pulse-ordnance-driver",
+    "nexus-missile-launcher",
+    "heavy-rail-cannon-array",
+    "fragmentation-cluster-shell-launcher",
+    "burst-cannon-2",
+    "smart-missile-system"
+   ],
+   "abilities": [
+    "Coordinated Strike",
+    "Damaged: 1-10 Wounds Remaining",
+    "Super-Heavy Walker",
+    "Invulnerable Save (5+)",
+    "Deadly Demise",
+    "For The Greater Good"
+   ]
+  },
+  {
+   "id": "tetras",
+   "name": "Tetras",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Markerlight",
+    "Tetras",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 2,
+     "pts": 80
+    },
+    {
+     "count": 4,
+     "pts": 160
+    }
+   ],
+   "minModels": 2,
+   "maxModels": 4,
+   "wargear": [
+    {
+     "id": "close-combat-weapons",
+     "name": "Close combat weapons",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Tetra",
+     "stats": {
+      "M": "14\"",
+      "T": "7",
+      "SV": "4+",
+      "W": "7",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapons-2",
+    "pulse-rifle"
+   ],
+   "abilities": [
+    "High-intensity Markerlights",
+    "Deadly Demise",
+    "For The Greater Good",
+    "Infiltrators"
+   ]
+  },
+  {
+   "id": "tidewall-droneport",
+   "name": "Tidewall Droneport",
+   "role": "Vehicle",
+   "keywords": [
+    "Fortification",
+    "Vehicle",
+    "Transport",
+    "Fly",
+    "Tidewall Droneport",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Tidewall Droneport",
+     "stats": {
+      "M": "4\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "drone-defenders"
+   ],
+   "abilities": [
+    "Droneport",
+    "Deadly Demise",
+    "Firing Deck",
+    "Fortification",
+    "Tidewall Cover"
+   ]
+  },
+  {
+   "id": "tidewall-gunrig",
+   "name": "Tidewall Gunrig",
+   "role": "Vehicle",
+   "keywords": [
+    "Fortification",
+    "Vehicle",
+    "Transport",
+    "Fly",
+    "Tidewall Gunrig",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Tidewall Gunrig",
+     "stats": {
+      "M": "4\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "supremacy-railgun"
+   ],
+   "abilities": [
+    "Firing Deck",
+    "Deadly Demise",
+    "Fortification",
+    "Tidewall Cover"
+   ]
+  },
+  {
+   "id": "tidewall-shieldline",
+   "name": "Tidewall Shieldline",
+   "role": "Vehicle",
+   "keywords": [
+    "Fortification",
+    "Vehicle",
+    "Transport",
+    "Fly",
+    "Tidewall Shieldline",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "tidewall-defence-platform",
+     "name": "Tidewall Defence Platform",
+     "pts": 20,
+     "group": "Tidewall Defence Platform",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Tidewall Shieldline",
+     "stats": {
+      "M": "4\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Deadly Demise",
+    "Fortification",
+    "Firing Deck",
+    "Invulnerable Save (5+)",
+    "Tidewall Cover",
+    "Tidewall Defence Platform"
+   ]
+  },
+  {
+   "id": "tiger-shark",
+   "name": "Tiger Shark",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Tiger Shark",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 325
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "2-cyclic-ion-blasters",
+     "name": "2 cyclic ion blasters",
+     "pts": 0,
+     "group": "Burst Cannons",
+     "max": null
+    },
+    {
+     "id": "2-burst-cannons",
+     "name": "2 burst cannons",
+     "pts": 0,
+     "group": "Burst Cannons",
+     "max": null
+    },
+    {
+     "id": "2-ion-cannons",
+     "name": "2 Ion cannons",
+     "pts": 0,
+     "group": "Ion Cannons",
+     "max": null
+    },
+    {
+     "id": "2-swiftstrike-burst-cannons",
+     "name": "2 Swiftstrike burst cannons",
+     "pts": 0,
+     "group": "Ion Cannons",
+     "max": null
+    },
+    {
+     "id": "2-swiftstrike-railguns",
+     "name": "2 Swiftstrike railguns",
+     "pts": 0,
+     "group": "Ion Cannons",
+     "max": null
+    },
+    {
+     "id": "transport-bay",
+     "name": "Transport bay",
+     "pts": 0,
+     "group": "Transport Bay",
+     "max": null
+    },
+    {
+     "id": "2-skyspear-missile-racks",
+     "name": "2 Skyspear missile racks",
+     "pts": 0,
+     "group": "Transport Bay",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Tiger Shark",
+     "stats": {
+      "M": "20+\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "18",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "ion-cannon-standard-2",
+    "ion-cannon-overcharge-2",
+    "swiftstrike-burst-cannon",
+    "skyspear-missile-rack",
+    "cyclic-ion-blaster-standard-2",
+    "cyclic-ion-blaster-overcharge-2",
+    "burst-cannon-2",
+    "swiftstrike-railgun",
+    "seeker-missile",
+    "armoured-hull",
+    "missile-pod-2"
+   ],
+   "abilities": [
+    "Strafing Run",
+    "Deadly Demise",
+    "Invulnerable Save (5+)",
+    "For The Greater Good",
+    "Damaged: 1-6 Wounds Remaining",
+    "Transport bay"
+   ]
+  },
+  {
+   "id": "xv9-hazard-battlesuits",
+   "name": "XV9 Hazard Battlesuits",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Fly",
+    "XV9 Hazard",
+    "Battlesuit",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 2,
+   "wargear": [
+    {
+     "id": "fusion-cascade",
+     "name": "Fusion cascade",
+     "pts": 0,
+     "group": "Weapons",
+     "max": 2
+    },
+    {
+     "id": "phased-ion-gun",
+     "name": "Phased ion gun",
+     "pts": 0,
+     "group": "Weapons",
+     "max": 2
+    },
+    {
+     "id": "twin-hazard-burst-cannon",
+     "name": "Twin hazard burst cannon",
+     "pts": 0,
+     "group": "Weapons",
+     "max": 2
+    }
+   ],
+   "stats": [
+    {
+     "name": "XV9 Hazard Battlesuits",
+     "stats": {
+      "M": "8\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "fusion-cascade",
+    "phased-ion-gun",
+    "twin-hazard-burst-cannon",
+    "battlesuit-fists-2"
+   ],
+   "abilities": [
+    "Photon Casters",
+    "Deep Strike",
+    "For The Greater Good"
+   ]
+  },
+  {
+   "id": "y-vahra-battlesuit",
+   "name": "Y'vahra Battlesuit",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Walker",
+    "Fly",
+    "Battlesuit",
+    "Y'vahra",
+    "Non-Kroot"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 210
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "flechette-pod",
+     "name": "Flechette pod",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "ionic-discharge-cannon",
+     "name": "Ionic discharge cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "phased-plasma-flamer",
+     "name": "Phased plasma-flamer",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Y'vahra Battlesuit",
+     "stats": {
+      "M": "10\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "15",
+      "LD": "7+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [
+    "flechette-pod",
+    "ionic-discharge-cannon-standard",
+    "ionic-discharge-cannon-overcharge",
+    "phased-plasma-flamer",
+    "missile-pod-3",
+    "battlesuit-fists-4"
+   ],
+   "abilities": [
+    "Nova Burst",
+    "Invulnerable Save (5+)",
+    "Deadly Demise",
+    "For The Greater Good",
+    "Weapon Support System",
+    "Battlesuit Support System",
+    "Damaged: 1-5 Wounds Remaining"
+   ]
+  }
+ ]
+}

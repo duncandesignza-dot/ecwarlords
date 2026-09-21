@@ -1,0 +1,2270 @@
+{
+ "id": "dark-angels",
+ "name": "Dark Angels",
+ "source": "BSData/wh40k-10e",
+ "revision": "51",
+ "enhancements": [],
+ "weapons": [
+  {
+   "id": "lion-s-wrath",
+   "name": "Lion's Wrath",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
+   }
+  },
+  {
+   "id": "the-sword-of-secrets",
+   "name": "The Sword of Secrets",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-4",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "master-crafted-storm-bolter",
+   "name": "Master-crafted storm bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "4",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "Precision, Rapid Fire 2"
+   }
+  },
+  {
+   "id": "the-sword-of-silence",
+   "name": "The Sword of Silence",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Precision"
+   }
+  },
+  {
+   "id": "bolt-pistol",
+   "name": "Bolt Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "master-crafted-plasma-cannon",
+   "name": "Master-crafted plasma cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D3",
+    "BS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "twin-storm-bolter",
+   "name": "Twin storm bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 2, Twin-Linked"
+   }
+  },
+  {
+   "id": "the-raven-sword",
+   "name": "The Raven Sword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Sustained Hits 2"
+   }
+  },
+  {
+   "id": "the-deliverer",
+   "name": "The Deliverer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Pistol, Precision"
+   }
+  },
+  {
+   "id": "mind-wipe-witchfire",
+   "name": "➤ Mind Wipe - witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "Devastating Wounds, Precision, Psychic"
+   }
+  },
+  {
+   "id": "mind-wipe-focussed-witchfire",
+   "name": "➤ Mind Wipe - focussed witchfire",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "Anti-Character 4+, Devastating Wounds, Hazardous, Precision, Psychic"
+   }
+  },
+  {
+   "id": "traitor-s-bane",
+   "name": "Traitor's Bane",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "D3",
+    "Keywords": "Anti-Chaos 2+, Psychic"
+   }
+  },
+  {
+   "id": "heavy-bolt-pistol",
+   "name": "Heavy Bolt Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "crozius-arcanum-and-power-weapon-strike",
+   "name": "➤ Crozius Arcanum and Power Weapon - strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "crozius-arcanum-and-power-weapon-sweep",
+   "name": "➤ Crozius Arcanum and Power Weapon - sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "arma-luminis-bolt",
+   "name": "➤ Arma Luminis - bolt",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "4",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "arma-luminis-plasma",
+   "name": "➤ Arma Luminis - plasma",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "fealty-strike",
+   "name": "➤ Fealty - strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "2+",
+    "S": "12",
+    "AP": "-4",
+    "D": "4",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "fealty-sweep",
+   "name": "➤ Fealty - sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "16",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "bolt-pistol",
+   "name": "Bolt pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "enmity-s-edge",
+   "name": "Enmity’s Edge",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Anti-Psyker 2+"
+   }
+  },
+  {
+   "id": "armoured-hull",
+   "name": "Armoured hull",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "blacksword-missiles",
+   "name": "Blacksword missiles",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "Anti-Fly 2+"
+   }
+  },
+  {
+   "id": "twin-heavy-bolter",
+   "name": "Twin heavy bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Sustained Hits 1, Twin-Linked"
+   }
+  },
+  {
+   "id": "avenger-mega-bolter",
+   "name": "Avenger mega bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "10",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "nephilim-lascannons",
+   "name": "Nephilim lascannons",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "armoured-hull",
+   "name": "Armoured Hull",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "hurricane-bolter",
+   "name": "Hurricane bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 6, Twin-Linked"
+   }
+  },
+  {
+   "id": "rift-cannon",
+   "name": "Rift cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D3+1",
+    "BS": "3+",
+    "S": "16",
+    "AP": "-4",
+    "D": "3",
+    "Keywords": "Blast, Devastating Wounds"
+   }
+  },
+  {
+   "id": "close-combat-weapon",
+   "name": "Close Combat Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "plasma-storm-battery-standard",
+   "name": "➤ Plasma storm battery - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D6+1",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Blast, Twin-Linked"
+   }
+  },
+  {
+   "id": "plasma-storm-battery-supercharge",
+   "name": "➤ Plasma storm battery - supercharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D6+1",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Blast, Hazardous, Twin-Linked"
+   }
+  },
+  {
+   "id": "assault-cannon",
+   "name": "Assault cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "heavy-bolter",
+   "name": "Heavy bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "bolt-pistol-2",
+   "name": "Bolt Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "black-knight-combat-weapon",
+   "name": "Black Knight combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "plasma-talon-standard",
+   "name": "➤ Plasma talon - Standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "plasma-talon-supercharged",
+   "name": "➤ Plasma talon - Supercharged",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Hazardous, Rapid Fire 1"
+   }
+  },
+  {
+   "id": "master-crafted-power-weapon",
+   "name": "Master-crafted power weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "mace-of-absolution",
+   "name": "Mace of absolution",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Anti-Monster 4+, Anti-Vehicle 4+"
+   }
+  },
+  {
+   "id": "power-weapon",
+   "name": "Power Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "great-weapon-of-the-unforgiven",
+   "name": "Great Weapon of the Unforgiven",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Devastating Wounds, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "relic-weapon",
+   "name": "Relic Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "storm-bolter",
+   "name": "Storm Bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 2"
+   }
+  },
+  {
+   "id": "power-weapon-2",
+   "name": "Power Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "power-fist",
+   "name": "Power Fist",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "chainfist",
+   "name": "Chainfist",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Anti-Vehicle 3+"
+   }
+  },
+  {
+   "id": "calibanite-greatsword-strike",
+   "name": "➤ Calibanite Greatsword - Strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "calibanite-greatsword-sweep",
+   "name": "➤ Calibanite Greatsword - Sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Sustained Hits 2"
+   }
+  },
+  {
+   "id": "twin-heavy-bolter",
+   "name": "Twin Heavy Bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Sustained Hits 1, Twin-Linked"
+   }
+  },
+  {
+   "id": "power-weapon-3",
+   "name": "Power Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-assault-cannon",
+   "name": "Twin Assault Cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Devastating Wounds, Twin-Linked"
+   }
+  },
+  {
+   "id": "storm-bolter-2",
+   "name": "Storm Bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 2"
+   }
+  },
+  {
+   "id": "master-crafted-power-weapon",
+   "name": "Master-crafted Power Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "chainfist-2",
+   "name": "Chainfist",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Anti-Vehicle 3+"
+   }
+  },
+  {
+   "id": "mace-of-absolution",
+   "name": "Mace of Absolution",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "power-fist-2",
+   "name": "Power Fist",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "thunder-hammer",
+   "name": "Thunder Hammer",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "twin-lightning-claws",
+   "name": "Twin Lightning Claws",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Twin-Linked"
+   }
+  },
+  {
+   "id": "halberd-of-caliban",
+   "name": "Halberd of Caliban",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Precision"
+   }
+  },
+  {
+   "id": "storm-bolter-3",
+   "name": "Storm Bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 1"
+   }
+  },
+  {
+   "id": "thunder-hammer-2",
+   "name": "Thunder Hammer",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "deathwing-strikemaster",
+   "name": "Deathwing Strikemaster",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Imperium",
+    "Deathwing",
+    "Deathwing Strikemaster",
+    "Terminator",
+    "Lieutenant"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "storm-bolter",
+     "name": "Storm Bolter",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "master-crafted-power-weapon",
+     "name": "Master-crafted Power Weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "chainfist",
+     "name": "Chainfist",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "mace-of-absolution",
+     "name": "Mace of Absolution",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "power-fist",
+     "name": "Power Fist",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "thunder-hammer",
+     "name": "Thunder Hammer",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "storm-shield",
+     "name": "Storm Shield",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-lightning-claws",
+     "name": "Twin Lightning Claws",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Deathwing Strikemaster [Legends]",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "storm-bolter-2",
+    "master-crafted-power-weapon",
+    "chainfist-2",
+    "mace-of-absolution",
+    "power-fist-2",
+    "thunder-hammer",
+    "twin-lightning-claws"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Leader",
+    "Tactical Precision",
+    "Vanquish the Foe",
+    "Oath of Moment",
+    "Deep Strike",
+    "Storm Shield"
+   ]
+  },
+  {
+   "id": "ravenwing-command-squad",
+   "name": "Ravenwing Command Squad",
+   "role": "Character",
+   "keywords": [
+    "Mounted",
+    "Grenades",
+    "Imperium",
+    "Ravenwing Command Squad",
+    "Ravenwing",
+    "Character"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 120
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "plasma-talon",
+     "name": "Plasma talon",
+     "pts": 0,
+     "group": "Plasma Talon Replacement",
+     "max": 1
+    },
+    {
+     "id": "bolt-pistol",
+     "name": "Bolt Pistol",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "master-crafted-power-weapon",
+     "name": "Master-crafted power weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Ravenwing Ancient",
+     "stats": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Ravenwing Apothecary",
+     "stats": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Ravenwing Champion",
+     "stats": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "black-knight-combat-weapon",
+    "bolt-pistol-2",
+    "plasma-talon-standard",
+    "plasma-talon-supercharged",
+    "master-crafted-power-weapon"
+   ],
+   "abilities": [
+    "Leader",
+    "Invulnerable Save",
+    "Narthecium",
+    "Astartes Banner",
+    "Honour or Death",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "ravenwing-talonmaster",
+   "name": "Ravenwing Talonmaster",
+   "role": "Character",
+   "keywords": [
+    "Vehicle",
+    "Character",
+    "Fly",
+    "Ravenwing",
+    "Ravenwing Talonmaster",
+    "Imperium"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 105
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "twin-heavy-bolter",
+     "name": "Twin Heavy Bolter",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "power-weapon",
+     "name": "Power Weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-assault-cannon",
+     "name": "Twin Assault Cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Ravenwing Talonmaster [Legends]",
+     "stats": {
+      "M": "16\"",
+      "T": "7",
+      "SV": "3+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-heavy-bolter",
+    "power-weapon-3",
+    "twin-assault-cannon"
+   ],
+   "abilities": [
+    "Talonmaster",
+    "Nowhere To Hide",
+    "Master of Manoeuvre",
+    "Invulnerable Save",
+    "Deadly Demise",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "asmodai",
+   "name": "Asmodai",
+   "role": "Epic Hero",
+   "keywords": [
+    "Character",
+    "Epic Hero",
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Asmodai",
+    "Chaplain",
+    "Tacticus",
+    "Deathwing"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Asmodai",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "5+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "heavy-bolt-pistol",
+    "crozius-arcanum-and-power-weapon-strike",
+    "crozius-arcanum-and-power-weapon-sweep"
+   ],
+   "abilities": [
+    "Invulnerable save",
+    "Exemplar of Hate",
+    "Feared Interrogator",
+    "Leader",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "azrael",
+   "name": "Azrael",
+   "role": "Epic Hero",
+   "keywords": [
+    "Character",
+    "Epic Hero",
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Tacticus",
+    "Azrael",
+    "Chapter Master",
+    "Deathwing"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 125
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Azrael",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "lion-s-wrath",
+    "the-sword-of-secrets"
+   ],
+   "abilities": [
+    "Supreme Grand Master",
+    "Masterful Tactician",
+    "The Lion Helm",
+    "Invulnerable save",
+    "Leader",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "belial",
+   "name": "Belial",
+   "role": "Epic Hero",
+   "keywords": [
+    "Character",
+    "Epic Hero",
+    "Infantry",
+    "Captain",
+    "Imperium",
+    "Belial",
+    "Terminator",
+    "Deathwing"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Belial",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "master-crafted-storm-bolter",
+    "the-sword-of-silence"
+   ],
+   "abilities": [
+    "Grand Master of the Deathwing",
+    "Strikes of Retribution",
+    "Invulnerable Save",
+    "Leader",
+    "Oath of Moment",
+    "Deep Strike"
+   ]
+  },
+  {
+   "id": "ezekiel",
+   "name": "Ezekiel",
+   "role": "Epic Hero",
+   "keywords": [
+    "Character",
+    "Epic Hero",
+    "Infantry",
+    "Grenades",
+    "Imperium",
+    "Psyker",
+    "Ezekiel",
+    "Librarian",
+    "Deathwing"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Ezekiel",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "the-deliverer",
+    "mind-wipe-witchfire",
+    "mind-wipe-focussed-witchfire",
+    "traitor-s-bane"
+   ],
+   "abilities": [
+    "Invulnerable save",
+    "Engulfing Fear [Psychic]",
+    "Book of Salvation",
+    "Leader",
+    "Psychic Hood",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "lazarus",
+   "name": "Lazarus",
+   "role": "Epic Hero",
+   "keywords": [
+    "Character",
+    "Epic Hero",
+    "Infantry",
+    "Captain",
+    "Grenades",
+    "Imperium",
+    "Lazarus",
+    "Tacticus",
+    "Deathwing"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Lazarus",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "bolt-pistol",
+    "enmity-s-edge"
+   ],
+   "abilities": [
+    "Intractable Will",
+    "The Spiritshield Helm",
+    "Invulnerable Save",
+    "Leader",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "lion-el-jonson",
+   "name": "Lion El'Jonson",
+   "role": "Epic Hero",
+   "keywords": [
+    "Character",
+    "Epic Hero",
+    "Monster",
+    "Imperium",
+    "Primarch",
+    "Lion El'Jonson"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 315
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Lion El'Jonson",
+     "stats": {
+      "M": "8\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "10",
+      "LD": "5+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [
+    "arma-luminis-bolt",
+    "arma-luminis-plasma",
+    "fealty-strike",
+    "fealty-sweep"
+   ],
+   "abilities": [
+    "Primarch of the First Legion",
+    "The Emperor's Shield",
+    "Dark Angels Bodyguard",
+    "Invulnerable Save",
+    "Deep Strike",
+    "Fights First",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "sammael",
+   "name": "Sammael",
+   "role": "Epic Hero",
+   "keywords": [
+    "Character",
+    "Epic Hero",
+    "Mounted",
+    "Captain",
+    "Imperium",
+    "Fly",
+    "Grenades",
+    "Sammael",
+    "Ravenwing"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 115
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Sammael",
+     "stats": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "7",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "bolt-pistol",
+    "master-crafted-plasma-cannon",
+    "twin-storm-bolter",
+    "the-raven-sword"
+   ],
+   "abilities": [
+    "Leader",
+    "Invulnerable Save",
+    "Grand Master of the Ravenwing",
+    "Cut Off Their Escape",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "deathwing-command-squad",
+   "name": "Deathwing Command Squad",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Imperium",
+    "Deathwing",
+    "Deathwing Command Squad",
+    "Terminator"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 5,
+     "pts": 200
+    },
+    {
+     "count": 10,
+     "pts": 400
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 10,
+   "wargear": [
+    {
+     "id": "cyclone-missile-launcher-storm-bolter",
+     "name": "Cyclone Missile Launcher & Storm Bolter",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": 1
+    },
+    {
+     "id": "power-fist",
+     "name": "Power Fist",
+     "pts": 0,
+     "group": "Melee Weapon",
+     "max": 1
+    },
+    {
+     "id": "chainfist",
+     "name": "Chainfist",
+     "pts": 0,
+     "group": "Melee Weapon",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Deathwing Ancient",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Deathwing Apothecary",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Deathwing Champion",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Deathwing Command Terminator",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Deathwing Command Terminator w/ Shield",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "power-fist",
+    "storm-bolter",
+    "chainfist",
+    "halberd-of-caliban",
+    "storm-bolter-3",
+    "power-weapon-2",
+    "thunder-hammer-2"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Astartes Banner",
+    "Narthecium",
+    "Honour or Death",
+    "Storm Shield",
+    "Deep Strike",
+    "Oath of Moment",
+    "Watcher in the Dark",
+    "Attached Unit"
+   ]
+  },
+  {
+   "id": "deathwing-knights",
+   "name": "Deathwing Knights",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Imperium",
+    "Deathwing Knights",
+    "Terminator",
+    "Deathwing"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 250
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "mace-of-absolution",
+     "name": "Mace of absolution",
+     "pts": 0,
+     "group": "Unit Weapon Options",
+     "max": null
+    },
+    {
+     "id": "power-weapon",
+     "name": "Power Weapon",
+     "pts": 0,
+     "group": "Unit Weapon Options",
+     "max": null
+    },
+    {
+     "id": "great-weapon-of-the-unforgiven",
+     "name": "Great Weapon of the Unforgiven",
+     "pts": 0,
+     "group": "Master Weapon Option",
+     "max": null
+    },
+    {
+     "id": "relic-weapon",
+     "name": "Relic Weapon",
+     "pts": 0,
+     "group": "Master Weapon Option",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Deathwing Knight",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Knight Master",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "mace-of-absolution",
+    "power-weapon",
+    "great-weapon-of-the-unforgiven",
+    "relic-weapon"
+   ],
+   "abilities": [
+    "Watcher in the Dark",
+    "Inner Circle",
+    "Invulnerable Save",
+    "Attached Unit",
+    "Teleport Homer",
+    "Deep Strike",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "deathwing-terminator-squad",
+   "name": "Deathwing Terminator Squad",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Imperium",
+    "Deathwing Terminator Squad",
+    "Terminator",
+    "Deathwing"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 5,
+     "pts": 180
+    },
+    {
+     "count": 10,
+     "pts": 360
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 10,
+   "wargear": [
+    {
+     "id": "cyclone-missile-launcher-storm-bolter",
+     "name": "Cyclone Missile Launcher & Storm Bolter",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": 1
+    },
+    {
+     "id": "power-fist",
+     "name": "Power Fist",
+     "pts": 0,
+     "group": "Melee Weapon",
+     "max": 1
+    },
+    {
+     "id": "chainfist",
+     "name": "Chainfist",
+     "pts": 0,
+     "group": "Melee Weapon",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Deathwing Sergeant",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Deathwing Terminator",
+     "stats": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "storm-bolter",
+    "power-weapon-2",
+    "power-fist",
+    "chainfist"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Deathwing",
+    "Attached Unit",
+    "Teleport Homer",
+    "Watcher in the Dark",
+    "Deep Strike",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "inner-circle-companions",
+   "name": "Inner Circle Companions",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Imperium",
+    "Tacticus",
+    "Inner Circle Companions",
+    "Deathwing"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 3,
+     "pts": 90
+    },
+    {
+     "count": 4,
+     "pts": 180
+    }
+   ],
+   "minModels": 3,
+   "maxModels": 3,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Inner Circle Companion",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "heavy-bolt-pistol",
+    "calibanite-greatsword-strike",
+    "calibanite-greatsword-sweep"
+   ],
+   "abilities": [
+    "Attached Unit",
+    "Braziers of Judgement",
+    "Emnity for the Unworthy",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "ravenwing-black-knights",
+   "name": "Ravenwing Black Knights",
+   "role": "Mounted",
+   "keywords": [
+    "Mounted",
+    "Grenades",
+    "Imperium",
+    "Ravenwing Black Knights",
+    "Ravenwing"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 3,
+     "pts": 80
+    },
+    {
+     "count": 6,
+     "pts": 160
+    }
+   ],
+   "minModels": 3,
+   "maxModels": 6,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Ravenwing Huntmaster",
+     "stats": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Ravenwing Black Knight",
+     "stats": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "bolt-pistol-2",
+    "black-knight-combat-weapon",
+    "plasma-talon-standard",
+    "plasma-talon-supercharged"
+   ],
+   "abilities": [
+    "Knights of Caliban",
+    "Attached Unit",
+    "Invulnerable Save",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "land-speeder-vengeance",
+   "name": "Land Speeder Vengeance",
+   "role": "Vehicle",
+   "keywords": [
+    "Fly",
+    "Imperium",
+    "Vehicle",
+    "Land Speeder Vengeance",
+    "Ravenwing"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 120
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "close-combat-weapon",
+     "name": "Close Combat Weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "plasma-storm-battery",
+     "name": "Plasma storm battery",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "assault-cannon",
+     "name": "Assault cannon",
+     "pts": 0,
+     "group": "Main Weapon",
+     "max": 1
+    },
+    {
+     "id": "heavy-bolter",
+     "name": "Heavy bolter",
+     "pts": 0,
+     "group": "Main Weapon",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Land Speeder Vengeance",
+     "stats": {
+      "M": "14\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon",
+    "plasma-storm-battery-standard",
+    "plasma-storm-battery-supercharge",
+    "assault-cannon",
+    "heavy-bolter"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Oath of Moment",
+    "Invulnerable Save",
+    "Storm of Vengeance"
+   ]
+  },
+  {
+   "id": "nephilim-jetfighter",
+   "name": "Nephilim Jetfighter",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Aircraft",
+    "Imperium",
+    "Nephilim Jetfighter",
+    "Ravenwing"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 195
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "armoured-hull",
+     "name": "Armoured hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "blacksword-missiles",
+     "name": "Blacksword missiles",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-heavy-bolter",
+     "name": "Twin heavy bolter",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "avenger-mega-bolter",
+     "name": "Avenger mega bolter",
+     "pts": 0,
+     "group": "Main Weapon",
+     "max": 1
+    },
+    {
+     "id": "nephilim-lascannons",
+     "name": "Nephilim lascannons",
+     "pts": 0,
+     "group": "Main Weapon",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Nephilim Jetfighter",
+     "stats": {
+      "M": "20+\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "11",
+      "LD": "6+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "armoured-hull",
+    "blacksword-missiles",
+    "twin-heavy-bolter",
+    "avenger-mega-bolter",
+    "nephilim-lascannons"
+   ],
+   "abilities": [
+    "Lightning-fast Manoeuvres",
+    "Damaged: 1-3 Wounds Remaining",
+    "Invulnerable Save",
+    "Hover",
+    "Deadly Demise",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "ravenwing-dark-talon",
+   "name": "Ravenwing Dark Talon",
+   "role": "Vehicle",
+   "keywords": [
+    "Imperium",
+    "Fly",
+    "Vehicle",
+    "Aircraft",
+    "Dark Talon",
+    "Ravenwing"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 210
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "armoured-hull",
+     "name": "Armoured Hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "hurricane-bolter",
+     "name": "Hurricane bolter",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    },
+    {
+     "id": "rift-cannon",
+     "name": "Rift cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Ravenwing Dark Talon",
+     "stats": {
+      "M": "20+\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "11",
+      "LD": "6+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "armoured-hull",
+    "hurricane-bolter",
+    "rift-cannon"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Stasis Bomb",
+    "Damaged: 1-3 Wounds Remaining",
+    "Deadly Demise",
+    "Hover",
+    "Oath of Moment"
+   ]
+  },
+  {
+   "id": "ravenwing-darkshroud",
+   "name": "Ravenwing Darkshroud",
+   "role": "Vehicle",
+   "keywords": [
+    "Darkshroud",
+    "Imperium",
+    "Fly",
+    "Vehicle",
+    "Ravenwing"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "close-combat-weapon",
+     "name": "Close Combat Weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "assault-cannon",
+     "name": "Assault cannon",
+     "pts": 0,
+     "group": "Main Weapon",
+     "max": 1
+    },
+    {
+     "id": "heavy-bolter",
+     "name": "Heavy bolter",
+     "pts": 0,
+     "group": "Main Weapon",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Ravenwing Darkshroud",
+     "stats": {
+      "M": "14\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon",
+    "assault-cannon",
+    "heavy-bolter"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Oath of Moment",
+    "Invulnerable Save",
+    "Icon of Old Caliban (Aura)"
+   ]
+  }
+ ]
+}

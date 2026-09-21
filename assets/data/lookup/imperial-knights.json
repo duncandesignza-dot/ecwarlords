@@ -1,0 +1,619 @@
+{
+ "id": "imperial-knights",
+ "name": "Imperial Knights",
+ "source": "BSData/wh40k-10e",
+ "revision": "15",
+ "enhancements": [],
+ "weapons": [
+  {
+   "id": "magnarail-lance",
+   "name": "Magnarail lance",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Heavy"
+   }
+  },
+  {
+   "id": "transonic-cannon",
+   "name": "Transonic cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "Devastating Wounds, Torrent"
+   }
+  },
+  {
+   "id": "omnissian-staff",
+   "name": "Omnissian staff",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "control-stave",
+   "name": "Control stave",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "mechanicus-pistol",
+   "name": "Mechanicus pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Devastating Wounds, Pistol"
+   }
+  },
+  {
+   "id": "galvanic-rifle",
+   "name": "Galvanic rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "alpha-combat-weapon",
+   "name": "Alpha combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "transuranic-arquebus",
+   "name": "Transuranic arquebus",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-2",
+    "D": "D3",
+    "Keywords": "Heavy, Precision"
+   }
+  },
+  {
+   "id": "arc-rifle",
+   "name": "Arc rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-1",
+    "D": "D3",
+    "Keywords": "Anti-Vehicle 4+, Devastating Wounds, Rapid Fire 1"
+   }
+  },
+  {
+   "id": "plasma-caliver-supercharge",
+   "name": "➤ Plasma caliver -  supercharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Hazardous"
+   }
+  },
+  {
+   "id": "plasma-caliver-standard",
+   "name": "➤ Plasma caliver - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "close-combat-weapon",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "radium-carbine",
+   "name": "Radium carbine",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-Infantry 4+"
+   }
+  },
+  {
+   "id": "omnissian-axe",
+   "name": "Omnissian axe",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "macrostubber",
+   "name": "Macrostubber",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "5",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "phosphor-serpenta",
+   "name": "Phosphor serpenta",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Ignores Cover, Pistol"
+   }
+  },
+  {
+   "id": "eradication-ray-dissipated",
+   "name": "➤ Eradication ray - dissipated",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D3",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "eradication-ray-focused",
+   "name": "➤ Eradication ray - focused",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D3",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "volkite-blaster",
+   "name": "Volkite blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "skitarii-rangers",
+   "name": "Skitarii Rangers",
+   "role": "Battleline",
+   "keywords": [
+    "Rangers",
+    "Imperium",
+    "Infantry",
+    "Skitarii",
+    "Battleline"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 9,
+     "pts": 85
+    }
+   ],
+   "minModels": 9,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "galvanic-rifle",
+     "name": "Galvanic rifle",
+     "pts": 0,
+     "group": "Ranged weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Skitarii Rangers",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "galvanic-rifle",
+    "alpha-combat-weapon",
+    "transuranic-arquebus",
+    "arc-rifle",
+    "plasma-caliver-supercharge",
+    "plasma-caliver-standard",
+    "mechanicus-pistol",
+    "close-combat-weapon"
+   ],
+   "abilities": [
+    "Objective Scouted",
+    "Scouts",
+    "Doctrina Imperatives",
+    "Invulnerable Save (5+)",
+    "Enhanced data-tether",
+    "Omnispex"
+   ]
+  },
+  {
+   "id": "skitarii-vanguard",
+   "name": "Skitarii Vanguard",
+   "role": "Battleline",
+   "keywords": [
+    "Vanguard",
+    "Imperium",
+    "Infantry",
+    "Skitarii",
+    "Battleline"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 9,
+     "pts": 95
+    }
+   ],
+   "minModels": 9,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "radium-carbine",
+     "name": "Radium carbine",
+     "pts": 0,
+     "group": "Ranged weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Skitarii Vanguard",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "radium-carbine",
+    "alpha-combat-weapon",
+    "transuranic-arquebus",
+    "arc-rifle",
+    "plasma-caliver-supercharge",
+    "plasma-caliver-standard",
+    "mechanicus-pistol",
+    "close-combat-weapon"
+   ],
+   "abilities": [
+    "Rad-saturation (Aura)",
+    "Enhanced data-tether",
+    "Omnispex",
+    "Doctrina Imperatives",
+    "Invulnerable Save (5+)"
+   ]
+  },
+  {
+   "id": "skitarii-marshal",
+   "name": "Skitarii Marshal",
+   "role": "Character",
+   "keywords": [
+    "Marshal",
+    "Imperium",
+    "Skitarii",
+    "Character",
+    "Infantry"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 35
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "control-stave",
+     "name": "Control stave",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Skitarii Marshal",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "control-stave",
+    "mechanicus-pistol"
+   ],
+   "abilities": [
+    "Leader",
+    "Control Edict",
+    "Servo-skull Uplink",
+    "Invulnerable Save",
+    "Doctrina Imperatives"
+   ]
+  },
+  {
+   "id": "tech-priest-dominus",
+   "name": "Tech-Priest Dominus",
+   "role": "Character",
+   "keywords": [
+    "Dominus",
+    "Imperium",
+    "Tech-Priest",
+    "Character",
+    "Infantry",
+    "Cult Mechanicus"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "omnissian-axe",
+     "name": "Omnissian axe",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "macrostubber",
+     "name": "Macrostubber",
+     "pts": 0,
+     "group": "Replace macrostubber",
+     "max": null
+    },
+    {
+     "id": "phosphor-serpenta",
+     "name": "Phosphor serpenta",
+     "pts": 0,
+     "group": "Replace macrostubber",
+     "max": null
+    },
+    {
+     "id": "eradication-ray",
+     "name": "Eradication ray",
+     "pts": 0,
+     "group": "Replace volkite blaster",
+     "max": null
+    },
+    {
+     "id": "volkite-blaster",
+     "name": "Volkite blaster",
+     "pts": 0,
+     "group": "Replace volkite blaster",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Tech-Priest Dominus",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "omnissian-axe",
+    "macrostubber",
+    "phosphor-serpenta",
+    "eradication-ray-dissipated",
+    "eradication-ray-focused",
+    "volkite-blaster"
+   ],
+   "abilities": [
+    "Leader",
+    "Invulnerable Save",
+    "Lord of the Machine Cult",
+    "Data-spike",
+    "Doctrina Imperatives"
+   ]
+  },
+  {
+   "id": "tech-priest-manipulus",
+   "name": "Tech-Priest Manipulus",
+   "role": "Character",
+   "keywords": [
+    "Manipulus",
+    "Imperium",
+    "Tech-Priest",
+    "Character",
+    "Infantry",
+    "Cult Mechanicus"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 60
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "omnissian-staff",
+     "name": "Omnissian staff",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "magnarail-lance",
+     "name": "Magnarail lance",
+     "pts": 0,
+     "group": "Replace magnarail lance",
+     "max": null
+    },
+    {
+     "id": "transonic-cannon",
+     "name": "Transonic cannon",
+     "pts": 0,
+     "group": "Replace magnarail lance",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Tech-Priest Manipulus",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "magnarail-lance",
+    "transonic-cannon",
+    "omnissian-staff"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Leader",
+    "Galvanic Field",
+    "Defend the Divine Work",
+    "Doctrina Imperatives"
+   ]
+  }
+ ]
+}

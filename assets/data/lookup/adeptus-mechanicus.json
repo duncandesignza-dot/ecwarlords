@@ -1,0 +1,4369 @@
+{
+ "id": "adeptus-mechanicus",
+ "name": "Adeptus Mechanicus",
+ "source": "BSData/wh40k-10e",
+ "revision": "106",
+ "enhancements": [
+  {
+   "id": "eradication-cohort",
+   "name": "Eradication Cohort",
+   "enhancements": [
+    {
+     "id": "omnicogitator",
+     "name": "Omnicogitator",
+     "pts": 25
+    },
+    {
+     "id": "martial-signatum-amplificator",
+     "name": "Martial Signatum Amplificator",
+     "pts": 15
+    },
+    {
+     "id": "belicosa-class-capacitor-vanes",
+     "name": "Belicosa-class Capacitor Vanes",
+     "pts": 30
+    },
+    {
+     "id": "omnissiah-s-fury",
+     "name": "Omnissiah's Fury",
+     "pts": 10
+    }
+   ]
+  }
+ ],
+ "weapons": [
+  {
+   "id": "armoured-hull",
+   "name": "Armoured hull",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "cognis-heavy-stubber-array",
+   "name": "Cognis heavy stubber array",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "9",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 9, Sustained Hits 1, Twin-linked"
+   }
+  },
+  {
+   "id": "cognis-heavy-stubber",
+   "name": "Cognis heavy stubber",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 3, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "heavy-phosphor-blaster",
+   "name": "Heavy phosphor blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Ignores Cover"
+   }
+  },
+  {
+   "id": "twin-cognis-lascannon",
+   "name": "Twin cognis lascannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "Sustained hits 1, Twin-linked"
+   }
+  },
+  {
+   "id": "arc-scourge",
+   "name": "Arc Scourge",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Anti-Vehicle 4+, Devastating Wounds, Extra Attacks"
+   }
+  },
+  {
+   "id": "cawl-s-omnissian-axe",
+   "name": "Cawl's Omnissian axe",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "mechadendrite-hive",
+   "name": "Mechadendrite hive",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2D6",
+    "WS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "solar-atomiser",
+   "name": "Solar atomiser",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "2+",
+    "S": "14",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 3"
+   }
+  },
+  {
+   "id": "electrostatic-gauntlets",
+   "name": "Electrostatic gauntlets",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol, Sustained Hits 2"
+   }
+  },
+  {
+   "id": "electrostatic-gauntlets-2",
+   "name": "Electrostatic gauntlets",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Sustained Hits 2"
+   }
+  },
+  {
+   "id": "electroleech-stave",
+   "name": "Electroleech stave",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "twin-cognis-autocannon",
+   "name": "Twin cognis autocannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "4",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "Sustained Hits 1, Twin-linked"
+   }
+  },
+  {
+   "id": "twin-cognis-lascannon-2",
+   "name": "Twin cognis lascannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "Sustained Hits 1, Twin-linked"
+   }
+  },
+  {
+   "id": "ironstrider-feet",
+   "name": "Ironstrider feet",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "close-combat-weapon",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-kastelan-phosphor-blaster",
+   "name": "Twin Kastelan phosphor blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Twin-linked"
+   }
+  },
+  {
+   "id": "twin-kastelan-fist",
+   "name": "Twin Kastelan fist",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "12",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "kastelan-fist",
+   "name": "Kastelan fist",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "12",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "kastelan-phosphor-blaster",
+   "name": "Kastelan phosphor blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover"
+   }
+  },
+  {
+   "id": "incendine-combustor",
+   "name": "Incendine combustor",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "arc-claw",
+   "name": "Arc claw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Anti-Vehicle 4+"
+   }
+  },
+  {
+   "id": "heavy-arc-rifle",
+   "name": "Heavy arc rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Anti-Vehicle 4+, Rapid Fire 2"
+   }
+  },
+  {
+   "id": "hydraulic-claw",
+   "name": "Hydraulic claw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "torsion-cannon",
+   "name": "Torsion cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D3",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Anti-Infantry 2+, Blast"
+   }
+  },
+  {
+   "id": "heavy-grav-cannon",
+   "name": "Heavy grav-cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "4",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Anti-Vehicle 2+"
+   }
+  },
+  {
+   "id": "cognis-flamer",
+   "name": "Cognis flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "close-combat-weapon-2",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "phosphor-blaster",
+   "name": "Phosphor blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Ignores Cover, Rapid Fire 1"
+   }
+  },
+  {
+   "id": "kataphron-plasma-culverin-standard",
+   "name": "➤ Kataphron plasma culverin - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "4",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "kataphron-plasma-culverin-supercharge",
+   "name": "➤ Kataphron plasma culverin - supercharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "4",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Hazardous"
+   }
+  },
+  {
+   "id": "dunecrawler-legs",
+   "name": "Dunecrawler legs",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "eradication-beamer-dissipated",
+   "name": "➤ Eradication beamer - dissipated",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3D3",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Blast, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "eradication-beamer-focused",
+   "name": "➤ Eradication beamer - focused",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3D3",
+    "BS": "4+",
+    "S": "10",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Blast, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "daedalus-missile-launcher",
+   "name": "Daedalus missile launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "10",
+    "AP": "-2",
+    "D": "D6+1",
+    "Keywords": "Anti-Fly 2+"
+   }
+  },
+  {
+   "id": "icarus-array",
+   "name": "Icarus array",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "6",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Anti-Fly 4+, Twin-linked"
+   }
+  },
+  {
+   "id": "neutron-laser",
+   "name": "Neutron laser",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "16",
+    "AP": "-4",
+    "D": "D6+2",
+    "Keywords": "Heavy"
+   }
+  },
+  {
+   "id": "twin-onager-heavy-phosphor-blaster",
+   "name": "Twin Onager heavy phosphor blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "12",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Ignores Cover, Twin-linked"
+   }
+  },
+  {
+   "id": "flechette-blaster",
+   "name": "Flechette blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "5",
+    "BS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "taser-goad",
+   "name": "Taser goad",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Sustained Hits 2"
+   }
+  },
+  {
+   "id": "close-combat-weapon-3",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "flechette-carbine",
+   "name": "Flechette carbine",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "6",
+    "BS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "pteraxii-talons",
+   "name": "Pteraxii talons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "phosphor-torch",
+   "name": "Phosphor torch",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "galvanic-carbine",
+   "name": "Galvanic carbine",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "cavalry-sabre-clawed-limbs",
+   "name": "Cavalry sabre & clawed limbs",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "mechanicus-pistol",
+   "name": "Mechanicus pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Devastating Wounds, Pistol"
+   }
+  },
+  {
+   "id": "cavalry-arc-maul",
+   "name": "Cavalry arc maul",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Anti-Vehicle 4+, Devastating Wounds, Extra Attacks"
+   }
+  },
+  {
+   "id": "clawed-limbs",
+   "name": "Clawed limbs",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "phosphor-pistol",
+   "name": "Phosphor pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Ignores Cover, Pistol"
+   }
+  },
+  {
+   "id": "phosphor-blast-carbine",
+   "name": "Phosphor blast carbine",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6",
+    "BS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast, Ignores cover"
+   }
+  },
+  {
+   "id": "sulphur-breath",
+   "name": "Sulphur breath",
+   "type": "ranged",
+   "stats": {
+    "Range": "9\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "3",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Pistol, Torrent"
+   }
+  },
+  {
+   "id": "power-weapon",
+   "name": "Power weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "stubcarbine",
+   "name": "Stubcarbine",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "taser-goad-2",
+   "name": "Taser goad",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Sustained Hits 2"
+   }
+  },
+  {
+   "id": "transonic-razor-chordclaw",
+   "name": "Transonic razor & chordclaw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Anti-Infantry 3+, Precision"
+   }
+  },
+  {
+   "id": "transonic-blades",
+   "name": "Transonic blades",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Devastating Wounds, Precision"
+   }
+  },
+  {
+   "id": "transonic-blades-chordclaw",
+   "name": "Transonic blades & chordclaw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Anti-Infantry 3+, Devastating Wounds, Precision"
+   }
+  },
+  {
+   "id": "control-stave",
+   "name": "Control stave",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "galvanic-rifle",
+   "name": "Galvanic rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "alpha-combat-weapon",
+   "name": "Alpha combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "transuranic-arquebus",
+   "name": "Transuranic arquebus",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-2",
+    "D": "D3",
+    "Keywords": "Heavy, Precision"
+   }
+  },
+  {
+   "id": "arc-rifle",
+   "name": "Arc rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-1",
+    "D": "D3",
+    "Keywords": "Anti-Vehicle 4+, Devastating Wounds, Rapid Fire 1"
+   }
+  },
+  {
+   "id": "plasma-caliver-supercharge",
+   "name": "➤ Plasma caliver -  supercharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Hazardous"
+   }
+  },
+  {
+   "id": "plasma-caliver-standard",
+   "name": "➤ Plasma caliver - standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "close-combat-weapon-4",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "radium-carbine",
+   "name": "Radium carbine",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-Infantry 4+"
+   }
+  },
+  {
+   "id": "disruptor-missile-launcher",
+   "name": "Disruptor missile launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "Twin-linked"
+   }
+  },
+  {
+   "id": "belleros-energy-cannon",
+   "name": "Belleros energy cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "2D6",
+    "BS": "4+",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Blast, Indirect Fire"
+   }
+  },
+  {
+   "id": "ferrumite-cannon",
+   "name": "Ferrumite cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "phosphor-serpenta",
+   "name": "Phosphor serpenta",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Ignores Cover, Pistol"
+   }
+  },
+  {
+   "id": "taser-lance",
+   "name": "Taser lance",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Anti-Walker 2+, Lance, Sustained Hits 2"
+   }
+  },
+  {
+   "id": "omnissian-axe",
+   "name": "Omnissian axe",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "macrostubber",
+   "name": "Macrostubber",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "5",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "phosphor-serpenta-2",
+   "name": "Phosphor serpenta",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Ignores Cover, Pistol"
+   }
+  },
+  {
+   "id": "eradication-ray-dissipated",
+   "name": "➤ Eradication ray - dissipated",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D3",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "eradication-ray-focused",
+   "name": "➤ Eradication ray - focused",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D3",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "volkite-blaster",
+   "name": "Volkite blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "servo-arm",
+   "name": "Servo arm",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Extra Attacks"
+   }
+  },
+  {
+   "id": "omnissian-axe-2",
+   "name": "Omnissian axe",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "magnarail-lance",
+   "name": "Magnarail lance",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Heavy"
+   }
+  },
+  {
+   "id": "transonic-cannon",
+   "name": "Transonic cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "Devastating Wounds, Torrent"
+   }
+  },
+  {
+   "id": "omnissian-staff",
+   "name": "Omnissian staff",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "servo-arc-claw",
+   "name": "Servo-arc claw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Anti-Vehicle 4+, Devastating Wounds"
+   }
+  },
+  {
+   "id": "power-fist",
+   "name": "Power fist",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "alpha-close-combat-weapon",
+   "name": "Alpha close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "arc-lance",
+   "name": "Arc lance",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Anti-Vehicle 4+, Devastating Wounds, Lance"
+   }
+  },
+  {
+   "id": "arc-lance-2",
+   "name": "Arc lance",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Anti-Vehicle 4+, Devastating Wounds"
+   }
+  },
+  {
+   "id": "archeotech-pistol",
+   "name": "Archeotech pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Devastating Wounds, Pistol"
+   }
+  },
+  {
+   "id": "galvanic-caster-flechette",
+   "name": "➤ Galvanic caster - flechette",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "5",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "galvanic-caster-hammershot",
+   "name": "➤ Galvanic caster - hammershot",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Heavy"
+   }
+  },
+  {
+   "id": "termite-drill",
+   "name": "Termite drill",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "4+",
+    "S": "14",
+    "AP": "-2",
+    "D": "D3+3",
+    "Keywords": "Anti-Vehicle 3+"
+   }
+  },
+  {
+   "id": "terrax-melta-cutter",
+   "name": "Terrax melta cutter",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "5",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2"
+   }
+  },
+  {
+   "id": "combi-bolter",
+   "name": "Combi bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Rapid Fire 2"
+   }
+  },
+  {
+   "id": "heavy-flamer",
+   "name": "Heavy flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "twin-volkite-charger",
+   "name": "Twin volkite charger",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "Devastating Wounds, Twin-linked"
+   }
+  },
+  {
+   "id": "sydonian-feet",
+   "name": "Sydonian Feet",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "radium-jezzail",
+   "name": "Radium Jezzail",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Heavy, Precision, Anti-Infantry 3+"
+   }
+  },
+  {
+   "id": "skatros-transuranic-arquebus",
+   "name": "Skatros transuranic arquebus",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "D3",
+    "Keywords": "Heavy, Precision, Anti-Monster 4+, Anti-Vehicle 4+"
+   }
+  },
+  {
+   "id": "radium-jezzail",
+   "name": "Radium jezzail",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "5",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Anti-Infantry 3+, Heavy, Precision"
+   }
+  },
+  {
+   "id": "servitor-s-servo-arm",
+   "name": "Servitor's servo arm",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "5+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "heavy-bolter",
+   "name": "Heavy bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "6+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Heavy, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "multi-melta",
+   "name": "Multi-melta",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "6+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Heavy, Melta 2"
+   }
+  },
+  {
+   "id": "plasma-cannon-standard",
+   "name": "➤ Plasma cannon - Standard",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D3",
+    "BS": "6+",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Heavy, Blast"
+   }
+  },
+  {
+   "id": "plasma-cannon-supercharge",
+   "name": "➤ Plasma cannon - supercharge",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D3",
+    "BS": "6+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Hazardous, Heavy, Blast"
+   }
+  },
+  {
+   "id": "servitor-s-tools",
+   "name": "Servitor's tools",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "5+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "dataspikes",
+   "name": "Dataspikes",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "heavy-arc-rifle-2",
+   "name": "Heavy arc rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Anti-VEHICLE 4+, Rapid Fire 1"
+   }
+  },
+  {
+   "id": "heavy-bolter-2",
+   "name": "Heavy bolter",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Heavy, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "incendine-igniter",
+   "name": "Incendine igniter",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "meltagun",
+   "name": "Meltagun",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2"
+   }
+  },
+  {
+   "id": "phosphor-blaster-2",
+   "name": "Phosphor blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Ignores Cover, Rapid Fire 1"
+   }
+  },
+  {
+   "id": "servo-claw",
+   "name": "Servo-claw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "rod-of-the-war-forge-strike",
+   "name": "➤ Rod of the War Forge - strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "rod-of-the-war-forge-sweep",
+   "name": "➤ Rod of the War Forge - sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "12",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "jericho-class-conversion-resonator-shockwave",
+   "name": "➤ Jericho-class conversion resonator - shockwave",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D6+2",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Blast, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "jericho-class-conversion-resonator-titanic-impact",
+   "name": "➤ Jericho-class conversion resonator - titanic impact",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+2",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "power-weapon-2",
+   "name": "Power weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "hastarii-arc-blaster",
+   "name": "Hastarii arc blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Anti-Vehicle 4+, Devastating Wounds"
+   }
+  },
+  {
+   "id": "eradication-caster-focused",
+   "name": "➤ Eradication caster - focused",
+   "type": "ranged",
+   "stats": {
+    "Range": "15\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Anti-Infantry 4+"
+   }
+  },
+  {
+   "id": "eradication-caster-dissipated",
+   "name": "➤ Eradication caster - dissipated",
+   "type": "ranged",
+   "stats": {
+    "Range": "30\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Anti-Infantry 4+"
+   }
+  },
+  {
+   "id": "close-combat-weapon-5",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "4+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "hastarii-phosphor-blaster",
+   "name": "Hastarii phosphor blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Ignores Cover"
+   }
+  },
+  {
+   "id": "neutron-fusil",
+   "name": "Neutron fusil",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "skitarii-rangers",
+   "name": "Skitarii Rangers",
+   "role": "Battleline",
+   "keywords": [
+    "Rangers",
+    "Imperium",
+    "Infantry",
+    "Skitarii",
+    "Battleline"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 9,
+     "pts": 85
+    }
+   ],
+   "minModels": 9,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "galvanic-rifle",
+     "name": "Galvanic rifle",
+     "pts": 0,
+     "group": "Ranged weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Skitarii Rangers",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "galvanic-rifle",
+    "alpha-combat-weapon",
+    "transuranic-arquebus",
+    "arc-rifle",
+    "plasma-caliver-supercharge",
+    "plasma-caliver-standard",
+    "mechanicus-pistol",
+    "close-combat-weapon-4"
+   ],
+   "abilities": [
+    "Objective Scouted",
+    "Scouts",
+    "Doctrina Imperatives",
+    "Invulnerable Save (5+)",
+    "Enhanced data-tether",
+    "Omnispex"
+   ]
+  },
+  {
+   "id": "skitarii-vanguard",
+   "name": "Skitarii Vanguard",
+   "role": "Battleline",
+   "keywords": [
+    "Vanguard",
+    "Imperium",
+    "Infantry",
+    "Skitarii",
+    "Battleline"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 9,
+     "pts": 95
+    }
+   ],
+   "minModels": 9,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "radium-carbine",
+     "name": "Radium carbine",
+     "pts": 0,
+     "group": "Ranged weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Skitarii Vanguard",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "radium-carbine",
+    "alpha-combat-weapon",
+    "transuranic-arquebus",
+    "arc-rifle",
+    "plasma-caliver-supercharge",
+    "plasma-caliver-standard",
+    "mechanicus-pistol",
+    "close-combat-weapon-4"
+   ],
+   "abilities": [
+    "Rad-saturation (Aura)",
+    "Enhanced data-tether",
+    "Omnispex",
+    "Doctrina Imperatives",
+    "Invulnerable Save (5+)"
+   ]
+  },
+  {
+   "id": "cohort-commander",
+   "name": "Cohort Commander [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Imperium",
+    "Crucible",
+    "Skitarii",
+    "Marshal",
+    "Cohort Commander"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 45
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Cohort Commander",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Invulnerable Save (5+)",
+    "Leader",
+    "Prioritisation Protocol",
+    "Doctrina Imperatives"
+   ]
+  },
+  {
+   "id": "cybernetica-datasmith",
+   "name": "Cybernetica Datasmith",
+   "role": "Character",
+   "keywords": [
+    "Cybernetica Datasmith",
+    "Tech-Priest",
+    "Infantry",
+    "Character",
+    "Imperium",
+    "Legio Cybernetica"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 35
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "power-fist",
+     "name": "Power fist",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Cybernetica Datasmith",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "power-fist",
+    "mechanicus-pistol"
+   ],
+   "abilities": [
+    "Leader",
+    "Battle Protocols",
+    "Invulnerable Save",
+    "Doctrina Imperatives"
+   ]
+  },
+  {
+   "id": "ironstrider-alpha",
+   "name": "Ironstrider Alpha [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Imperium",
+    "Crucible",
+    "Skitarii",
+    "Vehicle",
+    "Walker",
+    "Smoke",
+    "Ironstrider Alpha"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Ironstrider Alpha",
+     "stats": {
+      "M": "10\"",
+      "T": "7",
+      "SV": "3+",
+      "W": "7",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Invulnerable Save (5+)",
+    "Leader",
+    "Vector of the Omnissiah's Wrath",
+    "Doctrina Imperatives",
+    "Deadly Demise",
+    "Stealth"
+   ]
+  },
+  {
+   "id": "magos",
+   "name": "Magos [Crucible]",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Imperium",
+    "Cult Mechanicus",
+    "Magos",
+    "Tech-Priest",
+    "Crucible"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Magos",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Invulnerable Save (5+)",
+    "Leader",
+    "Technoarcane Zealotry",
+    "Doctrina Imperatives"
+   ]
+  },
+  {
+   "id": "skitarii-marshal",
+   "name": "Skitarii Marshal",
+   "role": "Character",
+   "keywords": [
+    "Marshal",
+    "Imperium",
+    "Skitarii",
+    "Character",
+    "Infantry"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 35
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "control-stave",
+     "name": "Control stave",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Skitarii Marshal",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "control-stave",
+    "mechanicus-pistol"
+   ],
+   "abilities": [
+    "Leader",
+    "Control Edict",
+    "Servo-skull Uplink",
+    "Invulnerable Save",
+    "Doctrina Imperatives"
+   ]
+  },
+  {
+   "id": "sydonian-skatros",
+   "name": "Sydonian Skatros",
+   "role": "Character",
+   "keywords": [
+    "Infantry",
+    "Imperium",
+    "Skitarii",
+    "Sydonian",
+    "Character",
+    "Skatros"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 50
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "sydonian-feet",
+     "name": "Sydonian Feet",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "radium-jezzail",
+     "name": "Radium Jezzail",
+     "pts": 0,
+     "group": "Replace Radium Jezzail",
+     "max": 1
+    },
+    {
+     "id": "skatros-transuranic-arquebus",
+     "name": "Skatros transuranic arquebus",
+     "pts": 0,
+     "group": "Replace Radium Jezzail",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Sydonian Skatros",
+     "stats": {
+      "M": "8\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "sydonian-feet",
+    "radium-jezzail",
+    "skatros-transuranic-arquebus",
+    "mechanicus-pistol"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Dread Snipers",
+    "Sydonian Sentinel",
+    "Doctrina Imperatives",
+    "Stealth",
+    "Lone Operative"
+   ]
+  },
+  {
+   "id": "tech-priest-dominus",
+   "name": "Tech-Priest Dominus",
+   "role": "Character",
+   "keywords": [
+    "Dominus",
+    "Imperium",
+    "Tech-Priest",
+    "Character",
+    "Infantry",
+    "Cult Mechanicus"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "omnissian-axe",
+     "name": "Omnissian axe",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "macrostubber",
+     "name": "Macrostubber",
+     "pts": 0,
+     "group": "Replace macrostubber",
+     "max": null
+    },
+    {
+     "id": "phosphor-serpenta",
+     "name": "Phosphor serpenta",
+     "pts": 0,
+     "group": "Replace macrostubber",
+     "max": null
+    },
+    {
+     "id": "eradication-ray",
+     "name": "Eradication ray",
+     "pts": 0,
+     "group": "Replace volkite blaster",
+     "max": null
+    },
+    {
+     "id": "volkite-blaster",
+     "name": "Volkite blaster",
+     "pts": 0,
+     "group": "Replace volkite blaster",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Tech-Priest Dominus",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "omnissian-axe",
+    "macrostubber",
+    "phosphor-serpenta-2",
+    "eradication-ray-dissipated",
+    "eradication-ray-focused",
+    "volkite-blaster"
+   ],
+   "abilities": [
+    "Leader",
+    "Invulnerable Save",
+    "Lord of the Machine Cult",
+    "Data-spike",
+    "Doctrina Imperatives"
+   ]
+  },
+  {
+   "id": "tech-priest-enginseer",
+   "name": "Tech-Priest Enginseer",
+   "role": "Character",
+   "keywords": [
+    "Enginseer",
+    "Imperium",
+    "Tech-Priest",
+    "Character",
+    "Infantry",
+    "Cult Mechanicus"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 55
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "servo-arm",
+     "name": "Servo arm",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "omnissian-axe",
+     "name": "Omnissian axe",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Tech-Priest Enginseer",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "servo-arm",
+    "omnissian-axe-2",
+    "mechanicus-pistol"
+   ],
+   "abilities": [
+    "Enginseer",
+    "Omnissiah's Blessing",
+    "Vengeance for the Omnissiah",
+    "Invulnerable Save",
+    "Leader",
+    "Doctrina Imperatives"
+   ]
+  },
+  {
+   "id": "tech-priest-manipulus",
+   "name": "Tech-Priest Manipulus",
+   "role": "Character",
+   "keywords": [
+    "Manipulus",
+    "Imperium",
+    "Tech-Priest",
+    "Character",
+    "Infantry",
+    "Cult Mechanicus"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 60
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "omnissian-staff",
+     "name": "Omnissian staff",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "magnarail-lance",
+     "name": "Magnarail lance",
+     "pts": 0,
+     "group": "Replace magnarail lance",
+     "max": null
+    },
+    {
+     "id": "transonic-cannon",
+     "name": "Transonic cannon",
+     "pts": 0,
+     "group": "Replace magnarail lance",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Tech-Priest Manipulus",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "magnarail-lance",
+    "transonic-cannon",
+    "omnissian-staff"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Leader",
+    "Galvanic Field",
+    "Defend the Divine Work",
+    "Doctrina Imperatives"
+   ]
+  },
+  {
+   "id": "technoarcheologist",
+   "name": "Technoarcheologist",
+   "role": "Character",
+   "keywords": [
+    "Technoarcheologist",
+    "Imperium",
+    "Tech-Priest",
+    "Character",
+    "Infantry",
+    "Cult Mechanicus"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 45
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "servo-arc-claw",
+     "name": "Servo-arc claw",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Technoarcheologist",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "servo-arc-claw",
+    "mechanicus-pistol"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Seekers of Divine Arcana",
+    "Cogitative Instincts",
+    "Leader",
+    "Doctrina Imperatives"
+   ]
+  },
+  {
+   "id": "belisarius-cawl",
+   "name": "Belisarius Cawl",
+   "role": "Epic Hero",
+   "keywords": [
+    "Belisarius Cawl",
+    "Epic Hero",
+    "Monster",
+    "Character",
+    "Tech-Priest",
+    "Imperium",
+    "Cult Mechanicus"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 210
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Belisarius Cawl",
+     "stats": {
+      "M": "8\"",
+      "T": "8",
+      "SV": "2+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "arc-scourge",
+    "cawl-s-omnissian-axe",
+    "mechadendrite-hive",
+    "solar-atomiser"
+   ],
+   "abilities": [
+    "Canticles of the Omnissiah",
+    "Mechanicus Bodyguard",
+    "Self-repair Mechanisms",
+    "Supreme Commander",
+    "Doctrina Imperatives",
+    "Invulnerable Save (4+)"
+   ]
+  },
+  {
+   "id": "thulia-ghuld",
+   "name": "Thulia Ghuld",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Monster",
+    "Character",
+    "Tech-Priest",
+    "Imperium",
+    "Cult Mechanicus",
+    "Thulia Ghuld"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 210
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Thulia Ghuld",
+     "stats": {
+      "M": "8\"",
+      "T": "8",
+      "SV": "2+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "rod-of-the-war-forge-strike",
+    "rod-of-the-war-forge-sweep",
+    "jericho-class-conversion-resonator-shockwave",
+    "jericho-class-conversion-resonator-titanic-impact"
+   ],
+   "abilities": [
+    "Icon of War",
+    "Mechanicus Bodyguard",
+    "Secutor of Olympus",
+    "Supreme Commander",
+    "Rod of the War Forge",
+    "Cybernetic Augmentation",
+    "Doctrina Imperatives",
+    "Invulnerable Save (4+)"
+   ]
+  },
+  {
+   "id": "corpuscarii-electro-priests",
+   "name": "Corpuscarii Electro-Priests",
+   "role": "Infantry",
+   "keywords": [
+    "Electro-Priests",
+    "Corpuscarii",
+    "Imperium",
+    "Infantry",
+    "Cult Mechanicus"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    },
+    {
+     "count": 6,
+     "pts": 130
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Corpuscarii Electro-Priests",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "7+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "electrostatic-gauntlets",
+    "electrostatic-gauntlets-2"
+   ],
+   "abilities": [
+    "Electro-shock",
+    "Feel No Pain",
+    "Invulnerable Save (5+)",
+    "Doctrina Imperatives"
+   ]
+  },
+  {
+   "id": "fulgurite-electro-priests",
+   "name": "Fulgurite Electro-Priests",
+   "role": "Infantry",
+   "keywords": [
+    "Electro-Priests",
+    "Fulgurite",
+    "Infantry",
+    "Imperium",
+    "Cult Mechanicus"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    },
+    {
+     "count": 6,
+     "pts": 140
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Fulgurite Electro-Priests",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "7+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "electroleech-stave"
+   ],
+   "abilities": [
+    "Electro-Infusion",
+    "Invulnerable Save (5+)",
+    "Doctrina Imperatives",
+    "Feel No Pain"
+   ]
+  },
+  {
+   "id": "hastarii-exterminators",
+   "name": "Hastarii Exterminators",
+   "role": "Infantry",
+   "keywords": [
+    "Imperium",
+    "Infantry",
+    "Skitarii",
+    "Hastarii",
+    "Exterminators"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 4,
+     "pts": 135
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 4,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Hastarii Exterminator Alpha",
+     "stats": {
+      "M": "5\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Hastarii Exterminators",
+     "stats": {
+      "M": "5\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "power-weapon-2",
+    "hastarii-arc-blaster",
+    "eradication-caster-focused",
+    "eradication-caster-dissipated",
+    "close-combat-weapon-5"
+   ],
+   "abilities": [
+    "Attached Unit",
+    "Broad‑spectrum Targeting Augurs",
+    "Sustained Hits",
+    "Invulnerable Save (5+)",
+    "Doctrina Imperatives"
+   ]
+  },
+  {
+   "id": "hastarii-fusiliers",
+   "name": "Hastarii Fusiliers",
+   "role": "Infantry",
+   "keywords": [
+    "Imperium",
+    "Infantry",
+    "Skitarii",
+    "Hastarii",
+    "Fusiliers"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 4,
+     "pts": 145
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 4,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Hastarii Fusilier Alpha",
+     "stats": {
+      "M": "5\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Hastarii Fusilier",
+     "stats": {
+      "M": "5\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "hastarii-phosphor-blaster",
+    "neutron-fusil",
+    "power-weapon-2",
+    "close-combat-weapon-5"
+   ],
+   "abilities": [
+    "Attached Unit",
+    "Monocular Targeting Helms",
+    "Ignores Cover",
+    "Invulnerable Save (5+)",
+    "Doctrina Imperatives"
+   ]
+  },
+  {
+   "id": "kataphron-breachers",
+   "name": "Kataphron Breachers",
+   "role": "Infantry",
+   "keywords": [
+    "Breachers",
+    "Kataphron",
+    "Infantry",
+    "Imperium",
+    "Cult Mechanicus"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 3,
+     "pts": 160
+    },
+    {
+     "count": 6,
+     "pts": 320
+    }
+   ],
+   "minModels": 3,
+   "maxModels": 6,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Kataphron Breachers",
+     "stats": {
+      "M": "5\"",
+      "T": "7",
+      "SV": "3+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "arc-claw",
+    "heavy-arc-rifle",
+    "hydraulic-claw",
+    "torsion-cannon"
+   ],
+   "abilities": [
+    "Breaching Command",
+    "Invulnerable Save",
+    "Doctrina Imperatives"
+   ]
+  },
+  {
+   "id": "kataphron-destroyers",
+   "name": "Kataphron Destroyers",
+   "role": "Infantry",
+   "keywords": [
+    "Destroyers",
+    "Kataphron",
+    "Infantry",
+    "Imperium",
+    "Cult Mechanicus"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 3,
+     "pts": 105
+    },
+    {
+     "count": 6,
+     "pts": 210
+    }
+   ],
+   "minModels": 3,
+   "maxModels": 6,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Kataphron Destroyers",
+     "stats": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "heavy-grav-cannon",
+    "cognis-flamer",
+    "close-combat-weapon-2",
+    "phosphor-blaster",
+    "kataphron-plasma-culverin-standard",
+    "kataphron-plasma-culverin-supercharge"
+   ],
+   "abilities": [
+    "Sentinel Directive",
+    "Invulnerable Save",
+    "Doctrina Imperatives"
+   ]
+  },
+  {
+   "id": "pteraxii-skystalkers",
+   "name": "Pteraxii Skystalkers",
+   "role": "Infantry",
+   "keywords": [
+    "Skystalkers",
+    "Imperium",
+    "Infantry",
+    "Fly",
+    "Jump Pack",
+    "Grenades",
+    "Skitarii",
+    "Pteraxii"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    },
+    {
+     "count": 6,
+     "pts": 150
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Pteraxii Skystalkers",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Pteraxii Skystalker Alpha",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "flechette-blaster",
+    "taser-goad",
+    "close-combat-weapon-3",
+    "flechette-carbine"
+   ],
+   "abilities": [
+    "Ride the Thermals",
+    "Deep Strike",
+    "Doctrina Imperatives",
+    "Invulnerable Save (5+)"
+   ]
+  },
+  {
+   "id": "pteraxii-sterylizors",
+   "name": "Pteraxii Sterylizors",
+   "role": "Infantry",
+   "keywords": [
+    "Sterylizors",
+    "Imperium",
+    "Infantry",
+    "Fly",
+    "Jump Pack",
+    "Skitarii",
+    "Pteraxii"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    },
+    {
+     "count": 6,
+     "pts": 160
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Pteraxii Sterylizors",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Pteraxii Skystalker Alpha",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "flechette-blaster",
+    "taser-goad",
+    "pteraxii-talons",
+    "phosphor-torch"
+   ],
+   "abilities": [
+    "Searing Conflagaration",
+    "Deep Strike",
+    "Doctrina Imperatives",
+    "Invulnerable Save (5+)"
+   ]
+  },
+  {
+   "id": "secutarii-hoplites",
+   "name": "Secutarii Hoplites",
+   "role": "Infantry",
+   "keywords": [
+    "Secutarii Hoplites",
+    "Infantry",
+    "Imperium",
+    "Skitarii"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 4,
+     "pts": 65
+    },
+    {
+     "count": 9,
+     "pts": 130
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "arc-lance",
+     "name": "Arc lance",
+     "pts": 0,
+     "group": "equipped with",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Secutarii Hoplites",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "alpha-close-combat-weapon",
+    "arc-lance",
+    "arc-lance-2",
+    "archeotech-pistol"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Titan Guard",
+    "Secutarii",
+    "Enhanced data-tether",
+    "Omnispex",
+    "Doctrina Imperatives"
+   ]
+  },
+  {
+   "id": "secutarii-peltasts",
+   "name": "Secutarii Peltasts",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Secutarii Peltasts",
+    "Skitarii",
+    "Imperium"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 4,
+     "pts": 50
+    },
+    {
+     "count": 9,
+     "pts": 100
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "galvanic-caster",
+     "name": "Galvanic caster",
+     "pts": 0,
+     "group": "equipped with",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Secutarii Peltasts",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "alpha-close-combat-weapon",
+    "close-combat-weapon-4",
+    "galvanic-caster-flechette",
+    "galvanic-caster-hammershot",
+    "archeotech-pistol"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Blind Barrage",
+    "Secutarii",
+    "Enhanced data-tether",
+    "Omnispex",
+    "Doctrina Imperatives"
+   ]
+  },
+  {
+   "id": "servitor-battleclade",
+   "name": "Servitor Battleclade",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Imperium",
+    "Cult Mechanicus",
+    "Servitor Battleclade"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 6,
+     "pts": 60
+    }
+   ],
+   "minModels": 6,
+   "maxModels": 6,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Servitor Underseer",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Combat Servitor",
+     "stats": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "mechanicus-pistol",
+    "dataspikes",
+    "heavy-arc-rifle-2",
+    "heavy-bolter-2",
+    "incendine-igniter",
+    "meltagun",
+    "phosphor-blaster-2",
+    "servo-claw"
+   ],
+   "abilities": [
+    "Doctrina Imperatives",
+    "Network Override",
+    "Invulnerable Save",
+    "Attached Unit"
+   ]
+  },
+  {
+   "id": "servitors",
+   "name": "Servitors",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Imperium",
+    "Cult Mechanicus",
+    "Servitors"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 4,
+     "pts": 50
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 4,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Servitors",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "servitor-s-servo-arm",
+    "heavy-bolter",
+    "multi-melta",
+    "plasma-cannon-standard",
+    "plasma-cannon-supercharge",
+    "servitor-s-tools"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Mindlock",
+    "Servitor Retinue",
+    "Doctrina Imperatives"
+   ]
+  },
+  {
+   "id": "sicarian-infiltrators",
+   "name": "Sicarian Infiltrators",
+   "role": "Infantry",
+   "keywords": [
+    "Imperium",
+    "Skitarii",
+    "Infantry",
+    "Sicarian",
+    "Infiltrators"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 5,
+     "pts": 75
+    },
+    {
+     "count": 10,
+     "pts": 155
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 10,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Sicarian Infiltrators",
+     "stats": {
+      "M": "8\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "power-weapon",
+    "stubcarbine",
+    "flechette-blaster",
+    "taser-goad-2"
+   ],
+   "abilities": [
+    "Neurostatic Interference (Aura)",
+    "Infiltrators",
+    "Stealth",
+    "Doctrina Imperatives",
+    "Invulnerable Save (5+)"
+   ]
+  },
+  {
+   "id": "sicarian-ruststalkers",
+   "name": "Sicarian Ruststalkers",
+   "role": "Infantry",
+   "keywords": [
+    "Ruststalkers",
+    "Imperium",
+    "Infantry",
+    "Skitarii",
+    "Sicarian"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 5,
+     "pts": 80
+    },
+    {
+     "count": 10,
+     "pts": 165
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 10,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Sicarian Ruststalkers",
+     "stats": {
+      "M": "8\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "transonic-razor-chordclaw",
+    "transonic-blades",
+    "transonic-blades-chordclaw"
+   ],
+   "abilities": [
+    "Optimised Gait",
+    "Stealth",
+    "Doctrina Imperatives",
+    "Invulnerable Save (5+)"
+   ]
+  },
+  {
+   "id": "serberys-raiders",
+   "name": "Serberys Raiders",
+   "role": "Mounted",
+   "keywords": [
+    "Serberys Raiders",
+    "Imperium",
+    "Skitarii",
+    "Mounted"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 2,
+     "pts": 60
+    },
+    {
+     "count": 5,
+     "pts": 120
+    }
+   ],
+   "minModels": 2,
+   "maxModels": 5,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Serberys Raiders",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "galvanic-carbine",
+    "cavalry-sabre-clawed-limbs",
+    "mechanicus-pistol"
+   ],
+   "abilities": [
+    "Tactica Obliqua",
+    "Scouts",
+    "Doctrina Imperatives",
+    "Invulnerable Save (5+)",
+    "Enhanced data-tether"
+   ]
+  },
+  {
+   "id": "serberys-sulphurhounds",
+   "name": "Serberys Sulphurhounds",
+   "role": "Mounted",
+   "keywords": [
+    "Serberys Sulphurhounds",
+    "Imperium",
+    "Skitarii",
+    "Mounted"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 2,
+     "pts": 55
+    },
+    {
+     "count": 5,
+     "pts": 110
+    }
+   ],
+   "minModels": 2,
+   "maxModels": 5,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Serberys Sulphurhounds",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "cavalry-arc-maul",
+    "clawed-limbs",
+    "phosphor-pistol",
+    "phosphor-blast-carbine",
+    "mechanicus-pistol",
+    "sulphur-breath"
+   ],
+   "abilities": [
+    "Line-breakers",
+    "Doctrina Imperatives",
+    "Invulnerable Save (5+)"
+   ]
+  },
+  {
+   "id": "archaeopter-fusilave",
+   "name": "Archaeopter Fusilave",
+   "role": "Vehicle",
+   "keywords": [
+    "Archaeopter Fusilave",
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Imperium",
+    "Skitarii"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 160
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "chaff-launcher",
+     "name": "Chaff Launcher",
+     "pts": 0,
+     "group": "Replace command uplink",
+     "max": null
+    },
+    {
+     "id": "command-uplink",
+     "name": "Command Uplink",
+     "pts": 0,
+     "group": "Replace command uplink",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Archaeopter Fusilave",
+     "stats": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "armoured-hull",
+    "cognis-heavy-stubber-array"
+   ],
+   "abilities": [
+    "Bomb Rack",
+    "Hover",
+    "Deadly Demise",
+    "Doctrina Imperatives",
+    "Chaff Launcher",
+    "Command Uplink"
+   ]
+  },
+  {
+   "id": "archaeopter-stratoraptor",
+   "name": "Archaeopter Stratoraptor",
+   "role": "Vehicle",
+   "keywords": [
+    "Archaeopter Stratoraptor",
+    "Skitarii",
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Imperium"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 185
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "cognis-heavy-stubber",
+     "name": "Cognis heavy stubber",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    },
+    {
+     "id": "heavy-phosphor-blaster",
+     "name": "Heavy phosphor blaster",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    },
+    {
+     "id": "twin-cognis-lascannon",
+     "name": "Twin cognis lascannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "chaff-launcher",
+     "name": "Chaff Launcher",
+     "pts": 0,
+     "group": "Replace command uplink",
+     "max": null
+    },
+    {
+     "id": "command-uplink",
+     "name": "Command Uplink",
+     "pts": 0,
+     "group": "Replace command uplink",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Archaeopter Stratoraptor",
+     "stats": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "cognis-heavy-stubber",
+    "heavy-phosphor-blaster",
+    "twin-cognis-lascannon",
+    "armoured-hull"
+   ],
+   "abilities": [
+    "Strafing Run",
+    "Hover",
+    "Deadly Demise",
+    "Doctrina Imperatives",
+    "Chaff Launcher",
+    "Command Uplink"
+   ]
+  },
+  {
+   "id": "archaeopter-transvector",
+   "name": "Archaeopter Transvector",
+   "role": "Vehicle",
+   "keywords": [
+    "Archaeopter Transvector",
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Imperium",
+    "Skitarii",
+    "Transport"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 150
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "chaff-launcher",
+     "name": "Chaff Launcher",
+     "pts": 0,
+     "group": "Replace command uplink",
+     "max": null
+    },
+    {
+     "id": "command-uplink",
+     "name": "Command Uplink",
+     "pts": 0,
+     "group": "Replace command uplink",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Archaeopter Transvector",
+     "stats": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "armoured-hull",
+    "cognis-heavy-stubber-array"
+   ],
+   "abilities": [
+    "Aerial Deployment",
+    "Hover",
+    "Deep Strike",
+    "Deadly Demise",
+    "Doctrina Imperatives",
+    "Chaff Launcher",
+    "Command Uplink"
+   ]
+  },
+  {
+   "id": "ironstrider-ballistarii",
+   "name": "Ironstrider Ballistarii",
+   "role": "Vehicle",
+   "keywords": [
+    "Ironstrider Ballistarii",
+    "Vehicle",
+    "Smoke",
+    "Skitarii",
+    "Walker",
+    "Imperium"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 3,
+   "wargear": [
+    {
+     "id": "twin-cognis-autocannon",
+     "name": "Twin cognis autocannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-cognis-lascannon",
+     "name": "Twin cognis lascannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Ironstrider Ballistarii",
+     "stats": {
+      "M": "10\"",
+      "T": "7",
+      "SV": "3+",
+      "W": "7",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-cognis-autocannon",
+    "twin-cognis-lascannon-2",
+    "ironstrider-feet"
+   ],
+   "abilities": [
+    "Elevated Strider",
+    "Broad Spectrum Data-tether",
+    "Invulnerable Save (5+)",
+    "Deadly Demise",
+    "Doctrina Imperatives"
+   ]
+  },
+  {
+   "id": "kastelan-robots",
+   "name": "Kastelan Robots",
+   "role": "Vehicle",
+   "keywords": [
+    "Kastelan Robots",
+    "Imperium",
+    "Vehicle",
+    "Walker",
+    "Legio Cybernetica"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 180
+    },
+    {
+     "count": 3,
+     "pts": 360
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "twin-kastelan-phosphor-blaster-and-ccw",
+     "name": "Twin Kastelan phosphor blaster and CCW",
+     "pts": 0,
+     "group": "Arm weapons",
+     "max": null
+    },
+    {
+     "id": "twin-kastelan-fist",
+     "name": "Twin Kastelan fist",
+     "pts": 0,
+     "group": "Arm weapons",
+     "max": null
+    },
+    {
+     "id": "kastelan-phosphor-blaster-kastelan-fist",
+     "name": "Kastelan phosphor blaster & Kastelan fist",
+     "pts": 0,
+     "group": "Arm weapons",
+     "max": null
+    },
+    {
+     "id": "incendine-combustor",
+     "name": "Incendine combustor",
+     "pts": 0,
+     "group": "Shoulder mount",
+     "max": null
+    },
+    {
+     "id": "heavy-phosphor-blaster",
+     "name": "Heavy phosphor blaster",
+     "pts": 0,
+     "group": "Shoulder mount",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Kastelan Robot",
+     "stats": {
+      "M": "6\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "7",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon",
+    "twin-kastelan-phosphor-blaster",
+    "twin-kastelan-fist",
+    "kastelan-fist",
+    "kastelan-phosphor-blaster",
+    "incendine-combustor",
+    "heavy-phosphor-blaster"
+   ],
+   "abilities": [
+    "Robotic Bodyguard",
+    "Repulsor Grid",
+    "Invulnerable Save (5+)",
+    "Deadly Demise",
+    "Doctrina Imperatives"
+   ]
+  },
+  {
+   "id": "onager-dunecrawler",
+   "name": "Onager Dunecrawler",
+   "role": "Vehicle",
+   "keywords": [
+    "Onager Dunecrawler",
+    "Imperium",
+    "Vehicle",
+    "Walker",
+    "Skitarii",
+    "Smoke"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 155
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "broad-spectrum-data-tether",
+     "name": "Broad spectrum data-tether",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "cognis-heavy-stubber",
+     "name": "Cognis heavy stubber",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "dunecrawler-legs",
+     "name": "Dunecrawler legs",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "eradication-beamer",
+     "name": "Eradication beamer",
+     "pts": 0,
+     "group": "Replace eradication beamer",
+     "max": null
+    },
+    {
+     "id": "daedalus-missile-launcher-icarus-array",
+     "name": "Daedalus missile launcher & Icarus array",
+     "pts": 0,
+     "group": "Replace eradication beamer",
+     "max": null
+    },
+    {
+     "id": "neutron-laser-cognis-heavy-stubber",
+     "name": "Neutron laser & Cognis heavy stubber",
+     "pts": 0,
+     "group": "Replace eradication beamer",
+     "max": null
+    },
+    {
+     "id": "twin-onager-heavy-phosphor-blaster",
+     "name": "Twin Onager heavy phosphor blaster",
+     "pts": 0,
+     "group": "Replace eradication beamer",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Onager Dunecrawler",
+     "stats": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "11",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "cognis-heavy-stubber",
+    "dunecrawler-legs",
+    "eradication-beamer-dissipated",
+    "eradication-beamer-focused",
+    "daedalus-missile-launcher",
+    "icarus-array",
+    "neutron-laser",
+    "twin-onager-heavy-phosphor-blaster"
+   ],
+   "abilities": [
+    "Emanatus Forcefield (Aura)",
+    "Invulnerable Save",
+    "Damaged: 1-4 wounds remaining",
+    "Scuttling Walker",
+    "Deadly Demise",
+    "Doctrina Imperatives",
+    "Broad spectrum data-tether"
+   ]
+  },
+  {
+   "id": "skorpius-disintegrator",
+   "name": "Skorpius Disintegrator",
+   "role": "Vehicle",
+   "keywords": [
+    "Skorpius Disintegrator",
+    "Imperium",
+    "Skitarii",
+    "Vehicle",
+    "Smoke"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 165
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "cognis-heavy-stubber",
+     "name": "Cognis heavy stubber",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 3
+    },
+    {
+     "id": "disruptor-missile-launcher",
+     "name": "Disruptor missile launcher",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "belleros-energy-cannon",
+     "name": "Belleros energy cannon",
+     "pts": 0,
+     "group": "equipped with",
+     "max": null
+    },
+    {
+     "id": "ferrumite-cannon",
+     "name": "Ferrumite cannon",
+     "pts": 0,
+     "group": "equipped with",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Skorpius Disintegrator",
+     "stats": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "cognis-heavy-stubber",
+    "disruptor-missile-launcher",
+    "belleros-energy-cannon",
+    "ferrumite-cannon",
+    "armoured-hull"
+   ],
+   "abilities": [
+    "Broad spectrum data-tether",
+    "Blistering Salvoes",
+    "Damaged: 1-4 wounds remaining",
+    "Deadly Demise",
+    "Doctrina Imperatives"
+   ]
+  },
+  {
+   "id": "skorpius-dunerider",
+   "name": "Skorpius Dunerider",
+   "role": "Vehicle",
+   "keywords": [
+    "Skorpius Dunerider",
+    "Imperium",
+    "Vehicle",
+    "Dedicated Transport",
+    "Transport",
+    "Skitarii",
+    "Smoke"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Skorpius Dunerider",
+     "stats": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "11",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "armoured-hull",
+    "cognis-heavy-stubber-array"
+   ],
+   "abilities": [
+    "Broad spectrum data-tether",
+    "Fire Support",
+    "Deadly Demise",
+    "Doctrina Imperatives",
+    "Firing Deck"
+   ]
+  },
+  {
+   "id": "sydonian-dragoons-with-radium-jezzails",
+   "name": "Sydonian Dragoons with radium jezzails",
+   "role": "Vehicle",
+   "keywords": [
+    "Imperium",
+    "Skitarii",
+    "Vehicle",
+    "Walker",
+    "Sydonian",
+    "Dragoons with Radium Jezzails",
+    "Smoke"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 55
+    },
+    {
+     "count": 3,
+     "pts": 150
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 3,
+   "wargear": [
+    {
+     "id": "phosphor-serpenta",
+     "name": "Phosphor serpenta",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "radium-jezzail",
+     "name": "Radium jezzail",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Sydonian Dragoons",
+     "stats": {
+      "M": "10\"",
+      "T": "7",
+      "SV": "3+",
+      "W": "7",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "phosphor-serpenta",
+    "radium-jezzail",
+    "ironstrider-feet"
+   ],
+   "abilities": [
+    "Focused Hunters",
+    "Broad Spectrum Data-tether",
+    "Deadly Demise",
+    "Stealth",
+    "Doctrina Imperatives",
+    "Invulnerable Save (5+)"
+   ]
+  },
+  {
+   "id": "sydonian-dragoons-with-taser-lances",
+   "name": "Sydonian Dragoons with taser lances",
+   "role": "Vehicle",
+   "keywords": [
+    "Imperium",
+    "Skitarii",
+    "Vehicle",
+    "Walker",
+    "Sydonian",
+    "Dragoons with Taser Lances",
+    "Smoke"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 3,
+   "wargear": [
+    {
+     "id": "phosphor-serpenta",
+     "name": "Phosphor serpenta",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "taser-lance",
+     "name": "Taser lance",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Sydonian Dragoons (Radium Jezzail)",
+     "stats": {
+      "M": "10\"",
+      "T": "7",
+      "SV": "3+",
+      "W": "7",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "phosphor-serpenta",
+    "taser-lance"
+   ],
+   "abilities": [
+    "Dynamic Efficiency",
+    "Broad Spectrum Data-tether",
+    "Deadly Demise",
+    "Stealth",
+    "Doctrina Imperatives",
+    "Invulnerable Save (5+)"
+   ]
+  },
+  {
+   "id": "terrax-pattern-termite",
+   "name": "Terrax-Pattern Termite",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Imperium",
+    "Transport",
+    "Dedicated Transport",
+    "Terrax-pattern Termite"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 200
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "termite-drill",
+     "name": "Termite drill",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "termite-melta-cutter",
+     "name": "Termite melta cutter",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "combi-bolters",
+     "name": "Combi bolters",
+     "pts": 0,
+     "group": "equipped with",
+     "max": null
+    },
+    {
+     "id": "heavy-flamers",
+     "name": "Heavy flamers",
+     "pts": 0,
+     "group": "equipped with",
+     "max": null
+    },
+    {
+     "id": "twin-volkite-chargers",
+     "name": "Twin volkite chargers",
+     "pts": 0,
+     "group": "equipped with",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Terrax-pattern Termite",
+     "stats": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "14",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "termite-drill",
+    "terrax-melta-cutter",
+    "combi-bolter",
+    "heavy-flamer",
+    "twin-volkite-charger"
+   ],
+   "abilities": [
+    "Damaged: 1-5 wounds remaining",
+    "Termite Assault",
+    "Deadly Demise",
+    "Deep Strike",
+    "Doctrina Imperatives"
+   ]
+  }
+ ]
+}

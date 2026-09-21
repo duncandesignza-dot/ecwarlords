@@ -1,0 +1,10756 @@
+{
+ "id": "ynnari",
+ "name": "Ynnari",
+ "source": "BSData/wh40k-10e",
+ "revision": "10",
+ "enhancements": [],
+ "weapons": [
+  {
+   "id": "kha-vir",
+   "name": "Kha-vir",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "storm-of-whispers",
+   "name": "Storm of Whispers",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6+3",
+    "BS": "2+",
+    "S": "2",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Anti-Infantry 2+, Devastating Wounds, Psychic"
+   }
+  },
+  {
+   "id": "asu-var-quicksilver-stance",
+   "name": "➤ Asu-var - quicksilver stance",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Sustained Hits 2"
+   }
+  },
+  {
+   "id": "asu-var-duellist-stance",
+   "name": "➤ Asu-var - duellist stance",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Devastating Wounds, Precision"
+   }
+  },
+  {
+   "id": "asu-var-mythic-stance",
+   "name": "➤ Asu-var - mythic stance",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "3",
+    "AP": "-4",
+    "D": "3",
+    "Keywords": "Anti-Epic Hero 2+, Precision"
+   }
+  },
+  {
+   "id": "vilith-zhar-strike",
+   "name": "➤ Vilith-zhar - Strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "12",
+    "AP": "-4",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "vilith-zhar-sweep",
+   "name": "➤ Vilith-zhar - Sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "10",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-4",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "swirling-soul-energy",
+   "name": "Swirling soul energy",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6+3",
+    "BS": "N/A",
+    "S": "7",
+    "AP": "-1",
+    "D": "D3",
+    "Keywords": "Ignores Cover, Psychic, Torrent"
+   }
+  },
+  {
+   "id": "splinter-pistol",
+   "name": "Splinter pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "2",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-Infantry 3+, Assault, Pistol"
+   }
+  },
+  {
+   "id": "blast-pistol",
+   "name": "Blast pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "6\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "D3",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "huskblade",
+   "name": "Huskblade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "3",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "agoniser",
+   "name": "Agoniser",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "3",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Anti-Infantry 3+"
+   }
+  },
+  {
+   "id": "master-crafted-power-weapon",
+   "name": "Master-crafted power weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "scorpion-chainsword",
+   "name": "Scorpion Chainsword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "7",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "banshee-blade",
+   "name": "Banshee Blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Anti-Infantry 3+"
+   }
+  },
+  {
+   "id": "star-glaive",
+   "name": "Star Glaive",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "shuriken-pistol",
+   "name": "Shuriken Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Assault, Pistol"
+   }
+  },
+  {
+   "id": "reaper-launcher-starshot",
+   "name": "➤ Reaper Launcher - Starshot",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Heavy, Ignores Cover"
+   }
+  },
+  {
+   "id": "reaper-launcher-starswarm",
+   "name": "➤ Reaper Launcher - Starswarm",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Heavy, Ignores Cover"
+   }
+  },
+  {
+   "id": "death-spinner",
+   "name": "Death Spinner",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "dragon-fusion-gun",
+   "name": "Dragon Fusion Gun",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Assault, Melta 3"
+   }
+  },
+  {
+   "id": "dragon-fusion-pistol",
+   "name": "Dragon Fusion Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "6\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Assault, Melta 3, Pistol"
+   }
+  },
+  {
+   "id": "close-combat-weapon",
+   "name": "Close Combat Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "2+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-shuriken-catapult",
+   "name": "Twin Shuriken Catapult",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Assault, Twin Linked"
+   }
+  },
+  {
+   "id": "laser-lance",
+   "name": "Laser Lance",
+   "type": "ranged",
+   "stats": {
+    "Range": "6\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "laser-lance-2",
+   "name": "Laser Lance",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Lance"
+   }
+  },
+  {
+   "id": "banshee-blade-2",
+   "name": "Banshee Blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-3",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "agonizer",
+   "name": "Agonizer",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "3",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Anti-Infantry 3+"
+   }
+  },
+  {
+   "id": "splinter-pods",
+   "name": "Splinter pods",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "2",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-Infantry 3+, Assault, Twin-Linked"
+   }
+  },
+  {
+   "id": "clawed-fiend-fists",
+   "name": "Clawed Fiend fists",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "khymerae-talons",
+   "name": "Khymerae talons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "razorwing-feathers",
+   "name": "Razorwing Feathers",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "4+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "shaimeshi-blade",
+   "name": "Shaimeshi Blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Anti-Infantry 2+"
+   }
+  },
+  {
+   "id": "shardcarbine",
+   "name": "Shardcarbine",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "2",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-Infantry 3+, Assault"
+   }
+  },
+  {
+   "id": "splinter-pistol-2",
+   "name": "Splinter pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "2",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-Infantry 3+, Assault, Pistol"
+   }
+  },
+  {
+   "id": "sslyth-battle-blade",
+   "name": "Sslyth battle-blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "eyeburst",
+   "name": "Eyeburst",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Pistol, Torrent"
+   }
+  },
+  {
+   "id": "close-combat-weapon",
+   "name": "Close combat weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "ur-ghul-talons",
+   "name": "Ur-ghul Talons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "pulse-laser",
+   "name": "Pulse Laser",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "wraithbone-hull",
+   "name": "Wraithbone Hull",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "starcannon",
+   "name": "Starcannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "bright-lance",
+   "name": "Bright Lance",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "reaper-launcher-starshot-2",
+   "name": "➤ Reaper Launcher - Starshot",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Ignores Cover"
+   }
+  },
+  {
+   "id": "reaper-launcher-starswarm-2",
+   "name": "➤ Reaper Launcher - Starswarm",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Ignores Cover"
+   }
+  },
+  {
+   "id": "shuriken-cannon",
+   "name": "Shuriken Cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Ignores Cover, Lethal Hits"
+   }
+  },
+  {
+   "id": "tempest-launcher",
+   "name": "Tempest Launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "2D6",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Blast, Indirect Fire"
+   }
+  },
+  {
+   "id": "missile-launcher-starshot",
+   "name": "➤ Missile Launcher - Starshot",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "10",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "Ignores Cover"
+   }
+  },
+  {
+   "id": "missile-launcher-sunburst",
+   "name": "➤ Missile Launcher - Sunburst",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Blast, Ignores Cover"
+   }
+  },
+  {
+   "id": "jester-s-blade",
+   "name": "Jester's Blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "shrieker-cannon",
+   "name": "Shrieker Cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "avenger-shuriken-catapult",
+   "name": "Avenger Shuriken Catapult",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "4",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "close-combat-weapon-2",
+   "name": "Close Combat Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "diresword",
+   "name": "Diresword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "shuriken-pistol-2",
+   "name": "Shuriken Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Assault, Pistol"
+   }
+  },
+  {
+   "id": "power-glaive",
+   "name": "Power Glaive",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-3",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "the-executioner-s-demiklaives-dual-blades",
+   "name": "➤ The Executioner's demiklaives - Dual Blades",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "the-executioner-s-demiklaives-single-blade",
+   "name": "➤ The Executioner's demiklaives - Single Blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "staff-of-ulthamar-and-witchblade",
+   "name": "Staff of Ulthamar and witchblade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Anti-Infantry 2+, Psychic"
+   }
+  },
+  {
+   "id": "mind-war",
+   "name": "Mind War",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "Anti-character 4+, Precision, Psychic"
+   }
+  },
+  {
+   "id": "wraithbone-hull",
+   "name": "Wraithbone hull",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-shuriken-catapult-2",
+   "name": "Twin Shuriken Catapult",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Assault, Twin Linked"
+   }
+  },
+  {
+   "id": "shuriken-cannon-2",
+   "name": "Shuriken Cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "witchblade",
+   "name": "Witchblade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "2+",
+    "S": "3",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "Anti-Infantry 2+, Psychic"
+   }
+  },
+  {
+   "id": "singing-spear",
+   "name": "Singing Spear",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "9",
+    "AP": "0",
+    "D": "3",
+    "Keywords": "Assault, Psychic"
+   }
+  },
+  {
+   "id": "singing-spear-2",
+   "name": "Singing Spear",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "2+",
+    "S": "3",
+    "AP": "0",
+    "D": "3",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "eldritch-storm",
+   "name": "Eldritch Storm",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "D3",
+    "Keywords": "Blast, Psychic"
+   }
+  },
+  {
+   "id": "singing-spear-3",
+   "name": "Singing Spear",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "9",
+    "AP": "0",
+    "D": "3",
+    "Keywords": "Assault, Psychic"
+   }
+  },
+  {
+   "id": "dragon-fusion-gun-2",
+   "name": "Dragon Fusion Gun",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Assault, Melta 3"
+   }
+  },
+  {
+   "id": "exarch-s-dragon-fusion-gun",
+   "name": "Exarch's Dragon Fusion Gun",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Assault, Melta 6"
+   }
+  },
+  {
+   "id": "dragon-s-breath-flamer",
+   "name": "Dragon's Breath Flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6+2",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Assault, Ignores cover, Torrent"
+   }
+  },
+  {
+   "id": "firepike",
+   "name": "Firepike",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "12",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Assault, Melta 3"
+   }
+  },
+  {
+   "id": "dragon-axe",
+   "name": "Dragon Axe",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "dragon-fusion-pistol-2",
+   "name": "Dragon Fusion Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "6\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Assault, Melta 3, Pistol"
+   }
+  },
+  {
+   "id": "prism-cannon-dispersed-pulse",
+   "name": "➤ Prism Cannon - dispersed pulse",
+   "type": "ranged",
+   "stats": {
+    "Range": "60\"",
+    "A": "2D6",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "prism-cannon-focused-lances",
+   "name": "➤ Prism Cannon - focused lances",
+   "type": "ranged",
+   "stats": {
+    "Range": "60\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "18",
+    "AP": "-4",
+    "D": "6",
+    "Keywords": "Linked Fire"
+   }
+  },
+  {
+   "id": "close-combat-weapon-3",
+   "name": "Close Combat Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "3+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "shuriken-catapult",
+   "name": "Shuriken Catapult",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "heavy-d-scythe",
+   "name": "Heavy D-Scythe",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6",
+    "BS": "4+",
+    "S": "12",
+    "AP": "-4",
+    "D": "2",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "banshee-blade-3",
+   "name": "Banshee Blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Anti-Infantry 3+"
+   }
+  },
+  {
+   "id": "executioner",
+   "name": "Executioner",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Anti-Infantry 3+"
+   }
+  },
+  {
+   "id": "triskele",
+   "name": "Triskele",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "3",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Anti-Infantry 3+"
+   }
+  },
+  {
+   "id": "triskele-2",
+   "name": "Triskele",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "3",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Assault, Anti-Infantry 3+"
+   }
+  },
+  {
+   "id": "mirrorswords",
+   "name": "Mirrorswords",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Anti-Infantry 3+"
+   }
+  },
+  {
+   "id": "voidbringer",
+   "name": "Voidbringer",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Devastating Wounds, Heavy, Precision"
+   }
+  },
+  {
+   "id": "aeldari-power-sword",
+   "name": "Aeldari power sword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "doomweaver",
+   "name": "Doomweaver",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6+3",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Blast, Indirect Fire, Twin Linked"
+   }
+  },
+  {
+   "id": "the-eye-of-wrath",
+   "name": "The Eye of Wrath",
+   "type": "ranged",
+   "stats": {
+    "Range": "6\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "6",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "the-spear-of-twilight",
+   "name": "The Spear of Twilight",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "6",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "long-rifle",
+   "name": "Long rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Heavy, Precision"
+   }
+  },
+  {
+   "id": "neuro-disruptor",
+   "name": "Neuro Disruptor",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Anti-infantry 2+, Assault, Pistol"
+   }
+  },
+  {
+   "id": "miststave",
+   "name": "Miststave",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-1",
+    "D": "D3",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "laser-lance-3",
+   "name": "Laser Lance",
+   "type": "ranged",
+   "stats": {
+    "Range": "6\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "laser-lance-4",
+   "name": "Laser Lance",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Anti-Monster 3+, Anti-Vehicle 3+, Lance"
+   }
+  },
+  {
+   "id": "paragon-sabre",
+   "name": "Paragon Sabre",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "star-lance",
+   "name": "Star Lance",
+   "type": "ranged",
+   "stats": {
+    "Range": "6\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "star-lance-2",
+   "name": "Star Lance",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Anti-Monster 3+, Anti-Vehicle 3+, Lance"
+   }
+  },
+  {
+   "id": "long-rifle-2",
+   "name": "Long rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Precision"
+   }
+  },
+  {
+   "id": "scatter-laser",
+   "name": "Scatter Laser",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "skyweaver-haywire-cannon",
+   "name": "Skyweaver Haywire Cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "3",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "Anti-Vehicle 4+, Devastating Wounds"
+   }
+  },
+  {
+   "id": "star-bolas",
+   "name": "Star Bolas",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D3",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "zephyrglaive",
+   "name": "Zephyrglaive",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "close-combat-weapon-4",
+   "name": "Close Combat Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "witch-staff",
+   "name": "Witch Staff",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "2+",
+    "S": "3",
+    "AP": "0",
+    "D": "D3",
+    "Keywords": "Anti-infantry 2+, Psychic"
+   }
+  },
+  {
+   "id": "flamer",
+   "name": "Flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault, Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "fusion-gun",
+   "name": "Fusion gun",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Assault, Melta 2"
+   }
+  },
+  {
+   "id": "power-sword",
+   "name": "Power sword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "d-cannon",
+   "name": "D-cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D3",
+    "BS": "3+",
+    "S": "16",
+    "AP": "-4",
+    "D": "D6+2",
+    "Keywords": "Blast, Devastating Wounds, Indirect Fire"
+   }
+  },
+  {
+   "id": "lasblaster",
+   "name": "Lasblaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "4",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault, Lethal Hits"
+   }
+  },
+  {
+   "id": "exarch-s-lasblaster",
+   "name": "Exarch's Lasblaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "4",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Assault, Lethal Hits"
+   }
+  },
+  {
+   "id": "hawk-s-talon",
+   "name": "Hawk's Talon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "power-sword",
+   "name": "Power Sword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "sunpistol",
+   "name": "Sunpistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault, Lethal Hits, Pistol"
+   }
+  },
+  {
+   "id": "harlequin-s-special-weapon",
+   "name": "Harlequin's Special Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "power-sword-2",
+   "name": "Power sword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "fusion-pistol",
+   "name": "Fusion Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "6\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Assault, Melta 2, Pistol"
+   }
+  },
+  {
+   "id": "neuro-disruptor-2",
+   "name": "Neuro Disruptor",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Anti-infantry 2+, Assault, Pistol"
+   }
+  },
+  {
+   "id": "harlequin-s-special-weapon-2",
+   "name": "Harlequin's Special Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "2+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "troupe-master-s-blade",
+   "name": "Troupe Master's Blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "2+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "fusion-pistol-2",
+   "name": "Fusion Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "6\"",
+    "A": "1",
+    "BS": "2+",
+    "S": "8",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Assault, Melta 2, Pistol"
+   }
+  },
+  {
+   "id": "prismatic-cannon-dispersed-pulse",
+   "name": "➤ Prismatic Cannon - dispersed pulse",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2D6",
+    "BS": "3+",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "prismatic-cannon-focused-lances",
+   "name": "➤ Prismatic Cannon - focused lances",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "4",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "voidweaver-haywire-cannon",
+   "name": "Voidweaver Haywire Cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "Anti-vehicle 4+, Devastating Wounds"
+   }
+  },
+  {
+   "id": "bright-lance-2",
+   "name": "Bright Lance",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "scatter-laser-2",
+   "name": "Scatter Laser",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Sustained Hits 2"
+   }
+  },
+  {
+   "id": "starcannon-2",
+   "name": "Starcannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "2",
+    "BS": "2+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "missile-launcher-starshot-2",
+   "name": "➤ Missile Launcher - Starshot",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "missile-launcher-sunburst-2",
+   "name": "➤ Missile Launcher - Sunburst",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "war-walker-feet",
+   "name": "War Walker feet",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "witchblade-2",
+   "name": "Witchblade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "3",
+    "AP": "0",
+    "D": "2",
+    "Keywords": "Anti-Infantry 2+, Psychic"
+   }
+  },
+  {
+   "id": "singing-spear-4",
+   "name": "Singing Spear",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "3+",
+    "S": "3",
+    "AP": "0",
+    "D": "3",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "destructor",
+   "name": "Destructor",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Psychic, Torrent"
+   }
+  },
+  {
+   "id": "death-spinner",
+   "name": "Death spinner",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "exarch-s-deathspinner",
+   "name": "Exarch's Deathspinner",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "death-weavers",
+   "name": "Death Weavers",
+   "type": "ranged",
+   "stats": {
+    "Range": "6\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent, Twin-Linked"
+   }
+  },
+  {
+   "id": "spinneret-rifle",
+   "name": "Spinneret Rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Ignores Cover, Torrent"
+   }
+  },
+  {
+   "id": "powerblades",
+   "name": "Powerblades",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Lethal Hits, Twin-Linked"
+   }
+  },
+  {
+   "id": "powerblade-array",
+   "name": "Powerblade Array",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "10",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Lethal Hits, Twin-Linked"
+   }
+  },
+  {
+   "id": "twin-aeldari-missile-launcher-starshot",
+   "name": "➤ Twin Aeldari Missile Launcher - Starshot",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "Twin-Linked"
+   }
+  },
+  {
+   "id": "twin-aeldari-missile-launcher-sunburst",
+   "name": "➤ Twin Aeldari Missile Launcher - Sunburst",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Blast, Twin-Linked"
+   }
+  },
+  {
+   "id": "twin-bright-lance",
+   "name": "Twin Bright Lance",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+2",
+    "Keywords": "Twin-Linked"
+   }
+  },
+  {
+   "id": "twin-scatter-laser",
+   "name": "Twin Scatter Laser",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Sustained Hits 1, Twin-Linked"
+   }
+  },
+  {
+   "id": "twin-shuriken-cannon",
+   "name": "Twin Shuriken Cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Lethal Hits, Twin-Linked"
+   }
+  },
+  {
+   "id": "twin-starcannon",
+   "name": "Twin Starcannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Twin-Linked"
+   }
+  },
+  {
+   "id": "close-combat-weapon-5",
+   "name": "Close Combat Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "3",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "ghostswords",
+   "name": "Ghostswords",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "ghostaxe",
+   "name": "Ghostaxe",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "wraithcannon",
+   "name": "Wraithcannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "14",
+    "AP": "-4",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "d-scythe",
+   "name": "D-Scythe",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "7",
+    "AP": "-3",
+    "D": "1",
+    "Keywords": "Torrent"
+   }
+  },
+  {
+   "id": "close-combat-weapon-6",
+   "name": "Close Combat Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "titanic-feet",
+   "name": "Titanic Feet",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "heavy-wraithcannon",
+   "name": "Heavy Wraithcannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D3",
+    "BS": "3+",
+    "S": "20",
+    "AP": "-4",
+    "D": "2D6",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "suncannon",
+   "name": "Suncannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6+4",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-3",
+    "D": "3",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "ghostglaive-strike",
+   "name": "➤ Ghostglaive - Strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "10",
+    "AP": "-3",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "ghostglaive-sweep",
+   "name": "➤ Ghostglaive - Sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "4+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "wraithbone-fists",
+   "name": "Wraithbone Fists",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "7",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "shuriken-catapult-2",
+   "name": "Shuriken Catapult",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "flamer-2",
+   "name": "Flamer",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "4",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault, Ignores cover, Torrent"
+   }
+  },
+  {
+   "id": "aeldari-missile-launcher-starshot",
+   "name": "➤ Aeldari Missile Launcher - Starshot",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "10",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "aeldari-missile-launcher-sunburst",
+   "name": "➤ Aeldari Missile Launcher - Sunburst",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6",
+    "BS": "4+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "bright-lance-3",
+   "name": "Bright Lance",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "scatter-laser-3",
+   "name": "Scatter Laser",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "6",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "shuriken-cannon-3",
+   "name": "Shuriken Cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "starcannon-3",
+   "name": "Starcannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "hellglaive",
+   "name": "Hellglaive",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Lance, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "splinter-pods",
+   "name": "Splinter Pods",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "2",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-Infantry 3+, Assault, Twin Linked"
+   }
+  },
+  {
+   "id": "power-weapon",
+   "name": "Power weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "3",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "splinter-pistol",
+   "name": "Splinter Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "2",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-infantry 3+, Assault, Pistol"
+   }
+  },
+  {
+   "id": "stunclaw",
+   "name": "Stunclaw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "3",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Devastating Wounds, Lance, Precision"
+   }
+  },
+  {
+   "id": "klaive",
+   "name": "Klaive",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "demiklaives-dual-blades",
+   "name": "➤ Demiklaives - Dual Blades",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "demiklaives-single-blade",
+   "name": "➤ Demiklaives - Single Blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "shredder",
+   "name": "Shredder",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault, Torrent"
+   }
+  },
+  {
+   "id": "splinter-rifle",
+   "name": "Splinter Rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "2",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-Infantry 3+, Assault"
+   }
+  },
+  {
+   "id": "blaster",
+   "name": "Blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-4",
+    "D": "D6+1",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "splinter-cannon",
+   "name": "Splinter Cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "3",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Anti-Infantry 3+, Heavy, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "dark-lance",
+   "name": "Dark Lance",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+2",
+    "Keywords": "Heavy"
+   }
+  },
+  {
+   "id": "blast-pistol",
+   "name": "Blast Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "6\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "D3",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "splinter-pistol-2",
+   "name": "Splinter Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "2",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-Infantry 3+, Assault, Pistol"
+   }
+  },
+  {
+   "id": "power-weapon",
+   "name": "Power Weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "3",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Anti-Infantry 3+"
+   }
+  },
+  {
+   "id": "lelith-s-blades",
+   "name": "Lelith's blades",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "2+",
+    "S": "3",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Anti-Infantry 2+, Precision, Sustained Hits 2"
+   }
+  },
+  {
+   "id": "baleblast",
+   "name": "Baleblast",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Assault, Devastating Wounds, Ignores Cover"
+   }
+  },
+  {
+   "id": "glimmersteel-blade",
+   "name": "Glimmersteel Blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "bladevanes-and-chainsnares",
+   "name": "Bladevanes and chainsnares",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "D3+3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "disintegrator-cannon",
+   "name": "Disintegrator Cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "dark-lance-2",
+   "name": "Dark Lance",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "bladevanes",
+   "name": "Bladevanes",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "bladed-wings",
+   "name": "Bladed Wings",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "razorwing-missiles-monoscythe-missiles",
+   "name": "➤ Razorwing Missiles - Monoscythe Missiles",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "razorwing-missiles-neurotoxin-missiles",
+   "name": "➤ Razorwing Missiles - Neurotoxin Missiles",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6+3",
+    "BS": "3+",
+    "S": "2",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-Infantry 2+, Blast"
+   }
+  },
+  {
+   "id": "razorwing-missiles-shatterfield-missiles",
+   "name": "➤ Razorwing Missiles - Shatterfield Missiles",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "splinter-cannon-2",
+   "name": "Splinter Cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "3",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Anti-Infantry 3+, Sustained Hits 1"
+   }
+  },
+  {
+   "id": "twin-splinter-rifle",
+   "name": "Twin Splinter Rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "2",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-Infantry 3+, Assault, Rapid Fire 2, Twin Linked"
+   }
+  },
+  {
+   "id": "bladevanes-2",
+   "name": "Bladevanes",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Lance"
+   }
+  },
+  {
+   "id": "heat-lance",
+   "name": "Heat Lance",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "14",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Assault, Melta 3"
+   }
+  },
+  {
+   "id": "heat-lance-2",
+   "name": "Heat Lance",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "14",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Assault, Heavy, Melta 3"
+   }
+  },
+  {
+   "id": "haywire-blaster",
+   "name": "Haywire Blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "2",
+    "BS": "4+",
+    "S": "3",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "Anti-Vehicle 4+, Devastating Wounds, Heavy"
+   }
+  },
+  {
+   "id": "archite-glaive-and-agoniser",
+   "name": "Archite glaive and agoniser",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "7",
+    "WS": "2+",
+    "S": "3",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Anti-Infantry 3+, Precision"
+   }
+  },
+  {
+   "id": "bladevanes-3",
+   "name": "Bladevanes",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "5",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "splinter-cannon-3",
+   "name": "Splinter Cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "3",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Anti-Infantry 3+, Sustained hits 1"
+   }
+  },
+  {
+   "id": "voidraven-missiles-implosion-missiles",
+   "name": "➤ Voidraven Missiles -  Implosion Missiles",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D3",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "voidraven-missiles-shatterfield-missiles",
+   "name": "➤ Voidraven Missiles - Shatterfield Missiles",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "7",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "void-lance",
+   "name": "Void Lance",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "14",
+    "AP": "-4",
+    "D": "D6+2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "dark-scythe",
+   "name": "Dark Scythe",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-4",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "hekatarii-blade",
+   "name": "Hekatarii Blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "3",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "gladiatorial-weapons",
+   "name": "Gladiatorial weapons",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "blast-pistol-2",
+   "name": "Blast Pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "6\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-4",
+    "D": "D3",
+    "Keywords": "Pistol"
+   }
+  },
+  {
+   "id": "power-weapon-2",
+   "name": "Power weapon",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "3",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Anti-Infantry 3+"
+   }
+  },
+  {
+   "id": "d-impaler",
+   "name": "D-Impaler",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "D6+3",
+    "BS": "3+",
+    "S": "16",
+    "AP": "-4",
+    "D": "4",
+    "Keywords": "Blast, Devastating Wounds"
+   }
+  },
+  {
+   "id": "wraithbone-hull-2",
+   "name": "Wraithbone Hull",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "4+",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "aeldari-missile-launcher-starshot-2",
+   "name": "➤ Aeldari Missile Launcher - Starshot",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "aeldari-missile-launcher-sunburst-2",
+   "name": "➤ Aeldari Missile Launcher - Sunburst",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "scatter-laser-4",
+   "name": "Scatter Laser",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "shuriken-cannon-4",
+   "name": "Shuriken Cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "hornet-pulse-laser",
+   "name": "Hornet Pulse Laser",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "2",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "lynx-pulsar",
+   "name": "Lynx Pulsar",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "4",
+    "BS": "3+",
+    "S": "16",
+    "AP": "-3",
+    "D": "D6",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "twin-shuriken-cannon-2",
+   "name": "Twin Shuriken Cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Sustained Hits 1, Twin-Linked"
+   }
+  },
+  {
+   "id": "dire-scythe-blades",
+   "name": "Dire Scythe Blades",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "4+",
+    "S": "8",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "pulse-disintegrators",
+   "name": "Pulse Disintegrators",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "12",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "twin-scorpion-pulsar",
+   "name": "Twin Scorpion Pulsar",
+   "type": "ranged",
+   "stats": {
+    "Range": "60\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "18",
+    "AP": "-3",
+    "D": "5",
+    "Keywords": "Twin-Linked"
+   }
+  },
+  {
+   "id": "deathshroud-cannon-dispersed",
+   "name": "➤ Deathshroud Cannon - Dispersed",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "3D6",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Blast, Devastating Wounds"
+   }
+  },
+  {
+   "id": "deathshroud-cannon-focused",
+   "name": "➤ Deathshroud Cannon - Focused",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Blast, Devastating Wounds"
+   }
+  },
+  {
+   "id": "inferno-lance",
+   "name": "Inferno Lance",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "4",
+    "BS": "3+",
+    "S": "12",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Melta 2"
+   }
+  },
+  {
+   "id": "prism-rifle-dispersed",
+   "name": "➤ Prism Rifle - dispersed",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "prism-rifle-focused",
+   "name": "➤ Prism Rifle - focused",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "phantom-feet",
+   "name": "Phantom feet",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "12",
+    "AP": "-2",
+    "D": "4",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "voidstorm-missile-launcher",
+   "name": "Voidstorm missile launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "2D6",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "d-bombard",
+   "name": "D-bombard",
+   "type": "ranged",
+   "stats": {
+    "Range": "72\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "20",
+    "AP": "-4",
+    "D": "2D6",
+    "Keywords": "Blast, Devastating Wounds"
+   }
+  },
+  {
+   "id": "phantom-pulsar",
+   "name": "Phantom pulsar",
+   "type": "ranged",
+   "stats": {
+    "Range": "120\"",
+    "A": "8",
+    "BS": "3+",
+    "S": "18",
+    "AP": "-4",
+    "D": "6",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "phantom-starcannon",
+   "name": "Phantom starcannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "4",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "wraith-glaive-strike",
+   "name": "➤ Wraith glaive - strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "6",
+    "WS": "3+",
+    "S": "18",
+    "AP": "-4",
+    "D": "12",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "wraith-glaive-sweep",
+   "name": "➤ Wraith glaive - sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "12",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-3",
+    "D": "4",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "pulse-laser",
+   "name": "Pulse laser",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "cloudburst-missile-launcher",
+   "name": "Cloudburst missile launcher",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "2D6",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "revenant-feet",
+   "name": "Revenant feet",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "8",
+    "WS": "3+",
+    "S": "10",
+    "AP": "-1",
+    "D": "3",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "sonic-lance",
+   "name": "Sonic Lance",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6+6",
+    "BS": "N/A",
+    "S": "8",
+    "AP": "-3",
+    "D": "2",
+    "Keywords": "Anti-Monster 4+, Anti-Vehicle 4+, Assault, Torrent"
+   }
+  },
+  {
+   "id": "revenant-pulsar",
+   "name": "Revenant Pulsar",
+   "type": "ranged",
+   "stats": {
+    "Range": "60\"",
+    "A": "6",
+    "BS": "3+",
+    "S": "14",
+    "AP": "-3",
+    "D": "4",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "d-flail-blast",
+   "name": "➤ D-Flail - blast",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D3",
+    "BS": "3+",
+    "S": "12",
+    "AP": "-4",
+    "D": "3",
+    "Keywords": "Blast, Devastating Wounds"
+   }
+  },
+  {
+   "id": "d-flail-rift",
+   "name": "➤ D-Flail - rift",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "D3",
+    "BS": "N/A",
+    "S": "12",
+    "AP": "-4",
+    "D": "3",
+    "Keywords": "Devastating Wounds, Torrent"
+   }
+  },
+  {
+   "id": "ghostspear-strike",
+   "name": "➤ Ghostspear - Strike",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "4+",
+    "S": "10",
+    "AP": "-2",
+    "D": "3",
+    "Keywords": "Anti-Infantry 2+, Precision, Psychic"
+   }
+  },
+  {
+   "id": "ghostspear-sweep",
+   "name": "➤ Ghostspear - Sweep",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "12",
+    "WS": "4+",
+    "S": "7",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Anti-Infantry 2+, Psychic"
+   }
+  },
+  {
+   "id": "scatter-laser-5",
+   "name": "Scatter Laser",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "6",
+    "BS": "4+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "shuriken-cannon-5",
+   "name": "Shuriken Cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "wraithseer-d-cannon",
+   "name": "Wraithseer D-Cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "4+",
+    "S": "14",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Devastating Wounds"
+   }
+  },
+  {
+   "id": "power-blade",
+   "name": "Power blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "ranger-long-rifle",
+   "name": "Ranger long rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Heavy, Precision"
+   }
+  },
+  {
+   "id": "scorpion-chainsword",
+   "name": "Scorpion chainsword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "shuriken-pistol",
+   "name": "Shuriken pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Assault, Pistol"
+   }
+  },
+  {
+   "id": "chainsabres",
+   "name": "Chainsabres",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "5",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Sustained Hits 1, Twin-Linked"
+   }
+  },
+  {
+   "id": "chainsabres-2",
+   "name": "Chainsabres",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Assault, Pistol, Twin-Linked"
+   }
+  },
+  {
+   "id": "scorpion-s-claw",
+   "name": "Scorpion's claw",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "biting-blade",
+   "name": "Biting blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "3+",
+    "S": "6",
+    "AP": "-3",
+    "D": "1",
+    "Keywords": "Sustained Hits 1"
+   }
+  },
+  {
+   "id": "psytronome-shaper",
+   "name": "Psytronome Shaper",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "2+",
+    "S": "3",
+    "AP": "0",
+    "D": "D3",
+    "Keywords": "Psychic"
+   }
+  },
+  {
+   "id": "firestorm-scatter-laser",
+   "name": "Firestorm Scatter Laser",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "16",
+    "BS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Anti-Fly 2+"
+   }
+  },
+  {
+   "id": "phoenix-missile-array",
+   "name": "Phoenix missile array",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "D6",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "phoenix-pulse-laser",
+   "name": "Phoenix pulse laser",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "4",
+    "BS": "3+",
+    "S": "10",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-shuriken-cannon",
+   "name": "Twin shuriken cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Sustained Hits 1, Twin-linked"
+   }
+  },
+  {
+   "id": "wasp-feet",
+   "name": "Wasp feet",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "5",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "twin-pulse-laser",
+   "name": "Twin Pulse Laser",
+   "type": "ranged",
+   "stats": {
+    "Range": "48\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "9",
+    "AP": "-2",
+    "D": "D6",
+    "Keywords": "Twin-Linked"
+   }
+  },
+  {
+   "id": "twin-vampire-pulsar",
+   "name": "Twin Vampire Pulsar",
+   "type": "ranged",
+   "stats": {
+    "Range": "60\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "4",
+    "Keywords": "Twin-Linked"
+   }
+  },
+  {
+   "id": "shuriken-cannon",
+   "name": "Shuriken cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Lethal Hits"
+   }
+  },
+  {
+   "id": "wraithcannon-2",
+   "name": "Wraithcannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "14",
+    "AP": "-4",
+    "D": "D6+1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "shuriken-rifle",
+   "name": "Shuriken rifle",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "Assault, Rapid Fire 1"
+   }
+  },
+  {
+   "id": "corsair-shredder",
+   "name": "Corsair shredder",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "D6",
+    "BS": "N/A",
+    "S": "6",
+    "AP": "0",
+    "D": "1",
+    "Keywords": "Assault, Torrent"
+   }
+  },
+  {
+   "id": "neuro-disruptor",
+   "name": "Neuro disruptor",
+   "type": "ranged",
+   "stats": {
+    "Range": "12\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Anti-Infantry 2+, Assault, Pistol"
+   }
+  },
+  {
+   "id": "paired-hekatarii-blades",
+   "name": "Paired Hekatarii blades",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "4",
+    "WS": "2+",
+    "S": "3",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "Twin-Linked"
+   }
+  },
+  {
+   "id": "power-sword-3",
+   "name": "Power sword",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "3+",
+    "S": "4",
+    "AP": "-2",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "executioner-2",
+   "name": "Executioner",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "D3",
+    "Keywords": "Anti-Infantry 2+, Psychic"
+   }
+  },
+  {
+   "id": "witch-staff",
+   "name": "Witch staff",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "2",
+    "WS": "2+",
+    "S": "3",
+    "AP": "0",
+    "D": "D3",
+    "Keywords": "Anti-Infantry 2+, Psychic"
+   }
+  },
+  {
+   "id": "fusion-pistol",
+   "name": "Fusion pistol",
+   "type": "ranged",
+   "stats": {
+    "Range": "6\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-4",
+    "D": "D6",
+    "Keywords": "Assault, Melta 2, Pistol"
+   }
+  },
+  {
+   "id": "corsair-blaster",
+   "name": "Corsair blaster",
+   "type": "ranged",
+   "stats": {
+    "Range": "18\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "8",
+    "AP": "-4",
+    "D": "D6+1",
+    "Keywords": "Assault"
+   }
+  },
+  {
+   "id": "prow-blade",
+   "name": "Prow blade",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "1",
+    "WS": "4+",
+    "S": "8",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Extra Attacks, Lance, Sustained Hits 3"
+   }
+  },
+  {
+   "id": "storm-vortex-projector-beam",
+   "name": "➤ Storm vortex projector - beam",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "3",
+    "BS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "storm-vortex-projector-blast",
+   "name": "➤ Storm vortex projector - blast",
+   "type": "ranged",
+   "stats": {
+    "Range": "24\"",
+    "A": "D6+3",
+    "BS": "3+",
+    "S": "6",
+    "AP": "-2",
+    "D": "2",
+    "Keywords": "Blast"
+   }
+  },
+  {
+   "id": "bladed-wings",
+   "name": "Bladed wings",
+   "type": "melee",
+   "stats": {
+    "Range": "Melee",
+    "A": "3",
+    "WS": "4+",
+    "S": "6",
+    "AP": "-1",
+    "D": "1",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "dark-lance",
+   "name": "Dark lance",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "1",
+    "BS": "3+",
+    "S": "12",
+    "AP": "-3",
+    "D": "D6+2",
+    "Keywords": "-"
+   }
+  },
+  {
+   "id": "splinterstorm-cannon",
+   "name": "Splinterstorm cannon",
+   "type": "ranged",
+   "stats": {
+    "Range": "36\"",
+    "A": "8",
+    "BS": "3+",
+    "S": "3",
+    "AP": "-1",
+    "D": "2",
+    "Keywords": "Anti-Infantry 3+, Sustained Hits 2"
+   }
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "corsair-voidreavers",
+   "name": "Corsair Voidreavers",
+   "role": "Battleline",
+   "keywords": [
+    "Infantry",
+    "Battleline",
+    "Grenades",
+    "Anhrathe",
+    "Corsair Voidreavers",
+    "Aeldari",
+    "Ynnari",
+    "Corsairs and Travelling Players"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 4,
+     "pts": 65
+    },
+    {
+     "count": 9,
+     "pts": 110
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "shuriken-cannon",
+     "name": "Shuriken cannon",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "wraithcannon",
+     "name": "Wraithcannon",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "neuro-disruptor",
+     "name": "Neuro disruptor",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "shuriken-rifle",
+     "name": "Shuriken rifle",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "shuriken-pistol",
+     "name": "Shuriken pistol",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    }
+   ],
+   "stats": [],
+   "weapons": [
+    "shuriken-cannon",
+    "wraithcannon-2",
+    "shuriken-rifle",
+    "blaster",
+    "corsair-shredder",
+    "power-sword",
+    "neuro-disruptor",
+    "shuriken-pistol",
+    "close-combat-weapon-2",
+    "shuriken-pistol-2"
+   ],
+   "abilities": [
+    "Reavers of the Void",
+    "Scouts",
+    "Battle Focus",
+    "Corsair Voidreaver",
+    "Mistshield"
+   ]
+  },
+  {
+   "id": "guardian-defenders",
+   "name": "Guardian Defenders",
+   "role": "Battleline",
+   "keywords": [
+    "Guardian Defenders",
+    "Battleline",
+    "Infantry",
+    "Grenades",
+    "Guardians",
+    "Aeldari",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 1,
+     "pts": 100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Guardian Defender",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Heavy Weapon Platform",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon-3",
+    "shuriken-catapult"
+   ],
+   "abilities": [
+    "Fleet of Foot",
+    "Crewed Platform",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "kabalite-warriors",
+   "name": "Kabalite Warriors",
+   "role": "Battleline",
+   "keywords": [
+    "Kabalite Warriors",
+    "Aeldari",
+    "Kabal",
+    "Battleline",
+    "Infantry"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 9,
+     "pts": 115
+    }
+   ],
+   "minModels": 9,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "blast-pistol",
+     "name": "Blast Pistol",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": null
+    },
+    {
+     "id": "splinter-pistol",
+     "name": "Splinter Pistol",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": null
+    },
+    {
+     "id": "splinter-rifle",
+     "name": "Splinter Rifle",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": null
+    },
+    {
+     "id": "close-combat-weapon",
+     "name": "Close Combat Weapon",
+     "pts": 0,
+     "group": "Melee Weapon",
+     "max": 1
+    },
+    {
+     "id": "power-weapon",
+     "name": "Power Weapon",
+     "pts": 0,
+     "group": "Melee Weapon",
+     "max": 1
+    },
+    {
+     "id": "phantasm-grenade-launcher",
+     "name": "Phantasm Grenade Launcher",
+     "pts": 0,
+     "group": "Equipment",
+     "max": 1
+    },
+    {
+     "id": "kabalite-icon",
+     "name": "Kabalite Icon",
+     "pts": 0,
+     "group": "Equipment",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Kabalite Warriors",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "shredder",
+    "close-combat-weapon-2",
+    "splinter-rifle",
+    "blaster",
+    "splinter-cannon",
+    "dark-lance",
+    "blast-pistol",
+    "splinter-pistol-2",
+    "power-weapon"
+   ],
+   "abilities": [
+    "Phantasm Grenade Launcher",
+    "Kabalite Icon",
+    "Invulnerable Save",
+    "Cruel Enforcers",
+    "Sadistic Raiders (Pain)",
+    "Power from Pain"
+   ]
+  },
+  {
+   "id": "storm-guardians",
+   "name": "Storm Guardians",
+   "role": "Battleline",
+   "keywords": [
+    "Storm Guardians",
+    "Battleline",
+    "Infantry",
+    "Grenades",
+    "Guardians",
+    "Aeldari",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 10,
+     "pts": 110
+    }
+   ],
+   "minModels": 10,
+   "maxModels": 10,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Serpent's Scale Platform",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon-2",
+    "shuriken-pistol-2",
+    "flamer",
+    "fusion-gun",
+    "power-sword"
+   ],
+   "abilities": [
+    "Storm Guardian",
+    "Serpent Shield",
+    "Stormblades",
+    "Crewed Platform",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "wyches",
+   "name": "Wyches",
+   "role": "Battleline",
+   "keywords": [
+    "Wyches",
+    "Wych Cult",
+    "Aeldari",
+    "Battleline",
+    "Infantry",
+    "Grenades"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 9,
+     "pts": 90
+    }
+   ],
+   "minModels": 9,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "splinter-pistol",
+     "name": "Splinter Pistol",
+     "pts": 0,
+     "group": "Pistol Choice",
+     "max": 1
+    },
+    {
+     "id": "blast-pistol",
+     "name": "Blast Pistol",
+     "pts": 0,
+     "group": "Pistol Choice",
+     "max": 1
+    },
+    {
+     "id": "hekatarii-blade",
+     "name": "Hekatarii Blade",
+     "pts": 0,
+     "group": "Blade Choice",
+     "max": 1
+    },
+    {
+     "id": "power-weapon",
+     "name": "Power weapon",
+     "pts": 0,
+     "group": "Blade Choice",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Wyches",
+     "stats": {
+      "M": "8\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "splinter-pistol-2",
+    "hekatarii-blade",
+    "gladiatorial-weapons",
+    "blast-pistol-2",
+    "power-weapon-2"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "No Escape",
+    "Acrobatic Gladiators (Pain)",
+    "Power from Pain"
+   ]
+  },
+  {
+   "id": "archon",
+   "name": "Archon",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Kabal",
+    "Aeldari",
+    "Archon"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "splinter-pistol",
+     "name": "Splinter pistol",
+     "pts": 0,
+     "group": "Pistol Choice",
+     "max": null
+    },
+    {
+     "id": "blast-pistol",
+     "name": "Blast pistol",
+     "pts": 0,
+     "group": "Pistol Choice",
+     "max": null
+    },
+    {
+     "id": "soul-trap",
+     "name": "Soul Trap",
+     "pts": 0,
+     "group": "Pistol Choice",
+     "max": null
+    },
+    {
+     "id": "huskblade",
+     "name": "Huskblade",
+     "pts": 0,
+     "group": "Melee Choice",
+     "max": 1
+    },
+    {
+     "id": "agoniser",
+     "name": "Agoniser",
+     "pts": 0,
+     "group": "Melee Choice",
+     "max": 1
+    },
+    {
+     "id": "master-crafted-power-weapon",
+     "name": "Master-crafted power weapon",
+     "pts": 0,
+     "group": "Melee Choice",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Archon",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "splinter-pistol",
+    "blast-pistol",
+    "huskblade",
+    "agoniser",
+    "master-crafted-power-weapon"
+   ],
+   "abilities": [
+    "Soul Trap",
+    "Leader",
+    "Overlord",
+    "Devious Mastermind",
+    "Shadowfield",
+    "Invulnerable Save",
+    "Hatred Eternal (Pain)",
+    "Power from Pain"
+   ]
+  },
+  {
+   "id": "autarch",
+   "name": "Autarch",
+   "role": "Character",
+   "keywords": [
+    "Autarch",
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Aeldari",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "scorpion-chainsword",
+     "name": "Scorpion Chainsword",
+     "pts": 0,
+     "group": "Melee Weapon",
+     "max": null
+    },
+    {
+     "id": "banshee-blade",
+     "name": "Banshee Blade",
+     "pts": 0,
+     "group": "Melee Weapon",
+     "max": null
+    },
+    {
+     "id": "star-glaive",
+     "name": "Star Glaive",
+     "pts": 0,
+     "group": "Melee Weapon",
+     "max": null
+    },
+    {
+     "id": "shuriken-pistol",
+     "name": "Shuriken Pistol",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": null
+    },
+    {
+     "id": "reaper-launcher",
+     "name": "Reaper Launcher",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": null
+    },
+    {
+     "id": "death-spinner",
+     "name": "Death Spinner",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": null
+    },
+    {
+     "id": "dragon-fusion-gun",
+     "name": "Dragon Fusion Gun",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": null
+    },
+    {
+     "id": "dragon-fusion-pistol",
+     "name": "Dragon Fusion Pistol",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Autarch",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "scorpion-chainsword",
+    "banshee-blade",
+    "star-glaive",
+    "shuriken-pistol",
+    "reaper-launcher-starshot",
+    "reaper-launcher-starswarm",
+    "death-spinner",
+    "dragon-fusion-gun",
+    "dragon-fusion-pistol"
+   ],
+   "abilities": [
+    "Superlative Strategist",
+    "Path of Command",
+    "Leader",
+    "Invulnerable Save (Autarch)",
+    "Aspect Training",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "autarch-skyrunner",
+   "name": "Autarch Skyrunner",
+   "role": "Character",
+   "keywords": [
+    "Autarch",
+    "Autarch Skyrunner",
+    "Character",
+    "Mounted",
+    "Fly",
+    "Aeldari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "close-combat-weapon",
+     "name": "Close Combat Weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-shuriken-catapult",
+     "name": "Twin Shuriken Catapult",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "laser-lance",
+     "name": "Laser Lance",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "dragon-fusion-gun",
+     "name": "Dragon Fusion Gun",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "banshee-blade",
+     "name": "Banshee Blade",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Autarch Skyrunner",
+     "stats": {
+      "M": "14\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon",
+    "twin-shuriken-catapult",
+    "laser-lance",
+    "laser-lance-2",
+    "dragon-fusion-gun",
+    "banshee-blade-2"
+   ],
+   "abilities": [
+    "Path of Command",
+    "Invulnerable Save (Autarch)",
+    "Leader",
+    "Ride the WInd",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "autarch-wayleaper",
+   "name": "Autarch Wayleaper",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Fly",
+    "Autarch Wayleaper",
+    "Aeldari",
+    "Jump Pack",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "scorpion-chainsword",
+     "name": "Scorpion Chainsword",
+     "pts": 0,
+     "group": "Melee Weapon",
+     "max": null
+    },
+    {
+     "id": "banshee-blade",
+     "name": "Banshee Blade",
+     "pts": 0,
+     "group": "Melee Weapon",
+     "max": null
+    },
+    {
+     "id": "star-glaive",
+     "name": "Star Glaive",
+     "pts": 0,
+     "group": "Melee Weapon",
+     "max": null
+    },
+    {
+     "id": "shuriken-pistol",
+     "name": "Shuriken Pistol",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": null
+    },
+    {
+     "id": "reaper-launcher",
+     "name": "Reaper Launcher",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": null
+    },
+    {
+     "id": "death-spinner",
+     "name": "Death Spinner",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": null
+    },
+    {
+     "id": "dragon-fusion-gun",
+     "name": "Dragon Fusion Gun",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": null
+    },
+    {
+     "id": "dragon-fusion-pistol",
+     "name": "Dragon Fusion Pistol",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Autarch Wayleaper",
+     "stats": {
+      "M": "14\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "scorpion-chainsword",
+    "banshee-blade",
+    "star-glaive",
+    "shuriken-pistol",
+    "reaper-launcher-starshot",
+    "reaper-launcher-starswarm",
+    "death-spinner",
+    "dragon-fusion-gun",
+    "dragon-fusion-pistol"
+   ],
+   "abilities": [
+    "Path of Command",
+    "Invulnerable Save (Autarch)",
+    "Indomitable Strength of Will",
+    "Leader",
+    "Battle Focus",
+    "Deep Strike"
+   ]
+  },
+  {
+   "id": "beastmaster",
+   "name": "Beastmaster",
+   "role": "Character",
+   "keywords": [
+    "Aeldari",
+    "Beast",
+    "Character"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 135
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "agoniser",
+     "name": "Agoniser",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "splinter-pods",
+     "name": "Splinter pods",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Beastmaster",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "6+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Clawed Fiend",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "6+",
+      "W": "5",
+      "LD": "8+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Khymerae",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "6+",
+      "W": "2",
+      "LD": "8+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Razorwing Flock",
+     "stats": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "6+",
+      "W": "3",
+      "LD": "8+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "agonizer",
+    "splinter-pods",
+    "clawed-fiend-fists",
+    "khymerae-talons",
+    "razorwing-feathers"
+   ],
+   "abilities": [
+    "Beastmaster",
+    "Invulnerable Save",
+    "Goaded Savagery (Pain)",
+    "Scouts",
+    "Power from Pain"
+   ]
+  },
+  {
+   "id": "bonesinger",
+   "name": "Bonesinger",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Psyker",
+    "Aeldari",
+    "Bonesinger"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 45
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "psytronome-shaper",
+     "name": "Psytronome Shaper",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Bonesinger",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "psytronome-shaper"
+   ],
+   "abilities": [
+    "Leader",
+    "Invulnerable Save (Bonesinger)",
+    "Way of the Shaper (Psychic)",
+    "Bonesinger",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "death-jester",
+   "name": "Death Jester",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Death Jester",
+    "Harlequin Allies",
+    "Aeldari",
+    "Corsairs and Travelling Players"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "jester-s-blade",
+     "name": "Jester's Blade",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "shrieker-cannon",
+     "name": "Shrieker Cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Death Jester",
+     "stats": {
+      "M": "8\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "jester-s-blade",
+    "shrieker-cannon"
+   ],
+   "abilities": [
+    "Death is Not Enough",
+    "Cruel Amusement",
+    "Invulnerable Save",
+    "Lone Operative",
+    "Battle Focus",
+    "Disparate Paths",
+    "Flip Belt",
+    "Travelling Players"
+   ]
+  },
+  {
+   "id": "farseer",
+   "name": "Farseer",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Psyker",
+    "Farseer",
+    "Aeldari",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "eldritch-storm",
+     "name": "Eldritch Storm",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "shuriken-pistol",
+     "name": "Shuriken Pistol",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "witchblade",
+     "name": "Witchblade",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "singing-spear",
+     "name": "Singing Spear",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Farseer",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "witchblade",
+    "singing-spear",
+    "singing-spear-2",
+    "eldritch-storm",
+    "shuriken-pistol-2"
+   ],
+   "abilities": [
+    "Branching Fates (Psychic)",
+    "Invulnerable Save (Farseer)",
+    "Guide (Psychic)",
+    "Leader",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "farseer-skyrunner",
+   "name": "Farseer Skyrunner",
+   "role": "Character",
+   "keywords": [
+    "Farseer Skyrunner",
+    "Farseer",
+    "Character",
+    "Fly",
+    "Mounted",
+    "Psyker",
+    "Aeldari",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "eldritch-storm",
+     "name": "Eldritch Storm",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "shuriken-pistol",
+     "name": "Shuriken Pistol",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-shuriken-catapult",
+     "name": "Twin Shuriken Catapult",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "witchblade",
+     "name": "Witchblade",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "singing-spear",
+     "name": "Singing Spear",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Farseer Skyrunner",
+     "stats": {
+      "M": "14\"",
+      "T": "4",
+      "SV": "6+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "eldritch-storm",
+    "shuriken-pistol-2",
+    "twin-shuriken-catapult-2",
+    "witchblade",
+    "singing-spear-3",
+    "singing-spear-2"
+   ],
+   "abilities": [
+    "Invulnerable Save (Farseer)",
+    "Branching Fates (Psychic)",
+    "Misfortune (Psychic)",
+    "Leader",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "shadowseer",
+   "name": "Shadowseer",
+   "role": "Character",
+   "keywords": [
+    "Shadowseer",
+    "Character",
+    "Infantry",
+    "Grenades",
+    "Psyker",
+    "Harlequin Allies",
+    "Aeldari",
+    "Corsairs and Travelling Players"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 60
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "miststave",
+     "name": "Miststave",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "shuriken-pistol",
+     "name": "Shuriken Pistol",
+     "pts": 0,
+     "group": "Pistol Choice",
+     "max": null
+    },
+    {
+     "id": "neuro-disruptor",
+     "name": "Neuro Disruptor",
+     "pts": 0,
+     "group": "Pistol Choice",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Shadowseer",
+     "stats": {
+      "M": "8\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "shuriken-pistol",
+    "neuro-disruptor",
+    "miststave"
+   ],
+   "abilities": [
+    "Leader",
+    "Invulnerable Save",
+    "Fog of Dreams (Psychic)",
+    "Treacherous Illusion (Psychic)",
+    "Stealth",
+    "Battle Focus",
+    "Travelling Players",
+    "Flip Belt",
+    "Disparate Paths"
+   ]
+  },
+  {
+   "id": "spiritseer",
+   "name": "Spiritseer",
+   "role": "Character",
+   "keywords": [
+    "Spiritseer",
+    "Character",
+    "Infantry",
+    "Psyker",
+    "Aeldari",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 65
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "witch-staff",
+     "name": "Witch Staff",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Spiritseer",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "witch-staff",
+    "shuriken-pistol"
+   ],
+   "abilities": [
+    "Invulnerable Save (Spiritseer)",
+    "Spirit Mark (Psychic)",
+    "Tears of Isha (Psychic)",
+    "Spiritseer",
+    "Battle Focus",
+    "Stealth"
+   ]
+  },
+  {
+   "id": "succubus",
+   "name": "Succubus",
+   "role": "Character",
+   "keywords": [
+    "Succubus",
+    "Wych Cult",
+    "Aeldari",
+    "Character",
+    "Infantry"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 50
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Succubus",
+     "stats": {
+      "M": "8\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "archite-glaive-and-agoniser"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Lithe Agility (Pain)",
+    "Storm of Blades",
+    "Leader",
+    "Bloody Spectacle",
+    "Power from Pain"
+   ]
+  },
+  {
+   "id": "troupe-master",
+   "name": "Troupe Master",
+   "role": "Character",
+   "keywords": [
+    "Troupe Master",
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Harlequin Allies",
+    "Aeldari",
+    "Corsairs and Travelling Players"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "harlequin-s-special-weapon",
+     "name": "Harlequin's Special Weapon",
+     "pts": 0,
+     "group": "Melee Weapon",
+     "max": null
+    },
+    {
+     "id": "troupe-master-s-blade",
+     "name": "Troupe Master's Blade",
+     "pts": 0,
+     "group": "Melee Weapon",
+     "max": null
+    },
+    {
+     "id": "shuriken-pistol",
+     "name": "Shuriken Pistol",
+     "pts": 0,
+     "group": "Pistol",
+     "max": null
+    },
+    {
+     "id": "fusion-pistol",
+     "name": "Fusion Pistol",
+     "pts": 0,
+     "group": "Pistol",
+     "max": null
+    },
+    {
+     "id": "neuro-disruptor",
+     "name": "Neuro Disruptor",
+     "pts": 0,
+     "group": "Pistol",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Troupe Master",
+     "stats": {
+      "M": "8\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "harlequin-s-special-weapon-2",
+    "troupe-master-s-blade",
+    "shuriken-pistol",
+    "fusion-pistol-2",
+    "neuro-disruptor"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Leader",
+    "Choreographer of War",
+    "Cegorach’s Favour:",
+    "Battle Focus",
+    "Disparate Paths",
+    "Flip Belt",
+    "Travelling Players"
+   ]
+  },
+  {
+   "id": "warlock",
+   "name": "Warlock",
+   "role": "Character",
+   "keywords": [
+    "Character",
+    "Infantry",
+    "Psyker",
+    "Warlock",
+    "Aeldari",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 45
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "witchblade",
+     "name": "Witchblade",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "singing-spear",
+     "name": "Singing Spear",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Warlock",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "witchblade-2",
+    "singing-spear-3",
+    "singing-spear-4",
+    "destructor",
+    "shuriken-pistol-2"
+   ],
+   "abilities": [
+    "Leader",
+    "Invulnerable Save (Warlock)",
+    "Runes of Fortune (Psychic)",
+    "Psychic Communion (Psychic)",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "amallyn-shadowguide",
+   "name": "Amallyn Shadowguide",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Infantry",
+    "Character",
+    "Grenades",
+    "Aeldari",
+    "Amallyn Shadowguide"
+   ],
+   "epicHero": true,
+   "legends": true,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 75
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Amallyn Shadowguide",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "power-blade",
+    "ranger-long-rifle"
+   ],
+   "abilities": [
+    "The Path Least Travelled",
+    "Path of the Outcast",
+    "Invulnerable Save",
+    "Stealth",
+    "Infiltrators",
+    "Lone Operative",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "drazhar",
+   "name": "Drazhar",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Drazhar",
+    "Aeldari",
+    "Infantry",
+    "Character",
+    "Blades for Hire"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Drazhar",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "the-executioner-s-demiklaives-dual-blades",
+    "the-executioner-s-demiklaives-single-blade"
+   ],
+   "abilities": [
+    "Leader",
+    "Invulnerable Save",
+    "Master of Blades (Pain)",
+    "Onslaught",
+    "Silent Executioner",
+    "Power from Pain"
+   ]
+  },
+  {
+   "id": "eldrad-ulthran",
+   "name": "Eldrad Ulthran",
+   "role": "Epic Hero",
+   "keywords": [
+    "Epic Hero",
+    "Character",
+    "Infantry",
+    "Psyker",
+    "Farseer",
+    "Eldrad Ultran",
+    "Aeldari"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 120
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Eldrad Ulthran",
+     "stats": {
+      "M": "7\"",
+      "T": "4",
+      "SV": "6+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "shuriken-pistol",
+    "staff-of-ulthamar-and-witchblade",
+    "mind-war"
+   ],
+   "abilities": [
+    "Invulnerable Save (Eldrad)",
+    "Diviner of the Futures",
+    "Doom (Psychic)",
+    "Leader",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "illic-nightspear",
+   "name": "Illic Nightspear",
+   "role": "Epic Hero",
+   "keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Illic Nightspear",
+    "Aeldari"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Illic Nightspear",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "shuriken-pistol",
+    "voidbringer",
+    "aeldari-power-sword"
+   ],
+   "abilities": [
+    "Invulnerable Save (Illic Nightspear)",
+    "Bringer of the True Death",
+    "Hunter Unseen",
+    "Leader",
+    "Infiltrators",
+    "Stealth",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "lelith-hesperax",
+   "name": "Lelith Hesperax",
+   "role": "Epic Hero",
+   "keywords": [
+    "Lelith Hesperax",
+    "Aeldari",
+    "Wych Cult",
+    "Succubus",
+    "Epic Hero",
+    "Character",
+    "Infantry"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Lelith Hesperax",
+     "stats": {
+      "M": "8\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "lelith-s-blades"
+   ],
+   "abilities": [
+    "Leader",
+    "Brides of Death (Pain)",
+    "Thrilling Spectacle",
+    "Invulnerable Save",
+    "Blur of Blades",
+    "Fights First",
+    "Power from Pain"
+   ]
+  },
+  {
+   "id": "prince-yriel",
+   "name": "Prince Yriel",
+   "role": "Epic Hero",
+   "keywords": [
+    "Prince Yriel",
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Aeldari"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Prince Yriel",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "the-eye-of-wrath",
+    "the-spear-of-twilight"
+   ],
+   "abilities": [
+    "Invulnerable Save (Prince Yriel)",
+    "Leader",
+    "Hero of Iyanden",
+    "Prince of Corsairs",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "the-visarch",
+   "name": "The Visarch",
+   "role": "Epic Hero",
+   "keywords": [
+    "The Visarch",
+    "Infantry",
+    "Epic Hero",
+    "Character",
+    "Aeldari"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "The Visarch",
+     "stats": {
+      "M": "8\"",
+      "T": "3",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "asu-var-quicksilver-stance",
+    "asu-var-duellist-stance",
+    "asu-var-mythic-stance"
+   ],
+   "abilities": [
+    "Invulnerable Save (The Visarch)",
+    "Way of the Blade",
+    "Yvraine's Champion",
+    "Leader",
+    "Servant of the Whispering God",
+    "Battle Focus",
+    "Disparate Paths"
+   ]
+  },
+  {
+   "id": "the-yncarne",
+   "name": "The Yncarne",
+   "role": "Epic Hero",
+   "keywords": [
+    "The Yncarne",
+    "Epic Hero",
+    "Monster",
+    "Character",
+    "Fly",
+    "Psyker",
+    "Daemon",
+    "Aeldari"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 260
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "The Yncarne",
+     "stats": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "vilith-zhar-strike",
+    "vilith-zhar-sweep",
+    "swirling-soul-energy"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Inevitable Death",
+    "Ethereal Form",
+    "Avatar of the Whispering God",
+    "Deadly Demise",
+    "Battle Focus",
+    "Disparate Paths",
+    "Deep Strike"
+   ]
+  },
+  {
+   "id": "yvraine",
+   "name": "Yvraine",
+   "role": "Epic Hero",
+   "keywords": [
+    "Yvraine",
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Psyker",
+    "Aeldari"
+   ],
+   "epicHero": true,
+   "legends": false,
+   "maxPerArmy": 1,
+   "models": [
+    {
+     "count": 1,
+     "pts": 100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Yvraine",
+     "stats": {
+      "M": "8\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "kha-vir",
+    "storm-of-whispers"
+   ],
+   "abilities": [
+    "Invulnerable Save (Yvraine)",
+    "Herald of Ynnead",
+    "Word of the Phoenix (Psychic)",
+    "Leader",
+    "Servant of the Whispering God",
+    "Battle Focus",
+    "Disparate Paths"
+   ]
+  },
+  {
+   "id": "webway-gate",
+   "name": "Webway Gate",
+   "role": "Fortification",
+   "keywords": [
+    "Webway Gate",
+    "Fortification",
+    "Aeldari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 105
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Webway Gate",
+     "stats": {
+      "M": "-",
+      "T": "12",
+      "SV": "3+",
+      "W": "14",
+      "LD": "6+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [],
+   "abilities": [
+    "Arcane Cover",
+    "Webway Strike",
+    "Deployment",
+    "Battle Focus",
+    "Deadly Demise",
+    "Fortification"
+   ]
+  },
+  {
+   "id": "corsair-voidscarred",
+   "name": "Corsair Voidscarred",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Anhrathe",
+    "Corsair Voidscarred",
+    "Grenades",
+    "Aeldari",
+    "Ynnari",
+    "Corsairs and Travelling Players"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    },
+    {
+     "count": 9,
+     "pts": 160
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "shuriken-cannon",
+     "name": "Shuriken cannon",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "wraithcannon",
+     "name": "Wraithcannon",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "corsair-shredder",
+     "name": "Corsair shredder",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "corsair-blaster",
+     "name": "Corsair blaster",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "neuro-disruptor",
+     "name": "Neuro disruptor",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "shuriken-pistol",
+     "name": "Shuriken pistol",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "shuriken-rifle",
+     "name": "Shuriken rifle",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    }
+   ],
+   "stats": [],
+   "weapons": [
+    "paired-hekatarii-blades",
+    "power-sword-3",
+    "executioner-2",
+    "witch-staff",
+    "shuriken-rifle",
+    "fusion-pistol",
+    "shuriken-cannon",
+    "wraithcannon-2",
+    "long-rifle",
+    "corsair-shredder",
+    "corsair-blaster",
+    "neuro-disruptor",
+    "shuriken-pistol",
+    "close-combat-weapon-5",
+    "shuriken-pistol-2"
+   ],
+   "abilities": [
+    "Piratical Raiders",
+    "Scouts",
+    "Battle Focus",
+    "Corsair Voidscarred",
+    "Channeler stones",
+    "Faolchú",
+    "Mistshield"
+   ]
+  },
+  {
+   "id": "court-of-the-archon",
+   "name": "Court of the Archon",
+   "role": "Infantry",
+   "keywords": [
+    "Court of the Archon",
+    "Aeldari",
+    "Kabal",
+    "Infantry"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 95
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Court of the Archon",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "shaimeshi-blade",
+    "shardcarbine",
+    "splinter-pistol-2",
+    "sslyth-battle-blade",
+    "eyeburst",
+    "close-combat-weapon",
+    "ur-ghul-talons"
+   ],
+   "abilities": [
+    "Court of the Archon",
+    "Invulnerable Save",
+    "Deadly Retinue (Pain)",
+    "Court of the Archon [Legends]",
+    "Power from Pain"
+   ]
+  },
+  {
+   "id": "dark-reapers",
+   "name": "Dark Reapers",
+   "role": "Infantry",
+   "keywords": [
+    "Dark Reapers",
+    "Infantry",
+    "Aspect Warrior",
+    "Aeldari",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 4,
+     "pts": 90
+    },
+    {
+     "count": 9,
+     "pts": 195
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "shuriken-cannon",
+     "name": "Shuriken Cannon",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "tempest-launcher",
+     "name": "Tempest Launcher",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "missile-launcher",
+     "name": "Missile Launcher",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "reaper-launcher",
+     "name": "Reaper Launcher",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Dark Reaper",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "1",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Dark Reaper Exarch",
+     "stats": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "reaper-launcher-starshot-2",
+    "reaper-launcher-starswarm-2",
+    "close-combat-weapon",
+    "shuriken-cannon",
+    "tempest-launcher",
+    "missile-launcher-starshot",
+    "missile-launcher-sunburst"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Inescapable Accuracy",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "dire-avengers",
+   "name": "Dire Avengers",
+   "role": "Infantry",
+   "keywords": [
+    "Dire Avengers",
+    "Grenades",
+    "Infantry",
+    "Aeldari",
+    "Aspect Warrior",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 4,
+     "pts": 75
+    },
+    {
+     "count": 9,
+     "pts": 150
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "avenger-shuriken-catapult",
+     "name": "Avenger Shuriken Catapult",
+     "pts": 0,
+     "group": "Weapon(s)",
+     "max": null
+    },
+    {
+     "id": "diresword-and-shuriken-pistol",
+     "name": "Diresword and Shuriken Pistol",
+     "pts": 0,
+     "group": "Weapon(s)",
+     "max": null
+    },
+    {
+     "id": "power-glaive-and-shuriken-pistol",
+     "name": "Power Glaive and Shuriken Pistol",
+     "pts": 0,
+     "group": "Weapon(s)",
+     "max": null
+    },
+    {
+     "id": "two-avenger-shuriken-catapults",
+     "name": "Two Avenger Shuriken Catapults",
+     "pts": 0,
+     "group": "Weapon(s)",
+     "max": null
+    },
+    {
+     "id": "diresword-and-shimmershield",
+     "name": "Diresword and Shimmershield",
+     "pts": 0,
+     "group": "Weapon(s)",
+     "max": null
+    },
+    {
+     "id": "power-glaive-and-shimmershield",
+     "name": "Power Glaive and Shimmershield",
+     "pts": 0,
+     "group": "Weapon(s)",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Dire Avenger",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "1",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Dire Avenger Exarch",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "avenger-shuriken-catapult",
+    "close-combat-weapon-2",
+    "diresword",
+    "shuriken-pistol-2",
+    "power-glaive"
+   ],
+   "abilities": [
+    "Bladestorm",
+    "Invulnerable Save",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "fire-dragons",
+   "name": "Fire Dragons",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Grenades",
+    "Fire Dragons",
+    "Aeldari",
+    "Aspect Warrior",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 4,
+     "pts": 120
+    },
+    {
+     "count": 9,
+     "pts": 240
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "exarch-s-dragon-fusion-gun",
+     "name": "Exarch's Dragon Fusion Gun",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "dragon-s-breath-flamer",
+     "name": "Dragon's Breath Flamer",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "firepike",
+     "name": "Firepike",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "dragon-fusion-pistol-dragon-axe",
+     "name": "Dragon Fusion Pistol & Dragon Axe",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Fire Dragon",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "1",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Fire Dragon Exarch",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "dragon-fusion-gun-2",
+    "close-combat-weapon",
+    "exarch-s-dragon-fusion-gun",
+    "dragon-s-breath-flamer",
+    "firepike",
+    "dragon-axe",
+    "dragon-fusion-pistol-2"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Assured Destruction",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "howling-banshees",
+   "name": "Howling Banshees",
+   "role": "Infantry",
+   "keywords": [
+    "Howling Banshees",
+    "Infantry",
+    "Ynnari",
+    "Aspect Warrior"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 4,
+     "pts": 95
+    },
+    {
+     "count": 9,
+     "pts": 190
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "banshee-blade-and-shuriken-pistol",
+     "name": "Banshee Blade and Shuriken Pistol",
+     "pts": 0,
+     "group": "Weapons",
+     "max": null
+    },
+    {
+     "id": "executioner-and-shuriken-pistol",
+     "name": "Executioner and Shuriken Pistol",
+     "pts": 0,
+     "group": "Weapons",
+     "max": null
+    },
+    {
+     "id": "triskele-and-shuriken-pistol",
+     "name": "Triskele and Shuriken Pistol",
+     "pts": 0,
+     "group": "Weapons",
+     "max": null
+    },
+    {
+     "id": "mirrorswords",
+     "name": "Mirrorswords",
+     "pts": 0,
+     "group": "Weapons",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Howling Banshee",
+     "stats": {
+      "M": "8\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "1",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Howling Banshee Exarch",
+     "stats": {
+      "M": "8\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "banshee-blade-3",
+    "shuriken-pistol-2",
+    "executioner",
+    "triskele",
+    "triskele-2",
+    "mirrorswords"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Acrobatic",
+    "Battle Focus",
+    "Fights First"
+   ]
+  },
+  {
+   "id": "incubi",
+   "name": "Incubi",
+   "role": "Infantry",
+   "keywords": [
+    "Incubi",
+    "Aeldari",
+    "Infantry",
+    "Blades for Hire"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 4,
+     "pts": 90
+    },
+    {
+     "count": 9,
+     "pts": 180
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "demiklaives",
+     "name": "Demiklaives",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    },
+    {
+     "id": "klaive",
+     "name": "Klaive",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Incubi",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "1",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Klaivex",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "klaive",
+    "demiklaives-dual-blades",
+    "demiklaives-single-blade"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Tormentors",
+    "Decapitating Strikes (Pain)",
+    "Power from Pain",
+    "Incubi Shrine Token"
+   ]
+  },
+  {
+   "id": "mandrakes",
+   "name": "Mandrakes",
+   "role": "Infantry",
+   "keywords": [
+    "Mandrakes",
+    "Aeldari",
+    "Infantry",
+    "Blades for Hire"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 4,
+     "pts": 75
+    },
+    {
+     "count": 9,
+     "pts": 150
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Mandrake",
+     "stats": {
+      "M": "8\"",
+      "T": "3",
+      "SV": "7+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "baleblast",
+    "glimmersteel-blade"
+   ],
+   "abilities": [
+    "Infiltrators",
+    "Stealth",
+    "Power from Pain",
+    "Deep Strike",
+    "Fade Away (Pain)",
+    "Invulnerable Save",
+    "Shade Weavers"
+   ]
+  },
+  {
+   "id": "rangers",
+   "name": "Rangers",
+   "role": "Infantry",
+   "keywords": [
+    "Rangers",
+    "Infantry",
+    "Aeldari",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 55
+    },
+    {
+     "count": 6,
+     "pts": 110
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Rangers",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "long-rifle",
+    "close-combat-weapon-3",
+    "shuriken-pistol"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Path of the Outcast",
+    "Infiltrators",
+    "Stealth",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "scourges",
+   "name": "Scourges",
+   "role": "Infantry",
+   "keywords": [
+    "Scourges",
+    "Aeldari",
+    "Fly",
+    "Grenades",
+    "Infantry",
+    "Jump Pack",
+    "Blades for Hire",
+    "Scourges with Heavy Weapons"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 4,
+     "pts": 130
+    },
+    {
+     "count": 6,
+     "pts": 180
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 4,
+   "wargear": [
+    {
+     "id": "blaster",
+     "name": "Blaster",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": null
+    },
+    {
+     "id": "heat-lance",
+     "name": "Heat Lance",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": null
+    },
+    {
+     "id": "splinter-cannon",
+     "name": "Splinter Cannon",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": null
+    },
+    {
+     "id": "shredder",
+     "name": "Shredder",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": null
+    },
+    {
+     "id": "dark-lance",
+     "name": "Dark Lance",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": null
+    },
+    {
+     "id": "haywire-blaster",
+     "name": "Haywire Blaster",
+     "pts": 0,
+     "group": "Ranged Weapon",
+     "max": null
+    },
+    {
+     "id": "shardcarbine",
+     "name": "Shardcarbine",
+     "pts": 0,
+     "group": "Weapon Option",
+     "max": 1
+    },
+    {
+     "id": "1-blast-pistol-and-1-power-weapon",
+     "name": "1 Blast pistol and 1 Power weapon",
+     "pts": 0,
+     "group": "Weapon Option",
+     "max": 1
+    },
+    {
+     "id": "1-splinter-pistol-and-1-power-weapon",
+     "name": "1 Splinter pistol and 1 Power weapon",
+     "pts": 0,
+     "group": "Weapon Option",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Scourges",
+     "stats": {
+      "M": "14\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "blaster",
+    "heat-lance-2",
+    "splinter-cannon",
+    "shredder",
+    "dark-lance",
+    "haywire-blaster",
+    "close-combat-weapon",
+    "shardcarbine",
+    "blast-pistol",
+    "power-weapon",
+    "splinter-pistol-2"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Airborne Evasion",
+    "Winged Strike (Pain)",
+    "Deep Strike",
+    "Power from Pain"
+   ]
+  },
+  {
+   "id": "shadow-spectres",
+   "name": "Shadow Spectres",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Fly",
+    "Shadow Spectres",
+    "Jump Pack",
+    "Aeldari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 5,
+     "pts": 115
+    },
+    {
+     "count": 10,
+     "pts": 230
+    }
+   ],
+   "minModels": 5,
+   "maxModels": 10,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Shadow Spectre",
+     "stats": {
+      "M": "12\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "1",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Shadow Spectre Exarch",
+     "stats": {
+      "M": "12\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "prism-rifle-dispersed",
+    "prism-rifle-focused",
+    "close-combat-weapon-2"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Shade of Twilight",
+    "Deep Strike",
+    "Stealth",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "striking-scorpions",
+   "name": "Striking Scorpions",
+   "role": "Infantry",
+   "keywords": [
+    "Striking Scorpions",
+    "Infantry",
+    "Aeldari",
+    "Aspect Warrior",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 4,
+     "pts": 85
+    },
+    {
+     "count": 9,
+     "pts": 150
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "chainsabres",
+     "name": "Chainsabres",
+     "pts": 0,
+     "group": "Weapons",
+     "max": null
+    },
+    {
+     "id": "shuriken-pistol-scorpion-chainsword-scorpion-s-claw",
+     "name": "Shuriken Pistol, Scorpion Chainsword & Scorpion's claw",
+     "pts": 0,
+     "group": "Weapons",
+     "max": null
+    },
+    {
+     "id": "biting-blade-shuriken-pistol",
+     "name": "Biting blade & Shuriken Pistol",
+     "pts": 0,
+     "group": "Weapons",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Striking Scorpion",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "1",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Striking Scorpion Exarch",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "scorpion-chainsword",
+    "shuriken-pistol",
+    "chainsabres",
+    "chainsabres-2",
+    "scorpion-s-claw",
+    "biting-blade"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Mandiblasters",
+    "Infiltrators",
+    "Battle Focus",
+    "Stealth",
+    "Scouts"
+   ]
+  },
+  {
+   "id": "support-weapons",
+   "name": "Support Weapons",
+   "role": "Infantry",
+   "keywords": [
+    "Support Weapon",
+    "Infantry",
+    "Aeldari",
+    "D-Cannon Platform",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 125
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "d-cannon",
+     "name": "D-cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "D-Cannon Platform",
+     "stats": {
+      "M": "7\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "d-cannon",
+    "close-combat-weapon-2",
+    "shuriken-catapult"
+   ],
+   "abilities": [
+    "Structural Collapse",
+    "Support Artillery",
+    "Support Weapon"
+   ]
+  },
+  {
+   "id": "swooping-hawks",
+   "name": "Swooping Hawks",
+   "role": "Infantry",
+   "keywords": [
+    "Swooping Hawks",
+    "Infantry",
+    "Fly",
+    "Grenades",
+    "Aeldari",
+    "Jump Pack",
+    "Aspect Warrior",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 4,
+     "pts": 95
+    },
+    {
+     "count": 9,
+     "pts": 190
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "exarch-s-lasblaster",
+     "name": "Exarch's Lasblaster",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "hawk-s-talon",
+     "name": "Hawk's Talon",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "scatter-laser",
+     "name": "Scatter Laser",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "sunpistol-power-sword",
+     "name": "Sunpistol & Power Sword",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Swooping Hawk",
+     "stats": {
+      "M": "14\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "1",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Swooping Hawk Exarch",
+     "stats": {
+      "M": "14\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "lasblaster",
+    "close-combat-weapon-2",
+    "exarch-s-lasblaster",
+    "hawk-s-talon",
+    "scatter-laser",
+    "power-sword",
+    "sunpistol"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Grenade Pack Flyover",
+    "Deep Strike",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "troupe",
+   "name": "Troupe",
+   "role": "Infantry",
+   "keywords": [
+    "Troupe",
+    "Infantry",
+    "Grenades",
+    "Harlequin Allies",
+    "Aeldari",
+    "Corsairs and Travelling Players"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 4,
+     "pts": 85
+    },
+    {
+     "count": 11,
+     "pts": 190
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 11,
+   "wargear": [
+    {
+     "id": "harlequin-s-blade",
+     "name": "Harlequin's Blade",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "harlequin-s-special-weapon",
+     "name": "Harlequin's Special Weapon",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "power-sword",
+     "name": "Power sword",
+     "pts": 0,
+     "group": "Melee Weapon",
+     "max": null
+    },
+    {
+     "id": "shuriken-pistol",
+     "name": "Shuriken Pistol",
+     "pts": 0,
+     "group": "Pistol",
+     "max": null
+    }
+   ],
+   "stats": [],
+   "weapons": [
+    "shuriken-pistol-2",
+    "harlequin-s-special-weapon",
+    "power-sword-2",
+    "fusion-pistol",
+    "neuro-disruptor-2"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Dance of Death",
+    "Devastating Wounds",
+    "Harlequin's Blade",
+    "Troupe",
+    "Battle Focus",
+    "Flip Belt"
+   ]
+  },
+  {
+   "id": "warlock-conclave",
+   "name": "Warlock Conclave",
+   "role": "Infantry",
+   "keywords": [
+    "Warlock Conclave",
+    "Psyker",
+    "Infantry",
+    "Aeldari",
+    "Warlock",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 2,
+     "pts": 55
+    },
+    {
+     "count": 4,
+     "pts": 130
+    }
+   ],
+   "minModels": 2,
+   "maxModels": 4,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Warlock",
+     "stats": {
+      "M": "7\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "witchblade-2",
+    "singing-spear-3",
+    "singing-spear-4",
+    "shuriken-pistol-2",
+    "destructor"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Protect (Psychic)",
+    "Psychic Communion (Psychic)",
+    "Leader",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "warp-spiders",
+   "name": "Warp Spiders",
+   "role": "Infantry",
+   "keywords": [
+    "Warp Spiders",
+    "Infantry",
+    "Fly",
+    "Jump Pack",
+    "Aeldari",
+    "Aspect Warrior",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 4,
+     "pts": 105
+    },
+    {
+     "count": 9,
+     "pts": 190
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "exarch-s-death-spinner",
+     "name": "Exarch's death spinner",
+     "pts": 0,
+     "group": "Weapon(s)",
+     "max": null
+    },
+    {
+     "id": "1-spinneret-rifle-1-death-weavers",
+     "name": "1 Spinneret rifle & 1 Death weavers",
+     "pts": 0,
+     "group": "Weapon(s)",
+     "max": null
+    },
+    {
+     "id": "1-powerblades-1-death-weavers",
+     "name": "1 Powerblades & 1 Death Weavers",
+     "pts": 0,
+     "group": "Weapon(s)",
+     "max": null
+    },
+    {
+     "id": "1-powerblade-array",
+     "name": "1 Powerblade array",
+     "pts": 0,
+     "group": "Weapon(s)",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Warp Spider",
+     "stats": {
+      "M": "12\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "1",
+      "LD": "6+",
+      "OC": "1"
+     }
+    },
+    {
+     "name": "Warp Spider Exarch",
+     "stats": {
+      "M": "12\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "death-spinner",
+    "exarch-s-deathspinner",
+    "death-weavers",
+    "spinneret-rifle",
+    "powerblades",
+    "powerblade-array",
+    "close-combat-weapon-2"
+   ],
+   "abilities": [
+    "Flickerjump",
+    "Invulnerable Save",
+    "Battle Focus",
+    "Deep Strike"
+   ]
+  },
+  {
+   "id": "wraithblades",
+   "name": "Wraithblades",
+   "role": "Infantry",
+   "keywords": [
+    "Wraithblades",
+    "Infantry",
+    "Wraith Construct",
+    "Aeldari",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 150
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "ghostswords",
+     "name": "Ghostswords",
+     "pts": 0,
+     "group": "Weapon",
+     "max": 1
+    },
+    {
+     "id": "ghostaxe-and-forceshield",
+     "name": "Ghostaxe and Forceshield",
+     "pts": 0,
+     "group": "Weapon",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Wraithblade",
+     "stats": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "3",
+      "LD": "8+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "ghostswords",
+    "ghostaxe"
+   ],
+   "abilities": [
+    "Malevolent Souls",
+    "Psychic Guidance"
+   ]
+  },
+  {
+   "id": "wraithguard",
+   "name": "Wraithguard",
+   "role": "Infantry",
+   "keywords": [
+    "Infantry",
+    "Wraithguard",
+    "Wraith Construct",
+    "Aeldari",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 160
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "wraithcannon",
+     "name": "Wraithcannon",
+     "pts": 0,
+     "group": "Weapon",
+     "max": 1
+    },
+    {
+     "id": "d-scythe",
+     "name": "D-Scythe",
+     "pts": 0,
+     "group": "Weapon",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Wraithguard",
+     "stats": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "3",
+      "LD": "8+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "wraithcannon",
+    "d-scythe",
+    "close-combat-weapon-6"
+   ],
+   "abilities": [
+    "War Construct",
+    "Psychic Guidance"
+   ]
+  },
+  {
+   "id": "phantom-titan",
+   "name": "Phantom Titan",
+   "role": "Monster",
+   "keywords": [
+    "Phantom Titan",
+    "Titanic",
+    "Towering",
+    "Walker",
+    "Monster",
+    "Aeldari",
+    "Wraith Construct"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 2100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "phantom-feet",
+     "name": "Phantom feet",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "voidstorm-missile-launcher",
+     "name": "Voidstorm missile launcher",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "d-bombard",
+     "name": "D-bombard",
+     "pts": 0,
+     "group": "D-bombard Replacement",
+     "max": null
+    },
+    {
+     "id": "1-phantom-pulsar",
+     "name": "1 Phantom pulsar",
+     "pts": 0,
+     "group": "D-bombard Replacement",
+     "max": null
+    },
+    {
+     "id": "2-phantom-starcannons-1-wraith-glaive",
+     "name": "2 Phantom starcannons & 1 wraith glaive",
+     "pts": 0,
+     "group": "D-bombard Replacement",
+     "max": null
+    },
+    {
+     "id": "2-pulse-lasers-1-wraith-glaive",
+     "name": "2 pulse lasers & 1 wraith glaive",
+     "pts": 0,
+     "group": "D-bombard Replacement",
+     "max": null
+    },
+    {
+     "id": "1-phantom-starcannon-1-pulse-laser-1-wraith-glaive",
+     "name": "1 Phantom starcannon, 1 pulse laser & 1 wraith glaive",
+     "pts": 0,
+     "group": "D-bombard Replacement",
+     "max": null
+    },
+    {
+     "id": "phantom-pulsar",
+     "name": "Phantom pulsar",
+     "pts": 0,
+     "group": "Phantom pulsar Replacement",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Phantom Titan",
+     "stats": {
+      "M": "14\"",
+      "T": "14",
+      "SV": "2+",
+      "W": "55",
+      "LD": "6+",
+      "OC": "20"
+     }
+    }
+   ],
+   "weapons": [
+    "phantom-feet",
+    "voidstorm-missile-launcher",
+    "d-bombard",
+    "phantom-pulsar",
+    "phantom-starcannon",
+    "wraith-glaive-strike",
+    "wraith-glaive-sweep",
+    "pulse-laser"
+   ],
+   "abilities": [
+    "Damaged: 1-16 Wounds Remaining",
+    "Titanic Advance",
+    "Towering Wraith Construct",
+    "Invulnerable Save",
+    "Flawless Poise",
+    "Deadly Demise",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "revenant-titan",
+   "name": "Revenant Titan",
+   "role": "Monster",
+   "keywords": [
+    "Revenant Titan",
+    "Walker",
+    "Towering",
+    "Titanic",
+    "Monster",
+    "Fly",
+    "Wraith Construct",
+    "Aeldari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 1100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "cloudburst-missile-launcher",
+     "name": "Cloudburst missile launcher",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "revenant-feet",
+     "name": "Revenant feet",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "sonic-lance",
+     "name": "Sonic Lance",
+     "pts": 0,
+     "group": "Left Arm",
+     "max": null
+    },
+    {
+     "id": "revenant-pulsar",
+     "name": "Revenant Pulsar",
+     "pts": 0,
+     "group": "Left Arm",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Revenant Titan",
+     "stats": {
+      "M": "16\"",
+      "T": "13",
+      "SV": "2+",
+      "W": "30",
+      "LD": "6+",
+      "OC": "16"
+     }
+    }
+   ],
+   "weapons": [
+    "cloudburst-missile-launcher",
+    "revenant-feet",
+    "sonic-lance",
+    "revenant-pulsar"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Damaged: 1-10 Wounds Remaining",
+    "Titanic Advance",
+    "Towering Wraith Construct",
+    "Revenant Jet Pack",
+    "Deadly Demise",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "skathach-wraithknight",
+   "name": "Skathach Wraithknight",
+   "role": "Monster",
+   "keywords": [
+    "Skathach Wraithknight",
+    "Wraith Construct",
+    "Towering",
+    "Titanic",
+    "Walker",
+    "Monster",
+    "Aeldari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 490
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "titanic-feet",
+     "name": "Titanic feet",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "scattershield",
+     "name": "Scattershield",
+     "pts": 0,
+     "group": "Left Arm",
+     "max": null
+    },
+    {
+     "id": "deathshroud-cannon",
+     "name": "Deathshroud Cannon",
+     "pts": 0,
+     "group": "Left Arm",
+     "max": null
+    },
+    {
+     "id": "inferno-lance",
+     "name": "Inferno Lance",
+     "pts": 0,
+     "group": "Left Arm",
+     "max": null
+    },
+    {
+     "id": "scatter-laser",
+     "name": "Scatter Laser",
+     "pts": 0,
+     "group": "Secondary Weapons",
+     "max": 2
+    },
+    {
+     "id": "shuriken-cannon",
+     "name": "Shuriken Cannon",
+     "pts": 0,
+     "group": "Secondary Weapons",
+     "max": 2
+    },
+    {
+     "id": "starcannon",
+     "name": "Starcannon",
+     "pts": 0,
+     "group": "Secondary Weapons",
+     "max": 2
+    }
+   ],
+   "stats": [
+    {
+     "name": "Skathach Wraithknight",
+     "stats": {
+      "M": "10\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "18",
+      "LD": "6+",
+      "OC": "10"
+     }
+    }
+   ],
+   "weapons": [
+    "titanic-feet",
+    "deathshroud-cannon-dispersed",
+    "deathshroud-cannon-focused",
+    "inferno-lance",
+    "scatter-laser-4",
+    "shuriken-cannon-4",
+    "starcannon"
+   ],
+   "abilities": [
+    "Damaged: 1-6 Wounds Remaining",
+    "Agile",
+    "Webway Shunt Generator",
+    "Deadly Demise",
+    "Deep Strike",
+    "Battle Focus",
+    "Scattershield"
+   ]
+  },
+  {
+   "id": "wraithknight",
+   "name": "Wraithknight",
+   "role": "Monster",
+   "keywords": [
+    "Wraithknight",
+    "Wraith Construct",
+    "Monster",
+    "Titanic",
+    "Towering",
+    "Walker",
+    "Aeldari",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 435
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "titanic-feet",
+     "name": "Titanic feet",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "scattershield",
+     "name": "Scattershield",
+     "pts": 0,
+     "group": "Left Arm",
+     "max": null
+    },
+    {
+     "id": "heavy-wraithcannon",
+     "name": "Heavy Wraithcannon",
+     "pts": 0,
+     "group": "Left Arm",
+     "max": null
+    },
+    {
+     "id": "suncannon",
+     "name": "Suncannon",
+     "pts": 0,
+     "group": "Right Arm",
+     "max": null
+    },
+    {
+     "id": "scatter-laser",
+     "name": "Scatter Laser",
+     "pts": 0,
+     "group": "Secondary Weapons",
+     "max": 2
+    },
+    {
+     "id": "shuriken-cannon",
+     "name": "Shuriken Cannon",
+     "pts": 0,
+     "group": "Secondary Weapons",
+     "max": 2
+    },
+    {
+     "id": "starcannon",
+     "name": "Starcannon",
+     "pts": 0,
+     "group": "Secondary Weapons",
+     "max": 2
+    }
+   ],
+   "stats": [
+    {
+     "name": "Wraithknight",
+     "stats": {
+      "M": "12\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "18",
+      "LD": "6+",
+      "OC": "10"
+     }
+    }
+   ],
+   "weapons": [
+    "titanic-feet",
+    "heavy-wraithcannon",
+    "suncannon",
+    "scatter-laser",
+    "shuriken-cannon-2",
+    "starcannon"
+   ],
+   "abilities": [
+    "Scattershield",
+    "Damaged: 1-6 Wounds Remaining",
+    "Titanic Strides",
+    "Point-blank Devastation",
+    "Deadly Demise",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "wraithlord",
+   "name": "Wraithlord",
+   "role": "Monster",
+   "keywords": [
+    "Wraithlord",
+    "Wraith Construct",
+    "Monster",
+    "Walker",
+    "Aeldari",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 130
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "ghostglaive",
+     "name": "Ghostglaive",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "wraithbone-fists",
+     "name": "Wraithbone Fists",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "shuriken-catapult",
+     "name": "Shuriken Catapult",
+     "pts": 0,
+     "group": "Arm Weapons",
+     "max": 2
+    },
+    {
+     "id": "flamer",
+     "name": "Flamer",
+     "pts": 0,
+     "group": "Arm Weapons",
+     "max": 2
+    },
+    {
+     "id": "aeldari-missile-launcher",
+     "name": "Aeldari Missile Launcher",
+     "pts": 0,
+     "group": "Heavy Weapons",
+     "max": 2
+    },
+    {
+     "id": "bright-lance",
+     "name": "Bright Lance",
+     "pts": 0,
+     "group": "Heavy Weapons",
+     "max": 2
+    },
+    {
+     "id": "scatter-laser",
+     "name": "Scatter Laser",
+     "pts": 0,
+     "group": "Heavy Weapons",
+     "max": 2
+    },
+    {
+     "id": "shuriken-cannon",
+     "name": "Shuriken Cannon",
+     "pts": 0,
+     "group": "Heavy Weapons",
+     "max": 2
+    },
+    {
+     "id": "starcannon",
+     "name": "Starcannon",
+     "pts": 0,
+     "group": "Heavy Weapons",
+     "max": 2
+    }
+   ],
+   "stats": [
+    {
+     "name": "Wraithlord",
+     "stats": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "10",
+      "LD": "8+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "ghostglaive-strike",
+    "ghostglaive-sweep",
+    "wraithbone-fists",
+    "shuriken-catapult-2",
+    "flamer-2",
+    "aeldari-missile-launcher-starshot",
+    "aeldari-missile-launcher-sunburst",
+    "bright-lance-3",
+    "scatter-laser-3",
+    "shuriken-cannon-3",
+    "starcannon-3"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Fated Hero",
+    "Psychic Guidance"
+   ]
+  },
+  {
+   "id": "wraithseer",
+   "name": "Wraithseer",
+   "role": "Monster",
+   "keywords": [
+    "Walker",
+    "Monster",
+    "Wraith Construct",
+    "Wraithseer",
+    "Psyker",
+    "Aeldari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 160
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "destructor",
+     "name": "Destructor",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "ghostspear",
+     "name": "Ghostspear",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "aeldari-missile-launcher",
+     "name": "Aeldari Missile Launcher",
+     "pts": 0,
+     "group": "Weapon Option",
+     "max": null
+    },
+    {
+     "id": "bright-lance",
+     "name": "Bright Lance",
+     "pts": 0,
+     "group": "Weapon Option",
+     "max": null
+    },
+    {
+     "id": "scatter-laser",
+     "name": "Scatter Laser",
+     "pts": 0,
+     "group": "Weapon Option",
+     "max": null
+    },
+    {
+     "id": "shuriken-cannon",
+     "name": "Shuriken Cannon",
+     "pts": 0,
+     "group": "Weapon Option",
+     "max": null
+    },
+    {
+     "id": "starcannon",
+     "name": "Starcannon",
+     "pts": 0,
+     "group": "Weapon Option",
+     "max": null
+    },
+    {
+     "id": "wraithseer-d-cannon",
+     "name": "Wraithseer D-Cannon",
+     "pts": 0,
+     "group": "Weapon Option",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Wraithseer",
+     "stats": {
+      "M": "8\"",
+      "T": "11",
+      "SV": "2+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "destructor",
+    "ghostspear-strike",
+    "ghostspear-sweep",
+    "aeldari-missile-launcher-starshot",
+    "aeldari-missile-launcher-sunburst",
+    "bright-lance-3",
+    "scatter-laser-5",
+    "shuriken-cannon-5",
+    "starcannon-3",
+    "wraithseer-d-cannon"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Horrify (Psychic)",
+    "Deadly Demise",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "hellions",
+   "name": "Hellions",
+   "role": "Mounted",
+   "keywords": [
+    "Hellions",
+    "Aeldari",
+    "Wych Cult",
+    "Mounted",
+    "Fly"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 4,
+     "pts": 85
+    },
+    {
+     "count": 9,
+     "pts": 170
+    }
+   ],
+   "minModels": 4,
+   "maxModels": 9,
+   "wargear": [
+    {
+     "id": "hellglaive",
+     "name": "Hellglaive",
+     "pts": 0,
+     "group": "Weapon Option",
+     "max": null
+    },
+    {
+     "id": "1-splinter-pistol-and-1-power-weapon",
+     "name": "1 Splinter pistol and 1 Power weapon",
+     "pts": 0,
+     "group": "Weapon Option",
+     "max": null
+    },
+    {
+     "id": "1-splinter-pistol-and-1-stunclaw",
+     "name": "1 Splinter pistol and 1 Stunclaw",
+     "pts": 0,
+     "group": "Weapon Option",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Hellions",
+     "stats": {
+      "M": "14\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "hellglaive",
+    "splinter-pods",
+    "power-weapon",
+    "splinter-pistol",
+    "stunclaw"
+   ],
+   "abilities": [
+    "Phantasm Grenade Launcher",
+    "Invulnerable Save",
+    "Battlefield Butchery (Pain)",
+    "Skyboard Evasion",
+    "Power from Pain",
+    "Deep Strike"
+   ]
+  },
+  {
+   "id": "reavers",
+   "name": "Reavers",
+   "role": "Mounted",
+   "keywords": [
+    "Reavers",
+    "Wych Cult",
+    "Aeldari",
+    "Fly",
+    "Mounted"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 2,
+     "pts": 70
+    },
+    {
+     "count": 5,
+     "pts": 140
+    }
+   ],
+   "minModels": 2,
+   "maxModels": 5,
+   "wargear": [
+    {
+     "id": "splinter-rifle",
+     "name": "Splinter Rifle",
+     "pts": 0,
+     "group": "Bike Weapon",
+     "max": 1
+    },
+    {
+     "id": "blaster",
+     "name": "Blaster",
+     "pts": 0,
+     "group": "Bike Weapon",
+     "max": 1
+    },
+    {
+     "id": "heat-lance",
+     "name": "Heat Lance",
+     "pts": 0,
+     "group": "Bike Weapon",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Reavers",
+     "stats": {
+      "M": "16\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "splinter-rifle",
+    "splinter-pistol-2",
+    "bladevanes-2",
+    "blaster",
+    "heat-lance"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Eviscerating Fly-by",
+    "Matchless Swiftness (Pain)",
+    "Power from Pain"
+   ]
+  },
+  {
+   "id": "shining-spears",
+   "name": "Shining Spears",
+   "role": "Mounted",
+   "keywords": [
+    "Shining Spears",
+    "Mounted",
+    "Fly",
+    "Aeldari",
+    "Aspect Warrior",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 2,
+     "pts": 110
+    },
+    {
+     "count": 5,
+     "pts": 220
+    }
+   ],
+   "minModels": 2,
+   "maxModels": 5,
+   "wargear": [
+    {
+     "id": "laser-lance",
+     "name": "Laser Lance",
+     "pts": 0,
+     "group": "Weapon Choice",
+     "max": null
+    },
+    {
+     "id": "paragon-sabre",
+     "name": "Paragon Sabre",
+     "pts": 0,
+     "group": "Weapon Choice",
+     "max": null
+    },
+    {
+     "id": "star-lance",
+     "name": "Star Lance",
+     "pts": 0,
+     "group": "Weapon Choice",
+     "max": null
+    },
+    {
+     "id": "twin-shuriken-catapult",
+     "name": "Twin Shuriken Catapult",
+     "pts": 0,
+     "group": "Bike Weapon",
+     "max": null
+    },
+    {
+     "id": "shuriken-cannon",
+     "name": "Shuriken Cannon",
+     "pts": 0,
+     "group": "Bike Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Shining Spear",
+     "stats": {
+      "M": "14\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+     }
+    },
+    {
+     "name": "Shining Spear Exarch",
+     "stats": {
+      "M": "14\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-shuriken-catapult-2",
+    "laser-lance-3",
+    "laser-lance-4",
+    "paragon-sabre",
+    "star-lance",
+    "star-lance-2",
+    "shuriken-cannon-2"
+   ],
+   "abilities": [
+    "Shimmershield",
+    "Invulnerable Save",
+    "Extreme Mobility",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "shroud-runners",
+   "name": "Shroud Runners",
+   "role": "Mounted",
+   "keywords": [
+    "Shroud Runners",
+    "Fly",
+    "Mounted",
+    "Aeldari",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    },
+    {
+     "count": 4,
+     "pts": 160
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Shroud Runner",
+     "stats": {
+      "M": "14\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "long-rifle-2",
+    "scatter-laser",
+    "close-combat-weapon-3",
+    "shuriken-pistol"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Target Acquisition",
+    "Scouts",
+    "Stealth",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "skyweavers",
+   "name": "Skyweavers",
+   "role": "Mounted",
+   "keywords": [
+    "Skyweavers",
+    "Fly",
+    "Mounted",
+    "Smoke",
+    "Harlequin Allies",
+    "Aeldari",
+    "Corsairs and Travelling Players"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 95
+    },
+    {
+     "count": 3,
+     "pts": 190
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "skyweaver-haywire-cannon",
+     "name": "Skyweaver Haywire Cannon",
+     "pts": 0,
+     "group": "Bike Weapon",
+     "max": null
+    },
+    {
+     "id": "star-bolas",
+     "name": "Star Bolas",
+     "pts": 0,
+     "group": "Rider Weapon",
+     "max": null
+    },
+    {
+     "id": "zephyrglaive",
+     "name": "Zephyrglaive",
+     "pts": 0,
+     "group": "Rider Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Skyweaver",
+     "stats": {
+      "M": "14\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "skyweaver-haywire-cannon",
+    "star-bolas",
+    "zephyrglaive",
+    "close-combat-weapon-4",
+    "shuriken-cannon-2"
+   ],
+   "abilities": [
+    "Battle Focus",
+    "Disparate Paths",
+    "Invulnerable Save",
+    "Acrobatic Grace"
+   ]
+  },
+  {
+   "id": "warlock-skyrunner",
+   "name": "Warlock Skyrunner",
+   "role": "Mounted",
+   "keywords": [
+    "Psyker",
+    "Mounted",
+    "Warlock Skyrunners",
+    "Warlock",
+    "Aeldari",
+    "Fly",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 45
+    },
+    {
+     "count": 2,
+     "pts": 90
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 2,
+   "wargear": [],
+   "stats": [
+    {
+     "name": "Warlock Skyrunner",
+     "stats": {
+      "M": "14\"",
+      "T": "4",
+      "SV": "6+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-shuriken-catapult-2",
+    "witchblade-2",
+    "shuriken-pistol-2",
+    "destructor",
+    "singing-spear-3",
+    "singing-spear-4"
+   ],
+   "abilities": [
+    "Psychic Communion (Psychic)",
+    "Leader",
+    "Runes of Battle (Psychic)",
+    "Invulnerable Save (Warlock)",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "windriders",
+   "name": "Windriders",
+   "role": "Mounted",
+   "keywords": [
+    "Mounted",
+    "Fly",
+    "Windriders",
+    "Aeldari",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 3,
+     "pts": 80
+    },
+    {
+     "count": 6,
+     "pts": 160
+    }
+   ],
+   "minModels": 3,
+   "maxModels": 6,
+   "wargear": [],
+   "stats": [],
+   "weapons": [
+    "twin-shuriken-catapult-2",
+    "scatter-laser",
+    "shuriken-cannon-2",
+    "close-combat-weapon-5"
+   ],
+   "abilities": [
+    "Swift Demise",
+    "Invulnerable Save",
+    "Windriders",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "cobra",
+   "name": "Cobra",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Titanic",
+    "Fly",
+    "Cobra",
+    "Aeldari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 415
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "d-impaler",
+     "name": "D-Impaler",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "wraithbone-hull",
+     "name": "Wraithbone hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Cobra",
+     "stats": {
+      "M": "14\"",
+      "T": "11",
+      "SV": "2+",
+      "W": "24",
+      "LD": "6+",
+      "OC": "8"
+     }
+    }
+   ],
+   "weapons": [
+    "d-impaler",
+    "wraithbone-hull-2"
+   ],
+   "abilities": [
+    "Damaged: 1-8 Wounds Remaining",
+    "Invulnerable Save",
+    "D-Rift",
+    "Deadly Demise",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "crimson-hunter",
+   "name": "Crimson Hunter",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Aircraft",
+    "Fly",
+    "Crimson Hunter",
+    "Aeldari",
+    "Aspect Warrior",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 160
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "pulse-laser",
+     "name": "Pulse Laser",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "wraithbone-hull",
+     "name": "Wraithbone Hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "2-starcannons",
+     "name": "2 Starcannons",
+     "pts": 0,
+     "group": "Weapon Option",
+     "max": 1
+    },
+    {
+     "id": "2-bright-lances",
+     "name": "2 Bright Lances",
+     "pts": 0,
+     "group": "Weapon Option",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Crimson Hunter",
+     "stats": {
+      "M": "20+\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "pulse-laser",
+    "wraithbone-hull",
+    "starcannon",
+    "bright-lance"
+   ],
+   "abilities": [
+    "Skyhunter",
+    "Damaged: 1-4 Wounds Remaining",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "falcon",
+   "name": "Falcon",
+   "role": "Vehicle",
+   "keywords": [
+    "Falcon",
+    "Fly",
+    "Transport",
+    "Vehicle",
+    "Aeldari",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 130
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "pulse-laser",
+     "name": "Pulse Laser",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "wraithbone-hull",
+     "name": "Wraithbone hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-shuriken-catapult",
+     "name": "Twin Shuriken Catapult",
+     "pts": 0,
+     "group": "Hull weapon",
+     "max": 1
+    },
+    {
+     "id": "shuriken-cannon",
+     "name": "Shuriken Cannon",
+     "pts": 0,
+     "group": "Hull weapon",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Falcon",
+     "stats": {
+      "M": "14\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "pulse-laser",
+    "wraithbone-hull",
+    "twin-shuriken-catapult-2",
+    "shuriken-cannon-2"
+   ],
+   "abilities": [
+    "Damaged: 1-4 Wounds Remaining",
+    "Fire Support",
+    "Deadly Demise",
+    "Deep Strike",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "fire-prism",
+   "name": "Fire Prism",
+   "role": "Vehicle",
+   "keywords": [
+    "Fire Prism",
+    "Fly",
+    "Vehicle",
+    "Aeldari",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 150
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "prism-cannon",
+     "name": "Prism Cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "wraithbone-hull",
+     "name": "Wraithbone hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-shuriken-catapult",
+     "name": "Twin Shuriken Catapult",
+     "pts": 0,
+     "group": "Hull weapon",
+     "max": 1
+    },
+    {
+     "id": "shuriken-cannon",
+     "name": "Shuriken Cannon",
+     "pts": 0,
+     "group": "Hull weapon",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Fire Prism",
+     "stats": {
+      "M": "14\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "prism-cannon-dispersed-pulse",
+    "prism-cannon-focused-lances",
+    "wraithbone-hull",
+    "twin-shuriken-catapult-2",
+    "shuriken-cannon-2"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Battle Focus",
+    "Damaged: 1-4 Wounds Remaining",
+    "Crystal Matrix"
+   ]
+  },
+  {
+   "id": "firestorm",
+   "name": "Firestorm",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Firestorm",
+    "Aeldari"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 115
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "firestorm-scatter-laser",
+     "name": "Firestorm Scatter Laser",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "wraithbone-hull",
+     "name": "Wraithbone hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-shuriken-catapult",
+     "name": "Twin Shuriken Catapult",
+     "pts": 0,
+     "group": "Hull weapon",
+     "max": 1
+    },
+    {
+     "id": "shuriken-cannon",
+     "name": "Shuriken Cannon",
+     "pts": 0,
+     "group": "Hull weapon",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Firestorm",
+     "stats": {
+      "M": "14\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "firestorm-scatter-laser",
+    "wraithbone-hull",
+    "twin-shuriken-catapult-2",
+    "shuriken-cannon-4"
+   ],
+   "abilities": [
+    "Damaged: 1-4 Wounds Remaining",
+    "Skyfire",
+    "Battle Focus",
+    "Deadly Demise"
+   ]
+  },
+  {
+   "id": "hemlock-wraithfighter",
+   "name": "Hemlock Wraithfighter",
+   "role": "Vehicle",
+   "keywords": [
+    "Hemlock Wraithfighter",
+    "Vehicle",
+    "Fly",
+    "Aircraft",
+    "Psyker",
+    "Wraith Construct",
+    "Aeldari",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 155
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "heavy-d-scythe",
+     "name": "Heavy D-Scythe",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    }
+   ],
+   "stats": [
+    {
+     "name": "Hemlock Wraithfighter",
+     "stats": {
+      "M": "20+\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "wraithbone-hull",
+    "heavy-d-scythe"
+   ],
+   "abilities": []
+  },
+  {
+   "id": "hornet",
+   "name": "Hornet",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Hornet",
+    "Aeldari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 100
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "aeldari-missile-launcher",
+     "name": "Aeldari Missile Launcher",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    },
+    {
+     "id": "bright-lance",
+     "name": "Bright Lance",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    },
+    {
+     "id": "scatter-laser",
+     "name": "Scatter Laser",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    },
+    {
+     "id": "shuriken-cannon",
+     "name": "Shuriken Cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    },
+    {
+     "id": "starcannon",
+     "name": "Starcannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    },
+    {
+     "id": "hornet-pulse-laser",
+     "name": "Hornet Pulse Laser",
+     "pts": 0,
+     "group": "Wargear",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Hornet",
+     "stats": {
+      "M": "14\"",
+      "T": "7",
+      "SV": "3+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "aeldari-missile-launcher-starshot-2",
+    "aeldari-missile-launcher-sunburst-2",
+    "bright-lance",
+    "scatter-laser-4",
+    "shuriken-cannon-4",
+    "starcannon",
+    "hornet-pulse-laser",
+    "wraithbone-hull"
+   ],
+   "abilities": []
+  },
+  {
+   "id": "lynx",
+   "name": "Lynx",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Lynx",
+    "Aeldari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 180
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "lynx-pulsar",
+     "name": "Lynx Pulsar",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "wraithbone-hull",
+     "name": "Wraithbone hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Lynx",
+     "stats": {
+      "M": "14\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "4"
+     }
+    }
+   ],
+   "weapons": [
+    "lynx-pulsar",
+    "wraithbone-hull"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Damaged: 1-5 Wounds Remaining",
+    "Speed of Vaul",
+    "Deadly Demise",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "night-spinner",
+   "name": "Night Spinner",
+   "role": "Vehicle",
+   "keywords": [
+    "Fly",
+    "Vehicle",
+    "Night Spinner",
+    "Aeldari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 190
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "doomweaver",
+     "name": "Doomweaver",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "wraithbone-hull",
+     "name": "Wraithbone hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-shuriken-catapult",
+     "name": "Twin Shuriken Catapult",
+     "pts": 0,
+     "group": "Hull weapon",
+     "max": 1
+    },
+    {
+     "id": "shuriken-cannon",
+     "name": "Shuriken Cannon",
+     "pts": 0,
+     "group": "Hull weapon",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Night Spinner",
+     "stats": {
+      "M": "14\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "doomweaver",
+    "wraithbone-hull",
+    "twin-shuriken-catapult-2",
+    "shuriken-cannon-2"
+   ],
+   "abilities": [
+    "Damaged: 1-4 Wounds Remaining",
+    "Monofilament Web",
+    "Deadly Demise",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "nightwing",
+   "name": "Nightwing",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Aircraft",
+    "Nightwing",
+    "Aeldari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 150
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "twin-bright-lance",
+     "name": "Twin Bright Lance",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-shuriken-cannon",
+     "name": "Twin Shuriken Cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "wraithbone-hull",
+     "name": "Wraithbone hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Nightwing",
+     "stats": {
+      "M": "20+\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-bright-lance",
+    "twin-shuriken-cannon-2",
+    "wraithbone-hull"
+   ],
+   "abilities": [
+    "Damaged: 1-4 Wounds Remaining",
+    "Interceptor",
+    "Battle Focus",
+    "Hover"
+   ]
+  },
+  {
+   "id": "phoenix",
+   "name": "Phoenix",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Aeldari",
+    "Aircraft",
+    "Fly",
+    "Phoenix"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 175
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "phoenix-missile-array",
+     "name": "Phoenix missile array",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "phoenix-pulse-laser",
+     "name": "Phoenix pulse laser",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-shuriken-cannon",
+     "name": "Twin shuriken cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "wraithbone-hull",
+     "name": "Wraithbone hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Phoenix",
+     "stats": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "phoenix-missile-array",
+    "phoenix-pulse-laser",
+    "twin-shuriken-cannon",
+    "wraithbone-hull"
+   ],
+   "abilities": [
+    "Strafing Run",
+    "Damaged: 1-5 wounds remaining",
+    "Deadly Demise",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "raider",
+   "name": "Raider",
+   "role": "Vehicle",
+   "keywords": [
+    "Raider",
+    "Aeldari",
+    "Dedicated Transport",
+    "Fly",
+    "Vehicle",
+    "Transport"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 1,
+     "pts": 85
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "bladevanes-and-chainsnares",
+     "name": "Bladevanes and chainsnares",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "disintegrator-cannon",
+     "name": "Disintegrator Cannon",
+     "pts": 0,
+     "group": "Weapon Option",
+     "max": null
+    },
+    {
+     "id": "dark-lance",
+     "name": "Dark Lance",
+     "pts": 0,
+     "group": "Weapon Option",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Raider",
+     "stats": {
+      "M": "14\"",
+      "T": "8",
+      "SV": "4+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "bladevanes-and-chainsnares",
+    "disintegrator-cannon",
+    "dark-lance-2"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Aethersails",
+    "Splinter Racks (Pain)",
+    "Vanguard of the Dark City",
+    "Masters of the Shadowed Sky",
+    "Speed of the Kill",
+    "Visions of Butchery",
+    "Deadly Demise",
+    "Firing Deck",
+    "Deep Strike",
+    "Power from Pain"
+   ]
+  },
+  {
+   "id": "ravager",
+   "name": "Ravager",
+   "role": "Vehicle",
+   "keywords": [
+    "Ravager",
+    "Aeldari",
+    "Kabal",
+    "Fly",
+    "Vehicle"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 110
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "bladevanes",
+     "name": "Bladevanes",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "disintegrator-cannon",
+     "name": "Disintegrator Cannon",
+     "pts": 0,
+     "group": "Weapon Option",
+     "max": null
+    },
+    {
+     "id": "dark-lance",
+     "name": "Dark Lance",
+     "pts": 0,
+     "group": "Weapon Option",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Ravager",
+     "stats": {
+      "M": "14\"",
+      "T": "9",
+      "SV": "4+",
+      "W": "11",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "bladevanes",
+    "disintegrator-cannon",
+    "dark-lance-2"
+   ],
+   "abilities": [
+    "Deep Strike",
+    "Deadly Demise",
+    "Power from Pain",
+    "Invulnerable Save",
+    "Damaged: 1-4 Wounds Remaining",
+    "Eradicate the Foe",
+    "Agonising Suppression (Pain)"
+   ]
+  },
+  {
+   "id": "raven-strike-fighter",
+   "name": "Raven Strike Fighter",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Aircraft",
+    "Aeldari",
+    "Raven Strike Fighter"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 170
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "bladed-wings",
+     "name": "Bladed wings",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "dark-lance",
+     "name": "Dark lance",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    },
+    {
+     "id": "splinterstorm-cannon",
+     "name": "Splinterstorm cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Raven Strike Fighter",
+     "stats": {
+      "M": "20+\"",
+      "T": "8",
+      "SV": "4+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "bladed-wings",
+    "dark-lance",
+    "splinterstorm-cannon"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Ground-attack Craft",
+    "Shredding Fire (Pain)",
+    "Deadly Demise",
+    "Stealth",
+    "Power from Pain"
+   ]
+  },
+  {
+   "id": "razorwing-jetfighter",
+   "name": "Razorwing Jetfighter",
+   "role": "Vehicle",
+   "keywords": [
+    "Razorwing Jetfighter",
+    "Aeldari",
+    "Aircraft",
+    "Vehicle",
+    "Fly"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 170
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "bladed-wings",
+     "name": "Bladed wings",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "razorwing-missiles",
+     "name": "Razorwing missiles",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "two-dark-lances",
+     "name": "Two dark lances",
+     "pts": 0,
+     "group": "Main Weapon",
+     "max": null
+    },
+    {
+     "id": "two-disintegrator-cannons",
+     "name": "Two disintegrator cannons",
+     "pts": 0,
+     "group": "Main Weapon",
+     "max": null
+    },
+    {
+     "id": "splinter-cannon",
+     "name": "Splinter Cannon",
+     "pts": 0,
+     "group": "Splinter cannon",
+     "max": 1
+    },
+    {
+     "id": "twin-splinter-rifle",
+     "name": "Twin Splinter Rifle",
+     "pts": 0,
+     "group": "Splinter cannon",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Razorwing Jetfighter",
+     "stats": {
+      "M": "20+\"",
+      "T": "8",
+      "SV": "4+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "bladed-wings",
+    "razorwing-missiles-monoscythe-missiles",
+    "razorwing-missiles-neurotoxin-missiles",
+    "razorwing-missiles-shatterfield-missiles",
+    "dark-lance-2",
+    "disintegrator-cannon",
+    "splinter-cannon-2",
+    "twin-splinter-rifle"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Ground-attack Craft",
+    "Nowhere to Run (Pain)",
+    "Deadly Demise",
+    "Stealth",
+    "Power from Pain"
+   ]
+  },
+  {
+   "id": "reaper",
+   "name": "Reaper",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Kabal",
+    "Fly",
+    "Aeldari",
+    "Reaper"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 115
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "bladevanes",
+     "name": "Bladevanes",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "prow-blade",
+     "name": "Prow blade",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "storm-vortex-projector",
+     "name": "Storm vortex projector",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Reaper",
+     "stats": {
+      "M": "14\"",
+      "T": "9",
+      "SV": "4+",
+      "W": "11",
+      "LD": "7+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "bladevanes",
+    "prow-blade",
+    "storm-vortex-projector-beam",
+    "storm-vortex-projector-blast"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Eradicate the Foe",
+    "Damaged: 1-4 Wounds Remaining",
+    "Electromagnetic Cascade (Pain)",
+    "Deadly Demise",
+    "Deep Strike",
+    "Power from Pain"
+   ]
+  },
+  {
+   "id": "scorpion",
+   "name": "Scorpion",
+   "role": "Vehicle",
+   "keywords": [
+    "Scorpion",
+    "Vehicle",
+    "Fly",
+    "Titanic",
+    "Aeldari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 410
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "twin-scorpion-pulsar",
+     "name": "Twin Scorpion Pulsar",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "wraithbone-hull",
+     "name": "Wraithbone hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Scorpion",
+     "stats": {
+      "M": "14\"",
+      "T": "11",
+      "SV": "2+",
+      "W": "24",
+      "LD": "6+",
+      "OC": "8"
+     }
+    }
+   ],
+   "weapons": [
+    "twin-scorpion-pulsar",
+    "wraithbone-hull-2"
+   ],
+   "abilities": [
+    "Damaged: 1-8 Wounds Remaining",
+    "Invulnerable Save",
+    "Lanced Obliteration",
+    "Deadly Demise",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "starweaver",
+   "name": "Starweaver",
+   "role": "Vehicle",
+   "keywords": [
+    "Star Weaver",
+    "Dedicated Transport",
+    "Fly",
+    "Smoke",
+    "Vehicle",
+    "Transport",
+    "Aeldari",
+    "Harlequin Allies",
+    "Corsairs and Travelling Players"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 1,
+     "pts": 80
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "close-combat-weapon",
+     "name": "Close Combat Weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Starweaver",
+     "stats": {
+      "M": "14\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon-4",
+    "shuriken-cannon-2"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Rapid Embarkation",
+    "Deadly Demise",
+    "Firing Deck",
+    "Battle Focus",
+    "Disparate Paths"
+   ]
+  },
+  {
+   "id": "tantalus",
+   "name": "Tantalus",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Transport",
+    "Fly",
+    "Aeldari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": null,
+   "models": [
+    {
+     "count": 1,
+     "pts": 230
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "dire-scythe-blades",
+     "name": "Dire Scythe Blades",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "pulse-disintegrators",
+     "name": "Pulse Disintegrators",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Tantalus",
+     "stats": {
+      "M": "16\"",
+      "T": "10",
+      "SV": "4+",
+      "W": "18",
+      "LD": "7+",
+      "OC": "5"
+     }
+    }
+   ],
+   "weapons": [
+    "dire-scythe-blades",
+    "pulse-disintegrators"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Damaged: 1-6 Wounds Remaining",
+    "Scything Charge",
+    "Engine of Destruction (Pain)",
+    "Deadly Demise",
+    "Deep Strike",
+    "Firing Deck",
+    "Power from Pain"
+   ]
+  },
+  {
+   "id": "vampire-hunter",
+   "name": "Vampire Hunter",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Aircraft",
+    "Titanic",
+    "Vampire Hunter",
+    "Aeldari"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 460
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "scatter-laser",
+     "name": "Scatter Laser",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-pulse-laser",
+     "name": "Twin Pulse Laser",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    },
+    {
+     "id": "twin-vampire-pulsar",
+     "name": "Twin Vampire Pulsar",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "wraithbone-hull",
+     "name": "Wraithbone hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Vampire Hunter",
+     "stats": {
+      "M": "20+\"",
+      "T": "12",
+      "SV": "3+",
+      "W": "30",
+      "LD": "6+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "scatter-laser-4",
+    "twin-pulse-laser",
+    "twin-vampire-pulsar",
+    "wraithbone-hull-2"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Battle Focus",
+    "Hover",
+    "Damaged: 1-10 Wounds Remaining",
+    "Titan Hunter",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "vampire-raider",
+   "name": "Vampire Raider",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Aircraft",
+    "Titanic",
+    "Transport",
+    "Vampire Raider",
+    "Aeldari"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 430
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "scatter-laser",
+     "name": "Scatter Laser",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-pulse-laser",
+     "name": "Twin Pulse Laser",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 2
+    },
+    {
+     "id": "wraithbone-hull",
+     "name": "Wraithbone hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Vampire Raider",
+     "stats": {
+      "M": "20+\"",
+      "T": "12",
+      "SV": "3+",
+      "W": "30",
+      "LD": "6+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "scatter-laser-4",
+    "twin-pulse-laser",
+    "wraithbone-hull-2"
+   ],
+   "abilities": [
+    "Damaged: 1-10 Wounds Remaining",
+    "Into the Foe",
+    "Transport",
+    "Invulnerable Save",
+    "Deadly Demise",
+    "Battle Focus",
+    "Hover"
+   ]
+  },
+  {
+   "id": "venom",
+   "name": "Venom",
+   "role": "Vehicle",
+   "keywords": [
+    "Venom",
+    "Aeldari",
+    "Fly",
+    "Dedicated Transport",
+    "Transport",
+    "Vehicle"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 1,
+     "pts": 70
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "bladevanes",
+     "name": "Bladevanes",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "splinter-cannon",
+     "name": "Splinter Cannon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-splinter-rifle",
+     "name": "Twin Splinter Rifle",
+     "pts": 0,
+     "group": "Weapon Option",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Venom",
+     "stats": {
+      "M": "14\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "1"
+     }
+    }
+   ],
+   "weapons": [
+    "bladevanes-3",
+    "splinter-cannon-3",
+    "twin-splinter-rifle"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Firing Deck",
+    "Stealth",
+    "Deep Strike",
+    "Power from Pain",
+    "Invulnerable Save",
+    "Aerialists",
+    "Rapid Deployment (Pain)"
+   ]
+  },
+  {
+   "id": "voidraven-bomber",
+   "name": "Voidraven Bomber",
+   "role": "Vehicle",
+   "keywords": [
+    "Voidraven",
+    "Aeldari",
+    "Aircraft",
+    "Vehicle",
+    "Fly"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 245
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "bladed-wings",
+     "name": "Bladed wings",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "voidraven-missiles",
+     "name": "Voidraven Missiles",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "2-void-lances",
+     "name": "2 Void Lances",
+     "pts": 0,
+     "group": "Weapon Option",
+     "max": 1
+    },
+    {
+     "id": "2-dark-scythes",
+     "name": "2 Dark Scythes",
+     "pts": 0,
+     "group": "Weapon Option",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Voidraven",
+     "stats": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "4+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "0"
+     }
+    }
+   ],
+   "weapons": [
+    "bladed-wings",
+    "voidraven-missiles-implosion-missiles",
+    "voidraven-missiles-shatterfield-missiles",
+    "void-lance",
+    "dark-scythe"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Damaged: 1-4 Wounds Remaining",
+    "Void Mine",
+    "Nowhere to Hide (Pain)",
+    "Deadly Demise",
+    "Stealth",
+    "Power from Pain"
+   ]
+  },
+  {
+   "id": "voidweaver",
+   "name": "Voidweaver",
+   "role": "Vehicle",
+   "keywords": [
+    "Voidweaver",
+    "Fly",
+    "Vehicle",
+    "Harlequin Allies",
+    "Aeldari",
+    "Corsairs and Travelling Players"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 125
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "close-combat-weapon",
+     "name": "Close Combat Weapon",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "prismatic-cannon",
+     "name": "Prismatic Cannon",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    },
+    {
+     "id": "voidweaver-haywire-cannon",
+     "name": "Voidweaver Haywire Cannon",
+     "pts": 0,
+     "group": "Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Voidweaver",
+     "stats": {
+      "M": "14\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "close-combat-weapon-4",
+    "prismatic-cannon-dispersed-pulse",
+    "prismatic-cannon-focused-lances",
+    "voidweaver-haywire-cannon",
+    "shuriken-cannon-2"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Polychromatic Camoflage",
+    "Deadly Demise",
+    "Battle Focus",
+    "Disparate Paths",
+    "Stealth"
+   ]
+  },
+  {
+   "id": "vypers",
+   "name": "Vypers",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Aeldari",
+    "Fly",
+    "Vypers",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "wraithbone-hull",
+     "name": "Wraithbone hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "bright-lance",
+     "name": "Bright Lance",
+     "pts": 0,
+     "group": "Bright Lance Replacement",
+     "max": null
+    },
+    {
+     "id": "scatter-laser",
+     "name": "Scatter Laser",
+     "pts": 0,
+     "group": "Bright Lance Replacement",
+     "max": null
+    },
+    {
+     "id": "starcannon",
+     "name": "Starcannon",
+     "pts": 0,
+     "group": "Bright Lance Replacement",
+     "max": null
+    },
+    {
+     "id": "shuriken-cannon",
+     "name": "Shuriken Cannon",
+     "pts": 0,
+     "group": "Shuriken Cannon Replacement",
+     "max": null
+    },
+    {
+     "id": "missile-launcher",
+     "name": "Missile Launcher",
+     "pts": 0,
+     "group": "Shuriken Cannon Replacement",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Vyper",
+     "stats": {
+      "M": "14\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "wraithbone-hull",
+    "bright-lance-2",
+    "scatter-laser-2",
+    "starcannon-2",
+    "shuriken-cannon-2",
+    "missile-launcher-starshot-2",
+    "missile-launcher-sunburst-2"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Battle Focus",
+    "Harassment Fire"
+   ]
+  },
+  {
+   "id": "war-walkers",
+   "name": "War Walkers",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Aeldari",
+    "Walker",
+    "War Walkers",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 0
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "war-walker-feet",
+     "name": "War Walker feet",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "War Walker",
+     "stats": {
+      "M": "10\"",
+      "T": "7",
+      "SV": "3+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "war-walker-feet"
+   ],
+   "abilities": [
+    "Crystalline Targeting",
+    "Battle Focus",
+    "Scouts",
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "warp-hunter",
+   "name": "Warp Hunter",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Warp Hunter",
+    "Aeldari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 145
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "d-flail",
+     "name": "D-Flail",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "wraithbone-hull",
+     "name": "Wraithbone hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-shuriken-catapult",
+     "name": "Twin Shuriken Catapult",
+     "pts": 0,
+     "group": "Hull weapon",
+     "max": 1
+    },
+    {
+     "id": "shuriken-cannon",
+     "name": "Shuriken Cannon",
+     "pts": 0,
+     "group": "Hull weapon",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Warp Hunter",
+     "stats": {
+      "M": "14\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "3"
+     }
+    }
+   ],
+   "weapons": [
+    "d-flail-blast",
+    "d-flail-rift",
+    "wraithbone-hull",
+    "twin-shuriken-catapult-2",
+    "shuriken-cannon-4"
+   ],
+   "abilities": [
+    "Deadly Demise",
+    "Battle Focus",
+    "Damaged: 1-4 Wounds Remaining",
+    "Devastating Assault"
+   ]
+  },
+  {
+   "id": "wasp-assault-walker",
+   "name": "Wasp Assault Walker",
+   "role": "Vehicle",
+   "keywords": [
+    "Vehicle",
+    "Fly",
+    "Walker",
+    "Wasp Assault Walker",
+    "Aeldari"
+   ],
+   "epicHero": false,
+   "legends": true,
+   "maxPerArmy": 3,
+   "models": [
+    {
+     "count": 1,
+     "pts": 95
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "wasp-feet",
+     "name": "Wasp feet",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    }
+   ],
+   "stats": [
+    {
+     "name": "Wasp Assault Walker",
+     "stats": {
+      "M": "10\"",
+      "T": "7",
+      "SV": "3+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "wasp-feet"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Cloudbreakers",
+    "Deep Strike",
+    "Battle Focus"
+   ]
+  },
+  {
+   "id": "wave-serpent",
+   "name": "Wave Serpent",
+   "role": "Vehicle",
+   "keywords": [
+    "Wave Serpent",
+    "Fly",
+    "Dedicated Transport",
+    "Vehicle",
+    "Transport",
+    "Aeldari",
+    "Ynnari"
+   ],
+   "epicHero": false,
+   "legends": false,
+   "maxPerArmy": 6,
+   "models": [
+    {
+     "count": 1,
+     "pts": 125
+    }
+   ],
+   "minModels": 1,
+   "maxModels": 1,
+   "wargear": [
+    {
+     "id": "wraithbone-hull",
+     "name": "Wraithbone Hull",
+     "pts": 0,
+     "group": "Wargear",
+     "max": 1
+    },
+    {
+     "id": "twin-shuriken-catapult",
+     "name": "Twin Shuriken Catapult",
+     "pts": 0,
+     "group": "Hull weapon",
+     "max": 1
+    },
+    {
+     "id": "shuriken-cannon",
+     "name": "Shuriken Cannon",
+     "pts": 0,
+     "group": "Hull weapon",
+     "max": 1
+    },
+    {
+     "id": "twin-aeldari-missile-launcher",
+     "name": "Twin Aeldari Missile Launcher",
+     "pts": 0,
+     "group": "Turret Weapon",
+     "max": null
+    },
+    {
+     "id": "twin-bright-lance",
+     "name": "Twin Bright Lance",
+     "pts": 0,
+     "group": "Turret Weapon",
+     "max": null
+    },
+    {
+     "id": "twin-scatter-laser",
+     "name": "Twin Scatter Laser",
+     "pts": 0,
+     "group": "Turret Weapon",
+     "max": null
+    },
+    {
+     "id": "twin-shuriken-cannon",
+     "name": "Twin Shuriken Cannon",
+     "pts": 0,
+     "group": "Turret Weapon",
+     "max": null
+    },
+    {
+     "id": "twin-starcannon",
+     "name": "Twin Starcannon",
+     "pts": 0,
+     "group": "Turret Weapon",
+     "max": null
+    }
+   ],
+   "stats": [
+    {
+     "name": "Wave Serpent",
+     "stats": {
+      "M": "14\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "13",
+      "LD": "7+",
+      "OC": "2"
+     }
+    }
+   ],
+   "weapons": [
+    "wraithbone-hull",
+    "twin-shuriken-catapult-2",
+    "shuriken-cannon-2",
+    "twin-aeldari-missile-launcher-starshot",
+    "twin-aeldari-missile-launcher-sunburst",
+    "twin-bright-lance",
+    "twin-scatter-laser",
+    "twin-shuriken-cannon",
+    "twin-starcannon"
+   ],
+   "abilities": [
+    "Invulnerable Save",
+    "Wave Serpent Shield",
+    "Damaged: 1-4 Wounds Remaining",
+    "Deadly Demise",
+    "Battle Focus"
+   ]
+  }
+ ]
+}
