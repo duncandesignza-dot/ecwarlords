@@ -6,13 +6,13 @@
 <title>EC Warlords — League Standings</title>
 <meta name="description" content="Current Blood Bowl and Warhammer 40,000 league standings for the Eastern Cape Warlords, plus past champions and season archive.">
 <link rel="icon" href="assets/logo.webp">
-<link rel="stylesheet" href="style.css?v=202609211428">
+<link rel="stylesheet" href="style.css?v=202609211504">
 <style>
   /* ============ STANDINGS ============ */
   .lg-tabs{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:30px;}
   .lg-tab{
     border:1px solid var(--iron);background:var(--panel);color:var(--bone-dim);
-    padding:10px 20px;font-weight:700;font-size:.82rem;letter-spacing:.06em;
+    padding:11px 22px;font-weight:700;font-size:.9rem;letter-spacing:.06em;
     text-transform:uppercase;cursor:pointer;font-family:var(--font-body);
     transition:border-color .2s var(--ease), color .2s var(--ease), background .2s var(--ease);
   }
@@ -23,11 +23,11 @@
   .lg-panel.active{display:block;}
 
   .lg-meta{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px;}
-  .lg-meta span{border:1px solid var(--iron);color:var(--bone-dim);font-size:.72rem;padding:5px 11px;letter-spacing:.04em;}
+  .lg-meta span{border:1px solid var(--iron);color:var(--bone-dim);font-size:.8rem;padding:5px 11px;letter-spacing:.04em;}
 
   .lg-table-wrap{overflow-x:auto;border:1px solid var(--iron);background:var(--panel);}
   .lg-table{width:100%;border-collapse:collapse;min-width:620px;}
-  .lg-table th,.lg-table td{text-align:left;padding:13px 14px;border-bottom:1px solid var(--iron);font-size:.92rem;}
+  .lg-table th,.lg-table td{text-align:left;padding:13px 14px;border-bottom:1px solid var(--iron);font-size:1rem;}
   .lg-table thead th{
     color:var(--crimson-glow);font-weight:700;font-size:.72rem;letter-spacing:.1em;
     text-transform:uppercase;background:var(--void-2);white-space:nowrap;
@@ -39,7 +39,7 @@
   .lg-table td.lg-pos{font-family:var(--font-display);color:var(--bone);width:52px;}
   .lg-table td.lg-name{color:var(--bone);font-weight:600;}
   .lg-table td.lg-pts{color:var(--crimson-glow);font-weight:700;}
-  .lg-table .lg-faction{display:block;font-size:.76rem;color:var(--bone-dim);font-weight:400;margin-top:3px;}
+  .lg-table .lg-faction{display:block;font-size:.84rem;color:var(--bone-dim);font-weight:400;margin-top:3px;}
   .lg-table tr.lg-top td.lg-pos{color:var(--crimson-glow);}
   .lg-table tr.lg-top{background:rgba(196,30,42,.06);}
 
@@ -54,16 +54,16 @@
   .champ svg{width:30px;height:30px;color:var(--crimson-glow);margin-bottom:12px;}
   .champ .c-season{font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--bone-dim);font-weight:700;}
   .champ h4{font-size:1.1rem;margin:8px 0 4px;color:var(--bone);}
-  .champ .c-faction{font-size:.84rem;color:var(--crimson-glow);font-weight:600;}
-  .champ p{color:var(--bone-dim);font-size:.86rem;margin-top:10px;line-height:1.55;}
+  .champ .c-faction{font-size:.92rem;color:var(--crimson-glow);font-weight:600;}
+  .champ p{color:var(--bone-dim);font-size:.94rem;margin-top:10px;line-height:1.55;}
 
   .lg-note{border:1px solid var(--iron);background:var(--void-2);padding:22px 24px;margin-top:56px;
     display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;}
-  .lg-note p{color:var(--bone-dim);font-size:.9rem;max-width:560px;}
+  .lg-note p{color:var(--bone-dim);font-size:.98rem;max-width:560px;}
   .lg-note a.btn{white-space:nowrap;}
 
   @media (max-width:700px){
-    .lg-table th,.lg-table td{padding:11px 10px;font-size:.86rem;}
+    .lg-table th,.lg-table td{padding:11px 10px;font-size:.94rem;}
   }
 </style>
 </head>
@@ -277,7 +277,7 @@
   </div>
 </footer>
 
-<script src="script.js?v=202609211428"></script>
+<script src="script.js?v=202609211504"></script>
 <script>
 (function(){
   var tabs = document.querySelectorAll('.lg-tab');
