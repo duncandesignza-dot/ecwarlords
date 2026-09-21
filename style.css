@@ -710,8 +710,8 @@ body.loaded main{animation:pageIn .5s ease both;}
 /* Cards and tiles share one consistent lift-on-hover feel */
 .teaser{transition:background .28s var(--ease), transform .28s var(--ease);}
 .teaser:hover{transform:translateY(-3px);}
-.pillar,.mcard,.game-card,.news-card{transition:border-color .25s var(--ease), transform .25s var(--ease);}
-.pillar:hover,.mcard:hover,.game-card:hover,.news-card:hover{transform:translateY(-3px);}
+.pillar,.mcard,.news-card{transition:border-color .25s var(--ease), transform .25s var(--ease);}
+.pillar:hover,.mcard:hover,.news-card:hover{transform:translateY(-3px);}
 .photo-card{transition:border-color .25s var(--ease), transform .3s var(--ease);}
 .photo-card:hover{transform:translateY(-3px);}
 
@@ -727,7 +727,7 @@ body.loaded main{animation:pageIn .5s ease both;}
 
 /* Touch devices: drop the hover-lift effects that can't be triggered anyway */
 @media (hover:none){
-  .teaser:hover,.pillar:hover,.mcard:hover,.game-card:hover,
+  .teaser:hover,.pillar:hover,.mcard:hover,
   .news-card:hover,.photo-card:hover{transform:none;}
 }
 
