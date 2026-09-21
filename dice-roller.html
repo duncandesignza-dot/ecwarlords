@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EC Warlords — Dice Roller</title>
+<meta name="description" content="Warhammer 40,000 dice roller: full attack sequence with rerolls, Sustained Hits, Lethal Hits and Devastating Wounds.">
+<link rel="icon" href="assets/logo.webp">
+<link rel="stylesheet" href="style.css?v=202609210608">
+</head>
+<body data-page="tools">
+
+<img class="page-flank page-flank-left" src="assets/hero-left.webp" alt="" aria-hidden="true">
+<img class="page-flank page-flank-right" src="assets/hero-right.webp" alt="" aria-hidden="true">
+
+<nav class="topnav">
+  <div class="wrap">
+    <a href="./" class="brand">
+      <img src="assets/logo.webp" alt="Eastern Cape Warlords crest">
+      <span>TABLETOP COMMUNITY<span class="b-sub">GQEBERHA</span></span>
+    </a>
+    <ul class="navlinks" id="navlinks">
+      <li><a href="./" data-page="home">Home</a></li>
+      <li><a href="about" data-page="about">About</a></li>
+      <li><a href="gallery" data-page="gallery">The Armory</a></li>
+      <li><a href="members" data-page="members">The Roster</a></li>
+      <li><a href="news" data-page="news">The Dispatch</a></li>
+      <li><a href="games" data-page="games">Games We Play</a></li>
+      <li><a href="tools" data-page="tools">Tools</a></li>
+      <li><a href="join" data-page="join" class="nav-cta">Join Us</a></li>
+    </ul>
+    <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+  </div>
+</nav>
+
+<main id="main">
+
+  <div class="subhero texture-void texture-stripes" style="padding-bottom:36px;">
+    <div class="wrap">
+      <div class="eyebrow"><a href="tools" style="color:inherit;">TOOLS</a> · DICE ROLLER</div>
+      <h1>Dice Roller</h1>
+      <p>Rolls the whole attack sequence and shows you every die. Set the profile, pick your abilities, roll.</p>
+    </div>
+  </div>
+
+  <div class="section" style="padding-top:26px;">
+    <div class="wrap">
+      <div class="tool-wrap reveal">
+
+        <!-- INPUTS -->
+        <div class="panel">
+          <h3>Attack profile</h3>
+
+          <div class="frow">
+            <div class="fld">
+              <label for="dr-attacks">Attacks</label>
+              <input id="dr-attacks" type="number" min="1" max="500" value="10">
+            </div>
+            <div class="fld">
+              <label for="dr-bs">Hit on (BS/WS)</label>
+              <select id="dr-bs">
+                <option value="2">2+</option>
+                <option value="3" selected>3+</option>
+                <option value="4">4+</option>
+                <option value="5">5+</option>
+                <option value="6">6+</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="frow">
+            <div class="fld">
+              <label for="dr-str">Strength</label>
+              <input id="dr-str" type="number" min="1" max="30" value="4">
+            </div>
+            <div class="fld">
+              <label for="dr-tough">Toughness</label>
+              <input id="dr-tough" type="number" min="1" max="30" value="4">
+            </div>
+          </div>
+
+          <div class="frow">
+            <div class="fld">
+              <label for="dr-ap">AP (0 to -5)</label>
+              <input id="dr-ap" type="number" min="-6" max="0" value="-1">
+            </div>
+            <div class="fld">
+              <label for="dr-save">Armour save</label>
+              <select id="dr-save">
+                <option value="2">2+</option>
+                <option value="3" selected>3+</option>
+                <option value="4">4+</option>
+                <option value="5">5+</option>
+                <option value="6">6+</option>
+                <option value="7">None</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="frow">
+            <div class="fld">
+              <label for="dr-inv">Invulnerable save</label>
+              <select id="dr-inv">
+                <option value="7" selected>None</option>
+                <option value="2">2++</option>
+                <option value="3">3++</option>
+                <option value="4">4++</option>
+                <option value="5">5++</option>
+                <option value="6">6++</option>
+              </select>
+            </div>
+            <div class="fld">
+              <label for="dr-dmg">Damage per wound</label>
+              <select id="dr-dmg">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="d3">D3</option>
+                <option value="d6">D6</option>
+                <option value="d6+2">D6+2</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="frow one">
+            <div class="fld">
+              <label for="dr-fnp">Feel No Pain</label>
+              <select id="dr-fnp">
+                <option value="7" selected>None</option>
+                <option value="4">4+++</option>
+                <option value="5">5+++</option>
+                <option value="6">6+++</option>
+              </select>
+            </div>
+          </div>
+
+          <h3 style="margin-top:26px;">Abilities <span class="hint">tap to toggle</span></h3>
+          <div class="chips" id="dr-chips">
+            <button class="chip" data-k="rrHit1">Reroll hit 1s</button>
+            <button class="chip" data-k="rrHitAll">Reroll all hits</button>
+            <button class="chip" data-k="rrWound1">Reroll wound 1s</button>
+            <button class="chip" data-k="rrWoundAll">Reroll all wounds</button>
+            <button class="chip" data-k="lethal">Lethal Hits</button>
+            <button class="chip" data-k="dev">Devastating Wounds</button>
+            <button class="chip" data-k="crit5">Crit on 5+</button>
+          </div>
+
+          <div class="frow" style="margin-top:16px;">
+            <div class="fld">
+              <label for="dr-sustain">Sustained Hits (0 = off)</label>
+              <input id="dr-sustain" type="number" min="0" max="6" value="0">
+            </div>
+            <div class="fld">
+              <label for="dr-hitmod">Hit roll modifier</label>
+              <input id="dr-hitmod" type="number" min="-2" max="2" value="0">
+            </div>
+          </div>
+
+          <div style="display:flex;gap:12px;margin-top:22px;flex-wrap:wrap;">
+            <button class="btn btn-primary" id="dr-roll">Roll Attack</button>
+            <button class="btn btn-ghost" id="dr-clear">Clear</button>
+          </div>
+        </div>
+
+        <!-- OUTPUT -->
+        <div class="panel">
+          <h3>Result</h3>
+          <div class="bigout">
+            <div class="num" id="dr-total">—</div>
+            <div class="lbl">DAMAGE DEALT</div>
+          </div>
+
+          <div class="steps-out" id="dr-steps">
+            <div class="step-row"><span>Attacks made</span><span id="dr-s-att">—</span></div>
+            <div class="step-row"><span>Hits</span><span id="dr-s-hit">—</span></div>
+            <div class="step-row"><span>Wounds</span><span id="dr-s-wnd">—</span></div>
+            <div class="step-row"><span>Failed saves</span><span id="dr-s-fail">—</span></div>
+            <div class="step-row"><span>Damage after FNP</span><span id="dr-s-dmg">—</span></div>
+          </div>
+
+          <div id="dr-trays"></div>
+          <p style="color:var(--bone-dim);font-size:.82rem;margin-top:20px;line-height:1.5;" id="dr-note">
+            Set your profile and hit <strong>Roll Attack</strong>. Every die is shown below the summary — crits highlighted in gold.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/logo.webp" alt="Eastern Cape Warlords crest">
+        Eastern Cape Warlords
+      </div>
+      <div class="footer-links">
+        <a href="./">Home</a>
+        <a href="about">About</a>
+        <a href="gallery">The Armory</a>
+        <a href="members">The Roster</a>
+        <a href="news">The Dispatch</a>
+        <a href="games">Games We Play</a>
+        <a href="tools">Tools</a>
+        <a href="join">Join Us</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Eastern Cape Warlords Wargaming Club. Warhammer 40,000, Warhammer Age of Sigmar, and Blood Bowl are trademarks of Games Workshop Ltd. Kings of War is a trademark of Mantic Games. Dungeons &amp; Dragons is a trademark of Wizards of the Coast. Not affiliated with or endorsed by any of the above.</span>
+      <span>Eastern Cape · Thursdays, 7–10 PM</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js?v=202609210608"></script>
+<script>
+(function(){
+  "use strict";
+  var $ = function(id){ return document.getElementById(id); };
+  var d6 = function(){ return Math.floor(Math.random()*6)+1; };
+
+  var flags = {};
+  var chipHost = $('dr-chips');
+  chipHost.addEventListener('click', function(e){
+    var c = e.target.closest('.chip');
+    if(!c) return;
+    var k = c.dataset.k;
+    flags[k] = !flags[k];
+    c.classList.toggle('on', !!flags[k]);
+    // Reroll-all supersedes reroll-1s; keep the pair mutually exclusive
+    if(k === 'rrHitAll' && flags[k]){ flags.rrHit1 = false; chipHost.querySelector('[data-k=rrHit1]').classList.remove('on'); }
+    if(k === 'rrHit1' && flags[k]){ flags.rrHitAll = false; chipHost.querySelector('[data-k=rrHitAll]').classList.remove('on'); }
+    if(k === 'rrWoundAll' && flags[k]){ flags.rrWound1 = false; chipHost.querySelector('[data-k=rrWound1]').classList.remove('on'); }
+    if(k === 'rrWound1' && flags[k]){ flags.rrWoundAll = false; chipHost.querySelector('[data-k=rrWoundAll]').classList.remove('on'); }
+  });
+
+  // 10th-ed wound chart
+  function woundTarget(S, T){
+    if(S >= T*2) return 2;
+    if(S >  T)   return 3;
+    if(S === T)  return 4;
+    if(S*2 <= T) return 6;
+    return 5;
+  }
+
+  function rollDamage(spec){
+    if(spec === 'd3') return Math.floor(Math.random()*3)+1;
+    if(spec === 'd6') return d6();
+    if(spec === 'd6+2') return d6()+2;
+    return parseInt(spec,10);
+  }
+
+  function tray(title, dice){
+    if(!dice.length) return '';
+    var html = '<div style="margin-top:18px;"><div style="font-size:.72rem;letter-spacing:.1em;color:var(--bone-dim);font-weight:700;margin-bottom:8px;">'+title+'</div><div class="dice-tray">';
+    dice.forEach(function(d){
+      html += '<div class="die '+d.cls+'" style="animation-delay:'+Math.min(d.i*12,600)+'ms">'+d.v+'</div>';
+    });
+    return html + '</div></div>';
+  }
+
+  $('dr-roll').addEventListener('click', function(){
+    var attacks  = Math.max(1, Math.min(500, parseInt($('dr-attacks').value,10) || 1));
+    var bs       = parseInt($('dr-bs').value,10);
+    var S        = parseInt($('dr-str').value,10) || 1;
+    var T        = parseInt($('dr-tough').value,10) || 1;
+    var ap       = parseInt($('dr-ap').value,10) || 0;
+    var sv       = parseInt($('dr-save').value,10);
+    var inv      = parseInt($('dr-inv').value,10);
+    var dmgSpec  = $('dr-dmg').value;
+    var fnp      = parseInt($('dr-fnp').value,10);
+    var sustain  = Math.max(0, parseInt($('dr-sustain').value,10) || 0);
+    var hitMod   = parseInt($('dr-hitmod').value,10) || 0;
+    var critOn   = flags.crit5 ? 5 : 6;
+
+    var hitDice = [], woundDice = [], saveDice = [];
+    var hits = 0, autoWounds = 0, mortalish = 0;
+
+    // ---- HIT ROLLS ----
+    for(var i=0;i<attacks;i++){
+      var r = d6();
+      var needsRR = (flags.rrHitAll && (r+hitMod) < bs) || (flags.rrHit1 && r === 1);
+      if(needsRR) r = d6();
+      var eff = r + hitMod;
+      var isCrit = (r >= critOn); // unmodified roll decides crits
+      var success = isCrit || (r !== 1 && eff >= bs);
+
+      hitDice.push({v:r, i:i, cls: isCrit ? 'crit' : (success ? 'hit' : 'miss')});
+
+      if(success){
+        if(isCrit && flags.lethal){
+          autoWounds++;                       // Lethal Hits: auto-wound
+          if(sustain) hits += sustain;        // sustained extras still roll to wound
+        } else {
+          hits++;
+          if(isCrit && sustain) hits += sustain;
+        }
+      }
+    }
+
+    // ---- WOUND ROLLS ----
+    var wt = woundTarget(S, T);
+    var wounds = autoWounds;
+    var devWounds = 0;
+    for(var j=0;j<hits;j++){
+      var w = d6();
+      var wrr = (flags.rrWoundAll && w < wt) || (flags.rrWound1 && w === 1);
+      if(wrr) w = d6();
+      var wCrit = (w >= critOn);
+      var wSuccess = wCrit || (w !== 1 && w >= wt);
+      woundDice.push({v:w, i:j, cls: wCrit ? 'crit' : (wSuccess ? 'hit' : 'miss')});
+      if(wSuccess){
+        if(wCrit && flags.dev) devWounds++;   // Devastating Wounds skip saves
+        else wounds++;
+      }
+    }
+
+    // ---- SAVES ----
+    var modSave = sv === 7 ? 7 : sv - ap;     // ap is negative, so this raises the target
+    var bestSave = Math.min(modSave, inv);
+    var failed = 0;
+    for(var k=0;k<wounds;k++){
+      if(bestSave >= 7){ failed++; saveDice.push({v:'–', i:k, cls:'miss'}); continue; }
+      var s = d6();
+      var saved = (s !== 1 && s >= bestSave);
+      saveDice.push({v:s, i:k, cls: saved ? 'hit' : 'miss'});
+      if(!saved) failed++;
+    }
+
+    // ---- DAMAGE ----
+    var totalDmg = 0;
+    var unsaved = failed + devWounds;
+    for(var m=0;m<unsaved;m++){
+      var dmg = rollDamage(dmgSpec);
+      if(fnp < 7){
+        var kept = 0;
+        for(var n=0;n<dmg;n++){ if(d6() < fnp) kept++; }
+        dmg = kept;
+      }
+      totalDmg += dmg;
+    }
+
+    $('dr-total').textContent = totalDmg;
+    $('dr-s-att').textContent  = attacks;
+    $('dr-s-hit').textContent  = (hits + autoWounds) + (autoWounds ? ' (' + autoWounds + ' lethal)' : '');
+    $('dr-s-wnd').textContent  = (wounds + devWounds) + (devWounds ? ' (' + devWounds + ' dev)' : '');
+    $('dr-s-fail').textContent = unsaved + (bestSave >= 7 ? ' (no save)' : '');
+    $('dr-s-dmg').textContent  = totalDmg;
+
+    $('dr-trays').innerHTML =
+      tray('HIT ROLLS — need ' + bs + '+' + (hitMod ? ' (mod ' + (hitMod>0?'+':'') + hitMod + ')' : ''), hitDice) +
+      tray('WOUND ROLLS — need ' + wt + '+', woundDice) +
+      tray('SAVES — need ' + (bestSave >= 7 ? 'none' : bestSave + '+'), saveDice);
+
+    $('dr-note').innerHTML = 'Crits on <strong>' + critOn + '+</strong>. Gold dice are critical rolls; red are successes; grey are failures.';
+  });
+
+  $('dr-clear').addEventListener('click', function(){
+    $('dr-total').textContent = '—';
+    ['dr-s-att','dr-s-hit','dr-s-wnd','dr-s-fail','dr-s-dmg'].forEach(function(id){ $(id).textContent = '—'; });
+    $('dr-trays').innerHTML = '';
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+ "generated": "2026-09-21",
+ "source": "BSData wh40k-10e (https://github.com/BSData/wh40k-10e)",
+ "factions": [
+  {
+   "id": "orks",
+   "name": "Orks",
+   "file": "orks.json",
+   "datasheets": 57
+  }
+ ]
+}

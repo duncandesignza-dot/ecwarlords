@@ -1,0 +1,2326 @@
+{
+ "id": "orks",
+ "name": "Orks",
+ "source": "BSData wh40k-10e",
+ "generated": "2026-09-21",
+ "detachments": [
+  {
+   "id": "war-horde",
+   "name": "War Horde",
+   "enhancements": [
+    {
+     "id": "supa-cybork-body",
+     "name": "Supa-Cybork Body",
+     "pts": 15
+    },
+    {
+     "id": "headwoppa-s-killchoppa",
+     "name": "Headwoppa’s Killchoppa",
+     "pts": 20
+    },
+    {
+     "id": "kunnin-but-brutal",
+     "name": "Kunnin’ But Brutal",
+     "pts": 15
+    },
+    {
+     "id": "follow-me-ladz",
+     "name": "Follow Me Ladz",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "da-big-hunt",
+   "name": "Da Big Hunt",
+   "enhancements": [
+    {
+     "id": "surly-as-a-squiggoth",
+     "name": "Surly As A Squiggoth",
+     "pts": 20
+    },
+    {
+     "id": "skrag-every-stash",
+     "name": "Skrag Every Stash!",
+     "pts": 25
+    },
+    {
+     "id": "proper-killy",
+     "name": "Proper Killy",
+     "pts": 15
+    },
+    {
+     "id": "glory-hog",
+     "name": "Glory Hog",
+     "pts": 30
+    }
+   ]
+  },
+  {
+   "id": "dread-mob",
+   "name": "Dread Mob",
+   "enhancements": [
+    {
+     "id": "gitfinder-gogglez",
+     "name": "Gitfinder Gogglez",
+     "pts": 10
+    },
+    {
+     "id": "press-it-fasta",
+     "name": "Press It Fasta!",
+     "pts": 35
+    },
+    {
+     "id": "supa-glowy-fing",
+     "name": "Supa-glowy Fing",
+     "pts": 20
+    },
+    {
+     "id": "smoky-gubbinz",
+     "name": "Smoky Gubbinz",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "green-tide",
+   "name": "Green Tide",
+   "enhancements": [
+    {
+     "id": "ferocious-show-off",
+     "name": "Ferocious Show Off",
+     "pts": 10
+    },
+    {
+     "id": "brutal-but-kunnin",
+     "name": "Brutal But Kunnin'",
+     "pts": 25
+    },
+    {
+     "id": "raucous-warcaller",
+     "name": "Raucous Warcaller",
+     "pts": 20
+    },
+    {
+     "id": "bloodthirsty-belligerence",
+     "name": "Bloodthirsty Belligerence",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "bully-boyz",
+   "name": "Bully Boyz",
+   "enhancements": [
+    {
+     "id": "da-biggest-boss",
+     "name": "Da Biggest Boss",
+     "pts": 15
+    },
+    {
+     "id": "big-gob",
+     "name": "Big Gob",
+     "pts": 20
+    },
+    {
+     "id": "eadstompa",
+     "name": "'Eadstompa",
+     "pts": 10
+    },
+    {
+     "id": "tellyporta",
+     "name": "Tellyporta",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "kult-of-speed",
+   "name": "Kult of Speed",
+   "enhancements": [
+    {
+     "id": "fasta-than-yooz",
+     "name": "Fasta Than Yooz",
+     "pts": 35
+    },
+    {
+     "id": "squig-hide-tyres",
+     "name": "Squig-hide Tyres",
+     "pts": 15
+    },
+    {
+     "id": "speed-makes-right",
+     "name": "Speed Makes Right",
+     "pts": 25
+    },
+    {
+     "id": "wazblasta",
+     "name": "Wazblasta",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "taktikal-brigade",
+   "name": "Taktikal Brigade",
+   "enhancements": [
+    {
+     "id": "gob-boomer",
+     "name": "Gob Boomer",
+     "pts": 10
+    },
+    {
+     "id": "mork-s-kunnin",
+     "name": "Mork's Kunnin'",
+     "pts": 15
+    },
+    {
+     "id": "mek-kaptin",
+     "name": "Mek Kaptin",
+     "pts": 45
+    },
+    {
+     "id": "skwad-leader",
+     "name": "Skwad Leader",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "more-dakka",
+   "name": "More Dakka!",
+   "enhancements": [
+    {
+     "id": "da-gobshot-thunderbuss",
+     "name": "Da Gobshot Thunderbuss",
+     "pts": 15
+    },
+    {
+     "id": "targetin-squigs",
+     "name": "Targetin' Squigs",
+     "pts": 15
+    },
+    {
+     "id": "dead-shiny-shootas",
+     "name": "Dead Shiny Shootas",
+     "pts": 35
+    },
+    {
+     "id": "zog-off-and-eat-dakka",
+     "name": "Zog Off And Eat Dakka!",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "freebooter-krew",
+   "name": "Freebooter Krew",
+   "enhancements": [
+    {
+     "id": "razgit-s-magik-map",
+     "name": "Razgit's Magik Map",
+     "pts": 25
+    },
+    {
+     "id": "git-spotter-squig",
+     "name": "Git-spotter Squig",
+     "pts": 20
+    },
+    {
+     "id": "bionik-workshop",
+     "name": "Bionik Workshop",
+     "pts": 15
+    },
+    {
+     "id": "da-kaptin",
+     "name": "Da Kaptin",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "ramship-raiders",
+   "name": "Ramship Raiders",
+   "enhancements": [
+    {
+     "id": "living-battering-ram",
+     "name": "Living Battering Ram",
+     "pts": 0
+    },
+    {
+     "id": "scarred-brute",
+     "name": "Scarred Brute",
+     "pts": 0
+    }
+   ]
+  },
+  {
+   "id": "kaptin-killers",
+   "name": "Kaptin Killers",
+   "enhancements": [
+    {
+     "id": "tellyporta",
+     "name": "Tellyporta",
+     "pts": 0
+    },
+    {
+     "id": "gnasher-squig-crates",
+     "name": "Gnasher Squig Crates",
+     "pts": 0
+    }
+   ]
+  },
+  {
+   "id": "speedwaaagh",
+   "name": "Speedwaaagh!",
+   "enhancements": [
+    {
+     "id": "master-meknologist",
+     "name": "Master Meknologist",
+     "pts": 20
+    },
+    {
+     "id": "dakkamek",
+     "name": "Dakkamek",
+     "pts": 25
+    },
+    {
+     "id": "supa-burny-fuel",
+     "name": "Supa-burny Fuel",
+     "pts": 15
+    },
+    {
+     "id": "kustom-shokk-box",
+     "name": "Kustom Shokk Box",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "blitz-brigade",
+   "name": "Blitz Brigade",
+   "enhancements": [
+    {
+     "id": "supercharged-squig-oil",
+     "name": "Supercharged Squig Oil",
+     "pts": 10
+    },
+    {
+     "id": "runnin-boots",
+     "name": "Runnin' Boots",
+     "pts": 10
+    },
+    {
+     "id": "tuff-git",
+     "name": "Tuff Git",
+     "pts": 5
+    },
+    {
+     "id": "blitzkaptin",
+     "name": "Blitzkaptin",
+     "pts": 25
+    }
+   ]
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "battlewagon",
+   "name": "Battlewagon",
+   "legends": false,
+   "keywords": [
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 160
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "ard-case",
+       "name": "’Ard Case",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-big-gun",
+     "name": "Wargear · Big Gun",
+     "max": 1,
+     "choices": [
+      {
+       "id": "killkannon",
+       "name": "Killkannon",
+       "pts": 0
+      },
+      {
+       "id": "zzap-gun",
+       "name": "Zzap gun",
+       "pts": 0
+      },
+      {
+       "id": "kannon",
+       "name": "Kannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "beast-snagga-boyz",
+   "name": "Beast Snagga Boyz",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 10,
+     "pts": 95
+    },
+    {
+     "models": 20,
+     "pts": 190
+    }
+   ],
+   "options": [
+    {
+     "id": "9-19-beast-snagga-boyz",
+     "name": "9-19 Beast Snagga Boyz",
+     "max": 19,
+     "choices": [
+      {
+       "id": "beast-snagga-boy-w-thump-gun",
+       "name": "Beast Snagga Boy w/ Thump gun",
+       "pts": 0
+      },
+      {
+       "id": "beast-snagga-boy",
+       "name": "Beast Snagga Boy",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "beast-snagga-nob",
+     "name": "Beast Snagga Nob",
+     "max": null,
+     "choices": [
+      {
+       "id": "beast-snagga-nob",
+       "name": "Beast Snagga Nob",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6
+  },
+  {
+   "id": "beastboss",
+   "name": "Beastboss",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "beast-snagga-klaw",
+       "name": "Beast Snagga klaw",
+       "pts": 0
+      },
+      {
+       "id": "shoota",
+       "name": "Shoota",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "beastboss-on-squigosaur",
+   "name": "Beastboss on Squigosaur",
+   "legends": false,
+   "keywords": [
+    "CHARACTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 110
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "squigosaur-s-jaws",
+       "name": "Squigosaur’s jaws",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "big-mek",
+   "name": "Big Mek",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [],
+   "rosterMax": 3
+  },
+  {
+   "id": "big-mek-in-mega-armour",
+   "name": "Big Mek in Mega Armour",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 90
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-additional-options",
+     "name": "Wargear · Additional Options",
+     "max": 1,
+     "choices": [
+      {
+       "id": "tellyport-blasta",
+       "name": "Tellyport blasta",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-grot-oiler",
+     "name": "Wargear · Grot Oiler",
+     "max": 1,
+     "choices": [
+      {
+       "id": "grot-oiler",
+       "name": "Grot oiler",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "big-mek-with-shokk-attack-gun",
+   "name": "Big Mek with Shokk Attack Gun",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-grot-assistant",
+     "name": "Wargear · Grot Assistant",
+     "max": 1,
+     "choices": [
+      {
+       "id": "grot-assistant",
+       "name": "Grot assistant",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "big-ed-bossbunka",
+   "name": "Big'ed Bossbunka",
+   "legends": false,
+   "keywords": [
+    "FORTIFICATION",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 135
+    }
+   ],
+   "options": [],
+   "rosterMax": 3
+  },
+  {
+   "id": "blitza-bommer",
+   "name": "Blitza-bommer",
+   "legends": false,
+   "keywords": [
+    "AIRCRAFT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 115
+    }
+   ],
+   "options": [],
+   "rosterMax": 3
+  },
+  {
+   "id": "boomdakka-snazzwagon",
+   "name": "Boomdakka Snazzwagon",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "mek-speshul",
+       "name": "Mek speshul",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "boss-snikrot",
+   "name": "Boss Snikrot",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [],
+   "rosterMax": 1
+  },
+  {
+   "id": "boyz",
+   "name": "Boyz",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 10,
+     "pts": 80
+    },
+    {
+     "models": 20,
+     "pts": 170
+    }
+   ],
+   "options": [
+    {
+     "id": "9-19-boyz",
+     "name": "9-19 Boyz",
+     "max": 19,
+     "choices": [
+      {
+       "id": "boy-w-slugga-and-choppa",
+       "name": "Boy w/ Slugga and choppa",
+       "pts": 0
+      },
+      {
+       "id": "boy-w-shoota-and-close-combat-weapon",
+       "name": "Boy w/ Shoota and close combat weapon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "9-19-boyz-special-weapons",
+     "name": "9-19 Boyz · Special Weapons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "boy-w-big-shoota-and-close-combat-weapon",
+       "name": "Boy w/ Big shoota and close combat weapon",
+       "pts": 0
+      },
+      {
+       "id": "boy-w-rokkit-launcha-and-close-combat-weapon",
+       "name": "Boy w/ Rokkit launcha and close combat weapon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "boss-nob",
+     "name": "Boss Nob",
+     "max": null,
+     "choices": [
+      {
+       "id": "boss-nob",
+       "name": "Boss Nob",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6
+  },
+  {
+   "id": "breaka-boyz",
+   "name": "Breaka Boyz",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 6,
+     "pts": 140
+    }
+   ],
+   "options": [
+    {
+     "id": "breaka-boyz",
+     "name": "Breaka Boyz",
+     "max": 5,
+     "choices": [
+      {
+       "id": "breaka-boy",
+       "name": "Breaka Boy",
+       "pts": 0
+      },
+      {
+       "id": "breaka-boy-w-tankhammer",
+       "name": "Breaka Boy w/ Tankhammer",
+       "pts": 0
+      },
+      {
+       "id": "breaka-boy-w-knucklebustas",
+       "name": "Breaka Boy w/ Knucklebustas",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "boss-nob",
+     "name": "Boss Nob",
+     "max": null,
+     "choices": [
+      {
+       "id": "boss-nob",
+       "name": "Boss Nob",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "burna-boyz",
+   "name": "Burna Boyz",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 60
+    },
+    {
+     "models": 10,
+     "pts": 120
+    }
+   ],
+   "options": [],
+   "rosterMax": 3
+  },
+  {
+   "id": "burna-bommer",
+   "name": "Burna-bommer",
+   "legends": false,
+   "keywords": [
+    "AIRCRAFT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 125
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-skorcha-missile-rack",
+     "name": "Wargear · Skorcha Missile Rack",
+     "max": 1,
+     "choices": [
+      {
+       "id": "skorcha-missile-rack",
+       "name": "Skorcha missile rack",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "dakkajet",
+   "name": "Dakkajet",
+   "legends": false,
+   "keywords": [
+    "AIRCRAFT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 135
+    }
+   ],
+   "options": [],
+   "rosterMax": 3
+  },
+  {
+   "id": "deff-dread",
+   "name": "Deff Dread",
+   "legends": false,
+   "keywords": [
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 120
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "stompy-feet",
+       "name": "Stompy feet",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-wargear-options",
+     "name": "Wargear · Wargear Options",
+     "max": 4,
+     "choices": [
+      {
+       "id": "dread-klaw",
+       "name": "Dread klaw",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "deffkilla-wartrike",
+   "name": "Deffkilla Wartrike",
+   "legends": false,
+   "keywords": [
+    "CHARACTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "deffkilla-boomstikks",
+       "name": "Deffkilla boomstikks",
+       "pts": 0
+      },
+      {
+       "id": "killa-jet",
+       "name": "Killa jet",
+       "pts": 0
+      },
+      {
+       "id": "snagga-klaw",
+       "name": "Snagga klaw",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "deffkoptas",
+   "name": "Deffkoptas",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 3,
+     "pts": 80
+    },
+    {
+     "models": 6,
+     "pts": 160
+    }
+   ],
+   "options": [
+    {
+     "id": "deffkoptas-3-6",
+     "name": "Deffkoptas (3-6)",
+     "max": 6,
+     "choices": [
+      {
+       "id": "deffkopta",
+       "name": "Deffkopta",
+       "pts": 0
+      },
+      {
+       "id": "deffkopta-w-kustom-mega-blasta",
+       "name": "Deffkopta w/ Kustom mega-blasta",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "flash-gitz",
+   "name": "Flash Gitz",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 80
+    },
+    {
+     "models": 10,
+     "pts": 160
+    }
+   ],
+   "options": [
+    {
+     "id": "ammo-runt",
+     "name": "Ammo Runt",
+     "max": null,
+     "choices": [
+      {
+       "id": "ammo-runt",
+       "name": "Ammo Runt",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "4-9-flash-gitz",
+     "name": "4-9 Flash Gitz",
+     "max": 9,
+     "choices": [
+      {
+       "id": "flash-gitz",
+       "name": "Flash Gitz",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "kaptin",
+     "name": "Kaptin",
+     "max": null,
+     "choices": [
+      {
+       "id": "kaptin",
+       "name": "Kaptin",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "gargantuan-squiggoth",
+   "name": "Gargantuan Squiggoth",
+   "legends": false,
+   "keywords": [
+    "MONSTER",
+    "TITANIC",
+    "TRANSPORT"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 440
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "huge-tusks",
+       "name": "Huge tusks",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-wargear-options",
+     "name": "Wargear · Wargear Options",
+     "max": 1,
+     "choices": [
+      {
+       "id": "supa-kannon",
+       "name": "Supa-kannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "ghazghkull-thraka",
+   "name": "Ghazghkull Thraka",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 235
+    }
+   ],
+   "options": [],
+   "rosterMax": 1
+  },
+  {
+   "id": "gorkanaut",
+   "name": "Gorkanaut",
+   "legends": false,
+   "keywords": [
+    "TITANIC",
+    "TRANSPORT",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 265
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "deffstorm-mega-shoota",
+       "name": "Deffstorm mega-shoota",
+       "pts": 0
+      },
+      {
+       "id": "klaw-of-gork",
+       "name": "Klaw of Gork",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "gretchin",
+   "name": "Gretchin",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 11,
+     "pts": 40
+    },
+    {
+     "models": 22,
+     "pts": 80
+    }
+   ],
+   "options": [],
+   "rosterMax": 3
+  },
+  {
+   "id": "hordeboss",
+   "name": "Hordeboss [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [],
+   "rosterMax": 3
+  },
+  {
+   "id": "hunta-rig",
+   "name": "Hunta Rig",
+   "legends": false,
+   "keywords": [
+    "MONSTER",
+    "TRANSPORT"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 135
+    }
+   ],
+   "options": [],
+   "rosterMax": 3
+  },
+  {
+   "id": "kill-rig",
+   "name": "Kill Rig",
+   "legends": false,
+   "keywords": [
+    "MONSTER",
+    "PSYKER",
+    "TRANSPORT"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 155
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "wurrtower",
+       "name": "Wurrtower",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "killa-kans",
+   "name": "Killa Kans",
+   "legends": false,
+   "keywords": [
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 3,
+     "pts": 125
+    },
+    {
+     "models": 6,
+     "pts": 250
+    }
+   ],
+   "options": [
+    {
+     "id": "killa-kans-3-6",
+     "name": "Killa Kans (3-6)",
+     "max": 6,
+     "choices": [
+      {
+       "id": "killa-kan-w-kan-shoota",
+       "name": "Killa Kan w/ Kan shoota",
+       "pts": 0
+      },
+      {
+       "id": "killa-kan-w-grotzooka",
+       "name": "Killa Kan w/ Grotzooka",
+       "pts": 0
+      },
+      {
+       "id": "killa-kan-w-rokkit-launcha",
+       "name": "Killa Kan w/ Rokkit launcha",
+       "pts": 0
+      },
+      {
+       "id": "killa-kan-w-skorcha",
+       "name": "Killa Kan w/ Skorcha",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "kommandos",
+   "name": "Kommandos",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 10,
+     "pts": 120
+    }
+   ],
+   "options": [
+    {
+     "id": "9-kommandos",
+     "name": "9 Kommandos",
+     "max": 9,
+     "choices": [
+      {
+       "id": "kommandos-w-slugga-and-choppa",
+       "name": "Kommandos w/ Slugga and choppa",
+       "pts": 0
+      },
+      {
+       "id": "kommandos-w-kustom-shoota",
+       "name": "Kommandos w/ Kustom shoota",
+       "pts": 0
+      },
+      {
+       "id": "kommandos-w-breacha-ram",
+       "name": "Kommandos w/ Breacha ram",
+       "pts": 0
+      },
+      {
+       "id": "kommandos-w-burna",
+       "name": "Kommandos w/ Burna",
+       "pts": 0
+      },
+      {
+       "id": "kommandos-w-rokkit-launcha",
+       "name": "Kommandos w/ Rokkit launcha",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "distraction-grot",
+       "name": "Distraction Grot",
+       "pts": 0
+      },
+      {
+       "id": "bomb-squig",
+       "name": "Bomb Squig",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "boss-nob",
+     "name": "Boss Nob",
+     "max": null,
+     "choices": [
+      {
+       "id": "boss-nob",
+       "name": "Boss Nob",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "kustom-boosta-blasta",
+   "name": "Kustom Boosta-blasta",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "burna-exhausts",
+       "name": "Burna exhausts",
+       "pts": 0
+      },
+      {
+       "id": "rivet-kannon",
+       "name": "Rivet kannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "lootas",
+   "name": "Lootas",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 50
+    },
+    {
+     "models": 10,
+     "pts": 100
+    }
+   ],
+   "options": [],
+   "rosterMax": 3
+  },
+  {
+   "id": "meganobz",
+   "name": "Meganobz",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 2,
+     "pts": 65
+    },
+    {
+     "models": 6,
+     "pts": 95
+    }
+   ],
+   "options": [
+    {
+     "id": "2-6-meganobz",
+     "name": "2-6 Meganobz",
+     "max": 6,
+     "choices": [
+      {
+       "id": "meganob-w-kustom-shoota-and-power-klaw",
+       "name": "Meganob w/ Kustom shoota and power klaw",
+       "pts": 0
+      },
+      {
+       "id": "meganob-w-kombi-weapon-and-power-klaw",
+       "name": "Meganob w/ Kombi-weapon and power klaw",
+       "pts": 0
+      },
+      {
+       "id": "meganob-w-kombi-weapon-and-killsaw",
+       "name": "Meganob w/ Kombi-weapon and killsaw",
+       "pts": 0
+      },
+      {
+       "id": "meganob-w-kustom-shoota-and-killsaw",
+       "name": "Meganob w/ Kustom shoota and killsaw",
+       "pts": 0
+      },
+      {
+       "id": "meganob-w-killsaw-and-power-klaw",
+       "name": "Meganob w/ Killsaw and power klaw",
+       "pts": 0
+      },
+      {
+       "id": "meganob-w-twin-killsaw",
+       "name": "Meganob w/ Twin killsaw",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "megatrakk-scrapjet",
+   "name": "Megatrakk Scrapjet",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "nose-drill",
+       "name": "Nose drill",
+       "pts": 0
+      },
+      {
+       "id": "rokkit-cannon",
+       "name": "Rokkit cannon",
+       "pts": 0
+      },
+      {
+       "id": "wing-missiles",
+       "name": "Wing missiles",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "mek",
+   "name": "Mek",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 45
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-wrench",
+     "name": "Wargear · Wrench",
+     "max": 1,
+     "choices": [
+      {
+       "id": "wrench",
+       "name": "Wrench",
+       "pts": 0
+      },
+      {
+       "id": "killsaw",
+       "name": "Killsaw",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "mek-gunz",
+   "name": "Mek Gunz",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 50
+    },
+    {
+     "models": 3,
+     "pts": 150
+    }
+   ],
+   "options": [
+    {
+     "id": "mek-gunz-1-3",
+     "name": "Mek Gunz (1-3)",
+     "max": 3,
+     "choices": [
+      {
+       "id": "mek-gun-w-smasha-gun",
+       "name": "Mek Gun w/ Smasha gun",
+       "pts": 50
+      },
+      {
+       "id": "mek-gun-w-bubblechukka",
+       "name": "Mek Gun w/ Bubblechukka",
+       "pts": 50
+      },
+      {
+       "id": "mek-gun-w-kustom-mega-kannon",
+       "name": "Mek Gun w/ Kustom mega-kannon",
+       "pts": 50
+      },
+      {
+       "id": "mek-gun-w-traktor-kannon",
+       "name": "Mek Gun w/ Traktor kannon",
+       "pts": 50
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "morkanaut",
+   "name": "Morkanaut",
+   "legends": false,
+   "keywords": [
+    "TITANIC",
+    "TRANSPORT",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 280
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "klaw-of-mork",
+       "name": "Klaw of Mork",
+       "pts": 0
+      },
+      {
+       "id": "kustom-mega-zappa",
+       "name": "Kustom mega-zappa",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "mozrog-skragbad",
+   "name": "Mozrog Skragbad",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 145
+    }
+   ],
+   "options": [],
+   "rosterMax": 1
+  },
+  {
+   "id": "nobz",
+   "name": "Nobz",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 105
+    },
+    {
+     "models": 10,
+     "pts": 210
+    }
+   ],
+   "options": [
+    {
+     "id": "4-9-nobz",
+     "name": "4-9 Nobz",
+     "max": 9,
+     "choices": [
+      {
+       "id": "nob-w-slugga-and-big-choppa",
+       "name": "Nob w/ Slugga and big choppa",
+       "pts": 0
+      },
+      {
+       "id": "nob-w-slugga-and-power-klaw",
+       "name": "Nob w/ Slugga and power klaw",
+       "pts": 0
+      },
+      {
+       "id": "nob-w-kombi-weapon",
+       "name": "Nob w/ Kombi-weapon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "ammo-runts",
+     "name": "Ammo Runts",
+     "max": null,
+     "choices": [
+      {
+       "id": "ammo-runt",
+       "name": "Ammo Runt",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "boss-nob",
+     "name": "Boss Nob",
+     "max": null,
+     "choices": [
+      {
+       "id": "boss-nob",
+       "name": "Boss Nob",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "painboss",
+   "name": "Painboss",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "beast-snagga-klaw",
+       "name": "Beast Snagga klaw",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-grot-orderly",
+     "name": "Wargear · Grot Orderly",
+     "max": null,
+     "choices": [
+      {
+       "id": "grot-orderly",
+       "name": "Grot orderly",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "painboy",
+   "name": "Painboy",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-grot-orderly",
+     "name": "Wargear · Grot Orderly",
+     "max": null,
+     "choices": [
+      {
+       "id": "grot-orderly",
+       "name": "Grot orderly",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "rukkatrukk-squigbuggy",
+   "name": "Rukkatrukk Squigbuggy",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 95
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "sawn-off-shotgun",
+       "name": "Sawn-off shotgun",
+       "pts": 0
+      },
+      {
+       "id": "squig-launchas",
+       "name": "Squig launchas",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "shokkjump-dragsta",
+   "name": "Shokkjump Dragsta",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "kustom-shokk-rifle",
+       "name": "Kustom shokk rifle",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "squighog-boyz",
+   "name": "Squighog Boyz",
+   "legends": false,
+   "keywords": [
+    "GRENADES"
+   ],
+   "unitSizes": [
+    {
+     "models": 4,
+     "pts": 150
+    },
+    {
+     "models": 8,
+     "pts": 300
+    }
+   ],
+   "options": [
+    {
+     "id": "bomb-squigs",
+     "name": "Bomb Squigs",
+     "max": null,
+     "choices": [
+      {
+       "id": "bomb-squig",
+       "name": "Bomb squig",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "stompa",
+   "name": "Stompa",
+   "legends": false,
+   "keywords": [
+    "TITANIC",
+    "TRANSPORT",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 800
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "deffkannon",
+       "name": "Deffkannon",
+       "pts": 0
+      },
+      {
+       "id": "mega-choppa",
+       "name": "Mega-choppa",
+       "pts": 0
+      },
+      {
+       "id": "supa-gatler",
+       "name": "Supa-gatler",
+       "pts": 0
+      },
+      {
+       "id": "supa-rokkits",
+       "name": "Supa-rokkits",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "stormboyz",
+   "name": "Stormboyz",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 65
+    },
+    {
+     "models": 10,
+     "pts": 130
+    }
+   ],
+   "options": [
+    {
+     "id": "4-9-stormboyz",
+     "name": "4-9 Stormboyz",
+     "max": 9,
+     "choices": [
+      {
+       "id": "stormboy",
+       "name": "Stormboy",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "boss-nob",
+     "name": "Boss Nob",
+     "max": null,
+     "choices": [
+      {
+       "id": "boss-nob",
+       "name": "Boss Nob",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "tankbustas",
+   "name": "Tankbustas",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 6,
+     "pts": 140
+    }
+   ],
+   "options": [
+    {
+     "id": "boss-nob",
+     "name": "Boss Nob",
+     "max": null,
+     "choices": [
+      {
+       "id": "boss-nob",
+       "name": "Boss Nob",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "tankbustas",
+     "name": "Tankbustas",
+     "max": 5,
+     "choices": [
+      {
+       "id": "tankbusta-w-rokkit-launcha",
+       "name": "Tankbusta w/ Rokkit launcha",
+       "pts": 0
+      },
+      {
+       "id": "tankbusta-w-two-rokkit-launchas",
+       "name": "Tankbusta w/ Two rokkit launchas",
+       "pts": 0
+      },
+      {
+       "id": "tankbusta-w-pulsa-rokkit",
+       "name": "Tankbusta w/ Pulsa rokkit",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "trukk",
+   "name": "Trukk",
+   "legends": false,
+   "keywords": [
+    "DEDICATED TRANSPORT",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [],
+   "rosterMax": 6
+  },
+  {
+   "id": "upstart-gretchin",
+   "name": "Upstart Gretchin [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 40
+    }
+   ],
+   "options": [],
+   "rosterMax": 3
+  },
+  {
+   "id": "warbikers",
+   "name": "Warbikers",
+   "legends": false,
+   "keywords": [
+    "GRENADES"
+   ],
+   "unitSizes": [
+    {
+     "models": 3,
+     "pts": 65
+    },
+    {
+     "models": 6,
+     "pts": 130
+    }
+   ],
+   "options": [
+    {
+     "id": "warbikers-2-5",
+     "name": "Warbikers (2-5)",
+     "max": 5,
+     "choices": [
+      {
+       "id": "warbiker",
+       "name": "Warbiker",
+       "pts": 0
+      },
+      {
+       "id": "warbiker-w-slugga",
+       "name": "Warbiker w/ Slugga",
+       "pts": 0
+      },
+      {
+       "id": "warbiker-w-choppa",
+       "name": "Warbiker w/ Choppa",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "boss-nob-on-warbike",
+     "name": "Boss Nob on Warbike",
+     "max": null,
+     "choices": [
+      {
+       "id": "boss-nob-on-warbike",
+       "name": "Boss Nob on Warbike",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "warboss",
+   "name": "Warboss",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "twin-slugga",
+       "name": "Twin slugga",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "warboss-in-mega-armour",
+   "name": "Warboss in Mega Armour",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "big-shoota",
+       "name": "Big shoota",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "warphead",
+   "name": "Warphead [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 65
+    }
+   ],
+   "options": [],
+   "rosterMax": 3
+  },
+  {
+   "id": "wazbom-blastajet",
+   "name": "Wazbom Blastajet",
+   "legends": false,
+   "keywords": [
+    "AIRCRAFT",
+    "GRENADES",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 175
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "smasha-gun",
+       "name": "Smasha gun",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-twin-wazbom-mega-kannon",
+     "name": "Wargear · Twin Wazbom Mega-kannon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "twin-wazbom-mega-kannon",
+       "name": "Twin wazbom mega-kannon",
+       "pts": 0
+      },
+      {
+       "id": "twin-tellyport-mega-blasta",
+       "name": "Twin tellyport mega-blasta",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-wargear-options",
+     "name": "Wargear · Wargear Options",
+     "max": null,
+     "choices": [
+      {
+       "id": "blastajet-force-field",
+       "name": "Blastajet Force Field",
+       "pts": 0
+      },
+      {
+       "id": "twin-supa-shoota",
+       "name": "Twin supa-shoota",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3
+  },
+  {
+   "id": "wazdakka-gutsmek",
+   "name": "Wazdakka Gutsmek",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 175
+    }
+   ],
+   "options": [],
+   "rosterMax": 1
+  },
+  {
+   "id": "weirdboy",
+   "name": "Weirdboy",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 65
+    }
+   ],
+   "options": [],
+   "rosterMax": 3
+  },
+  {
+   "id": "wurrboy",
+   "name": "Wurrboy",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 60
+    }
+   ],
+   "options": [],
+   "rosterMax": 3
+  },
+  {
+   "id": "zodgrod-wortsnagga",
+   "name": "Zodgrod Wortsnagga",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 90
+    }
+   ],
+   "options": [],
+   "rosterMax": 1
+  }
+ ]
+}

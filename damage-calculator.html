@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EC Warlords — Damage Calculator</title>
+<meta name="description" content="Warhammer 40,000 damage calculator: expected damage output for any attacker profile against any defender.">
+<link rel="icon" href="assets/logo.webp">
+<link rel="stylesheet" href="style.css?v=202609210608">
+<style>
+  .bar-wrap{margin-top:8px;}
+  .bar-row{display:flex;align-items:center;gap:12px;margin-bottom:10px;}
+  .bar-row .bl{font-size:.78rem;color:var(--bone-dim);width:96px;flex:none;letter-spacing:.04em;}
+  .bar-track{flex:1;height:10px;background:var(--void-2);border:1px solid var(--iron);position:relative;overflow:hidden;}
+  .bar-fill{position:absolute;inset:0 auto 0 0;background:linear-gradient(90deg,var(--crimson),var(--crimson-bright));
+    width:0;transition:width .6s var(--ease-out);}
+  .bar-row .bv{width:58px;text-align:right;font-weight:700;font-variant-numeric:tabular-nums;font-size:.88rem;}
+</style>
+</head>
+<body data-page="tools">
+
+<img class="page-flank page-flank-left" src="assets/hero-left.webp" alt="" aria-hidden="true">
+<img class="page-flank page-flank-right" src="assets/hero-right.webp" alt="" aria-hidden="true">
+
+<nav class="topnav">
+  <div class="wrap">
+    <a href="./" class="brand">
+      <img src="assets/logo.webp" alt="Eastern Cape Warlords crest">
+      <span>TABLETOP COMMUNITY<span class="b-sub">GQEBERHA</span></span>
+    </a>
+    <ul class="navlinks" id="navlinks">
+      <li><a href="./" data-page="home">Home</a></li>
+      <li><a href="about" data-page="about">About</a></li>
+      <li><a href="gallery" data-page="gallery">The Armory</a></li>
+      <li><a href="members" data-page="members">The Roster</a></li>
+      <li><a href="news" data-page="news">The Dispatch</a></li>
+      <li><a href="games" data-page="games">Games We Play</a></li>
+      <li><a href="tools" data-page="tools">Tools</a></li>
+      <li><a href="join" data-page="join" class="nav-cta">Join Us</a></li>
+    </ul>
+    <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+  </div>
+</nav>
+
+<main id="main">
+
+  <div class="subhero texture-void texture-stripes" style="padding-bottom:36px;">
+    <div class="wrap">
+      <div class="eyebrow"><a href="tools" style="color:inherit;">TOOLS</a> · DAMAGE CALCULATOR</div>
+      <h1>Damage Calculator</h1>
+      <p>Expected damage, worked out mathematically rather than rolled — so you get the true average instead of one lucky sequence. Updates as you type.</p>
+    </div>
+  </div>
+
+  <div class="section" style="padding-top:26px;">
+    <div class="wrap">
+      <div class="tool-wrap reveal">
+
+        <div class="panel">
+          <h3>Attacker</h3>
+          <div class="frow">
+            <div class="fld">
+              <label for="dc-attacks">Attacks</label>
+              <input id="dc-attacks" type="number" min="1" max="500" value="10">
+            </div>
+            <div class="fld">
+              <label for="dc-bs">Hit on</label>
+              <select id="dc-bs">
+                <option value="2">2+</option><option value="3" selected>3+</option>
+                <option value="4">4+</option><option value="5">5+</option><option value="6">6+</option>
+              </select>
+            </div>
+          </div>
+          <div class="frow">
+            <div class="fld">
+              <label for="dc-str">Strength</label>
+              <input id="dc-str" type="number" min="1" max="30" value="4">
+            </div>
+            <div class="fld">
+              <label for="dc-ap">AP (0 to -5)</label>
+              <input id="dc-ap" type="number" min="-6" max="0" value="-1">
+            </div>
+          </div>
+          <div class="frow">
+            <div class="fld">
+              <label for="dc-dmg">Damage</label>
+              <select id="dc-dmg">
+                <option value="1" selected>1</option><option value="2">2</option>
+                <option value="3">3</option><option value="4">4</option>
+                <option value="5">5</option><option value="6">6</option>
+                <option value="d3">D3 (avg 2)</option><option value="d6">D6 (avg 3.5)</option>
+                <option value="d6+2">D6+2 (avg 5.5)</option>
+              </select>
+            </div>
+            <div class="fld">
+              <label for="dc-sustain">Sustained Hits</label>
+              <input id="dc-sustain" type="number" min="0" max="6" value="0">
+            </div>
+          </div>
+
+          <div class="chips" style="margin-top:6px;" id="dc-chips">
+            <button class="chip" data-k="rrHit1">Reroll hit 1s</button>
+            <button class="chip" data-k="rrHitAll">Reroll all hits</button>
+            <button class="chip" data-k="rrWound1">Reroll wound 1s</button>
+            <button class="chip" data-k="rrWoundAll">Reroll all wounds</button>
+            <button class="chip" data-k="lethal">Lethal Hits</button>
+            <button class="chip" data-k="dev">Devastating Wounds</button>
+            <button class="chip" data-k="crit5">Crit on 5+</button>
+          </div>
+
+          <h3 style="margin-top:28px;">Defender</h3>
+          <div class="frow">
+            <div class="fld">
+              <label for="dc-tough">Toughness</label>
+              <input id="dc-tough" type="number" min="1" max="30" value="4">
+            </div>
+            <div class="fld">
+              <label for="dc-save">Armour save</label>
+              <select id="dc-save">
+                <option value="2">2+</option><option value="3" selected>3+</option>
+                <option value="4">4+</option><option value="5">5+</option>
+                <option value="6">6+</option><option value="7">None</option>
+              </select>
+            </div>
+          </div>
+          <div class="frow">
+            <div class="fld">
+              <label for="dc-inv">Invulnerable</label>
+              <select id="dc-inv">
+                <option value="7" selected>None</option><option value="2">2++</option>
+                <option value="3">3++</option><option value="4">4++</option>
+                <option value="5">5++</option><option value="6">6++</option>
+              </select>
+            </div>
+            <div class="fld">
+              <label for="dc-fnp">Feel No Pain</label>
+              <select id="dc-fnp">
+                <option value="7" selected>None</option><option value="4">4+++</option>
+                <option value="5">5+++</option><option value="6">6+++</option>
+              </select>
+            </div>
+          </div>
+          <div class="frow">
+            <div class="fld">
+              <label for="dc-wounds">Wounds per model</label>
+              <input id="dc-wounds" type="number" min="1" max="40" value="2">
+            </div>
+            <div class="fld">
+              <label for="dc-models">Models in unit</label>
+              <input id="dc-models" type="number" min="1" max="60" value="5">
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>Expected result</h3>
+          <div class="bigout">
+            <div class="num" id="dc-total">—</div>
+            <div class="lbl">AVERAGE DAMAGE</div>
+          </div>
+
+          <div class="bar-wrap" style="margin-top:14px;">
+            <div class="bar-row">
+              <span class="bl">Hits</span>
+              <span class="bar-track"><span class="bar-fill" id="dc-bar-hit"></span></span>
+              <span class="bv" id="dc-v-hit">—</span>
+            </div>
+            <div class="bar-row">
+              <span class="bl">Wounds</span>
+              <span class="bar-track"><span class="bar-fill" id="dc-bar-wnd"></span></span>
+              <span class="bv" id="dc-v-wnd">—</span>
+            </div>
+            <div class="bar-row">
+              <span class="bl">Unsaved</span>
+              <span class="bar-track"><span class="bar-fill" id="dc-bar-uns"></span></span>
+              <span class="bv" id="dc-v-uns">—</span>
+            </div>
+          </div>
+
+          <div class="steps-out">
+            <div class="step-row"><span>Wound roll needed</span><span id="dc-s-wt">—</span></div>
+            <div class="step-row"><span>Save after AP</span><span id="dc-s-sv">—</span></div>
+            <div class="step-row"><span>Models slain (avg)</span><span id="dc-s-slain">—</span></div>
+            <div class="step-row"><span>% of unit destroyed</span><span id="dc-s-pct">—</span></div>
+          </div>
+
+          <p style="color:var(--bone-dim);font-size:.82rem;margin-top:20px;line-height:1.5;">
+            These are true mathematical averages across infinite rolls — a single game will swing either side of them.
+            Models slain assumes damage spills within the unit but is wasted past a model's remaining wounds
+            (so high-damage weapons look worse into 1-wound models, as they should).
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/logo.webp" alt="Eastern Cape Warlords crest">
+        Eastern Cape Warlords
+      </div>
+      <div class="footer-links">
+        <a href="./">Home</a>
+        <a href="about">About</a>
+        <a href="gallery">The Armory</a>
+        <a href="members">The Roster</a>
+        <a href="news">The Dispatch</a>
+        <a href="games">Games We Play</a>
+        <a href="tools">Tools</a>
+        <a href="join">Join Us</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Eastern Cape Warlords Wargaming Club. Warhammer 40,000, Warhammer Age of Sigmar, and Blood Bowl are trademarks of Games Workshop Ltd. Kings of War is a trademark of Mantic Games. Dungeons &amp; Dragons is a trademark of Wizards of the Coast. Not affiliated with or endorsed by any of the above.</span>
+      <span>Eastern Cape · Thursdays, 7–10 PM</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js?v=202609210608"></script>
+<script>
+(function(){
+  "use strict";
+  var $ = function(id){ return document.getElementById(id); };
+  var flags = {};
+
+  var chipHost = $('dc-chips');
+  chipHost.addEventListener('click', function(e){
+    var c = e.target.closest('.chip');
+    if(!c) return;
+    var k = c.dataset.k;
+    flags[k] = !flags[k];
+    c.classList.toggle('on', !!flags[k]);
+    if(k === 'rrHitAll' && flags[k]){ flags.rrHit1 = false; chipHost.querySelector('[data-k=rrHit1]').classList.remove('on'); }
+    if(k === 'rrHit1' && flags[k]){ flags.rrHitAll = false; chipHost.querySelector('[data-k=rrHitAll]').classList.remove('on'); }
+    if(k === 'rrWoundAll' && flags[k]){ flags.rrWound1 = false; chipHost.querySelector('[data-k=rrWound1]').classList.remove('on'); }
+    if(k === 'rrWound1' && flags[k]){ flags.rrWoundAll = false; chipHost.querySelector('[data-k=rrWoundAll]').classList.remove('on'); }
+    calc();
+  });
+
+  function woundTarget(S, T){
+    if(S >= T*2) return 2;
+    if(S >  T)   return 3;
+    if(S === T)  return 4;
+    if(S*2 <= T) return 6;
+    return 5;
+  }
+  function avgDamage(spec){
+    if(spec === 'd3') return 2;
+    if(spec === 'd6') return 3.5;
+    if(spec === 'd6+2') return 5.5;
+    return parseInt(spec,10);
+  }
+  // probability of rolling >= target on a d6 (1 always fails)
+  function pSucc(target){
+    if(target <= 1) return 5/6;
+    if(target > 6) return 0;
+    return (7 - target) / 6;
+  }
+  // apply reroll: p' = p + (chance of rerollable failure * p)
+  function withReroll(p, mode){
+    if(mode === 'all') return p + (1-p)*p;
+    if(mode === 'ones') return p + (1/6)*p;
+    return p;
+  }
+
+  function calc(){
+    var A     = Math.max(1, parseInt($('dc-attacks').value,10) || 1);
+    var bs    = parseInt($('dc-bs').value,10);
+    var S     = parseInt($('dc-str').value,10) || 1;
+    var ap    = parseInt($('dc-ap').value,10) || 0;
+    var dmg   = avgDamage($('dc-dmg').value);
+    var sus   = Math.max(0, parseInt($('dc-sustain').value,10) || 0);
+    var T     = parseInt($('dc-tough').value,10) || 1;
+    var sv    = parseInt($('dc-save').value,10);
+    var inv   = parseInt($('dc-inv').value,10);
+    var fnp   = parseInt($('dc-fnp').value,10);
+    var W     = Math.max(1, parseInt($('dc-wounds').value,10) || 1);
+    var models= Math.max(1, parseInt($('dc-models').value,10) || 1);
+
+    var critOn = flags.crit5 ? 5 : 6;
+    var pCrit  = (7 - critOn)/6;
+
+    // ---- hits ----
+    var pHit = pSucc(bs);
+    pHit = withReroll(pHit, flags.rrHitAll ? 'all' : (flags.rrHit1 ? 'ones' : null));
+    var critHits = A * pCrit;
+    var normalHits = A * pHit - critHits;
+    if(normalHits < 0) normalHits = 0;
+
+    var sustainedExtra = critHits * sus;
+    var lethalAuto = flags.lethal ? critHits : 0;
+    var hitsToWound = normalHits + sustainedExtra + (flags.lethal ? 0 : critHits);
+    var totalHits = normalHits + critHits + sustainedExtra;
+
+    // ---- wounds ----
+    var wt = woundTarget(S, T);
+    var pWound = pSucc(wt);
+    pWound = withReroll(pWound, flags.rrWoundAll ? 'all' : (flags.rrWound1 ? 'ones' : null));
+
+    var woundCrits = hitsToWound * pCrit;
+    var devW = flags.dev ? woundCrits : 0;
+    var normalWounds = hitsToWound * pWound - devW;
+    if(normalWounds < 0) normalWounds = 0;
+    var totalWounds = normalWounds + devW + lethalAuto;
+
+    // ---- saves ----
+    var modSave = (sv === 7) ? 7 : sv - ap;
+    var bestSave = Math.min(modSave, inv);
+    var pSave = bestSave >= 7 ? 0 : pSucc(bestSave);
+    var savable = normalWounds + lethalAuto;      // dev wounds bypass saves
+    var unsaved = savable * (1 - pSave) + devW;
+
+    // ---- damage & FNP ----
+    var pFnpIgnore = fnp >= 7 ? 0 : pSucc(fnp);
+    var dmgPer = dmg * (1 - pFnpIgnore);
+    var rawDamage = unsaved * dmgPer;
+
+    // models slain: damage past a model's wounds is wasted
+    var effPerWound = Math.min(dmgPer, W);
+    var slain = (unsaved * effPerWound) / W;
+    if(slain > models) slain = models;
+
+    var f1 = function(n){ return (Math.round(n*10)/10).toFixed(1); };
+
+    $('dc-total').textContent = f1(rawDamage);
+    $('dc-v-hit').textContent = f1(totalHits);
+    $('dc-v-wnd').textContent = f1(totalWounds);
+    $('dc-v-uns').textContent = f1(unsaved);
+
+    var max = Math.max(totalHits, 1);
+    $('dc-bar-hit').style.width = '100%';
+    $('dc-bar-wnd').style.width = Math.min(100,(totalWounds/max)*100) + '%';
+    $('dc-bar-uns').style.width = Math.min(100,(unsaved/max)*100) + '%';
+
+    $('dc-s-wt').textContent = wt + '+';
+    $('dc-s-sv').textContent = bestSave >= 7 ? 'No save' : bestSave + '+' + (inv < modSave ? ' (invuln)' : '');
+    $('dc-s-slain').textContent = f1(slain) + ' of ' + models;
+    $('dc-s-pct').textContent = Math.round((slain/models)*100) + '%';
+  }
+
+  ['dc-attacks','dc-bs','dc-str','dc-ap','dc-dmg','dc-sustain',
+   'dc-tough','dc-save','dc-inv','dc-fnp','dc-wounds','dc-models'].forEach(function(id){
+    $(id).addEventListener('input', calc);
+    $(id).addEventListener('change', calc);
+  });
+
+  calc();
+})();
+</script>
+</body>
+</html>

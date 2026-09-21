@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EC Warlords — Tools</title>
+<meta name="description" content="Free tabletop tools from the Eastern Cape Warlords: dice roller, damage calculator, and turn tracker for Warhammer 40,000.">
+<link rel="icon" href="assets/logo.webp">
+<link rel="stylesheet" href="style.css?v=202609210608">
+</head>
+<body data-page="tools">
+
+<img class="page-flank page-flank-left" src="assets/hero-left.webp" alt="" aria-hidden="true">
+<img class="page-flank page-flank-right" src="assets/hero-right.webp" alt="" aria-hidden="true">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<defs>
+  <symbol id="ico-dice" viewBox="0 0 100 100"><rect x="14" y="14" width="72" height="72" rx="10" fill="currentColor"/><circle cx="32" cy="32" r="6" fill="#0a0707"/><circle cx="68" cy="32" r="6" fill="#0a0707"/><circle cx="50" cy="50" r="6" fill="#0a0707"/><circle cx="32" cy="68" r="6" fill="#0a0707"/><circle cx="68" cy="68" r="6" fill="#0a0707"/></symbol>
+  <symbol id="ico-calc" viewBox="0 0 100 100"><rect x="18" y="8" width="64" height="84" rx="6" fill="currentColor"/><rect x="28" y="18" width="44" height="18" fill="#0a0707"/><circle cx="34" cy="50" r="5" fill="#0a0707"/><circle cx="50" cy="50" r="5" fill="#0a0707"/><circle cx="66" cy="50" r="5" fill="#0a0707"/><circle cx="34" cy="66" r="5" fill="#0a0707"/><circle cx="50" cy="66" r="5" fill="#0a0707"/><circle cx="66" cy="66" r="5" fill="#0a0707"/><circle cx="34" cy="80" r="5" fill="#0a0707"/><rect x="45" y="75" width="26" height="10" rx="4" fill="#0a0707"/></symbol>
+  <symbol id="ico-clock" viewBox="0 0 100 100"><circle cx="50" cy="54" r="38" fill="currentColor"/><circle cx="50" cy="54" r="30" fill="#0a0707"/><rect x="47" y="30" width="6" height="26" rx="3" fill="currentColor"/><rect x="49" y="52" width="20" height="6" rx="3" fill="currentColor"/><rect x="38" y="4" width="24" height="9" rx="4" fill="currentColor"/></symbol>
+  <symbol id="ico-list" viewBox="0 0 100 100"><rect x="16" y="12" width="68" height="76" rx="6" fill="currentColor"/><rect x="28" y="28" width="44" height="6" fill="#0a0707"/><rect x="28" y="44" width="44" height="6" fill="#0a0707"/><rect x="28" y="60" width="30" height="6" fill="#0a0707"/></symbol>
+  <symbol id="ico-target" viewBox="0 0 100 100"><circle cx="50" cy="50" r="42" fill="none" stroke="currentColor" stroke-width="8"/><circle cx="50" cy="50" r="24" fill="none" stroke="currentColor" stroke-width="8"/><circle cx="50" cy="50" r="7" fill="currentColor"/></symbol>
+  <symbol id="ico-book" viewBox="0 0 100 100"><path fill="currentColor" d="M12 16c14-6 26-6 34 2v66c-8-8-20-8-34-2zM88 16c-14-6-26-6-34 2v66c8-8 20-8 34-2z"/></symbol>
+</defs>
+</svg>
+
+<nav class="topnav">
+  <div class="wrap">
+    <a href="./" class="brand">
+      <img src="assets/logo.webp" alt="Eastern Cape Warlords crest">
+      <span>TABLETOP COMMUNITY<span class="b-sub">GQEBERHA</span></span>
+    </a>
+    <ul class="navlinks" id="navlinks">
+      <li><a href="./" data-page="home">Home</a></li>
+      <li><a href="about" data-page="about">About</a></li>
+      <li><a href="gallery" data-page="gallery">The Armory</a></li>
+      <li><a href="members" data-page="members">The Roster</a></li>
+      <li><a href="news" data-page="news">The Dispatch</a></li>
+      <li><a href="games" data-page="games">Games We Play</a></li>
+      <li><a href="tools" data-page="tools">Tools</a></li>
+      <li><a href="join" data-page="join" class="nav-cta">Join Us</a></li>
+    </ul>
+    <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+  </div>
+</nav>
+
+<main id="main">
+
+  <div class="subhero texture-void texture-stripes">
+    <div class="wrap">
+      <div class="eyebrow">CLUB TOOLS</div>
+      <h1>Tools for<br>the table.</h1>
+      <p>Free utilities built for our members and anyone else who wants them — no sign-up, no ads, works on your phone at the table.</p>
+    </div>
+  </div>
+
+  <div class="section" style="padding-top:20px;">
+    <div class="wrap">
+      <div class="tool-grid reveal">
+
+        <a href="dice-roller" class="tool-card">
+          <span class="badge live">LIVE</span>
+          <svg><use href="#ico-dice"/></svg>
+          <h3>Dice Roller</h3>
+          <p>Rolls a full attack sequence — hits, wounds, saves and damage — with support for rerolls, Sustained Hits, Lethal Hits, Devastating Wounds and modified crit thresholds. Shows every die so you can check the maths.</p>
+          <span class="t-cta">Open the roller</span>
+        </a>
+
+        <a href="damage-calculator" class="tool-card">
+          <span class="badge live">LIVE</span>
+          <svg><use href="#ico-calc"/></svg>
+          <h3>Damage Calculator</h3>
+          <p>Pit an attacker profile against a defender and get the expected damage — averaged mathematically, not rolled. The fast way to settle "which unit should I point at that thing?"</p>
+          <span class="t-cta">Open the calculator</span>
+        </a>
+
+        <a href="turn-tracker" class="tool-card">
+          <span class="badge live">LIVE</span>
+          <svg><use href="#ico-clock"/></svg>
+          <h3>Turn Tracker</h3>
+          <p>Victory points, command points, battle round and phase for both players — plus an optional chess-clock timer for tournament play. Keeps state if you reload mid-game.</p>
+          <span class="t-cta">Open the tracker</span>
+        </a>
+
+        <a href="army-builder" class="tool-card">
+          <span class="badge live">LIVE · ORKS</span>
+          <svg><use href="#ico-list"/></svg>
+          <h3>Army List Builder</h3>
+          <p>Pick units, set mob sizes and watch the points tally live against your chosen limit, with Rule of Three and Warlord checks as you go. Orks now — more factions as the data pipeline is extended.</p>
+          <span class="t-cta">Open the builder</span>
+        </a>
+
+        <div class="tool-card soon">
+          <span class="badge">PLANNED</span>
+          <svg><use href="#ico-book"/></svg>
+          <h3>Datasheet Lookup</h3>
+          <p>Searchable reference for unit stats, weapon abilities and keywords, so nobody's scrolling a PDF halfway through a shooting phase.</p>
+        </div>
+
+        <div class="tool-card soon">
+          <span class="badge">PLANNED</span>
+          <svg><use href="#ico-target"/></svg>
+          <h3>Mission &amp; Objective Tracker</h3>
+          <p>Secondary missions, objective control and scoring windows tracked per battle round, tied into the turn tracker above.</p>
+        </div>
+
+      </div>
+
+      <div class="source-note reveal" style="border:1px solid var(--iron);background:var(--void-2);padding:22px 24px;margin-top:40px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;">
+        <p style="color:var(--bone-dim);font-size:.9rem;max-width:560px;">Got an idea for a tool the club would use, or spotted a bug in one of these? Mention it at a Thursday meet or drop us a message.</p>
+        <a href="join" class="btn btn-ghost">Get in touch</a>
+      </div>
+
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/logo.webp" alt="Eastern Cape Warlords crest">
+        Eastern Cape Warlords
+      </div>
+      <div class="footer-links">
+        <a href="./">Home</a>
+        <a href="about">About</a>
+        <a href="gallery">The Armory</a>
+        <a href="members">The Roster</a>
+        <a href="news">The Dispatch</a>
+        <a href="games">Games We Play</a>
+        <a href="tools">Tools</a>
+        <a href="join">Join Us</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Eastern Cape Warlords Wargaming Club. Warhammer 40,000, Warhammer Age of Sigmar, and Blood Bowl are trademarks of Games Workshop Ltd. Kings of War is a trademark of Mantic Games. Dungeons &amp; Dragons is a trademark of Wizards of the Coast. Not affiliated with or endorsed by any of the above.</span>
+      <span>Eastern Cape · Thursdays, 7–10 PM</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js?v=202609210608"></script>
+</body>
+</html>

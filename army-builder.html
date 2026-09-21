@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EC Warlords — Army List Builder</title>
+<meta name="description" content="Warhammer 40,000 army list builder and points calculator from the Eastern Cape Warlords.">
+<link rel="icon" href="assets/logo.webp">
+<link rel="stylesheet" href="style.css?v=202609210608">
+</head>
+<body data-page="tools">
+
+<img class="page-flank page-flank-left" src="assets/hero-left.webp" alt="" aria-hidden="true">
+<img class="page-flank page-flank-right" src="assets/hero-right.webp" alt="" aria-hidden="true">
+
+<nav class="topnav">
+  <div class="wrap">
+    <a href="./" class="brand">
+      <img src="assets/logo.webp" alt="Eastern Cape Warlords crest">
+      <span>TABLETOP COMMUNITY<span class="b-sub">GQEBERHA</span></span>
+    </a>
+    <ul class="navlinks" id="navlinks">
+      <li><a href="./" data-page="home">Home</a></li>
+      <li><a href="about" data-page="about">About</a></li>
+      <li><a href="gallery" data-page="gallery">The Armory</a></li>
+      <li><a href="members" data-page="members">The Roster</a></li>
+      <li><a href="news" data-page="news">The Dispatch</a></li>
+      <li><a href="games" data-page="games">Games We Play</a></li>
+      <li><a href="tools" data-page="tools">Tools</a></li>
+      <li><a href="join" data-page="join" class="nav-cta">Join Us</a></li>
+    </ul>
+    <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+  </div>
+</nav>
+
+<main id="main">
+
+  <div class="subhero texture-void texture-stripes" style="padding-bottom:30px;">
+    <div class="wrap">
+      <div class="eyebrow"><a href="tools" style="color:inherit;">TOOLS</a> · ARMY BUILDER</div>
+      <h1>Army Builder</h1>
+      <p>Pick units, set mob sizes, watch the points tally live. Orks first — more factions as the data pipeline is extended.</p>
+    </div>
+  </div>
+
+  <div class="section" style="padding-top:24px;">
+    <div class="wrap">
+
+      <!-- TOP BAR -->
+      <div class="ab-bar reveal">
+        <div class="fld">
+          <label for="ab-faction">Faction</label>
+          <select id="ab-faction"><option>Loading…</option></select>
+        </div>
+        <div class="fld">
+          <label for="ab-detachment">Detachment</label>
+          <select id="ab-detachment"><option value="">—</option></select>
+        </div>
+        <div class="fld" style="max-width:150px;">
+          <label for="ab-limit">Points limit</label>
+          <select id="ab-limit">
+            <option value="500">500 (Incursion-lite)</option>
+            <option value="1000">1000 (Incursion)</option>
+            <option value="1500">1500</option>
+            <option value="2000" selected>2000 (Strike Force)</option>
+            <option value="3000">3000 (Onslaught)</option>
+          </select>
+        </div>
+        <div class="ab-total">
+          <div class="t-num" id="ab-total">0 / 2000</div>
+          <div class="t-lbl" id="ab-remaining">2000 POINTS REMAINING</div>
+          <div class="ab-meter"><span id="ab-meter"></span></div>
+        </div>
+      </div>
+
+      <!-- THREE COLUMNS -->
+      <div class="ab-cols reveal">
+
+        <!-- browse -->
+        <div class="ab-panel">
+          <h3>Datasheets <small id="ab-count"></small></h3>
+          <input class="ab-search" id="ab-search" type="search" placeholder="Search units…" aria-label="Search datasheets">
+          <div class="ab-list" id="ab-browse"></div>
+        </div>
+
+        <!-- list -->
+        <div class="ab-panel">
+          <h3>Your list <small id="ab-unitcount">0 units</small></h3>
+          <div id="ab-list"></div>
+        </div>
+
+        <!-- validation -->
+        <div class="ab-panel ab-valid">
+          <h3>Validation</h3>
+          <div id="ab-issues"></div>
+          <div class="ab-sum" id="ab-summary"></div>
+        </div>
+
+      </div>
+
+      <div style="display:flex;gap:12px;margin-top:22px;flex-wrap:wrap;">
+        <button class="btn btn-ghost" id="ab-clear">Clear list</button>
+        <span style="color:var(--bone-dim);font-size:.82rem;align-self:center;" id="ab-datanote"></span>
+      </div>
+
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/logo.webp" alt="Eastern Cape Warlords crest">
+        Eastern Cape Warlords
+      </div>
+      <div class="footer-links">
+        <a href="./">Home</a>
+        <a href="about">About</a>
+        <a href="gallery">The Armory</a>
+        <a href="members">The Roster</a>
+        <a href="news">The Dispatch</a>
+        <a href="games">Games We Play</a>
+        <a href="tools">Tools</a>
+        <a href="join">Join Us</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Eastern Cape Warlords Wargaming Club. Points data derived from <a href="https://github.com/BSData/wh40k-10e" target="_blank" rel="noopener" style="color:var(--bone-dim);text-decoration:underline;">BSData</a>. Warhammer 40,000, Warhammer Age of Sigmar, and Blood Bowl are trademarks of Games Workshop Ltd. Kings of War is a trademark of Mantic Games. Dungeons &amp; Dragons is a trademark of Wizards of the Coast. Not affiliated with or endorsed by any of the above.</span>
+      <span>Eastern Cape · Thursdays, 7–10 PM</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js?v=202609210608"></script>
+<script>
+(function(){
+  "use strict";
+  var $ = function(id){ return document.getElementById(id); };
+  var esc = function(s){
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;')
+                    .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  };
+
+  var KEY = 'ecw-army-list';
+  var faction = null;      // loaded faction data
+  var list = [];           // [{uid, id, sizeIdx, warlord}]
+  var limit = 2000;
+  var detachmentId = '';
+  var filter = '';
+  var open = {};            // uid -> loadout panel expanded
+
+  // ---------- data loading ----------
+  function loadIndex(){
+    return fetch('assets/data/factions.json')
+      .then(function(r){ return r.json(); })
+      .then(function(idx){
+        var sel = $('ab-faction');
+        sel.innerHTML = '';
+        idx.factions.forEach(function(f){
+          var o = document.createElement('option');
+          o.value = f.file; o.textContent = f.name + ' (' + f.datasheets + ')';
+          sel.appendChild(o);
+        });
+        $('ab-datanote').textContent =
+          'Points data generated ' + (idx.generated || '') + ' from BSData.';
+        return loadFaction(idx.factions[0].file);
+      })
+      .catch(function(){
+        $('ab-browse').innerHTML =
+          '<div class="ab-empty">Couldn\'t load faction data.<br>' +
+          'If you\'re opening this file directly from disk, the browser blocks ' +
+          'local data loading — serve the site over HTTP instead.</div>';
+      });
+  }
+
+  function loadFaction(file){
+    return fetch('assets/data/' + file)
+      .then(function(r){ return r.json(); })
+      .then(function(d){
+        faction = d;
+        var ds = $('ab-detachment');
+        ds.innerHTML = '<option value="">— choose a detachment —</option>';
+        (d.detachments || []).forEach(function(det){
+          var o = document.createElement('option');
+          o.value = det.id; o.textContent = det.name;
+          ds.appendChild(o);
+        });
+        $('ab-count').textContent = d.datasheets.length + ' units';
+        renderBrowse();
+        render();
+      });
+  }
+
+  // ---------- helpers ----------
+  function sheet(id){
+    return faction.datasheets.filter(function(d){ return d.id === id; })[0];
+  }
+  function unitPts(entry){
+    var s = sheet(entry.id);
+    if(!s) return 0;
+    var b = s.unitSizes[entry.sizeIdx] || s.unitSizes[0];
+    var pts = b ? b.pts : 0;
+    // Enhancements add their cost to the bearer's unit
+    if(entry.enh){
+      var e = enhById(entry.enh);
+      if(e) pts += e.pts;
+    }
+    // Loadout choices are almost always free in 10th, but honour any that
+    // aren't rather than silently ignoring them.
+    if(entry.opts){
+      Object.keys(entry.opts).forEach(function(gid){
+        var grp = (s.options||[]).filter(function(g){ return g.id===gid; })[0];
+        if(!grp) return;
+        var ch = grp.choices.filter(function(c){ return c.id===entry.opts[gid]; })[0];
+        if(ch) pts += ch.pts;
+      });
+    }
+    return pts;
+  }
+  function enhById(id){
+    var det = detachment();
+    if(!det) return null;
+    return (det.enhancements||[]).filter(function(e){ return e.id===id; })[0] || null;
+  }
+  function totalPts(){
+    var t = 0;
+    list.forEach(function(e){ t += unitPts(e); });
+    return t;
+  }
+  function detachment(){
+    return (faction.detachments || []).filter(function(d){
+      return d.id === detachmentId;
+    })[0] || null;
+  }
+
+  // ---------- browse column ----------
+  function renderBrowse(){
+    if(!faction) return;
+    var q = filter.toLowerCase();
+    var rows = faction.datasheets.filter(function(d){
+      return !q || d.name.toLowerCase().indexOf(q) !== -1;
+    });
+    if(!rows.length){
+      $('ab-browse').innerHTML = '<div class="ab-empty">No units match that search.</div>';
+      return;
+    }
+    var html = '';
+    rows.forEach(function(d){
+      var lo = d.unitSizes[0], hi = d.unitSizes[d.unitSizes.length-1];
+      var pts = lo.pts === hi.pts ? lo.pts + 'pts'
+              : lo.pts + '–' + hi.pts + 'pts';
+      var models = lo.models === hi.models ? lo.models
+                 : lo.models + '–' + hi.models;
+      var kws = (d.keywords || []).slice(0,2).map(function(k){
+        return '<span class="ab-kw' + (k==='BATTLELINE'?' bl':'') + '">' + esc(k) + '</span>';
+      }).join('');
+      html += '<button class="ab-item" data-add="' + esc(d.id) + '">' +
+                '<span class="n">' + esc(d.name) + '</span>' +
+                '<span class="m">' + models + ' model' + (hi.models>1?'s':'') +
+                  ' · ' + pts + '</span>' + kws +
+              '</button>';
+    });
+    $('ab-browse').innerHTML = html;
+  }
+
+  // ---------- list column ----------
+  function renderList(){
+    if(!list.length){
+      $('ab-list').innerHTML =
+        '<div class="ab-empty">Your list is empty.<br>' +
+        'Pick units from the left to start building.</div>';
+      $('ab-unitcount').textContent = '0 units';
+      return;
+    }
+    $('ab-unitcount').textContent = list.length + (list.length===1?' unit':' units');
+    var html = '';
+    list.forEach(function(e){
+      var s = sheet(e.id);
+      if(!s) return;
+      var opts = s.unitSizes.map(function(b, i){
+        return '<option value="' + i + '"' + (i===e.sizeIdx?' selected':'') + '>' +
+               b.models + ' model' + (b.models>1?'s':'') + ' — ' + b.pts + 'pts</option>';
+      }).join('');
+      var isChar = (s.keywords||[]).indexOf('CHARACTER') !== -1;
+      var isEpic = (s.keywords||[]).indexOf('EPIC HERO') !== -1;
+      var det = detachment();
+      var hasOpts = (s.options||[]).length > 0;
+      var canEnh = isChar && !isEpic && det && (det.enhancements||[]).length;
+
+      // summary tags for whatever's currently selected
+      var tags = '';
+      if(e.enh){
+        var eo = enhById(e.enh);
+        if(eo) tags += '<span class="ab-tag enh">' + esc(eo.name) + ' +' + eo.pts + '</span>';
+      }
+      if(e.opts){
+        Object.keys(e.opts).forEach(function(gid){
+          var grp = (s.options||[]).filter(function(g){ return g.id===gid; })[0];
+          if(!grp) return;
+          var ch = grp.choices.filter(function(c){ return c.id===e.opts[gid]; })[0];
+          if(ch) tags += '<span class="ab-tag">' + esc(ch.name) + '</span>';
+        });
+      }
+
+      // expandable detail panel
+      var detail = '';
+      if(hasOpts || canEnh){
+        detail += '<div class="ab-detail' + (open[e.uid] ? ' open' : '') + '" data-detail="' + e.uid + '">';
+        if(canEnh){
+          detail += '<div class="ab-enh"><span class="e-lbl">ENHANCEMENT</span>' +
+            '<select data-enh="' + e.uid + '">' +
+            '<option value="">— none —</option>' +
+            det.enhancements.map(function(en){
+              return '<option value="' + esc(en.id) + '"' +
+                (e.enh===en.id?' selected':'') + '>' +
+                esc(en.name) + ' (+' + en.pts + 'pts)</option>';
+            }).join('') + '</select></div>';
+        }
+        (s.options||[]).forEach(function(g){
+          var lim = g.max ? ' <em>· max ' + g.max + '</em>' : '';
+          detail += '<div class="ab-optgrp"><span class="og-lbl">' +
+            esc(g.name).toUpperCase() + lim + '</span>' +
+            '<select data-opt="' + e.uid + '" data-grp="' + esc(g.id) + '">' +
+            '<option value="">— default —</option>' +
+            g.choices.map(function(c){
+              return '<option value="' + esc(c.id) + '"' +
+                ((e.opts && e.opts[g.id]===c.id) ? ' selected' : '') + '>' +
+                esc(c.name) + (c.pts ? ' (+' + c.pts + 'pts)' : '') + '</option>';
+            }).join('') + '</select></div>';
+        });
+        detail += '</div>';
+      }
+
+      html += '<div class="ab-unit">' +
+        '<div class="u-top">' +
+          '<span class="u-name">' + esc(s.name) + '</span>' +
+          '<span class="u-pts">' + unitPts(e) + 'pts</span>' +
+        '</div>' +
+        '<div class="u-ctl">' +
+          (s.unitSizes.length > 1
+            ? '<select data-size="' + e.uid + '">' + opts + '</select>'
+            : '<span style="font-size:.78rem;color:var(--bone-dim);">' +
+              s.unitSizes[0].models + ' model' + (s.unitSizes[0].models>1?'s':'') + '</span>') +
+          (isChar
+            ? '<button class="ab-warlord' + (e.warlord?' on':'') + '" data-wl="' + e.uid + '">' +
+              (e.warlord ? '★ WARLORD' : 'Set Warlord') + '</button>'
+            : '') +
+          ((hasOpts || canEnh)
+            ? '<button class="ab-toggle' + (open[e.uid]?' on':'') + '" data-toggle="' + e.uid + '">' +
+              (open[e.uid] ? 'HIDE' : 'LOADOUT') + '</button>'
+            : '') +
+          '<button class="ab-x" data-del="' + e.uid + '" aria-label="Remove">&times;</button>' +
+        '</div>' +
+        (tags ? '<div class="ab-chiprow">' + tags + '</div>' : '') +
+        detail +
+      '</div>';
+    });
+    $('ab-list').innerHTML = html;
+  }
+
+  // ---------- validation (Phase 2 subset; full engine lands in Phase 4) ----------
+  function validate(){
+    var issues = [];
+    var total = totalPts();
+
+    if(total > limit){
+      issues.push({sev:'error',
+        msg:'Over the points limit by <strong>' + (total-limit) + 'pts</strong>.'});
+    }
+
+    if(!detachmentId && list.length){
+      issues.push({sev:'warning', msg:'No detachment selected.'});
+    }
+
+    // Rule of Three / Battleline 6, using the limit BSData gives us
+    var counts = {};
+    list.forEach(function(e){ counts[e.id] = (counts[e.id]||0) + 1; });
+    Object.keys(counts).forEach(function(id){
+      var s = sheet(id);
+      if(!s || !s.rosterMax) return;
+      if(counts[id] > s.rosterMax){
+        issues.push({sev:'error',
+          msg: esc(s.name) + ': <strong>' + counts[id] + '</strong> taken, max ' +
+               s.rosterMax + '.'});
+      }
+    });
+
+    // Warlord
+    var wl = list.filter(function(e){ return e.warlord; }).length;
+    var chars = list.filter(function(e){
+      var s = sheet(e.id); return s && (s.keywords||[]).indexOf('CHARACTER') !== -1;
+    }).length;
+    if(list.length && wl === 0 && chars > 0){
+      issues.push({sev:'warning', msg:'No Warlord nominated.'});
+    }
+    if(wl > 1){
+      issues.push({sev:'error', msg:'More than one Warlord nominated.'});
+    }
+    if(list.length && chars === 0){
+      issues.push({sev:'warning', msg:'No CHARACTER in the list — you can\'t nominate a Warlord.'});
+    }
+
+    // Battleline presence
+    var bl = list.filter(function(e){
+      var s = sheet(e.id); return s && (s.keywords||[]).indexOf('BATTLELINE') !== -1;
+    }).length;
+    if(list.length >= 3 && bl === 0){
+      issues.push({sev:'warning', msg:'No Battleline units taken. Legal, but unusual.'});
+    }
+
+    // --- Enhancement rules ---
+    var withEnh = list.filter(function(e){ return e.enh; });
+    if(withEnh.length > 3){
+      issues.push({sev:'error',
+        msg:'<strong>' + withEnh.length + '</strong> enhancements taken — maximum is 3 per army.'});
+    }
+    withEnh.forEach(function(e){
+      var s = sheet(e.id);
+      if(!s) return;
+      var kw = s.keywords || [];
+      if(kw.indexOf('EPIC HERO') !== -1){
+        issues.push({sev:'error',
+          msg: esc(s.name) + ' is an EPIC HERO and cannot take an enhancement.'});
+      } else if(kw.indexOf('CHARACTER') === -1){
+        issues.push({sev:'error',
+          msg: esc(s.name) + ' is not a CHARACTER and cannot take an enhancement.'});
+      }
+      // Enhancement must belong to the chosen detachment
+      if(!enhById(e.enh)){
+        issues.push({sev:'error',
+          msg: esc(s.name) + ' has an enhancement that is not part of this detachment.'});
+      }
+    });
+    // Duplicate enhancements
+    var seenEnh = {};
+    withEnh.forEach(function(e){
+      if(seenEnh[e.enh]){
+        var eo = enhById(e.enh);
+        issues.push({sev:'error',
+          msg:'Enhancement "' + esc(eo ? eo.name : e.enh) + '" taken more than once.'});
+      }
+      seenEnh[e.enh] = true;
+    });
+
+    if(total < limit && list.length){
+      issues.push({sev:'warning',
+        msg:'<strong>' + (limit-total) + 'pts</strong> unspent.'});
+    }
+
+    return issues;
+  }
+
+  function renderIssues(){
+    var issues = validate();
+    if(!list.length){
+      $('ab-issues').innerHTML = '<div class="ab-ok">Add units to see validation.</div>';
+    } else if(!issues.length){
+      $('ab-issues').innerHTML = '<div class="ab-ok">✓ No problems found.</div>';
+    } else {
+      $('ab-issues').innerHTML = issues.map(function(i){
+        return '<div class="ab-issue' + (i.sev==='warning'?' warn':'') + '">' +
+          '<span class="sev">' + (i.sev==='warning'?'WARNING':'ERROR') + '</span>' +
+          i.msg + '</div>';
+      }).join('');
+    }
+
+    // summary
+    var models = 0, chars = 0, bl = 0;
+    list.forEach(function(e){
+      var s = sheet(e.id); if(!s) return;
+      var b = s.unitSizes[e.sizeIdx] || s.unitSizes[0];
+      models += b ? b.models : 0;
+      if((s.keywords||[]).indexOf('CHARACTER') !== -1) chars++;
+      if((s.keywords||[]).indexOf('BATTLELINE') !== -1) bl++;
+    });
+    var det = detachment();
+    var enhPts = 0, enhCount = 0;
+    list.forEach(function(e){
+      if(!e.enh) return;
+      var eo = enhById(e.enh);
+      if(eo){ enhPts += eo.pts; enhCount++; }
+    });
+    $('ab-summary').innerHTML =
+      '<div><span>Units</span><span>' + list.length + '</span></div>' +
+      '<div><span>Models</span><span>' + models + '</span></div>' +
+      '<div><span>Characters</span><span>' + chars + '</span></div>' +
+      '<div><span>Battleline</span><span>' + bl + '</span></div>' +
+      (enhCount ? '<div><span>Enhancements</span><span>' + enhCount +
+                  '/3 · ' + enhPts + 'pts</span></div>' : '') +
+      (det ? '<div><span>Available enhancements</span><span>' +
+             (det.enhancements||[]).length + '</span></div>' : '');
+  }
+
+  // ---------- totals ----------
+  function renderTotal(){
+    var t = totalPts();
+    var over = t > limit;
+    $('ab-total').textContent = t + ' / ' + limit;
+    $('ab-total').classList.toggle('over', over);
+    $('ab-remaining').textContent = over
+      ? (t-limit) + ' POINTS OVER'
+      : (limit-t) + ' POINTS REMAINING';
+    var pct = Math.min(100, (t/limit)*100);
+    var m = $('ab-meter');
+    m.style.width = pct + '%';
+    m.classList.toggle('over', over);
+  }
+
+  function render(){ renderList(); renderTotal(); renderIssues(); save(); }
+
+  // ---------- persistence ----------
+  function save(){
+    try{
+      localStorage.setItem(KEY, JSON.stringify({
+        list:list, limit:limit, detachmentId:detachmentId,
+        factionId: faction ? faction.id : null
+      }));
+    }catch(e){}
+  }
+  function restore(){
+    try{
+      var raw = localStorage.getItem(KEY);
+      if(!raw) return;
+      var s = JSON.parse(raw);
+      if(!s || !faction || s.factionId !== faction.id) return;
+      list = Array.isArray(s.list) ? s.list : [];
+      limit = s.limit || 2000;
+      detachmentId = s.detachmentId || '';
+      $('ab-limit').value = String(limit);
+      $('ab-detachment').value = detachmentId;
+    }catch(e){}
+  }
+
+  // ---------- events ----------
+  $('ab-search').addEventListener('input', function(){
+    filter = this.value; renderBrowse();
+  });
+
+  $('ab-browse').addEventListener('click', function(e){
+    var b = e.target.closest('[data-add]');
+    if(!b) return;
+    list.push({
+      uid: 'u' + Date.now() + Math.random().toString(36).slice(2,6),
+      id: b.dataset.add, sizeIdx: 0, warlord:false
+    });
+    render();
+  });
+
+  $('ab-list').addEventListener('click', function(e){
+    var del = e.target.closest('[data-del]');
+    if(del){
+      list = list.filter(function(x){ return x.uid !== del.dataset.del; });
+      render(); return;
+    }
+    var tg = e.target.closest('[data-toggle]');
+    if(tg){
+      var tid = tg.dataset.toggle;
+      open[tid] = !open[tid];
+      render(); return;
+    }
+    var wl = e.target.closest('[data-wl]');
+    if(wl){
+      var id = wl.dataset.wl;
+      var was = list.filter(function(x){ return x.uid===id; })[0].warlord;
+      list.forEach(function(x){ x.warlord = false; });
+      if(!was) list.filter(function(x){ return x.uid===id; })[0].warlord = true;
+      render(); return;
+    }
+  });
+
+  $('ab-list').addEventListener('change', function(e){
+    var sel = e.target.closest('[data-size]');
+    if(sel){
+      var entry = list.filter(function(x){ return x.uid === sel.dataset.size; })[0];
+      if(entry){ entry.sizeIdx = parseInt(sel.value,10) || 0; render(); }
+      return;
+    }
+    var enh = e.target.closest('[data-enh]');
+    if(enh){
+      var en = list.filter(function(x){ return x.uid === enh.dataset.enh; })[0];
+      if(en){ en.enh = enh.value || null; render(); }
+      return;
+    }
+    var opt = e.target.closest('[data-opt]');
+    if(opt){
+      var ou = list.filter(function(x){ return x.uid === opt.dataset.opt; })[0];
+      if(ou){
+        ou.opts = ou.opts || {};
+        if(opt.value) ou.opts[opt.dataset.grp] = opt.value;
+        else delete ou.opts[opt.dataset.grp];
+        render();
+      }
+      return;
+    }
+  });
+
+  $('ab-limit').addEventListener('change', function(){
+    limit = parseInt(this.value,10) || 2000; render();
+  });
+  $('ab-detachment').addEventListener('change', function(){
+    detachmentId = this.value;
+    // Enhancements belong to a detachment, so a change invalidates them
+    list.forEach(function(x){ x.enh = null; });
+    render();
+  });
+  $('ab-faction').addEventListener('change', function(){
+    list = []; loadFaction(this.value);
+  });
+  $('ab-clear').addEventListener('click', function(){
+    if(list.length && !confirm('Clear the whole list?')) return;
+    list = []; render();
+  });
+
+  loadIndex().then(function(){ restore(); render(); });
+})();
+</script>
+</body>
+</html>
