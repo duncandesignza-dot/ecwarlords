@@ -285,6 +285,8 @@ h1.title{
 .ticker-wrap{background:var(--crimson);overflow:hidden;padding:11px 0;border-top:1px solid var(--crimson-deep);border-bottom:1px solid var(--crimson-deep);}
 .ticker{display:flex;gap:40px;white-space:nowrap;animation:ticker 26s linear infinite;width:max-content;}
 .ticker span{font-weight:700;font-size:.82rem;letter-spacing:.1em;color:#f7e6e0;}
+.ticker.static{animation:none;width:100%;justify-content:center;}
+.ticker.static span{font-family:var(--font-display);font-weight:400;font-style:italic;letter-spacing:.04em;text-align:center;}
 @keyframes ticker{from{transform:translateX(0);}to{transform:translateX(-50%);}}
 
 /* ============ ABOUT ============ */
