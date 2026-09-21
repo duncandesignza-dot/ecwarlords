@@ -276,8 +276,12 @@ h1.title{
 .teaser .t-num{font-family:var(--font-display);font-size:.78rem;color:var(--crimson-bright);letter-spacing:.14em;}
 .teaser h3{font-size:1.3rem;margin:14px 0 10px;}
 .teaser p{color:var(--bone-dim);font-size:1.01rem;}
-.teaser .t-link{display:inline-block;margin-top:16px;font-weight:700;font-size:.82rem;color:var(--crimson-glow);letter-spacing:.05em;}
+.teaser .t-link{display:inline-block;margin-top:16px;font-weight:700;font-size:.82rem;color:var(--crimson-glow);letter-spacing:.05em;position:relative;}
 .teaser .t-link::after{content:" \2192";}
+/* Stretched-link: the whole card is clickable, not just the text link at the
+   bottom. .teaser is position:relative, so this pseudo-element (attached to
+   the link, not the card) expands to fill it. */
+.teaser .t-link::before{content:"";position:absolute;inset:0;z-index:1;}
 @media (max-width:900px){.teaser-grid{grid-template-columns:1fr 1fr;}}
 @media (max-width:560px){.teaser-grid{grid-template-columns:1fr;}}
 
