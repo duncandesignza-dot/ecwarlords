@@ -3,10 +3,226 @@
  "source": "BSData wh40k-10e (https://github.com/BSData/wh40k-10e)",
  "factions": [
   {
+   "id": "adepta-sororitas",
+   "name": "Adepta Sororitas",
+   "file": "adepta-sororitas.json",
+   "datasheets": 95
+  },
+  {
+   "id": "adeptus-custodes",
+   "name": "Adeptus Custodes",
+   "file": "adeptus-custodes.json",
+   "datasheets": 95
+  },
+  {
+   "id": "adeptus-mechanicus",
+   "name": "Adeptus Mechanicus",
+   "file": "adeptus-mechanicus.json",
+   "datasheets": 98
+  },
+  {
+   "id": "adeptus-titanicus",
+   "name": "Adeptus Titanicus",
+   "file": "adeptus-titanicus.json",
+   "datasheets": 61
+  },
+  {
+   "id": "aeldari",
+   "name": "Aeldari",
+   "file": "aeldari.json",
+   "datasheets": 75
+  },
+  {
+   "id": "agents-of-the-imperium",
+   "name": "Agents of the Imperium",
+   "file": "agents-of-the-imperium.json",
+   "datasheets": 61
+  },
+  {
+   "id": "astra-militarum",
+   "name": "Astra Militarum",
+   "file": "astra-militarum.json",
+   "datasheets": 135
+  },
+  {
+   "id": "black-templars",
+   "name": "Black Templars",
+   "file": "black-templars.json",
+   "datasheets": 156
+  },
+  {
+   "id": "blood-angels",
+   "name": "Blood Angels",
+   "file": "blood-angels.json",
+   "datasheets": 162
+  },
+  {
+   "id": "chaos-daemons",
+   "name": "Chaos Daemons",
+   "file": "chaos-daemons.json",
+   "datasheets": 105
+  },
+  {
+   "id": "chaos-knights",
+   "name": "Chaos Knights",
+   "file": "chaos-knights.json",
+   "datasheets": 91
+  },
+  {
+   "id": "chaos-space-marines",
+   "name": "Chaos Space Marines",
+   "file": "chaos-space-marines.json",
+   "datasheets": 144
+  },
+  {
+   "id": "dark-angels",
+   "name": "Dark Angels",
+   "file": "dark-angels.json",
+   "datasheets": 162
+  },
+  {
+   "id": "death-guard",
+   "name": "Death Guard",
+   "file": "death-guard.json",
+   "datasheets": 67
+  },
+  {
+   "id": "deathwatch",
+   "name": "Deathwatch",
+   "file": "deathwatch.json",
+   "datasheets": 153
+  },
+  {
+   "id": "drukhari",
+   "name": "Drukhari",
+   "file": "drukhari.json",
+   "datasheets": 38
+  },
+  {
+   "id": "emperor-s-children",
+   "name": "Emperor's Children",
+   "file": "emperor-s-children.json",
+   "datasheets": 56
+  },
+  {
+   "id": "genestealer-cults",
+   "name": "Genestealer Cults",
+   "file": "genestealer-cults.json",
+   "datasheets": 101
+  },
+  {
+   "id": "grey-knights",
+   "name": "Grey Knights",
+   "file": "grey-knights.json",
+   "datasheets": 91
+  },
+  {
+   "id": "imperial-fists",
+   "name": "Imperial Fists",
+   "file": "imperial-fists.json",
+   "datasheets": 149
+  },
+  {
+   "id": "imperial-knights",
+   "name": "Imperial Knights",
+   "file": "imperial-knights.json",
+   "datasheets": 66
+  },
+  {
+   "id": "iron-hands",
+   "name": "Iron Hands",
+   "file": "iron-hands.json",
+   "datasheets": 148
+  },
+  {
+   "id": "leagues-of-votann",
+   "name": "Leagues of Votann",
+   "file": "leagues-of-votann.json",
+   "datasheets": 27
+  },
+  {
+   "id": "necrons",
+   "name": "Necrons",
+   "file": "necrons.json",
+   "datasheets": 56
+  },
+  {
    "id": "orks",
    "name": "Orks",
    "file": "orks.json",
-   "datasheets": 57
+   "datasheets": 60
+  },
+  {
+   "id": "raven-guard",
+   "name": "Raven Guard",
+   "file": "raven-guard.json",
+   "datasheets": 148
+  },
+  {
+   "id": "salamanders",
+   "name": "Salamanders",
+   "file": "salamanders.json",
+   "datasheets": 148
+  },
+  {
+   "id": "space-marines",
+   "name": "Space Marines",
+   "file": "space-marines.json",
+   "datasheets": 146
+  },
+  {
+   "id": "space-wolves",
+   "name": "Space Wolves",
+   "file": "space-wolves.json",
+   "datasheets": 167
+  },
+  {
+   "id": "t-au-empire",
+   "name": "T'au Empire",
+   "file": "t-au-empire.json",
+   "datasheets": 48
+  },
+  {
+   "id": "thousand-sons",
+   "name": "Thousand Sons",
+   "file": "thousand-sons.json",
+   "datasheets": 68
+  },
+  {
+   "id": "titanicus-traitoris",
+   "name": "Titanicus Traitoris",
+   "file": "titanicus-traitoris.json",
+   "datasheets": 84
+  },
+  {
+   "id": "tyranids",
+   "name": "Tyranids",
+   "file": "tyranids.json",
+   "datasheets": 55
+  },
+  {
+   "id": "ultramarines",
+   "name": "Ultramarines",
+   "file": "ultramarines.json",
+   "datasheets": 157
+  },
+  {
+   "id": "white-scars",
+   "name": "White Scars",
+   "file": "white-scars.json",
+   "datasheets": 148
+  },
+  {
+   "id": "world-eaters",
+   "name": "World Eaters",
+   "file": "world-eaters.json",
+   "datasheets": 63
+  },
+  {
+   "id": "ynnari",
+   "name": "Ynnari",
+   "file": "ynnari.json",
+   "datasheets": 82
   }
  ]
 }

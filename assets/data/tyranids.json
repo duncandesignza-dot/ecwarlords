@@ -1,0 +1,2236 @@
+{
+ "id": "tyranids",
+ "name": "Tyranids",
+ "source": "BSData wh40k-10e",
+ "generated": "2026-09-21",
+ "detachments": [
+  {
+   "id": "invasion-fleet",
+   "name": "Invasion Fleet",
+   "enhancements": [
+    {
+     "id": "alien-cunning",
+     "name": "Alien Cunning",
+     "pts": 30
+    },
+    {
+     "id": "perfectly-adapted",
+     "name": "Perfectly Adapted",
+     "pts": 15
+    },
+    {
+     "id": "synaptic-linchpin",
+     "name": "Synaptic Linchpin",
+     "pts": 20
+    },
+    {
+     "id": "adaptive-biology",
+     "name": "Adaptive Biology",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "assimilation-swarm",
+   "name": "Assimilation Swarm",
+   "enhancements": [
+    {
+     "id": "instinctive-defense",
+     "name": "Instinctive Defense",
+     "pts": 15
+    },
+    {
+     "id": "parasitic-biomorphology",
+     "name": "Parasitic Biomorphology",
+     "pts": 25
+    },
+    {
+     "id": "regenerating-monstrosity",
+     "name": "Regenerating Monstrosity",
+     "pts": 20
+    },
+    {
+     "id": "biophagic-flow-aura",
+     "name": "Biophagic Flow (Aura)",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "crusher-stampede",
+   "name": "Crusher Stampede",
+   "enhancements": [
+    {
+     "id": "monstrous-nemesis",
+     "name": "Monstrous Nemesis",
+     "pts": 25
+    },
+    {
+     "id": "null-nodules",
+     "name": "Null Nodules",
+     "pts": 10
+    },
+    {
+     "id": "ominous-presence",
+     "name": "Ominous Presence",
+     "pts": 15
+    },
+    {
+     "id": "enraged-reserves",
+     "name": "Enraged Reserves",
+     "pts": 20
+    }
+   ]
+  },
+  {
+   "id": "synaptic-nexus",
+   "name": "Synaptic Nexus",
+   "enhancements": [
+    {
+     "id": "psychostatic-disruption",
+     "name": "Psychostatic Disruption",
+     "pts": 30
+    },
+    {
+     "id": "synaptic-control",
+     "name": "Synaptic Control",
+     "pts": 20
+    },
+    {
+     "id": "the-dirgeheart-of-kharis-aura",
+     "name": "The Dirgeheart of Kharis (Aura)",
+     "pts": 15
+    },
+    {
+     "id": "power-of-the-hive-mind",
+     "name": "Power of the Hive Mind",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "unending-swarm",
+   "name": "Unending Swarm",
+   "enhancements": [
+    {
+     "id": "naturalised-camoflage",
+     "name": "Naturalised Camoflage",
+     "pts": 30
+    },
+    {
+     "id": "piercing-talons",
+     "name": "Piercing Talons",
+     "pts": 25
+    },
+    {
+     "id": "relentless-hunger",
+     "name": "Relentless Hunger",
+     "pts": 20
+    },
+    {
+     "id": "adrenalised-onslaught",
+     "name": "Adrenalised Onslaught",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "vanguard-onslaught",
+   "name": "Vanguard Onslaught",
+   "enhancements": [
+    {
+     "id": "hunting-grounds",
+     "name": "Hunting Grounds",
+     "pts": 20
+    },
+    {
+     "id": "neuronode",
+     "name": "Neuronode",
+     "pts": 20
+    },
+    {
+     "id": "stalker",
+     "name": "Stalker",
+     "pts": 10
+    },
+    {
+     "id": "chameleonic",
+     "name": "Chameleonic",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "warrior-bioform-onslaught",
+   "name": "Warrior Bioform Onslaught",
+   "enhancements": [
+    {
+     "id": "sensory-assimilation",
+     "name": "Sensory Assimilation",
+     "pts": 20
+    },
+    {
+     "id": "elevated-might",
+     "name": "Elevated Might",
+     "pts": 30
+    },
+    {
+     "id": "ocular-adaptation",
+     "name": "Ocular Adaptation",
+     "pts": 20
+    },
+    {
+     "id": "synaptic-tyrant",
+     "name": "Synaptic Tyrant",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "subterranean-assault",
+   "name": "Subterranean Assault",
+   "enhancements": [
+    {
+     "id": "vanguard-intellect",
+     "name": "Vanguard Intellect",
+     "pts": 15
+    },
+    {
+     "id": "trygon-prime",
+     "name": "Trygon Prime",
+     "pts": 20
+    },
+    {
+     "id": "synaptic-synergy",
+     "name": "Synaptic Synergy",
+     "pts": 15
+    },
+    {
+     "id": "tremor-senses",
+     "name": "Tremor Senses",
+     "pts": 20
+    }
+   ]
+  },
+  {
+   "id": "tyranid-attack",
+   "name": "Tyranid Attack",
+   "enhancements": [
+    {
+     "id": "reinforced-carapace",
+     "name": "Reinforced Carapace",
+     "pts": 0
+    },
+    {
+     "id": "synaptic-goad",
+     "name": "Synaptic Goad",
+     "pts": 0
+    }
+   ]
+  },
+  {
+   "id": "boarding-swarm",
+   "name": "Boarding Swarm",
+   "enhancements": []
+  },
+  {
+   "id": "biotide",
+   "name": "Biotide",
+   "enhancements": [
+    {
+     "id": "synaptic-beacon",
+     "name": "Synaptic Beacon",
+     "pts": 0
+    },
+    {
+     "id": "hypersurge-gland",
+     "name": "Hypersurge Gland",
+     "pts": 0
+    },
+    {
+     "id": "psi-spoor-sensitivity",
+     "name": "Psi-spoor Sensitivity",
+     "pts": 0
+    },
+    {
+     "id": "stalking-menace",
+     "name": "Stalking Menace",
+     "pts": 0
+    }
+   ]
+  },
+  {
+   "id": "host-of-ascension",
+   "name": "Host of Ascension",
+   "enhancements": [
+    {
+     "id": "our-time-is-nigh",
+     "name": "Our Time is Nigh",
+     "pts": 20
+    },
+    {
+     "id": "a-chink-in-their-armour",
+     "name": "A Chink in Their Armour",
+     "pts": 20
+    },
+    {
+     "id": "prowling-agitant",
+     "name": "Prowling Agitant",
+     "pts": 15
+    },
+    {
+     "id": "assassination-edict",
+     "name": "Assassination Edict",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "xenocreed-congregation",
+   "name": "Xenocreed Congregation",
+   "enhancements": [
+    {
+     "id": "deeds-that-speak-to-the-masses",
+     "name": "Deeds That Speak to the Masses",
+     "pts": 25
+    },
+    {
+     "id": "gene-sire-s-reliquant",
+     "name": "Gene-sire's Reliquant",
+     "pts": 5
+    },
+    {
+     "id": "incendiary-inspiration",
+     "name": "Incendiary Inspiration",
+     "pts": 15
+    },
+    {
+     "id": "denunciator-of-tyrants",
+     "name": "Denunciator of Tyrants",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "biosanctic-broodsurge",
+   "name": "Biosanctic Broodsurge",
+   "enhancements": [
+    {
+     "id": "predatory-instincts",
+     "name": "Predatory Instincts",
+     "pts": 20
+    },
+    {
+     "id": "biomorph-adaption",
+     "name": "Biomorph Adaption",
+     "pts": 25
+    },
+    {
+     "id": "mutagenic-regeneration",
+     "name": "Mutagenic Regeneration",
+     "pts": 10
+    },
+    {
+     "id": "alien-majesty",
+     "name": "Alien Majesty",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "outlander-claw",
+   "name": "Outlander Claw",
+   "enhancements": [
+    {
+     "id": "serpentine-tactics",
+     "name": "Serpentine Tactics",
+     "pts": 10
+    },
+    {
+     "id": "cartographic-data-leech",
+     "name": "Cartographic Data-leech",
+     "pts": 10
+    },
+    {
+     "id": "starfall-shells",
+     "name": "Starfall Shells",
+     "pts": 10
+    },
+    {
+     "id": "assault-commando",
+     "name": "Assault Commando",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "brood-brother-auxilia",
+   "name": "Brood Brother Auxilia",
+   "enhancements": [
+    {
+     "id": "martial-espionage",
+     "name": "Martial Espionage",
+     "pts": 25
+    },
+    {
+     "id": "adaptive-reprisal",
+     "name": "Adaptive Reprisal",
+     "pts": 15
+    },
+    {
+     "id": "the-hero-returned",
+     "name": "The Hero Returned",
+     "pts": 20
+    },
+    {
+     "id": "fire-point-commander",
+     "name": "Fire-point Commander",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "final-day",
+   "name": "Final Day",
+   "enhancements": [
+    {
+     "id": "synaptic-auger",
+     "name": "Synaptic Auger",
+     "pts": 15
+    },
+    {
+     "id": "vanguard-tyrant",
+     "name": "Vanguard Tyrant",
+     "pts": 25
+    },
+    {
+     "id": "inhuman-integration",
+     "name": "Inhuman Integration",
+     "pts": 20
+    },
+    {
+     "id": "enraptured-damnation",
+     "name": "Enraptured Damnation",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "cult-unveiled",
+   "name": "Cult Unveiled",
+   "enhancements": [
+    {
+     "id": "primary-detonator",
+     "name": "Primary Detonator",
+     "pts": 0
+    },
+    {
+     "id": "master-saboteur",
+     "name": "Master Saboteur",
+     "pts": 0
+    }
+   ]
+  },
+  {
+   "id": "genespawn-onslaught",
+   "name": "Genespawn Onslaught",
+   "enhancements": [
+    {
+     "id": "spiteful-imp",
+     "name": "Spiteful Imp",
+     "pts": 0
+    },
+    {
+     "id": "miasmic-fumes",
+     "name": "Miasmic Fumes",
+     "pts": 0
+    }
+   ]
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "barbgaunts",
+   "name": "Barbgaunts",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 55
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "breaching-robot",
+   "name": "Breaching Robot",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 35
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-options",
+     "name": "Wargear Options",
+     "max": 1,
+     "choices": [
+      {
+       "id": "bomb-kit",
+       "name": "Bomb Kit",
+       "pts": 0
+      },
+      {
+       "id": "cutting-blade-and-cutting-gear",
+       "name": "Cutting blade and cutting gear",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "broodlord",
+   "name": "Broodlord",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "broodlord-claws-and-talons",
+       "name": "Broodlord Claws and Talons",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "deathleaper",
+   "name": "Deathleaper",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [],
+   "rosterMax": 1,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "exocrine",
+   "name": "Exocrine",
+   "legends": false,
+   "keywords": [
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 140
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "bio-plasmic-cannon",
+       "name": "Bio-plasmic cannon",
+       "pts": 0
+      },
+      {
+       "id": "powerful-limbs",
+       "name": "Powerful limbs",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "gargoyles",
+   "name": "Gargoyles",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 85
+    }
+   ],
+   "options": [],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "genestealers",
+   "name": "Genestealers",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [
+    {
+     "id": "5-10-genestealers",
+     "name": "5-10 Genestealers",
+     "max": null,
+     "choices": [
+      {
+       "id": "genestealer",
+       "name": "Genestealer",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "harpy",
+   "name": "Harpy",
+   "legends": false,
+   "keywords": [
+    "AIRCRAFT",
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 215
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-stranglethorn-cannon",
+     "name": "Wargear · Stranglethorn Cannon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "twin-stranglethorn-cannon",
+       "name": "Twin stranglethorn cannon",
+       "pts": 0
+      },
+      {
+       "id": "twin-heavy-venom-cannon",
+       "name": "Twin heavy venom cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "harridan",
+   "name": "Harridan",
+   "legends": false,
+   "keywords": [
+    "AIRCRAFT",
+    "MONSTER",
+    "TITANIC",
+    "TRANSPORT"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 610
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "dire-bio-cannon",
+       "name": "Dire bio-cannon",
+       "pts": 0
+      },
+      {
+       "id": "gargantuan-scything-talons",
+       "name": "Gargantuan scything talons",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": 20
+  },
+  {
+   "id": "haruspex",
+   "name": "Haruspex",
+   "legends": false,
+   "keywords": [
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 125
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "grasping-tongue",
+       "name": "Grasping tongue",
+       "pts": 0
+      },
+      {
+       "id": "shovelling-claws",
+       "name": "Shovelling claws",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "hierophant",
+   "name": "Hierophant",
+   "legends": false,
+   "keywords": [
+    "MONSTER",
+    "TITANIC",
+    "TRANSPORT"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 810
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "bio-plasma-torrent",
+       "name": "Bio-plasma torrent",
+       "pts": 0
+      },
+      {
+       "id": "dire-bio-cannon",
+       "name": "Dire bio-cannon",
+       "pts": 0
+      },
+      {
+       "id": "lashwhip-pods",
+       "name": "Lashwhip pods",
+       "pts": 0
+      },
+      {
+       "id": "titanic-scything-talons",
+       "name": "Titanic scything talons",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": 20
+  },
+  {
+   "id": "hive-crone",
+   "name": "Hive Crone",
+   "legends": false,
+   "keywords": [
+    "AIRCRAFT",
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 200
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "drool-cannon",
+       "name": "Drool cannon",
+       "pts": 0
+      },
+      {
+       "id": "tentaclids",
+       "name": "Tentaclids",
+       "pts": 0
+      },
+      {
+       "id": "thorax-spur",
+       "name": "Thorax spur",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "hive-guard",
+   "name": "Hive Guard",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 3,
+     "pts": 90
+    },
+    {
+     "models": 6,
+     "pts": 180
+    }
+   ],
+   "options": [
+    {
+     "id": "3-6-hive-guard",
+     "name": "3-6 Hive Guard",
+     "max": 6,
+     "choices": [
+      {
+       "id": "hive-guard-w-shockcannon",
+       "name": "Hive Guard w/ shockcannon",
+       "pts": 0
+      },
+      {
+       "id": "hive-guard-w-impaler-cannon",
+       "name": "Hive Guard w/ impaler cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "hive-tyrant",
+   "name": "Hive Tyrant",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "MONSTER",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 195
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "hormagaunts",
+   "name": "Hormagaunts",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 65
+    }
+   ],
+   "options": [
+    {
+     "id": "10-20-hormagaunts",
+     "name": "10-20 Hormagaunts",
+     "max": null,
+     "choices": [
+      {
+       "id": "hormagaunts",
+       "name": "Hormagaunts",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "hyperadapted-raveners",
+   "name": "Hyperadapted Raveners",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 165
+    }
+   ],
+   "options": [
+    {
+     "id": "raveners",
+     "name": "Raveners",
+     "max": null,
+     "choices": [
+      {
+       "id": "ravener",
+       "name": "Ravener",
+       "pts": 0
+      },
+      {
+       "id": "ravener-w-venom-bolt",
+       "name": "Ravener w/ Venom bolt",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "lictor",
+   "name": "Lictor",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 60
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "macro-organism",
+   "name": "Macro Organism [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 150
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "maleceptor",
+   "name": "Maleceptor",
+   "legends": false,
+   "keywords": [
+    "MONSTER",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 170
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "massive-scything-talons",
+       "name": "Massive scything talons",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "mawloc",
+   "name": "Mawloc",
+   "legends": false,
+   "keywords": [
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 135
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "distendible-jaw",
+       "name": "Distendible jaw",
+       "pts": 0
+      },
+      {
+       "id": "mawloc-scything-talons",
+       "name": "Mawloc scything talons",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "neurogaunts",
+   "name": "Neurogaunts",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 2,
+     "pts": 45
+    }
+   ],
+   "options": [
+    {
+     "id": "1-2-neurogaunt-nodebeasts",
+     "name": "1-2 Neurogaunt Nodebeasts",
+     "max": null,
+     "choices": [
+      {
+       "id": "neurogaunt-nodebeast",
+       "name": "Neurogaunt Nodebeast",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "10-20-neurogaunts",
+     "name": "10-20 Neurogaunts",
+     "max": null,
+     "choices": [
+      {
+       "id": "neurogaunt",
+       "name": "Neurogaunt",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "neurolictor",
+   "name": "Neurolictor",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "piercing-claws-and-talons",
+       "name": "Piercing claws and talons",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "neurotyrant",
+   "name": "Neurotyrant",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "MONSTER",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 105
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "neurotyrant-claws-and-lashes",
+       "name": "Neurotyrant claws and lashes",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [
+    "neurogaunts",
+    "tyrant-guard",
+    "zoanthropes"
+   ],
+   "transport": null
+  },
+  {
+   "id": "node-organism",
+   "name": "Node Organism [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [
+    "tyranid-warriors-with-melee-bio-weapons",
+    "tyranid-warriors-with-ranged-bio-weapons"
+   ],
+   "transport": null
+  },
+  {
+   "id": "norn-assimilator",
+   "name": "Norn Assimilator",
+   "legends": false,
+   "keywords": [
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 275
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "monstrous-scything-talons",
+       "name": "Monstrous scything talons",
+       "pts": 0
+      },
+      {
+       "id": "toxinjecter-harpoon",
+       "name": "Toxinjecter harpoon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "norn-emissary",
+   "name": "Norn Emissary",
+   "legends": false,
+   "keywords": [
+    "MONSTER",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 260
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "monstrous-rending-claws",
+       "name": "Monstrous rending claws",
+       "pts": 0
+      },
+      {
+       "id": "monstrous-scything-talons",
+       "name": "Monstrous scything talons",
+       "pts": 0
+      },
+      {
+       "id": "psychic-tendril",
+       "name": "Psychic tendril",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "old-one-eye",
+   "name": "Old One Eye",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 150
+    }
+   ],
+   "options": [],
+   "rosterMax": 1,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "parasite-of-mortrex",
+   "name": "Parasite of Mortrex",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "barbed-ovipositor",
+       "name": "Barbed ovipositor",
+       "pts": 0
+      },
+      {
+       "id": "clawed-limbs",
+       "name": "Clawed limbs",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "prime-organism",
+   "name": "Prime Organism [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 135
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [
+    "carnifexes",
+    "tyrant-guard"
+   ],
+   "transport": null
+  },
+  {
+   "id": "psychophage",
+   "name": "Psychophage",
+   "legends": false,
+   "keywords": [
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 110
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "talons-and-betentacled-maw",
+       "name": "Talons and betentacled maw",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "pyrovores",
+   "name": "Pyrovores",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 40
+    }
+   ],
+   "options": [
+    {
+     "id": "1-3-pyrovores",
+     "name": "1-3 Pyrovores",
+     "max": null,
+     "choices": [
+      {
+       "id": "pyrovore",
+       "name": "Pyrovore",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "raveners",
+   "name": "Raveners",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 125
+    }
+   ],
+   "options": [
+    {
+     "id": "5-raveners",
+     "name": "5 Raveners",
+     "max": null,
+     "choices": [
+      {
+       "id": "ravener",
+       "name": "Ravener",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "ripper-swarms",
+   "name": "Ripper Swarms",
+   "legends": false,
+   "keywords": [],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 25
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "screamer-killer",
+   "name": "Screamer-killer",
+   "legends": false,
+   "keywords": [
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 125
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "bio-plasmic-scream",
+       "name": "Bio-plasmic scream",
+       "pts": 0
+      },
+      {
+       "id": "screamer-killer-talons",
+       "name": "Screamer-killer talons",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "searchlight",
+   "name": "Searchlight",
+   "legends": false,
+   "keywords": [],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 10
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "sentry-gun",
+   "name": "Sentry Gun",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 30
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "spore-mines",
+   "name": "Spore Mines",
+   "legends": false,
+   "keywords": [
+    "BEAST"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 55
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "sporocyst",
+   "name": "Sporocyst",
+   "legends": false,
+   "keywords": [
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 145
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "flensing-whips",
+       "name": "Flensing whips",
+       "pts": 0
+      },
+      {
+       "id": "sporocyst-bio-weapon",
+       "name": "Sporocyst bio-weapon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "termagants",
+   "name": "Termagants",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 10,
+     "pts": 60
+    },
+    {
+     "models": 20,
+     "pts": 120
+    }
+   ],
+   "options": [
+    {
+     "id": "10-20-termagants",
+     "name": "10-20 Termagants",
+     "max": 20,
+     "choices": [
+      {
+       "id": "termagants",
+       "name": "Termagants",
+       "pts": 0
+      },
+      {
+       "id": "termagant-w-shardlauncher",
+       "name": "Termagant w/ Shardlauncher",
+       "pts": 0
+      },
+      {
+       "id": "termagant-w-spike-rifle",
+       "name": "Termagant w/ Spike rifle",
+       "pts": 0
+      },
+      {
+       "id": "termagant-w-strangleweb",
+       "name": "Termagant w/ Strangleweb",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "tervigon",
+   "name": "Tervigon",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "MONSTER",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 160
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-massive-scything-talons",
+     "name": "Wargear · Massive Scything Talons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "massive-scything-talons",
+       "name": "Massive scything talons",
+       "pts": 0
+      },
+      {
+       "id": "massive-crushing-claws",
+       "name": "Massive crushing claws",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "the-red-terror",
+   "name": "The Red Terror",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 130
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "gaping-maw",
+       "name": "Gaping maw",
+       "pts": 0
+      },
+      {
+       "id": "scything-talons",
+       "name": "Scything talons",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 1,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "the-swarmlord",
+   "name": "The Swarmlord",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "MONSTER",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 220
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "bone-sabres",
+       "name": "Bone Sabres",
+       "pts": 0
+      },
+      {
+       "id": "synaptic-pulse",
+       "name": "Synaptic Pulse",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 1,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "toxicrene",
+   "name": "Toxicrene",
+   "legends": false,
+   "keywords": [
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 150
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "massive-toxic-lashes",
+       "name": "Massive toxic lashes",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "trygon",
+   "name": "Trygon",
+   "legends": false,
+   "keywords": [
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 140
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "trygon-scything-talons",
+       "name": "Trygon scything talons",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "tyranid-prime-with-lash-whip",
+   "name": "Tyranid Prime with Lash Whip",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 65
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "rending-claw",
+       "name": "Rending claw",
+       "pts": 0
+      },
+      {
+       "id": "lash-whip",
+       "name": "Lash whip",
+       "pts": 0
+      },
+      {
+       "id": "scything-talons",
+       "name": "Scything talons",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "tyranid-warriors-with-melee-bio-weapons",
+   "name": "Tyranid Warriors with Melee Bio-Weapons",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 2,
+     "pts": 75
+    }
+   ],
+   "options": [
+    {
+     "id": "tyranid-prime",
+     "name": "Tyranid Prime",
+     "max": null,
+     "choices": [
+      {
+       "id": "tyranid-prime",
+       "name": "Tyranid Prime",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "2-5-tyranid-warriors",
+     "name": "2-5 Tyranid Warriors",
+     "max": null,
+     "choices": [
+      {
+       "id": "tyranid-warrior",
+       "name": "Tyranid Warrior",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "tyranid-warriors-with-ranged-bio-weapons",
+   "name": "Tyranid Warriors with Ranged Bio-Weapons",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 2,
+     "pts": 65
+    }
+   ],
+   "options": [
+    {
+     "id": "tyranid-prime",
+     "name": "Tyranid Prime",
+     "max": null,
+     "choices": [
+      {
+       "id": "tyranid-prime",
+       "name": "Tyranid Prime",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "2-5-tyranid-warriors",
+     "name": "2-5 Tyranid Warriors",
+     "max": null,
+     "choices": [
+      {
+       "id": "tyranid-warrior",
+       "name": "Tyranid Warrior",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "tyrannocyte",
+   "name": "Tyrannocyte",
+   "legends": false,
+   "keywords": [
+    "DEDICATED TRANSPORT",
+    "MONSTER",
+    "TRANSPORT"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 105
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "flensing-whips",
+       "name": "Flensing Whips",
+       "pts": 0
+      },
+      {
+       "id": "tyrannocyte-bio-weapons",
+       "name": "Tyrannocyte Bio-weapons",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": 20
+  },
+  {
+   "id": "tyrannofex",
+   "name": "Tyrannofex",
+   "legends": false,
+   "keywords": [
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 200
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "powerful-limbs",
+       "name": "Powerful limbs",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "tyrant-guard",
+   "name": "Tyrant Guard",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [
+    {
+     "id": "3-6-tyrant-guard",
+     "name": "3-6 Tyrant Guard",
+     "max": null,
+     "choices": [
+      {
+       "id": "tyrant-guard",
+       "name": "Tyrant Guard",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "venomthropes",
+   "name": "Venomthropes",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [
+    {
+     "id": "3-6-venomthropes",
+     "name": "3-6 Venomthropes",
+     "max": null,
+     "choices": [
+      {
+       "id": "venomthrope",
+       "name": "Venomthrope",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "von-ryan-s-leapers",
+   "name": "Von Ryan's Leapers",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [
+    {
+     "id": "3-6-von-ryan-s-leapers",
+     "name": "3-6 Von Ryan's Leapers",
+     "max": null,
+     "choices": [
+      {
+       "id": "von-ryan-s-leaper",
+       "name": "Von Ryan's Leaper",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "winged-hive-tyrant",
+   "name": "Winged Hive Tyrant",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "MONSTER",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 170
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "tyrant-talons",
+       "name": "Tyrant talons",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "winged-tyranid-prime",
+   "name": "Winged Tyranid Prime",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 65
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "prime-talons",
+       "name": "Prime talons",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [
+    "gargoyles",
+    "tyranid-warriors-with-melee-bio-weapons",
+    "tyranid-warriors-with-ranged-bio-weapons"
+   ],
+   "transport": null
+  },
+  {
+   "id": "zoanthropes",
+   "name": "Zoanthropes",
+   "legends": false,
+   "keywords": [
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 2,
+     "pts": 100
+    }
+   ],
+   "options": [
+    {
+     "id": "neurothrope",
+     "name": "Neurothrope",
+     "max": null,
+     "choices": [
+      {
+       "id": "neurothrope",
+       "name": "Neurothrope",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "2-5-zoanthropes",
+     "name": "2-5 Zoanthropes",
+     "max": null,
+     "choices": [
+      {
+       "id": "zoanthrope",
+       "name": "Zoanthrope",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  }
+ ]
+}

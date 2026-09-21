@@ -931,3 +931,79 @@ body.loaded main{animation:pageIn .5s ease both;}
   background:var(--panel);color:var(--bone-dim);padding:3px 7px;
 }
 .ab-tag.enh{border-color:var(--crimson-deep);color:var(--crimson-glow);}
+
+/* --- army builder: attachment + transport (Phase 4) --- */
+.ab-attach{border:1px solid var(--iron);background:var(--panel);padding:10px 12px;margin-top:10px;}
+.ab-attach .a-lbl{display:block;font-size:.67rem;letter-spacing:.09em;font-weight:700;
+  color:var(--crimson-glow);margin-bottom:6px;}
+.ab-attach select{width:100%;background:var(--void-2);border:1px solid var(--iron);
+  color:var(--bone);padding:7px 9px;font-family:var(--font-body);font-size:.84rem;font-weight:600;}
+.ab-attach select:focus{border-color:var(--crimson-bright);outline:none;}
+.ab-tag.att{border-color:var(--steel);color:var(--bone);}
+.ab-tag.tr{border-color:#4a5a63;color:#9fb4bf;}
+.ab-unit.attached{margin-left:16px;border-left:2px solid var(--steel);}
+.ab-cap{font-size:.67rem;color:var(--bone-dim);letter-spacing:.04em;margin-top:6px;display:block;}
+.ab-cap.over{color:var(--crimson-glow);font-weight:700;}
+
+/* --- army builder: save / share / print (Phase 5) --- */
+.ab-actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:22px;}
+.ab-actions .btn{padding:11px 20px;font-size:.86rem;}
+.ab-saved{
+  display:flex;gap:10px;align-items:flex-end;flex-wrap:wrap;
+  border:1px solid var(--iron);background:var(--panel);padding:16px 18px;margin-top:18px;
+}
+.ab-saved .fld{flex:1 1 180px;min-width:160px;}
+.ab-saved input,.ab-saved select{
+  width:100%;background:var(--void-2);border:1px solid var(--iron);color:var(--bone);
+  padding:9px 11px;font-family:var(--font-body);font-size:.9rem;font-weight:600;
+}
+.ab-saved input:focus,.ab-saved select:focus{border-color:var(--crimson-bright);outline:none;}
+
+.ab-modal{
+  position:fixed;inset:0;z-index:1600;background:rgba(8,3,3,.93);
+  display:flex;align-items:center;justify-content:center;padding:24px;
+  opacity:0;visibility:hidden;transition:opacity .25s var(--ease), visibility .25s;
+}
+.ab-modal.open{opacity:1;visibility:visible;}
+.ab-modal .m-box{
+  background:var(--panel);border:1px solid var(--crimson-bright);
+  max-width:620px;width:100%;padding:30px;position:relative;
+  transform:scale(.96);transition:transform .28s var(--ease-out);
+  max-height:86vh;overflow-y:auto;
+}
+.ab-modal.open .m-box{transform:none;}
+.ab-modal h3{font-size:1.3rem;margin-bottom:8px;}
+.ab-modal p{color:var(--bone-dim);font-size:.9rem;margin-bottom:16px;line-height:1.55;}
+.ab-modal textarea{
+  width:100%;min-height:120px;background:var(--void-2);border:1px solid var(--iron);
+  color:var(--bone);padding:12px;font-family:var(--font-body);font-size:.84rem;
+  resize:vertical;word-break:break-all;
+}
+.ab-modal textarea:focus{border-color:var(--crimson-bright);outline:none;}
+.m-close{
+  position:absolute;top:12px;right:12px;background:none;border:1px solid var(--iron);
+  color:var(--bone);width:32px;height:32px;font-size:1.1rem;line-height:1;
+}
+.m-close:hover{border-color:var(--crimson-bright);color:var(--crimson-glow);}
+.m-msg{font-size:.84rem;margin-top:12px;min-height:20px;}
+.m-msg.ok{color:#7fbf7f;}
+.m-msg.err{color:var(--crimson-glow);}
+
+/* printable list sheet */
+#ab-print{display:none;}
+@media print{
+  body > *{display:none !important;}
+  #ab-print{display:block !important;color:#000;background:#fff;font-family:Georgia,serif;}
+  #ab-print h1{font-size:20pt;margin:0 0 2pt;}
+  #ab-print .p-meta{font-size:10pt;color:#444;margin-bottom:14pt;
+    border-bottom:1.5pt solid #000;padding-bottom:8pt;}
+  #ab-print .p-unit{margin-bottom:9pt;padding-bottom:7pt;border-bottom:.5pt solid #bbb;
+    page-break-inside:avoid;}
+  #ab-print .p-head{display:flex;justify-content:space-between;font-size:11.5pt;font-weight:bold;}
+  #ab-print .p-sub{font-size:9.5pt;color:#333;margin-top:2pt;}
+  #ab-print .p-sub em{font-style:normal;color:#666;}
+  #ab-print .p-total{margin-top:14pt;padding-top:8pt;border-top:1.5pt solid #000;
+    font-size:13pt;font-weight:bold;display:flex;justify-content:space-between;}
+  #ab-print .p-foot{margin-top:16pt;font-size:8pt;color:#777;}
+  @page{margin:16mm;}
+}

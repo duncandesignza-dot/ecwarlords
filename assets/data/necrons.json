@@ -1,0 +1,1911 @@
+{
+ "id": "necrons",
+ "name": "Necrons",
+ "source": "BSData wh40k-10e",
+ "generated": "2026-09-21",
+ "detachments": [
+  {
+   "id": "awakened-dynasty",
+   "name": "Awakened Dynasty",
+   "enhancements": []
+  },
+  {
+   "id": "annihilation-legion",
+   "name": "Annihilation Legion",
+   "enhancements": []
+  },
+  {
+   "id": "canoptek-court",
+   "name": "Canoptek Court",
+   "enhancements": []
+  },
+  {
+   "id": "obeisance-phalanx",
+   "name": "Obeisance Phalanx",
+   "enhancements": []
+  },
+  {
+   "id": "hypercrypt-legion",
+   "name": "Hypercrypt Legion",
+   "enhancements": []
+  },
+  {
+   "id": "starshatter-arsenal",
+   "name": "Starshatter Arsenal",
+   "enhancements": []
+  },
+  {
+   "id": "cryptek-conclave",
+   "name": "Cryptek Conclave",
+   "enhancements": []
+  },
+  {
+   "id": "cursed-legion",
+   "name": "Cursed Legion",
+   "enhancements": []
+  },
+  {
+   "id": "pantheon-of-woe",
+   "name": "Pantheon of Woe",
+   "enhancements": []
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "annihilation-barge",
+   "name": "Annihilation Barge",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 105
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "twin-tesla-destructor",
+       "name": "Twin tesla destructor",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-secondary-weapon",
+     "name": "Wargear · Secondary weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "gauss-cannon",
+       "name": "Gauss cannon",
+       "pts": 0
+      },
+      {
+       "id": "tesla-cannon",
+       "name": "Tesla cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "breaching-robot",
+   "name": "Breaching Robot",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 35
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-options",
+     "name": "Wargear Options",
+     "max": 1,
+     "choices": [
+      {
+       "id": "bomb-kit",
+       "name": "Bomb Kit",
+       "pts": 0
+      },
+      {
+       "id": "cutting-blade-and-cutting-gear",
+       "name": "Cutting blade and cutting gear",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "c-tan-shard-of-the-deceiver",
+   "name": "C'tan Shard of the Deceiver",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 310
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "c-tan-shard-of-the-nightbringer",
+   "name": "C'tan Shard of the Nightbringer",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 340
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "c-tan-shard-of-the-void-dragon",
+   "name": "C'tan Shard of the Void Dragon",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 330
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "canoptek-doomstalker",
+   "name": "Canoptek Doomstalker",
+   "legends": false,
+   "keywords": [
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 140
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "doomsday-blaster",
+       "name": "Doomsday blaster",
+       "pts": 0
+      },
+      {
+       "id": "doomstalker-limbs",
+       "name": "Doomstalker limbs",
+       "pts": 0
+      },
+      {
+       "id": "twin-gauss-flayer",
+       "name": "Twin gauss flayer",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "canoptek-macrocytes",
+   "name": "Canoptek Macrocytes",
+   "legends": false,
+   "keywords": [
+    "BEAST"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 85
+    }
+   ],
+   "options": [
+    {
+     "id": "5-macrocytes",
+     "name": "5 Macrocytes",
+     "max": 5,
+     "choices": [
+      {
+       "id": "canoptek-macrocyte-w-atomiser-beam",
+       "name": "Canoptek Macrocyte w/ atomiser beam",
+       "pts": 0
+      },
+      {
+       "id": "canoptek-macrocyte-w-tesla-caster",
+       "name": "Canoptek Macrocyte w/ tesla caster",
+       "pts": 0
+      },
+      {
+       "id": "canoptek-macrocyte-w-accelerator-mandible",
+       "name": "Canoptek Macrocyte w/ accelerator mandible",
+       "pts": 0
+      },
+      {
+       "id": "canoptek-macrocyte-w-gauss-scalpel",
+       "name": "Canoptek Macrocyte w/ gauss scalpel",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "canoptek-reanimator",
+   "name": "Canoptek Reanimator",
+   "legends": false,
+   "keywords": [
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "atomiser-beam",
+       "name": "Atomiser beam",
+       "pts": 0
+      },
+      {
+       "id": "reanimator-s-claws",
+       "name": "Reanimator's claws",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "canoptek-scarab-swarms",
+   "name": "Canoptek Scarab Swarms",
+   "legends": false,
+   "keywords": [],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 40
+    }
+   ],
+   "options": [
+    {
+     "id": "3-6-scarab-swarms",
+     "name": "3-6 Scarab Swarms",
+     "max": null,
+     "choices": [
+      {
+       "id": "canoptek-scarab-swarm",
+       "name": "Canoptek Scarab Swarm",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "canoptek-tomb-crawlers",
+   "name": "Canoptek Tomb Crawlers",
+   "legends": false,
+   "keywords": [
+    "BEAST"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 50
+    }
+   ],
+   "options": [
+    {
+     "id": "2-tomb-crawlers",
+     "name": "2 Tomb Crawlers",
+     "max": null,
+     "choices": [
+      {
+       "id": "tomb-crawler-w-twin-gauss-reaper",
+       "name": "Tomb Crawler w/ twin gauss reaper",
+       "pts": 0
+      },
+      {
+       "id": "tomb-crawler-w-twin-gauss-reaper",
+       "name": "Tomb Crawler w/ twin gauss reaper",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "canoptek-wraiths",
+   "name": "Canoptek Wraiths",
+   "legends": false,
+   "keywords": [
+    "BEAST"
+   ],
+   "unitSizes": [
+    {
+     "models": 3,
+     "pts": 110
+    },
+    {
+     "models": 6,
+     "pts": 220
+    }
+   ],
+   "options": [
+    {
+     "id": "3-6-wraiths",
+     "name": "3-6 Wraiths",
+     "max": 6,
+     "choices": [
+      {
+       "id": "wraith-w-claws-and-beamer",
+       "name": "Wraith w/ claws and beamer",
+       "pts": 0
+      },
+      {
+       "id": "wraith-w-claws-and-particle-caster",
+       "name": "Wraith w/ claws and particle caster",
+       "pts": 0
+      },
+      {
+       "id": "wraith-w-claws",
+       "name": "Wraith w/ claws",
+       "pts": 0
+      },
+      {
+       "id": "wraith-w-coils",
+       "name": "Wraith w/ coils",
+       "pts": 0
+      },
+      {
+       "id": "wraith-w-coils-and-beamer",
+       "name": "Wraith w/ coils and beamer",
+       "pts": 0
+      },
+      {
+       "id": "wraith-w-coils-and-particle-caster",
+       "name": "Wraith w/ coils and particle caster",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "catacomb-command-barge",
+   "name": "Catacomb Command Barge",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 120
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "resurrection-orb",
+       "name": "Resurrection orb",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-main-weapon",
+     "name": "Wargear · Main weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "gauss-cannon",
+       "name": "Gauss cannon",
+       "pts": 0
+      },
+      {
+       "id": "tesla-cannon",
+       "name": "Tesla cannon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-overlord-s-weapon",
+     "name": "Wargear · Overlord's Weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "staff-of-light",
+       "name": "Staff of light",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "chronomancer",
+   "name": "Chronomancer",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 65
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "chronomancer-s-stave",
+       "name": "Chronomancer's stave",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "cryptothralls",
+   "name": "Cryptothralls",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 60
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "deathmarks",
+   "name": "Deathmarks",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 60
+    }
+   ],
+   "options": [
+    {
+     "id": "5-10-deathmarks",
+     "name": "5-10 Deathmarks",
+     "max": null,
+     "choices": [
+      {
+       "id": "deathmark",
+       "name": "Deathmark",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "doom-scythe",
+   "name": "Doom Scythe",
+   "legends": false,
+   "keywords": [
+    "AIRCRAFT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 230
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "heavy-death-ray",
+       "name": "Heavy death ray",
+       "pts": 0
+      },
+      {
+       "id": "twin-tesla-destructor",
+       "name": "Twin tesla destructor",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "doomsday-ark",
+   "name": "Doomsday Ark",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 200
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "doomsday-cannon",
+       "name": "Doomsday cannon",
+       "pts": 0
+      },
+      {
+       "id": "gauss-flayer-array",
+       "name": "Gauss flayer array",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "dynastic-conqueror",
+   "name": "Dynastic Conqueror [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 85
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "flayed-ones",
+   "name": "Flayed Ones",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 60
+    },
+    {
+     "models": 10,
+     "pts": 120
+    }
+   ],
+   "options": [
+    {
+     "id": "5-10-flayed-ones",
+     "name": "5-10 Flayed Ones",
+     "max": 10,
+     "choices": [
+      {
+       "id": "flayed-one",
+       "name": "Flayed One",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "geomancer",
+   "name": "Geomancer",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "tremorglaive",
+       "name": "Tremorglaive",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "ghost-ark",
+   "name": "Ghost Ark",
+   "legends": false,
+   "keywords": [
+    "DEDICATED TRANSPORT",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 115
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "gauss-flayer-array",
+       "name": "Gauss flayer array",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": 10
+  },
+  {
+   "id": "hexmark-destroyer",
+   "name": "Hexmark Destroyer",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "close-combat-weapon",
+       "name": "Close combat weapon",
+       "pts": 0
+      },
+      {
+       "id": "enmitic-disintegrator-pistols",
+       "name": "Enmitic disintegrator pistols",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "hyperscientist",
+   "name": "Hyperscientist [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 85
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "illuminor-szeras",
+   "name": "Illuminor Szeras",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 165
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "immortals",
+   "name": "Immortals",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 70
+    },
+    {
+     "models": 10,
+     "pts": 150
+    }
+   ],
+   "options": [
+    {
+     "id": "5-10-immortals",
+     "name": "5-10 Immortals",
+     "max": 10,
+     "choices": [
+      {
+       "id": "immortal",
+       "name": "Immortal",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "imotekh-the-stormlord",
+   "name": "Imotekh the Stormlord",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 100
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "lokhust-destroyers",
+   "name": "Lokhust Destroyers",
+   "legends": false,
+   "keywords": [],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 40
+    }
+   ],
+   "options": [
+    {
+     "id": "1-6-destroyers",
+     "name": "1-6 Destroyers",
+     "max": null,
+     "choices": [
+      {
+       "id": "lokhust-destroyer",
+       "name": "Lokhust Destroyer",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "lokhust-heavy-destroyers",
+   "name": "Lokhust Heavy Destroyers",
+   "legends": false,
+   "keywords": [],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 55
+    },
+    {
+     "models": 3,
+     "pts": 165
+    }
+   ],
+   "options": [
+    {
+     "id": "1-3-heavy-destroyers",
+     "name": "1-3 Heavy Destroyers",
+     "max": 3,
+     "choices": [
+      {
+       "id": "destroyer-w-enmitic-exterminator",
+       "name": "Destroyer w/ enmitic exterminator",
+       "pts": 55
+      },
+      {
+       "id": "destroyer-w-gauss-destructor",
+       "name": "Destroyer w/ gauss destructor",
+       "pts": 55
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "lokhust-lord",
+   "name": "Lokhust Lord",
+   "legends": false,
+   "keywords": [
+    "CHARACTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-weapon",
+     "name": "Wargear · Weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "lord-s-blade",
+       "name": "Lord's blade",
+       "pts": 0
+      },
+      {
+       "id": "staff-of-light",
+       "name": "Staff of light",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-equipment",
+     "name": "Wargear · Equipment",
+     "max": 1,
+     "choices": [
+      {
+       "id": "nanoscarab-amulet",
+       "name": "Nanoscarab amulet",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "lychguard",
+   "name": "Lychguard",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 85
+    },
+    {
+     "models": 10,
+     "pts": 170
+    }
+   ],
+   "options": [
+    {
+     "id": "5-10-lychguard",
+     "name": "5-10 Lychguard",
+     "max": 10,
+     "choices": [
+      {
+       "id": "lychguard",
+       "name": "Lychguard",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "monolith",
+   "name": "Monolith",
+   "legends": false,
+   "keywords": [
+    "TITANIC",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 400
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "particle-whip",
+       "name": "Particle whip",
+       "pts": 0
+      },
+      {
+       "id": "portal-of-exile",
+       "name": "Portal of exile",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-weapons",
+     "name": "Wargear · Weapons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "four-death-rays",
+       "name": "Four death rays",
+       "pts": 0
+      },
+      {
+       "id": "four-gauss-flux-arcs",
+       "name": "Four gauss flux arcs",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "necron-warriors",
+   "name": "Necron Warriors",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 10,
+     "pts": 90
+    },
+    {
+     "models": 20,
+     "pts": 200
+    }
+   ],
+   "options": [
+    {
+     "id": "10-20-warriors",
+     "name": "10-20 Warriors",
+     "max": 20,
+     "choices": [
+      {
+       "id": "warrior-w-gauss-flayer",
+       "name": "Warrior w/ gauss flayer",
+       "pts": 0
+      },
+      {
+       "id": "warrior-w-gauss-reaper",
+       "name": "Warrior w/ gauss reaper",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "nekrosor-ammentar",
+   "name": "Nekrosor Ammentar",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 185
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "blade-tail-and-whip-coils",
+       "name": "Blade tail and whip coils",
+       "pts": 0
+      },
+      {
+       "id": "enmitic-disintegrators",
+       "name": "Enmitic disintegrators",
+       "pts": 0
+      },
+      {
+       "id": "nullstone-field-generator",
+       "name": "Nullstone field generator",
+       "pts": 0
+      },
+      {
+       "id": "unmaker-gauntlet",
+       "name": "Unmaker gauntlet",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "night-scythe",
+   "name": "Night Scythe",
+   "legends": false,
+   "keywords": [
+    "AIRCRAFT",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 145
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "twin-tesla-destructor",
+       "name": "Twin tesla destructor",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": 1
+  },
+  {
+   "id": "obelisk",
+   "name": "Obelisk",
+   "legends": false,
+   "keywords": [
+    "TITANIC",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 300
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "armoured-bulk",
+       "name": "Armoured bulk",
+       "pts": 0
+      },
+      {
+       "id": "tesla-sphere",
+       "name": "Tesla sphere",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "ophydian-destroyers",
+   "name": "Ophydian Destroyers",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "orikan-the-diviner",
+   "name": "Orikan the Diviner",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "overlord",
+   "name": "Overlord",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 85
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-weapons",
+     "name": "Wargear · Weapons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "overlord-s-blade-and-tachyon-arrow",
+       "name": "Overlord's blade and tachyon arrow",
+       "pts": 0
+      },
+      {
+       "id": "voidscythe",
+       "name": "Voidscythe",
+       "pts": 0
+      },
+      {
+       "id": "staff-of-light",
+       "name": "Staff of light",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "overlord-with-translocation-shroud",
+   "name": "Overlord with Translocation Shroud",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 85
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "plasmancer",
+   "name": "Plasmancer",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 55
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "plasmic-lance",
+       "name": "Plasmic lance",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "psychomancer",
+   "name": "Psychomancer",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 55
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "abyssal-lance",
+       "name": "Abyssal lance",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "royal-warden",
+   "name": "Royal Warden",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 50
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "close-combat-weapon",
+       "name": "Close combat weapon",
+       "pts": 0
+      },
+      {
+       "id": "relic-gauss-blaster",
+       "name": "Relic gauss blaster",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "searchlight",
+   "name": "Searchlight",
+   "legends": false,
+   "keywords": [],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 10
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "sentry-gun",
+   "name": "Sentry Gun",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 30
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "seraptek-heavy-construct",
+   "name": "Seraptek Heavy Construct",
+   "legends": false,
+   "keywords": [
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 540
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "titanic-forelimbs",
+       "name": "Titanic forelimbs",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-weapons",
+     "name": "Wargear · Weapons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "two-singularity-generators",
+       "name": "Two singularity generators",
+       "pts": 0
+      },
+      {
+       "id": "two-synaptic-obliterators-and-two-transdimensional-projectors",
+       "name": "Two synaptic obliterators and two transdimensional projectors",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "skorpekh-destroyers",
+   "name": "Skorpekh Destroyers",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 90
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "skorpekh-lord",
+   "name": "Skorpekh Lord",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 90
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "enmitic-annihilator",
+       "name": "Enmitic annihilator",
+       "pts": 0
+      },
+      {
+       "id": "flensing-claw",
+       "name": "Flensing claw",
+       "pts": 0
+      },
+      {
+       "id": "hyperphase-harvester",
+       "name": "Hyperphase harvester",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "technomancer",
+   "name": "Technomancer",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "staff-of-light",
+       "name": "Staff of light",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "tesseract-vault",
+   "name": "Tesseract Vault",
+   "legends": false,
+   "keywords": [
+    "TITANIC",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 425
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "armoured-bulk",
+       "name": "Armoured bulk",
+       "pts": 0
+      },
+      {
+       "id": "c-tan-powers",
+       "name": "C'tan Powers",
+       "pts": 0
+      },
+      {
+       "id": "tesla-sphere",
+       "name": "Tesla sphere",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "the-silent-king",
+   "name": "The Silent King",
+   "legends": false,
+   "keywords": [
+    "EPIC HERO",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 400
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "tomb-blades",
+   "name": "Tomb Blades",
+   "legends": false,
+   "keywords": [],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [
+    {
+     "id": "3-6-tomb-blades",
+     "name": "3-6 Tomb Blades",
+     "max": null,
+     "choices": [
+      {
+       "id": "tomb-blade",
+       "name": "Tomb Blade",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "transcendent-c-tan",
+   "name": "Transcendent C'tan",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 325
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "crackling-tendrils",
+       "name": "Crackling tendrils",
+       "pts": 0
+      },
+      {
+       "id": "seismic-assault",
+       "name": "Seismic assault",
+       "pts": 0
+      },
+      {
+       "id": "relatavistic-tether",
+       "name": "Relatavistic Tether",
+       "pts": 40
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "trazyn-the-infinite",
+   "name": "Trazyn the Infinite",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "triarch-praetorians",
+   "name": "Triarch Praetorians",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 90
+    }
+   ],
+   "options": [
+    {
+     "id": "5-10-praetorians",
+     "name": "5-10 Praetorians",
+     "max": null,
+     "choices": [
+      {
+       "id": "triarch-praetorian",
+       "name": "Triarch Praetorian",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "triarch-stalker",
+   "name": "Triarch Stalker",
+   "legends": false,
+   "keywords": [
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 110
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "stalker-s-forelimbs",
+       "name": "Stalker's forelimbs",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-weapon",
+     "name": "Wargear · Weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "heat-ray",
+       "name": "Heat ray",
+       "pts": 0
+      },
+      {
+       "id": "particle-shredder",
+       "name": "Particle shredder",
+       "pts": 0
+      },
+      {
+       "id": "heavy-gauss-cannon-array",
+       "name": "Heavy gauss cannon array",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "triarchal-overseer",
+   "name": "Triarchal Overseer [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 120
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  }
+ ]
+}

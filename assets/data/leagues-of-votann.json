@@ -1,0 +1,1029 @@
+{
+ "id": "leagues-of-votann",
+ "name": "Leagues of Votann",
+ "source": "BSData wh40k-10e",
+ "generated": "2026-09-21",
+ "detachments": [
+  {
+   "id": "hearthband",
+   "name": "Hearthband",
+   "enhancements": []
+  },
+  {
+   "id": "persecution-prospect",
+   "name": "Persecution Prospect",
+   "enhancements": []
+  },
+  {
+   "id": "needga-rd-oathband",
+   "name": "Needgaârd Oathband",
+   "enhancements": []
+  },
+  {
+   "id": "hearthfyre-arsenal",
+   "name": "Hearthfyre Arsenal",
+   "enhancements": []
+  },
+  {
+   "id": "d-lve-assault-shift",
+   "name": "Dêlve Assault Shift",
+   "enhancements": []
+  },
+  {
+   "id": "brandfast-oathband",
+   "name": "Brandfast Oathband",
+   "enhancements": []
+  },
+  {
+   "id": "mercenary-oathband",
+   "name": "Mercenary Oathband",
+   "enhancements": []
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "arkanyst-evaluator",
+   "name": "Arkanyst Evaluator",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 65
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "transmatter-inverter",
+       "name": "Transmatter inverter",
+       "pts": 0
+      },
+      {
+       "id": "close-combat-weapon",
+       "name": "Close combat weapon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "berehk-stornbr-w",
+   "name": "Berehk Stornbröw",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 95
+    }
+   ],
+   "options": [],
+   "rosterMax": 1,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "breaching-robot",
+   "name": "Breaching Robot",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 35
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-options",
+     "name": "Wargear Options",
+     "max": 1,
+     "choices": [
+      {
+       "id": "bomb-kit",
+       "name": "Bomb Kit",
+       "pts": 0
+      },
+      {
+       "id": "cutting-blade-and-cutting-gear",
+       "name": "Cutting blade and cutting gear",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "br-khyr-iron-master",
+   "name": "Brôkhyr Iron-master",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [
+    {
+     "id": "assistants",
+     "name": "Assistants",
+     "max": null,
+     "choices": [
+      {
+       "id": "e-cog",
+       "name": "E-COG",
+       "pts": 0
+      },
+      {
+       "id": "e-cog",
+       "name": "E-COG",
+       "pts": 0
+      },
+      {
+       "id": "e-cog",
+       "name": "E-COG",
+       "pts": 0
+      },
+      {
+       "id": "ironkyn-assistant",
+       "name": "Ironkyn Assistant",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "br-khyr-thunderkyn",
+   "name": "Brôkhyr Thunderkyn",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "buri-aegnirssen",
+   "name": "Buri Aegnirssen",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 95
+    }
+   ],
+   "options": [],
+   "rosterMax": 1,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "cthonian-beserks",
+   "name": "Cthonian Beserks",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 100
+    },
+    {
+     "models": 10,
+     "pts": 200
+    }
+   ],
+   "options": [
+    {
+     "id": "5-10-beserks",
+     "name": "5 - 10 Beserks",
+     "max": 10,
+     "choices": [
+      {
+       "id": "beserk",
+       "name": "Beserk",
+       "pts": 0
+      },
+      {
+       "id": "beserk-w-twin-concussion-gauntlets",
+       "name": "Beserk w/ twin concussion gauntlets",
+       "pts": 0
+      },
+      {
+       "id": "beserk-w-mole-grenade-launcher",
+       "name": "Beserk w/ mole grenade launcher",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "cthonian-earthshakers",
+   "name": "Cthonian Earthshakers",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 110
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "einhyr-champion",
+   "name": "Einhyr Champion",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-crest",
+     "name": "Wargear · Crest",
+     "max": 1,
+     "choices": [
+      {
+       "id": "weavefield-crest",
+       "name": "Weavefield crest",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-melee-weapon",
+     "name": "Wargear · Melee weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "mass-hammer",
+       "name": "Mass hammer",
+       "pts": 0
+      },
+      {
+       "id": "darkstar-axe",
+       "name": "Darkstar axe",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "einhyr-hearthguard",
+   "name": "Einhyr Hearthguard",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 4,
+     "pts": 135
+    },
+    {
+     "models": 9,
+     "pts": 270
+    }
+   ],
+   "options": [
+    {
+     "id": "4-9-hearthguard",
+     "name": "4-9 Hearthguard",
+     "max": 9,
+     "choices": [
+      {
+       "id": "einhyr-hearthguard",
+       "name": "Einhyr Hearthguard",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "grimnyr",
+   "name": "Grimnyr",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 65
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "hearthkyn-warriors",
+   "name": "Hearthkyn Warriors",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 9,
+     "pts": 100
+    }
+   ],
+   "options": [
+    {
+     "id": "hearthkyn-warriors",
+     "name": "Hearthkyn Warriors",
+     "max": 9,
+     "choices": [
+      {
+       "id": "hearthkyn-warrior-w-bolter",
+       "name": "Hearthkyn Warrior w/ bolter",
+       "pts": 0
+      },
+      {
+       "id": "hearthkyn-warrior-w-ion-blaster",
+       "name": "Hearthkyn Warrior w/ ion blaster",
+       "pts": 0
+      },
+      {
+       "id": "hearthkyn-warrior-w-plasma-knife",
+       "name": "Hearthkyn Warrior w/ plasma knife",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "hearthkyn-warriors-heavy-weapons",
+     "name": "Hearthkyn Warriors · Heavy weapons",
+     "max": 2,
+     "choices": [
+      {
+       "id": "hearthkyn-warrior-w-hylas-rotary-cannon",
+       "name": "Hearthkyn Warrior w/ HYLas rotary cannon",
+       "pts": 0
+      },
+      {
+       "id": "hearthkyn-warrior-w-hylas-auto-rifle",
+       "name": "Hearthkyn Warrior w/ HYLas auto rifle",
+       "pts": 0
+      },
+      {
+       "id": "hearthkyn-warrior-w-l7-missile-launcher",
+       "name": "Hearthkyn Warrior w/ L7 missile launcher",
+       "pts": 0
+      },
+      {
+       "id": "hearthkyn-warrior-w-magna-rail-rifle",
+       "name": "Hearthkyn Warrior w/ magna-rail rifle",
+       "pts": 0
+      },
+      {
+       "id": "hearthkyn-warrior-w-etacarn-plasma-beamer",
+       "name": "Hearthkyn Warrior w/ EtaCarn plasma beamer",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "hekaton-land-fortress",
+   "name": "Hekaton Land Fortress",
+   "legends": false,
+   "keywords": [
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 240
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "armoured-wheels",
+       "name": "Armoured wheels",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-main-weapon",
+     "name": "Wargear · Main weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "sp-heavy-conversion-beamer",
+       "name": "SP heavy conversion beamer",
+       "pts": 0
+      },
+      {
+       "id": "heavy-magna-rail-cannon",
+       "name": "Heavy magna-rail cannon",
+       "pts": 0
+      },
+      {
+       "id": "cyclic-ion-cannon",
+       "name": "Cyclic ion cannon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-sponson-weapons",
+     "name": "Wargear · Sponson weapons",
+     "max": 2,
+     "choices": [
+      {
+       "id": "twin-ion-beamer",
+       "name": "Twin ion beamer",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-wargear",
+     "name": "Wargear · Wargear",
+     "max": 1,
+     "choices": [
+      {
+       "id": "pan-spectral-scanner",
+       "name": "Pan spectral scanner",
+       "pts": 0
+      },
+      {
+       "id": "hekaton-warhead",
+       "name": "Hekaton warhead",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": 14
+  },
+  {
+   "id": "hernkyn-pioneers",
+   "name": "Hernkyn Pioneers",
+   "legends": false,
+   "keywords": [
+    "GRENADES"
+   ],
+   "unitSizes": [
+    {
+     "models": 3,
+     "pts": 80
+    },
+    {
+     "models": 6,
+     "pts": 160
+    }
+   ],
+   "options": [
+    {
+     "id": "3-6-pioneers",
+     "name": "3 - 6 Pioneers",
+     "max": 6,
+     "choices": [
+      {
+       "id": "hernkyn-pioneer",
+       "name": "Hernkyn Pioneer",
+       "pts": 0
+      },
+      {
+       "id": "hernkyn-pioneer-w-comms-array",
+       "name": "Hernkyn Pioneer w/ comms array",
+       "pts": 0
+      },
+      {
+       "id": "hernkyn-pioneer-w-pan-spectral-scanner",
+       "name": "Hernkyn Pioneer w/ pan-spectral scanner",
+       "pts": 0
+      },
+      {
+       "id": "hernkyn-pioneer-w-searchlight",
+       "name": "Hernkyn Pioneer w/ searchlight",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "3-6-pioneers-heavy-weapons",
+     "name": "3 - 6 Pioneers · Heavy weapons",
+     "max": 2,
+     "choices": [
+      {
+       "id": "hernkyn-pioneer-w-hylas-rotary-cannon",
+       "name": "Hernkyn Pioneer w/ HYLas rotary cannon",
+       "pts": 0
+      },
+      {
+       "id": "hernkyn-pioneer-w-ion-beamer",
+       "name": "Hernkyn Pioneer w/ ion beamer",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "hernkyn-yaegirs",
+   "name": "Hernkyn Yaegirs",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 10,
+     "pts": 90
+    }
+   ],
+   "options": [
+    {
+     "id": "9-hernkyn-yaegir",
+     "name": "9 Hernkyn Yaegir",
+     "max": 9,
+     "choices": [
+      {
+       "id": "hernkyn-yaegir-w-bolt-shotgun",
+       "name": "Hernkyn Yaegir w/ bolt shotgun",
+       "pts": 0
+      },
+      {
+       "id": "hernkyn-yaegir-w-apm-launcher",
+       "name": "Hernkyn Yaegir w/ APM launcher",
+       "pts": 0
+      },
+      {
+       "id": "hernkyn-yaegir-w-magna-coil-rifle",
+       "name": "Hernkyn Yaegir w/ magna-coil rifle",
+       "pts": 0
+      },
+      {
+       "id": "hernkyn-yaegir-w-revolver-and-knife",
+       "name": "Hernkyn Yaegir w/ revolver and knife",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "yaegir-theyn",
+     "name": "Yaegir Theyn",
+     "max": null,
+     "choices": [
+      {
+       "id": "yaegir-theyn",
+       "name": "Yaegir Theyn",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "ironkin-steeljacks-with-heavy-volkanite-disintegrators",
+   "name": "Ironkin Steeljacks with Heavy Volkanite Disintegrators",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 85
+    }
+   ],
+   "options": [
+    {
+     "id": "2-5-ironkin-steeljacks",
+     "name": "2-5 Ironkin Steeljacks",
+     "max": null,
+     "choices": [
+      {
+       "id": "ironkin-steeljack",
+       "name": "Ironkin Steeljack",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "ironkin-steeljacks-with-melee-weapons",
+   "name": "Ironkin Steeljacks with Melee Weapons",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 2,
+     "pts": 85
+    },
+    {
+     "models": 5,
+     "pts": 170
+    }
+   ],
+   "options": [
+    {
+     "id": "2-5-ironkin-steeljacks",
+     "name": "2-5 Ironkin Steeljacks",
+     "max": 5,
+     "choices": [
+      {
+       "id": "ironkin-steeljack-w-concussion-gauntlet",
+       "name": "Ironkin Steeljack w/ concussion gauntlet",
+       "pts": 0
+      },
+      {
+       "id": "ironkin-steeljack-w-plasma-sword",
+       "name": "Ironkin Steeljack w/ plasma sword",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "kapricus-carrier",
+   "name": "Kapricus Carrier",
+   "legends": false,
+   "keywords": [
+    "DEDICATED TRANSPORT",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "magna-coil-autocannon",
+       "name": "Magna-coil autocannon",
+       "pts": 0
+      },
+      {
+       "id": "smoke-launcher",
+       "name": "Smoke launcher",
+       "pts": 0
+      },
+      {
+       "id": "armoured-hull",
+       "name": "Armoured hull",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": 5
+  },
+  {
+   "id": "kinhost-commander",
+   "name": "Kinhost Commander [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 65
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "k-hl",
+   "name": "Kâhl",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 65
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-melee-weapon",
+     "name": "Wargear · Melee weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "mass-gauntlet",
+       "name": "Mass gauntlet",
+       "pts": 0
+      },
+      {
+       "id": "forgewrought-plasma-axe",
+       "name": "Forgewrought plasma axe",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [
+    "einhyr-hearthguard",
+    "hearthkyn-warriors"
+   ],
+   "transport": null
+  },
+  {
+   "id": "living-ancestor",
+   "name": "Living Ancestor [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "memnyr-strategist",
+   "name": "Memnyr Strategist",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 45
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "autoch-pattern-bolt-pistol",
+       "name": "Autoch-pattern bolt pistol",
+       "pts": 0
+      },
+      {
+       "id": "close-combat-weapon",
+       "name": "Close combat weapon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "sagitaur",
+   "name": "Sagitaur",
+   "legends": false,
+   "keywords": [
+    "DEDICATED TRANSPORT",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 90
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "armoured-wheels",
+       "name": "Armoured wheels",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-turret-weapon",
+     "name": "Wargear · Turret weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "hylas-beam-cannon",
+       "name": "HYLas beam cannon",
+       "pts": 0
+      },
+      {
+       "id": "l7-missile-launcher-and-sagitaur-missile-launcher",
+       "name": "L7 missile launcher and Sagitaur missile launcher",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": 6
+  },
+  {
+   "id": "searchlight",
+   "name": "Searchlight",
+   "legends": false,
+   "keywords": [],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 10
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "sentry-gun",
+   "name": "Sentry Gun",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 30
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "steeljack-elder",
+   "name": "Steeljack Elder [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "thar-the-destined",
+   "name": "Ûthar the Destined",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 95
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [
+    "einhyr-hearthguard",
+    "hearthkyn-warriors"
+   ],
+   "transport": null
+  }
+ ]
+}

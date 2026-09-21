@@ -1,0 +1,4424 @@
+{
+ "id": "genestealer-cults",
+ "name": "Genestealer Cults",
+ "source": "BSData wh40k-10e",
+ "generated": "2026-09-21",
+ "detachments": [
+  {
+   "id": "combined-arms",
+   "name": "Combined Arms",
+   "enhancements": [
+    {
+     "id": "death-mask-of-ollanius",
+     "name": "Death Mask of Ollanius",
+     "pts": 10
+    },
+    {
+     "id": "drill-commander",
+     "name": "Drill Commander",
+     "pts": 20
+    },
+    {
+     "id": "reactive-command",
+     "name": "Reactive Command",
+     "pts": 15
+    },
+    {
+     "id": "grand-strategist",
+     "name": "Grand Strategist",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "bridgehead-strike",
+   "name": "Bridgehead Strike",
+   "enhancements": [
+    {
+     "id": "bombast-class-vox-array",
+     "name": "Bombast-class Vox-array",
+     "pts": 35
+    },
+    {
+     "id": "priority-drop-beacon",
+     "name": "Priority-drop Beacon",
+     "pts": 30
+    },
+    {
+     "id": "advance-augury",
+     "name": "Advance Augury",
+     "pts": 15
+    },
+    {
+     "id": "shroud-projector",
+     "name": "Shroud Projector",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "siege-regiment",
+   "name": "Siege Regiment",
+   "enhancements": [
+    {
+     "id": "eager-advance",
+     "name": "Eager Advance",
+     "pts": 20
+    },
+    {
+     "id": "flash-grenades",
+     "name": "Flash Grenades",
+     "pts": 20
+    },
+    {
+     "id": "stalwart-s-honours",
+     "name": "Stalwart's Honours",
+     "pts": 15
+    },
+    {
+     "id": "legacy-sidearm",
+     "name": "Legacy Sidearm",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "mechanised-assault",
+   "name": "Mechanised Assault",
+   "enhancements": [
+    {
+     "id": "bold-leadership",
+     "name": "Bold Leadership",
+     "pts": 25
+    },
+    {
+     "id": "sacred-unguents",
+     "name": "Sacred Unguents",
+     "pts": 10
+    },
+    {
+     "id": "vanguard-honours",
+     "name": "Vanguard Honours",
+     "pts": 15
+    },
+    {
+     "id": "smoke-grenades",
+     "name": "Smoke Grenades",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "hammer-of-the-emperor",
+   "name": "Hammer of the Emperor",
+   "enhancements": [
+    {
+     "id": "indomitable-steed",
+     "name": "Indomitable Steed",
+     "pts": 15
+    },
+    {
+     "id": "calm-under-fire",
+     "name": "Calm Under Fire",
+     "pts": 15
+    },
+    {
+     "id": "veteran-crew",
+     "name": "Veteran Crew",
+     "pts": 20
+    },
+    {
+     "id": "regimental-banner",
+     "name": "Regimental Banner",
+     "pts": 20
+    }
+   ]
+  },
+  {
+   "id": "recon-element",
+   "name": "Recon Element",
+   "enhancements": []
+  },
+  {
+   "id": "grizzled-company",
+   "name": "Grizzled Company",
+   "enhancements": [
+    {
+     "id": "abhuman-detail",
+     "name": "Abhuman Detail",
+     "pts": 20
+    },
+    {
+     "id": "aquilan-eye",
+     "name": "Aquilan Eye",
+     "pts": 20
+    },
+    {
+     "id": "laud-hailer",
+     "name": "Laud Hailer",
+     "pts": 10
+    },
+    {
+     "id": "spec-ops-veteran",
+     "name": "Spec Ops Veteran",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "embarked-regiment",
+   "name": "Embarked Regiment",
+   "enhancements": [
+    {
+     "id": "rigged-blind-grenades",
+     "name": "Rigged Blind Grenades",
+     "pts": 0
+    },
+    {
+     "id": "shipboard-veteran",
+     "name": "Shipboard Veteran",
+     "pts": 0
+    }
+   ]
+  },
+  {
+   "id": "tempestus-boarding-regiment",
+   "name": "Tempestus Boarding Regiment",
+   "enhancements": [
+    {
+     "id": "covert-breach",
+     "name": "Covert Breach",
+     "pts": 0
+    },
+    {
+     "id": "elimination-force",
+     "name": "Elimination Force",
+     "pts": 0
+    }
+   ]
+  },
+  {
+   "id": "steel-hammer",
+   "name": "Steel Hammer",
+   "enhancements": [
+    {
+     "id": "battalion-commander",
+     "name": "Battalion Commander",
+     "pts": 30
+    },
+    {
+     "id": "titan-killer",
+     "name": "Titan Killer",
+     "pts": 20
+    },
+    {
+     "id": "assault-hatches",
+     "name": "Assault Hatches",
+     "pts": 25
+    },
+    {
+     "id": "engine-speaker",
+     "name": "Engine Speaker",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "armoured-infantry",
+   "name": "Armoured Infantry",
+   "enhancements": [
+    {
+     "id": "omnissian-unguents-aura",
+     "name": "Omnissian Unguents (Aura)",
+     "pts": 30
+    },
+    {
+     "id": "grand-strategist",
+     "name": "Grand Strategist",
+     "pts": 25
+    },
+    {
+     "id": "exemplary-officer",
+     "name": "Exemplary Officer",
+     "pts": 20
+    },
+    {
+     "id": "master-manoeuvrist",
+     "name": "Master Manoeuvrist",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "invasion-fleet",
+   "name": "Invasion Fleet",
+   "enhancements": [
+    {
+     "id": "alien-cunning",
+     "name": "Alien Cunning",
+     "pts": 30
+    },
+    {
+     "id": "perfectly-adapted",
+     "name": "Perfectly Adapted",
+     "pts": 15
+    },
+    {
+     "id": "synaptic-linchpin",
+     "name": "Synaptic Linchpin",
+     "pts": 20
+    },
+    {
+     "id": "adaptive-biology",
+     "name": "Adaptive Biology",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "assimilation-swarm",
+   "name": "Assimilation Swarm",
+   "enhancements": [
+    {
+     "id": "instinctive-defense",
+     "name": "Instinctive Defense",
+     "pts": 15
+    },
+    {
+     "id": "parasitic-biomorphology",
+     "name": "Parasitic Biomorphology",
+     "pts": 25
+    },
+    {
+     "id": "regenerating-monstrosity",
+     "name": "Regenerating Monstrosity",
+     "pts": 20
+    },
+    {
+     "id": "biophagic-flow-aura",
+     "name": "Biophagic Flow (Aura)",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "crusher-stampede",
+   "name": "Crusher Stampede",
+   "enhancements": [
+    {
+     "id": "monstrous-nemesis",
+     "name": "Monstrous Nemesis",
+     "pts": 25
+    },
+    {
+     "id": "null-nodules",
+     "name": "Null Nodules",
+     "pts": 10
+    },
+    {
+     "id": "ominous-presence",
+     "name": "Ominous Presence",
+     "pts": 15
+    },
+    {
+     "id": "enraged-reserves",
+     "name": "Enraged Reserves",
+     "pts": 20
+    }
+   ]
+  },
+  {
+   "id": "synaptic-nexus",
+   "name": "Synaptic Nexus",
+   "enhancements": [
+    {
+     "id": "psychostatic-disruption",
+     "name": "Psychostatic Disruption",
+     "pts": 30
+    },
+    {
+     "id": "synaptic-control",
+     "name": "Synaptic Control",
+     "pts": 20
+    },
+    {
+     "id": "the-dirgeheart-of-kharis-aura",
+     "name": "The Dirgeheart of Kharis (Aura)",
+     "pts": 15
+    },
+    {
+     "id": "power-of-the-hive-mind",
+     "name": "Power of the Hive Mind",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "unending-swarm",
+   "name": "Unending Swarm",
+   "enhancements": [
+    {
+     "id": "naturalised-camoflage",
+     "name": "Naturalised Camoflage",
+     "pts": 30
+    },
+    {
+     "id": "piercing-talons",
+     "name": "Piercing Talons",
+     "pts": 25
+    },
+    {
+     "id": "relentless-hunger",
+     "name": "Relentless Hunger",
+     "pts": 20
+    },
+    {
+     "id": "adrenalised-onslaught",
+     "name": "Adrenalised Onslaught",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "vanguard-onslaught",
+   "name": "Vanguard Onslaught",
+   "enhancements": [
+    {
+     "id": "hunting-grounds",
+     "name": "Hunting Grounds",
+     "pts": 20
+    },
+    {
+     "id": "neuronode",
+     "name": "Neuronode",
+     "pts": 20
+    },
+    {
+     "id": "stalker",
+     "name": "Stalker",
+     "pts": 10
+    },
+    {
+     "id": "chameleonic",
+     "name": "Chameleonic",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "warrior-bioform-onslaught",
+   "name": "Warrior Bioform Onslaught",
+   "enhancements": [
+    {
+     "id": "sensory-assimilation",
+     "name": "Sensory Assimilation",
+     "pts": 20
+    },
+    {
+     "id": "elevated-might",
+     "name": "Elevated Might",
+     "pts": 30
+    },
+    {
+     "id": "ocular-adaptation",
+     "name": "Ocular Adaptation",
+     "pts": 20
+    },
+    {
+     "id": "synaptic-tyrant",
+     "name": "Synaptic Tyrant",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "subterranean-assault",
+   "name": "Subterranean Assault",
+   "enhancements": [
+    {
+     "id": "vanguard-intellect",
+     "name": "Vanguard Intellect",
+     "pts": 15
+    },
+    {
+     "id": "trygon-prime",
+     "name": "Trygon Prime",
+     "pts": 20
+    },
+    {
+     "id": "synaptic-synergy",
+     "name": "Synaptic Synergy",
+     "pts": 15
+    },
+    {
+     "id": "tremor-senses",
+     "name": "Tremor Senses",
+     "pts": 20
+    }
+   ]
+  },
+  {
+   "id": "tyranid-attack",
+   "name": "Tyranid Attack",
+   "enhancements": [
+    {
+     "id": "reinforced-carapace",
+     "name": "Reinforced Carapace",
+     "pts": 0
+    },
+    {
+     "id": "synaptic-goad",
+     "name": "Synaptic Goad",
+     "pts": 0
+    }
+   ]
+  },
+  {
+   "id": "boarding-swarm",
+   "name": "Boarding Swarm",
+   "enhancements": []
+  },
+  {
+   "id": "biotide",
+   "name": "Biotide",
+   "enhancements": [
+    {
+     "id": "synaptic-beacon",
+     "name": "Synaptic Beacon",
+     "pts": 0
+    },
+    {
+     "id": "hypersurge-gland",
+     "name": "Hypersurge Gland",
+     "pts": 0
+    },
+    {
+     "id": "psi-spoor-sensitivity",
+     "name": "Psi-spoor Sensitivity",
+     "pts": 0
+    },
+    {
+     "id": "stalking-menace",
+     "name": "Stalking Menace",
+     "pts": 0
+    }
+   ]
+  },
+  {
+   "id": "host-of-ascension",
+   "name": "Host of Ascension",
+   "enhancements": [
+    {
+     "id": "our-time-is-nigh",
+     "name": "Our Time is Nigh",
+     "pts": 20
+    },
+    {
+     "id": "a-chink-in-their-armour",
+     "name": "A Chink in Their Armour",
+     "pts": 20
+    },
+    {
+     "id": "prowling-agitant",
+     "name": "Prowling Agitant",
+     "pts": 15
+    },
+    {
+     "id": "assassination-edict",
+     "name": "Assassination Edict",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "xenocreed-congregation",
+   "name": "Xenocreed Congregation",
+   "enhancements": [
+    {
+     "id": "deeds-that-speak-to-the-masses",
+     "name": "Deeds That Speak to the Masses",
+     "pts": 25
+    },
+    {
+     "id": "gene-sire-s-reliquant",
+     "name": "Gene-sire's Reliquant",
+     "pts": 5
+    },
+    {
+     "id": "incendiary-inspiration",
+     "name": "Incendiary Inspiration",
+     "pts": 15
+    },
+    {
+     "id": "denunciator-of-tyrants",
+     "name": "Denunciator of Tyrants",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "biosanctic-broodsurge",
+   "name": "Biosanctic Broodsurge",
+   "enhancements": [
+    {
+     "id": "predatory-instincts",
+     "name": "Predatory Instincts",
+     "pts": 20
+    },
+    {
+     "id": "biomorph-adaption",
+     "name": "Biomorph Adaption",
+     "pts": 25
+    },
+    {
+     "id": "mutagenic-regeneration",
+     "name": "Mutagenic Regeneration",
+     "pts": 10
+    },
+    {
+     "id": "alien-majesty",
+     "name": "Alien Majesty",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "outlander-claw",
+   "name": "Outlander Claw",
+   "enhancements": [
+    {
+     "id": "serpentine-tactics",
+     "name": "Serpentine Tactics",
+     "pts": 10
+    },
+    {
+     "id": "cartographic-data-leech",
+     "name": "Cartographic Data-leech",
+     "pts": 10
+    },
+    {
+     "id": "starfall-shells",
+     "name": "Starfall Shells",
+     "pts": 10
+    },
+    {
+     "id": "assault-commando",
+     "name": "Assault Commando",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "brood-brother-auxilia",
+   "name": "Brood Brother Auxilia",
+   "enhancements": [
+    {
+     "id": "martial-espionage",
+     "name": "Martial Espionage",
+     "pts": 25
+    },
+    {
+     "id": "adaptive-reprisal",
+     "name": "Adaptive Reprisal",
+     "pts": 15
+    },
+    {
+     "id": "the-hero-returned",
+     "name": "The Hero Returned",
+     "pts": 20
+    },
+    {
+     "id": "fire-point-commander",
+     "name": "Fire-point Commander",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "final-day",
+   "name": "Final Day",
+   "enhancements": [
+    {
+     "id": "synaptic-auger",
+     "name": "Synaptic Auger",
+     "pts": 15
+    },
+    {
+     "id": "vanguard-tyrant",
+     "name": "Vanguard Tyrant",
+     "pts": 25
+    },
+    {
+     "id": "inhuman-integration",
+     "name": "Inhuman Integration",
+     "pts": 20
+    },
+    {
+     "id": "enraptured-damnation",
+     "name": "Enraptured Damnation",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "cult-unveiled",
+   "name": "Cult Unveiled",
+   "enhancements": [
+    {
+     "id": "primary-detonator",
+     "name": "Primary Detonator",
+     "pts": 0
+    },
+    {
+     "id": "master-saboteur",
+     "name": "Master Saboteur",
+     "pts": 0
+    }
+   ]
+  },
+  {
+   "id": "genespawn-onslaught",
+   "name": "Genespawn Onslaught",
+   "enhancements": [
+    {
+     "id": "spiteful-imp",
+     "name": "Spiteful Imp",
+     "pts": 0
+    },
+    {
+     "id": "miasmic-fumes",
+     "name": "Miasmic Fumes",
+     "pts": 0
+    }
+   ]
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "aberrants",
+   "name": "Aberrants",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 2,
+     "pts": 135
+    }
+   ],
+   "options": [
+    {
+     "id": "aberrant-hypermorph",
+     "name": "Aberrant Hypermorph",
+     "max": null,
+     "choices": [
+      {
+       "id": "aberrant-hypermorph",
+       "name": "Aberrant Hypermorph",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "4-9-aberrants",
+     "name": "4-9 Aberrants",
+     "max": null,
+     "choices": [
+      {
+       "id": "aberrant",
+       "name": "Aberrant",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "abominant",
+   "name": "Abominant",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 85
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "power-sledgehammer",
+       "name": "Power sledgehammer",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "achilles-ridgerunners",
+   "name": "Achilles Ridgerunners",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 95
+    }
+   ],
+   "options": [
+    {
+     "id": "1-2-achilles-ridgerunners",
+     "name": "1-2 Achilles Ridgerunners",
+     "max": null,
+     "choices": [
+      {
+       "id": "achilles-ridgerunner",
+       "name": "Achilles Ridgerunner",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "acolyte-hybrids-with-autopistols",
+   "name": "Acolyte Hybrids with Autopistols",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 65
+    },
+    {
+     "models": 10,
+     "pts": 130
+    }
+   ],
+   "options": [
+    {
+     "id": "4-9-acolyte-hybrids",
+     "name": "4-9 Acolyte Hybrids",
+     "max": 9,
+     "choices": [
+      {
+       "id": "acolyte-hybrid-w-auto-pistol",
+       "name": "Acolyte Hybrid w/ Auto Pistol",
+       "pts": 0
+      },
+      {
+       "id": "acolyte-hybrid-w-cult-icon",
+       "name": "Acolyte Hybrid w/ Cult Icon",
+       "pts": 0
+      },
+      {
+       "id": "acolyte-hybrid-w-heavy-mining-tool",
+       "name": "Acolyte Hybrid w/ Heavy Mining Tool",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "acolyte-leader",
+     "name": "Acolyte Leader",
+     "max": null,
+     "choices": [
+      {
+       "id": "acolyte-leader",
+       "name": "Acolyte Leader",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "acolyte-hybrids-with-hand-flamers",
+   "name": "Acolyte Hybrids with Hand Flamers",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 70
+    },
+    {
+     "models": 10,
+     "pts": 140
+    }
+   ],
+   "options": [
+    {
+     "id": "4-9-acolyte-hybrids",
+     "name": "4-9 Acolyte Hybrids",
+     "max": 9,
+     "choices": [
+      {
+       "id": "acolyte-hybrid-w-hand-flamer",
+       "name": "Acolyte Hybrid w/ Hand Flamer",
+       "pts": 0
+      },
+      {
+       "id": "acolyte-hybrid-w-cult-icon",
+       "name": "Acolyte Hybrid w/ Cult Icon",
+       "pts": 0
+      },
+      {
+       "id": "acolyte-hybrid-w-demolition-charge-and-cult-claws-and-knife",
+       "name": "Acolyte Hybrid w/ Demolition Charge, and Cult Claws and Knife",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "acolyte-leader",
+     "name": "Acolyte Leader",
+     "max": null,
+     "choices": [
+      {
+       "id": "acolyte-leader",
+       "name": "Acolyte Leader",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "acolyte-iconward",
+   "name": "Acolyte Iconward",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 50
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "cult-claws",
+       "name": "Cult claws",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [
+    "acolyte-hybrids",
+    "hybrid-metamorphs",
+    "neophyte-hybrids"
+   ],
+   "transport": null
+  },
+  {
+   "id": "aegis-defence-line",
+   "name": "Aegis Defence Line",
+   "legends": false,
+   "keywords": [
+    "FORTIFICATION",
+    "IMPERIUM"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 145
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "armoured-sentinels",
+   "name": "Armoured Sentinels",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 65
+    }
+   ],
+   "options": [
+    {
+     "id": "1-2-armoured-sentinels",
+     "name": "1-2 Armoured Sentinels",
+     "max": null,
+     "choices": [
+      {
+       "id": "armoured-sentinel",
+       "name": "Armoured Sentinel",
+       "pts": 65
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "artillery-team",
+   "name": "Artillery Team",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 95
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "crew-close-combat-weapons",
+       "name": "Crew close combat weapons",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-heavy-mortar",
+     "name": "Wargear · Heavy mortar",
+     "max": 1,
+     "choices": [
+      {
+       "id": "heavy-mortar",
+       "name": "Heavy mortar",
+       "pts": 0
+      },
+      {
+       "id": "siege-cannon",
+       "name": "Siege cannon",
+       "pts": 0
+      },
+      {
+       "id": "multiple-rocket-launcher",
+       "name": "Multiple rocket launcher",
+       "pts": 0
+      },
+      {
+       "id": "heavy-quad-launcher",
+       "name": "Heavy quad launcher",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "atalan-jackals",
+   "name": "Atalan Jackals",
+   "legends": false,
+   "keywords": [
+    "GRENADES"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 85
+    },
+    {
+     "models": 9,
+     "pts": 150
+    }
+   ],
+   "options": [
+    {
+     "id": "4-8-jackals",
+     "name": "4-8 Jackals",
+     "max": 8,
+     "choices": [
+      {
+       "id": "atalan-jackal-w-grenade-launcher",
+       "name": "Atalan Jackal w/ Grenade launcher",
+       "pts": 0
+      },
+      {
+       "id": "atalan-jackal",
+       "name": "Atalan Jackal",
+       "pts": 0
+      },
+      {
+       "id": "atalan-jackal-w-atalan-power-weapon",
+       "name": "Atalan Jackal w/ Atalan power weapon",
+       "pts": 0
+      },
+      {
+       "id": "atalan-jackal-w-grenade-launcher-power-weapon",
+       "name": "Atalan Jackal w/ Grenade launcher & power weapon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "1-2-atalan-wolfquads",
+     "name": "1-2 Atalan Wolfquads",
+     "max": null,
+     "choices": [
+      {
+       "id": "atalan-wolfquad",
+       "name": "Atalan Wolfquad",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "attilan-rough-riders",
+   "name": "Attilan Rough Riders",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 60
+    },
+    {
+     "models": 10,
+     "pts": 120
+    }
+   ],
+   "options": [
+    {
+     "id": "4-9-rough-riders",
+     "name": "4-9 Rough Riders",
+     "max": 9,
+     "choices": [
+      {
+       "id": "rough-rider-w-hunting-lance",
+       "name": "Rough Rider w/ Hunting lance",
+       "pts": 0
+      },
+      {
+       "id": "rough-rider-w-goad-lance",
+       "name": "Rough Rider w/ Goad lance",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "rough-rider-sergeant",
+     "name": "Rough Rider Sergeant",
+     "max": null,
+     "choices": [
+      {
+       "id": "rough-rider-sergeant",
+       "name": "Rough Rider Sergeant",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "augmented-bone-ead",
+   "name": "Augmented Bone 'Ead [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 60
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [
+    "bullgryn-squad",
+    "ogryn-squad"
+   ],
+   "transport": null
+  },
+  {
+   "id": "baneblade",
+   "name": "Baneblade",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "TITANIC",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 450
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "baneblade-cannon",
+       "name": "Baneblade cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "banehammer",
+   "name": "Banehammer",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "TITANIC",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 420
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "tremor-cannon",
+       "name": "Tremor cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": 26
+  },
+  {
+   "id": "banesword",
+   "name": "Banesword",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "TITANIC",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 450
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "quake-cannon",
+       "name": "Quake cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "basilisk",
+   "name": "Basilisk",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 140
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "earthshaker-cannon",
+       "name": "Earthshaker cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "benefictus",
+   "name": "Benefictus",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [
+    "acolyte-hybrids",
+    "hybrid-metamorphs",
+    "neophyte-hybrids"
+   ],
+   "transport": null
+  },
+  {
+   "id": "biophagus",
+   "name": "Biophagus",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 50
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "alchemicus-familiar",
+       "name": "Alchemicus familiar",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [
+    "aberrants",
+    "acolyte-hybrids-with-autopistols",
+    "acolyte-hybrids-with-handflamers",
+    "hybrid-metamorphs",
+    "neophyte-hybrids"
+   ],
+   "transport": null
+  },
+  {
+   "id": "breaching-robot",
+   "name": "Breaching Robot",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 35
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-options",
+     "name": "Wargear Options",
+     "max": 1,
+     "choices": [
+      {
+       "id": "bomb-kit",
+       "name": "Bomb Kit",
+       "pts": 0
+      },
+      {
+       "id": "cutting-blade-and-cutting-gear",
+       "name": "Cutting blade and cutting gear",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "cadian-castellan",
+   "name": "Cadian Castellan",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 55
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-chainsword",
+     "name": "Wargear · Chainsword",
+     "max": 1,
+     "choices": [
+      {
+       "id": "boltgun-and-close-combat-weapon",
+       "name": "Boltgun and close combat weapon",
+       "pts": 0
+      },
+      {
+       "id": "power-fist",
+       "name": "Power fist",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "cadian-command-squad",
+   "name": "Cadian Command Squad",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 2,
+     "pts": 65
+    }
+   ],
+   "options": [
+    {
+     "id": "cadian-commander",
+     "name": "Cadian Commander",
+     "max": null,
+     "choices": [
+      {
+       "id": "cadian-commander",
+       "name": "Cadian Commander",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "cadian-veteran-guardsmen",
+     "name": "Cadian Veteran Guardsmen",
+     "max": null,
+     "choices": [
+      {
+       "id": "cadian-veteran-guardsman-w-regimental-standard",
+       "name": "Cadian Veteran Guardsman w/ Regimental standard",
+       "pts": 0
+      },
+      {
+       "id": "cadian-veteran-guardsman",
+       "name": "Cadian Veteran Guardsman",
+       "pts": 0
+      },
+      {
+       "id": "cadian-veteran-guardsman-w-master-vox",
+       "name": "Cadian Veteran Guardsman w/ Master vox",
+       "pts": 0
+      },
+      {
+       "id": "cadian-veteran-guardsman-w-medi-pack",
+       "name": "Cadian Veteran Guardsman w/ Medi-pack",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "cadian-heavy-weapons-squad",
+   "name": "Cadian Heavy Weapons Squad",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 3,
+     "pts": 65
+    }
+   ],
+   "options": [
+    {
+     "id": "3-heavy-weapons-teams",
+     "name": "3 Heavy Weapons Teams",
+     "max": 3,
+     "choices": [
+      {
+       "id": "heavy-weapons-team-w-heavy-bolter",
+       "name": "Heavy Weapons Team w/ Heavy bolter",
+       "pts": 0
+      },
+      {
+       "id": "heavy-weapons-team-w-mortar",
+       "name": "Heavy Weapons Team w/ Mortar",
+       "pts": 0
+      },
+      {
+       "id": "heavy-weapons-team-w-missile-launcher",
+       "name": "Heavy Weapons Team w/ Missile launcher",
+       "pts": 0
+      },
+      {
+       "id": "heavy-weapons-team-w-lascannon",
+       "name": "Heavy Weapons Team w/ Lascannon",
+       "pts": 0
+      },
+      {
+       "id": "heavy-weapons-team-w-autocannon",
+       "name": "Heavy Weapons Team w/ Autocannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "cadian-recon-squad",
+   "name": "Cadian Recon Squad",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 10,
+     "pts": 80
+    }
+   ],
+   "options": [
+    {
+     "id": "recon-sergeant",
+     "name": "Recon Sergeant",
+     "max": null,
+     "choices": [
+      {
+       "id": "recon-sergeant",
+       "name": "Recon Sergeant",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "9-recon-troopers",
+     "name": "9 Recon Troopers",
+     "max": 9,
+     "choices": [
+      {
+       "id": "recon-trooper-w-lasgun",
+       "name": "Recon Trooper w/ Lasgun",
+       "pts": 0
+      },
+      {
+       "id": "recon-trooper-w-autostubber",
+       "name": "Recon Trooper w/ Autostubber",
+       "pts": 0
+      },
+      {
+       "id": "recon-trooper-w-vox-caster",
+       "name": "Recon Trooper w/ Vox-caster",
+       "pts": 0
+      },
+      {
+       "id": "recon-trooper-w-long-las",
+       "name": "Recon Trooper w/ Long-las",
+       "pts": 0
+      },
+      {
+       "id": "weapons-team",
+       "name": "Weapons Team",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "9-recon-troopers-special-weapon",
+     "name": "9 Recon Troopers · Special Weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "recon-trooper-w-plasma-gun",
+       "name": "Recon Trooper w/ Plasma gun",
+       "pts": 0
+      },
+      {
+       "id": "recon-trooper-w-meltagun",
+       "name": "Recon Trooper w/ Meltagun",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "cadian-shock-troops",
+   "name": "Cadian Shock Troops",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 10,
+     "pts": 65
+    },
+    {
+     "models": 20,
+     "pts": 120
+    }
+   ],
+   "options": [],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "catachan-command-squad",
+   "name": "Catachan Command Squad",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 65
+    }
+   ],
+   "options": [
+    {
+     "id": "veteran-guardsmen",
+     "name": "Veteran Guardsmen",
+     "max": 4,
+     "choices": [
+      {
+       "id": "veteran-guardsman",
+       "name": "Veteran Guardsman",
+       "pts": 0
+      },
+      {
+       "id": "veteran-guardsman-w-master-vox",
+       "name": "Veteran Guardsman w/ Master vox",
+       "pts": 0
+      },
+      {
+       "id": "veteran-guardsman-w-regimental-standard",
+       "name": "Veteran Guardsman w/ Regimental standard",
+       "pts": 0
+      },
+      {
+       "id": "veteran-guardsman-w-medi-pack",
+       "name": "Veteran Guardsman w/ Medi-pack",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "veteran-guardsmen-special-weapons",
+     "name": "Veteran Guardsmen · Special Weapons",
+     "max": 4,
+     "choices": [
+      {
+       "id": "veteran-guardsman-w-flamer",
+       "name": "Veteran Guardsman w/ Flamer",
+       "pts": 0
+      },
+      {
+       "id": "veteran-guardsman-w-grenade-launcher",
+       "name": "Veteran Guardsman w/ Grenade launcher",
+       "pts": 0
+      },
+      {
+       "id": "veteran-guardsman-w-heavy-flamer",
+       "name": "Veteran Guardsman w/ Heavy flamer",
+       "pts": 0
+      },
+      {
+       "id": "veteran-guardsman-w-meltagun",
+       "name": "Veteran Guardsman w/ Meltagun",
+       "pts": 0
+      },
+      {
+       "id": "veteran-guardsman-w-plasma-gun",
+       "name": "Veteran Guardsman w/ Plasma gun",
+       "pts": 0
+      },
+      {
+       "id": "veteran-guardsman-w-sniper-rifle",
+       "name": "Veteran Guardsman w/ Sniper rifle",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "catachan-commander",
+     "name": "Catachan Commander",
+     "max": null,
+     "choices": [
+      {
+       "id": "catachan-commander",
+       "name": "Catachan Commander",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "catachan-heavy-weapons-squad",
+   "name": "Catachan Heavy Weapons Squad",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 3,
+     "pts": 65
+    }
+   ],
+   "options": [
+    {
+     "id": "3-heavy-weapons-teams",
+     "name": "3 Heavy Weapons Teams",
+     "max": 3,
+     "choices": [
+      {
+       "id": "heavy-weapons-team-w-heavy-bolter",
+       "name": "Heavy Weapons Team w/ Heavy bolter",
+       "pts": 0
+      },
+      {
+       "id": "heavy-weapons-team-w-mortar",
+       "name": "Heavy Weapons Team w/ Mortar",
+       "pts": 0
+      },
+      {
+       "id": "heavy-weapons-team-w-missile-launcher",
+       "name": "Heavy Weapons Team w/ Missile launcher",
+       "pts": 0
+      },
+      {
+       "id": "heavy-weapons-team-w-lascannon",
+       "name": "Heavy Weapons Team w/ Lascannon",
+       "pts": 0
+      },
+      {
+       "id": "heavy-weapons-team-w-autocannon",
+       "name": "Heavy Weapons Team w/ Autocannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "catachan-jungle-fighters",
+   "name": "Catachan Jungle Fighters",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 10,
+     "pts": 65
+    },
+    {
+     "models": 20,
+     "pts": 120
+    }
+   ],
+   "options": [],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "centaur-rsv",
+   "name": "Centaur RSV",
+   "legends": false,
+   "keywords": [
+    "DEDICATED TRANSPORT",
+    "IMPERIUM",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 85
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "pintle-mounted-heavy-stubber",
+       "name": "Pintle-mounted heavy stubber",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": 12
+  },
+  {
+   "id": "chimera",
+   "name": "Chimera",
+   "legends": false,
+   "keywords": [
+    "DEDICATED TRANSPORT",
+    "IMPERIUM",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 85
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "lasgun-array",
+       "name": "Lasgun array",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": 12
+  },
+  {
+   "id": "clamavus",
+   "name": "Clamavus",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 50
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [
+    "acolyte-hybrids",
+    "hybrid-metamorphs",
+    "neophyte-hybrids"
+   ],
+   "transport": null
+  },
+  {
+   "id": "cult-guerrilla",
+   "name": "Cult Guerrilla [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 60
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [
+    "acolyte-hybrids-with-autopistols",
+    "acolyte-hybrids-with-hand-flamers",
+    "hybrid-metamorphs",
+    "neophyte-hybrids"
+   ],
+   "transport": null
+  },
+  {
+   "id": "cult-insurrectionist",
+   "name": "Cult Insurrectionist [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [
+    "acolyte-hybrids-with-autopistols",
+    "acolyte-hybrids-with-hand-flamers",
+    "hybrid-metamorphs",
+    "neophyte-hybrids"
+   ],
+   "transport": null
+  },
+  {
+   "id": "cyclops-demolition-vehicle",
+   "name": "Cyclops Demolition Vehicle",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 25
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "death-korps-of-krieg",
+   "name": "Death Korps of Krieg",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 10,
+     "pts": 65
+    },
+    {
+     "models": 20,
+     "pts": 145
+    }
+   ],
+   "options": [],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "death-riders",
+   "name": "Death Riders",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 60
+    }
+   ],
+   "options": [
+    {
+     "id": "4-9-death-riders",
+     "name": "4-9 Death Riders",
+     "max": null,
+     "choices": [
+      {
+       "id": "death-rider",
+       "name": "Death Rider",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "deathleaper",
+   "name": "Deathleaper",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [],
+   "rosterMax": 1,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "deathstrike",
+   "name": "Deathstrike",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 145
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "deathstrike-missile",
+       "name": "Deathstrike Missile",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "doomhammer",
+   "name": "Doomhammer",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "TITANIC",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 415
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "magma-cannon",
+       "name": "Magma cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": 26
+  },
+  {
+   "id": "field-ordnance-battery",
+   "name": "Field Ordnance Battery",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 2,
+     "pts": 110
+    }
+   ],
+   "options": [
+    {
+     "id": "2-ordnance-teams",
+     "name": "2 Ordnance Teams",
+     "max": 2,
+     "choices": [
+      {
+       "id": "ordnance-team-w-malleus-rocket-launcher",
+       "name": "Ordnance Team w/ Malleus rocket launcher",
+       "pts": 0
+      },
+      {
+       "id": "ordnance-team-w-bombast-field-gun",
+       "name": "Ordnance Team w/ Bombast field gun",
+       "pts": 0
+      },
+      {
+       "id": "ordnance-team-w-heavy-lascannon",
+       "name": "Ordnance Team w/ Heavy lascannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "front-line-commander",
+   "name": "Front-line Commander [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 55
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [
+    "astra-militarum-battleline",
+    "kasrkin",
+    "krieg-combat-engineers",
+    "tempestus-scions"
+   ],
+   "transport": null
+  },
+  {
+   "id": "gargoyles",
+   "name": "Gargoyles",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 85
+    }
+   ],
+   "options": [],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "goliath-rockgrinder",
+   "name": "Goliath Rockgrinder",
+   "legends": false,
+   "keywords": [
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 120
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "drilldozer-blade",
+       "name": "Drilldozer blade",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-heavy-mining-laser",
+     "name": "Wargear · Heavy Mining Laser",
+     "max": 1,
+     "choices": [
+      {
+       "id": "clearance-incinerator",
+       "name": "Clearance incinerator",
+       "pts": 0
+      },
+      {
+       "id": "heavy-seismic-cannon",
+       "name": "Heavy seismic cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": 6
+  },
+  {
+   "id": "goliath-truck",
+   "name": "Goliath Truck",
+   "legends": false,
+   "keywords": [
+    "DEDICATED TRANSPORT",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 85
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "twin-autocannon",
+       "name": "Twin autocannon",
+       "pts": 0
+      },
+      {
+       "id": "goliath-wheels",
+       "name": "Goliath wheels",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": 12
+  },
+  {
+   "id": "hellhammer",
+   "name": "Hellhammer",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "TITANIC",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 420
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "hellhammer-cannon",
+       "name": "Hellhammer cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "hellhound",
+   "name": "Hellhound",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 125
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-inferno-cannon",
+     "name": "Wargear · Inferno Cannon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "chem-cannon",
+       "name": "Chem cannon",
+       "pts": 0
+      },
+      {
+       "id": "inferno-cannon",
+       "name": "Inferno cannon",
+       "pts": 0
+      },
+      {
+       "id": "melta-cannon",
+       "name": "Melta cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "hippogriff-afv",
+   "name": "Hippogriff AFV",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    },
+    {
+     "models": 2,
+     "pts": 140
+    }
+   ],
+   "options": [
+    {
+     "id": "1-2-hippogriff-afv",
+     "name": "1-2 Hippogriff AFV",
+     "max": 2,
+     "choices": [
+      {
+       "id": "hippogriff-afv",
+       "name": "Hippogriff AFV",
+       "pts": 70
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "hybrid-metamorphs",
+   "name": "Hybrid Metamorphs",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 70
+    },
+    {
+     "models": 10,
+     "pts": 140
+    }
+   ],
+   "options": [
+    {
+     "id": "4-9-hybrid-metamorphs",
+     "name": "4-9 Hybrid Metamorphs",
+     "max": 9,
+     "choices": [
+      {
+       "id": "hybrid-metamorph-w-autopistol",
+       "name": "Hybrid Metamorph w/ Autopistol",
+       "pts": 0
+      },
+      {
+       "id": "hybrid-metamorph-w-cult-icon",
+       "name": "Hybrid Metamorph w/ Cult Icon",
+       "pts": 0
+      },
+      {
+       "id": "hybrid-metamorph-w-hand-flamer",
+       "name": "Hybrid Metamorph w/ Hand Flamer",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "metamorph-leader",
+     "name": "Metamorph Leader",
+     "max": null,
+     "choices": [
+      {
+       "id": "metamorph-leader",
+       "name": "Metamorph Leader",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "hydra",
+   "name": "Hydra",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 95
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "hydra-autocannon",
+       "name": "Hydra autocannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "hyperadapted-raveners",
+   "name": "Hyperadapted Raveners",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 165
+    }
+   ],
+   "options": [
+    {
+     "id": "raveners",
+     "name": "Raveners",
+     "max": null,
+     "choices": [
+      {
+       "id": "ravener",
+       "name": "Ravener",
+       "pts": 0
+      },
+      {
+       "id": "ravener-w-venom-bolt",
+       "name": "Ravener w/ Venom bolt",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "jackal-alphus",
+   "name": "Jackal Alphus",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 55
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "cult-sniper-rifle",
+       "name": "Cult sniper rifle",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [
+    "atalan-jackals"
+   ],
+   "transport": null
+  },
+  {
+   "id": "kasrkin",
+   "name": "Kasrkin",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 10,
+     "pts": 110
+    }
+   ],
+   "options": [
+    {
+     "id": "kasrkin-troopers",
+     "name": "Kasrkin Troopers",
+     "max": 9,
+     "choices": [
+      {
+       "id": "kasrkin-trooper",
+       "name": "Kasrkin Trooper",
+       "pts": 0
+      },
+      {
+       "id": "kasrkin-trooper-w-hot-shot-marksman-rifle",
+       "name": "Kasrkin Trooper w/ Hot-shot marksman rifle",
+       "pts": 0
+      },
+      {
+       "id": "kasrkin-trooper-w-hot-shot-laspistol-and-melta-mine",
+       "name": "Kasrkin Trooper w/ Hot-shot laspistol and melta mine",
+       "pts": 0
+      },
+      {
+       "id": "kasrkin-trooper-w-vox-caster",
+       "name": "Kasrkin Trooper w/ Vox-caster",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "kasrkin-troopers-kasrkin-trooper-w-special-weapon",
+     "name": "Kasrkin Troopers · Kasrkin Trooper w/ Special weapon",
+     "max": 4,
+     "choices": [
+      {
+       "id": "kasrkin-trooper-w-flamer",
+       "name": "Kasrkin Trooper w/ Flamer",
+       "pts": 0
+      },
+      {
+       "id": "kasrkin-trooper-w-plasma-gun",
+       "name": "Kasrkin Trooper w/ Plasma gun",
+       "pts": 0
+      },
+      {
+       "id": "kasrkin-trooper-w-hot-shot-volley-gun",
+       "name": "Kasrkin Trooper w/ Hot-shot volley gun",
+       "pts": 0
+      },
+      {
+       "id": "kasrkin-trooper-w-meltagun",
+       "name": "Kasrkin Trooper w/ Meltagun",
+       "pts": 0
+      },
+      {
+       "id": "kasrkin-trooper-w-grenade-launcher",
+       "name": "Kasrkin Trooper w/ Grenade launcher",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "kasrkin-sergeant",
+     "name": "Kasrkin Sergeant",
+     "max": null,
+     "choices": [
+      {
+       "id": "kasrkin-sergeant",
+       "name": "Kasrkin Sergeant",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "kelermorph",
+   "name": "Kelermorph",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 60
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "liberator-autostubs",
+       "name": "Liberator autostubs",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "krieg-combat-engineers",
+   "name": "Krieg Combat Engineers",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 60
+    },
+    {
+     "models": 10,
+     "pts": 95
+    }
+   ],
+   "options": [
+    {
+     "id": "krieg-combat-engineers",
+     "name": "Krieg Combat Engineers",
+     "max": 9,
+     "choices": [
+      {
+       "id": "krieg-combat-engineer",
+       "name": "Krieg Combat Engineer",
+       "pts": 0
+      },
+      {
+       "id": "krieg-combat-engineer-w-flamer",
+       "name": "Krieg Combat Engineer w/ Flamer",
+       "pts": 0
+      },
+      {
+       "id": "krieg-combat-engineer-w-combat-shotgun",
+       "name": "Krieg Combat Engineer w/ Combat shotgun",
+       "pts": 0
+      },
+      {
+       "id": "krieg-combat-engineer-w-remote-mine",
+       "name": "Krieg Combat Engineer w/ Remote mine",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "krieg-engineer-watchmaster",
+     "name": "Krieg Engineer Watchmaster",
+     "max": null,
+     "choices": [
+      {
+       "id": "krieg-engineer-watchmaster",
+       "name": "Krieg Engineer Watchmaster",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "krieg-command-squad",
+   "name": "Krieg Command Squad",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 2,
+     "pts": 65
+    }
+   ],
+   "options": [
+    {
+     "id": "lord-commissar",
+     "name": "Lord Commissar",
+     "max": null,
+     "choices": [
+      {
+       "id": "lord-commissar",
+       "name": "Lord Commissar",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "veteran-guardsmen",
+     "name": "Veteran Guardsmen",
+     "max": null,
+     "choices": [
+      {
+       "id": "veteran-guardsman-w-alchemyk-counteragents",
+       "name": "Veteran Guardsman w/ Alchemyk counteragents",
+       "pts": 0
+      },
+      {
+       "id": "veteran-guardsman-w-boltgun",
+       "name": "Veteran Guardsman w/ Boltgun",
+       "pts": 0
+      },
+      {
+       "id": "veteran-guardsman-w-chainsword",
+       "name": "Veteran Guardsman w/ Chainsword",
+       "pts": 0
+      },
+      {
+       "id": "veteran-guardsman-w-master-vox",
+       "name": "Veteran Guardsman w/ Master vox",
+       "pts": 0
+      },
+      {
+       "id": "veteran-guardsman-w-regimental-standard",
+       "name": "Veteran Guardsman w/ Regimental standard",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "krieg-heavy-weapons-squad",
+   "name": "Krieg Heavy Weapons Squad",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 4,
+     "pts": 75
+    }
+   ],
+   "options": [
+    {
+     "id": "3-heavy-weapons-gunners",
+     "name": "3 Heavy Weapons Gunners",
+     "max": 3,
+     "choices": [
+      {
+       "id": "heavy-weapons-gunners-w-krieg-heavy-flamer",
+       "name": "Heavy Weapons Gunners w/ Krieg heavy flamer",
+       "pts": 0
+      },
+      {
+       "id": "heavy-weapons-gunners-w-twin-krieg-heavy-stubber",
+       "name": "Heavy Weapons Gunners w/ Twin Krieg heavy stubber",
+       "pts": 0
+      },
+      {
+       "id": "heavy-weapons-gunners-w-lascannon",
+       "name": "Heavy Weapons Gunners w/ Lascannon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "fire-coordinator",
+     "name": "Fire Coordinator",
+     "max": null,
+     "choices": [
+      {
+       "id": "fire-coordinator",
+       "name": "Fire Coordinator",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "leman-russ-battle-tank",
+   "name": "Leman Russ Battle Tank",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 185
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "leman-russ-commander",
+   "name": "Leman Russ Commander",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 235
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-sponsons",
+     "name": "Wargear · Sponsons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "2-heavy-bolters",
+       "name": "2 Heavy bolters",
+       "pts": 0
+      },
+      {
+       "id": "2-heavy-flamers",
+       "name": "2 Heavy flamers",
+       "pts": 0
+      },
+      {
+       "id": "2-multi-meltas",
+       "name": "2 Multi-meltas",
+       "pts": 0
+      },
+      {
+       "id": "2-plasma-cannons",
+       "name": "2 Plasma cannons",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "leman-russ-demolisher",
+   "name": "Leman Russ Demolisher",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 190
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "leman-russ-eradicator",
+   "name": "Leman Russ Eradicator",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 170
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "leman-russ-executioner",
+   "name": "Leman Russ Executioner",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 170
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "leman-russ-exterminator",
+   "name": "Leman Russ Exterminator",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 180
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "leman-russ-punisher",
+   "name": "Leman Russ Punisher",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 150
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "leman-russ-vanquisher",
+   "name": "Leman Russ Vanquisher",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 145
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "lictor",
+   "name": "Lictor",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 60
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "locus",
+   "name": "Locus",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 45
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "locus-blades",
+       "name": "Locus blades",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [
+    "acolyte-hybrids",
+    "hybrid-metamorphs",
+    "neophyte-hybrids"
+   ],
+   "transport": null
+  },
+  {
+   "id": "macro-organism",
+   "name": "Macro Organism [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 150
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "magus",
+   "name": "Magus",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 50
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [
+    "acolyte-hybrids",
+    "hybrid-metamorphs",
+    "neophyte-hybrids"
+   ],
+   "transport": null
+  },
+  {
+   "id": "manticore",
+   "name": "Manticore",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 165
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "storm-eagle-rockets",
+       "name": "Storm eagle rockets",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "mawloc",
+   "name": "Mawloc",
+   "legends": false,
+   "keywords": [
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 135
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "distendible-jaw",
+       "name": "Distendible jaw",
+       "pts": 0
+      },
+      {
+       "id": "mawloc-scything-talons",
+       "name": "Mawloc scything talons",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "neophyte-hybrids",
+   "name": "Neophyte Hybrids",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 10,
+     "pts": 65
+    },
+    {
+     "models": 20,
+     "pts": 145
+    }
+   ],
+   "options": [
+    {
+     "id": "9-19-neophyte-hybrids",
+     "name": "9-19 Neophyte Hybrids",
+     "max": 19,
+     "choices": [
+      {
+       "id": "neophyte-hybrid-w-hybrid-firearm",
+       "name": "Neophyte Hybrid w/ Hybrid Firearm",
+       "pts": 0
+      },
+      {
+       "id": "neophyte-hybrid-w-hybrid-firearm-cult-icon",
+       "name": "Neophyte Hybrid w/ Hybrid Firearm & Cult Icon",
+       "pts": 0
+      },
+      {
+       "id": "neophyte-hybrid-w-heavy-weapon",
+       "name": "Neophyte Hybrid w/ Heavy Weapon",
+       "pts": 0
+      },
+      {
+       "id": "neophyte-hybrid-w-special-weapon",
+       "name": "Neophyte Hybrid w/ Special Weapon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "neophyte-leader",
+     "name": "Neophyte Leader",
+     "max": null,
+     "choices": [
+      {
+       "id": "neophyte-leader",
+       "name": "Neophyte Leader",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "neurolictor",
+   "name": "Neurolictor",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "piercing-claws-and-talons",
+       "name": "Piercing claws and talons",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "nexos",
+   "name": "Nexos",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 60
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [
+    "acolyte-hybrids",
+    "hybrid-metamorphs",
+    "neophyte-hybrids"
+   ],
+   "transport": null
+  },
+  {
+   "id": "node-organism",
+   "name": "Node Organism [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [
+    "tyranid-warriors-with-melee-bio-weapons",
+    "tyranid-warriors-with-ranged-bio-weapons"
+   ],
+   "transport": null
+  },
+  {
+   "id": "parasite-of-mortrex",
+   "name": "Parasite of Mortrex",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "barbed-ovipositor",
+       "name": "Barbed ovipositor",
+       "pts": 0
+      },
+      {
+       "id": "clawed-limbs",
+       "name": "Clawed limbs",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "patriarch",
+   "name": "Patriarch",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "patriarch-s-claws",
+       "name": "Patriarch's claws",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 1,
+   "leads": [
+    "purestrain-genestealers"
+   ],
+   "transport": null
+  },
+  {
+   "id": "primaris-psyker",
+   "name": "Primaris Psyker",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 60
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "psychic-maelstrom",
+       "name": "Psychic maelstrom",
+       "pts": 0
+      },
+      {
+       "id": "force-weapon",
+       "name": "Force weapon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "prime-organism",
+   "name": "Prime Organism [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 135
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [
+    "carnifexes",
+    "tyrant-guard"
+   ],
+   "transport": null
+  },
+  {
+   "id": "primus",
+   "name": "Primus",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [
+    "acolyte-hybrids",
+    "hybrid-metamorphs",
+    "neophyte-hybrids"
+   ],
+   "transport": null
+  },
+  {
+   "id": "purestrain-genestealers",
+   "name": "Purestrain Genestealers",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [
+    {
+     "id": "5-10-purestrain-genestealers",
+     "name": "5-10 Purestrain Genestealers",
+     "max": null,
+     "choices": [
+      {
+       "id": "purestrain-genestealer",
+       "name": "Purestrain Genestealer",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "raveners",
+   "name": "Raveners",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 125
+    }
+   ],
+   "options": [
+    {
+     "id": "5-raveners",
+     "name": "5 Raveners",
+     "max": null,
+     "choices": [
+      {
+       "id": "ravener",
+       "name": "Ravener",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "reductus-saboteur",
+   "name": "Reductus Saboteur",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 65
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "demolition-charges",
+       "name": "Demolition charges",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "rogal-dorn-battle-tank",
+   "name": "Rogal Dorn Battle Tank",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 260
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-twin-battle-cannon",
+     "name": "Wargear · Twin Battle Cannon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "oppressor-cannon-and-coaxial-autocannon",
+       "name": "Oppressor cannon and coaxial autocannon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-sponsons",
+     "name": "Wargear · Sponsons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "2-multi-meltas",
+       "name": "2 Multi-meltas",
+       "pts": 0
+      },
+      {
+       "id": "2-heavy-bolters",
+       "name": "2 Heavy Bolters",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-hull-weapons",
+     "name": "Wargear · Hull Weapons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "2-meltaguns",
+       "name": "2 Meltaguns",
+       "pts": 0
+      },
+      {
+       "id": "2-additional-heavy-stubbers",
+       "name": "2 Additional Heavy Stubbers",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "rogal-dorn-commander",
+   "name": "Rogal Dorn Commander",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 290
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-hull-weapons",
+     "name": "Wargear · Hull Weapons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "2-meltaguns",
+       "name": "2 Meltaguns",
+       "pts": 0
+      },
+      {
+       "id": "2-additional-heavy-stubbers",
+       "name": "2 Additional Heavy Stubbers",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-sponsons",
+     "name": "Wargear · Sponsons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "2-multi-meltas",
+       "name": "2 Multi-meltas",
+       "pts": 0
+      },
+      {
+       "id": "2-heavy-bolters",
+       "name": "2 Heavy Bolters",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-twin-battle-cannon",
+     "name": "Wargear · Twin Battle Cannon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "oppressor-cannon-and-coaxial-autocannon",
+       "name": "Oppressor cannon and coaxial autocannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "sanctus",
+   "name": "Sanctus",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 50
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": 1,
+     "choices": [
+      {
+       "id": "sanctus-bio-dagger",
+       "name": "Sanctus bio-dagger",
+       "pts": 0
+      },
+      {
+       "id": "cult-sniper-rifle-and-close-combat-weapon",
+       "name": "Cult sniper rifle and close combat weapon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "scout-sentinels",
+   "name": "Scout Sentinels",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 55
+    }
+   ],
+   "options": [
+    {
+     "id": "1-2-scout-sentinels",
+     "name": "1-2 Scout Sentinels",
+     "max": null,
+     "choices": [
+      {
+       "id": "scout-sentinel",
+       "name": "Scout Sentinel",
+       "pts": 55
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "searchlight",
+   "name": "Searchlight",
+   "legends": false,
+   "keywords": [],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 10
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "sentinel-commander",
+   "name": "Sentinel Commander [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [
+    "armoured-sentinels",
+    "scout-sentinels"
+   ],
+   "transport": null
+  },
+  {
+   "id": "sentry-gun",
+   "name": "Sentry Gun",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 30
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "shadowsword",
+   "name": "Shadowsword",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "TITANIC",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 410
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "volcano-cannon",
+       "name": "Volcano cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "stormlord",
+   "name": "Stormlord",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "TITANIC",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 430
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "vulcan-mega-bolter",
+       "name": "Vulcan mega-bolter",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": 40
+  },
+  {
+   "id": "stormsword",
+   "name": "Stormsword",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "TITANIC",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 465
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "stormsword-siege-cannon",
+       "name": "Stormsword siege cannon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-wargear-options-sponsons",
+     "name": "Wargear · Wargear Options · Sponsons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "2-twin-heavy-flamers",
+       "name": "2 Twin Heavy Flamers",
+       "pts": 0
+      },
+      {
+       "id": "2-twin-heavy-bolters",
+       "name": "2 Twin Heavy Bolters",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-wargear-options-additional-sponsons",
+     "name": "Wargear · Wargear Options · Additional sponsons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "2-lascannons-and-2-twin-heavy-bolters",
+       "name": "2 Lascannons and 2 Twin Heavy Bolters",
+       "pts": 0
+      },
+      {
+       "id": "2-lascannons-and-2-twin-heavy-flamers",
+       "name": "2 Lascannons and 2 Twin Heavy Flamers",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "taurox",
+   "name": "Taurox",
+   "legends": false,
+   "keywords": [
+    "DEDICATED TRANSPORT",
+    "IMPERIUM",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": 12
+  },
+  {
+   "id": "taurox-prime",
+   "name": "Taurox Prime",
+   "legends": false,
+   "keywords": [
+    "DEDICATED TRANSPORT",
+    "IMPERIUM",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 90
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-wargear-options",
+     "name": "Wargear · Wargear Options",
+     "max": null,
+     "choices": [
+      {
+       "id": "storm-bolter",
+       "name": "Storm bolter",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-wargear-options-taurox-battle-cannon",
+     "name": "Wargear · Wargear Options · Taurox Battle Cannon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "taurox-battle-cannon",
+       "name": "Taurox battle cannon",
+       "pts": 0
+      },
+      {
+       "id": "taurox-gatling-cannon",
+       "name": "Taurox gatling cannon",
+       "pts": 0
+      },
+      {
+       "id": "taurox-missile-launcher",
+       "name": "Taurox missile launcher",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-wargear-options-twin-taurox-hot-shot-volley-gun",
+     "name": "Wargear · Wargear Options · Twin Taurox Hot-Shot Volley Gun",
+     "max": 1,
+     "choices": [
+      {
+       "id": "twin-taurox-hot-shot-volley-gun",
+       "name": "Twin Taurox hot-shot volley gun",
+       "pts": 0
+      },
+      {
+       "id": "twin-autocannon",
+       "name": "Twin autocannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": 12
+  },
+  {
+   "id": "the-red-terror",
+   "name": "The Red Terror",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 130
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "gaping-maw",
+       "name": "Gaping maw",
+       "pts": 0
+      },
+      {
+       "id": "scything-talons",
+       "name": "Scything talons",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 1,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "trygon",
+   "name": "Trygon",
+   "legends": false,
+   "keywords": [
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 140
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "trygon-scything-talons",
+       "name": "Trygon scything talons",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "tyrannocyte",
+   "name": "Tyrannocyte",
+   "legends": false,
+   "keywords": [
+    "DEDICATED TRANSPORT",
+    "MONSTER",
+    "TRANSPORT"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 105
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "flensing-whips",
+       "name": "Flensing Whips",
+       "pts": 0
+      },
+      {
+       "id": "tyrannocyte-bio-weapons",
+       "name": "Tyrannocyte Bio-weapons",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": 20
+  },
+  {
+   "id": "voice-of-the-patriarch",
+   "name": "Voice of the Patriarch [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [
+    "acolyte-hybrids-with-autopistols",
+    "acolyte-hybrids-with-hand-flamers",
+    "hybrid-metamorphs",
+    "neophyte-hybrids"
+   ],
+   "transport": null
+  },
+  {
+   "id": "von-ryan-s-leapers",
+   "name": "Von Ryan's Leapers",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [
+    {
+     "id": "3-6-von-ryan-s-leapers",
+     "name": "3-6 Von Ryan's Leapers",
+     "max": null,
+     "choices": [
+      {
+       "id": "von-ryan-s-leaper",
+       "name": "Von Ryan's Leaper",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "winged-hive-tyrant",
+   "name": "Winged Hive Tyrant",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "MONSTER",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 170
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "tyrant-talons",
+       "name": "Tyrant talons",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "winged-tyranid-prime",
+   "name": "Winged Tyranid Prime",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 65
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "prime-talons",
+       "name": "Prime talons",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [
+    "gargoyles",
+    "tyranid-warriors-with-melee-bio-weapons",
+    "tyranid-warriors-with-ranged-bio-weapons"
+   ],
+   "transport": null
+  },
+  {
+   "id": "wyvern",
+   "name": "Wyvern",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 110
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "wyvern-quad-stormshard-mortar",
+       "name": "Wyvern quad stormshard mortar",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  }
+ ]
+}

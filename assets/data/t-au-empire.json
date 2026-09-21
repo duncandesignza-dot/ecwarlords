@@ -1,0 +1,2076 @@
+{
+ "id": "t-au-empire",
+ "name": "T'au Empire",
+ "source": "BSData wh40k-10e",
+ "generated": "2026-09-21",
+ "detachments": [
+  {
+   "id": "kauyon",
+   "name": "Kauyon",
+   "enhancements": [
+    {
+     "id": "exemplar-of-the-kauyon",
+     "name": "Exemplar of the Kauyon",
+     "pts": 20
+    },
+    {
+     "id": "precision-of-the-patient-hunter",
+     "name": "Precision of the Patient Hunter",
+     "pts": 15
+    },
+    {
+     "id": "solid-image-projection-unit",
+     "name": "Solid-image Projection Unit",
+     "pts": 30
+    },
+    {
+     "id": "through-unity-devastation",
+     "name": "Through Unity, Devastation",
+     "pts": 40
+    }
+   ]
+  },
+  {
+   "id": "mont-ka",
+   "name": "Mont'ka",
+   "enhancements": [
+    {
+     "id": "exemplar-of-the-mont-ka",
+     "name": "Exemplar of the Mont'ka",
+     "pts": 10
+    },
+    {
+     "id": "strike-swiftly",
+     "name": "Strike Swiftly",
+     "pts": 25
+    },
+    {
+     "id": "strategic-conqueror",
+     "name": "Strategic Conqueror",
+     "pts": 15
+    },
+    {
+     "id": "coordinated-exploitation",
+     "name": "Coordinated Exploitation",
+     "pts": 40
+    }
+   ]
+  },
+  {
+   "id": "retaliation-cadre",
+   "name": "Retaliation Cadre",
+   "enhancements": [
+    {
+     "id": "starflare-ignition-system",
+     "name": "Starflare Ignition System",
+     "pts": 20
+    },
+    {
+     "id": "prototype-weapon-system",
+     "name": "Prototype Weapon System",
+     "pts": 15
+    },
+    {
+     "id": "internal-grenade-racks",
+     "name": "Internal Grenade Racks",
+     "pts": 20
+    },
+    {
+     "id": "puretide-engram-neurochip",
+     "name": "Puretide Engram Neurochip",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "kroot-hunting-pack",
+   "name": "Kroot Hunting Pack",
+   "enhancements": [
+    {
+     "id": "nomadic-hunter",
+     "name": "Nomadic Hunter",
+     "pts": 20
+    },
+    {
+     "id": "borthrod-gland",
+     "name": "Borthrod Gland",
+     "pts": 15
+    },
+    {
+     "id": "root-carved-weapons",
+     "name": "Root-carved Weapons",
+     "pts": 10
+    },
+    {
+     "id": "kroothawk-flock",
+     "name": "Kroothawk Flock",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "auxiliary-cadre",
+   "name": "Auxiliary Cadre",
+   "enhancements": [
+    {
+     "id": "student-of-kauyon",
+     "name": "Student of Kauyon",
+     "pts": 15
+    },
+    {
+     "id": "admired-leader",
+     "name": "Admired Leader",
+     "pts": 20
+    },
+    {
+     "id": "fanatical-convert",
+     "name": "Fanatical Convert",
+     "pts": 10
+    },
+    {
+     "id": "transponder-lock-module",
+     "name": "Transponder Lock Module",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "experimental-prototype-cadre",
+   "name": "Experimental Prototype Cadre",
+   "enhancements": [
+    {
+     "id": "fusion-blades",
+     "name": "Fusion Blades",
+     "pts": 25
+    },
+    {
+     "id": "thermoneutronic-projector",
+     "name": "Thermoneutronic Projector",
+     "pts": 20
+    },
+    {
+     "id": "plasma-accelerator-rifle",
+     "name": "Plasma Accelerator Rifle",
+     "pts": 10
+    },
+    {
+     "id": "supernova-launcher",
+     "name": "Supernova Launcher",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "kroot-raiding-party",
+   "name": "Kroot Raiding Party",
+   "enhancements": [
+    {
+     "id": "quill-marker",
+     "name": "Quill Marker",
+     "pts": 0
+    },
+    {
+     "id": "experienced-leader",
+     "name": "Experienced Leader",
+     "pts": 0
+    }
+   ]
+  },
+  {
+   "id": "starfire-cadre",
+   "name": "Starfire Cadre",
+   "enhancements": [
+    {
+     "id": "target-optimisation-microdrones",
+     "name": "Target Optimisation Microdrones",
+     "pts": 0
+    },
+    {
+     "id": "duty-s-echo",
+     "name": "Duty's Echo",
+     "pts": 0
+    }
+   ]
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "ax-1-0-tiger-shark",
+   "name": "AX-1-0 Tiger Shark",
+   "legends": false,
+   "keywords": [
+    "AIRCRAFT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 315
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "twin-heavy-rail-cannon",
+       "name": "Twin heavy rail cannon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-burst-cannons",
+     "name": "Wargear · Burst Cannons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "2-burst-cannons",
+       "name": "2 burst cannons",
+       "pts": 0
+      },
+      {
+       "id": "2-cyclic-ion-blasters",
+       "name": "2 cyclic ion blasters",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "battlesuit-veteran",
+   "name": "Battlesuit Veteran [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 60
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "breacher-team",
+   "name": "Breacher Team",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 90
+    }
+   ],
+   "options": [
+    {
+     "id": "breacher-fire-warrior-shas-ui",
+     "name": "Breacher Fire Warrior Shas'ui",
+     "max": null,
+     "choices": [
+      {
+       "id": "breacher-fire-warrior-shas-ui",
+       "name": "Breacher Fire Warrior Shas'ui",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "breaching-robot",
+   "name": "Breaching Robot",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 35
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-options",
+     "name": "Wargear Options",
+     "max": 1,
+     "choices": [
+      {
+       "id": "bomb-kit",
+       "name": "Bomb Kit",
+       "pts": 0
+      },
+      {
+       "id": "cutting-blade-and-cutting-gear",
+       "name": "Cutting blade and cutting gear",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "broadside-battlesuits",
+   "name": "Broadside Battlesuits",
+   "legends": false,
+   "keywords": [
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 2,
+     "pts": 80
+    }
+   ],
+   "options": [
+    {
+     "id": "broadside-shas-ui-0-2",
+     "name": "Broadside Shas’ui (0-2)",
+     "max": null,
+     "choices": [
+      {
+       "id": "broadside-shas-ui",
+       "name": "Broadside Shas’ui",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "broadside-shas-vre",
+     "name": "Broadside Shas’vre",
+     "max": null,
+     "choices": [
+      {
+       "id": "broadside-shas-vre",
+       "name": "Broadside Shas’vre",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "cadre-fireblade",
+   "name": "Cadre Fireblade",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 50
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [
+    "breacher-team",
+    "strike-team"
+   ],
+   "transport": null
+  },
+  {
+   "id": "commander-farsight",
+   "name": "Commander Farsight",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 85
+    }
+   ],
+   "options": [],
+   "rosterMax": 1,
+   "leads": [
+    "crisis-fireknife-battlesuits",
+    "crisis-starscythe-battlesuits",
+    "crisis-sunforge-battlesuits"
+   ],
+   "transport": null
+  },
+  {
+   "id": "commander-shadowsun",
+   "name": "Commander Shadowsun",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 100
+    }
+   ],
+   "options": [],
+   "rosterMax": 1,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "commander-in-coldstar-battlesuit",
+   "name": "Commander in Coldstar Battlesuit",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 95
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-support-systems-1-4",
+     "name": "Wargear · Support Systems (1-4)",
+     "max": 4,
+     "choices": [
+      {
+       "id": "high-output-burst-cannon",
+       "name": "High-output burst cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [
+    "crisis-fireknife-battlesuits",
+    "crisis-starscythe-battlesuits",
+    "crisis-sunforge-battlesuits"
+   ],
+   "transport": null
+  },
+  {
+   "id": "commander-in-enforcer-battlesuit",
+   "name": "Commander in Enforcer Battlesuit",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [
+    "crisis-fireknife-battlesuits",
+    "crisis-starscythe-battlesuits",
+    "crisis-sunforge-battlesuits"
+   ],
+   "transport": null
+  },
+  {
+   "id": "crisis-fireknife-battlesuits",
+   "name": "Crisis Fireknife Battlesuits",
+   "legends": false,
+   "keywords": [
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 120
+    }
+   ],
+   "options": [
+    {
+     "id": "crisis-fireknife-shas-vre",
+     "name": "Crisis Fireknife Shas’vre",
+     "max": null,
+     "choices": [
+      {
+       "id": "crisis-fireknife-shas-vre",
+       "name": "Crisis Fireknife Shas’vre",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "crisis-starscythe-battlesuits",
+   "name": "Crisis Starscythe Battlesuits",
+   "legends": false,
+   "keywords": [
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 110
+    }
+   ],
+   "options": [
+    {
+     "id": "crisis-starscythe-shas-vre",
+     "name": "Crisis Starscythe Shas’vre",
+     "max": null,
+     "choices": [
+      {
+       "id": "crisis-starscythe-shas-vre",
+       "name": "Crisis Starscythe Shas’vre",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "crisis-sunforge-battlesuits",
+   "name": "Crisis Sunforge Battlesuits",
+   "legends": false,
+   "keywords": [
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 140
+    }
+   ],
+   "options": [
+    {
+     "id": "crisis-sunforge-shas-vre",
+     "name": "Crisis Sunforge Shas’vre",
+     "max": null,
+     "choices": [
+      {
+       "id": "crisis-sunforge-shas-vre",
+       "name": "Crisis Sunforge Shas’vre",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "darkstrider",
+   "name": "Darkstrider",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 60
+    }
+   ],
+   "options": [],
+   "rosterMax": 1,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "devilfish",
+   "name": "Devilfish",
+   "legends": false,
+   "keywords": [
+    "DEDICATED TRANSPORT",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 85
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-twin-pulse-carbines",
+     "name": "Wargear · Twin Pulse Carbines",
+     "max": 1,
+     "choices": [
+      {
+       "id": "2-twin-pulse-carbines",
+       "name": "2 Twin pulse carbines",
+       "pts": 0
+      },
+      {
+       "id": "2-smart-missile-systems",
+       "name": "2 Smart missile systems",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": 12
+  },
+  {
+   "id": "ethereal",
+   "name": "Ethereal",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 50
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "honour-stave",
+       "name": "Honour stave",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-hover-drone",
+     "name": "Wargear · Hover Drone",
+     "max": null,
+     "choices": [
+      {
+       "id": "hover-drone",
+       "name": "Hover Drone",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [
+    "breacher-team",
+    "strike-team"
+   ],
+   "transport": null
+  },
+  {
+   "id": "firesight-team",
+   "name": "Firesight Team",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 60
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "close-combat-weapons",
+       "name": "Close combat weapons",
+       "pts": 0
+      },
+      {
+       "id": "longshot-pulse-rifles",
+       "name": "Longshot pulse rifles",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "ghostkeel-battlesuit",
+   "name": "Ghostkeel Battlesuit",
+   "legends": false,
+   "keywords": [
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 160
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "ghostkeel-fists",
+       "name": "Ghostkeel fists",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-twin-t-au-flamer",
+     "name": "Wargear · Twin T'au flamer",
+     "max": 1,
+     "choices": [
+      {
+       "id": "twin-burst-cannon",
+       "name": "Twin burst cannon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-battlesuit-support-system",
+     "name": "Wargear · Battlesuit Support System",
+     "max": null,
+     "choices": [
+      {
+       "id": "battlesuit-support-system",
+       "name": "Battlesuit support system",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-fusion-collider",
+     "name": "Wargear · Fusion collider",
+     "max": 1,
+     "choices": [
+      {
+       "id": "fusion-collider",
+       "name": "Fusion collider",
+       "pts": 0
+      },
+      {
+       "id": "cyclic-ion-raker",
+       "name": "Cyclic ion raker",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "hammerhead-gunship",
+   "name": "Hammerhead Gunship",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 145
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-railgun",
+     "name": "Wargear · Railgun",
+     "max": 1,
+     "choices": [
+      {
+       "id": "railgun",
+       "name": "Railgun",
+       "pts": 0
+      },
+      {
+       "id": "ion-cannon",
+       "name": "Ion cannon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-twin-pulse-carbines",
+     "name": "Wargear · Twin Pulse Carbines",
+     "max": 1,
+     "choices": [
+      {
+       "id": "2-accelerator-burst-cannons",
+       "name": "2 Accelerator burst cannons",
+       "pts": 0
+      },
+      {
+       "id": "2-twin-pulse-carbines",
+       "name": "2 Twin pulse carbines",
+       "pts": 0
+      },
+      {
+       "id": "2-smart-missile-systems",
+       "name": "2 Smart missile systems",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "kinband-champion",
+   "name": "Kinband Champion [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 55
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [
+    "kroot-carnivores",
+    "kroot-farstalkers"
+   ],
+   "transport": null
+  },
+  {
+   "id": "kroot-carnivores",
+   "name": "Kroot Carnivores",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 10,
+     "pts": 65
+    },
+    {
+     "models": 20,
+     "pts": 140
+    }
+   ],
+   "options": [
+    {
+     "id": "9-19-kroot-carnivores",
+     "name": "9-19 Kroot Carnivores",
+     "max": 19,
+     "choices": [
+      {
+       "id": "kroot-carnivores",
+       "name": "Kroot Carnivores",
+       "pts": 0
+      },
+      {
+       "id": "kroot-carnivore-w-tanglebomb-launcher",
+       "name": "Kroot Carnivore w/ tanglebomb launcher",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "long-quill",
+     "name": "Long-quill",
+     "max": null,
+     "choices": [
+      {
+       "id": "long-quill",
+       "name": "Long-quill",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "kroot-farstalkers",
+   "name": "Kroot Farstalkers",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 10,
+     "pts": 85
+    }
+   ],
+   "options": [
+    {
+     "id": "kroot-farstalkers",
+     "name": "Kroot Farstalkers",
+     "max": 9,
+     "choices": [
+      {
+       "id": "kroot-farstalker",
+       "name": "Kroot Farstalker",
+       "pts": 0
+      },
+      {
+       "id": "kroot-farstalker-w-farstalker-firearm-and-pech-ra",
+       "name": "Kroot Farstalker w/ Farstalker firearm and Pech'ra",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "kroot-farstalkers-special-weapon",
+     "name": "Kroot Farstalkers · Special Weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "kroot-farstalker-w-dvorgite-skinner",
+       "name": "Kroot Farstalker w/ Dvorgite skinner",
+       "pts": 0
+      },
+      {
+       "id": "kroot-farstalker-w-londaxi-tribalest",
+       "name": "Kroot Farstalker w/ Londaxi tribalest",
+       "pts": 0
+      },
+      {
+       "id": "kroot-farstalker",
+       "name": "Kroot Farstalker",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "kroot-kill-broker",
+     "name": "Kroot Kill-broker",
+     "max": null,
+     "choices": [
+      {
+       "id": "kroot-kill-broker",
+       "name": "Kroot Kill-broker",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 0,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "kroot-flesh-shaper",
+   "name": "Kroot Flesh Shaper",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 45
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "kroot-hounds",
+   "name": "Kroot Hounds",
+   "legends": false,
+   "keywords": [
+    "BEAST"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 40
+    }
+   ],
+   "options": [
+    {
+     "id": "5-10-kroot-hounds",
+     "name": "5-10 Kroot Hounds",
+     "max": null,
+     "choices": [
+      {
+       "id": "kroot-hounds",
+       "name": "Kroot Hounds",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 0,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "kroot-lone-spear",
+   "name": "Kroot Lone-spear",
+   "legends": false,
+   "keywords": [
+    "CHARACTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "close-combat-weapon",
+       "name": "Close combat weapon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-wargear-options",
+     "name": "Wargear · Wargear Options",
+     "max": 1,
+     "choices": [
+      {
+       "id": "blast-javelin-and-hunting-javelin",
+       "name": "Blast javelin and hunting javelin",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "kroot-trail-shaper",
+   "name": "Kroot Trail Shaper",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 55
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "kroot-war-shaper",
+   "name": "Kroot War Shaper",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 50
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "krootox-rampagers",
+   "name": "Krootox Rampagers",
+   "legends": false,
+   "keywords": [
+    "GRENADES"
+   ],
+   "unitSizes": [
+    {
+     "models": 3,
+     "pts": 85
+    },
+    {
+     "models": 6,
+     "pts": 170
+    }
+   ],
+   "options": [
+    {
+     "id": "krootox-rampagers",
+     "name": "Krootox Rampagers",
+     "max": 6,
+     "choices": [
+      {
+       "id": "krootox-rampagers",
+       "name": "Krootox Rampagers",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "krootox-riders",
+   "name": "Krootox Riders",
+   "legends": false,
+   "keywords": [
+    "GRENADES"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 40
+    },
+    {
+     "models": 3,
+     "pts": 60
+    }
+   ],
+   "options": [
+    {
+     "id": "krootox-riders",
+     "name": "Krootox Riders",
+     "max": 3,
+     "choices": [
+      {
+       "id": "krootox-rider-w-repeater-cannon",
+       "name": "Krootox Rider w/ repeater cannon",
+       "pts": 0
+      },
+      {
+       "id": "krootox-rider-w-tanglecannon",
+       "name": "Krootox Rider w/ tanglecannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 0,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "manta",
+   "name": "Manta",
+   "legends": false,
+   "keywords": [
+    "AIRCRAFT",
+    "TITANIC",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 2100
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "armoured-hull",
+       "name": "Armoured hull",
+       "pts": 0
+      },
+      {
+       "id": "heavy-rail-cannon",
+       "name": "Heavy rail cannon",
+       "pts": 0
+      },
+      {
+       "id": "long-barrelled-burst-cannon-array",
+       "name": "Long-barrelled burst cannon array",
+       "pts": 0
+      },
+      {
+       "id": "ion-cannon",
+       "name": "Ion cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "pathfinder-team",
+   "name": "Pathfinder Team",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 10,
+     "pts": 90
+    }
+   ],
+   "options": [
+    {
+     "id": "pathfinders",
+     "name": "Pathfinders",
+     "max": 9,
+     "choices": [
+      {
+       "id": "pathfinders-w-pulse-carbine",
+       "name": "Pathfinders w/ pulse carbine",
+       "pts": 0
+      },
+      {
+       "id": "pathfinders-w-pulse-carbine-and-grenade-launcher",
+       "name": "Pathfinders w/ pulse carbine and grenade launcher",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "pathfinders-special-weapons-0-3",
+     "name": "Pathfinders · Special Weapons (0-3)",
+     "max": 3,
+     "choices": [
+      {
+       "id": "pathfinders-w-ion-rifle",
+       "name": "Pathfinders w/ ion rifle",
+       "pts": 0
+      },
+      {
+       "id": "pathfinders-w-rail-rifle",
+       "name": "Pathfinders w/ rail rifle",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "pathfinder-shas-ui",
+     "name": "Pathfinder Shas'ui",
+     "max": null,
+     "choices": [
+      {
+       "id": "pathfinder-shas-ui",
+       "name": "Pathfinder Shas'ui",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "razorshark-strike-fighter",
+   "name": "Razorshark Strike Fighter",
+   "legends": false,
+   "keywords": [
+    "AIRCRAFT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 170
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "quad-ion-turret",
+       "name": "Quad ion turret",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "riptide-battlesuit",
+   "name": "Riptide Battlesuit",
+   "legends": false,
+   "keywords": [
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 200
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "riptide-fists",
+       "name": "Riptide fists",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-heavy-burst-cannon",
+     "name": "Wargear · Heavy Burst Cannon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "heavy-burst-cannon",
+       "name": "Heavy burst cannon",
+       "pts": 0
+      },
+      {
+       "id": "ion-accelerator",
+       "name": "Ion accelerator",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-twin-plasma-rifles",
+     "name": "Wargear · Twin Plasma Rifles",
+     "max": 1,
+     "choices": [
+      {
+       "id": "twin-smart-missile-system",
+       "name": "Twin smart missile system",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "searchlight",
+   "name": "Searchlight",
+   "legends": false,
+   "keywords": [],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 10
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "sentry-gun",
+   "name": "Sentry Gun",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 30
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "shas-nel",
+   "name": "Shas'nel [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 50
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [
+    "breacher-team",
+    "strike-team"
+   ],
+   "transport": null
+  },
+  {
+   "id": "sky-ray-gunship",
+   "name": "Sky Ray Gunship",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 150
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "seeker-missile-rack",
+       "name": "Seeker missile rack",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-twin-pulse-carbines",
+     "name": "Wargear · Twin Pulse Carbines",
+     "max": 1,
+     "choices": [
+      {
+       "id": "2-accelerator-burst-cannons",
+       "name": "2 Accelerator burst cannons",
+       "pts": 0
+      },
+      {
+       "id": "2-twin-pulse-carbines",
+       "name": "2 Twin pulse carbines",
+       "pts": 0
+      },
+      {
+       "id": "2-smart-missile-systems",
+       "name": "2 Smart missile systems",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "stealth-battlesuits",
+   "name": "Stealth Battlesuits",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 100
+    }
+   ],
+   "options": [
+    {
+     "id": "4-stealth-shas-ui",
+     "name": "4 Stealth Shas'ui",
+     "max": 4,
+     "choices": [
+      {
+       "id": "stealth-shas-ui-w-burst-cannon",
+       "name": "Stealth Shas'ui w/ burst cannon",
+       "pts": 0
+      },
+      {
+       "id": "stealth-shas-ui-w-fusion-blaster",
+       "name": "Stealth Shas'ui w/ fusion blaster",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "stealth-shas-vre",
+     "name": "Stealth Shas'vre",
+     "max": null,
+     "choices": [
+      {
+       "id": "stealth-shas-vre",
+       "name": "Stealth Shas'vre",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "stormsurge",
+   "name": "Stormsurge",
+   "legends": false,
+   "keywords": [
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 360
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "cluster-rocket-system",
+       "name": "Cluster rocket system",
+       "pts": 0
+      },
+      {
+       "id": "destroyer-missiles",
+       "name": "Destroyer missiles",
+       "pts": 0
+      },
+      {
+       "id": "thunderous-footfalls",
+       "name": "Thunderous footfalls",
+       "pts": 0
+      },
+      {
+       "id": "twin-smart-missile-system",
+       "name": "Twin smart missile system",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-pulse-driver-cannon",
+     "name": "Wargear · Pulse Driver Cannon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "pulse-driver-cannon",
+       "name": "Pulse driver cannon",
+       "pts": 0
+      },
+      {
+       "id": "pulse-blast-cannon",
+       "name": "Pulse blast cannon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-twin-t-au-flamer",
+     "name": "Wargear · Twin T'au Flamer",
+     "max": 1,
+     "choices": [
+      {
+       "id": "twin-airbursting-fragmentation-projector",
+       "name": "Twin airbursting fragmentation projector",
+       "pts": 0
+      },
+      {
+       "id": "twin-burst-cannon",
+       "name": "Twin burst cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "strike-team",
+   "name": "Strike Team",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 10,
+     "pts": 70
+    }
+   ],
+   "options": [
+    {
+     "id": "fire-warriors",
+     "name": "Fire Warriors",
+     "max": 9,
+     "choices": [
+      {
+       "id": "fire-warrior-w-pulse-carbine",
+       "name": "Fire Warrior w/ pulse carbine",
+       "pts": 0
+      },
+      {
+       "id": "fire-warrior-w-pulse-rifle",
+       "name": "Fire Warrior w/ pulse rifle",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "fire-warrior-shas-ui",
+     "name": "Fire Warrior Shas'ui",
+     "max": null,
+     "choices": [
+      {
+       "id": "fire-warrior-shas-ui",
+       "name": "Fire Warrior Shas'ui",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "sun-shark-bomber",
+   "name": "Sun Shark Bomber",
+   "legends": false,
+   "keywords": [
+    "AIRCRAFT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 160
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "twin-ion-rifle",
+       "name": "Twin ion rifle",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-missile-pod",
+     "name": "Wargear · Missile Pod",
+     "max": 1,
+     "choices": [
+      {
+       "id": "twin-missile-pod",
+       "name": "Twin missile pod",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "ta-unar-supremacy-armour",
+   "name": "Ta'unar Supremacy Armour",
+   "legends": false,
+   "keywords": [
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 790
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "crushing-feet",
+       "name": "Crushing feet",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-arm-weapons",
+     "name": "Wargear · Arm Weapons",
+     "max": 2,
+     "choices": [
+      {
+       "id": "tri-axis-ion-cannon",
+       "name": "Tri-axis ion cannon",
+       "pts": 0
+      },
+      {
+       "id": "fusion-eradicator",
+       "name": "Fusion eradicator",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-carapace-weapon",
+     "name": "Wargear · Carapace Weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "3-pulse-ordnance-drivers",
+       "name": "3 Pulse ordnance drivers",
+       "pts": 0
+      },
+      {
+       "id": "2-nexus-missile-launchers",
+       "name": "2 Nexus missile launchers",
+       "pts": 0
+      },
+      {
+       "id": "heavy-rail-cannon-array-and-fragmentation-cluster-shell-launcher",
+       "name": "Heavy rail cannon array and fragmentation cluster shell launcher",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "the-twin-lance",
+   "name": "The Twin Lance",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 185
+    }
+   ],
+   "options": [],
+   "rosterMax": 1,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "tidewall-droneport",
+   "name": "Tidewall Droneport",
+   "legends": false,
+   "keywords": [
+    "FORTIFICATION",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 85
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": 11
+  },
+  {
+   "id": "tidewall-gunrig",
+   "name": "Tidewall Gunrig",
+   "legends": false,
+   "keywords": [
+    "FORTIFICATION",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 90
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": 11
+  },
+  {
+   "id": "tidewall-shieldline",
+   "name": "Tidewall Shieldline",
+   "legends": false,
+   "keywords": [
+    "FORTIFICATION",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 85
+    }
+   ],
+   "options": [
+    {
+     "id": "tidewall-defence-platform",
+     "name": "Tidewall Defence Platform",
+     "max": null,
+     "choices": [
+      {
+       "id": "tidewall-defence-platform",
+       "name": "Tidewall Defence Platform",
+       "pts": 20
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": 11
+  },
+  {
+   "id": "tiger-shark",
+   "name": "Tiger Shark",
+   "legends": false,
+   "keywords": [
+    "AIRCRAFT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 325
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-burst-cannons",
+     "name": "Wargear · Burst Cannons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "2-cyclic-ion-blasters",
+       "name": "2 cyclic ion blasters",
+       "pts": 0
+      },
+      {
+       "id": "2-burst-cannons",
+       "name": "2 burst cannons",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-ion-cannons",
+     "name": "Wargear · Ion Cannons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "2-ion-cannons",
+       "name": "2 Ion cannons",
+       "pts": 0
+      },
+      {
+       "id": "2-swiftstrike-burst-cannons",
+       "name": "2 Swiftstrike burst cannons",
+       "pts": 0
+      },
+      {
+       "id": "2-swiftstrike-railguns",
+       "name": "2 Swiftstrike railguns",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-transport-bay",
+     "name": "Wargear · Transport Bay",
+     "max": 1,
+     "choices": [
+      {
+       "id": "transport-bay",
+       "name": "Transport bay",
+       "pts": 0
+      },
+      {
+       "id": "2-skyspear-missile-racks",
+       "name": "2 Skyspear missile racks",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": 12
+  },
+  {
+   "id": "vespid-stingwings",
+   "name": "Vespid Stingwings",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 65
+    },
+    {
+     "models": 10,
+     "pts": 130
+    }
+   ],
+   "options": [
+    {
+     "id": "vespid-strain-leader",
+     "name": "Vespid Strain Leader",
+     "max": null,
+     "choices": [
+      {
+       "id": "vespid-strain-leader",
+       "name": "Vespid Strain Leader",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "4-9-vespid-stingwings",
+     "name": "4-9 Vespid Stingwings",
+     "max": 9,
+     "choices": [
+      {
+       "id": "vespid-stingwings-w-neutron-blaster",
+       "name": "Vespid Stingwings w/ Neutron Blaster",
+       "pts": 0
+      },
+      {
+       "id": "vespid-stingwings-w-t-au-flamer",
+       "name": "Vespid Stingwings w/ T'au Flamer",
+       "pts": 0
+      },
+      {
+       "id": "vespid-stingwings-w-neutron-grenade-launcher",
+       "name": "Vespid Stingwings w/ Neutron Grenade Launcher",
+       "pts": 0
+      },
+      {
+       "id": "vespid-stingwings-w-neutron-rail-rifle",
+       "name": "Vespid Stingwings w/ Neutron Rail Rifle",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  }
+ ]
+}

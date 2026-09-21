@@ -1,0 +1,7673 @@
+{
+ "id": "space-wolves",
+ "name": "Space Wolves",
+ "source": "BSData wh40k-10e",
+ "generated": "2026-09-21",
+ "detachments": [
+  {
+   "id": "gladius-task-force",
+   "name": "Gladius Task Force",
+   "enhancements": [
+    {
+     "id": "artificer-armour",
+     "name": "Artificer Armour",
+     "pts": 10
+    },
+    {
+     "id": "the-honour-vehement",
+     "name": "The Honour Vehement",
+     "pts": 15
+    },
+    {
+     "id": "adept-of-the-codex",
+     "name": "Adept of the Codex",
+     "pts": 20
+    },
+    {
+     "id": "fire-discipline",
+     "name": "Fire Discipline",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "unforgiven-task-force",
+   "name": "Unforgiven Task Force",
+   "enhancements": [
+    {
+     "id": "shroud-of-heroes",
+     "name": "Shroud of Heroes",
+     "pts": 25
+    },
+    {
+     "id": "stubborn-tenacity",
+     "name": "Stubborn Tenacity",
+     "pts": 15
+    },
+    {
+     "id": "weapons-of-the-first-legion",
+     "name": "Weapons of the First Legion",
+     "pts": 15
+    },
+    {
+     "id": "pennant-of-remembrance",
+     "name": "Pennant of Remembrance",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "black-spear-task-force",
+   "name": "Black Spear Task Force",
+   "enhancements": [
+    {
+     "id": "thief-of-secrets",
+     "name": "Thief of Secrets",
+     "pts": 25
+    },
+    {
+     "id": "beacon-angelis",
+     "name": "Beacon Angelis",
+     "pts": 25
+    },
+    {
+     "id": "osseus-key",
+     "name": "Osseus Key",
+     "pts": 15
+    },
+    {
+     "id": "the-tome-of-ectoclades",
+     "name": "The Tome of Ectoclades",
+     "pts": 30
+    }
+   ]
+  },
+  {
+   "id": "liberator-assault-group",
+   "name": "Liberator Assault Group",
+   "enhancements": [
+    {
+     "id": "icon-of-the-angel",
+     "name": "Icon of the Angel",
+     "pts": 20
+    },
+    {
+     "id": "speed-of-the-primarch",
+     "name": "Speed of the Primarch",
+     "pts": 25
+    },
+    {
+     "id": "rage-fuelled-warrior",
+     "name": "Rage-Fuelled Warrior",
+     "pts": 35
+    },
+    {
+     "id": "gift-of-foresight",
+     "name": "Gift of Foresight",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "anvil-siege-force",
+   "name": "Anvil Siege Force",
+   "enhancements": [
+    {
+     "id": "architect-of-war",
+     "name": "Architect of War",
+     "pts": 25
+    },
+    {
+     "id": "fleet-commander",
+     "name": "Fleet Commander",
+     "pts": 15
+    },
+    {
+     "id": "indomitable-fury",
+     "name": "Indomitable Fury",
+     "pts": 20
+    },
+    {
+     "id": "stoic-defender",
+     "name": "Stoic Defender",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "ironstorm-spearhead",
+   "name": "Ironstorm Spearhead",
+   "enhancements": [
+    {
+     "id": "adept-of-the-omnissiah",
+     "name": "Adept of the Omnissiah",
+     "pts": 35
+    },
+    {
+     "id": "master-of-the-machine-war",
+     "name": "Master of the Machine War",
+     "pts": 20
+    },
+    {
+     "id": "target-augury-web",
+     "name": "Target Augury Web",
+     "pts": 30
+    },
+    {
+     "id": "the-flesh-is-weak",
+     "name": "The Flesh is Weak",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "firestorm-assault-force",
+   "name": "Firestorm Assault Force",
+   "enhancements": [
+    {
+     "id": "adamantine-mantle",
+     "name": "Adamantine Mantle",
+     "pts": 20
+    },
+    {
+     "id": "champion-of-humanity",
+     "name": "Champion of Humanity",
+     "pts": 10
+    },
+    {
+     "id": "forged-in-battle",
+     "name": "Forged in Battle",
+     "pts": 15
+    },
+    {
+     "id": "war-tempered-artifice",
+     "name": "War-tempered Artifice",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "stormlance-task-force",
+   "name": "Stormlance Task Force",
+   "enhancements": [
+    {
+     "id": "feinting-withdrawal",
+     "name": "Feinting Withdrawal",
+     "pts": 10
+    },
+    {
+     "id": "fury-of-the-storm",
+     "name": "Fury of the Storm",
+     "pts": 25
+    },
+    {
+     "id": "portents-of-wisdom",
+     "name": "Portents of Wisdom",
+     "pts": 15
+    },
+    {
+     "id": "hunter-s-instincts",
+     "name": "Hunter's Instincts",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "vanguard-spearhead",
+   "name": "Vanguard Spearhead",
+   "enhancements": [
+    {
+     "id": "execute-and-redeploy",
+     "name": "Execute and Redeploy",
+     "pts": 20
+    },
+    {
+     "id": "ghostweave-cloak",
+     "name": "Ghostweave Cloak",
+     "pts": 15
+    },
+    {
+     "id": "shadow-war-veteran",
+     "name": "Shadow War Veteran",
+     "pts": 30
+    },
+    {
+     "id": "the-blade-driven-deep",
+     "name": "The Blade Driven Deep",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "1st-company-task-force",
+   "name": "1st Company Task Force",
+   "enhancements": [
+    {
+     "id": "fear-made-manifest",
+     "name": "Fear Made Manifest [Aura]",
+     "pts": 30
+    },
+    {
+     "id": "iron-resolve",
+     "name": "Iron Resolve",
+     "pts": 15
+    },
+    {
+     "id": "rites-of-war",
+     "name": "Rites of War",
+     "pts": 10
+    },
+    {
+     "id": "the-imperium-s-sword",
+     "name": "The Imperium's Sword",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "inner-circle-task-force",
+   "name": "Inner Circle Task Force",
+   "enhancements": [
+    {
+     "id": "eye-of-the-unseen",
+     "name": "Eye of the Unseen",
+     "pts": 10
+    },
+    {
+     "id": "champion-of-the-deathwing",
+     "name": "Champion of the Deathwing",
+     "pts": 15
+    },
+    {
+     "id": "singular-will",
+     "name": "Singular Will",
+     "pts": 20
+    },
+    {
+     "id": "deathwing-assault",
+     "name": "Deathwing Assault",
+     "pts": 30
+    }
+   ]
+  },
+  {
+   "id": "company-of-hunters",
+   "name": "Company of Hunters",
+   "enhancements": [
+    {
+     "id": "master-crafted-weapon",
+     "name": "Master-crafted Weapon",
+     "pts": 10
+    },
+    {
+     "id": "mounted-strategist",
+     "name": "Mounted Strategist",
+     "pts": 30
+    },
+    {
+     "id": "master-of-manoeuvre",
+     "name": "Master of Manoeuvre",
+     "pts": 15
+    },
+    {
+     "id": "recon-hunter",
+     "name": "Recon Hunter",
+     "pts": 20
+    }
+   ]
+  },
+  {
+   "id": "the-lost-brethren",
+   "name": "The Lost Brethren",
+   "enhancements": [
+    {
+     "id": "blood-shard",
+     "name": "Blood Shard",
+     "pts": 25
+    },
+    {
+     "id": "sanguinius-grace",
+     "name": "Sanguinius' Grace",
+     "pts": 20
+    },
+    {
+     "id": "to-slay-the-warmaster",
+     "name": "To Slay the Warmaster",
+     "pts": 15
+    },
+    {
+     "id": "vengeful-onslaught",
+     "name": "Vengeful Onslaught",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "the-angelic-host",
+   "name": "The Angelic Host",
+   "enhancements": [
+    {
+     "id": "archangel-s-shard",
+     "name": "Archangel's Shard",
+     "pts": 15
+    },
+    {
+     "id": "artisan-of-war",
+     "name": "Artisan of War",
+     "pts": 20
+    },
+    {
+     "id": "gleaming-pinions",
+     "name": "Gleaming Pinions",
+     "pts": 25
+    },
+    {
+     "id": "visage-of-death",
+     "name": "Visage of Death",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "lion-s-blade-task-force",
+   "name": "Lion's Blade Task Force",
+   "enhancements": [
+    {
+     "id": "calibanite-armaments",
+     "name": "Calibanite Armaments",
+     "pts": 15
+    },
+    {
+     "id": "lord-of-the-hunt",
+     "name": "Lord of the Hunt",
+     "pts": 15
+    },
+    {
+     "id": "stalwart-champion",
+     "name": "Stalwart Champion",
+     "pts": 25
+    },
+    {
+     "id": "fulgus-magna",
+     "name": "Fulgus Magna",
+     "pts": 20
+    }
+   ]
+  },
+  {
+   "id": "librarius-conclave",
+   "name": "Librarius Conclave",
+   "enhancements": [
+    {
+     "id": "prescience",
+     "name": "Prescience",
+     "pts": 25
+    },
+    {
+     "id": "celerity",
+     "name": "Celerity",
+     "pts": 30
+    },
+    {
+     "id": "obfuscation",
+     "name": "Obfuscation",
+     "pts": 20
+    },
+    {
+     "id": "fusillade",
+     "name": "Fusillade",
+     "pts": 35
+    }
+   ]
+  },
+  {
+   "id": "wrathful-procession",
+   "name": "Wrathful Procession",
+   "enhancements": [
+    {
+     "id": "pyrebrand",
+     "name": "Pyrebrand",
+     "pts": 25
+    },
+    {
+     "id": "sacred-rage",
+     "name": "Sacred Rage",
+     "pts": 30
+    },
+    {
+     "id": "taramond-s-censer",
+     "name": "Taramond's Censer",
+     "pts": 15
+    },
+    {
+     "id": "benediction-of-fury",
+     "name": "Benediction of Fury",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "champions-of-fenris",
+   "name": "Champions of Fenris",
+   "enhancements": [
+    {
+     "id": "wolves-wisdom",
+     "name": "Wolves' Wisdom",
+     "pts": 30
+    },
+    {
+     "id": "foes-fate",
+     "name": "Foes' Fate",
+     "pts": 15
+    },
+    {
+     "id": "fangrune-pendant",
+     "name": "Fangrune Pendant",
+     "pts": 15
+    },
+    {
+     "id": "longstrider",
+     "name": "Longstrider",
+     "pts": 20
+    }
+   ]
+  },
+  {
+   "id": "angelic-inheritors",
+   "name": "Angelic Inheritors",
+   "enhancements": [
+    {
+     "id": "prescient-flash",
+     "name": "Prescient Flash",
+     "pts": 20
+    },
+    {
+     "id": "troubling-visions",
+     "name": "Troubling Visions",
+     "pts": 15
+    },
+    {
+     "id": "blazing-icon",
+     "name": "Blazing Icon",
+     "pts": 20
+    },
+    {
+     "id": "ordained-sacrifice",
+     "name": "Ordained Sacrifice",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "wrath-of-the-rock",
+   "name": "Wrath of the Rock",
+   "enhancements": [
+    {
+     "id": "deathwing-assault",
+     "name": "Deathwing Assault",
+     "pts": 15
+    },
+    {
+     "id": "tempered-in-battle-aura",
+     "name": "Tempered in Battle (Aura)",
+     "pts": 10
+    },
+    {
+     "id": "lord-of-the-ravenwing",
+     "name": "Lord of the Ravenwing",
+     "pts": 10
+    },
+    {
+     "id": "ancient-weapons",
+     "name": "Ancient Weapons",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "saga-of-the-hunter",
+   "name": "Saga of the Hunter",
+   "enhancements": [
+    {
+     "id": "swift-hunter",
+     "name": "Swift Hunter",
+     "pts": 20
+    },
+    {
+     "id": "fenrisian-grit",
+     "name": "Fenrisian Grit",
+     "pts": 15
+    },
+    {
+     "id": "feral-rage",
+     "name": "Feral Rage",
+     "pts": 10
+    },
+    {
+     "id": "wolf-master",
+     "name": "Wolf Master",
+     "pts": 5
+    }
+   ]
+  },
+  {
+   "id": "saga-of-the-bold",
+   "name": "Saga of the Bold",
+   "enhancements": [
+    {
+     "id": "braggart-s-steel",
+     "name": "Braggart's Steel",
+     "pts": 20
+    },
+    {
+     "id": "hordeslayer",
+     "name": "Hordeslayer",
+     "pts": 15
+    },
+    {
+     "id": "skjald",
+     "name": "Skjald",
+     "pts": 15
+    },
+    {
+     "id": "thunderwolf-s-fortitude",
+     "name": "Thunderwolf's Fortitude",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "saga-of-the-beastslayer",
+   "name": "Saga of the Beastslayer",
+   "enhancements": [
+    {
+     "id": "wolf-touched",
+     "name": "Wolf-Touched",
+     "pts": 15
+    },
+    {
+     "id": "hunter-s-guile",
+     "name": "Hunter's Guile",
+     "pts": 20
+    },
+    {
+     "id": "elder-s-guidance",
+     "name": "Elder's Guidance",
+     "pts": 20
+    },
+    {
+     "id": "helm-of-the-beastslayer",
+     "name": "Helm of the Beastslayer",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "companions-of-vehemence",
+   "name": "Companions of Vehemence",
+   "enhancements": [
+    {
+     "id": "incendiary-animus",
+     "name": "Incendiary Animus",
+     "pts": 25
+    },
+    {
+     "id": "oathbound-exemplar",
+     "name": "Oathbound Exemplar",
+     "pts": 15
+    },
+    {
+     "id": "merciless-denunciation",
+     "name": "Merciless Denunciation",
+     "pts": 25
+    },
+    {
+     "id": "zealous-vanguard",
+     "name": "Zealous Vanguard",
+     "pts": 20
+    }
+   ]
+  },
+  {
+   "id": "vindication-task-force",
+   "name": "Vindication Task Force",
+   "enhancements": [
+    {
+     "id": "consecrating-aura",
+     "name": "Consecrating Aura",
+     "pts": 25
+    },
+    {
+     "id": "imperialis-of-the-eternal-crusade",
+     "name": "Imperialis of the Eternal Crusade",
+     "pts": 15
+    },
+    {
+     "id": "warden-of-honour",
+     "name": "Warden of Honour",
+     "pts": 20
+    },
+    {
+     "id": "orb-of-the-emperor-s-aegis",
+     "name": "Orb of the Emperor's Aegis",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "godhammer-assault-force",
+   "name": "Godhammer Assault Force",
+   "enhancements": [
+    {
+     "id": "paragon-of-fury",
+     "name": "Paragon of Fury",
+     "pts": 25
+    },
+    {
+     "id": "battle-psalm-precentor",
+     "name": "Battle-Psalm Precentor",
+     "pts": 10
+    },
+    {
+     "id": "augury-servo-host",
+     "name": "Augury Servo-Host",
+     "pts": 15
+    },
+    {
+     "id": "herald-of-the-sacred-slaughter",
+     "name": "Herald of the Sacred Slaughter",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "forgefather-s-seekers",
+   "name": "Forgefather's Seekers",
+   "enhancements": [
+    {
+     "id": "adamantine-mantle",
+     "name": "Adamantine Mantle",
+     "pts": 20
+    },
+    {
+     "id": "war-tempered-artifice",
+     "name": "War-tempered Artifice",
+     "pts": 25
+    },
+    {
+     "id": "forged-in-battle",
+     "name": "Forged in Battle",
+     "pts": 15
+    },
+    {
+     "id": "immolator",
+     "name": "Immolator",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "emperor-s-shield",
+   "name": "Emperor's Shield",
+   "enhancements": [
+    {
+     "id": "champion-of-the-feast",
+     "name": "Champion of the Feast",
+     "pts": 25
+    },
+    {
+     "id": "disciple-of-rhetoricus",
+     "name": "Disciple of Rhetoricus",
+     "pts": 10
+    },
+    {
+     "id": "indomitable-champion",
+     "name": "Indomitable Champion",
+     "pts": 20
+    },
+    {
+     "id": "malodraxian-standard",
+     "name": "Malodraxian Standard",
+     "pts": 20
+    }
+   ]
+  },
+  {
+   "id": "shadowmark-talon",
+   "name": "Shadowmark Talon",
+   "enhancements": [
+    {
+     "id": "blackwing-shroud",
+     "name": "Blackwing Shroud",
+     "pts": 25
+    },
+    {
+     "id": "coronal-susurrant",
+     "name": "Coronal Susurrant",
+     "pts": 30
+    },
+    {
+     "id": "umbral-raptor",
+     "name": "Umbral Raptor",
+     "pts": 15
+    },
+    {
+     "id": "hunter-s-instincts",
+     "name": "Hunter's Instincts",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "hammer-of-avernii",
+   "name": "Hammer of Avernii",
+   "enhancements": [
+    {
+     "id": "spiritus-ferrum",
+     "name": "Spiritus Ferrum",
+     "pts": 25
+    },
+    {
+     "id": "medusan-roar",
+     "name": "Medusan Roar [Aura]",
+     "pts": 30
+    },
+    {
+     "id": "iron-laurel",
+     "name": "Iron Laurel",
+     "pts": 10
+    },
+    {
+     "id": "steel-font",
+     "name": "Steel Font",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "spearpoint-task-force",
+   "name": "Spearpoint Task Force",
+   "enhancements": [
+    {
+     "id": "spearpoint-paragon",
+     "name": "Spearpoint Paragon",
+     "pts": 25
+    },
+    {
+     "id": "stormseer-s-wisdom",
+     "name": "Stormseer's Wisdom",
+     "pts": 15
+    },
+    {
+     "id": "hunter-s-eye",
+     "name": "Hunter's Eye",
+     "pts": 20
+    },
+    {
+     "id": "chogorian-huntmaster",
+     "name": "Chogorian Huntmaster",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "blade-of-ultramar",
+   "name": "Blade of Ultramar",
+   "enhancements": [
+    {
+     "id": "armour-of-antoninus",
+     "name": "Armour of Antoninus",
+     "pts": 10
+    },
+    {
+     "id": "oath-of-macragge",
+     "name": "Oath of Macragge",
+     "pts": 15
+    },
+    {
+     "id": "student-of-the-codex",
+     "name": "Student of the Codex",
+     "pts": 20
+    },
+    {
+     "id": "veteran-of-behemoth",
+     "name": "Veteran of Behemoth",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "saga-of-the-great-wolf",
+   "name": "Saga of the Great Wolf",
+   "enhancements": [
+    {
+     "id": "grimnar-s-mark",
+     "name": "Grimnar's Mark",
+     "pts": 20
+    },
+    {
+     "id": "howlmaw",
+     "name": "Howlmaw",
+     "pts": 15
+    },
+    {
+     "id": "chariots-of-the-storm",
+     "name": "Chariots of the Storm",
+     "pts": 25
+    },
+    {
+     "id": "skjald-s-foretelling",
+     "name": "Skjald's Foretelling",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "rage-cursed-onslaught",
+   "name": "Rage-Cursed Onslaught",
+   "enhancements": [
+    {
+     "id": "carmine-reliquary",
+     "name": "Carmine Reliquary",
+     "pts": 30
+    },
+    {
+     "id": "master-of-the-red-thirst",
+     "name": "Master of the Red Thirst",
+     "pts": 25
+    },
+    {
+     "id": "sanguinary-tear-aura",
+     "name": "Sanguinary Tear (Aura)",
+     "pts": 35
+    },
+    {
+     "id": "angel-s-fang",
+     "name": "Angel's Fang",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "bastion-task-force",
+   "name": "Bastion Task Force",
+   "enhancements": [
+    {
+     "id": "eye-of-the-primarch",
+     "name": "Eye of the Primarch",
+     "pts": 10
+    },
+    {
+     "id": "hero-of-the-chapter",
+     "name": "Hero of the Chapter",
+     "pts": 20
+    },
+    {
+     "id": "blades-of-valour",
+     "name": "Blades of Valour",
+     "pts": 15
+    },
+    {
+     "id": "bombast-omnivox",
+     "name": "Bombast Omnivox",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "orbital-assault-force",
+   "name": "Orbital Assault Force",
+   "enhancements": [
+    {
+     "id": "laurels-of-thunder",
+     "name": "Laurels of Thunder",
+     "pts": 15
+    },
+    {
+     "id": "orbital-uplink-reliquary",
+     "name": "Orbital Uplink Reliquary",
+     "pts": 25
+    },
+    {
+     "id": "veteran-of-the-vanguard",
+     "name": "Veteran of the Vanguard",
+     "pts": 20
+    },
+    {
+     "id": "dedicated-gunship",
+     "name": "Dedicated Gunship",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "reclamation-force",
+   "name": "Reclamation Force",
+   "enhancements": [
+    {
+     "id": "seals-of-reconquest",
+     "name": "Seals of Reconquest",
+     "pts": 20
+    },
+    {
+     "id": "avenging-avatar-aura",
+     "name": "Avenging Avatar (Aura)",
+     "pts": 10
+    },
+    {
+     "id": "scroll-of-proclamation",
+     "name": "Scroll of Proclamation",
+     "pts": 15
+    },
+    {
+     "id": "liberatum",
+     "name": "Liberatum",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "ceramite-sentinels",
+   "name": "Ceramite Sentinels",
+   "enhancements": [
+    {
+     "id": "honour-indefatigable",
+     "name": "Honour Indefatigable",
+     "pts": 25
+    },
+    {
+     "id": "castellum-omnivox",
+     "name": "Castellum Omnivox",
+     "pts": 20
+    },
+    {
+     "id": "spy-skull-datalink",
+     "name": "Spy-skull Datalink",
+     "pts": 15
+    },
+    {
+     "id": "defensive-mastery",
+     "name": "Defensive Mastery",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "headhunter-task-force",
+   "name": "Headhunter Task Force",
+   "enhancements": []
+  },
+  {
+   "id": "valourstrike-lance",
+   "name": "Valourstrike Lance",
+   "enhancements": [
+    {
+     "id": "bearer-of-the-iron-chalice",
+     "name": "Bearer of the Iron Chalice",
+     "pts": 20
+    },
+    {
+     "id": "bearer-of-the-evanescent-ion",
+     "name": "Bearer of the Evanescent Ion",
+     "pts": 15
+    },
+    {
+     "id": "bearer-of-the-judicant-s-helm",
+     "name": "Bearer of the Judicant's Helm",
+     "pts": 25
+    },
+    {
+     "id": "bearer-of-the-lancer-s-sigil",
+     "name": "Bearer of the Lancer's Sigil",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "questor-forgepact",
+   "name": "Questor Forgepact",
+   "enhancements": []
+  },
+  {
+   "id": "gate-warden-lance",
+   "name": "Gate Warden Lance",
+   "enhancements": [
+    {
+     "id": "vengeful-tread",
+     "name": "Vengeful Tread",
+     "pts": 15
+    },
+    {
+     "id": "acquisitor-at-arms",
+     "name": "Acquisitor-at-Arms",
+     "pts": 15
+    },
+    {
+     "id": "purgation-s-hand",
+     "name": "Purgation's Hand",
+     "pts": 20
+    },
+    {
+     "id": "augury-halo",
+     "name": "Augury Halo",
+     "pts": 20
+    }
+   ]
+  },
+  {
+   "id": "questoris-companions",
+   "name": "Questoris Companions",
+   "enhancements": [
+    {
+     "id": "crushing-condemnation",
+     "name": "Crushing Condemnation",
+     "pts": 10
+    },
+    {
+     "id": "herald-of-triumph",
+     "name": "Herald of Triumph",
+     "pts": 15
+    },
+    {
+     "id": "wyrmslayer-divination",
+     "name": "Wyrmslayer Divination",
+     "pts": 10
+    },
+    {
+     "id": "pennant-of-silvered-fury",
+     "name": "Pennant of Silvered Fury",
+     "pts": 15
+    }
+   ]
+  },
+  {
+   "id": "spearhead-at-arms",
+   "name": "Spearhead-at-Arms",
+   "enhancements": [
+    {
+     "id": "martial-tuition",
+     "name": "Martial Tuition",
+     "pts": 15
+    },
+    {
+     "id": "mentor-s-pride",
+     "name": "Mentor's Pride",
+     "pts": 20
+    },
+    {
+     "id": "fables-of-nightmare",
+     "name": "Fables of Nightmare",
+     "pts": 10
+    },
+    {
+     "id": "tales-of-heroism",
+     "name": "Tales of Heroism",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "id": "freeblade-company",
+   "name": "Freeblade Company",
+   "enhancements": [
+    {
+     "id": "sanctuary",
+     "name": "Sanctuary",
+     "pts": 20
+    },
+    {
+     "id": "mysterious-guardian",
+     "name": "Mysterious Guardian",
+     "pts": 35
+    },
+    {
+     "id": "bringer-of-justice",
+     "name": "Bringer of Justice",
+     "pts": 30
+    },
+    {
+     "id": "hunter-s-eye",
+     "name": "Hunter's Eye",
+     "pts": 25
+    }
+   ]
+  },
+  {
+   "id": "alien-hunters-ordo-xenos",
+   "name": "Alien Hunters (Ordo Xenos)",
+   "enhancements": []
+  },
+  {
+   "id": "purgation-force-ordo-hereticus",
+   "name": "Purgation Force (Ordo Hereticus)",
+   "enhancements": []
+  },
+  {
+   "id": "daemon-hunters-ordo-malleus",
+   "name": "Daemon Hunters (Ordo Malleus)",
+   "enhancements": []
+  },
+  {
+   "id": "imperialis-fleet",
+   "name": "Imperialis Fleet",
+   "enhancements": []
+  },
+  {
+   "id": "veiled-blade-elimination-force",
+   "name": "Veiled Blade Elimination Force",
+   "enhancements": []
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "acastus-knight-asterius",
+   "name": "Acastus Knight Asterius",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 765
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "twin-conversion-beam-cannon",
+       "name": "Twin conversion beam cannon",
+       "pts": 0
+      },
+      {
+       "id": "asterius-volkite-culverin",
+       "name": "Asterius volkite culverin",
+       "pts": 0
+      },
+      {
+       "id": "karacnos-mortar-battery",
+       "name": "Karacnos mortar battery",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "acastus-knight-porphyrion",
+   "name": "Acastus Knight Porphyrion",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 700
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "twin-magna-lascannon",
+       "name": "Twin magna lascannon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-acastus-autocannons",
+     "name": "Wargear · Acastus Autocannons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "2-acastus-autocannons",
+       "name": "2 Acastus autocannons",
+       "pts": 0
+      },
+      {
+       "id": "1-acastus-autocannon-and-1-lascannon",
+       "name": "1 Acastus autocannon and 1 lascannon",
+       "pts": 0
+      },
+      {
+       "id": "2-lascannons",
+       "name": "2 Lascannons",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-acastus-ironstorm-missile-pod",
+     "name": "Wargear · Acastus Ironstorm Missile Pod",
+     "max": 1,
+     "choices": [
+      {
+       "id": "acastus-ironstorm-missile-pod",
+       "name": "Acastus ironstorm missile pod",
+       "pts": 0
+      },
+      {
+       "id": "helios-defence-missiles",
+       "name": "Helios defence missiles",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "aggressor-squad",
+   "name": "Aggressor Squad",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 95
+    }
+   ],
+   "options": [
+    {
+     "id": "aggressors",
+     "name": "Aggressors",
+     "max": null,
+     "choices": [
+      {
+       "id": "aggressors",
+       "name": "Aggressors",
+       "pts": 0
+      },
+      {
+       "id": "aggressor-sergeant",
+       "name": "Aggressor Sergeant",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "ancient",
+   "name": "Ancient",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 50
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-weapon-option",
+     "name": "Wargear · Weapon Option",
+     "max": 1,
+     "choices": [
+      {
+       "id": "bolt-rifle-close-combat-weapon",
+       "name": "Bolt Rifle & Close Combat Weapon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "ancient-in-terminator-armor",
+   "name": "Ancient in Terminator Armor",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": 1,
+     "choices": [
+      {
+       "id": "storm-bolter-and-melee-weapon",
+       "name": "Storm Bolter and Melee Weapon",
+       "pts": 0
+      },
+      {
+       "id": "thunder-hammer-terminator-storm-shield",
+       "name": "Thunder Hammer & Terminator Storm Shield",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "apothecary",
+   "name": "Apothecary",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 50
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "reductor-pistol",
+       "name": "Reductor Pistol",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "apothecary-biologis",
+   "name": "Apothecary Biologis",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "aquila-kill-team",
+   "name": "Aquila Kill Team",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 100
+    },
+    {
+     "models": 10,
+     "pts": 200
+    }
+   ],
+   "options": [],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "arjac-rockfist",
+   "name": "Arjac Rockfist",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 105
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "armiger-helverin",
+   "name": "Armiger Helverin",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 135
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "armiger-autocannon",
+       "name": "Armiger autocannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "armiger-moirax",
+   "name": "Armiger Moirax",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 150
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-wargear",
+     "name": "Wargear · Wargear",
+     "max": 2,
+     "choices": [
+      {
+       "id": "volkite-veuglaire",
+       "name": "Volkite veuglaire",
+       "pts": 0
+      },
+      {
+       "id": "graviton-pulsar",
+       "name": "Graviton pulsar",
+       "pts": 0
+      },
+      {
+       "id": "lightning-lock",
+       "name": "Lightning lock",
+       "pts": 0
+      },
+      {
+       "id": "conversion-beam-cannon",
+       "name": "Conversion beam cannon",
+       "pts": 0
+      },
+      {
+       "id": "siege-claw-and-rad-cleanser",
+       "name": "Siege claw and rad cleanser",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "armiger-warglaive",
+   "name": "Armiger Warglaive",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 140
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "reaper-chain-cleaver",
+       "name": "Reaper chain-cleaver",
+       "pts": 0
+      },
+      {
+       "id": "thermal-spear",
+       "name": "Thermal spear",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "assault-intercessor-squad",
+   "name": "Assault Intercessor Squad",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 75
+    },
+    {
+     "models": 10,
+     "pts": 150
+    }
+   ],
+   "options": [
+    {
+     "id": "assault-intercessors",
+     "name": "Assault Intercessors",
+     "max": 10,
+     "choices": [
+      {
+       "id": "assault-intercessor-sergeant",
+       "name": "Assault Intercessor Sergeant",
+       "pts": 0
+      },
+      {
+       "id": "assault-intercessors",
+       "name": "Assault Intercessors",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "assault-intercessors-with-jump-packs",
+   "name": "Assault Intercessors with Jump Packs",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 90
+    },
+    {
+     "models": 10,
+     "pts": 170
+    }
+   ],
+   "options": [
+    {
+     "id": "assault-intercessors-with-jump-packs",
+     "name": "Assault Intercessors with Jump Packs",
+     "max": 10,
+     "choices": [
+      {
+       "id": "assault-intercessor-sergeant-with-jump-pack",
+       "name": "Assault Intercessor Sergeant with Jump Pack",
+       "pts": 0
+      },
+      {
+       "id": "assault-intercessors-with-jump-pack",
+       "name": "Assault Intercessors with Jump Pack",
+       "pts": 0
+      },
+      {
+       "id": "assault-intercessors-with-jump-pack-w-plasma-pistol",
+       "name": "Assault Intercessors with Jump Pack w/ Plasma Pistol",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "astraeus",
+   "name": "Astraeus",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "TITANIC",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 525
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "twin-macro-accelerator-cannon",
+       "name": "Twin macro-accelerator cannon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-sponson-weapons",
+     "name": "Wargear · Sponson weapons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "two-astraeus-las-rippers",
+       "name": "Two Astraeus las-rippers",
+       "pts": 0
+      },
+      {
+       "id": "two-plasma-eradicators",
+       "name": "Two plasma eradicators",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "ballistus-dreadnought",
+   "name": "Ballistus Dreadnought",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 150
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "armoured-feet",
+       "name": "Armoured Feet",
+       "pts": 0
+      },
+      {
+       "id": "ballistus-lascannon",
+       "name": "Ballistus Lascannon",
+       "pts": 0
+      },
+      {
+       "id": "ballistus-missile-launcher",
+       "name": "Ballistus Missile Launcher",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "bjorn-the-fell-handed",
+   "name": "Bjorn the Fell-Handed",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "IMPERIUM",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 160
+    }
+   ],
+   "options": [
+    {
+     "id": "ranged-weapon",
+     "name": "Ranged weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "assault-cannon",
+       "name": "Assault cannon",
+       "pts": 0
+      },
+      {
+       "id": "multi-melta",
+       "name": "Multi-melta",
+       "pts": 0
+      },
+      {
+       "id": "helfrost-cannon",
+       "name": "Helfrost cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "bladeguard-ancient",
+   "name": "Bladeguard Ancient",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 45
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "bladeguard-veteran-squad",
+   "name": "Bladeguard Veteran Squad",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 3,
+     "pts": 80
+    },
+    {
+     "models": 6,
+     "pts": 170
+    }
+   ],
+   "options": [
+    {
+     "id": "bladeguard-veterans",
+     "name": "Bladeguard Veterans",
+     "max": 6,
+     "choices": [
+      {
+       "id": "bladeguard-veterans",
+       "name": "Bladeguard Veterans",
+       "pts": 0
+      },
+      {
+       "id": "bladeguard-veteran-sergeant",
+       "name": "Bladeguard Veteran Sergeant",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "blood-claws",
+   "name": "Blood Claws",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 10,
+     "pts": 135
+    },
+    {
+     "models": 20,
+     "pts": 285
+    }
+   ],
+   "options": [
+    {
+     "id": "blood-claws",
+     "name": "Blood Claws",
+     "max": 20,
+     "choices": [
+      {
+       "id": "blood-claw",
+       "name": "Blood Claw",
+       "pts": 0
+      },
+      {
+       "id": "blood-claw-pack-leader",
+       "name": "Blood Claw Pack Leader",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "breaching-robot",
+   "name": "Breaching Robot",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 35
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-options",
+     "name": "Wargear Options",
+     "max": 1,
+     "choices": [
+      {
+       "id": "bomb-kit",
+       "name": "Bomb Kit",
+       "pts": 0
+      },
+      {
+       "id": "cutting-blade-and-cutting-gear",
+       "name": "Cutting blade and cutting gear",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "brutalis-dreadnought",
+   "name": "Brutalis Dreadnought",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 160
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-melee-weapon-option",
+     "name": "Wargear · Melee Weapon Option",
+     "max": 1,
+     "choices": [
+      {
+       "id": "brutalis-fists-brutalis-bolt-rifles",
+       "name": "Brutalis Fists & Brutalis Bolt Rifles",
+       "pts": 0
+      },
+      {
+       "id": "brutalis-talons",
+       "name": "Brutalis Talons",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "callidus-assassin",
+   "name": "Callidus Assassin",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 100
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "canis-rex",
+   "name": "Canis Rex",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "IMPERIUM"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 415
+    }
+   ],
+   "options": [],
+   "rosterMax": 1,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "captain",
+   "name": "Captain",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": 1,
+     "choices": [
+      {
+       "id": "bolt-pistol-master-crafted-bolter-melee-weapon",
+       "name": "Bolt Pistol, Master-crafted Bolter, Melee Weapon",
+       "pts": 0
+      },
+      {
+       "id": "heavy-bolt-pistol-master-crafted-power-weapon-and-1-relic-shield",
+       "name": "Heavy Bolt Pistol, Master-crafted power weapon and 1 Relic Shield",
+       "pts": 0
+      },
+      {
+       "id": "pistol-and-melee-weapon",
+       "name": "Pistol and Melee Weapon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "captain-in-gravis-armour",
+   "name": "Captain in Gravis Armour",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": 1,
+     "choices": [
+      {
+       "id": "master-crafted-heavy-bolt-rifle-and-master-crafted-power-weapon",
+       "name": "Master-crafted Heavy Bolt Rifle and Master-crafted Power Weapon",
+       "pts": 0
+      },
+      {
+       "id": "boltstorm-gauntlet-powerfist-and-relic-weapon",
+       "name": "Boltstorm Gauntlet, Powerfist, and Relic weapon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "captain-in-phobos-armour",
+   "name": "Captain in Phobos Armour",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "instigator-bolt-carbine",
+       "name": "Instigator Bolt Carbine",
+       "pts": 0
+      },
+      {
+       "id": "combat-knife",
+       "name": "Combat Knife",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "captain-in-terminator-armour",
+   "name": "Captain in Terminator Armour",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 95
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-weapon-2",
+     "name": "Wargear · Weapon 2",
+     "max": 1,
+     "choices": [
+      {
+       "id": "relic-fist",
+       "name": "Relic Fist",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "captain-with-jump-pack",
+   "name": "Captain with Jump Pack",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": 1,
+     "choices": [
+      {
+       "id": "melee-and-pistol",
+       "name": "Melee and Pistol",
+       "pts": 0
+      },
+      {
+       "id": "thunder-hammer-and-relic-shield",
+       "name": "Thunder Hammer and Relic Shield",
+       "pts": 0
+      },
+      {
+       "id": "chainsword-and-relic-shield",
+       "name": "Chainsword and Relic Shield",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "centurion-assault-squad",
+   "name": "Centurion Assault Squad",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 3,
+     "pts": 150
+    },
+    {
+     "models": 6,
+     "pts": 300
+    }
+   ],
+   "options": [
+    {
+     "id": "assault-centurions",
+     "name": "Assault Centurions",
+     "max": 6,
+     "choices": [
+      {
+       "id": "assault-centurion-sergeant",
+       "name": "Assault Centurion Sergeant",
+       "pts": 0
+      },
+      {
+       "id": "assault-centurion",
+       "name": "Assault Centurion",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "centurion-devastator-squad",
+   "name": "Centurion Devastator Squad",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 3,
+     "pts": 175
+    },
+    {
+     "models": 6,
+     "pts": 350
+    }
+   ],
+   "options": [
+    {
+     "id": "devastator-centurions",
+     "name": "Devastator Centurions",
+     "max": 6,
+     "choices": [
+      {
+       "id": "devastator-centurion-sergeant",
+       "name": "Devastator Centurion Sergeant",
+       "pts": 0
+      },
+      {
+       "id": "devastator-centurion",
+       "name": "Devastator Centurion",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "cerastus-knight-acheron",
+   "name": "Cerastus Knight Acheron",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 395
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "twin-heavy-bolter",
+       "name": "Twin heavy bolter",
+       "pts": 0
+      },
+      {
+       "id": "acheron-flame-cannon",
+       "name": "Acheron flame cannon",
+       "pts": 0
+      },
+      {
+       "id": "reaper-chainfist",
+       "name": "Reaper chainfist",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "cerastus-knight-atrapos",
+   "name": "Cerastus Knight Atrapos",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 405
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "atrapos-lascutter",
+       "name": "Atrapos lascutter",
+       "pts": 0
+      },
+      {
+       "id": "graviton-singularity-cannon",
+       "name": "Graviton singularity cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "cerastus-knight-castigator",
+   "name": "Cerastus Knight Castigator",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 395
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "castigator-bolt-cannon",
+       "name": "Castigator bolt cannon",
+       "pts": 0
+      },
+      {
+       "id": "tempest-warblade",
+       "name": "Tempest warblade",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "cerastus-knight-lancer",
+   "name": "Cerastus Knight Lancer",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 395
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "cerastus-shock-lance",
+       "name": "Cerastus shock lance",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "champion-of-the-chapter",
+   "name": "Champion of the Chapter [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [
+    "tactical-squad",
+    "tacticus"
+   ],
+   "transport": null
+  },
+  {
+   "id": "chaplain",
+   "name": "Chaplain",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 60
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "chaplain-in-terminator-armour",
+   "name": "Chaplain in Terminator Armour",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "chaplain-on-bike",
+   "name": "Chaplain on Bike",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "chaplain-with-jump-pack",
+   "name": "Chaplain with Jump Pack",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "company-heroes",
+   "name": "Company Heroes",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 105
+    }
+   ],
+   "options": [],
+   "rosterMax": 0,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "corvus-blackstar",
+   "name": "Corvus Blackstar",
+   "legends": false,
+   "keywords": [
+    "AIRCRAFT",
+    "IMPERIUM",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 180
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "armoured-hull",
+       "name": "Armoured hull",
+       "pts": 0
+      },
+      {
+       "id": "hurricane-bolter",
+       "name": "Hurricane bolter",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-centreline-weapon",
+     "name": "Wargear · Centreline weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "twin-assault-cannon",
+       "name": "Twin assault cannon",
+       "pts": 0
+      },
+      {
+       "id": "twin-lascannon",
+       "name": "Twin lascannon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-missile-choice",
+     "name": "Wargear · Missile choice",
+     "max": 1,
+     "choices": [
+      {
+       "id": "2-blackstar-rocket-launchers",
+       "name": "2 Blackstar rocket launchers",
+       "pts": 0
+      },
+      {
+       "id": "2-stormstrike-missile-launchers",
+       "name": "2 Stormstrike missile launchers",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-wargear",
+     "name": "Wargear · Wargear",
+     "max": 1,
+     "choices": [
+      {
+       "id": "auspex-array",
+       "name": "Auspex array",
+       "pts": 0
+      },
+      {
+       "id": "infernum-halo-launcher",
+       "name": "Infernum halo-launcher",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": 12
+  },
+  {
+   "id": "culexus-assassin",
+   "name": "Culexus Assassin",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 85
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "deathwatch-agent",
+   "name": "Deathwatch Agent [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 105
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "deathwatch-kill-team",
+   "name": "Deathwatch Kill Team",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 100
+    },
+    {
+     "models": 10,
+     "pts": 190
+    }
+   ],
+   "options": [
+    {
+     "id": "4-9-deathwatch-veterans",
+     "name": "4-9 Deathwatch Veterans",
+     "max": 9,
+     "choices": [
+      {
+       "id": "veteran-w-boltgun-and-power-weapon",
+       "name": "Veteran w/ boltgun and power weapon",
+       "pts": 0
+      },
+      {
+       "id": "veteran-w-deathwatch-thunder-hammer",
+       "name": "Veteran w/ Deathwatch thunder hammer",
+       "pts": 0
+      },
+      {
+       "id": "veteran-w-frag-cannon-and-ccw",
+       "name": "Veteran w/ frag cannon and CCW",
+       "pts": 0
+      },
+      {
+       "id": "veteran-w-infernus-heavy-bolter-and-ccw",
+       "name": "Veteran w/ infernus heavy bolter and CCW",
+       "pts": 0
+      },
+      {
+       "id": "veteran-w-astartes-shield-and-boltgun",
+       "name": "Veteran w/ Astartes shield and boltgun",
+       "pts": 0
+      },
+      {
+       "id": "veteran-w-astartes-shield-and-power-weapon",
+       "name": "Veteran w/ Astartes shield and power weapon",
+       "pts": 0
+      },
+      {
+       "id": "veteran-w-stalker-pattern-boltgun-and-ccw",
+       "name": "Veteran w/ stalker-pattern boltgun and CCW",
+       "pts": 0
+      },
+      {
+       "id": "veteran-w-deathwatch-shotgun-and-ccw",
+       "name": "Veteran w/ Deathwatch shotgun and CCW",
+       "pts": 0
+      },
+      {
+       "id": "veteran-w-black-shield-blades",
+       "name": "Veteran w/ Black Shield blades",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "watch-sergeant",
+     "name": "Watch Sergeant",
+     "max": null,
+     "choices": [
+      {
+       "id": "watch-sergeant",
+       "name": "Watch Sergeant",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "desolation-squad",
+   "name": "Desolation Squad",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 200
+    }
+   ],
+   "options": [
+    {
+     "id": "desolation-marines",
+     "name": "Desolation Marines",
+     "max": 5,
+     "choices": [
+      {
+       "id": "desolation-marine",
+       "name": "Desolation Marine",
+       "pts": 0
+      },
+      {
+       "id": "desolation-sergeant",
+       "name": "Desolation Sergeant",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "devastator-squad",
+   "name": "Devastator Squad",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 120
+    },
+    {
+     "models": 10,
+     "pts": 200
+    }
+   ],
+   "options": [
+    {
+     "id": "devastators",
+     "name": "Devastators",
+     "max": 9,
+     "choices": [
+      {
+       "id": "devastator-marine-w-boltgun",
+       "name": "Devastator Marine w/ Boltgun",
+       "pts": 0
+      },
+      {
+       "id": "devastator-marine-w-heavy-weapon",
+       "name": "Devastator Marine w/ Heavy Weapon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "devastator-sergeant",
+     "name": "Devastator Sergeant",
+     "max": null,
+     "choices": [
+      {
+       "id": "devastator-sergeant",
+       "name": "Devastator Sergeant",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "dreadnought",
+   "name": "Dreadnought",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 135
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-dreadnought-arm-weapons",
+     "name": "Wargear · Dreadnought Arm Weapons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "dreadnought-combat-weapon-w-heavy-flamer",
+       "name": "Dreadnought Combat Weapon w/ Heavy Flamer",
+       "pts": 0
+      },
+      {
+       "id": "dreadnought-combat-weapon-w-storm-bolter",
+       "name": "Dreadnought Combat Weapon w/ Storm Bolter",
+       "pts": 0
+      },
+      {
+       "id": "close-combat-weapon-w-missile-launcher",
+       "name": "Close Combat Weapon w/ Missile Launcher",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "drop-pod",
+   "name": "Drop Pod",
+   "legends": false,
+   "keywords": [
+    "DEDICATED TRANSPORT",
+    "IMPERIUM",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": 12
+  },
+  {
+   "id": "eliminator-squad",
+   "name": "Eliminator Squad",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 85
+    }
+   ],
+   "options": [
+    {
+     "id": "eliminators",
+     "name": "Eliminators",
+     "max": null,
+     "choices": [
+      {
+       "id": "eliminator-sergeant",
+       "name": "Eliminator Sergeant",
+       "pts": 0
+      },
+      {
+       "id": "eliminator",
+       "name": "Eliminator",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "enthroned-agent",
+   "name": "Enthroned Agent [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 120
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "eradicator-squad",
+   "name": "Eradicator Squad",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 3,
+     "pts": 90
+    },
+    {
+     "models": 6,
+     "pts": 180
+    }
+   ],
+   "options": [
+    {
+     "id": "eradicators",
+     "name": "Eradicators",
+     "max": 6,
+     "choices": [
+      {
+       "id": "eradicator-sergeant",
+       "name": "Eradicator Sergeant",
+       "pts": 0
+      },
+      {
+       "id": "eradicator",
+       "name": "Eradicator",
+       "pts": 0
+      },
+      {
+       "id": "eradicator-with-multi-melta",
+       "name": "Eradicator with Multi-melta",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "eversor-assassin",
+   "name": "Eversor Assassin",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 110
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "exaction-squad",
+   "name": "Exaction Squad",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 9,
+     "pts": 90
+    }
+   ],
+   "options": [
+    {
+     "id": "9-exaction-vigilants",
+     "name": "9 Exaction Vigilants",
+     "max": 9,
+     "choices": [
+      {
+       "id": "exaction-vigilant-w-medi-kit",
+       "name": "Exaction Vigilant w/ medi-kit",
+       "pts": 0
+      },
+      {
+       "id": "exaction-vigilant-w-excruciator-maul",
+       "name": "Exaction Vigilant w/ excruciator maul",
+       "pts": 0
+      },
+      {
+       "id": "exaction-vigilant-w-soulguilt-scanner",
+       "name": "Exaction Vigilant w/ soulguilt scanner",
+       "pts": 0
+      },
+      {
+       "id": "exaction-vigilant-w-shotgun",
+       "name": "Exaction Vigilant w/ shotgun",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "9-exaction-vigilants-up-to-2",
+     "name": "9 Exaction Vigilants · Up to 2:",
+     "max": 2,
+     "choices": [
+      {
+       "id": "exaction-vigilant-w-grenade-launcher",
+       "name": "Exaction Vigilant w/ grenade launcher",
+       "pts": 0
+      },
+      {
+       "id": "exaction-vigilant-w-executioner-shotgun",
+       "name": "Exaction Vigilant w/ executioner shotgun",
+       "pts": 0
+      },
+      {
+       "id": "exaction-vigilant-w-heavy-stubber",
+       "name": "Exaction Vigilant w/ heavy stubber",
+       "pts": 0
+      },
+      {
+       "id": "exaction-vigilant-w-webber",
+       "name": "Exaction Vigilant w/ webber",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "fenrisian-wolves",
+   "name": "Fenrisian Wolves",
+   "legends": false,
+   "keywords": [
+    "BEAST",
+    "IMPERIUM"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 40
+    }
+   ],
+   "options": [
+    {
+     "id": "5-10-fenrisian-wolves",
+     "name": "5-10 Fenrisian Wolves",
+     "max": null,
+     "choices": [
+      {
+       "id": "fenrisian-wolf",
+       "name": "Fenrisian Wolf",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "firestrike-servo-turrets",
+   "name": "Firestrike Servo-Turrets",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [
+    {
+     "id": "firestrike-servo-turrets",
+     "name": "Firestrike Servo-Turrets",
+     "max": null,
+     "choices": [
+      {
+       "id": "firestrike-servo-turret",
+       "name": "Firestrike Servo-Turret",
+       "pts": 75
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "gladiator-lancer",
+   "name": "Gladiator Lancer",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 160
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "lancer-laser-destroyer",
+       "name": "Lancer Laser Destroyer",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-sponson-weapons",
+     "name": "Wargear · Sponson Weapons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "two-fragstorm-grenade-launchers",
+       "name": "Two fragstorm grenade launchers",
+       "pts": 0
+      },
+      {
+       "id": "two-storm-bolters",
+       "name": "Two storm bolters",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "gladiator-reaper",
+   "name": "Gladiator Reaper",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 160
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "tempest-bolter",
+       "name": "Tempest Bolter",
+       "pts": 0
+      },
+      {
+       "id": "twin-heavy-onslaught-gatling-cannon",
+       "name": "Twin Heavy Onslaught Gatling Cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "gladiator-valiant",
+   "name": "Gladiator Valiant",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 150
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "twin-las-talon",
+       "name": "Twin Las-talon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "grey-hunters",
+   "name": "Grey Hunters",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 10,
+     "pts": 165
+    }
+   ],
+   "options": [
+    {
+     "id": "grey-hunters",
+     "name": "Grey Hunters",
+     "max": 10,
+     "choices": [
+      {
+       "id": "grey-hunter-pack-leader",
+       "name": "Grey Hunter Pack Leader",
+       "pts": 0
+      },
+      {
+       "id": "grey-hunter",
+       "name": "Grey Hunter",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "grey-knights-terminator-squad",
+   "name": "Grey Knights Terminator Squad",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 4,
+     "pts": 190
+    }
+   ],
+   "options": [
+    {
+     "id": "4-terminators",
+     "name": "4 Terminators",
+     "max": 4,
+     "choices": [
+      {
+       "id": "terminator",
+       "name": "Terminator",
+       "pts": 0
+      },
+      {
+       "id": "terminator-w-heavy-weapon",
+       "name": "Terminator w/ heavy weapon",
+       "pts": 0
+      },
+      {
+       "id": "terminator-w-narthecium",
+       "name": "Terminator w/ narthecium",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "hammerfall-bunker",
+   "name": "Hammerfall Bunker",
+   "legends": false,
+   "keywords": [
+    "FORTIFICATION",
+    "IMPERIUM"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 175
+    }
+   ],
+   "options": [
+    {
+     "id": "weapon-option",
+     "name": "Weapon Option",
+     "max": 1,
+     "choices": [
+      {
+       "id": "hammerfall-heavy-bolter-array",
+       "name": "Hammerfall Heavy Bolter Array",
+       "pts": 0
+      },
+      {
+       "id": "hammerfall-heavy-flamer-array",
+       "name": "Hammerfall Heavy Flamer Array",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "heavy-intercessor-squad",
+   "name": "Heavy Intercessor Squad",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 100
+    },
+    {
+     "models": 10,
+     "pts": 200
+    }
+   ],
+   "options": [
+    {
+     "id": "heavy-intercessors",
+     "name": "Heavy Intercessors",
+     "max": 10,
+     "choices": [
+      {
+       "id": "heavy-intercessors",
+       "name": "Heavy Intercessors",
+       "pts": 0
+      },
+      {
+       "id": "heavy-intercessor-sergeant",
+       "name": "Heavy Intercessor Sergeant",
+       "pts": 0
+      },
+      {
+       "id": "heavy-intercessor-w-heavy-bolter",
+       "name": "Heavy Intercessor w/Heavy Bolter",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "hellblaster-squad",
+   "name": "Hellblaster Squad",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 110
+    },
+    {
+     "models": 10,
+     "pts": 220
+    }
+   ],
+   "options": [
+    {
+     "id": "hellblasters",
+     "name": "Hellblasters",
+     "max": 10,
+     "choices": [
+      {
+       "id": "hellblaster-sergeant",
+       "name": "Hellblaster Sergeant",
+       "pts": 0
+      },
+      {
+       "id": "hellblaster",
+       "name": "Hellblaster",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "imperial-navy-breachers",
+   "name": "Imperial Navy Breachers",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 9,
+     "pts": 90
+    }
+   ],
+   "options": [
+    {
+     "id": "9-armsmen",
+     "name": "9 Armsmen",
+     "max": 9,
+     "choices": [
+      {
+       "id": "navis-armsman-w-heavy-shotgun",
+       "name": "Navis Armsman w/ heavy shotgun",
+       "pts": 0
+      },
+      {
+       "id": "navis-armsman-w-special-weapon",
+       "name": "Navis Armsman w/ special weapon",
+       "pts": 0
+      },
+      {
+       "id": "navis-armsman-w-power-weapon",
+       "name": "Navis Armsman w/ power weapon",
+       "pts": 0
+      },
+      {
+       "id": "navis-armsman",
+       "name": "Navis Armsman",
+       "pts": 0
+      },
+      {
+       "id": "navis-armsman-w-chainfist",
+       "name": "Navis Armsman w/ chainfist",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "imperial-rhino",
+   "name": "Imperial Rhino",
+   "legends": false,
+   "keywords": [
+    "DEDICATED TRANSPORT",
+    "IMPERIUM",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "storm-bolter",
+       "name": "Storm bolter",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": 12
+  },
+  {
+   "id": "impulsor",
+   "name": "Impulsor",
+   "legends": false,
+   "keywords": [
+    "DEDICATED TRANSPORT",
+    "IMPERIUM",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-option",
+     "name": "Wargear · Option",
+     "max": 1,
+     "choices": [
+      {
+       "id": "orbital-comms-array",
+       "name": "Orbital Comms Array",
+       "pts": 0
+      },
+      {
+       "id": "shield-dome",
+       "name": "Shield Dome",
+       "pts": 0
+      },
+      {
+       "id": "ironhail-skytalon-array",
+       "name": "Ironhail Skytalon Array",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-sponsons",
+     "name": "Wargear · Sponsons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "2-storm-bolters",
+       "name": "2 Storm Bolters",
+       "pts": 0
+      },
+      {
+       "id": "2-fragstorm-grenade-launchers",
+       "name": "2 Fragstorm Grenade Launchers",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": 7
+  },
+  {
+   "id": "inceptor-squad",
+   "name": "Inceptor Squad",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 120
+    }
+   ],
+   "options": [
+    {
+     "id": "inceptors",
+     "name": "Inceptors",
+     "max": null,
+     "choices": [
+      {
+       "id": "inceptor-sergeant",
+       "name": "Inceptor Sergeant",
+       "pts": 0
+      },
+      {
+       "id": "inceptor",
+       "name": "Inceptor",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "incursor-squad",
+   "name": "Incursor Squad",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [
+    {
+     "id": "incursors",
+     "name": "Incursors",
+     "max": null,
+     "choices": [
+      {
+       "id": "incursor-sergeant",
+       "name": "Incursor Sergeant",
+       "pts": 0
+      },
+      {
+       "id": "incursor",
+       "name": "Incursor",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "infernus-squad",
+   "name": "Infernus Squad",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 90
+    },
+    {
+     "models": 10,
+     "pts": 180
+    }
+   ],
+   "options": [
+    {
+     "id": "infernus-marines",
+     "name": "Infernus Marines",
+     "max": 10,
+     "choices": [
+      {
+       "id": "infernus-marines",
+       "name": "Infernus Marines",
+       "pts": 0
+      },
+      {
+       "id": "infernus-sergeant",
+       "name": "Infernus Sergeant",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "infiltrator-squad",
+   "name": "Infiltrator Squad",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 100
+    },
+    {
+     "models": 10,
+     "pts": 200
+    }
+   ],
+   "options": [
+    {
+     "id": "infiltrators",
+     "name": "Infiltrators",
+     "max": 10,
+     "choices": [
+      {
+       "id": "infiltrator",
+       "name": "Infiltrator",
+       "pts": 0
+      },
+      {
+       "id": "infiltrator-sergeant",
+       "name": "Infiltrator Sergeant",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "inquisitor",
+   "name": "Inquisitor",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 55
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-melee-weapon",
+     "name": "Wargear · Melee weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "inquisitorial-melee-weapon",
+       "name": "Inquisitorial melee weapon",
+       "pts": 0
+      },
+      {
+       "id": "force-weapon",
+       "name": "Force weapon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-ranged-weapon",
+     "name": "Wargear · Ranged weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "bolt-pistol",
+       "name": "Bolt pistol",
+       "pts": 0
+      },
+      {
+       "id": "combi-weapon",
+       "name": "Combi-weapon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-wargear",
+     "name": "Wargear · Wargear",
+     "max": 1,
+     "choices": [
+      {
+       "id": "blessed-wardings",
+       "name": "Blessed wardings",
+       "pts": 0
+      },
+      {
+       "id": "psychic-gifts",
+       "name": "Psychic gifts",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "inquisitor-coteaz",
+   "name": "Inquisitor Coteaz",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "IMPERIUM",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "inquisitor-draxus",
+   "name": "Inquisitor Draxus",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "inquisitor-greyfax",
+   "name": "Inquisitor Greyfax",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 65
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "inquisitor-kroyle",
+   "name": "Inquisitor Kroyle",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "GRENADES",
+    "IMPERIUM"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 100
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "jindarii-tox-cycler",
+       "name": "Jindarii tox-cycler",
+       "pts": 0
+      },
+      {
+       "id": "stubcarbine",
+       "name": "Stubcarbine",
+       "pts": 0
+      },
+      {
+       "id": "butcher-blade",
+       "name": "Butcher blade",
+       "pts": 0
+      },
+      {
+       "id": "garralisk-s-claws-and-teeth",
+       "name": "Garralisk's claws and teeth",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 1,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "inquisitorial-agents",
+   "name": "Inquisitorial Agents",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 6,
+     "pts": 50
+    },
+    {
+     "models": 12,
+     "pts": 100
+    }
+   ],
+   "options": [
+    {
+     "id": "5-10-acolytes",
+     "name": "5 - 10 Acolytes",
+     "max": 10,
+     "choices": [
+      {
+       "id": "agent",
+       "name": "Agent",
+       "pts": 0
+      },
+      {
+       "id": "agent-w-plasma-pistol",
+       "name": "Agent w/ plasma pistol",
+       "pts": 0
+      },
+      {
+       "id": "agent-w-eviscerator",
+       "name": "Agent w/ eviscerator",
+       "pts": 0
+      },
+      {
+       "id": "agent-w-mystic-stave",
+       "name": "Agent w/ mystic stave",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "1-2-gun-servitors",
+     "name": "1 - 2 Gun Servitors",
+     "max": 2,
+     "choices": [
+      {
+       "id": "servitor-w-heavy-bolter",
+       "name": "Servitor w/ heavy bolter",
+       "pts": 0
+      },
+      {
+       "id": "servitor-w-multi-melta",
+       "name": "Servitor w/ multi-melta",
+       "pts": 0
+      },
+      {
+       "id": "servitor-w-plasma-cannon",
+       "name": "Servitor w/ plasma cannon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "tome-skulls",
+     "name": "Tome-skulls",
+     "max": null,
+     "choices": [
+      {
+       "id": "tome-skull",
+       "name": "Tome-skull",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "inquisitorial-chimera",
+   "name": "Inquisitorial Chimera",
+   "legends": false,
+   "keywords": [
+    "DEDICATED TRANSPORT",
+    "IMPERIUM",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "lasgun-array",
+       "name": "Lasgun array",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-pintle-weapon",
+     "name": "Wargear · Pintle weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "storm-bolter",
+       "name": "Storm bolter",
+       "pts": 0
+      },
+      {
+       "id": "heavy-stubber",
+       "name": "Heavy stubber",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-turret-weapon",
+     "name": "Wargear · Turret weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "multi-laser",
+       "name": "Multi-laser",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": 13
+  },
+  {
+   "id": "intercessor-squad",
+   "name": "Intercessor Squad",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 80
+    },
+    {
+     "models": 10,
+     "pts": 160
+    }
+   ],
+   "options": [
+    {
+     "id": "intercessors",
+     "name": "Intercessors",
+     "max": 10,
+     "choices": [
+      {
+       "id": "intercessor-sergeant",
+       "name": "Intercessor Sergeant",
+       "pts": 0
+      },
+      {
+       "id": "intercessor",
+       "name": "Intercessor",
+       "pts": 0
+      },
+      {
+       "id": "intercessor-w-grenade-launcher",
+       "name": "Intercessor w/ Grenade Launcher",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "invader-atv",
+   "name": "Invader ATV",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 60
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "invictor-tactical-warsuit",
+   "name": "Invictor Tactical Warsuit",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 125
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "invictor-fist",
+       "name": "Invictor Fist",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-main-weapon",
+     "name": "Wargear · Main Weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "incendium-cannon",
+       "name": "Incendium Cannon",
+       "pts": 0
+      },
+      {
+       "id": "twin-ironhail-autocannon",
+       "name": "Twin Ironhail Autocannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "iron-priest",
+   "name": "Iron Priest",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 55
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "helfrost-pistol",
+       "name": "Helfrost pistol",
+       "pts": 0
+      },
+      {
+       "id": "tempest-hammer-and-servo-arm",
+       "name": "Tempest hammer and Servo-arm",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "judiciar",
+   "name": "Judiciar",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "executioner-relic-blade",
+       "name": "Executioner Relic Blade",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "knight-castellan",
+   "name": "Knight Castellan",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 410
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "plasma-decimator",
+       "name": "Plasma decimator",
+       "pts": 0
+      },
+      {
+       "id": "volcano-lance",
+       "name": "Volcano lance",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "knight-crusader",
+   "name": "Knight Crusader",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 385
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-thermal-cannon",
+     "name": "Wargear · Thermal Cannon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "rapid-fire-battlecannon-and-questoris-heavy-stubber",
+       "name": "Rapid-fire battlecannon and Questoris heavy stubber",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "knight-defender",
+   "name": "Knight Defender",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 415
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "twin-incendine-combustor",
+       "name": "Twin incendine combustor",
+       "pts": 0
+      },
+      {
+       "id": "conversion-beam-obliterator",
+       "name": "Conversion beam obliterator",
+       "pts": 0
+      },
+      {
+       "id": "plasma-executor",
+       "name": "Plasma executor",
+       "pts": 0
+      },
+      {
+       "id": "phosphor-blaster",
+       "name": "Phosphor blaster",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "knight-destrier",
+   "name": "Knight Destrier",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 250
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "questoris-heavy-stubber",
+       "name": "Questoris heavy stubber",
+       "pts": 0
+      },
+      {
+       "id": "titanic-feet",
+       "name": "Titanic feet",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-chastiser-gatling-cannon",
+     "name": "Wargear · Chastiser Gatling Cannon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "chastiser-gatling-cannon",
+       "name": "Chastiser gatling cannon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-frag-bombard",
+     "name": "Wargear · Frag Bombard",
+     "max": 1,
+     "choices": [
+      {
+       "id": "frag-bombard",
+       "name": "Frag bombard",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "knight-errant",
+   "name": "Knight Errant",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 355
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "knight-gallant",
+   "name": "Knight Gallant",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 355
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "reaper-chainsword",
+       "name": "Reaper chainsword",
+       "pts": 0
+      },
+      {
+       "id": "thunderstrike-gauntlet",
+       "name": "Thunderstrike gauntlet",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "knight-paladin",
+   "name": "Knight Paladin",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 375
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "questoris-heavy-stubber",
+       "name": "Questoris heavy stubber",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "knight-preceptor",
+   "name": "Knight Preceptor",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 365
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "las-impulsor",
+       "name": "Las-impulsor",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-preceptor-multi-laser",
+     "name": "Wargear · Preceptor Multi-laser",
+     "max": 1,
+     "choices": [
+      {
+       "id": "preceptor-multi-laser",
+       "name": "Preceptor multi-laser",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "knight-valiant",
+   "name": "Knight Valiant",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 410
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "conflagration-cannon",
+       "name": "Conflagration cannon",
+       "pts": 0
+      },
+      {
+       "id": "thundercoil-harpoon",
+       "name": "Thundercoil harpoon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "knight-warden",
+   "name": "Knight Warden",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 375
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "land-raider",
+   "name": "Land Raider",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 220
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "godhammer-lascannon",
+       "name": "Godhammer Lascannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": 12
+  },
+  {
+   "id": "land-raider-crusader",
+   "name": "Land Raider Crusader",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 220
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": 16
+  },
+  {
+   "id": "land-raider-redeemer",
+   "name": "Land Raider Redeemer",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 270
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "flamestorm-cannon",
+       "name": "Flamestorm Cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": 14
+  },
+  {
+   "id": "librarian",
+   "name": "Librarian",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 65
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "librarian-in-phobos-armour",
+   "name": "Librarian in Phobos Armour",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "librarian-in-terminator-armour",
+   "name": "Librarian in Terminator Armour",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "librarius-adept",
+   "name": "Librarius Adept [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [
+    "tactical-squad",
+    "tacticus"
+   ],
+   "transport": null
+  },
+  {
+   "id": "lieutenant",
+   "name": "Lieutenant",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 55
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": 1,
+     "choices": [
+      {
+       "id": "neo-volkite-pistol-master-crafted-power-sword-storm-shield",
+       "name": "Neo-volkite pistol, Master-crafted Power Sword & Storm Shield",
+       "pts": 0
+      },
+      {
+       "id": "pistol-master-crafted-bolter-melee-weapon",
+       "name": "Pistol, Master-crafted Bolter & Melee Weapon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "lieutenant-in-phobos-armour",
+   "name": "Lieutenant in Phobos Armour",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 55
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "master-crafted-scoped-bolt-carbine",
+       "name": "Master-crafted Scoped Bolt Carbine",
+       "pts": 0
+      },
+      {
+       "id": "paired-combat-blades",
+       "name": "Paired Combat Blades",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "lieutenant-in-reiver-armour",
+   "name": "Lieutenant in Reiver Armour",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 55
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "combat-knife",
+       "name": "Combat Knife",
+       "pts": 0
+      },
+      {
+       "id": "master-crafted-special-issue-bolt-pistol",
+       "name": "Master-crafted Special Issue Bolt Pistol",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "lieutenant-with-combi-weapon",
+   "name": "Lieutenant with Combi-weapon",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 85
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "paired-combat-blades",
+       "name": "Paired Combat Blades",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "logan-grimnar",
+   "name": "Logan Grimnar",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 110
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "martial-agent",
+   "name": "Martial Agent [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 60
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "ministorum-priest",
+   "name": "Ministorum Priest",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 40
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": 1,
+     "choices": [
+      {
+       "id": "holy-pistol-and-power-weapon",
+       "name": "Holy Pistol and Power Weapon",
+       "pts": 0
+      },
+      {
+       "id": "zealot-s-vindictor",
+       "name": "Zealot's vindictor",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "murderfang",
+   "name": "Murderfang",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "IMPERIUM",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 150
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "navigator",
+   "name": "Navigator",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 60
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "force-orb-cane",
+       "name": "Force-orb cane",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "njal-stormcaller",
+   "name": "Njal Stormcaller",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "IMPERIUM",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 85
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "outrider-squad",
+   "name": "Outrider Squad",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM"
+   ],
+   "unitSizes": [
+    {
+     "models": 3,
+     "pts": 80
+    },
+    {
+     "models": 6,
+     "pts": 160
+    }
+   ],
+   "options": [
+    {
+     "id": "outriders",
+     "name": "Outriders",
+     "max": 6,
+     "choices": [
+      {
+       "id": "outrider",
+       "name": "Outrider",
+       "pts": 0
+      },
+      {
+       "id": "outrider-sergeant",
+       "name": "Outrider Sergeant",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "predator-annihilator",
+   "name": "Predator Annihilator",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 135
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "predator-twin-lascannon",
+       "name": "Predator Twin Lascannon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-sponson-weapons",
+     "name": "Wargear · Sponson Weapons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "2-lascannons",
+       "name": "2 Lascannons",
+       "pts": 0
+      },
+      {
+       "id": "2-heavy-bolters",
+       "name": "2 Heavy Bolters",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "predator-destructor",
+   "name": "Predator Destructor",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 140
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "predator-autocannon",
+       "name": "Predator Autocannon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-sponson-weapons",
+     "name": "Wargear · Sponson Weapons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "2-lascannons",
+       "name": "2 Lascannons",
+       "pts": 0
+      },
+      {
+       "id": "2-heavy-bolters",
+       "name": "2 Heavy Bolters",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "questoris-knight-magaera",
+   "name": "Questoris Knight Magaera",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 385
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "phased-plasma-fusil",
+       "name": "Phased plasma-fusil",
+       "pts": 0
+      },
+      {
+       "id": "lightning-cannon",
+       "name": "Lightning cannon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-reaper-chainsword",
+     "name": "Wargear · Reaper Chainsword",
+     "max": 1,
+     "choices": [
+      {
+       "id": "hekaton-siege-claw-and-twin-rad-cleanser",
+       "name": "Hekaton siege claw and twin rad cleanser",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "questoris-knight-styrix",
+   "name": "Questoris Knight Styrix",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 385
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "graviton-crusher",
+       "name": "Graviton crusher",
+       "pts": 0
+      },
+      {
+       "id": "volkite-chierovile",
+       "name": "Volkite chierovile",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-reaper-chainsword",
+     "name": "Wargear · Reaper Chainsword",
+     "max": 1,
+     "choices": [
+      {
+       "id": "hekaton-siege-claw-and-twin-rad-cleanser",
+       "name": "Hekaton siege claw and twin rad cleanser",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "ragnar-blackmane",
+   "name": "Ragnar Blackmane",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 100
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "razorback",
+   "name": "Razorback",
+   "legends": false,
+   "keywords": [
+    "DEDICATED TRANSPORT",
+    "IMPERIUM",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 95
+    }
+   ],
+   "options": [],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": 6
+  },
+  {
+   "id": "reaver-titan",
+   "name": "Reaver Titan",
+   "legends": false,
+   "keywords": [
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 2200
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "reaver-feet",
+       "name": "Reaver feet",
+       "pts": 0
+      },
+      {
+       "id": "reaver-apocalypse-launcher",
+       "name": "Reaver apocalypse launcher",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-weapons",
+     "name": "Wargear · Weapons",
+     "max": 2,
+     "choices": [
+      {
+       "id": "reaver-gatling-blaster",
+       "name": "Reaver gatling blaster",
+       "pts": 0
+      },
+      {
+       "id": "reaver-laser-blaster",
+       "name": "Reaver laser blaster",
+       "pts": 0
+      },
+      {
+       "id": "reaver-melta-cannon",
+       "name": "Reaver melta cannon",
+       "pts": 0
+      },
+      {
+       "id": "reaver-volcano-cannon",
+       "name": "Reaver volcano cannon",
+       "pts": 0
+      },
+      {
+       "id": "reaver-power-fist",
+       "name": "Reaver power fist",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "redemptor-dreadnought",
+   "name": "Redemptor Dreadnought",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 205
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "redemptor-fist",
+       "name": "Redemptor Fist",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-weapon-option-3",
+     "name": "Wargear · Weapon Option 3",
+     "max": 1,
+     "choices": [
+      {
+       "id": "twin-fragstorm-grenade-launcher",
+       "name": "Twin Fragstorm Grenade Launcher",
+       "pts": 0
+      },
+      {
+       "id": "twin-storm-bolter",
+       "name": "Twin Storm Bolter",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "reiver-squad",
+   "name": "Reiver Squad",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [
+    {
+     "id": "reivers",
+     "name": "Reivers",
+     "max": null,
+     "choices": [
+      {
+       "id": "reivers",
+       "name": "Reivers",
+       "pts": 0
+      },
+      {
+       "id": "reiver-sergeant",
+       "name": "Reiver Sergeant",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "repulsor",
+   "name": "Repulsor",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 180
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": 14
+  },
+  {
+   "id": "repulsor-executioner",
+   "name": "Repulsor Executioner",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 230
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "repulsor-executioner-defensive-array",
+       "name": "Repulsor Executioner Defensive Array",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-turret-weapon",
+     "name": "Wargear · Turret Weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "heavy-laser-destroyer",
+       "name": "Heavy Laser Destroyer",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": 7
+  },
+  {
+   "id": "rhino",
+   "name": "Rhino",
+   "legends": false,
+   "keywords": [
+    "DEDICATED TRANSPORT",
+    "IMPERIUM",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": 12
+  },
+  {
+   "id": "rogue-trader-entourage",
+   "name": "Rogue Trader Entourage",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "sanctifiers",
+   "name": "Sanctifiers",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 100
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "scout-squad",
+   "name": "Scout Squad",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 70
+    },
+    {
+     "models": 10,
+     "pts": 140
+    }
+   ],
+   "options": [
+    {
+     "id": "scouts",
+     "name": "Scouts",
+     "max": 10,
+     "choices": [
+      {
+       "id": "scouts-w-boltgun",
+       "name": "Scouts w/ Boltgun",
+       "pts": 0
+      },
+      {
+       "id": "scout-sergeant",
+       "name": "Scout Sergeant",
+       "pts": 0
+      },
+      {
+       "id": "scouts-w-astartes-shotgun",
+       "name": "Scouts w/ Astartes Shotgun",
+       "pts": 0
+      },
+      {
+       "id": "scouts-w-combat-knife",
+       "name": "Scouts w/ Combat Knife",
+       "pts": 0
+      },
+      {
+       "id": "scout-w-heavy-weapon",
+       "name": "Scout w/ Heavy Weapon",
+       "pts": 0
+      },
+      {
+       "id": "scout-w-scout-sniper-rifle",
+       "name": "Scout w/ Scout Sniper Rifle",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "searchlight",
+   "name": "Searchlight",
+   "legends": false,
+   "keywords": [],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 10
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "sentry-gun",
+   "name": "Sentry Gun",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 30
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "sisters-of-battle-immolator",
+   "name": "Sisters of Battle Immolator",
+   "legends": false,
+   "keywords": [
+    "DEDICATED TRANSPORT",
+    "IMPERIUM",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 100
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-turret-weapon",
+     "name": "Wargear · Turret weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "immolation-flamers",
+       "name": "Immolation flamers",
+       "pts": 0
+      },
+      {
+       "id": "twin-heavy-bolter",
+       "name": "Twin heavy bolter",
+       "pts": 0
+      },
+      {
+       "id": "twin-multi-melta",
+       "name": "Twin multi-melta",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": 6
+  },
+  {
+   "id": "sisters-of-battle-squad",
+   "name": "Sisters of Battle Squad",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 9,
+     "pts": 100
+    }
+   ],
+   "options": [
+    {
+     "id": "battle-sisters",
+     "name": "Battle Sisters",
+     "max": 9,
+     "choices": [
+      {
+       "id": "battle-sister",
+       "name": "Battle Sister",
+       "pts": 0
+      },
+      {
+       "id": "battle-sister-w-simulacrum-imperialis",
+       "name": "Battle Sister w/ Simulacrum Imperialis",
+       "pts": 0
+      },
+      {
+       "id": "battle-sister-w-special-or-heavy-weapon",
+       "name": "Battle Sister w/ Special or Heavy Weapon",
+       "pts": 0
+      },
+      {
+       "id": "battle-sister-w-special-weapon",
+       "name": "Battle Sister w/ Special Weapon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "sternguard-veteran-squad",
+   "name": "Sternguard Veteran Squad",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 100
+    },
+    {
+     "models": 10,
+     "pts": 200
+    }
+   ],
+   "options": [
+    {
+     "id": "sternguard-veterans",
+     "name": "Sternguard Veterans",
+     "max": 10,
+     "choices": [
+      {
+       "id": "sternguard-veteran-w-bolt-rifle",
+       "name": "Sternguard Veteran w/ Bolt Rifle",
+       "pts": 0
+      },
+      {
+       "id": "sternguard-veteran-sergeant",
+       "name": "Sternguard Veteran Sergeant",
+       "pts": 0
+      },
+      {
+       "id": "sternguard-veteran-w-special-weapon",
+       "name": "Sternguard Veteran w/ Special Weapon",
+       "pts": 0
+      },
+      {
+       "id": "sternguard-veteran-w-combi-weapon",
+       "name": "Sternguard Veteran w/ Combi-weapon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "storm-speeder-hailstrike",
+   "name": "Storm Speeder Hailstrike",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 115
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "storm-speeder-hammerstrike",
+   "name": "Storm Speeder Hammerstrike",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 125
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "hammerstrike-missile-launcher",
+       "name": "Hammerstrike Missile Launcher",
+       "pts": 0
+      },
+      {
+       "id": "krakstorm-grenade-launcher",
+       "name": "Krakstorm Grenade Launcher",
+       "pts": 0
+      },
+      {
+       "id": "melta-destroyer",
+       "name": "Melta Destroyer",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "storm-speeder-thunderstrike",
+   "name": "Storm Speeder Thunderstrike",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 135
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "stormfury-missiles",
+       "name": "Stormfury Missiles",
+       "pts": 0
+      },
+      {
+       "id": "thunderstrike-las-talon",
+       "name": "Thunderstrike Las-talon",
+       "pts": 0
+      },
+      {
+       "id": "twin-icarus-rocket-pod",
+       "name": "Twin Icarus Rocket Pod",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "stormhawk-interceptor",
+   "name": "Stormhawk Interceptor",
+   "legends": false,
+   "keywords": [
+    "AIRCRAFT",
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 155
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-weapon-option-1",
+     "name": "Wargear · Weapon Option 1",
+     "max": 1,
+     "choices": [
+      {
+       "id": "icarus-stormcannon",
+       "name": "Icarus Stormcannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "stormraven-gunship",
+   "name": "Stormraven Gunship",
+   "legends": false,
+   "keywords": [
+    "AIRCRAFT",
+    "IMPERIUM",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 280
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "2-hurricane-bolters",
+       "name": "2 Hurricane Bolters",
+       "pts": 0
+      },
+      {
+       "id": "stormstrike-missiles",
+       "name": "Stormstrike Missiles",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-weapon-option-1",
+     "name": "Wargear · Weapon Option 1",
+     "max": 1,
+     "choices": [
+      {
+       "id": "twin-heavy-plasma-cannon",
+       "name": "Twin Heavy Plasma Cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": 12
+  },
+  {
+   "id": "stormtalon-gunship",
+   "name": "Stormtalon Gunship",
+   "legends": false,
+   "keywords": [
+    "AIRCRAFT",
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 165
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-weapon-option",
+     "name": "Wargear · Weapon Option",
+     "max": 1,
+     "choices": [
+      {
+       "id": "skyhammer-missile-launcher",
+       "name": "Skyhammer Missile Launcher",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "subductor-squad",
+   "name": "Subductor Squad",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 85
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "suppressor-squad",
+   "name": "Suppressor Squad",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [
+    {
+     "id": "suppressors",
+     "name": "Suppressors",
+     "max": null,
+     "choices": [
+      {
+       "id": "suppressor-sergeant",
+       "name": "Suppressor Sergeant",
+       "pts": 0
+      },
+      {
+       "id": "suppressor",
+       "name": "Suppressor",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "tactical-squad",
+   "name": "Tactical Squad",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 10,
+     "pts": 140
+    }
+   ],
+   "options": [
+    {
+     "id": "tactical-marines",
+     "name": "Tactical Marines",
+     "max": 10,
+     "choices": [
+      {
+       "id": "tactical-marine",
+       "name": "Tactical Marine",
+       "pts": 0
+      },
+      {
+       "id": "tactical-marine-sergeant",
+       "name": "Tactical Marine Sergeant",
+       "pts": 0
+      },
+      {
+       "id": "tactical-marine-w-special-weapon",
+       "name": "Tactical Marine w/Special Weapon",
+       "pts": 0
+      },
+      {
+       "id": "tactical-marine-w-heavy-or-special-weapon",
+       "name": "Tactical Marine w/Heavy or Special Weapon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "techmarine",
+   "name": "Techmarine",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 55
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "forge-bolter",
+       "name": "Forge Bolter",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "terminator-assault-squad",
+   "name": "Terminator Assault Squad",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 180
+    },
+    {
+     "models": 10,
+     "pts": 360
+    }
+   ],
+   "options": [
+    {
+     "id": "assault-terminators",
+     "name": "Assault Terminators",
+     "max": 10,
+     "choices": [
+      {
+       "id": "assault-terminator-w-thunder-hammer-storm-shield",
+       "name": "Assault Terminator w/ Thunder Hammer & Storm Shield",
+       "pts": 0
+      },
+      {
+       "id": "assault-terminator-w-twin-lightning-claws",
+       "name": "Assault Terminator w/ Twin Lightning Claws",
+       "pts": 0
+      },
+      {
+       "id": "assault-terminator-sergeant",
+       "name": "Assault Terminator Sergeant",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "terminator-squad",
+   "name": "Terminator Squad",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 170
+    },
+    {
+     "models": 10,
+     "pts": 340
+    }
+   ],
+   "options": [
+    {
+     "id": "terminators",
+     "name": "Terminators",
+     "max": 10,
+     "choices": [
+      {
+       "id": "terminator-sergeant",
+       "name": "Terminator Sergeant",
+       "pts": 0
+      },
+      {
+       "id": "terminator-w-power-fist",
+       "name": "Terminator w/ Power Fist",
+       "pts": 0
+      },
+      {
+       "id": "terminator-w-chain-fist",
+       "name": "Terminator w/ Chain Fist",
+       "pts": 0
+      },
+      {
+       "id": "terminator-w-heavy-weapon",
+       "name": "Terminator w/ Heavy Weapon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "thunderhawk-gunship",
+   "name": "Thunderhawk Gunship",
+   "legends": false,
+   "keywords": [
+    "AIRCRAFT",
+    "IMPERIUM",
+    "TITANIC",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 840
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-bombs-or-missiles",
+     "name": "Wargear · Bombs or missiles",
+     "max": 1,
+     "choices": [
+      {
+       "id": "thunderhawk-cluster-bombs",
+       "name": "Thunderhawk cluster bombs",
+       "pts": 0
+      },
+      {
+       "id": "hellstrike-missile-battery",
+       "name": "Hellstrike missile battery",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-main-weapon",
+     "name": "Wargear · Main weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "thunderhawk-heavy-cannon",
+       "name": "Thunderhawk heavy cannon",
+       "pts": 0
+      },
+      {
+       "id": "turbo-laser-destructor",
+       "name": "Turbo-laser destructor",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": 30
+  },
+  {
+   "id": "thunderwolf-cavalry",
+   "name": "Thunderwolf Cavalry",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM"
+   ],
+   "unitSizes": [
+    {
+     "models": 3,
+     "pts": 115
+    },
+    {
+     "models": 6,
+     "pts": 230
+    }
+   ],
+   "options": [
+    {
+     "id": "thunderwolf-cavalry",
+     "name": "Thunderwolf Cavalry",
+     "max": 6,
+     "choices": [
+      {
+       "id": "thunderwolf-w-plasma-pistol",
+       "name": "Thunderwolf w/ plasma pistol",
+       "pts": 0
+      },
+      {
+       "id": "thunderwolf-w-boltgun",
+       "name": "Thunderwolf w/ boltgun",
+       "pts": 0
+      },
+      {
+       "id": "thunderwolf-w-storm-shield",
+       "name": "Thunderwolf w/ storm shield",
+       "pts": 0
+      },
+      {
+       "id": "thunderwolf-w-bolt-pistol",
+       "name": "Thunderwolf w/ bolt pistol",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "ulrik-the-slayer",
+   "name": "Ulrik the Slayer",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "vanguard-veteran-squad-with-jump-packs",
+   "name": "Vanguard Veteran Squad with Jump Packs",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 100
+    },
+    {
+     "models": 10,
+     "pts": 200
+    }
+   ],
+   "options": [
+    {
+     "id": "vanguard-veterans-with-jump-packs",
+     "name": "Vanguard Veterans with Jump Packs",
+     "max": 10,
+     "choices": [
+      {
+       "id": "vanguard-veterans-with-jump-packs",
+       "name": "Vanguard Veterans with Jump Packs",
+       "pts": 0
+      },
+      {
+       "id": "vanguard-veteran-sergeant-with-jump-pack",
+       "name": "Vanguard Veteran Sergeant with Jump Pack",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "venerable-battle-brother",
+   "name": "Venerable Battle-Brother [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 160
+    }
+   ],
+   "options": [
+    {
+     "id": "weapons-weapon-arm-1",
+     "name": "Weapons · Weapon Arm 1",
+     "max": 1,
+     "choices": [
+      {
+       "id": "ballistus-missile-launcher-and-armoured-feet",
+       "name": "Ballistus Missile Launcher and Armoured Feet",
+       "pts": 0
+      },
+      {
+       "id": "brutalis-fists-brutalis-bolt-rifles",
+       "name": "Brutalis Fists & Brutalis Bolt Rifles",
+       "pts": 0
+      },
+      {
+       "id": "brutalis-talons",
+       "name": "Brutalis Talons",
+       "pts": 0
+      },
+      {
+       "id": "onslaught-gatling-cannon-and-redemptor-fist",
+       "name": "Onslaught Gatling Cannon and Redemptor Fist",
+       "pts": 0
+      },
+      {
+       "id": "heavy-flamer-and-redemptor-fist",
+       "name": "Heavy Flamer and Redemptor Fist",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "weapons-weapon-arm-2",
+     "name": "Weapons · Weapon Arm 2",
+     "max": 1,
+     "choices": [
+      {
+       "id": "ballistus-lascannon",
+       "name": "Ballistus Lascannon",
+       "pts": 10
+      },
+      {
+       "id": "heavy-onslaught-gatling-cannon",
+       "name": "Heavy Onslaught Gatling Cannon",
+       "pts": 10
+      },
+      {
+       "id": "macro-plasma-incinerator",
+       "name": "Macro Plasma Incinerator",
+       "pts": 10
+      }
+     ]
+    },
+    {
+     "id": "weapons-aux-weapons",
+     "name": "Weapons · Aux Weapons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "twin-fragstorm-grenade-launcher",
+       "name": "Twin Fragstorm Grenade Launcher",
+       "pts": 0
+      },
+      {
+       "id": "twin-storm-bolter",
+       "name": "Twin storm bolter",
+       "pts": 0
+      },
+      {
+       "id": "twin-heavy-bolter-and-twin-icarus-ironhail-heavy-stubber",
+       "name": "Twin Heavy Bolter and Twin Icarus Ironhail Heavy Stubber",
+       "pts": 0
+      },
+      {
+       "id": "twin-multi-melta-and-twin-icarus-ironhail-heavy-stubber",
+       "name": "Twin Multi-Melta and Twin Icarus Ironhail Heavy Stubber",
+       "pts": 10
+      }
+     ]
+    },
+    {
+     "id": "weapons-icarus-rocket-pod",
+     "name": "Weapons · Icarus Rocket Pod",
+     "max": null,
+     "choices": [
+      {
+       "id": "icarus-rocket-pod",
+       "name": "Icarus rocket pod",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "venerable-dreadnought",
+   "name": "Venerable Dreadnought",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 130
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "fenrisian-great-axe-and-blizzard-shield",
+       "name": "Fenrisian great axe and blizzard shield",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-replace-assault-cannon",
+     "name": "Wargear · Replace assault cannon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "helfrost-cannon",
+       "name": "Helfrost cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "vigilant-squad",
+   "name": "Vigilant Squad",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 9,
+     "pts": 85
+    }
+   ],
+   "options": [
+    {
+     "id": "9-vigilants",
+     "name": "9 Vigilants",
+     "max": 9,
+     "choices": [
+      {
+       "id": "vigilant-w-shotgun",
+       "name": "Vigilant w/ shotgun",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "9-vigilants-up-to-2",
+     "name": "9 Vigilants · Up to 2:",
+     "max": 2,
+     "choices": [
+      {
+       "id": "vigilant-w-grenade-launcher",
+       "name": "Vigilant w/ grenade launcher",
+       "pts": 0
+      },
+      {
+       "id": "vigilant-w-executioner-shotgun",
+       "name": "Vigilant w/ executioner shotgun",
+       "pts": 0
+      },
+      {
+       "id": "vigilant-w-heavy-stubber",
+       "name": "Vigilant w/ heavy stubber",
+       "pts": 0
+      },
+      {
+       "id": "vigilant-w-webber",
+       "name": "Vigilant w/ webber",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "vindicare-assassin",
+   "name": "Vindicare Assassin",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 110
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "vindicator",
+   "name": "Vindicator",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 185
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "demolisher-cannon",
+       "name": "Demolisher Cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "voidsmen-at-arms",
+   "name": "Voidsmen-at-Arms",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 50
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "warbringer-nemesis-titan",
+   "name": "Warbringer Nemesis Titan",
+   "legends": false,
+   "keywords": [
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 2600
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "anvillus-defence-battery",
+       "name": "Anvillus defence battery",
+       "pts": 0
+      },
+      {
+       "id": "ardex-defensor-mauler",
+       "name": "Ardex-defensor mauler",
+       "pts": 0
+      },
+      {
+       "id": "nemesis-feet",
+       "name": "Nemesis feet",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-nemesis-weapon",
+     "name": "Wargear · Nemesis weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "nemesis-quake-cannon",
+       "name": "Nemesis quake cannon",
+       "pts": 0
+      },
+      {
+       "id": "nemesis-volcano-cannon",
+       "name": "Nemesis volcano cannon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-weapons",
+     "name": "Wargear · Weapons",
+     "max": 2,
+     "choices": [
+      {
+       "id": "reaver-gatling-blaster",
+       "name": "Reaver gatling blaster",
+       "pts": 0
+      },
+      {
+       "id": "reaver-laser-blaster",
+       "name": "Reaver laser blaster",
+       "pts": 0
+      },
+      {
+       "id": "reaver-melta-cannon",
+       "name": "Reaver melta cannon",
+       "pts": 0
+      },
+      {
+       "id": "reaver-volcano-cannon",
+       "name": "Reaver volcano cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "warhound-titan",
+   "name": "Warhound Titan",
+   "legends": false,
+   "keywords": [
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 1100
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "warhound-feet",
+       "name": "Warhound feet",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-weapons",
+     "name": "Wargear · Weapons",
+     "max": 2,
+     "choices": [
+      {
+       "id": "warhound-vulcan-mega-bolter",
+       "name": "Warhound vulcan mega-bolter",
+       "pts": 0
+      },
+      {
+       "id": "warhound-inferno-gun",
+       "name": "Warhound inferno gun",
+       "pts": 0
+      },
+      {
+       "id": "warhound-plasma-blastgun",
+       "name": "Warhound plasma blastgun",
+       "pts": 0
+      },
+      {
+       "id": "warhound-turbo-laser-destructor",
+       "name": "Warhound turbo-laser destructor",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "warlord-titan",
+   "name": "Warlord Titan",
+   "legends": false,
+   "keywords": [
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 3500
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "ardex-defensor-lascannon",
+       "name": "Ardex-defensor lascannon",
+       "pts": 0
+      },
+      {
+       "id": "ardex-defensor-mauler",
+       "name": "Ardex-defensor mauler",
+       "pts": 0
+      },
+      {
+       "id": "warlord-feet",
+       "name": "Warlord feet",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-main-weapons",
+     "name": "Wargear · Main weapons",
+     "max": 2,
+     "choices": [
+      {
+       "id": "arioch-power-claw",
+       "name": "Arioch power claw",
+       "pts": 0
+      },
+      {
+       "id": "belicosa-volcano-cannon",
+       "name": "Belicosa volcano cannon",
+       "pts": 0
+      },
+      {
+       "id": "macro-gatling-blaster",
+       "name": "Macro gatling blaster",
+       "pts": 0
+      },
+      {
+       "id": "mori-quake-cannon",
+       "name": "Mori quake cannon",
+       "pts": 0
+      },
+      {
+       "id": "sunfury-plasma-annihilator",
+       "name": "Sunfury plasma annihilator",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-carapace-weapons",
+     "name": "Wargear · Carapace weapons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "two-apocalypse-launchers",
+       "name": "Two apocalypse launchers",
+       "pts": 0
+      },
+      {
+       "id": "two-laser-blasters",
+       "name": "Two laser blasters",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "watch-captain-artemis",
+   "name": "Watch Captain Artemis",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 65
+    }
+   ],
+   "options": [],
+   "rosterMax": 1,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "watch-master",
+   "name": "Watch Master",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 95
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "vigil-spear",
+       "name": "Vigil spear",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "whirlwind",
+   "name": "Whirlwind",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 190
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "whirlwind-vengeance-launcher",
+       "name": "Whirlwind Vengeance Launcher",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "wolf-guard-battle-leader",
+   "name": "Wolf Guard Battle Leader",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 65
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-replace-master-crafted-power-weapon",
+     "name": "Wargear · Replace Master-crafted Power Weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "master-crafted-power-weapon",
+       "name": "Master-crafted Power Weapon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-replace-storm-shield",
+     "name": "Wargear · Replace Storm Shield",
+     "max": 1,
+     "choices": [
+      {
+       "id": "storm-shield",
+       "name": "Storm Shield",
+       "pts": 0
+      },
+      {
+       "id": "master-crafted-bolt-carbine",
+       "name": "Master-crafted Bolt Carbine",
+       "pts": 0
+      },
+      {
+       "id": "master-crafted-heavy-bolt-pistol",
+       "name": "Master-crafted Heavy Bolt Pistol",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "wolf-guard-headtakers",
+   "name": "Wolf Guard Headtakers",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 85
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "wolf-guard-terminators",
+   "name": "Wolf Guard Terminators",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 4,
+     "pts": 170
+    },
+    {
+     "models": 9,
+     "pts": 340
+    }
+   ],
+   "options": [
+    {
+     "id": "4-9-terminators",
+     "name": "4-9 Terminators",
+     "max": 9,
+     "choices": [
+      {
+       "id": "wolf-guard-terminator-w-storm-bolter",
+       "name": "Wolf Guard Terminator w/ storm bolter",
+       "pts": 0
+      },
+      {
+       "id": "wolf-guard-terminator-w-assault-cannon",
+       "name": "Wolf Guard Terminator w/ Assault Cannon",
+       "pts": 0
+      },
+      {
+       "id": "wolf-guard-terminator-w-storm-shield",
+       "name": "Wolf Guard Terminator w/ storm shield",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "wolf-priest",
+   "name": "Wolf Priest",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "wolf-scouts",
+   "name": "Wolf Scouts",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 105
+    }
+   ],
+   "options": [
+    {
+     "id": "wolf-scouts",
+     "name": "Wolf Scouts",
+     "max": 1,
+     "choices": [
+      {
+       "id": "12-models",
+       "name": "12 Models",
+       "pts": 0
+      },
+      {
+       "id": "6-models",
+       "name": "6 Models",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "wulfen",
+   "name": "Wulfen",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 85
+    },
+    {
+     "models": 10,
+     "pts": 170
+    }
+   ],
+   "options": [
+    {
+     "id": "wulfen",
+     "name": "Wulfen",
+     "max": 10,
+     "choices": [
+      {
+       "id": "wulfen-w-auto-launcher",
+       "name": "Wulfen w/Auto-launcher",
+       "pts": 0
+      },
+      {
+       "id": "wulfen-w-death-totem",
+       "name": "Wulfen w/Death Totem",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "wulfen-dreadnought",
+   "name": "Wulfen Dreadnought",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 135
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": 2,
+     "choices": [
+      {
+       "id": "great-wolf-claw",
+       "name": "Great wolf claw",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "wulfen-with-storm-shields",
+   "name": "Wulfen with Storm Shields",
+   "legends": false,
+   "keywords": [
+    "IMPERIUM",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 100
+    },
+    {
+     "models": 10,
+     "pts": 200
+    }
+   ],
+   "options": [
+    {
+     "id": "wulfen",
+     "name": "Wulfen",
+     "max": 10,
+     "choices": [
+      {
+       "id": "wulfen-w-death-totem",
+       "name": "Wulfen w/Death Totem",
+       "pts": 0
+      },
+      {
+       "id": "wulfen-w-auto-launcher",
+       "name": "Wulfen w/Auto-launcher",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  }
+ ]
+}

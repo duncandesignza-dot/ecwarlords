@@ -44,6 +44,139 @@ NON_DATASHEET_ENTRIES = {
     'army of renown', 'battle size', 'show/hide options',
 }
 
+# Filename fragments that mark a .cat as a shared-data support file rather
+# than a directly playable faction. These must never be offered as a
+# top-level --faction target on their own: doing so is exactly the bug that
+# made "Tyranids" parse twice under the same slug (Tyranids.cat AND
+# "Library - Tyranids.cat" both matched the fuzzy filename search) and made
+# "Chaos Knights" silently succeed on the wrong file (the Library, not the
+# actual playable catalogue). They're still indexed normally so they can be
+# resolved as *merge targets* below.
+SUPPORT_FILE_MARKERS = ('library', 'unaligned forces')
+
+
+def is_support_file(filename):
+    lower = filename.lower()
+    return any(m in lower for m in SUPPORT_FILE_MARKERS)
+
+
+_catalogue_index_cache = None
+
+
+def build_catalogue_index(cache_dir):
+    """
+    Maps BSData's internal catalogue id (a GUID) -> filename, across every
+    .cat file. catalogueLinks reference each other by this id, not by
+    filename, so this index is what makes cross-file resolution possible.
+    """
+    global _catalogue_index_cache
+    if _catalogue_index_cache is not None:
+        return _catalogue_index_cache
+    index = {}
+    for fn in os.listdir(cache_dir):
+        if not fn.endswith('.cat'):
+            continue
+        try:
+            root = ET.parse(os.path.join(cache_dir, fn)).getroot()
+        except ET.ParseError:
+            continue
+        cid = root.get('id')
+        if cid:
+            index[cid] = fn
+    _catalogue_index_cache = index
+    return index
+
+
+def merge_catalogue(path, cache_dir, index, visited=None, depth=0, import_units=True):
+    """
+    Parses one .cat file and recursively folds in every catalogue it links
+    to with importRootEntries="true" — that flag is BSData's own signal that
+    the linked file's top-level datasheets should be imported directly into
+    this faction, which is exactly the "Chaos Knights imports its Library"
+    and "Space Wolves imports Space Marines" relationship.
+
+    A link WITHOUT importRootEntries="true" (e.g. Chaos Knights -> Chaos
+    Space Marines) is a looser association — allied detachment rules, not
+    "you now have these units" — and is deliberately NOT merged.
+
+    Returns a dict of merged shared-entry lookups plus the root file's own
+    metadata (name, root entryLinks, etc. come from the TOP-level call only;
+    recursive calls contribute their entries into the accumulators).
+    """
+    if visited is None:
+        visited = set()
+    if depth > 4:
+        return None
+
+    root = ET.parse(path).getroot()
+    cid = root.get('id')
+    if cid in visited:
+        return None
+    visited.add(cid)
+
+    shared_by_id = {}
+    entry_links = []       # (name, targetId) — root-level "takeable" datasheets
+    group_sources = []     # every sharedSelectionEntryGroups root we can search
+
+    def absorb(r):
+        se = r.find('bs:sharedSelectionEntries', NS)
+        if se is not None:
+            for s in se:
+                shared_by_id.setdefault(s.get('id'), s)
+        sg = r.find('bs:sharedSelectionEntryGroups', NS)
+        if sg is not None:
+            group_sources.append(sg)
+        el = r.find('bs:entryLinks', NS)
+        if el is not None:
+            for link in el:
+                entry_links.append(link)
+
+    absorb(root)
+
+    links = root.find('bs:catalogueLinks', NS)
+    if links is not None:
+        for link in links:
+            target_file = index.get(link.get('targetId'))
+            if not target_file:
+                continue
+            # IMPORTANT: this must be a new local name. It must NOT reuse
+            # `import_units` — that's this function's own parameter, and
+            # overwriting it here corrupted the value returned below for
+            # every catalogue that itself had further links (which is most
+            # of them). That bug caused a full Chaos Space Marines codex —
+            # Plague Marines, Rubric Marines, Noise Marines, all of it — to
+            # leak into Chaos Knights, because Chaos Knights -> Chaos Space
+            # Marines is correctly unflagged, but Chaos Space Marines' own
+            # internal links happened to end on one that WAS flagged true,
+            # and that last-seen value was overwriting the correct False
+            # right before it got returned and checked by the caller.
+            child_imports_units = link.get('importRootEntries') == 'true'
+            sub = merge_catalogue(os.path.join(cache_dir, target_file),
+                                   cache_dir, index, visited, depth + 1,
+                                   import_units=child_imports_units)
+            if not sub:
+                continue
+            # Shared entry pools (individual weapons, wargear, and — as with
+            # Tyranids — a Detachment entry that itself links to a shared
+            # entry defined in a Library it doesn't "importRootEntries" from)
+            # are needed regardless of whether that catalogue contributes
+            # playable units. Only the root-datasheet list is gated, and it's
+            # gated on the flag THIS link declared, not on anything the
+            # child catalogue's own links resolved to.
+            shared_by_id.update(sub['shared_by_id'])
+            group_sources.extend(sub['group_sources'])
+            if child_imports_units:
+                entry_links.extend(sub['entry_links'])
+
+    return {
+        'root': root,
+        'shared_by_id': shared_by_id,
+        'group_sources': group_sources,
+        'entry_links': entry_links,
+        'import_units': import_units,
+    }
+
+
 def tg(el):
     """Local tag name without the namespace."""
     return el.tag.split('}')[1]
@@ -237,6 +370,55 @@ def roster_max(entry):
     return None
 
 
+def leads_units(entry):
+    """
+    Which units a CHARACTER may attach to.
+
+    BSData only carries this inside the Leader ability's prose. We extract the
+    bulleted unit names into a structured list and discard the sentence — the
+    relationship is what validation needs, and per ARMY-BUILDER-PLAN.md §3 we
+    deliberately don't store rules text.
+    """
+    for p in entry.iter():
+        if not p.tag.endswith('profile') or p.get('name') != 'Leader':
+            continue
+        for ch in p.iter():
+            if not ch.tag.endswith('characteristic'):
+                continue
+            txt = ch.text or ''
+            if 'following units' not in txt:
+                continue
+            names = re.findall(r'^\s*[-•]\s*(.+?)\s*$', txt, re.M)
+            out = []
+            for n in names:
+                n = re.sub(r'[*^]+', '', n).strip()
+                n = re.sub(r'\s*\(.*?\)\s*$', '', n)
+                if n:
+                    out.append(slug(n))
+            if out:
+                return sorted(set(out))
+    return []
+
+
+def transport_capacity(entry):
+    """
+    Base transport capacity as an integer, parsed from the ability text.
+    We take the first figure quoted; conditional reductions (e.g. "12 if
+    equipped with a killkannon") are noted in the plan as a Phase 5+ nicety.
+    """
+    for p in entry.iter():
+        if not p.tag.endswith('profile'):
+            continue
+        for ch in p.iter():
+            if not ch.tag.endswith('characteristic'):
+                continue
+            txt = ch.text or ''
+            m = re.search(r'transport capacity of (\d+)', txt)
+            if m:
+                return int(m.group(1))
+    return None
+
+
 def option_groups(entry):
     """
     Loadout options for a datasheet, preserved as groups so the UI can render
@@ -303,102 +485,129 @@ def option_groups(entry):
     return out
 
 
-def parse_enhancements(root):
-    """Enhancements, grouped per detachment."""
+def parse_enhancements(group_sources):
+    """Enhancements, grouped per detachment. Searches every merged
+    sharedSelectionEntryGroups root, since a faction's Enhancements often
+    live in an imported Library file rather than the faction's own .cat."""
     by_detachment = {}
-    sgs = root.find('bs:sharedSelectionEntryGroups', NS)
-    if sgs is None:
-        return by_detachment
-    for sg in sgs:
-        if sg.get('name') != 'Enhancements':
-            continue
-        subs = sg.find('bs:selectionEntryGroups', NS)
-        if subs is None:
-            continue
-        for sub in subs:
-            det_name = re.sub(r'\s+Enhancements$', '', sub.get('name') or '')
-            items = []
-            ses = sub.find('bs:selectionEntries', NS)
-            if ses is not None:
-                for s in ses:
-                    p, _ = pts_of(s)
-                    items.append({
-                        'id': slug(s.get('name')),
-                        'name': s.get('name'),
-                        'pts': p,
-                    })
-            if items:
-                by_detachment[slug(det_name)] = {
-                    'name': det_name,
-                    'enhancements': items,
-                }
+    for sgs in group_sources:
+        for sg in sgs:
+            if sg.get('name') != 'Enhancements':
+                continue
+            subs = sg.find('bs:selectionEntryGroups', NS)
+            if subs is None:
+                continue
+            for sub in subs:
+                det_name = re.sub(r'\s+Enhancements$', '', sub.get('name') or '')
+                items = []
+                ses = sub.find('bs:selectionEntries', NS)
+                if ses is not None:
+                    for s in ses:
+                        p, _ = pts_of(s)
+                        items.append({
+                            'id': slug(s.get('name')),
+                            'name': s.get('name'),
+                            'pts': p,
+                        })
+                if items:
+                    key = slug(det_name)
+                    if key in by_detachment:
+                        by_detachment[key]['enhancements'].extend(items)
+                    else:
+                        by_detachment[key] = {'name': det_name, 'enhancements': items}
     return by_detachment
 
 
-def parse_detachments(root):
+def parse_detachments(group_sources, shared_by_id):
+    """
+    Detachment choices show up in BSData two different ways:
+
+      Pattern A ("Orks"):       a "Detachment" group sits directly in
+                                sharedSelectionEntryGroups.
+      Pattern B ("Death Guard"): a shared selectionEntry named "Detachment"
+                                (reached via a root entryLink) contains ONE
+                                nested selectionEntryGroup, itself named
+                                "Detachment", holding the real choices.
+
+    Both are searched; results are de-duplicated by slug.
+    """
     out = []
-    sgs = root.find('bs:sharedSelectionEntryGroups', NS)
-    if sgs is None:
-        return out
-    for sg in sgs:
-        if sg.get('name') != 'Detachment':
-            continue
+    seen = set()
+
+    def take(sg):
         ses = sg.find('bs:selectionEntries', NS)
         if ses is None:
-            continue
+            return
         for s in ses:
-            out.append({'id': slug(s.get('name')), 'name': s.get('name')})
+            sid = slug(s.get('name'))
+            if sid in seen:
+                continue
+            seen.add(sid)
+            out.append({'id': sid, 'name': s.get('name')})
+
+    # Pattern A
+    for sgs in group_sources:
+        for sg in sgs:
+            if sg.get('name') == 'Detachment':
+                take(sg)
+
+    # Pattern B
+    for entry in shared_by_id.values():
+        if (entry.get('name') or '') != 'Detachment':
+            continue
+        nested = entry.find('bs:selectionEntryGroups', NS)
+        if nested is None:
+            continue
+        for sg in nested:
+            if sg.get('name') == 'Detachment':
+                take(sg)
+
     return out
 
 
-def parse_catalogue(path, include_legends=False):
-    root = ET.parse(path).getroot()
+def parse_catalogue(path, cache_dir, index, include_legends=False):
+    merged = merge_catalogue(path, cache_dir, index)
+    root = merged['root']
     cat_name = root.get('name') or os.path.basename(path)
     faction_name = cat_name.split(' - ')[-1]
 
-    shared = root.find('bs:sharedSelectionEntries', NS)
-    by_id = {s.get('id'): s for s in shared} if shared is not None else {}
+    by_id = merged['shared_by_id']
 
-    # entryLinks at catalogue level are the top-level "takeable" datasheets
     datasheets = []
-    links = root.find('bs:entryLinks', NS)
     seen = set()
-    if links is not None:
-        for link in links:
-            target = by_id.get(link.get('targetId'))
-            if target is None:
-                continue
-            name = link.get('name') or target.get('name') or ''
-            if not include_legends and '[Legends]' in name:
-                continue
-            # Structural entries that aren't datasheets
-            if name.strip().lower() in NON_DATASHEET_ENTRIES:
-                continue
-            sid = slug(name)
-            if not sid or sid in seen:
-                continue
-            seen.add(sid)
+    for link in merged['entry_links']:
+        target = by_id.get(link.get('targetId'))
+        if target is None:
+            continue
+        name = link.get('name') or target.get('name') or ''
+        if not include_legends and '[Legends]' in name:
+            continue
+        if name.strip().lower() in NON_DATASHEET_ENTRIES:
+            continue
+        sid = slug(name)
+        if not sid or sid in seen:
+            continue
+        seen.add(sid)
 
-            base, pts_type = pts_of(target)
-            sizes = size_brackets(target, pts_type)
-            # A real datasheet always costs something; anything still at zero
-            # is a parse failure or a non-unit entry, so leave it out rather
-            # than silently offering a free unit in the builder.
-            if not sizes or sizes[0]['pts'] <= 0:
-                continue
+        _, pts_type = pts_of(target)
+        sizes = size_brackets(target, pts_type)
+        if not sizes or sizes[0]['pts'] <= 0:
+            continue
 
-            datasheets.append({
-                'id': sid,
-                'name': re.sub(r'\s*\[Legends\]', '', name).strip(),
-                'legends': '[Legends]' in name,
-                'keywords': keywords_of(target),
-                'unitSizes': sizes,
-                'options': option_groups(target),
-                'rosterMax': roster_max(target),
-            })
+        datasheets.append({
+            'id': sid,
+            'name': re.sub(r'\s*\[Legends\]', '', name).strip(),
+            'legends': '[Legends]' in name,
+            'keywords': keywords_of(target),
+            'unitSizes': sizes,
+            'options': option_groups(target),
+            'rosterMax': roster_max(target),
+            'leads': leads_units(target),
+            'transport': transport_capacity(target),
+        })
 
-    detachments = parse_detachments(root)
-    enh_map = parse_enhancements(root)
+    detachments = parse_detachments(merged['group_sources'], by_id)
+    enh_map = parse_enhancements(merged['group_sources'])
     for d in detachments:
         match = enh_map.get(d['id'])
         d['enhancements'] = match['enhancements'] if match else []
@@ -425,34 +634,65 @@ def main():
         fetch_bsdata()
 
     os.makedirs(OUT, exist_ok=True)
+    index = build_catalogue_index(CACHE)
 
     if args.all:
         targets = [f for f in os.listdir(CACHE)
-                   if f.endswith('.cat') and 'Library' not in f]
+                   if f.endswith('.cat') and not is_support_file(f)]
     elif args.faction:
         targets = []
         for f in args.faction:
             cands = [c for c in os.listdir(CACHE)
-                     if c.endswith('.cat') and f.lower() in c.lower()]
+                     if c.endswith('.cat') and f.lower() in c.lower()
+                     and not is_support_file(c)]
             if not cands:
-                print(f'  ! no catalogue matching "{f}"')
+                # Fall back to matching even a support file, but warn loudly —
+                # this is what silently produced the Chaos Knights Library
+                # bug in Phase 1, so it must never happen quietly again.
+                fallback = [c for c in os.listdir(CACHE)
+                            if c.endswith('.cat') and f.lower() in c.lower()]
+                if fallback:
+                    print(f'  ! "{f}" only matches support/library files '
+                          f'{fallback} — these are merge sources, not '
+                          f'playable factions, and will be skipped.')
+                else:
+                    print(f'  ! no catalogue matching "{f}"')
+                continue
+            if len(cands) > 1:
+                print(f'  ! "{f}" matched multiple files {cands} — '
+                      f'parsing all of them as SEPARATE factions. If that\'s '
+                      f'not what you want, pass a more specific name.')
             targets.extend(cands)
     else:
         targets = ['Orks.cat']
 
-    index = []
+    seen_slugs = {}   # faction slug -> source filename, to catch collisions
+    written = []
     for t in sorted(set(targets)):
         path = os.path.join(CACHE, t)
         try:
-            data = parse_catalogue(path, include_legends=args.legends)
+            data = parse_catalogue(path, CACHE, index, include_legends=args.legends)
         except Exception as e:
             print(f'  ! failed {t}: {e}')
             continue
+
+        if not data['datasheets']:
+            print(f'  ! {t} produced 0 datasheets — skipping (check for a '
+                  f'missing importRootEntries link)')
+            continue
+
+        if data['id'] in seen_slugs:
+            print(f'  ! "{data["id"]}" from {t} collides with '
+                  f'{seen_slugs[data["id"]]} — KEEPING THE FIRST, skipping {t}. '
+                  f'Rename one of these catalogues or narrow your --faction filter.')
+            continue
+        seen_slugs[data['id']] = t
+
         fname = f"{data['id']}.json"
         with open(os.path.join(OUT, fname), 'w', encoding='utf-8') as fh:
             json.dump(data, fh, indent=1, ensure_ascii=False)
-        index.append({'id': data['id'], 'name': data['name'], 'file': fname,
-                      'datasheets': len(data['datasheets'])})
+        written.append({'id': data['id'], 'name': data['name'], 'file': fname,
+                        'datasheets': len(data['datasheets'])})
         print(f"  ✓ {data['name']}: {len(data['datasheets'])} datasheets, "
               f"{len(data['detachments'])} detachments → {fname}")
 
@@ -465,7 +705,7 @@ def main():
         except Exception:
             existing = []
     merged = {f['id']: f for f in existing}
-    for f in index:
+    for f in written:
         merged[f['id']] = f
     with open(idx_path, 'w', encoding='utf-8') as fh:
         json.dump({

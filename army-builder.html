@@ -6,7 +6,7 @@
 <title>EC Warlords — Army List Builder</title>
 <meta name="description" content="Warhammer 40,000 army list builder and points calculator from the Eastern Cape Warlords.">
 <link rel="icon" href="assets/logo.webp">
-<link rel="stylesheet" href="style.css?v=202609210608">
+<link rel="stylesheet" href="style.css?v=202609211036">
 </head>
 <body data-page="tools">
 
@@ -39,7 +39,7 @@
     <div class="wrap">
       <div class="eyebrow"><a href="tools" style="color:inherit;">TOOLS</a> · ARMY BUILDER</div>
       <h1>Army Builder</h1>
-      <p>Pick units, set mob sizes, watch the points tally live. Orks first — more factions as the data pipeline is extended.</p>
+      <p>Pick units, set mob sizes, watch the points tally live. 34 factions supported, built on a BSData pipeline that stays current with dataslates.</p>
     </div>
   </div>
 
@@ -98,15 +98,51 @@
 
       </div>
 
-      <div style="display:flex;gap:12px;margin-top:22px;flex-wrap:wrap;">
+      <div class="ab-actions">
+        <button class="btn btn-primary" id="ab-print-btn">Print list</button>
+        <button class="btn btn-ghost" id="ab-share-btn">Share code</button>
+        <button class="btn btn-ghost" id="ab-import-btn">Import</button>
         <button class="btn btn-ghost" id="ab-clear">Clear list</button>
-        <span style="color:var(--bone-dim);font-size:.82rem;align-self:center;" id="ab-datanote"></span>
       </div>
+
+      <div class="ab-saved">
+        <div class="fld">
+          <label for="ab-listname">List name</label>
+          <input id="ab-listname" type="text" placeholder="e.g. Green Tide 2000" maxlength="60">
+        </div>
+        <div class="fld">
+          <label for="ab-saved-sel">Saved lists</label>
+          <select id="ab-saved-sel"><option value="">— none saved —</option></select>
+        </div>
+        <button class="btn btn-ghost" id="ab-save-btn" style="padding:10px 18px;">Save</button>
+        <button class="btn btn-ghost" id="ab-load-btn" style="padding:10px 18px;">Load</button>
+        <button class="btn btn-ghost" id="ab-delete-btn" style="padding:10px 18px;">Delete</button>
+      </div>
+
+      <p style="color:var(--bone-dim);font-size:.82rem;margin-top:14px;" id="ab-datanote"></p>
 
     </div>
   </div>
 
 </main>
+
+<!-- share / import modal -->
+<div class="ab-modal" id="ab-modal">
+  <div class="m-box">
+    <button class="m-close" id="ab-modal-close" aria-label="Close">&times;</button>
+    <h3 id="ab-modal-title">Share code</h3>
+    <p id="ab-modal-desc"></p>
+    <textarea id="ab-modal-text" spellcheck="false"></textarea>
+    <div style="display:flex;gap:10px;margin-top:14px;flex-wrap:wrap;">
+      <button class="btn btn-primary" id="ab-modal-action">Copy</button>
+      <button class="btn btn-ghost" id="ab-modal-cancel">Close</button>
+    </div>
+    <div class="m-msg" id="ab-modal-msg"></div>
+  </div>
+</div>
+
+<!-- printable sheet -->
+<div id="ab-print"></div>
 
 <footer>
   <div class="wrap">
@@ -133,7 +169,7 @@
   </div>
 </footer>
 
-<script src="script.js?v=202609210608"></script>
+<script src="script.js?v=202609211036"></script>
 <script>
 (function(){
   "use strict";
@@ -219,6 +255,18 @@
     }
     return pts;
   }
+  function modelsOf(entry){
+    var s = sheet(entry.id);
+    if(!s) return 0;
+    var b = s.unitSizes[entry.sizeIdx] || s.unitSizes[0];
+    return b ? b.models : 0;
+  }
+  // Total models riding in a given transport unit
+  function transportLoad(uid){
+    var n = 0;
+    list.forEach(function(x){ if(x.inTransport === uid) n += modelsOf(x); });
+    return n;
+  }
   function enhById(id){
     var det = detachment();
     if(!det) return null;
@@ -289,6 +337,24 @@
       var hasOpts = (s.options||[]).length > 0;
       var canEnh = isChar && !isEpic && det && (det.enhancements||[]).length;
 
+      // Units this character could legally join, that are actually in the list
+      var leadTargets = [];
+      if(isChar && (s.leads||[]).length){
+        leadTargets = list.filter(function(x){
+          return x.uid !== e.uid && s.leads.indexOf(x.id) !== -1;
+        });
+      }
+      // Transports in the list with room, for non-character infantry
+      var transports = [];
+      if(!isChar){
+        transports = list.filter(function(x){
+          var ts = sheet(x.id);
+          return ts && ts.transport && x.uid !== e.uid;
+        });
+      }
+      var canAttach = leadTargets.length > 0;
+      var canRide = transports.length > 0;
+
       // summary tags for whatever's currently selected
       var tags = '';
       if(e.enh){
@@ -304,9 +370,24 @@
         });
       }
 
+      if(e.attachedTo){
+        var host = list.filter(function(x){ return x.uid===e.attachedTo; })[0];
+        var hs = host && sheet(host.id);
+        if(hs) tags += '<span class="ab-tag att">→ leading ' + esc(hs.name) + '</span>';
+      }
+      if(e.inTransport){
+        var tv = list.filter(function(x){ return x.uid===e.inTransport; })[0];
+        var tvs = tv && sheet(tv.id);
+        if(tvs) tags += '<span class="ab-tag tr">▣ in ' + esc(tvs.name) + '</span>';
+      }
+      if(s.transport){
+        var load = transportLoad(e.uid);
+        tags += '<span class="ab-tag tr">▣ ' + load + '/' + s.transport + ' capacity</span>';
+      }
+
       // expandable detail panel
       var detail = '';
-      if(hasOpts || canEnh){
+      if(hasOpts || canEnh || canAttach || canRide){
         detail += '<div class="ab-detail' + (open[e.uid] ? ' open' : '') + '" data-detail="' + e.uid + '">';
         if(canEnh){
           detail += '<div class="ab-enh"><span class="e-lbl">ENHANCEMENT</span>' +
@@ -316,6 +397,28 @@
               return '<option value="' + esc(en.id) + '"' +
                 (e.enh===en.id?' selected':'') + '>' +
                 esc(en.name) + ' (+' + en.pts + 'pts)</option>';
+            }).join('') + '</select></div>';
+        }
+        if(canAttach){
+          detail += '<div class="ab-attach"><span class="a-lbl">ATTACH TO UNIT</span>' +
+            '<select data-attach="' + e.uid + '">' +
+            '<option value="">— not attached —</option>' +
+            leadTargets.map(function(t){
+              var ts = sheet(t.id);
+              return '<option value="' + esc(t.uid) + '"' +
+                (e.attachedTo===t.uid?' selected':'') + '>' + esc(ts.name) + '</option>';
+            }).join('') + '</select></div>';
+        }
+        if(canRide){
+          detail += '<div class="ab-attach"><span class="a-lbl">EMBARK IN TRANSPORT</span>' +
+            '<select data-transport="' + e.uid + '">' +
+            '<option value="">— on foot —</option>' +
+            transports.map(function(t){
+              var ts = sheet(t.id);
+              var used = transportLoad(t.uid) - (e.inTransport===t.uid ? modelsOf(e) : 0);
+              return '<option value="' + esc(t.uid) + '"' +
+                (e.inTransport===t.uid?' selected':'') + '>' + esc(ts.name) +
+                ' (' + used + '/' + ts.transport + ' used)</option>';
             }).join('') + '</select></div>';
         }
         (s.options||[]).forEach(function(g){
@@ -333,7 +436,7 @@
         detail += '</div>';
       }
 
-      html += '<div class="ab-unit">' +
+      html += '<div class="ab-unit' + (e.attachedTo||e.inTransport ? ' attached' : '') + '">' +
         '<div class="u-top">' +
           '<span class="u-name">' + esc(s.name) + '</span>' +
           '<span class="u-pts">' + unitPts(e) + 'pts</span>' +
@@ -347,7 +450,7 @@
             ? '<button class="ab-warlord' + (e.warlord?' on':'') + '" data-wl="' + e.uid + '">' +
               (e.warlord ? '★ WARLORD' : 'Set Warlord') + '</button>'
             : '') +
-          ((hasOpts || canEnh)
+          ((hasOpts || canEnh || canAttach || canRide)
             ? '<button class="ab-toggle' + (open[e.uid]?' on':'') + '" data-toggle="' + e.uid + '">' +
               (open[e.uid] ? 'HIDE' : 'LOADOUT') + '</button>'
             : '') +
@@ -442,6 +545,43 @@
           msg:'Enhancement "' + esc(eo ? eo.name : e.enh) + '" taken more than once.'});
       }
       seenEnh[e.enh] = true;
+    });
+
+    // --- Leader attachment legality ---
+    var hostCount = {};
+    list.forEach(function(e){
+      if(!e.attachedTo) return;
+      var s = sheet(e.id);
+      var host = list.filter(function(x){ return x.uid === e.attachedTo; })[0];
+      if(!host){ return; }
+      var hs = sheet(host.id);
+      if(!s || !hs) return;
+      if((s.leads||[]).indexOf(host.id) === -1){
+        issues.push({sev:'error',
+          msg: esc(s.name) + ' cannot be attached to ' + esc(hs.name) + '.'});
+      }
+      hostCount[e.attachedTo] = (hostCount[e.attachedTo]||0) + 1;
+    });
+    Object.keys(hostCount).forEach(function(uid){
+      if(hostCount[uid] > 1){
+        var h = list.filter(function(x){ return x.uid===uid; })[0];
+        var hs2 = h && sheet(h.id);
+        issues.push({sev:'error',
+          msg:(hs2 ? esc(hs2.name) : 'A unit') + ' has ' + hostCount[uid] +
+              ' characters attached — normally only one may lead a unit.'});
+      }
+    });
+
+    // --- Transport capacity ---
+    list.forEach(function(e){
+      var s = sheet(e.id);
+      if(!s || !s.transport) return;
+      var load = transportLoad(e.uid);
+      if(load > s.transport){
+        issues.push({sev:'error',
+          msg: esc(s.name) + ' is carrying <strong>' + load + '</strong> models but has ' +
+               'capacity ' + s.transport + '.'});
+      }
     });
 
     if(total < limit && list.length){
@@ -551,7 +691,14 @@
   $('ab-list').addEventListener('click', function(e){
     var del = e.target.closest('[data-del]');
     if(del){
-      list = list.filter(function(x){ return x.uid !== del.dataset.del; });
+      var gone = del.dataset.del;
+      list = list.filter(function(x){ return x.uid !== gone; });
+      // Clear any dangling attachment/transport references to the removed unit
+      list.forEach(function(x){
+        if(x.attachedTo === gone) x.attachedTo = null;
+        if(x.inTransport === gone) x.inTransport = null;
+      });
+      delete open[gone];
       render(); return;
     }
     var tg = e.target.closest('[data-toggle]');
@@ -583,6 +730,18 @@
       if(en){ en.enh = enh.value || null; render(); }
       return;
     }
+    var att = e.target.closest('[data-attach]');
+    if(att){
+      var au = list.filter(function(x){ return x.uid === att.dataset.attach; })[0];
+      if(au){ au.attachedTo = att.value || null; render(); }
+      return;
+    }
+    var trn = e.target.closest('[data-transport]');
+    if(trn){
+      var tu = list.filter(function(x){ return x.uid === trn.dataset.transport; })[0];
+      if(tu){ tu.inTransport = trn.value || null; render(); }
+      return;
+    }
     var opt = e.target.closest('[data-opt]');
     if(opt){
       var ou = list.filter(function(x){ return x.uid === opt.dataset.opt; })[0];
@@ -612,6 +771,276 @@
     if(list.length && !confirm('Clear the whole list?')) return;
     list = []; render();
   });
+
+  // ============================================================
+  //  PHASE 5 — save / load / share / print
+  // ============================================================
+  var SAVED_KEY = 'ecw-army-saved';
+
+  function savedAll(){
+    try{ return JSON.parse(localStorage.getItem(SAVED_KEY)) || {}; }
+    catch(e){ return {}; }
+  }
+  function savedWrite(obj){
+    try{ localStorage.setItem(SAVED_KEY, JSON.stringify(obj)); }catch(e){}
+  }
+  function refreshSavedSelect(){
+    var all = savedAll();
+    var names = Object.keys(all).sort();
+    var sel = $('ab-saved-sel');
+    sel.innerHTML = names.length
+      ? '<option value="">— pick a list —</option>'
+      : '<option value="">— none saved —</option>';
+    names.forEach(function(n){
+      var o = document.createElement('option');
+      o.value = n;
+      o.textContent = n + ' (' + (all[n].pts || 0) + 'pts)';
+      sel.appendChild(o);
+    });
+  }
+
+  // --- share codes -------------------------------------------------
+  // Compact the list to short keys, then base64url it. Keeps codes short
+  // enough to paste into a chat message.
+  function encodeList(){
+    var uids = {};
+    list.forEach(function(e, i){ uids[e.uid] = i; });
+    var payload = {
+      f: faction ? faction.id : '',
+      d: detachmentId || '',
+      l: limit,
+      u: list.map(function(e){
+        var o = [e.id, e.sizeIdx || 0];
+        var flags = {};
+        if(e.warlord) flags.w = 1;
+        if(e.enh) flags.e = e.enh;
+        if(e.attachedTo != null && uids[e.attachedTo] != null) flags.a = uids[e.attachedTo];
+        if(e.inTransport != null && uids[e.inTransport] != null) flags.t = uids[e.inTransport];
+        if(e.opts && Object.keys(e.opts).length) flags.o = e.opts;
+        if(Object.keys(flags).length) o.push(flags);
+        return o;
+      })
+    };
+    var json = JSON.stringify(payload);
+    // base64url so it survives being pasted into a URL or chat
+    return btoa(unescape(encodeURIComponent(json)))
+      .replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');
+  }
+
+  function decodeList(code){
+    var b64 = String(code).trim().replace(/-/g,'+').replace(/_/g,'/');
+    while(b64.length % 4) b64 += '=';
+    var json = decodeURIComponent(escape(atob(b64)));
+    var p = JSON.parse(json);
+    if(!p || !Array.isArray(p.u)) throw new Error('bad payload');
+    return p;
+  }
+
+  function applyPayload(p){
+    if(faction && p.f && p.f !== faction.id){
+      throw new Error('That code is for a different faction (' + p.f + ').');
+    }
+    var newList = p.u.map(function(row){
+      var flags = row[2] || {};
+      return {
+        uid: 'u' + Date.now() + Math.random().toString(36).slice(2,7),
+        id: row[0],
+        sizeIdx: row[1] || 0,
+        warlord: !!flags.w,
+        enh: flags.e || null,
+        opts: flags.o || null,
+        _a: flags.a,      // resolved to uids below
+        _t: flags.t
+      };
+    });
+    // Second pass: turn positional indices back into uids
+    newList.forEach(function(e){
+      if(e._a != null && newList[e._a]) e.attachedTo = newList[e._a].uid;
+      if(e._t != null && newList[e._t]) e.inTransport = newList[e._t].uid;
+      delete e._a; delete e._t;
+    });
+    // Drop anything that isn't in the current faction data
+    newList = newList.filter(function(e){ return !!sheet(e.id); });
+
+    list = newList;
+    limit = p.l || 2000;
+    detachmentId = p.d || '';
+    $('ab-limit').value = String(limit);
+    $('ab-detachment').value = detachmentId;
+    open = {};
+    render();
+    return newList.length;
+  }
+
+  // --- modal -------------------------------------------------------
+  var modalMode = 'share';
+  function openModal(mode){
+    modalMode = mode;
+    $('ab-modal-msg').textContent = '';
+    $('ab-modal-msg').className = 'm-msg';
+    if(mode === 'share'){
+      if(!list.length){ alert('Add some units first.'); return; }
+      $('ab-modal-title').textContent = 'Share code';
+      $('ab-modal-desc').textContent =
+        'Send this to another member — they can paste it into Import to load ' +
+        'your exact list, including loadouts and attachments.';
+      $('ab-modal-text').value = encodeList();
+      $('ab-modal-action').textContent = 'Copy';
+    } else {
+      $('ab-modal-title').textContent = 'Import a list';
+      $('ab-modal-desc').textContent =
+        'Paste a share code below. This replaces your current list.';
+      $('ab-modal-text').value = '';
+      $('ab-modal-action').textContent = 'Import';
+    }
+    $('ab-modal').classList.add('open');
+  }
+  function closeModal(){ $('ab-modal').classList.remove('open'); }
+
+  $('ab-share-btn').addEventListener('click', function(){ openModal('share'); });
+  $('ab-import-btn').addEventListener('click', function(){ openModal('import'); });
+  $('ab-modal-close').addEventListener('click', closeModal);
+  $('ab-modal-cancel').addEventListener('click', closeModal);
+  $('ab-modal').addEventListener('click', function(e){
+    if(e.target === this) closeModal();
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape') closeModal();
+  });
+
+  $('ab-modal-action').addEventListener('click', function(){
+    var msg = $('ab-modal-msg');
+    if(modalMode === 'share'){
+      var ta = $('ab-modal-text');
+      ta.select();
+      var done = false;
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(ta.value).then(function(){
+          msg.textContent = 'Copied to clipboard.'; msg.className = 'm-msg ok';
+        }, function(){
+          msg.textContent = 'Press Ctrl/Cmd+C to copy.'; msg.className = 'm-msg';
+        });
+        done = true;
+      }
+      if(!done){
+        msg.textContent = 'Press Ctrl/Cmd+C to copy.'; msg.className = 'm-msg';
+      }
+    } else {
+      try{
+        var n = applyPayload(decodeList($('ab-modal-text').value));
+        msg.textContent = 'Imported ' + n + ' unit' + (n===1?'':'s') + '.';
+        msg.className = 'm-msg ok';
+        setTimeout(closeModal, 900);
+      }catch(err){
+        msg.textContent = 'Could not read that code. ' + (err.message || '');
+        msg.className = 'm-msg err';
+      }
+    }
+  });
+
+  // --- saved lists -------------------------------------------------
+  $('ab-save-btn').addEventListener('click', function(){
+    var name = ($('ab-listname').value || '').trim();
+    if(!name){ alert('Give the list a name first.'); return; }
+    if(!list.length){ alert('Nothing to save — the list is empty.'); return; }
+    var all = savedAll();
+    if(all[name] && !confirm('Overwrite the saved list "' + name + '"?')) return;
+    all[name] = {
+      code: encodeList(),
+      pts: totalPts(),
+      faction: faction ? faction.id : '',
+      saved: new Date().toISOString().slice(0,10)
+    };
+    savedWrite(all);
+    refreshSavedSelect();
+    $('ab-saved-sel').value = name;
+  });
+
+  $('ab-load-btn').addEventListener('click', function(){
+    var name = $('ab-saved-sel').value;
+    if(!name){ alert('Pick a saved list first.'); return; }
+    var rec = savedAll()[name];
+    if(!rec) return;
+    if(list.length && !confirm('Replace your current list with "' + name + '"?')) return;
+    try{
+      applyPayload(decodeList(rec.code));
+      $('ab-listname').value = name;
+    }catch(err){
+      alert('Could not load that list: ' + (err.message || ''));
+    }
+  });
+
+  $('ab-delete-btn').addEventListener('click', function(){
+    var name = $('ab-saved-sel').value;
+    if(!name){ alert('Pick a saved list first.'); return; }
+    if(!confirm('Delete the saved list "' + name + '"?')) return;
+    var all = savedAll();
+    delete all[name];
+    savedWrite(all);
+    refreshSavedSelect();
+  });
+
+  // --- print sheet -------------------------------------------------
+  function buildPrintSheet(){
+    var det = detachment();
+    var name = ($('ab-listname').value || '').trim() || 'Untitled list';
+    var html = '<h1>' + esc(name) + '</h1>' +
+      '<div class="p-meta">' +
+        esc(faction ? faction.name : '') +
+        (det ? ' &middot; ' + esc(det.name) : '') +
+        ' &middot; ' + totalPts() + ' / ' + limit + ' pts' +
+      '</div>';
+
+    list.forEach(function(e){
+      var s = sheet(e.id);
+      if(!s) return;
+      var b = s.unitSizes[e.sizeIdx] || s.unitSizes[0];
+      var bits = [];
+      if(e.warlord) bits.push('<strong>WARLORD</strong>');
+      if(e.enh){
+        var eo = enhById(e.enh);
+        if(eo) bits.push('Enhancement: ' + esc(eo.name) + ' (+' + eo.pts + ')');
+      }
+      if(e.attachedTo){
+        var h = list.filter(function(x){ return x.uid===e.attachedTo; })[0];
+        var hs = h && sheet(h.id);
+        if(hs) bits.push('Leading ' + esc(hs.name));
+      }
+      if(e.inTransport){
+        var t = list.filter(function(x){ return x.uid===e.inTransport; })[0];
+        var ts = t && sheet(t.id);
+        if(ts) bits.push('Embarked in ' + esc(ts.name));
+      }
+      if(e.opts){
+        Object.keys(e.opts).forEach(function(gid){
+          var g = (s.options||[]).filter(function(x){ return x.id===gid; })[0];
+          if(!g) return;
+          var c = g.choices.filter(function(x){ return x.id===e.opts[gid]; })[0];
+          if(c) bits.push(esc(c.name));
+        });
+      }
+      html += '<div class="p-unit">' +
+        '<div class="p-head"><span>' + esc(s.name) + '</span>' +
+        '<span>' + unitPts(e) + ' pts</span></div>' +
+        '<div class="p-sub"><em>' + b.models + ' model' + (b.models>1?'s':'') + '</em>' +
+        (bits.length ? ' &middot; ' + bits.join(' &middot; ') : '') + '</div>' +
+      '</div>';
+    });
+
+    html += '<div class="p-total"><span>TOTAL</span><span>' +
+            totalPts() + ' / ' + limit + ' pts</span></div>';
+    html += '<div class="p-foot">Built with the EC Warlords army builder · ' +
+            'ecwarlords.co.za · points data from BSData</div>';
+    $('ab-print').innerHTML = html;
+  }
+
+  $('ab-print-btn').addEventListener('click', function(){
+    if(!list.length){ alert('Nothing to print — the list is empty.'); return; }
+    buildPrintSheet();
+    window.print();
+  });
+
+  refreshSavedSelect();
 
   loadIndex().then(function(){ restore(); render(); });
 })();

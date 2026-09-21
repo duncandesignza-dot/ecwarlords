@@ -1,0 +1,3782 @@
+{
+ "id": "ynnari",
+ "name": "Ynnari",
+ "source": "BSData wh40k-10e",
+ "generated": "2026-09-21",
+ "detachments": [],
+ "datasheets": [
+  {
+   "id": "archon",
+   "name": "Archon",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-pistol-choice",
+     "name": "Wargear · Pistol Choice",
+     "max": 1,
+     "choices": [
+      {
+       "id": "splinter-pistol",
+       "name": "Splinter pistol",
+       "pts": 0
+      },
+      {
+       "id": "blast-pistol",
+       "name": "Blast pistol",
+       "pts": 0
+      },
+      {
+       "id": "soul-trap",
+       "name": "Soul Trap",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-melee-choice",
+     "name": "Wargear · Melee Choice",
+     "max": 1,
+     "choices": [
+      {
+       "id": "huskblade",
+       "name": "Huskblade",
+       "pts": 0
+      },
+      {
+       "id": "agoniser",
+       "name": "Agoniser",
+       "pts": 0
+      },
+      {
+       "id": "master-crafted-power-weapon",
+       "name": "Master-crafted power weapon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "autarch",
+   "name": "Autarch",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 85
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-melee-weapon",
+     "name": "Wargear · Melee Weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "scorpion-chainsword",
+       "name": "Scorpion Chainsword",
+       "pts": 0
+      },
+      {
+       "id": "banshee-blade",
+       "name": "Banshee Blade",
+       "pts": 0
+      },
+      {
+       "id": "star-glaive",
+       "name": "Star Glaive",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-ranged-weapon",
+     "name": "Wargear · Ranged Weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "shuriken-pistol",
+       "name": "Shuriken Pistol",
+       "pts": 0
+      },
+      {
+       "id": "reaper-launcher",
+       "name": "Reaper Launcher",
+       "pts": 0
+      },
+      {
+       "id": "death-spinner",
+       "name": "Death Spinner",
+       "pts": 0
+      },
+      {
+       "id": "dragon-fusion-gun",
+       "name": "Dragon Fusion Gun",
+       "pts": 0
+      },
+      {
+       "id": "dragon-fusion-pistol",
+       "name": "Dragon Fusion Pistol",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "autarch-skyrunner",
+   "name": "Autarch Skyrunner",
+   "legends": false,
+   "keywords": [
+    "CHARACTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 90
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "close-combat-weapon",
+       "name": "Close Combat Weapon",
+       "pts": 0
+      },
+      {
+       "id": "twin-shuriken-catapult",
+       "name": "Twin Shuriken Catapult",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-weapon",
+     "name": "Wargear · Weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "laser-lance",
+       "name": "Laser Lance",
+       "pts": 0
+      },
+      {
+       "id": "dragon-fusion-gun",
+       "name": "Dragon Fusion Gun",
+       "pts": 0
+      },
+      {
+       "id": "banshee-blade",
+       "name": "Banshee Blade",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "autarch-wayleaper",
+   "name": "Autarch Wayleaper",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-melee-weapon",
+     "name": "Wargear · Melee Weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "scorpion-chainsword",
+       "name": "Scorpion Chainsword",
+       "pts": 0
+      },
+      {
+       "id": "banshee-blade",
+       "name": "Banshee Blade",
+       "pts": 0
+      },
+      {
+       "id": "star-glaive",
+       "name": "Star Glaive",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-ranged-weapon",
+     "name": "Wargear · Ranged Weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "shuriken-pistol",
+       "name": "Shuriken Pistol",
+       "pts": 0
+      },
+      {
+       "id": "reaper-launcher",
+       "name": "Reaper Launcher",
+       "pts": 0
+      },
+      {
+       "id": "death-spinner",
+       "name": "Death Spinner",
+       "pts": 0
+      },
+      {
+       "id": "dragon-fusion-gun",
+       "name": "Dragon Fusion Gun",
+       "pts": 0
+      },
+      {
+       "id": "dragon-fusion-pistol",
+       "name": "Dragon Fusion Pistol",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "beastmaster",
+   "name": "Beastmaster",
+   "legends": false,
+   "keywords": [
+    "BEAST",
+    "CHARACTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 2,
+     "pts": 135
+    }
+   ],
+   "options": [
+    {
+     "id": "beastmaster",
+     "name": "Beastmaster",
+     "max": null,
+     "choices": [
+      {
+       "id": "beastmaster",
+       "name": "Beastmaster",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "beasts",
+     "name": "Beasts",
+     "max": null,
+     "choices": [
+      {
+       "id": "clawed-fiend",
+       "name": "Clawed Fiend",
+       "pts": 0
+      },
+      {
+       "id": "khymerae",
+       "name": "Khymerae",
+       "pts": 0
+      },
+      {
+       "id": "razorwing-flock",
+       "name": "Razorwing Flock",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "breaching-robot",
+   "name": "Breaching Robot",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 35
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-options",
+     "name": "Wargear Options",
+     "max": 1,
+     "choices": [
+      {
+       "id": "bomb-kit",
+       "name": "Bomb Kit",
+       "pts": 0
+      },
+      {
+       "id": "cutting-blade-and-cutting-gear",
+       "name": "Cutting blade and cutting gear",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "cobra",
+   "name": "Cobra",
+   "legends": false,
+   "keywords": [
+    "TITANIC",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 415
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "d-impaler",
+       "name": "D-Impaler",
+       "pts": 0
+      },
+      {
+       "id": "wraithbone-hull",
+       "name": "Wraithbone hull",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "corsair-voidreavers",
+   "name": "Corsair Voidreavers",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 65
+    },
+    {
+     "models": 10,
+     "pts": 110
+    }
+   ],
+   "options": [
+    {
+     "id": "4-9-voidreavers",
+     "name": "4-9 Voidreavers",
+     "max": 9,
+     "choices": [
+      {
+       "id": "voidreaver-with-heavy-weapon",
+       "name": "Voidreaver with Heavy weapon",
+       "pts": 0
+      },
+      {
+       "id": "voidreaver-with-shuriken-rifle",
+       "name": "Voidreaver with Shuriken rifle",
+       "pts": 0
+      },
+      {
+       "id": "voidreaver-with-sword-and-pistol",
+       "name": "Voidreaver with sword and pistol",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "4-9-voidreavers-voidreaver-with-special-weapon",
+     "name": "4-9 Voidreavers · Voidreaver with special weapon",
+     "max": 2,
+     "choices": [
+      {
+       "id": "voidreaver-with-blaster",
+       "name": "Voidreaver with Blaster",
+       "pts": 0
+      },
+      {
+       "id": "voidreaver-with-shredder",
+       "name": "Voidreaver with Shredder",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "voidreaver-felarch",
+     "name": "Voidreaver Felarch",
+     "max": null,
+     "choices": [
+      {
+       "id": "voidreaver-felarch",
+       "name": "Voidreaver Felarch",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "corsair-voidscarred",
+   "name": "Corsair Voidscarred",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    },
+    {
+     "models": 10,
+     "pts": 160
+    }
+   ],
+   "options": [
+    {
+     "id": "4-9-voidscarred",
+     "name": "4 -9 Voidscarred",
+     "max": 9,
+     "choices": [
+      {
+       "id": "shade-runner",
+       "name": "Shade Runner",
+       "pts": 0
+      },
+      {
+       "id": "soul-weaver",
+       "name": "Soul Weaver",
+       "pts": 0
+      },
+      {
+       "id": "way-seeker",
+       "name": "Way Seeker",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "4-9-voidscarred-voidscarred",
+     "name": "4 -9 Voidscarred · Voidscarred",
+     "max": null,
+     "choices": [
+      {
+       "id": "voidscarred-w-pistol-and-sword",
+       "name": "Voidscarred w/ pistol and sword",
+       "pts": 0
+      },
+      {
+       "id": "voidscarred-w-rifle",
+       "name": "Voidscarred w/ rifle",
+       "pts": 0
+      },
+      {
+       "id": "voidscarred-with-faolch",
+       "name": "Voidscarred with Faolchú",
+       "pts": 0
+      },
+      {
+       "id": "voidscarred-with-fusion-pistol",
+       "name": "Voidscarred with fusion pistol",
+       "pts": 0
+      },
+      {
+       "id": "voidscarred-with-heavy-weapon",
+       "name": "Voidscarred with heavy weapon",
+       "pts": 0
+      },
+      {
+       "id": "voidscarred-with-ranger-long-rifle",
+       "name": "Voidscarred with ranger long rifle",
+       "pts": 0
+      },
+      {
+       "id": "voidscarred-with-special-weapon",
+       "name": "Voidscarred with special weapon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "voidscarred-felarch",
+     "name": "Voidscarred Felarch",
+     "max": null,
+     "choices": [
+      {
+       "id": "voidscarred-felarch",
+       "name": "Voidscarred Felarch",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "court-of-the-archon",
+   "name": "Court of the Archon",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 95
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "crimson-hunter",
+   "name": "Crimson Hunter",
+   "legends": false,
+   "keywords": [
+    "AIRCRAFT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 160
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "pulse-laser",
+       "name": "Pulse Laser",
+       "pts": 0
+      },
+      {
+       "id": "wraithbone-hull",
+       "name": "Wraithbone Hull",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-weapon-option",
+     "name": "Wargear · Weapon Option",
+     "max": 1,
+     "choices": [
+      {
+       "id": "2-starcannons",
+       "name": "2 Starcannons",
+       "pts": 0
+      },
+      {
+       "id": "2-bright-lances",
+       "name": "2 Bright Lances",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "dark-reapers",
+   "name": "Dark Reapers",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 90
+    },
+    {
+     "models": 10,
+     "pts": 195
+    }
+   ],
+   "options": [
+    {
+     "id": "4-9-dark-reapers",
+     "name": "4-9 Dark Reapers",
+     "max": 9,
+     "choices": [
+      {
+       "id": "dark-reaper",
+       "name": "Dark Reaper",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "dark-reaper-exarch",
+     "name": "Dark Reaper Exarch",
+     "max": null,
+     "choices": [
+      {
+       "id": "dark-reaper-exarch",
+       "name": "Dark Reaper Exarch",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "death-jester",
+   "name": "Death Jester",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 90
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "jester-s-blade",
+       "name": "Jester's Blade",
+       "pts": 0
+      },
+      {
+       "id": "shrieker-cannon",
+       "name": "Shrieker Cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "dire-avengers",
+   "name": "Dire Avengers",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 75
+    },
+    {
+     "models": 10,
+     "pts": 150
+    }
+   ],
+   "options": [
+    {
+     "id": "4-9-dire-avengers",
+     "name": "4-9 Dire Avengers",
+     "max": 9,
+     "choices": [
+      {
+       "id": "dire-avenger",
+       "name": "Dire Avenger",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "dire-avenger-exarch",
+     "name": "Dire Avenger Exarch",
+     "max": null,
+     "choices": [
+      {
+       "id": "dire-avenger-exarch",
+       "name": "Dire Avenger Exarch",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "drazhar",
+   "name": "Drazhar",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 85
+    }
+   ],
+   "options": [],
+   "rosterMax": 1,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "eldrad-ulthran",
+   "name": "Eldrad Ulthran",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 120
+    }
+   ],
+   "options": [],
+   "rosterMax": 1,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "falcon",
+   "name": "Falcon",
+   "legends": false,
+   "keywords": [
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 130
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "pulse-laser",
+       "name": "Pulse Laser",
+       "pts": 0
+      },
+      {
+       "id": "wraithbone-hull",
+       "name": "Wraithbone hull",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-hull-weapon",
+     "name": "Wargear · Hull weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "twin-shuriken-catapult",
+       "name": "Twin Shuriken Catapult",
+       "pts": 0
+      },
+      {
+       "id": "shuriken-cannon",
+       "name": "Shuriken Cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": 6
+  },
+  {
+   "id": "farseer",
+   "name": "Farseer",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "eldritch-storm",
+       "name": "Eldritch Storm",
+       "pts": 0
+      },
+      {
+       "id": "shuriken-pistol",
+       "name": "Shuriken Pistol",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-weapon",
+     "name": "Wargear · Weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "witchblade",
+       "name": "Witchblade",
+       "pts": 0
+      },
+      {
+       "id": "singing-spear",
+       "name": "Singing Spear",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "farseer-skyrunner",
+   "name": "Farseer Skyrunner",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "eldritch-storm",
+       "name": "Eldritch Storm",
+       "pts": 0
+      },
+      {
+       "id": "shuriken-pistol",
+       "name": "Shuriken Pistol",
+       "pts": 0
+      },
+      {
+       "id": "twin-shuriken-catapult",
+       "name": "Twin Shuriken Catapult",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-weapon",
+     "name": "Wargear · Weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "witchblade",
+       "name": "Witchblade",
+       "pts": 0
+      },
+      {
+       "id": "singing-spear",
+       "name": "Singing Spear",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "fire-dragons",
+   "name": "Fire Dragons",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 120
+    },
+    {
+     "models": 10,
+     "pts": 240
+    }
+   ],
+   "options": [
+    {
+     "id": "4-9-fire-dragons",
+     "name": "4-9 Fire Dragons",
+     "max": 9,
+     "choices": [
+      {
+       "id": "fire-dragon",
+       "name": "Fire Dragon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "fire-dragon-exarch",
+     "name": "Fire Dragon Exarch",
+     "max": null,
+     "choices": [
+      {
+       "id": "fire-dragon-exarch",
+       "name": "Fire Dragon Exarch",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "fire-prism",
+   "name": "Fire Prism",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 150
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "prism-cannon",
+       "name": "Prism Cannon",
+       "pts": 0
+      },
+      {
+       "id": "wraithbone-hull",
+       "name": "Wraithbone hull",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-hull-weapon",
+     "name": "Wargear · Hull weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "twin-shuriken-catapult",
+       "name": "Twin Shuriken Catapult",
+       "pts": 0
+      },
+      {
+       "id": "shuriken-cannon",
+       "name": "Shuriken Cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "guardian-defenders",
+   "name": "Guardian Defenders",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 100
+    }
+   ],
+   "options": [],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "hellions",
+   "name": "Hellions",
+   "legends": false,
+   "keywords": [],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 85
+    },
+    {
+     "models": 10,
+     "pts": 170
+    }
+   ],
+   "options": [
+    {
+     "id": "4-9-hellions",
+     "name": "4-9 Hellions",
+     "max": 9,
+     "choices": [
+      {
+       "id": "hellion",
+       "name": "Hellion",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "heliarch",
+     "name": "Heliarch",
+     "max": null,
+     "choices": [
+      {
+       "id": "heliarch",
+       "name": "Heliarch",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "hemlock-wraithfighter",
+   "name": "Hemlock Wraithfighter",
+   "legends": false,
+   "keywords": [
+    "AIRCRAFT",
+    "PSYKER",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 155
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "heavy-d-scythe",
+       "name": "Heavy D-Scythe",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "hornet",
+   "name": "Hornet",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 100
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": 2,
+     "choices": [
+      {
+       "id": "aeldari-missile-launcher",
+       "name": "Aeldari Missile Launcher",
+       "pts": 0
+      },
+      {
+       "id": "bright-lance",
+       "name": "Bright Lance",
+       "pts": 0
+      },
+      {
+       "id": "scatter-laser",
+       "name": "Scatter Laser",
+       "pts": 0
+      },
+      {
+       "id": "shuriken-cannon",
+       "name": "Shuriken Cannon",
+       "pts": 0
+      },
+      {
+       "id": "starcannon",
+       "name": "Starcannon",
+       "pts": 0
+      },
+      {
+       "id": "hornet-pulse-laser",
+       "name": "Hornet Pulse Laser",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "howling-banshees",
+   "name": "Howling Banshees",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 95
+    },
+    {
+     "models": 10,
+     "pts": 190
+    }
+   ],
+   "options": [
+    {
+     "id": "4-9-howling-banshees",
+     "name": "4-9 Howling Banshees",
+     "max": 9,
+     "choices": [
+      {
+       "id": "howling-banshee",
+       "name": "Howling Banshee",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "howling-banshee-exarch",
+     "name": "Howling Banshee Exarch",
+     "max": null,
+     "choices": [
+      {
+       "id": "howling-banshee-exarch",
+       "name": "Howling Banshee Exarch",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "illic-nightspear",
+   "name": "Illic Nightspear",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [],
+   "rosterMax": 1,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "incubi",
+   "name": "Incubi",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 90
+    },
+    {
+     "models": 10,
+     "pts": 180
+    }
+   ],
+   "options": [
+    {
+     "id": "4-9-incubi",
+     "name": "4-9 Incubi",
+     "max": 9,
+     "choices": [
+      {
+       "id": "incubi",
+       "name": "Incubi",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "klaivex",
+     "name": "Klaivex",
+     "max": null,
+     "choices": [
+      {
+       "id": "klaivex",
+       "name": "Klaivex",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "kabalite-warriors",
+   "name": "Kabalite Warriors",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 10,
+     "pts": 115
+    }
+   ],
+   "options": [
+    {
+     "id": "9-kabalite-warriors",
+     "name": "9 Kabalite Warriors",
+     "max": 9,
+     "choices": [
+      {
+       "id": "kabalite-warrior-with-shredder",
+       "name": "Kabalite Warrior with Shredder",
+       "pts": 0
+      },
+      {
+       "id": "kabalite-warrior",
+       "name": "Kabalite Warrior",
+       "pts": 0
+      },
+      {
+       "id": "kabalite-warrior-with-blaster",
+       "name": "Kabalite Warrior with Blaster",
+       "pts": 0
+      },
+      {
+       "id": "kabalite-warrior-with-splinter-cannon",
+       "name": "Kabalite Warrior with Splinter Cannon",
+       "pts": 0
+      },
+      {
+       "id": "kabalite-warrior-with-dark-lance",
+       "name": "Kabalite Warrior with Dark Lance",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "sybarite",
+     "name": "Sybarite",
+     "max": null,
+     "choices": [
+      {
+       "id": "sybarite",
+       "name": "Sybarite",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "lelith-hesperax",
+   "name": "Lelith Hesperax",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 85
+    }
+   ],
+   "options": [],
+   "rosterMax": 1,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "lynx",
+   "name": "Lynx",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 180
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "lynx-pulsar",
+       "name": "Lynx Pulsar",
+       "pts": 0
+      },
+      {
+       "id": "wraithbone-hull",
+       "name": "Wraithbone hull",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "mandrakes",
+   "name": "Mandrakes",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 75
+    },
+    {
+     "models": 10,
+     "pts": 150
+    }
+   ],
+   "options": [
+    {
+     "id": "4-9-mandrakes",
+     "name": "4-9 Mandrakes",
+     "max": 9,
+     "choices": [
+      {
+       "id": "mandrake",
+       "name": "Mandrake",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "nightfiend",
+     "name": "Nightfiend",
+     "max": null,
+     "choices": [
+      {
+       "id": "nightfiend",
+       "name": "Nightfiend",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "night-spinner",
+   "name": "Night Spinner",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 190
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "doomweaver",
+       "name": "Doomweaver",
+       "pts": 0
+      },
+      {
+       "id": "wraithbone-hull",
+       "name": "Wraithbone hull",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-hull-weapon",
+     "name": "Wargear · Hull weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "twin-shuriken-catapult",
+       "name": "Twin Shuriken Catapult",
+       "pts": 0
+      },
+      {
+       "id": "shuriken-cannon",
+       "name": "Shuriken Cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "nightwing",
+   "name": "Nightwing",
+   "legends": false,
+   "keywords": [
+    "AIRCRAFT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 150
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "twin-bright-lance",
+       "name": "Twin Bright Lance",
+       "pts": 0
+      },
+      {
+       "id": "twin-shuriken-cannon",
+       "name": "Twin Shuriken Cannon",
+       "pts": 0
+      },
+      {
+       "id": "wraithbone-hull",
+       "name": "Wraithbone hull",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "phantom-titan",
+   "name": "Phantom Titan",
+   "legends": false,
+   "keywords": [
+    "MONSTER",
+    "TITANIC",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 2100
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "phantom-feet",
+       "name": "Phantom feet",
+       "pts": 0
+      },
+      {
+       "id": "voidstorm-missile-launcher",
+       "name": "Voidstorm missile launcher",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-d-bombard-replacement",
+     "name": "Wargear · D-bombard Replacement",
+     "max": 1,
+     "choices": [
+      {
+       "id": "d-bombard",
+       "name": "D-bombard",
+       "pts": 0
+      },
+      {
+       "id": "1-phantom-pulsar",
+       "name": "1 Phantom pulsar",
+       "pts": 0
+      },
+      {
+       "id": "2-phantom-starcannons-1-wraith-glaive",
+       "name": "2 Phantom starcannons & 1 wraith glaive",
+       "pts": 0
+      },
+      {
+       "id": "2-pulse-lasers-1-wraith-glaive",
+       "name": "2 pulse lasers & 1 wraith glaive",
+       "pts": 0
+      },
+      {
+       "id": "1-phantom-starcannon-1-pulse-laser-1-wraith-glaive",
+       "name": "1 Phantom starcannon, 1 pulse laser & 1 wraith glaive",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-phantom-pulsar-replacement",
+     "name": "Wargear · Phantom pulsar Replacement",
+     "max": 1,
+     "choices": [
+      {
+       "id": "d-bombard",
+       "name": "D-bombard",
+       "pts": 0
+      },
+      {
+       "id": "phantom-pulsar",
+       "name": "Phantom pulsar",
+       "pts": 0
+      },
+      {
+       "id": "2-phantom-starcannons-1-wraith-glaive",
+       "name": "2 Phantom starcannons & 1 wraith glaive",
+       "pts": 0
+      },
+      {
+       "id": "2-pulse-lasers-1-wraith-glaive",
+       "name": "2 pulse lasers & 1 wraith glaive",
+       "pts": 0
+      },
+      {
+       "id": "1-phantom-starcannon-1-pulse-laser-1-wraith-glaive",
+       "name": "1 Phantom starcannon, 1 pulse laser & 1 wraith glaive",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "prince-yriel",
+   "name": "Prince Yriel",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 100
+    }
+   ],
+   "options": [],
+   "rosterMax": 1,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "raider",
+   "name": "Raider",
+   "legends": false,
+   "keywords": [
+    "DEDICATED TRANSPORT",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 85
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "bladevanes-and-chainsnares",
+       "name": "Bladevanes and chainsnares",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-weapon-option",
+     "name": "Wargear · Weapon Option",
+     "max": 1,
+     "choices": [
+      {
+       "id": "disintegrator-cannon",
+       "name": "Disintegrator Cannon",
+       "pts": 0
+      },
+      {
+       "id": "dark-lance",
+       "name": "Dark Lance",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": 11
+  },
+  {
+   "id": "rangers",
+   "name": "Rangers",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 55
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "ravager",
+   "name": "Ravager",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 110
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "bladevanes",
+       "name": "Bladevanes",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-weapon-option",
+     "name": "Wargear · Weapon Option",
+     "max": 3,
+     "choices": [
+      {
+       "id": "disintegrator-cannon",
+       "name": "Disintegrator Cannon",
+       "pts": 0
+      },
+      {
+       "id": "dark-lance",
+       "name": "Dark Lance",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "razorwing-jetfighter",
+   "name": "Razorwing Jetfighter",
+   "legends": false,
+   "keywords": [
+    "AIRCRAFT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 170
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "bladed-wings",
+       "name": "Bladed wings",
+       "pts": 0
+      },
+      {
+       "id": "razorwing-missiles",
+       "name": "Razorwing missiles",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-main-weapon",
+     "name": "Wargear · Main Weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "two-dark-lances",
+       "name": "Two dark lances",
+       "pts": 0
+      },
+      {
+       "id": "two-disintegrator-cannons",
+       "name": "Two disintegrator cannons",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-splinter-cannon",
+     "name": "Wargear · Splinter cannon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "splinter-cannon",
+       "name": "Splinter Cannon",
+       "pts": 0
+      },
+      {
+       "id": "twin-splinter-rifle",
+       "name": "Twin Splinter Rifle",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "reavers",
+   "name": "Reavers",
+   "legends": false,
+   "keywords": [],
+   "unitSizes": [
+    {
+     "models": 3,
+     "pts": 70
+    },
+    {
+     "models": 6,
+     "pts": 140
+    }
+   ],
+   "options": [
+    {
+     "id": "2-5-reavers",
+     "name": "2-5 Reavers",
+     "max": 5,
+     "choices": [
+      {
+       "id": "reaver",
+       "name": "Reaver",
+       "pts": 0
+      },
+      {
+       "id": "reaver-with-blaster",
+       "name": "Reaver with Blaster",
+       "pts": 0
+      },
+      {
+       "id": "reaver-with-heat-lance",
+       "name": "Reaver with Heat Lance",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "arena-champion",
+     "name": "Arena Champion",
+     "max": null,
+     "choices": [
+      {
+       "id": "arena-champion",
+       "name": "Arena Champion",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "revenant-titan",
+   "name": "Revenant Titan",
+   "legends": false,
+   "keywords": [
+    "MONSTER",
+    "TITANIC",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 1100
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "cloudburst-missile-launcher",
+       "name": "Cloudburst missile launcher",
+       "pts": 0
+      },
+      {
+       "id": "revenant-feet",
+       "name": "Revenant feet",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-left-arm",
+     "name": "Wargear · Left Arm",
+     "max": 1,
+     "choices": [
+      {
+       "id": "sonic-lance",
+       "name": "Sonic Lance",
+       "pts": 0
+      },
+      {
+       "id": "revenant-pulsar",
+       "name": "Revenant Pulsar",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-right-arm",
+     "name": "Wargear · Right Arm",
+     "max": 1,
+     "choices": [
+      {
+       "id": "sonic-lance",
+       "name": "Sonic Lance",
+       "pts": 0
+      },
+      {
+       "id": "revenant-pulsar",
+       "name": "Revenant Pulsar",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "scorpion",
+   "name": "Scorpion",
+   "legends": false,
+   "keywords": [
+    "TITANIC",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 410
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "twin-scorpion-pulsar",
+       "name": "Twin Scorpion Pulsar",
+       "pts": 0
+      },
+      {
+       "id": "wraithbone-hull",
+       "name": "Wraithbone hull",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "scourges",
+   "name": "Scourges",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 130
+    }
+   ],
+   "options": [
+    {
+     "id": "4-scourges",
+     "name": "4 Scourges",
+     "max": 4,
+     "choices": [
+      {
+       "id": "scourge-with-heavy-weapon",
+       "name": "Scourge with Heavy Weapon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "solarite",
+     "name": "Solarite",
+     "max": null,
+     "choices": [
+      {
+       "id": "solarite",
+       "name": "Solarite",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "searchlight",
+   "name": "Searchlight",
+   "legends": false,
+   "keywords": [],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 10
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "sentry-gun",
+   "name": "Sentry Gun",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 30
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "shadow-spectres",
+   "name": "Shadow Spectres",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 115
+    },
+    {
+     "models": 10,
+     "pts": 230
+    }
+   ],
+   "options": [
+    {
+     "id": "5-10-shadow-spectres",
+     "name": "5-10 Shadow Spectres",
+     "max": 10,
+     "choices": [
+      {
+       "id": "shadow-spectre",
+       "name": "Shadow Spectre",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "shadowseer",
+   "name": "Shadowseer",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 60
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "miststave",
+       "name": "Miststave",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-pistol-choice",
+     "name": "Wargear · Pistol Choice",
+     "max": 1,
+     "choices": [
+      {
+       "id": "shuriken-pistol",
+       "name": "Shuriken Pistol",
+       "pts": 0
+      },
+      {
+       "id": "neuro-disruptor",
+       "name": "Neuro Disruptor",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "shining-spears",
+   "name": "Shining Spears",
+   "legends": false,
+   "keywords": [],
+   "unitSizes": [
+    {
+     "models": 3,
+     "pts": 110
+    },
+    {
+     "models": 6,
+     "pts": 220
+    }
+   ],
+   "options": [
+    {
+     "id": "2-5-shining-spears",
+     "name": "2-5 Shining Spears",
+     "max": 5,
+     "choices": [
+      {
+       "id": "shining-spear",
+       "name": "Shining Spear",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "shining-spear-exarch",
+     "name": "Shining Spear Exarch",
+     "max": null,
+     "choices": [
+      {
+       "id": "shining-spear-exarch",
+       "name": "Shining Spear Exarch",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "shroud-runners",
+   "name": "Shroud Runners",
+   "legends": false,
+   "keywords": [],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "skathach-wraithknight",
+   "name": "Skathach Wraithknight",
+   "legends": false,
+   "keywords": [
+    "MONSTER",
+    "TITANIC",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 490
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "titanic-feet",
+       "name": "Titanic feet",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-left-arm",
+     "name": "Wargear · Left Arm",
+     "max": 1,
+     "choices": [
+      {
+       "id": "scattershield",
+       "name": "Scattershield",
+       "pts": 0
+      },
+      {
+       "id": "deathshroud-cannon",
+       "name": "Deathshroud Cannon",
+       "pts": 0
+      },
+      {
+       "id": "inferno-lance",
+       "name": "Inferno Lance",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-right-arm",
+     "name": "Wargear · Right Arm",
+     "max": 1,
+     "choices": [
+      {
+       "id": "inferno-lance",
+       "name": "Inferno Lance",
+       "pts": 0
+      },
+      {
+       "id": "deathshroud-cannon",
+       "name": "Deathshroud Cannon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-secondary-weapons",
+     "name": "Wargear · Secondary Weapons",
+     "max": 2,
+     "choices": [
+      {
+       "id": "scatter-laser",
+       "name": "Scatter Laser",
+       "pts": 0
+      },
+      {
+       "id": "shuriken-cannon",
+       "name": "Shuriken Cannon",
+       "pts": 0
+      },
+      {
+       "id": "starcannon",
+       "name": "Starcannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "skyweavers",
+   "name": "Skyweavers",
+   "legends": false,
+   "keywords": [],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 95
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "spiritseer",
+   "name": "Spiritseer",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 65
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "witch-staff",
+       "name": "Witch Staff",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "starweaver",
+   "name": "Starweaver",
+   "legends": false,
+   "keywords": [
+    "DEDICATED TRANSPORT",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "close-combat-weapon",
+       "name": "Close Combat Weapon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": 6
+  },
+  {
+   "id": "storm-guardians",
+   "name": "Storm Guardians",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 10,
+     "pts": 110
+    }
+   ],
+   "options": [
+    {
+     "id": "10-storm-guardians",
+     "name": "10 Storm Guardians",
+     "max": 10,
+     "choices": [
+      {
+       "id": "storm-guardian",
+       "name": "Storm Guardian",
+       "pts": 0
+      },
+      {
+       "id": "storm-guardian-with-flamer",
+       "name": "Storm Guardian with Flamer",
+       "pts": 0
+      },
+      {
+       "id": "storm-guardian-with-fusion-gun",
+       "name": "Storm Guardian with Fusion Gun",
+       "pts": 0
+      },
+      {
+       "id": "storm-guardian-with-power-sword",
+       "name": "Storm Guardian with Power Sword",
+       "pts": 0
+      },
+      {
+       "id": "storm-guardian-with-flamer-power-sword",
+       "name": "Storm Guardian with Flamer & Power Sword",
+       "pts": 0
+      },
+      {
+       "id": "storm-guardian-with-fusion-gun-power-sword",
+       "name": "Storm Guardian with Fusion Gun & Power Sword",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "striking-scorpions",
+   "name": "Striking Scorpions",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 85
+    },
+    {
+     "models": 10,
+     "pts": 150
+    }
+   ],
+   "options": [
+    {
+     "id": "4-9-striking-scorpions",
+     "name": "4-9 Striking Scorpions",
+     "max": 9,
+     "choices": [
+      {
+       "id": "striking-scorpion",
+       "name": "Striking Scorpion",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "striking-scorpion-exarch",
+     "name": "Striking Scorpion Exarch",
+     "max": null,
+     "choices": [
+      {
+       "id": "striking-scorpion-exarch",
+       "name": "Striking Scorpion Exarch",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "succubus",
+   "name": "Succubus",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 50
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "support-weapons",
+   "name": "Support Weapons",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 125
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "d-cannon",
+       "name": "D-cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "swooping-hawks",
+   "name": "Swooping Hawks",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 95
+    },
+    {
+     "models": 10,
+     "pts": 190
+    }
+   ],
+   "options": [
+    {
+     "id": "4-9-swooping-hawks",
+     "name": "4-9 Swooping Hawks",
+     "max": 9,
+     "choices": [
+      {
+       "id": "swooping-hawk",
+       "name": "Swooping Hawk",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "swooping-hawk-exarch",
+     "name": "Swooping Hawk Exarch",
+     "max": null,
+     "choices": [
+      {
+       "id": "swooping-hawk-exarch",
+       "name": "Swooping Hawk Exarch",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "tantalus",
+   "name": "Tantalus",
+   "legends": false,
+   "keywords": [
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 230
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "dire-scythe-blades",
+       "name": "Dire Scythe Blades",
+       "pts": 0
+      },
+      {
+       "id": "pulse-disintegrators",
+       "name": "Pulse Disintegrators",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": 16
+  },
+  {
+   "id": "the-visarch",
+   "name": "The Visarch",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 90
+    }
+   ],
+   "options": [],
+   "rosterMax": 1,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "the-yncarne",
+   "name": "The Yncarne",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "MONSTER",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 260
+    }
+   ],
+   "options": [],
+   "rosterMax": 1,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "troupe",
+   "name": "Troupe",
+   "legends": false,
+   "keywords": [
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 85
+    },
+    {
+     "models": 12,
+     "pts": 204
+    }
+   ],
+   "options": [
+    {
+     "id": "4-11-players",
+     "name": "4-11 Players",
+     "max": 11,
+     "choices": [
+      {
+       "id": "player-with-harlequin-s-blade",
+       "name": "Player with Harlequin's Blade",
+       "pts": 0
+      },
+      {
+       "id": "player-with-harlequin-s-special-weapon",
+       "name": "Player with Harlequin's Special Weapon",
+       "pts": 0
+      },
+      {
+       "id": "player-with-fusion-pistol",
+       "name": "Player with Fusion Pistol",
+       "pts": 0
+      },
+      {
+       "id": "player-with-neuro-disruptor",
+       "name": "Player with Neuro Disruptor",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "lead-player",
+     "name": "Lead Player",
+     "max": null,
+     "choices": [
+      {
+       "id": "lead-player",
+       "name": "Lead Player",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "troupe-master",
+   "name": "Troupe Master",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 75
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-melee-weapon",
+     "name": "Wargear · Melee Weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "harlequin-s-special-weapon",
+       "name": "Harlequin's Special Weapon",
+       "pts": 0
+      },
+      {
+       "id": "troupe-master-s-blade",
+       "name": "Troupe Master's Blade",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-pistol",
+     "name": "Wargear · Pistol",
+     "max": 1,
+     "choices": [
+      {
+       "id": "shuriken-pistol",
+       "name": "Shuriken Pistol",
+       "pts": 0
+      },
+      {
+       "id": "fusion-pistol",
+       "name": "Fusion Pistol",
+       "pts": 0
+      },
+      {
+       "id": "neuro-disruptor",
+       "name": "Neuro Disruptor",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "venom",
+   "name": "Venom",
+   "legends": false,
+   "keywords": [
+    "DEDICATED TRANSPORT",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "bladevanes",
+       "name": "Bladevanes",
+       "pts": 0
+      },
+      {
+       "id": "splinter-cannon",
+       "name": "Splinter Cannon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-weapon-option",
+     "name": "Wargear · Weapon Option",
+     "max": 1,
+     "choices": [
+      {
+       "id": "splinter-cannon",
+       "name": "Splinter Cannon",
+       "pts": 0
+      },
+      {
+       "id": "twin-splinter-rifle",
+       "name": "Twin Splinter Rifle",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": 6
+  },
+  {
+   "id": "voidraven-bomber",
+   "name": "Voidraven Bomber",
+   "legends": false,
+   "keywords": [
+    "AIRCRAFT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 245
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "bladed-wings",
+       "name": "Bladed wings",
+       "pts": 0
+      },
+      {
+       "id": "voidraven-missiles",
+       "name": "Voidraven Missiles",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-weapon-option",
+     "name": "Wargear · Weapon Option",
+     "max": 1,
+     "choices": [
+      {
+       "id": "2-void-lances",
+       "name": "2 Void Lances",
+       "pts": 0
+      },
+      {
+       "id": "2-dark-scythes",
+       "name": "2 Dark Scythes",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "voidweaver",
+   "name": "Voidweaver",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 125
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "close-combat-weapon",
+       "name": "Close Combat Weapon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-weapon",
+     "name": "Wargear · Weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "prismatic-cannon",
+       "name": "Prismatic Cannon",
+       "pts": 0
+      },
+      {
+       "id": "voidweaver-haywire-cannon",
+       "name": "Voidweaver Haywire Cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "warlock",
+   "name": "Warlock",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 45
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-weapon",
+     "name": "Wargear · Weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "witchblade",
+       "name": "Witchblade",
+       "pts": 0
+      },
+      {
+       "id": "singing-spear",
+       "name": "Singing Spear",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "warlock-conclave",
+   "name": "Warlock Conclave",
+   "legends": false,
+   "keywords": [
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 2,
+     "pts": 55
+    },
+    {
+     "models": 4,
+     "pts": 130
+    }
+   ],
+   "options": [
+    {
+     "id": "2-4-warlocks",
+     "name": "2-4 Warlocks",
+     "max": 4,
+     "choices": [
+      {
+       "id": "warlock-with-witchblade",
+       "name": "Warlock with Witchblade",
+       "pts": 0
+      },
+      {
+       "id": "warlock-with-singing-spear",
+       "name": "Warlock with Singing Spear",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "warlock-skyrunner",
+   "name": "Warlock Skyrunner",
+   "legends": false,
+   "keywords": [
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 45
+    },
+    {
+     "models": 2,
+     "pts": 90
+    }
+   ],
+   "options": [
+    {
+     "id": "1-2-warlock-skyrunners",
+     "name": "1-2 Warlock Skyrunners",
+     "max": 2,
+     "choices": [
+      {
+       "id": "warlock-skyrunner-with-witchblade",
+       "name": "Warlock Skyrunner with Witchblade",
+       "pts": 0
+      },
+      {
+       "id": "warlock-skyrunner-with-singing-spear",
+       "name": "Warlock Skyrunner with Singing Spear",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "warp-hunter",
+   "name": "Warp Hunter",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 145
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "d-flail",
+       "name": "D-Flail",
+       "pts": 0
+      },
+      {
+       "id": "wraithbone-hull",
+       "name": "Wraithbone hull",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-hull-weapon",
+     "name": "Wargear · Hull weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "twin-shuriken-catapult",
+       "name": "Twin Shuriken Catapult",
+       "pts": 0
+      },
+      {
+       "id": "shuriken-cannon",
+       "name": "Shuriken Cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "warp-spiders",
+   "name": "Warp Spiders",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 105
+    },
+    {
+     "models": 10,
+     "pts": 190
+    }
+   ],
+   "options": [
+    {
+     "id": "4-9-warp-spiders",
+     "name": "4-9 Warp Spiders",
+     "max": 9,
+     "choices": [
+      {
+       "id": "warp-spider",
+       "name": "Warp Spider",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "warp-spider-exarch",
+     "name": "Warp Spider Exarch",
+     "max": null,
+     "choices": [
+      {
+       "id": "warp-spider-exarch",
+       "name": "Warp Spider Exarch",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "wave-serpent",
+   "name": "Wave Serpent",
+   "legends": false,
+   "keywords": [
+    "DEDICATED TRANSPORT",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 125
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "wraithbone-hull",
+       "name": "Wraithbone Hull",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-hull-weapon",
+     "name": "Wargear · Hull weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "twin-shuriken-catapult",
+       "name": "Twin Shuriken Catapult",
+       "pts": 0
+      },
+      {
+       "id": "shuriken-cannon",
+       "name": "Shuriken Cannon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-turret-weapon",
+     "name": "Wargear · Turret Weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "twin-aeldari-missile-launcher",
+       "name": "Twin Aeldari Missile Launcher",
+       "pts": 0
+      },
+      {
+       "id": "twin-bright-lance",
+       "name": "Twin Bright Lance",
+       "pts": 0
+      },
+      {
+       "id": "twin-scatter-laser",
+       "name": "Twin Scatter Laser",
+       "pts": 0
+      },
+      {
+       "id": "twin-shuriken-cannon",
+       "name": "Twin Shuriken Cannon",
+       "pts": 0
+      },
+      {
+       "id": "twin-starcannon",
+       "name": "Twin Starcannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": 12
+  },
+  {
+   "id": "webway-gate",
+   "name": "Webway Gate",
+   "legends": false,
+   "keywords": [
+    "FORTIFICATION"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 105
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "windriders",
+   "name": "Windriders",
+   "legends": false,
+   "keywords": [],
+   "unitSizes": [
+    {
+     "models": 3,
+     "pts": 80
+    },
+    {
+     "models": 6,
+     "pts": 160
+    }
+   ],
+   "options": [
+    {
+     "id": "windriders",
+     "name": "Windriders",
+     "max": 6,
+     "choices": [
+      {
+       "id": "windrider-with-twin-shuriken-catapult",
+       "name": "Windrider with Twin Shuriken Catapult",
+       "pts": 0
+      },
+      {
+       "id": "windrider-with-scatter-laser",
+       "name": "Windrider with Scatter Laser",
+       "pts": 0
+      },
+      {
+       "id": "windrider-with-shuriken-cannon",
+       "name": "Windrider with Shuriken Cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "wraithblades",
+   "name": "Wraithblades",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 150
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "wraithguard",
+   "name": "Wraithguard",
+   "legends": false,
+   "keywords": [
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 160
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "wraithknight",
+   "name": "Wraithknight",
+   "legends": false,
+   "keywords": [
+    "MONSTER",
+    "TITANIC",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 435
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "titanic-feet",
+       "name": "Titanic feet",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-left-arm",
+     "name": "Wargear · Left Arm",
+     "max": 1,
+     "choices": [
+      {
+       "id": "scattershield",
+       "name": "Scattershield",
+       "pts": 0
+      },
+      {
+       "id": "heavy-wraithcannon",
+       "name": "Heavy Wraithcannon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-right-arm",
+     "name": "Wargear · Right Arm",
+     "max": 1,
+     "choices": [
+      {
+       "id": "suncannon",
+       "name": "Suncannon",
+       "pts": 0
+      },
+      {
+       "id": "heavy-wraithcannon",
+       "name": "Heavy Wraithcannon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-secondary-weapons",
+     "name": "Wargear · Secondary Weapons",
+     "max": 2,
+     "choices": [
+      {
+       "id": "scatter-laser",
+       "name": "Scatter Laser",
+       "pts": 0
+      },
+      {
+       "id": "shuriken-cannon",
+       "name": "Shuriken Cannon",
+       "pts": 0
+      },
+      {
+       "id": "starcannon",
+       "name": "Starcannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "wraithlord",
+   "name": "Wraithlord",
+   "legends": false,
+   "keywords": [
+    "MONSTER",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 130
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "ghostglaive",
+       "name": "Ghostglaive",
+       "pts": 0
+      },
+      {
+       "id": "wraithbone-fists",
+       "name": "Wraithbone Fists",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-arm-weapons",
+     "name": "Wargear · Arm Weapons",
+     "max": 2,
+     "choices": [
+      {
+       "id": "shuriken-catapult",
+       "name": "Shuriken Catapult",
+       "pts": 0
+      },
+      {
+       "id": "flamer",
+       "name": "Flamer",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-heavy-weapons",
+     "name": "Wargear · Heavy Weapons",
+     "max": 2,
+     "choices": [
+      {
+       "id": "aeldari-missile-launcher",
+       "name": "Aeldari Missile Launcher",
+       "pts": 0
+      },
+      {
+       "id": "bright-lance",
+       "name": "Bright Lance",
+       "pts": 0
+      },
+      {
+       "id": "scatter-laser",
+       "name": "Scatter Laser",
+       "pts": 0
+      },
+      {
+       "id": "shuriken-cannon",
+       "name": "Shuriken Cannon",
+       "pts": 0
+      },
+      {
+       "id": "starcannon",
+       "name": "Starcannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "wraithseer",
+   "name": "Wraithseer",
+   "legends": false,
+   "keywords": [
+    "MONSTER",
+    "PSYKER",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 160
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "destructor",
+       "name": "Destructor",
+       "pts": 0
+      },
+      {
+       "id": "ghostspear",
+       "name": "Ghostspear",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-weapon-option",
+     "name": "Wargear · Weapon Option",
+     "max": 1,
+     "choices": [
+      {
+       "id": "aeldari-missile-launcher",
+       "name": "Aeldari Missile Launcher",
+       "pts": 0
+      },
+      {
+       "id": "bright-lance",
+       "name": "Bright Lance",
+       "pts": 0
+      },
+      {
+       "id": "scatter-laser",
+       "name": "Scatter Laser",
+       "pts": 0
+      },
+      {
+       "id": "shuriken-cannon",
+       "name": "Shuriken Cannon",
+       "pts": 0
+      },
+      {
+       "id": "starcannon",
+       "name": "Starcannon",
+       "pts": 0
+      },
+      {
+       "id": "wraithseer-d-cannon",
+       "name": "Wraithseer D-Cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "wyches",
+   "name": "Wyches",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 10,
+     "pts": 90
+    }
+   ],
+   "options": [
+    {
+     "id": "9-wyches",
+     "name": "9 Wyches",
+     "max": 9,
+     "choices": [
+      {
+       "id": "wych",
+       "name": "Wych",
+       "pts": 0
+      },
+      {
+       "id": "wych-w-gladiatorial-weapons",
+       "name": "Wych w/ Gladiatorial weapons",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "hekatrix",
+     "name": "Hekatrix",
+     "max": null,
+     "choices": [
+      {
+       "id": "hekatrix",
+       "name": "Hekatrix",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "yvraine",
+   "name": "Yvraine",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "EPIC HERO",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 100
+    }
+   ],
+   "options": [],
+   "rosterMax": 1,
+   "leads": [],
+   "transport": null
+  }
+ ]
+}

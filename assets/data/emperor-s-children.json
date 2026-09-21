@@ -1,0 +1,2339 @@
+{
+ "id": "emperor-s-children",
+ "name": "Emperor's Children",
+ "source": "BSData wh40k-10e",
+ "generated": "2026-09-21",
+ "detachments": [
+  {
+   "id": "slaanesh-s-chosen",
+   "name": "Slaanesh's Chosen",
+   "enhancements": []
+  },
+  {
+   "id": "peerless-bladesmen",
+   "name": "Peerless Bladesmen",
+   "enhancements": []
+  },
+  {
+   "id": "rapid-evisceration",
+   "name": "Rapid Evisceration",
+   "enhancements": []
+  },
+  {
+   "id": "coterie-of-the-conceited",
+   "name": "Coterie of the Conceited",
+   "enhancements": []
+  },
+  {
+   "id": "mercurial-host",
+   "name": "Mercurial Host",
+   "enhancements": []
+  },
+  {
+   "id": "carnival-of-excess",
+   "name": "Carnival of Excess",
+   "enhancements": []
+  },
+  {
+   "id": "court-of-the-phoenician",
+   "name": "Court of the Phoenician",
+   "enhancements": []
+  },
+  {
+   "id": "traitoris-lance",
+   "name": "Traitoris Lance",
+   "enhancements": []
+  },
+  {
+   "id": "iconoclast-fiefdom",
+   "name": "Iconoclast Fiefdom",
+   "enhancements": []
+  },
+  {
+   "id": "lords-of-dread",
+   "name": "Lords of Dread",
+   "enhancements": []
+  },
+  {
+   "id": "houndpack-lance",
+   "name": "Houndpack Lance",
+   "enhancements": []
+  },
+  {
+   "id": "infernal-lance",
+   "name": "Infernal Lance",
+   "enhancements": []
+  },
+  {
+   "id": "helhunt-lance",
+   "name": "Helhunt Lance",
+   "enhancements": []
+  },
+  {
+   "id": "daemonic-incursion",
+   "name": "Daemonic Incursion",
+   "enhancements": []
+  },
+  {
+   "id": "legion-of-excess",
+   "name": "Legion of Excess",
+   "enhancements": []
+  },
+  {
+   "id": "scintillating-legion",
+   "name": "Scintillating Legion",
+   "enhancements": []
+  },
+  {
+   "id": "blood-legion",
+   "name": "Blood Legion",
+   "enhancements": []
+  },
+  {
+   "id": "plague-legion",
+   "name": "Plague Legion",
+   "enhancements": []
+  },
+  {
+   "id": "shadow-legion",
+   "name": "Shadow Legion",
+   "enhancements": []
+  }
+ ],
+ "datasheets": [
+  {
+   "id": "breaching-robot",
+   "name": "Breaching Robot",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 35
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-options",
+     "name": "Wargear Options",
+     "max": 1,
+     "choices": [
+      {
+       "id": "bomb-kit",
+       "name": "Bomb Kit",
+       "pts": 0
+      },
+      {
+       "id": "cutting-blade-and-cutting-gear",
+       "name": "Cutting blade and cutting gear",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "champion-of-excess",
+   "name": "Champion of Excess [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "CHARACTER",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "chaos-acastus-knight-asterius",
+   "name": "Chaos Acastus Knight Asterius",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 765
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "asterius-volkite-culverin",
+       "name": "Asterius volkite culverin",
+       "pts": 0
+      },
+      {
+       "id": "karacnos-mortar-battery",
+       "name": "Karacnos mortar battery",
+       "pts": 0
+      },
+      {
+       "id": "twin-conversion-beam-cannon",
+       "name": "Twin conversion beam cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "chaos-acastus-knight-porphyrion",
+   "name": "Chaos Acastus Knight Porphyrion",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 700
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "twin-magna-lascannon",
+       "name": "Twin magna lascannon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-carapace-weapon",
+     "name": "Wargear · Carapace weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "acastus-ironstorm-missile-pod",
+       "name": "Acastus ironstorm missile pod",
+       "pts": 0
+      },
+      {
+       "id": "helios-defence-missiles",
+       "name": "Helios defence missiles",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-shoulder-weapons",
+     "name": "Wargear · Shoulder weapons",
+     "max": 2,
+     "choices": [
+      {
+       "id": "acastus-autocannon",
+       "name": "Acastus autocannon",
+       "pts": 0
+      },
+      {
+       "id": "lascannon",
+       "name": "Lascannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "chaos-cerastus-knight-acheron",
+   "name": "Chaos Cerastus Knight Acheron",
+   "legends": false,
+   "keywords": [
+    "CHARACTER",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 385
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "acheron-flame-cannon",
+       "name": "Acheron flame cannon",
+       "pts": 0
+      },
+      {
+       "id": "reaper-chainfist",
+       "name": "Reaper chainfist",
+       "pts": 0
+      },
+      {
+       "id": "twin-heavy-bolter",
+       "name": "Twin heavy bolter",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "chaos-cerastus-knight-atrapos",
+   "name": "Chaos Cerastus Knight Atrapos",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "CHARACTER",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 395
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "atrapos-lascutter",
+       "name": "Atrapos lascutter",
+       "pts": 0
+      },
+      {
+       "id": "graviton-singularity-cannon",
+       "name": "Graviton singularity cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "chaos-cerastus-knight-castigator",
+   "name": "Chaos Cerastus Knight Castigator",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "CHARACTER",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 385
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "castigator-bolt-cannon",
+       "name": "Castigator bolt cannon",
+       "pts": 0
+      },
+      {
+       "id": "tempest-warblade",
+       "name": "Tempest warblade",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "chaos-cerastus-knight-lancer",
+   "name": "Chaos Cerastus Knight Lancer",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "CHARACTER",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 385
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "cerastus-shock-lance",
+       "name": "Cerastus shock lance",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "chaos-land-raider",
+   "name": "Chaos Land Raider",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 220
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "armoured-tracks",
+       "name": "Armoured tracks",
+       "pts": 0
+      },
+      {
+       "id": "soulshatter-lascannon",
+       "name": "Soulshatter lascannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": 14
+  },
+  {
+   "id": "chaos-questoris-knight-magaera",
+   "name": "Chaos Questoris Knight Magaera",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "CHARACTER",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 375
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "lightning-cannon",
+       "name": "Lightning cannon",
+       "pts": 0
+      },
+      {
+       "id": "phased-plasma-fusil",
+       "name": "Phased plasma-fusil",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-melee-weapon",
+     "name": "Wargear · Melee weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "hekaton-siege-claw-and-twin-rad-cleanser",
+       "name": "Hekaton siege claw and twin rad cleanser",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "chaos-questoris-knight-styrix",
+   "name": "Chaos Questoris Knight Styrix",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "CHARACTER",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 375
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "graviton-crusher",
+       "name": "Graviton crusher",
+       "pts": 0
+      },
+      {
+       "id": "volkite-chierovile",
+       "name": "Volkite chierovile",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-melee-weapon",
+     "name": "Wargear · Melee weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "hekaton-siege-claw-and-twin-rad-cleanser",
+       "name": "Hekaton siege claw and twin rad cleanser",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "chaos-rhino",
+   "name": "Chaos Rhino",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "DEDICATED TRANSPORT",
+    "TRANSPORT",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "armoured-tracks",
+       "name": "Armoured tracks",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": 12
+  },
+  {
+   "id": "chaos-spawn",
+   "name": "Chaos Spawn",
+   "legends": false,
+   "keywords": [
+    "BEAST",
+    "CHAOS"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "chaos-terminators",
+   "name": "Chaos Terminators",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 4,
+     "pts": 145
+    }
+   ],
+   "options": [
+    {
+     "id": "4-terminators",
+     "name": "4 Terminators",
+     "max": 4,
+     "choices": [
+      {
+       "id": "accursed-weapon-and-combi-bolter",
+       "name": "Accursed weapon and combi-bolter",
+       "pts": 0
+      },
+      {
+       "id": "accursed-weapon-and-combi-weapon",
+       "name": "Accursed weapon and combi-weapon",
+       "pts": 0
+      },
+      {
+       "id": "power-fist-and-combi-weapon",
+       "name": "Power fist and combi-weapon",
+       "pts": 0
+      },
+      {
+       "id": "chainfist-and-combi-bolter",
+       "name": "Chainfist and combi-bolter",
+       "pts": 0
+      },
+      {
+       "id": "heavy-weapon",
+       "name": "Heavy weapon",
+       "pts": 0
+      },
+      {
+       "id": "power-fist-and-combi-bolter",
+       "name": "Power fist and combi-bolter",
+       "pts": 0
+      },
+      {
+       "id": "chainfist-and-combi-weapon",
+       "name": "Chainfist and combi-weapon",
+       "pts": 0
+      },
+      {
+       "id": "paired-accursed-weapons",
+       "name": "Paired accursed weapons",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "daemon-prince-of-slaanesh",
+   "name": "Daemon Prince of Slaanesh",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "CHARACTER",
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 180
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "daemon-prince-of-slaanesh-with-wings",
+   "name": "Daemon Prince of Slaanesh with Wings",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "CHARACTER",
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 215
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "daemonettes",
+   "name": "Daemonettes",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "CHAOS",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 90
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "daemonic-charioteer",
+   "name": "Daemonic Charioteer [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "CHARACTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 120
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "daemonic-herald",
+   "name": "Daemonic Herald [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "CHARACTER",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 60
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "defiler",
+   "name": "Defiler",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 250
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "shearing-claws",
+       "name": "Shearing claws",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-replace-heavy-missile-launcher",
+     "name": "Wargear · Replace heavy missile launcher",
+     "max": 1,
+     "choices": [
+      {
+       "id": "heavy-missile-launcher",
+       "name": "Heavy missile launcher",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-main-cannon",
+     "name": "Wargear · Main cannon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "hades-battle-cannon",
+       "name": "Hades battle cannon",
+       "pts": 0
+      },
+      {
+       "id": "ectoplasma-destructor",
+       "name": "Ectoplasma destructor",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-replace-heavy-baleflamer",
+     "name": "Wargear · Replace heavy baleflamer",
+     "max": 1,
+     "choices": [
+      {
+       "id": "heavy-baleflamer",
+       "name": "Heavy baleflamer",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-replace-excruciator-cannons",
+     "name": "Wargear · Replace excruciator cannons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "two-excruciator-cannons",
+       "name": "Two excruciator cannons",
+       "pts": 0
+      },
+      {
+       "id": "two-magma-cutters",
+       "name": "Two magma cutters",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "excruciator",
+   "name": "Excruciator [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "CHARACTER",
+    "GRENADES",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 60
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "fiends",
+   "name": "Fiends",
+   "legends": false,
+   "keywords": [
+    "BEAST",
+    "CHAOS"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 95
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "flawless-blades",
+   "name": "Flawless Blades",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 100
+    }
+   ],
+   "options": [],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "flawless-champion",
+   "name": "Flawless Champion [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "CHARACTER",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 100
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "fulgrim",
+   "name": "Fulgrim",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "CHARACTER",
+    "EPIC HERO",
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 340
+    }
+   ],
+   "options": [],
+   "rosterMax": 1,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "heldrake",
+   "name": "Heldrake",
+   "legends": false,
+   "keywords": [
+    "AIRCRAFT",
+    "CHAOS",
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 195
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "heldrake-claws",
+       "name": "Heldrake claws",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-mouth-weapon",
+     "name": "Wargear · Mouth weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "baleflamer",
+       "name": "Baleflamer",
+       "pts": 0
+      },
+      {
+       "id": "hades-autocannon",
+       "name": "Hades autocannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "immortal-champion",
+   "name": "Immortal Champion [Crucible]",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "CHARACTER",
+    "MONSTER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 180
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "infractors",
+   "name": "Infractors",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "CHAOS",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 85
+    }
+   ],
+   "options": [
+    {
+     "id": "4-9-infractors",
+     "name": "4-9 Infractors",
+     "max": null,
+     "choices": [
+      {
+       "id": "infractor",
+       "name": "Infractor",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "keeper-of-secrets",
+   "name": "Keeper of Secrets",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "CHARACTER",
+    "MONSTER",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 240
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "phantasmagoria",
+       "name": "Phantasmagoria",
+       "pts": 0
+      },
+      {
+       "id": "snapping-claws",
+       "name": "Snapping claws",
+       "pts": 0
+      },
+      {
+       "id": "witstealer-sword",
+       "name": "Witstealer sword",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-wargear",
+     "name": "Wargear · Wargear",
+     "max": 1,
+     "choices": [
+      {
+       "id": "living-whip",
+       "name": "Living whip",
+       "pts": 0
+      },
+      {
+       "id": "ritual-knife",
+       "name": "Ritual knife",
+       "pts": 0
+      },
+      {
+       "id": "shining-aegis",
+       "name": "Shining aegis",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "knight-abominant",
+   "name": "Knight Abominant",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "CHARACTER",
+    "PSYKER",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 355
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "balemace",
+       "name": "Balemace",
+       "pts": 0
+      },
+      {
+       "id": "electroscourge",
+       "name": "Electroscourge",
+       "pts": 0
+      },
+      {
+       "id": "volkite-combustor",
+       "name": "Volkite combustor",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "knight-desecrator",
+   "name": "Knight Desecrator",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "CHARACTER",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 355
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "desecrator-laser-destructor",
+       "name": "Desecrator laser destructor",
+       "pts": 0
+      },
+      {
+       "id": "diabolus-heavy-stubber",
+       "name": "Diabolus heavy stubber",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "knight-despoiler",
+   "name": "Knight Despoiler",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "CHARACTER",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 390
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "titanic-feet",
+       "name": "Titanic feet",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-replace-reaper-chainsword",
+     "name": "Wargear · Replace reaper chainsword",
+     "max": 1,
+     "choices": [
+      {
+       "id": "gatling-cannon-and-flamer",
+       "name": "Gatling cannon and flamer",
+       "pts": 0
+      },
+      {
+       "id": "battle-cannon-and-heavy-stubber",
+       "name": "Battle cannon and heavy stubber",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-replace-warpstrike-claw",
+     "name": "Wargear · Replace warpstrike claw",
+     "max": 1,
+     "choices": [
+      {
+       "id": "gatling-cannon-and-flamer",
+       "name": "Gatling cannon and flamer",
+       "pts": 0
+      },
+      {
+       "id": "battle-cannon-and-heavy-stubber",
+       "name": "Battle cannon and heavy stubber",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "knight-rampager",
+   "name": "Knight Rampager",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "CHARACTER",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 365
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "reaper-chainsword",
+       "name": "Reaper chainsword",
+       "pts": 0
+      },
+      {
+       "id": "warpstrike-claw",
+       "name": "Warpstrike claw",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "knight-ruinator",
+   "name": "Knight Ruinator",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "CHARACTER",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 355
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "darkflame-lance",
+       "name": "Darkflame lance",
+       "pts": 0
+      },
+      {
+       "id": "fellbore",
+       "name": "Fellbore",
+       "pts": 0
+      },
+      {
+       "id": "terrorpulse-missiles",
+       "name": "Terrorpulse missiles",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "knight-tyrant",
+   "name": "Knight Tyrant",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "CHARACTER",
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 410
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "titanic-feet",
+       "name": "Titanic feet",
+       "pts": 0
+      },
+      {
+       "id": "twin-daemonbreath-meltagun",
+       "name": "Twin daemonbreath meltagun",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-carapace-weapons",
+     "name": "Wargear · Carapace weapons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "2-gheiststrike-missile-launchers-and-1-twin-desecrator-cannon",
+       "name": "2 Gheiststrike missile launchers and 1 twin desecrator cannon",
+       "pts": 0
+      },
+      {
+       "id": "2-twin-desecrator-cannons-and-1-gheiststrike-missile-launcher",
+       "name": "2 twin desecrator cannons and 1 gheiststrike missile launcher",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-main-weapons",
+     "name": "Wargear · Main weapons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "brimstone-volcano-lance-and-ectoplasma-decimator",
+       "name": "Brimstone volcano lance and ectoplasma decimator",
+       "pts": 0
+      },
+      {
+       "id": "darkflame-cannon-and-warpshock-harpoon",
+       "name": "Darkflame cannon and warpshock harpoon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "lord-exultant",
+   "name": "Lord Exultant",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "CHARACTER",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "close-combat-weapon",
+       "name": "Close combat weapon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-plasma-pistol",
+     "name": "Wargear · Plasma Pistol",
+     "max": 1,
+     "choices": [
+      {
+       "id": "rapture-lash",
+       "name": "Rapture lash",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-phoenix-power-spear",
+     "name": "Wargear · Phoenix Power Spear",
+     "max": 1,
+     "choices": [
+      {
+       "id": "phoenix-power-spear",
+       "name": "Phoenix power spear",
+       "pts": 0
+      },
+      {
+       "id": "master-crafted-power-sword",
+       "name": "Master-crafted power sword",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "lord-kakophonist",
+   "name": "Lord Kakophonist",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "CHARACTER",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 70
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-weapons",
+     "name": "Wargear · Weapons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "power-sword",
+       "name": "Power sword",
+       "pts": 0
+      },
+      {
+       "id": "screamer-pistol-and-close-combat-weapon",
+       "name": "Screamer pistol and close combat weapon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "lucius-the-eternal",
+   "name": "Lucius the Eternal",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "CHARACTER",
+    "EPIC HERO",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 150
+    }
+   ],
+   "options": [],
+   "rosterMax": 1,
+   "leads": [
+    "flawless-blades"
+   ],
+   "transport": null
+  },
+  {
+   "id": "maulerfiend",
+   "name": "Maulerfiend",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 130
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "maulerfiend-fists",
+       "name": "Maulerfiend fists",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-head-weapons",
+     "name": "Wargear · Head weapons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "2-magma-cutters",
+       "name": "2 magma cutters",
+       "pts": 0
+      },
+      {
+       "id": "lasher-tendrils",
+       "name": "Lasher tendrils",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "noise-marines",
+   "name": "Noise Marines",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 5,
+     "pts": 145
+    }
+   ],
+   "options": [
+    {
+     "id": "5-noise-marines",
+     "name": "5 Noise Marines",
+     "max": 5,
+     "choices": [
+      {
+       "id": "noise-marine-w-sonic-blaster",
+       "name": "Noise Marine w/ sonic blaster",
+       "pts": 0
+      },
+      {
+       "id": "noise-marine-w-blastmaster",
+       "name": "Noise Marine w/ blastmaster",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "reaver-titan",
+   "name": "Reaver Titan",
+   "legends": false,
+   "keywords": [
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 2200
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "reaver-feet",
+       "name": "Reaver feet",
+       "pts": 0
+      },
+      {
+       "id": "reaver-apocalypse-launcher",
+       "name": "Reaver apocalypse launcher",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-weapons",
+     "name": "Wargear · Weapons",
+     "max": 2,
+     "choices": [
+      {
+       "id": "reaver-gatling-blaster",
+       "name": "Reaver gatling blaster",
+       "pts": 0
+      },
+      {
+       "id": "reaver-laser-blaster",
+       "name": "Reaver laser blaster",
+       "pts": 0
+      },
+      {
+       "id": "reaver-melta-cannon",
+       "name": "Reaver melta cannon",
+       "pts": 0
+      },
+      {
+       "id": "reaver-volcano-cannon",
+       "name": "Reaver volcano cannon",
+       "pts": 0
+      },
+      {
+       "id": "reaver-power-fist",
+       "name": "Reaver power fist",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "searchlight",
+   "name": "Searchlight",
+   "legends": false,
+   "keywords": [],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 10
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "seekers",
+   "name": "Seekers",
+   "legends": false,
+   "keywords": [
+    "CHAOS"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 80
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "sentry-gun",
+   "name": "Sentry Gun",
+   "legends": false,
+   "keywords": [
+    "VEHICLE"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 30
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "shalaxi-helbane",
+   "name": "Shalaxi Helbane",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "CHARACTER",
+    "EPIC HERO",
+    "MONSTER",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 340
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "sorcerer",
+   "name": "Sorcerer",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "CHARACTER",
+    "GRENADES",
+    "INFANTRY",
+    "PSYKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 60
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "agonising-energies",
+       "name": "Agonising Energies",
+       "pts": 0
+      },
+      {
+       "id": "force-weapon",
+       "name": "Force weapon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 3,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "tormentors",
+   "name": "Tormentors",
+   "legends": false,
+   "keywords": [
+    "BATTLELINE",
+    "CHAOS",
+    "GRENADES",
+    "INFANTRY"
+   ],
+   "unitSizes": [
+    {
+     "models": 4,
+     "pts": 85
+    },
+    {
+     "models": 9,
+     "pts": 160
+    }
+   ],
+   "options": [
+    {
+     "id": "4-9-tormentors",
+     "name": "4-9 Tormentors",
+     "max": 9,
+     "choices": [
+      {
+       "id": "tormentor",
+       "name": "Tormentor",
+       "pts": 0
+      },
+      {
+       "id": "tormentor-w-plasma-gun",
+       "name": "Tormentor w/ plasma gun",
+       "pts": 0
+      },
+      {
+       "id": "tormentor-w-meltagun",
+       "name": "Tormentor w/ meltagun",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": 6,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "war-dog-brigand",
+   "name": "War Dog Brigand",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 140
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "war-dog-executioner",
+   "name": "War Dog Executioner",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 130
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "war-dog-autocannon",
+       "name": "War Dog autocannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "war-dog-huntsman",
+   "name": "War Dog Huntsman",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 140
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "war-dog-karnivore",
+   "name": "War Dog Karnivore",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 150
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "reaper-chaintalon",
+       "name": "Reaper chaintalon",
+       "pts": 0
+      },
+      {
+       "id": "slaughterclaw",
+       "name": "Slaughterclaw",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "war-dog-moirax",
+   "name": "War Dog Moirax",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 150
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear-weapons",
+     "name": "Wargear · Weapons",
+     "max": 2,
+     "choices": [
+      {
+       "id": "volkite-veuglaire",
+       "name": "Volkite veuglaire",
+       "pts": 0
+      },
+      {
+       "id": "conversion-beam-cannon",
+       "name": "Conversion beam cannon",
+       "pts": 0
+      },
+      {
+       "id": "graviton-pulsar",
+       "name": "Graviton pulsar",
+       "pts": 0
+      },
+      {
+       "id": "lightning-lock",
+       "name": "Lightning lock",
+       "pts": 0
+      },
+      {
+       "id": "siege-claw-and-rad-cleanser",
+       "name": "Siege claw and rad cleanser",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "war-dog-stalker",
+   "name": "War Dog Stalker",
+   "legends": false,
+   "keywords": [
+    "CHAOS",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 140
+    }
+   ],
+   "options": [],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "warbringer-nemesis-titan",
+   "name": "Warbringer Nemesis Titan",
+   "legends": false,
+   "keywords": [
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 2600
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "anvillus-defence-battery",
+       "name": "Anvillus defence battery",
+       "pts": 0
+      },
+      {
+       "id": "ardex-defensor-mauler",
+       "name": "Ardex-defensor mauler",
+       "pts": 0
+      },
+      {
+       "id": "nemesis-feet",
+       "name": "Nemesis feet",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-nemesis-weapon",
+     "name": "Wargear · Nemesis weapon",
+     "max": 1,
+     "choices": [
+      {
+       "id": "nemesis-quake-cannon",
+       "name": "Nemesis quake cannon",
+       "pts": 0
+      },
+      {
+       "id": "nemesis-volcano-cannon",
+       "name": "Nemesis volcano cannon",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-weapons",
+     "name": "Wargear · Weapons",
+     "max": 2,
+     "choices": [
+      {
+       "id": "reaver-gatling-blaster",
+       "name": "Reaver gatling blaster",
+       "pts": 0
+      },
+      {
+       "id": "reaver-laser-blaster",
+       "name": "Reaver laser blaster",
+       "pts": 0
+      },
+      {
+       "id": "reaver-melta-cannon",
+       "name": "Reaver melta cannon",
+       "pts": 0
+      },
+      {
+       "id": "reaver-volcano-cannon",
+       "name": "Reaver volcano cannon",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "warhound-titan",
+   "name": "Warhound Titan",
+   "legends": false,
+   "keywords": [
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 1100
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "warhound-feet",
+       "name": "Warhound feet",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-weapons",
+     "name": "Wargear · Weapons",
+     "max": 2,
+     "choices": [
+      {
+       "id": "warhound-vulcan-mega-bolter",
+       "name": "Warhound vulcan mega-bolter",
+       "pts": 0
+      },
+      {
+       "id": "warhound-inferno-gun",
+       "name": "Warhound inferno gun",
+       "pts": 0
+      },
+      {
+       "id": "warhound-plasma-blastgun",
+       "name": "Warhound plasma blastgun",
+       "pts": 0
+      },
+      {
+       "id": "warhound-turbo-laser-destructor",
+       "name": "Warhound turbo-laser destructor",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  },
+  {
+   "id": "warlord-titan",
+   "name": "Warlord Titan",
+   "legends": false,
+   "keywords": [
+    "TITANIC",
+    "VEHICLE",
+    "WALKER"
+   ],
+   "unitSizes": [
+    {
+     "models": 1,
+     "pts": 3500
+    }
+   ],
+   "options": [
+    {
+     "id": "wargear",
+     "name": "Wargear",
+     "max": null,
+     "choices": [
+      {
+       "id": "ardex-defensor-lascannon",
+       "name": "Ardex-defensor lascannon",
+       "pts": 0
+      },
+      {
+       "id": "ardex-defensor-mauler",
+       "name": "Ardex-defensor mauler",
+       "pts": 0
+      },
+      {
+       "id": "warlord-feet",
+       "name": "Warlord feet",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-main-weapons",
+     "name": "Wargear · Main weapons",
+     "max": 2,
+     "choices": [
+      {
+       "id": "arioch-power-claw",
+       "name": "Arioch power claw",
+       "pts": 0
+      },
+      {
+       "id": "belicosa-volcano-cannon",
+       "name": "Belicosa volcano cannon",
+       "pts": 0
+      },
+      {
+       "id": "macro-gatling-blaster",
+       "name": "Macro gatling blaster",
+       "pts": 0
+      },
+      {
+       "id": "mori-quake-cannon",
+       "name": "Mori quake cannon",
+       "pts": 0
+      },
+      {
+       "id": "sunfury-plasma-annihilator",
+       "name": "Sunfury plasma annihilator",
+       "pts": 0
+      }
+     ]
+    },
+    {
+     "id": "wargear-carapace-weapons",
+     "name": "Wargear · Carapace weapons",
+     "max": 1,
+     "choices": [
+      {
+       "id": "two-apocalypse-launchers",
+       "name": "Two apocalypse launchers",
+       "pts": 0
+      },
+      {
+       "id": "two-laser-blasters",
+       "name": "Two laser blasters",
+       "pts": 0
+      }
+     ]
+    }
+   ],
+   "rosterMax": null,
+   "leads": [],
+   "transport": null
+  }
+ ]
+}
