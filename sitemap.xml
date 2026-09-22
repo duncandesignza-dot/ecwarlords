@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://ecwarlords.co.za/</loc><lastmod>2026-09-22</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://ecwarlords.co.za/about</loc><lastmod>2026-09-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ecwarlords.co.za/gallery</loc><lastmod>2026-09-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ecwarlords.co.za/members</loc><lastmod>2026-09-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ecwarlords.co.za/news</loc><lastmod>2026-09-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ecwarlords.co.za/games</loc><lastmod>2026-09-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ecwarlords.co.za/tools</loc><lastmod>2026-09-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ecwarlords.co.za/join</loc><lastmod>2026-09-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://ecwarlords.co.za/events</loc><lastmod>2026-09-22</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ecwarlords.co.za/standings</loc><lastmod>2026-09-22</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ecwarlords.co.za/dice-roller</loc><lastmod>2026-09-22</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ecwarlords.co.za/damage-calculator</loc><lastmod>2026-09-22</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ecwarlords.co.za/turn-tracker</loc><lastmod>2026-09-22</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ecwarlords.co.za/army-builder</loc><lastmod>2026-09-22</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ecwarlords.co.za/datasheet-lookup</loc><lastmod>2026-09-22</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
+</urlset>
