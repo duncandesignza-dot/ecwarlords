@@ -765,6 +765,24 @@ body.loaded main{animation:pageIn .5s ease both;}
 }
 .tool-card .badge.live{border-color:var(--crimson-bright);color:var(--crimson-glow);}
 
+/* A single card that spans the full grid width, sitting on its own row
+   below the regular 3-up tool cards. Laid out horizontally (icon beside
+   text) since it has the width to spare, dropping to the normal stacked
+   layout once that width disappears on mobile. */
+.tool-card-wide{
+  grid-column:1 / -1;
+  flex-direction:row;
+  align-items:flex-start;
+  gap:26px;
+}
+.tool-card-wide svg{flex:none;margin-bottom:0;margin-top:4px;}
+.tool-card-wide .tcw-body{flex:1;display:flex;flex-direction:column;}
+.tool-card-wide .tcw-body p{flex:none;}
+@media (max-width:760px){
+  .tool-card-wide{flex-direction:column;}
+  .tool-card-wide svg{margin-top:0;}
+}
+
 /* --- shared tool UI --- */
 .tool-wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:26px;align-items:start;}
 @media (max-width:900px){.tool-wrap{grid-template-columns:1fr;}}
@@ -841,6 +859,51 @@ body.loaded main{animation:pageIn .5s ease both;}
 .clock.low{color:var(--crimson-glow);}
 .tt-bar{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:26px;}
 .phase-row{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:18px;}
+
+/* ============================================================
+   MISSION & OBJECTIVE TRACKER
+   ============================================================ */
+.obj-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(84px,1fr));gap:10px;margin-top:6px;}
+.obj-cell{
+  aspect-ratio:1/1;border:1px solid var(--iron);background:var(--void-2);color:var(--bone-dim);
+  display:flex;align-items:center;justify-content:center;flex-direction:column;gap:4px;
+  font-weight:700;font-size:.74rem;letter-spacing:.03em;transition:all .2s var(--ease);
+  padding:6px;text-align:center;
+}
+.obj-cell:hover{border-color:var(--crimson-bright);}
+.obj-cell .o-n{font-family:var(--font-display);font-size:1.3rem;}
+.obj-cell span:last-child{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.obj-cell.p1{background:var(--crimson);border-color:var(--crimson-bright);color:#f7e6e0;}
+.obj-cell.p2{background:#26314e;border-color:#4d6aa8;color:#dbe6ff;}
+
+.obj-summary{display:flex;gap:10px 22px;flex-wrap:wrap;justify-content:center;margin-top:18px;font-size:.92rem;color:var(--bone-dim);text-align:center;}
+.obj-summary b{color:var(--bone);font-variant-numeric:tabular-nums;}
+
+.sec-col h4{font-size:.86rem;letter-spacing:.1em;color:var(--crimson-glow);font-weight:700;margin-bottom:14px;text-transform:uppercase;}
+.sec-row{display:flex;align-items:center;gap:10px;border:1px solid var(--iron);background:var(--void-2);padding:9px 10px;margin-bottom:8px;}
+.sec-row input[type=text]{
+  flex:1;background:transparent;border:none;color:var(--bone);font-family:var(--font-body);font-size:.96rem;font-weight:600;min-width:0;
+}
+.sec-row input[type=text]:focus{outline:none;}
+.sec-row .sec-score{display:flex;align-items:center;gap:6px;flex:none;}
+.sec-row .sec-score button{
+  width:26px;height:26px;border:1px solid var(--iron);background:var(--panel);color:var(--bone);font-size:.95rem;line-height:1;
+}
+.sec-row .sec-score button:hover{border-color:var(--crimson-bright);color:var(--crimson-glow);}
+.sec-row .sec-score .sec-val{min-width:22px;text-align:center;font-weight:700;font-variant-numeric:tabular-nums;}
+.sec-row .sec-x{flex:none;width:26px;height:26px;border:1px solid var(--iron);background:none;color:var(--bone-dim);font-size:.9rem;}
+.sec-row .sec-x:hover{border-color:var(--crimson-bright);color:var(--crimson-glow);}
+.sec-add{margin-top:4px;font-size:.83rem;font-weight:700;letter-spacing:.05em;color:var(--crimson-glow);border:1px dashed var(--iron);width:100%;padding:9px;text-align:center;background:none;}
+.sec-add:hover{border-color:var(--crimson-bright);}
+
+.mt-totals{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:8px;}
+@media (max-width:640px){.mt-totals{grid-template-columns:1fr;}}
+.mt-total-card{border:1px solid var(--iron);background:var(--panel);padding:22px;text-align:center;}
+.mt-total-card .mt-name{font-family:var(--font-display);font-size:1.1rem;margin-bottom:14px;}
+.mt-total-row{display:flex;justify-content:space-between;font-size:.9rem;color:var(--bone-dim);padding:6px 0;border-bottom:1px solid var(--iron-2);}
+.mt-total-row span:last-child{font-weight:700;color:var(--bone);font-variant-numeric:tabular-nums;}
+.mt-total-row.grand{border-bottom:none;margin-top:6px;padding-top:12px;border-top:1px solid var(--iron);}
+.mt-total-row.grand span{font-family:var(--font-display);font-size:1.4rem;color:var(--crimson-glow);}
 
 /* ============================================================
    ARMY BUILDER

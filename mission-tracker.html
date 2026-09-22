@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mission Tracker — Objectives &amp; Secondary Scoring</title>
+<meta name="description" content="Track objective control and secondary mission scoring per battle round, synced with the Turn Tracker — free tool from the Eastern Cape Warlords that works with any Warhammer 40,000 mission pack.">
+<link rel="canonical" href="https://ecwarlords.co.za/mission-tracker">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Eastern Cape Warlords">
+<meta property="og:title" content="Mission Tracker — Objectives &amp; Secondary Scoring | Eastern Cape Warlords">
+<meta property="og:description" content="Track objective control and secondary mission scoring per battle round, synced with the Turn Tracker — free tool from the Eastern Cape Warlords that works with any Warhammer 40,000 mission pack.">
+<meta property="og:url" content="https://ecwarlords.co.za/mission-tracker">
+<meta property="og:image" content="https://ecwarlords.co.za/assets/logo.webp">
+<meta property="og:locale" content="en_ZA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mission Tracker — Objectives &amp; Secondary Scoring | Eastern Cape Warlords">
+<meta name="twitter:description" content="Track objective control and secondary mission scoring per battle round, synced with the Turn Tracker — free tool from the Eastern Cape Warlords that works with any Warhammer 40,000 mission pack.">
+<meta name="twitter:image" content="https://ecwarlords.co.za/assets/logo.webp">
+<link rel="icon" href="assets/logo.webp">
+<link rel="stylesheet" href="style.css?v=202609222225">
+</head>
+<body data-page="tools">
+
+<img class="page-flank page-flank-left" src="assets/hero-left.webp" alt="" aria-hidden="true">
+<img class="page-flank page-flank-right" src="assets/hero-right.webp" alt="" aria-hidden="true">
+
+<nav class="topnav">
+  <div class="wrap">
+    <a href="./" class="brand">
+      <img src="assets/logo.webp" alt="Eastern Cape Warlords crest">
+      <span>TABLETOP COMMUNITY</span>
+    </a>
+    <ul class="navlinks" id="navlinks">
+      <li><a href="./" data-page="home">Home</a></li>
+      <li><a href="about" data-page="about">About</a></li>
+      <li><a href="gallery" data-page="gallery">The Armory</a></li>
+      <li><a href="members" data-page="members">The Roster</a></li>
+      <li><a href="news" data-page="news">The Dispatch</a></li>
+      <li><a href="games" data-page="games">Games</a></li>
+      <li><a href="tools" data-page="tools">Tools</a></li>
+      <li><a href="join" data-page="join" class="nav-cta">Join Us</a></li>
+    </ul>
+    <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+  </div>
+</nav>
+
+<main id="main">
+
+  <div class="subhero texture-void texture-stripes" style="padding-bottom:36px;">
+    <div class="wrap">
+      <div class="eyebrow"><a href="tools" style="color:inherit;">TOOLS</a> · MISSION TRACKER</div>
+      <h1>Mission &amp; Objective Tracker</h1>
+      <p>Objective control and secondary mission scoring, round by round. This page shares its saved game with the Turn Tracker, so the battle round and victory points stay in sync between the two — open whichever one you need at the table.</p>
+      <p style="margin-top:10px;font-size:.92rem;">You set today's per-objective points and name your own secondaries each game, so this works with whatever mission pack or edition you're playing — nothing here is locked to one ruleset.</p>
+    </div>
+  </div>
+
+  <div class="section" style="padding-top:26px;">
+    <div class="wrap">
+
+      <!-- ROUND -->
+      <div class="panel reveal" style="text-align:center;margin-bottom:26px;">
+        <div style="display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;">
+          <button id="mt-round-down" style="width:38px;height:38px;border:1px solid var(--iron);background:var(--void-2);color:var(--bone);font-size:1.2rem;">−</button>
+          <span style="text-align:center;">
+            <span style="display:block;font-family:var(--font-display);font-size:2.2rem;color:var(--crimson-glow);" id="mt-round">1</span>
+            <span style="display:block;font-size:.7rem;letter-spacing:.14em;color:var(--bone-dim);font-weight:700;">BATTLE ROUND</span>
+          </span>
+          <button id="mt-round-up" style="width:38px;height:38px;border:1px solid var(--iron);background:var(--void-2);color:var(--bone);font-size:1.2rem;">+</button>
+        </div>
+        <p style="color:var(--bone-dim);font-size:.82rem;margin-top:12px;">Shared with the Turn Tracker's round counter. Player names are set there too.</p>
+      </div>
+
+      <!-- OBJECTIVES -->
+      <div class="panel reveal" style="margin-bottom:26px;">
+        <h3>Objectives <span class="hint">tap a marker to cycle Neutral → Player 1 → Player 2</span></h3>
+
+        <div class="frow" style="max-width:420px;margin-bottom:18px;">
+          <div class="fld">
+            <label for="mt-objpts">Points per objective controlled</label>
+            <input id="mt-objpts" type="number" min="0" max="99" value="5">
+          </div>
+          <div class="fld">
+            <label>Objectives on the table</label>
+            <div style="display:flex;gap:8px;align-items:center;">
+              <button id="mt-obj-remove" class="btn btn-ghost" style="padding:9px 14px;">−</button>
+              <span id="mt-obj-count" style="font-family:var(--font-display);font-size:1.3rem;min-width:24px;text-align:center;">6</span>
+              <button id="mt-obj-add" class="btn btn-ghost" style="padding:9px 14px;">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="obj-grid" id="mt-obj-grid"></div>
+
+        <div class="obj-summary" id="mt-round-pts"></div>
+
+        <div class="tt-bar" style="margin-top:20px;">
+          <button class="btn btn-primary" id="mt-log-round">Log This Round's Primary VP</button>
+          <button class="btn btn-ghost" id="mt-log-undo">Undo Last Round Logged</button>
+        </div>
+
+        <table class="schedule-table" style="margin-top:22px;">
+          <thead><tr><th>Round</th><th id="mt-log-h1">Player 1</th><th id="mt-log-h2">Player 2</th></tr></thead>
+          <tbody id="mt-log-body"></tbody>
+        </table>
+      </div>
+
+      <!-- SECONDARIES -->
+      <div class="panel reveal" style="margin-bottom:26px;">
+        <h3>Secondary Missions <span class="hint">name your own, score them as you go</span></h3>
+        <div class="tt-players" style="gap:26px;">
+          <div class="sec-col" id="mt-sec-1">
+            <h4 id="mt-sec-h1">Player 1</h4>
+            <button class="sec-add" id="mt-sec-add-1">+ Add Secondary</button>
+          </div>
+          <div class="sec-col" id="mt-sec-2">
+            <h4 id="mt-sec-h2">Player 2</h4>
+            <button class="sec-add" id="mt-sec-add-2">+ Add Secondary</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- TOTALS -->
+      <div class="panel reveal" style="margin-bottom:26px;">
+        <h3>Totals <span class="hint">writes into the Turn Tracker's victory points automatically</span></h3>
+        <div class="mt-totals">
+          <div class="mt-total-card">
+            <div class="mt-name" id="mt-name-1">Player 1</div>
+            <div class="mt-total-row"><span>Primary VP</span><span id="mt-primary-1">0</span></div>
+            <div class="mt-total-row"><span>Secondary VP</span><span id="mt-secondary-1">0</span></div>
+            <div class="mt-total-row grand"><span>Total</span><span id="mt-grand-1">0</span></div>
+          </div>
+          <div class="mt-total-card">
+            <div class="mt-name" id="mt-name-2">Player 2</div>
+            <div class="mt-total-row"><span>Primary VP</span><span id="mt-primary-2">0</span></div>
+            <div class="mt-total-row"><span>Secondary VP</span><span id="mt-secondary-2">0</span></div>
+            <div class="mt-total-row grand"><span>Total</span><span id="mt-grand-2">0</span></div>
+          </div>
+        </div>
+        <p style="color:var(--bone-dim);font-size:.82rem;margin-top:16px;">These totals are saved as each player's victory points, so they'll show on the Turn Tracker too. If you manually adjust VP on the Turn Tracker, it'll be overwritten the next time you change anything on this page.</p>
+      </div>
+
+      <div class="tt-bar">
+        <a href="turn-tracker" class="btn btn-ghost">Open Turn Tracker</a>
+        <button class="btn btn-ghost" id="mt-reset">Reset Mission Tracker</button>
+      </div>
+
+    </div>
+  </div>
+
+</main>
+
+<div class="footer-banner"><img src="assets/footer-banner.webp" alt="" loading="lazy"></div>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/logo.webp" alt="Eastern Cape Warlords crest">
+        Eastern Cape Warlords
+      </div>
+      <div class="footer-links">
+        <a href="./">Home</a>
+        <a href="about">About</a>
+        <a href="gallery">The Armory</a>
+        <a href="members">The Roster</a>
+        <a href="news">The Dispatch</a>
+        <a href="games">Games</a>
+        <a href="tools">Tools</a>
+        <a href="join">Join Us</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Eastern Cape Warlords Wargaming Club. Warhammer 40,000, Warhammer Age of Sigmar, and Blood Bowl are trademarks of Games Workshop Ltd. Kings of War is a trademark of Mantic Games. Dungeons &amp; Dragons is a trademark of Wizards of the Coast. Not affiliated with or endorsed by any of the above.</span>
+      <span>Eastern Cape · Thursdays, 7–10 PM</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js?v=202609222225"></script>
+<script>
+(function(){
+  "use strict";
+  var $ = function(id){ return document.getElementById(id); };
+  var KEY = 'ecw-turn-tracker';
+
+  var state = {
+    round:1, phase:'Command', active:1,
+    vp:{1:0,2:0}, cp:{1:0,2:0},
+    names:{1:'Player One',2:'Player Two'},
+    mins:75, clockOn:false, running:false,
+    left:{1: 75*60, 2: 75*60},
+    objPoints:5,
+    objectives:[{owner:0},{owner:0},{owner:0},{owner:0},{owner:0},{owner:0}],
+    primaryLog:[],
+    primaryTotal:{1:0,2:0},
+    secondaries:{1:[],2:[]}
+  };
+
+  function save(){
+    try{ localStorage.setItem(KEY, JSON.stringify(state)); }catch(e){}
+  }
+  function load(){
+    try{
+      var raw = localStorage.getItem(KEY);
+      if(raw){
+        var s = JSON.parse(raw);
+        if(s && typeof s === 'object'){
+          state = Object.assign(state, s);
+          state.running = false;
+          if(!Array.isArray(state.objectives) || !state.objectives.length){
+            state.objectives = [{owner:0},{owner:0},{owner:0},{owner:0},{owner:0},{owner:0}];
+          }
+          if(!state.secondaries) state.secondaries = {1:[],2:[]};
+          if(!Array.isArray(state.secondaries[1])) state.secondaries[1] = [];
+          if(!Array.isArray(state.secondaries[2])) state.secondaries[2] = [];
+          if(!state.primaryTotal) state.primaryTotal = {1:0,2:0};
+          if(!Array.isArray(state.primaryLog)) state.primaryLog = [];
+          if(typeof state.objPoints !== 'number') state.objPoints = 5;
+        }
+      }
+    }catch(e){}
+  }
+
+  function escAttr(s){
+    return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');
+  }
+
+  function objCounts(){
+    var c = {0:0,1:0,2:0};
+    state.objectives.forEach(function(o){ c[o.owner] = (c[o.owner]||0) + 1; });
+    return c;
+  }
+
+  function renderObjectives(){
+    var grid = $('mt-obj-grid');
+    grid.innerHTML = '';
+    state.objectives.forEach(function(o, i){
+      var cell = document.createElement('button');
+      cell.type = 'button';
+      cell.className = 'obj-cell' + (o.owner === 1 ? ' p1' : o.owner === 2 ? ' p2' : '');
+      var label = o.owner === 0 ? 'Neutral' : escAttr(state.names[o.owner]);
+      cell.innerHTML = '<span class="o-n">'+(i+1)+'</span><span>'+label+'</span>';
+      cell.addEventListener('click', function(){
+        o.owner = (o.owner + 1) % 3;
+        save(); renderObjectives(); renderRoundPts();
+      });
+      grid.appendChild(cell);
+    });
+    $('mt-obj-count').textContent = state.objectives.length;
+  }
+
+  function renderRoundPts(){
+    var c = objCounts();
+    var p1pts = c[1] * state.objPoints;
+    var p2pts = c[2] * state.objPoints;
+    $('mt-round-pts').innerHTML =
+      '<span><b>'+escAttr(state.names[1])+'</b>: '+c[1]+' objective'+(c[1]===1?'':'s')+' &middot; '+p1pts+' pts this round</span>'+
+      '<span><b>'+escAttr(state.names[2])+'</b>: '+c[2]+' objective'+(c[2]===1?'':'s')+' &middot; '+p2pts+' pts this round</span>';
+    $('mt-objpts').value = state.objPoints;
+  }
+
+  function renderLog(){
+    $('mt-log-h1').textContent = state.names[1];
+    $('mt-log-h2').textContent = state.names[2];
+    var body = $('mt-log-body');
+    body.innerHTML = '';
+    if(!state.primaryLog.length){
+      body.innerHTML = '<tr><td colspan="3" style="color:var(--bone-dim);">No rounds logged yet — use the button above once objectives are set for the round.</td></tr>';
+    } else {
+      state.primaryLog.forEach(function(row){
+        var tr = document.createElement('tr');
+        tr.innerHTML = '<td>Round '+row.round+'</td><td>'+row.p1+'</td><td>'+row.p2+'</td>';
+        body.appendChild(tr);
+      });
+    }
+  }
+
+  function computeSecTotals(){
+    var secTotal = {1:0,2:0};
+    [1,2].forEach(function(p){
+      (state.secondaries[p]||[]).forEach(function(s){ secTotal[p] += (s.cur||0); });
+    });
+    return secTotal;
+  }
+
+  function syncVP(){
+    var secTotal = computeSecTotals();
+    state.vp[1] = state.primaryTotal[1] + secTotal[1];
+    state.vp[2] = state.primaryTotal[2] + secTotal[2];
+  }
+
+  function renderTotals(){
+    var secTotal = computeSecTotals();
+    [1,2].forEach(function(p){
+      $('mt-name-'+p).textContent = state.names[p];
+      $('mt-primary-'+p).textContent = state.primaryTotal[p];
+      $('mt-secondary-'+p).textContent = secTotal[p];
+      $('mt-grand-'+p).textContent = state.primaryTotal[p] + secTotal[p];
+    });
+  }
+
+  function renderSecondaries(){
+    [1,2].forEach(function(p){
+      $('mt-sec-h'+p).textContent = state.names[p];
+      var col = $('mt-sec-'+p);
+      col.querySelectorAll('.sec-row').forEach(function(r){ r.remove(); });
+      var addBtn = $('mt-sec-add-'+p);
+      (state.secondaries[p]||[]).forEach(function(s, idx){
+        var row = document.createElement('div');
+        row.className = 'sec-row';
+        row.innerHTML =
+          '<input type="text" placeholder="Secondary mission name" value="'+escAttr(s.name)+'">'+
+          '<div class="sec-score">'+
+            '<button type="button" data-a="dec">−</button>'+
+            '<span class="sec-val">'+s.cur+'</span>'+
+            '<button type="button" data-a="inc">+</button>'+
+          '</div>'+
+          '<button type="button" class="sec-x" aria-label="Remove secondary">✕</button>';
+        row.querySelector('input').addEventListener('input', function(){
+          s.name = this.value; save();
+        });
+        row.querySelector('[data-a="dec"]').addEventListener('click', function(){
+          s.cur = Math.max(0, s.cur - 1); save(); renderSecondaries(); renderTotals(); syncVP(); save();
+        });
+        row.querySelector('[data-a="inc"]').addEventListener('click', function(){
+          s.cur = s.cur + 1; save(); renderSecondaries(); renderTotals(); syncVP(); save();
+        });
+        row.querySelector('.sec-x').addEventListener('click', function(){
+          state.secondaries[p].splice(idx,1); save(); renderSecondaries(); renderTotals(); syncVP(); save();
+        });
+        col.insertBefore(row, addBtn);
+      });
+    });
+  }
+
+  function renderAll(){
+    $('mt-round').textContent = state.round;
+    renderObjectives();
+    renderRoundPts();
+    renderLog();
+    renderSecondaries();
+    syncVP();
+    renderTotals();
+  }
+
+  $('mt-round-up').addEventListener('click', function(){
+    state.round = Math.min(10, state.round+1); save(); renderAll();
+  });
+  $('mt-round-down').addEventListener('click', function(){
+    state.round = Math.max(1, state.round-1); save(); renderAll();
+  });
+
+  $('mt-objpts').addEventListener('change', function(){
+    state.objPoints = Math.max(0, parseInt(this.value,10) || 0);
+    save(); renderRoundPts();
+  });
+
+  $('mt-obj-add').addEventListener('click', function(){
+    if(state.objectives.length >= 12) return;
+    state.objectives.push({owner:0});
+    save(); renderObjectives(); renderRoundPts();
+  });
+  $('mt-obj-remove').addEventListener('click', function(){
+    if(state.objectives.length <= 1) return;
+    state.objectives.pop();
+    save(); renderObjectives(); renderRoundPts();
+  });
+
+  $('mt-log-round').addEventListener('click', function(){
+    var c = objCounts();
+    var p1pts = c[1] * state.objPoints, p2pts = c[2] * state.objPoints;
+    state.primaryLog.push({round: state.round, p1:p1pts, p2:p2pts});
+    state.primaryTotal[1] += p1pts;
+    state.primaryTotal[2] += p2pts;
+    syncVP(); save(); renderLog(); renderTotals();
+  });
+  $('mt-log-undo').addEventListener('click', function(){
+    var last = state.primaryLog.pop();
+    if(last){
+      state.primaryTotal[1] = Math.max(0, state.primaryTotal[1] - last.p1);
+      state.primaryTotal[2] = Math.max(0, state.primaryTotal[2] - last.p2);
+    }
+    syncVP(); save(); renderLog(); renderTotals();
+  });
+
+  [1,2].forEach(function(p){
+    $('mt-sec-add-'+p).addEventListener('click', function(){
+      state.secondaries[p].push({name:'', cur:0});
+      save(); renderSecondaries();
+    });
+  });
+
+  $('mt-reset').addEventListener('click', function(){
+    if(!confirm('Reset objectives, secondaries and the primary VP log? Round, names, CP and the clock are untouched.')) return;
+    state.objectives = state.objectives.map(function(){ return {owner:0}; });
+    state.primaryLog = [];
+    state.primaryTotal = {1:0,2:0};
+    state.secondaries = {1:[],2:[]};
+    syncVP(); save(); renderAll();
+  });
+
+  load();
+  renderAll();
+})();
+</script>
+</body>
+</html>
