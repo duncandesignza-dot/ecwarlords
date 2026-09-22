@@ -159,6 +159,122 @@
     }
   }
 
+  /* ---------- FACTION DATA (used on factions.html) ---------- */
+  var FACTION_DATA = [
+    {id:'space-marines', name:'Space Marines', sub:'Adeptus Astartes', cat:'imperium', catLabel:'IMPERIUM OF MAN', icon:'ico-fhelm', color:'#8a97a8', tags:['Power Armour','Elite Infantry'], desc:'Genetically-engineered super-soldiers in power armour, organised into a thousand Chapters and scattered across the galaxy to defend humanity wherever the fighting is worst.'},
+    {id:'blood-angels', name:'Blood Angels', sub:'Space Marine Chapter', cat:'imperium', catLabel:'IMPERIUM OF MAN', icon:'ico-fhelm', color:'#8a1a1a', tags:['Space Marine Chapter','Melee'], desc:'Noble and tragic, the Blood Angels wage constant war against the Black Rage — a genetic curse that can turn their finest warriors into ravening beasts on the battlefield.'},
+    {id:'dark-angels', name:'Dark Angels', sub:'Space Marine Chapter', cat:'imperium', catLabel:'IMPERIUM OF MAN', icon:'ico-fwing', color:'#2f4a2f', tags:['Space Marine Chapter','Terminators'], desc:'The First Legion hides a dark secret from the Horus Heresy, and its Deathwing and Ravenwing companies hunt fallen brothers across the stars in an endless, silent inquest.'},
+    {id:'space-wolves', name:'Space Wolves', sub:'Space Marine Chapter', cat:'imperium', catLabel:'IMPERIUM OF MAN', icon:'ico-fwolf', color:'#4a6a8a', tags:['Space Marine Chapter','Aggressive'], desc:'Savage, proud and fiercely loyal, the Space Wolves fight as much with tooth and claw as with bolter and blade, led by Great Companies bound by ancient Fenrisian tradition.'},
+    {id:'black-templars', name:'Black Templars', sub:'Space Marine Chapter', cat:'imperium', catLabel:'IMPERIUM OF MAN', icon:'ico-fhelm', color:'#6a1414', tags:['Space Marine Chapter','Melee'], desc:'Zealous crusaders who reject the Codex Astartes in favour of righteous fury, the Black Templars purge the Emperor\'s enemies with sword, chainaxe and unwavering faith.'},
+    {id:'deathwatch', name:'Deathwatch', sub:'Space Marine Chapter', cat:'imperium', catLabel:'IMPERIUM OF MAN', icon:'ico-feye', color:'#2f3a2f', tags:['Space Marine Chapter','Xenos Hunters'], desc:'An elite Chapter drawn from veterans of every other Space Marine Chapter, the Deathwatch exists for one purpose: hunting the alien threats too dangerous for anyone else.'},
+    {id:'grey-knights', name:'Grey Knights', sub:'Space Marine Chapter', cat:'imperium', catLabel:'IMPERIUM OF MAN', icon:'ico-fhalo', color:'#9aa8c9', tags:['Psychic','Daemon Hunters'], desc:'Secret, silver-armoured daemon hunters wielding psychic power and nemesis force weapons, the Grey Knights are humanity\'s last and purest line of defence against the warp.'},
+    {id:'adeptus-custodes', name:'Adeptus Custodes', sub:null, cat:'imperium', catLabel:'IMPERIUM OF MAN', icon:'ico-fspear', color:'#d9b76a', tags:['Elite','Melee'], desc:'Golden-armoured demigods who guard the Emperor\'s throne room itself, the Custodes are among the deadliest warriors in the galaxy, now marching to war in ever-greater numbers.'},
+    {id:'adepta-sororitas', name:'Adepta Sororitas', sub:'Sisters of Battle', cat:'imperium', catLabel:'IMPERIUM OF MAN', icon:'ico-fchalice', color:'#8a1220', tags:['Faith','Infantry'], desc:'Faith made manifest in bolter and flame, the Orders Militant of the Adepta Sororitas burn heresy from the Imperium with fanatical devotion and miracles of the Emperor.'},
+    {id:'adeptus-mechanicus', name:'Adeptus Mechanicus', sub:null, cat:'imperium', catLabel:'IMPERIUM OF MAN', icon:'ico-fcog', color:'#a83c1e', tags:['Ranged','Robots'], desc:'The tech-priests of Mars worship the Machine God, fielding ranks of skitarii, war-walkers and blessed weapons in service of the Omnissiah\'s sacred data.'},
+    {id:'astra-militarum', name:'Astra Militarum', sub:'Imperial Guard', cat:'imperium', catLabel:'IMPERIUM OF MAN', icon:'ico-fstar', color:'#5a6b2e', tags:['Horde','Tanks'], desc:'The hammer of the Emperor, fielded in overwhelming numbers — endless ranks of guardsmen, thunderous artillery and armoured columns of Leman Russ tanks.'},
+    {id:'imperial-knights', name:'Imperial Knights', sub:null, cat:'imperium', catLabel:'IMPERIUM OF MAN', icon:'ico-fknight', color:'#b8933f', tags:['Super-heavy','Vehicles'], desc:'Noble houses pilot towering armoured war-machines into battle, each Knight a family legacy passed down through generations of pilots sworn to the Imperium\'s defence.'},
+    {id:'imperial-agents', name:'Imperial Agents', sub:null, cat:'imperium', catLabel:'IMPERIUM OF MAN', icon:'ico-fhood', color:'#3a3a4a', tags:['Elite','Covert'], desc:'Inquisitors, assassins and inter-service operatives who work in the shadows of the Imperium, assembling covert strike forces to deal with threats too sensitive for open war.'},
+
+    {id:'chaos-space-marines', name:'Chaos Space Marines', sub:null, cat:'chaos', catLabel:'FORCES OF CHAOS', icon:'ico-fchaos', color:'#6a1414', tags:['Power Armour','Heretic Legion'], desc:'Traitor Legions and warbands who turned from the Emperor ten thousand years ago, now waging eternal war in the name of the Dark Gods and their own twisted ambitions.'},
+    {id:'world-eaters', name:'World Eaters', sub:null, cat:'chaos', catLabel:'FORCES OF CHAOS', icon:'ico-faxe', color:'#8a1220', tags:['Melee','Khorne'], desc:'Devoted to Khorne above all else, the World Eaters exist only for slaughter, their Berzerkers driven into blood-soaked, unstoppable close-combat frenzies.'},
+    {id:'death-guard', name:'Death Guard', sub:null, cat:'chaos', catLabel:'FORCES OF CHAOS', icon:'ico-fskull', color:'#4a5a3a', tags:['Resilient','Nurgle'], desc:'Rotting, immortal and utterly resilient, the Death Guard spread Nurgle\'s gifts of plague and decay across the galaxy, shrugging off wounds that would kill any other army.'},
+    {id:'thousand-sons', name:'Thousand Sons', sub:null, cat:'chaos', catLabel:'FORCES OF CHAOS', icon:'ico-fthirdeye', color:'#2f6a8a', tags:['Psychic','Tzeentch'], desc:'Sorcerer-warriors bound in cursed dust-filled armour, the Thousand Sons wield the power of Tzeentch\'s warp-sorcery to burn, curse and unmake their foes.'},
+    {id:'emperors-children', name:'Emperor\'s Children', sub:null, cat:'chaos', catLabel:'FORCES OF CHAOS', icon:'ico-fblade', color:'#6a2d6e', tags:['Melee','Slaanesh'], desc:'Once the Emperor\'s most perfect Legion, now hedonistic slaves to Slaanesh, the Emperor\'s Children fight with theatrical, agonising excess and lethal grace.'},
+    {id:'chaos-knights', name:'Chaos Knights', sub:null, cat:'chaos', catLabel:'FORCES OF CHAOS', icon:'ico-fknight', color:'#5a2020', tags:['Super-heavy','Vehicles'], desc:'Fallen noble houses whose towering war engines now serve the Dark Gods, each Knight a rusted, daemon-possessed giant hungry for slaughter.'},
+
+    {id:'tyranids', name:'Tyranids', sub:null, cat:'xenos', catLabel:'XENOS', icon:'ico-fclaw', color:'#8a6a1a', tags:['Swarm','Melee'], desc:'A ravenous hive-mind swarm from beyond the galaxy\'s edge, the Tyranids consume entire worlds down to bedrock, adapting new bio-forms with terrifying speed.'},
+    {id:'aeldari', name:'Aeldari', sub:'Eldar', cat:'xenos', catLabel:'XENOS', icon:'ico-frune', color:'#2f6a5a', tags:['Fast','Psychic'], desc:'An ancient, dying race of psychically gifted warrior-aesthetes, the Aeldari fight with speed and precision, striking hard from grav-tanks and jetbikes before vanishing again.'},
+    {id:'drukhari', name:'Drukhari', sub:null, cat:'xenos', catLabel:'XENOS', icon:'ico-fthorn', color:'#4a1a4a', tags:['Fast','Raiders'], desc:'Cruel raiders from the webway city of Commorragh, the Drukhari harvest suffering to stave off their own damnation, striking from raiders and skimmers in blindingly fast raids.'},
+    {id:'orks', name:'Orks', sub:null, cat:'xenos', catLabel:'XENOS', icon:'ico-ftusk', color:'#4a6b2e', tags:['Horde','Melee'], desc:'Boisterous, brutal and endlessly numerous, the Orks fight because it\'s fun — a green tide of choppas, shootas and ramshackle war machines held together by sheer belief.'},
+    {id:'necrons', name:'Necrons', sub:null, cat:'xenos', catLabel:'XENOS', icon:'ico-fscarab', color:'#3a5a5a', tags:['Resilient','Ranged'], desc:'An ancient robotic empire awakening from sixty million years of slumber, the Necrons march to reclaim the galaxy with living metal bodies and reality-warping technology.'},
+    {id:'tau-empire', name:'T\'au Empire', sub:null, cat:'xenos', catLabel:'XENOS', icon:'ico-fsun', color:'#c46a2a', tags:['Ranged','Battlesuits'], desc:'A young, idealistic alien empire united under the Greater Good, the T\'au field disciplined battlesuit teams and devastating ranged firepower alongside allied auxiliary races.'},
+    {id:'leagues-of-votann', name:'Leagues of Votann', sub:null, cat:'xenos', catLabel:'XENOS', icon:'ico-fcoin', color:'#8a7a4a', tags:['Resilient','Tech'], desc:'Stoic void-dwelling ancestor-worshippers descended from humanity\'s lost Kin, the Votann field rugged power-armoured warriors backed by ancient, sanctified technology.'},
+    {id:'genestealer-cults', name:'Genestealer Cults', sub:null, cat:'xenos', catLabel:'XENOS', icon:'ico-fclaw', color:'#6a2d6e', tags:['Infiltration','Hybrid'], desc:'A hidden insurgency of hybrid cultists infiltrating Imperial worlds from within, the Genestealer Cults erupt in coordinated uprisings ahead of the Tyranid swarm\'s arrival.'}
+  ];
+
+  var factionGrid = document.getElementById('factionGrid');
+  if(factionGrid){
+    FACTION_DATA.forEach(function(item){
+      var card = document.createElement('div');
+      card.className = 'fcard show';
+      card.dataset.cat = item.cat;
+      card.dataset.search = (item.name + ' ' + (item.sub||'') + ' ' + item.tags.join(' ') + ' ' + item.desc).toLowerCase();
+
+      var icon = document.createElement('div');
+      icon.className = 'f-icon';
+      icon.style.color = item.color;
+      icon.innerHTML = '<svg viewBox="0 0 100 100"><use href="#'+item.icon+'"/></svg>';
+      card.appendChild(icon);
+
+      var align = document.createElement('div');
+      align.className = 'f-align';
+      align.textContent = item.catLabel;
+      card.appendChild(align);
+
+      var h3 = document.createElement('h3');
+      h3.textContent = item.name;
+      card.appendChild(h3);
+
+      if(item.sub){
+        var sub = document.createElement('div');
+        sub.className = 'f-sub';
+        sub.textContent = item.sub;
+        card.appendChild(sub);
+      }
+
+      var p = document.createElement('p');
+      p.textContent = item.desc;
+      card.appendChild(p);
+
+      var tagRow = document.createElement('div');
+      tagRow.className = 'f-tags';
+      item.tags.forEach(function(t){
+        var tag = document.createElement('span');
+        tag.className = 'f-tag';
+        tag.textContent = t;
+        tagRow.appendChild(tag);
+      });
+      card.appendChild(tagRow);
+
+      factionGrid.appendChild(card);
+    });
+
+    var factionFilterRow = document.getElementById('factionFilterRow');
+    var factionSearch = document.getElementById('factionSearch');
+    var factionCount = document.getElementById('factionCount');
+    var factionEmpty = document.getElementById('factionEmpty');
+    var activeCat = 'all';
+
+    function applyFactionFilters(){
+      var q = factionSearch ? factionSearch.value.trim().toLowerCase() : '';
+      var visible = 0;
+      factionGrid.querySelectorAll('.fcard').forEach(function(c){
+        var matchesCat = activeCat === 'all' || c.dataset.cat === activeCat;
+        var matchesSearch = !q || c.dataset.search.indexOf(q) !== -1;
+        var show = matchesCat && matchesSearch;
+        c.classList.toggle('show', show);
+        if(show) visible++;
+      });
+      if(factionCount) factionCount.innerHTML = '<b>'+visible+'</b> of '+FACTION_DATA.length+' factions';
+      if(factionEmpty) factionEmpty.classList.toggle('show', visible === 0);
+    }
+
+    if(factionFilterRow){
+      factionFilterRow.addEventListener('click', function(e){
+        var btn = e.target.closest('.filter-btn');
+        if(!btn) return;
+        factionFilterRow.querySelectorAll('.filter-btn').forEach(function(b){b.classList.remove('active');});
+        btn.classList.add('active');
+        activeCat = btn.dataset.filter;
+        applyFactionFilters();
+      });
+    }
+    if(factionSearch){
+      factionSearch.addEventListener('input', applyFactionFilters);
+    }
+    applyFactionFilters();
+  }
+
   /* ---------- HOME PHOTO GALLERY LIGHTBOX ---------- */
   var photoGrid = document.getElementById('photoGrid');
   var photoLightbox = document.getElementById('photoLightbox');
@@ -232,9 +348,9 @@
   }
 
   /* ---------- Stagger grid children on reveal ---------- */
-  // The gallery grid is excluded: its cards are display-toggled by the
-  // faction filter, which conflicts with opacity-based staggering. Those
-  // get the cardIn keyframe animation in CSS instead.
+  // The gallery grid and faction grid are excluded: their cards are
+  // display-toggled by a filter/search, which conflicts with opacity-based
+  // staggering. Those get the cardIn keyframe animation in CSS instead.
   [
     '.teaser-grid', '.photo-grid', '.pillars', '.officer-row',
     '.member-grid', '.steps', '.game-grid', '.news-feed'

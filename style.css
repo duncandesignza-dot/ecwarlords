@@ -1028,6 +1028,52 @@ body.loaded main{animation:pageIn .5s ease both;}
 .dl-walink svg{width:16px;height:16px;}
 /* ---------------------------------------- */
 
+/* ---------- Factions page ---------- */
+.faction-toolbar{
+  display:flex;gap:22px;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;
+  margin-bottom:30px;
+}
+.faction-search-wrap{flex:1 1 260px;max-width:400px;}
+.faction-search-wrap label{display:block;font-size:.82rem;letter-spacing:.09em;font-weight:700;color:var(--crimson-glow);margin-bottom:8px;}
+.faction-search{
+  width:100%;background:var(--void-2);border:1px solid var(--iron);color:var(--bone);
+  padding:12px 14px;font-family:var(--font-body);font-size:1.02rem;
+  transition:border-color .2s var(--ease), background .2s var(--ease);
+}
+.faction-search:focus{border-color:var(--crimson-bright);background:#1d0e0e;outline:none;}
+.faction-count{font-size:.88rem;color:var(--bone-dim);letter-spacing:.04em;white-space:nowrap;padding-bottom:12px;}
+.faction-count b{color:var(--bone);font-weight:700;}
+
+.faction-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+@media (max-width:980px){.faction-grid{grid-template-columns:1fr 1fr;}}
+@media (max-width:640px){.faction-grid{grid-template-columns:1fr;}}
+
+.fcard{
+  border:1px solid var(--iron);background:var(--panel);padding:26px 24px;position:relative;
+  transition:border-color .25s var(--ease), transform .25s var(--ease), box-shadow .25s var(--ease);
+  display:none;
+}
+.fcard.show{display:block;}
+.fcard:hover{border-color:var(--crimson-bright);transform:translateY(-3px);box-shadow:0 14px 34px -18px rgba(0,0,0,.9);}
+.fcard .f-icon{
+  width:52px;height:52px;border-radius:50%;border:1px solid var(--iron);background:var(--void-2);
+  display:flex;align-items:center;justify-content:center;margin-bottom:16px;
+}
+.fcard .f-icon svg{width:28px;height:28px;}
+.fcard .f-align{font-size:.7rem;letter-spacing:.12em;color:var(--crimson-glow);font-weight:700;}
+.fcard h3{font-size:1.18rem;margin:8px 0 2px;}
+.fcard .f-sub{font-size:.87rem;color:var(--bone-dim);font-style:italic;margin-bottom:12px;}
+.fcard p{color:var(--bone-dim);font-size:.98rem;line-height:1.58;}
+.fcard .f-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:16px;}
+.f-tag{
+  font-size:.73rem;letter-spacing:.04em;border:1px solid var(--iron-2);
+  background:var(--void-2);color:var(--bone-dim);padding:4px 9px;font-weight:600;
+}
+.faction-empty{display:none;text-align:center;color:var(--bone-dim);font-size:1.02rem;padding:50px 14px;}
+.faction-empty.show{display:block;}
+@media (hover:none){.fcard:hover{transform:none;}}
+/* ---------------------------------------- */
+
 /* printable list sheet */
 #ab-print{display:none;}
 @media print{
