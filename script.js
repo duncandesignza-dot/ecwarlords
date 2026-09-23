@@ -47,7 +47,12 @@
       open: function(){
         lastFocus = document.activeElement; el.classList.add('open');
         // the dialog fades in from visibility:hidden, so focus once it's focusable
-        if(closeBtn) setTimeout(function(){ closeBtn.focus(); }, 40);
+        if(closeBtn){
+          setTimeout(function(){ closeBtn.focus(); }, 40);
+          // second attempt once the fade-in has finished, in case the first
+          // landed while the dialog was still visibility:hidden
+          setTimeout(function(){ if(el.classList.contains('open') && !el.contains(document.activeElement)) closeBtn.focus(); }, 320);
+        }
       },
       close: function(){
         if(!el.classList.contains('open')) return;
@@ -370,6 +375,71 @@
     if(plbClose) plbClose.addEventListener('click', plbDialog.close);
     photoLightbox.addEventListener('click', function(e){ if(e.target===photoLightbox) plbDialog.close(); });
     document.addEventListener('keydown', function(e){ if(e.key==='Escape') plbDialog.close(); });
+  }
+
+  /* ---------- HOME: FROM THE ARMORY ---------- */
+  // Shows the six newest real pieces from ARMY_DATA (newest entries are at
+  // the end of the array), so adding a model to the Armory updates the
+  // homepage automatically. Opens in the homepage photo lightbox.
+  var homeArmory = document.getElementById('homeArmory');
+  if(homeArmory){
+    ARMY_DATA.filter(function(i){ return i.img; }).slice(-6).reverse().forEach(function(item){
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'ha-card';
+      b.setAttribute('aria-label', 'View ' + item.title + ', painted by ' + item.painter);
+      b.innerHTML =
+        '<img src="'+escAttr(item.img)+'" alt="" loading="lazy">'+
+        '<span class="ha-info">'+
+          '<span class="ha-label">'+escAttr(item.label)+'</span>'+
+          '<span class="ha-title">'+escAttr(item.title)+'</span>'+
+          '<span class="ha-painter">by '+escAttr(item.painter)+'</span>'+
+        '</span>';
+      b.addEventListener('click', function(){
+        if(typeof plbDialog === 'undefined' || !plbDialog){ location.href = 'gallery'; return; }
+        plbImg.src = item.img;
+        plbImg.alt = item.title + ' painted by ' + item.painter;
+        plbCap.textContent = item.title + ' \u2014 painted by ' + item.painter;
+        plbDialog.open();
+      });
+      homeArmory.appendChild(b);
+    });
+  }
+
+  /* ---------- HOME: LATEST FROM THE DISPATCH ---------- */
+  // index.html ships with the three newest posts baked in; this refreshes them
+  // from news.html so new Dispatch posts appear on the homepage on their own.
+  var homeDispatch = document.getElementById('homeDispatch');
+  if(homeDispatch && window.fetch && window.DOMParser){
+    var MONTHS = {january:0,february:1,march:2,april:3,may:4,june:5,july:6,august:7,september:8,october:9,november:10,december:11};
+    var parseNewsDate = function(s){
+      var m = /([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})/.exec(s || '');
+      if(!m || !(m[1].toLowerCase() in MONTHS)) return 0;
+      return new Date(+m[3], MONTHS[m[1].toLowerCase()], +m[2]).getTime();
+    };
+    fetch('news.html').then(function(r){ return r.ok ? r.text() : Promise.reject(); }).then(function(txt){
+      var doc = new DOMParser().parseFromString(txt, 'text/html');
+      var items = [].map.call(doc.querySelectorAll('.news-item'), function(it){
+        var q = function(sel){ var el = it.querySelector(sel); return el ? el.textContent.trim() : ''; };
+        var img = it.querySelector('.news-media img');
+        var date = q('.news-date');
+        return { date:date, t:parseNewsDate(date), title:q('h3'), tag:q('.news-tag'),
+                 img: img ? img.getAttribute('src') : '', alt: img ? img.getAttribute('alt') : '' };
+      }).filter(function(x){ return x.title; });
+      if(!items.length) return;
+      items.sort(function(a,b){ return b.t - a.t; });
+      homeDispatch.innerHTML = items.slice(0,3).map(function(x){
+        var media = x.img
+          ? '<img src="'+escAttr(x.img)+'" alt="'+escAttr(x.alt)+'" loading="lazy">'
+          : '<img class="hd-logo" src="assets/logo.webp" alt="" loading="lazy">';
+        return '<a class="hd-card" href="news">'+
+          '<div class="hd-media">'+media+'</div>'+
+          '<div class="hd-body">'+
+            '<div class="hd-meta"><span>'+escAttr(x.date)+'</span>'+(x.tag ? '<span>'+escAttr(x.tag)+'</span>' : '')+'</div>'+
+            '<h3>'+escAttr(x.title)+'</h3>'+
+          '</div></a>';
+      }).join('');
+    }).catch(function(){ /* keep the baked-in cards */ });
   }
 
   /* ---------- FAQ ACCORDION ---------- */

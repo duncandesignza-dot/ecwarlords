@@ -18,7 +18,7 @@
 <meta name="twitter:description" content="Eastern Cape Warlords is a Warhammer 40K, Age of Sigmar, Kings of War, D&amp;D and board game club in Port Elizabeth, South Africa. New members always welcome.">
 <meta name="twitter:image" content="https://ecwarlords.co.za/assets/logo.webp">
 <link rel="icon" href="assets/logo.webp">
-<link rel="stylesheet" href="style.css?v=202609231302">
+<link rel="stylesheet" href="style.css?v=202609232138">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -47,6 +47,7 @@
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
 <defs>
+  <symbol id="ico-dice" viewBox="0 0 100 100"><rect x="14" y="14" width="72" height="72" rx="10" fill="currentColor"/><circle cx="32" cy="32" r="6" fill="#0a0707"/><circle cx="68" cy="32" r="6" fill="#0a0707"/><circle cx="50" cy="50" r="6" fill="#0a0707"/><circle cx="32" cy="68" r="6" fill="#0a0707"/><circle cx="68" cy="68" r="6" fill="#0a0707"/></symbol>
   <symbol id="ico-brush" viewBox="0 0 100 100"><path fill="currentColor" d="M78 6c6 0 12 6 12 12 0 4-2 7-5 9L52 60l-12-12 33-33c2-3 5-9 5-9zM36 52l12 12-10 10c-6 6-16 8-24 6 3-2 5-6 5-10 0-8-6-14-14-14-2 0-4 0-6 1 2-9 8-16 17-19z"/></symbol>
   <symbol id="ico-sword" viewBox="0 0 100 100"><path fill="currentColor" d="M60 10l8 8-6 6 20 20-8 8-20-20-6 6-8-8zM40 46l14 14-30 30c-3 3-8 3-11 0-3-3-3-8 0-11z"/></symbol>
   <symbol id="ico-flame" viewBox="0 0 100 100"><path fill="currentColor" d="M50 6c4 14-4 20-10 28-8 10-10 18-10 26 0 18 14 32 20 32s20-14 20-32c0-6-2-10-6-14 2 8-2 14-8 14s-10-6-8-14c-4 4-6 8-6 14 0-16 14-24 8-40 6 6 10 14 10 22 6-8 8-18-10-36z"/></symbol>
@@ -141,7 +142,106 @@
     </div>
   </div>
 
-  <div class="section" style="padding-top:0;">
+  <!-- ===== FROM THE ARMORY (filled from the gallery data in script.js) ===== -->
+  <div class="section home-divided">
+    <div class="wrap">
+      <div class="section-head section-head-row reveal">
+        <div>
+          <div class="eyebrow">FROM THE ARMORY</div>
+          <h2>Fresh off the painting desk.</h2>
+          <p>The newest pieces off members' painting desks. Tap any model for a closer look.</p>
+        </div>
+        <a href="gallery" class="head-link">See the full Armory</a>
+      </div>
+      <div class="home-armory reveal" id="homeArmory"></div>
+    </div>
+  </div>
+
+  <!-- ===== LATEST FROM THE DISPATCH (refreshed from news.html in script.js) ===== -->
+  <div class="section home-divided">
+    <div class="wrap">
+      <div class="section-head section-head-row reveal">
+        <div>
+          <div class="eyebrow">THE DISPATCH</div>
+          <h2>Latest from the club.</h2>
+          <p>Showcases, club nights and tournament reports, straight from the club's page.</p>
+        </div>
+        <a href="news" class="head-link">Read all news</a>
+      </div>
+      <div class="home-dispatch reveal" id="homeDispatch">
+        <a class="hd-card" href="news">
+          <div class="hd-media"><img src="assets/belakor.webp" alt="Be'lakor painted by Devin Du Plessis" loading="lazy"></div>
+          <div class="hd-body">
+            <div class="hd-meta"><span>May 12, 2026</span><span>Painting Showcase</span></div>
+            <h3>Be'lakor emerges from the shadows</h3>
+          </div>
+        </a>
+        <a class="hd-card" href="news">
+          <div class="hd-media"><img src="assets/logan-grimnar.webp" alt="Logan Grimnar close-up, painted by Steven John Ovens" loading="lazy"></div>
+          <div class="hd-body">
+            <div class="hd-meta"><span>May 5, 2026</span><span>The Bat Cave Palette Battle 2026</span></div>
+            <h3>The High King, in his own words</h3>
+          </div>
+        </a>
+        <a class="hd-card" href="news">
+          <div class="hd-media"><img src="assets/dispatch-mayhammer.webp" alt="Club members playing Blood Bowl and 40k prepping for Mayhammer" loading="lazy"></div>
+          <div class="hd-body">
+            <div class="hd-meta"><span>May 1, 2026</span><span>Club Night · 8 Photos</span></div>
+            <h3>Prepping for Mayhammer</h3>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== WHAT WE PLAY ===== -->
+  <div class="section home-divided">
+    <div class="wrap">
+      <div class="section-head section-head-row reveal">
+        <div>
+          <div class="eyebrow">NOT JUST 40K</div>
+          <h2>What we play.</h2>
+          <p>Eight systems and counting. If there's a table free and an opponent willing, it gets played.</p>
+        </div>
+        <a href="games" class="head-link">All games</a>
+      </div>
+      <ul class="home-games reveal">
+        <li><a href="games"><img src="assets/w40k-logo.png" alt="" loading="lazy"><span>Warhammer 40,000</span></a></li>
+        <li><a href="games"><img src="assets/aos-logo.png" alt="" loading="lazy"><span>Age of Sigmar</span></a></li>
+        <li><a href="games"><img src="assets/kow-logo.webp" alt="" loading="lazy"><span>Kings of War</span></a></li>
+        <li><a href="games"><img class="tall" src="assets/dnd-logo.svg" alt="" loading="lazy"><span>Dungeons &amp; Dragons</span></a></li>
+        <li><a href="games"><img src="assets/starwarslegion-logo.webp" alt="" loading="lazy"><span>Star Wars: Legion</span></a></li>
+        <li><a href="games"><img src="assets/trenchcrusade-logo.webp" alt="" loading="lazy"><span>Trench Crusade</span></a></li>
+        <li><a href="games"><img src="assets/bloodbowl-logo.png" alt="" loading="lazy"><span>Blood Bowl</span></a></li>
+        <li><a href="games"><svg aria-hidden="true" focusable="false"><use href="#ico-dice"/></svg><span>Board Games</span></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ===== FREE TOOLS PROMO ===== -->
+  <div class="section home-divided">
+    <div class="wrap">
+      <div class="home-tools reveal">
+        <div class="ht-copy">
+          <div class="eyebrow">FREE CLUB TOOLS</div>
+          <h2>Tools for the table.</h2>
+          <p>Roll a full attack sequence, work out expected damage, build a list against a points limit, look up a datasheet or keep score round by round. Free, no sign-up, and built to work on your phone mid-game.</p>
+          <a href="tools" class="btn btn-primary">Open the tools</a>
+        </div>
+        <ul class="ht-links" aria-label="Tools">
+          <li><a href="dice-roller">Dice Roller</a></li>
+          <li><a href="damage-calculator">Damage Calculator</a></li>
+          <li><a href="army-builder">Army Builder</a></li>
+          <li><a href="datasheet-lookup">Datasheet Lookup</a></li>
+          <li><a href="turn-tracker">Turn Tracker</a></li>
+          <li><a href="mission-tracker">Mission Tracker</a></li>
+          <li><a href="factions">Factions</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section home-divided">
     <div class="wrap">
       <div class="section-head reveal">
         <div class="eyebrow">CLUB LIFE</div>
@@ -185,6 +285,19 @@
     </div>
   </div>
 
+  <!-- ===== CLOSING CALL TO ACTION ===== -->
+  <div class="home-cta">
+    <div class="wrap">
+      <div class="eyebrow">THURSDAYS · 7–10 PM</div>
+      <h2>Pull up a chair.</h2>
+      <p>No army? No problem. We'll lend you one, teach you the rules and get a brush in your hand.</p>
+      <div class="cta-row">
+        <a href="join" class="btn btn-primary">Join the club</a>
+        <a href="about" class="btn btn-ghost">About us</a>
+      </div>
+    </div>
+  </div>
+
 </main>
 
 <div class="photo-lightbox" id="photoLightbox" role="dialog" aria-modal="true" aria-label="Photo detail">
@@ -222,6 +335,6 @@
   </div>
 </footer>
 
-<script src="script.js?v=202609231302"></script>
+<script src="script.js?v=202609232138"></script>
 </body>
 </html>
