@@ -495,13 +495,31 @@
     });
   }
 
-  /* ---------- JOIN FORM (static demo) ---------- */
+  /* ---------- JOIN FORM → WHATSAPP ---------- */
+  // No backend: the form composes a message and opens WhatsApp (app on
+  // phones, WhatsApp Web on desktop) addressed to the club's number.
+  var CLUB_WHATSAPP = '27724749572';   // +27 72 474 9572, international format, digits only
   var joinForm = document.getElementById('joinForm');
   if(joinForm){
     joinForm.addEventListener('submit', function(e){
       e.preventDefault();
-      document.getElementById('formNote').textContent = 'Thanks — your message is queued for an officer. (Demo form: nothing is actually sent yet.)';
-      this.reset();
+      var val = function(id){ var el = document.getElementById(id); return el ? el.value.trim() : ''; };
+      var lines = [
+        'Hi Eastern Cape Warlords! I\'d like to join the club.',
+        '',
+        'Name: ' + val('jf-name'),
+        'Experience: ' + val('jf-exp'),
+        'Faction I\'m eyeing: ' + val('jf-faction')
+      ];
+      var msg = val('jf-msg');
+      if(msg) lines.push('', msg);
+      var url = 'https://wa.me/' + CLUB_WHATSAPP + '?text=' + encodeURIComponent(lines.join('\n'));
+      // (no 'noopener' feature here: with it window.open always returns null,
+      // which would make the blocked-popup fallback fire every time)
+      var w = window.open(url, '_blank');
+      if(w){ try{ w.opener = null; }catch(err){} }
+      else { location.href = url; }   // popup blocked: open in this tab instead
+      document.getElementById('formNote').textContent = 'Opening WhatsApp with your message. Just press send there. If nothing opened, message us on WhatsApp at +27 72 474 9572.';
     });
   }
 
