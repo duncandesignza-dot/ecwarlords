@@ -18,14 +18,15 @@
 <meta name="twitter:description" content="Warhammer 40,000 turn tracker: victory points, command points, battle rounds, phases and a chess-clock timer.">
 <meta name="twitter:image" content="https://ecwarlords.co.za/assets/logo.webp">
 <link rel="icon" href="assets/logo.webp">
-<link rel="stylesheet" href="style.css?v=202609222255">
+<link rel="stylesheet" href="style.css?v=202609230910">
 </head>
 <body data-page="tools">
+<a class="skip-link" href="#main">Skip to main content</a>
 
 <img class="page-flank page-flank-left" src="assets/hero-left.webp" alt="" aria-hidden="true">
 <img class="page-flank page-flank-right" src="assets/hero-right.webp" alt="" aria-hidden="true">
 
-<nav class="topnav">
+<nav class="topnav" aria-label="Main">
   <div class="wrap">
     <a href="./" class="brand">
       <img src="assets/logo.webp" alt="Eastern Cape Warlords crest">
@@ -41,11 +42,11 @@
       <li><a href="tools" data-page="tools">Tools</a></li>
       <li><a href="join" data-page="join" class="nav-cta">Join Us</a></li>
     </ul>
-    <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+    <button class="burger" id="burgerBtn" aria-label="Menu" aria-controls="navlinks" aria-expanded="false"><span></span></button>
   </div>
 </nav>
 
-<main id="main">
+<main id="main" tabindex="-1">
 
   <div class="subhero texture-void texture-stripes" style="padding-bottom:36px;">
     <div class="wrap">
@@ -58,22 +59,23 @@
 
   <div class="section" style="padding-top:26px;">
     <div class="wrap">
+      <h2 class="sr-only">Tracker</h2>
 
       <!-- ROUND / PHASE -->
       <div class="panel reveal" style="text-align:center;margin-bottom:26px;">
         <div style="display:flex;align-items:center;justify-content:center;gap:24px;flex-wrap:wrap;">
-          <button class="score" style="all:unset;">
+          <div>
             <span style="display:flex;align-items:center;gap:14px;">
-              <button id="tt-round-down" style="width:38px;height:38px;border:1px solid var(--iron);background:var(--void-2);color:var(--bone);font-size:1.2rem;">−</button>
+              <button id="tt-round-down" aria-label="Previous battle round" style="width:38px;height:38px;border:1px solid var(--iron);background:var(--void-2);color:var(--bone);font-size:1.2rem;">−</button>
               <span style="text-align:center;">
-                <span style="display:block;font-family:var(--font-display);font-size:2.2rem;color:var(--crimson-glow);" id="tt-round">1</span>
+                <span style="display:block;font-family:var(--font-display);font-size:2.2rem;color:var(--crimson-glow);" id="tt-round" aria-live="polite">1</span>
                 <span style="display:block;font-size:.7rem;letter-spacing:.14em;color:var(--bone-dim);font-weight:700;">BATTLE ROUND</span>
               </span>
-              <button id="tt-round-up" style="width:38px;height:38px;border:1px solid var(--iron);background:var(--void-2);color:var(--bone);font-size:1.2rem;">+</button>
+              <button id="tt-round-up" aria-label="Next battle round" style="width:38px;height:38px;border:1px solid var(--iron);background:var(--void-2);color:var(--bone);font-size:1.2rem;">+</button>
             </span>
-          </button>
+          </div>
         </div>
-        <div class="phase-row" id="tt-phases">
+        <div class="phase-row" id="tt-phases" role="group" aria-label="Current phase">
           <button class="chip on" data-p="Command">Command</button>
           <button class="chip" data-p="Movement">Movement</button>
           <button class="chip" data-p="Shooting">Shooting</button>
@@ -89,16 +91,16 @@
           <input class="pname" id="tt-name-1" value="Player One" aria-label="Player one name">
 
           <div class="score">
-            <button data-t="vp" data-p="1" data-d="-1">−</button>
-            <span class="val" id="tt-vp-1">0</span>
-            <button data-t="vp" data-p="1" data-d="1">+</button>
+            <button data-t="vp" data-p="1" data-d="-1" aria-label="Player 1: remove one victory point">−</button>
+            <span class="val" id="tt-vp-1" aria-live="polite">0</span>
+            <button data-t="vp" data-p="1" data-d="1" aria-label="Player 1: add one victory point">+</button>
           </div>
           <div class="score-lbl">VICTORY POINTS</div>
 
           <div class="score">
-            <button data-t="cp" data-p="1" data-d="-1">−</button>
-            <span class="val" id="tt-cp-1" style="font-size:2rem;">0</span>
-            <button data-t="cp" data-p="1" data-d="1">+</button>
+            <button data-t="cp" data-p="1" data-d="-1" aria-label="Player 1: remove one command point">−</button>
+            <span class="val" id="tt-cp-1" aria-live="polite" style="font-size:2rem;">0</span>
+            <button data-t="cp" data-p="1" data-d="1" aria-label="Player 1: add one command point">+</button>
           </div>
           <div class="score-lbl">COMMAND POINTS</div>
 
@@ -110,16 +112,16 @@
           <input class="pname" id="tt-name-2" value="Player Two" aria-label="Player two name">
 
           <div class="score">
-            <button data-t="vp" data-p="2" data-d="-1">−</button>
-            <span class="val" id="tt-vp-2">0</span>
-            <button data-t="vp" data-p="2" data-d="1">+</button>
+            <button data-t="vp" data-p="2" data-d="-1" aria-label="Player 2: remove one victory point">−</button>
+            <span class="val" id="tt-vp-2" aria-live="polite">0</span>
+            <button data-t="vp" data-p="2" data-d="1" aria-label="Player 2: add one victory point">+</button>
           </div>
           <div class="score-lbl">VICTORY POINTS</div>
 
           <div class="score">
-            <button data-t="cp" data-p="2" data-d="-1">−</button>
-            <span class="val" id="tt-cp-2" style="font-size:2rem;">0</span>
-            <button data-t="cp" data-p="2" data-d="1">+</button>
+            <button data-t="cp" data-p="2" data-d="-1" aria-label="Player 2: remove one command point">−</button>
+            <span class="val" id="tt-cp-2" aria-live="polite" style="font-size:2rem;">0</span>
+            <button data-t="cp" data-p="2" data-d="1" aria-label="Player 2: add one command point">+</button>
           </div>
           <div class="score-lbl">COMMAND POINTS</div>
 
@@ -187,7 +189,7 @@
   </div>
 </footer>
 
-<script src="script.js?v=202609222255"></script>
+<script src="script.js?v=202609230910"></script>
 <script>
 (function(){
   "use strict";

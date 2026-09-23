@@ -18,14 +18,15 @@
 <meta name="twitter:description" content="Track objective control and secondary mission scoring per battle round, synced with the Turn Tracker — free tool from the Eastern Cape Warlords that works with any Warhammer 40,000 mission pack.">
 <meta name="twitter:image" content="https://ecwarlords.co.za/assets/logo.webp">
 <link rel="icon" href="assets/logo.webp">
-<link rel="stylesheet" href="style.css?v=202609222255">
+<link rel="stylesheet" href="style.css?v=202609230910">
 </head>
 <body data-page="tools">
+<a class="skip-link" href="#main">Skip to main content</a>
 
 <img class="page-flank page-flank-left" src="assets/hero-left.webp" alt="" aria-hidden="true">
 <img class="page-flank page-flank-right" src="assets/hero-right.webp" alt="" aria-hidden="true">
 
-<nav class="topnav">
+<nav class="topnav" aria-label="Main">
   <div class="wrap">
     <a href="./" class="brand">
       <img src="assets/logo.webp" alt="Eastern Cape Warlords crest">
@@ -41,11 +42,11 @@
       <li><a href="tools" data-page="tools">Tools</a></li>
       <li><a href="join" data-page="join" class="nav-cta">Join Us</a></li>
     </ul>
-    <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+    <button class="burger" id="burgerBtn" aria-label="Menu" aria-controls="navlinks" aria-expanded="false"><span></span></button>
   </div>
 </nav>
 
-<main id="main">
+<main id="main" tabindex="-1">
 
   <div class="subhero texture-void texture-stripes" style="padding-bottom:36px;">
     <div class="wrap">
@@ -58,16 +59,17 @@
 
   <div class="section" style="padding-top:26px;">
     <div class="wrap">
+      <h2 class="sr-only">Tracker</h2>
 
       <!-- ROUND -->
       <div class="panel reveal" style="text-align:center;margin-bottom:26px;">
         <div style="display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;">
-          <button id="mt-round-down" style="width:38px;height:38px;border:1px solid var(--iron);background:var(--void-2);color:var(--bone);font-size:1.2rem;">−</button>
+          <button id="mt-round-down" aria-label="Previous battle round" style="width:38px;height:38px;border:1px solid var(--iron);background:var(--void-2);color:var(--bone);font-size:1.2rem;">−</button>
           <span style="text-align:center;">
-            <span style="display:block;font-family:var(--font-display);font-size:2.2rem;color:var(--crimson-glow);" id="mt-round">1</span>
+            <span style="display:block;font-family:var(--font-display);font-size:2.2rem;color:var(--crimson-glow);" id="mt-round" aria-live="polite">1</span>
             <span style="display:block;font-size:.7rem;letter-spacing:.14em;color:var(--bone-dim);font-weight:700;">BATTLE ROUND</span>
           </span>
-          <button id="mt-round-up" style="width:38px;height:38px;border:1px solid var(--iron);background:var(--void-2);color:var(--bone);font-size:1.2rem;">+</button>
+          <button id="mt-round-up" aria-label="Next battle round" style="width:38px;height:38px;border:1px solid var(--iron);background:var(--void-2);color:var(--bone);font-size:1.2rem;">+</button>
         </div>
         <p style="color:var(--bone-dim);font-size:.82rem;margin-top:12px;">Shared with the Turn Tracker's round counter. Player names are set there too.</p>
       </div>
@@ -82,18 +84,18 @@
             <input id="mt-objpts" type="number" min="0" max="99" value="5">
           </div>
           <div class="fld">
-            <label>Objectives on the table</label>
+            <span class="lbl-like" id="mt-obj-lbl">Objectives on the table</span>
             <div style="display:flex;gap:8px;align-items:center;">
-              <button id="mt-obj-remove" class="btn btn-ghost" style="padding:9px 14px;">−</button>
-              <span id="mt-obj-count" style="font-family:var(--font-display);font-size:1.3rem;min-width:24px;text-align:center;">6</span>
-              <button id="mt-obj-add" class="btn btn-ghost" style="padding:9px 14px;">+</button>
+              <button id="mt-obj-remove" aria-label="Remove an objective" class="btn btn-ghost" style="padding:9px 14px;">−</button>
+              <span id="mt-obj-count" aria-live="polite" aria-describedby="mt-obj-lbl" style="font-family:var(--font-display);font-size:1.3rem;min-width:24px;text-align:center;">6</span>
+              <button id="mt-obj-add" aria-label="Add an objective" class="btn btn-ghost" style="padding:9px 14px;">+</button>
             </div>
           </div>
         </div>
 
         <div class="obj-grid" id="mt-obj-grid"></div>
 
-        <div class="obj-summary" id="mt-round-pts"></div>
+        <div class="obj-summary" id="mt-round-pts" role="status" aria-live="polite"></div>
 
         <div class="tt-bar" style="margin-top:20px;">
           <button class="btn btn-primary" id="mt-log-round">Log This Round's Primary VP</button>
@@ -178,7 +180,7 @@
   </div>
 </footer>
 
-<script src="script.js?v=202609222255"></script>
+<script src="script.js?v=202609230910"></script>
 <script>
 (function(){
   "use strict";
@@ -242,6 +244,7 @@
       cell.className = 'obj-cell' + (o.owner === 1 ? ' p1' : o.owner === 2 ? ' p2' : '');
       var label = o.owner === 0 ? 'Neutral' : escAttr(state.names[o.owner]);
       cell.innerHTML = '<span class="o-n">'+(i+1)+'</span><span>'+label+'</span>';
+      cell.setAttribute('aria-label', 'Objective '+(i+1)+': '+(o.owner === 0 ? 'neutral' : state.names[o.owner])+'. Activate to change.');
       cell.addEventListener('click', function(){
         o.owner = (o.owner + 1) % 3;
         save(); renderObjectives(); renderRoundPts();
@@ -311,11 +314,11 @@
         var row = document.createElement('div');
         row.className = 'sec-row';
         row.innerHTML =
-          '<input type="text" placeholder="Secondary mission name" value="'+escAttr(s.name)+'">'+
+          '<input type="text" placeholder="Secondary mission name" aria-label="'+escAttr(state.names[p])+' secondary mission name" value="'+escAttr(s.name)+'">'+
           '<div class="sec-score">'+
-            '<button type="button" data-a="dec">−</button>'+
-            '<span class="sec-val">'+s.cur+'</span>'+
-            '<button type="button" data-a="inc">+</button>'+
+            '<button type="button" data-a="dec" aria-label="Remove a point">−</button>'+
+            '<span class="sec-val" aria-live="polite">'+s.cur+'</span>'+
+            '<button type="button" data-a="inc" aria-label="Add a point">+</button>'+
           '</div>'+
           '<button type="button" class="sec-x" aria-label="Remove secondary">✕</button>';
         row.querySelector('input').addEventListener('input', function(){

@@ -18,9 +18,10 @@
 <meta name="twitter:description" content="Free tabletop tools from the Eastern Cape Warlords: dice roller, damage calculator, turn tracker, army builder, datasheet lookup, a mission tracker and a searchable faction browser — no sign-up required.">
 <meta name="twitter:image" content="https://ecwarlords.co.za/assets/logo.webp">
 <link rel="icon" href="assets/logo.webp">
-<link rel="stylesheet" href="style.css?v=202609222255">
+<link rel="stylesheet" href="style.css?v=202609230910">
 </head>
 <body data-page="tools">
+<a class="skip-link" href="#main">Skip to main content</a>
 
 <img class="page-flank page-flank-left" src="assets/hero-left.webp" alt="" aria-hidden="true">
 <img class="page-flank page-flank-right" src="assets/hero-right.webp" alt="" aria-hidden="true">
@@ -37,7 +38,7 @@
 </defs>
 </svg>
 
-<nav class="topnav">
+<nav class="topnav" aria-label="Main">
   <div class="wrap">
     <a href="./" class="brand">
       <img src="assets/logo.webp" alt="Eastern Cape Warlords crest">
@@ -53,11 +54,11 @@
       <li><a href="tools" data-page="tools">Tools</a></li>
       <li><a href="join" data-page="join" class="nav-cta">Join Us</a></li>
     </ul>
-    <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+    <button class="burger" id="burgerBtn" aria-label="Menu" aria-controls="navlinks" aria-expanded="false"><span></span></button>
   </div>
 </nav>
 
-<main id="main">
+<main id="main" tabindex="-1">
 
   <div class="subhero texture-void texture-stripes">
     <div class="wrap">
@@ -69,11 +70,12 @@
 
   <div class="section" style="padding-top:20px;">
     <div class="wrap">
+      <h2 class="sr-only">All tools</h2>
       <div class="tool-grid reveal">
 
         <a href="dice-roller" class="tool-card">
           <span class="badge live">LIVE</span>
-          <svg><use href="#ico-dice"/></svg>
+          <svg aria-hidden="true" focusable="false"><use href="#ico-dice"/></svg>
           <h3>Dice Roller</h3>
           <p>Rolls a full attack sequence — hits, wounds, saves and damage — with support for rerolls, Sustained Hits, Lethal Hits, Devastating Wounds and modified crit thresholds. Shows every die so you can check the maths.</p>
           <span class="t-cta">Open the roller</span>
@@ -81,7 +83,7 @@
 
         <a href="damage-calculator" class="tool-card">
           <span class="badge live">LIVE</span>
-          <svg><use href="#ico-calc"/></svg>
+          <svg aria-hidden="true" focusable="false"><use href="#ico-calc"/></svg>
           <h3>Damage Calculator</h3>
           <p>Pit an attacker profile against a defender and get the expected damage — averaged mathematically, not rolled. The fast way to settle "which unit should I point at that thing?"</p>
           <span class="t-cta">Open the calculator</span>
@@ -89,7 +91,7 @@
 
         <a href="turn-tracker" class="tool-card">
           <span class="badge live">LIVE</span>
-          <svg><use href="#ico-clock"/></svg>
+          <svg aria-hidden="true" focusable="false"><use href="#ico-clock"/></svg>
           <h3>Turn Tracker</h3>
           <p>Victory points, command points, battle round and phase for both players — plus an optional chess-clock timer for tournament play. Keeps state if you reload mid-game.</p>
           <span class="t-cta">Open the tracker</span>
@@ -97,7 +99,7 @@
 
         <a href="army-builder" class="tool-card">
           <span class="badge live">LIVE · 34 FACTIONS</span>
-          <svg><use href="#ico-list"/></svg>
+          <svg aria-hidden="true" focusable="false"><use href="#ico-list"/></svg>
           <h3>Army List Builder</h3>
           <p>Pick units, set mob sizes and watch the points tally live against your chosen limit, with Rule of Three, Warlord, enhancement and transport checks as you go. 34 factions supported.</p>
           <span class="t-cta">Open the builder</span>
@@ -105,7 +107,7 @@
 
         <a href="datasheet-lookup" class="tool-card">
           <span class="badge live">LIVE · 35 FACTIONS</span>
-          <svg><use href="#ico-book"/></svg>
+          <svg aria-hidden="true" focusable="false"><use href="#ico-book"/></svg>
           <h3>Datasheet Lookup</h3>
           <p>Searchable reference for unit stats, weapon profiles and abilities across 1,485 datasheets, so nobody's scrolling a PDF halfway through a shooting phase. Full rule wording links out to Wahapedia.</p>
           <span class="t-cta">Open the lookup</span>
@@ -113,7 +115,7 @@
 
         <a href="mission-tracker" class="tool-card">
           <span class="badge live">LIVE</span>
-          <svg><use href="#ico-target"/></svg>
+          <svg aria-hidden="true" focusable="false"><use href="#ico-target"/></svg>
           <h3>Mission &amp; Objective Tracker</h3>
           <p>Objective control and secondary mission scoring, round by round — synced with the Turn Tracker's battle round and victory points. You set the points and name your own secondaries, so it works with any mission pack.</p>
           <span class="t-cta">Open the tracker</span>
@@ -121,7 +123,7 @@
 
         <a href="factions" class="tool-card tool-card-wide">
           <span class="badge live">LIVE · 27 FACTIONS</span>
-          <svg><use href="#ico-crest"/></svg>
+          <svg aria-hidden="true" focusable="false"><use href="#ico-crest"/></svg>
           <div class="tcw-body">
             <h3>Every Warhammer 40,000 Faction at a Glance</h3>
             <p>All 27 currently-playable factions in one place — Imperium, Chaos and Xenos — each with a description, allegiance and role tags, and a search bar so you can jump straight to the one you're after instead of scrolling. Handy for checking what you're up against before a game, or for finding your next army.</p>
@@ -168,6 +170,6 @@
   </div>
 </footer>
 
-<script src="script.js?v=202609222255"></script>
+<script src="script.js?v=202609230910"></script>
 </body>
 </html>

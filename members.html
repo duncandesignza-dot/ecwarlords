@@ -18,9 +18,10 @@
 <meta name="twitter:description" content="Meet the officers and members who run the Eastern Cape Warlords tabletop club in Port Elizabeth, South Africa.">
 <meta name="twitter:image" content="https://ecwarlords.co.za/assets/logo.webp">
 <link rel="icon" href="assets/logo.webp">
-<link rel="stylesheet" href="style.css?v=202609222255">
+<link rel="stylesheet" href="style.css?v=202609230910">
 </head>
 <body data-page="members">
+<a class="skip-link" href="#main">Skip to main content</a>
 
 <img class="page-flank page-flank-left" src="assets/hero-left.webp" alt="" aria-hidden="true">
 <img class="page-flank page-flank-right" src="assets/hero-right.webp" alt="" aria-hidden="true">
@@ -56,7 +57,7 @@
 </defs>
 </svg>
 
-<nav class="topnav">
+<nav class="topnav" aria-label="Main">
   <div class="wrap">
     <a href="./" class="brand">
       <img src="assets/logo.webp" alt="Eastern Cape Warlords crest">
@@ -72,11 +73,11 @@
       <li><a href="tools" data-page="tools">Tools</a></li>
       <li><a href="join" data-page="join" class="nav-cta">Join Us</a></li>
     </ul>
-    <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+    <button class="burger" id="burgerBtn" aria-label="Menu" aria-controls="navlinks" aria-expanded="false"><span></span></button>
   </div>
 </nav>
 
-<main id="main">
+<main id="main" tabindex="-1">
 
   <div class="subhero texture-void texture-stripes" style="--hero-img:url('assets/roster-banner.webp');">
     <div class="wrap">
@@ -95,25 +96,25 @@
       <div class="officer-row reveal">
         <div class="officer">
           <div class="ring"><svg style="color:#fff"><use href="#ico-deathguard-emblem-2"/></svg></div>
-          <h4>Matthew Carslake</h4>
+          <h3>Matthew Carslake</h3>
           <span>Club President</span>
           <p>Leads the club, sets the direction for campaigns and tournaments, and keeps the whole operation running.</p>
         </div>
         <div class="officer">
           <div class="ring"><svg style="color:#fff"><use href="#ico-deathskulls-emblem"/></svg></div>
-          <h4>Oli Billson</h4>
+          <h3>Oli Billson</h3>
           <span>Finance</span>
           <p>Keeps the books balanced — membership dues, hall rental, and everything else that keeps the lights on.</p>
         </div>
         <div class="officer">
           <div class="ring"><svg style="color:#fff"><use href="#ico-csm-emblem"/></svg></div>
-          <h4>Phil van Staden</h4>
+          <h3>Phil van Staden</h3>
           <span>Asset Management</span>
           <p>Looks after the club's terrain, loaner armies, and everything else that has to survive being packed away weekly.</p>
         </div>
         <div class="officer">
           <div class="ring"><svg style="color:#fff"><use href="#ico-spacewolves-emblem"/></svg></div>
-          <h4>Steven Ovens</h4>
+          <h3>Steven Ovens</h3>
           <span>Public Relations</span>
           <p>Runs the club's socials and this very website's news feed — if it's happened at the club, he's probably posted it.</p>
         </div>
@@ -131,42 +132,42 @@
         <div class="mcard">
           <div class="top">
             <div class="avatar"><svg style="width:26px;height:26px;color:var(--steel)"><use href="#ico-ork"/></svg></div>
-            <div><h4>Jonah Pratt</h4><div class="faction-tag">Orks</div></div>
+            <div><h3>Jonah Pratt</h3><div class="faction-tag">Orks</div></div>
           </div>
           <p>"My whole army is built from bits I scavenged off the trade table. Waaagh energy, mostly."</p>
         </div>
         <div class="mcard">
           <div class="top">
             <div class="avatar"><svg style="width:26px;height:26px;color:var(--steel)"><use href="#ico-necron"/></svg></div>
-            <div><h4>Ines Calder</h4><div class="faction-tag">Necrons</div></div>
+            <div><h3>Ines Calder</h3><div class="faction-tag">Necrons</div></div>
           </div>
           <p>"I paint slow, I play slower, and I have never once lost gracefully. Working on that part."</p>
         </div>
         <div class="mcard">
           <div class="top">
             <div class="avatar"><svg style="width:26px;height:26px;color:#fff"><use href="#ico-deathguard-emblem"/></svg></div>
-            <div><h4>Culum Morley</h4><div class="faction-tag">Death Guard</div></div>
+            <div><h3>Culum Morley</h3><div class="faction-tag">Death Guard</div></div>
           </div>
           <p>"My army is disgustingly resilient. My hobby deadlines are not."</p>
         </div>
         <div class="mcard">
           <div class="top">
             <div class="avatar"><svg style="width:26px;height:26px;color:var(--steel)"><use href="#ico-marine"/></svg></div>
-            <div><h4>Malik Osei</h4><div class="faction-tag">Space Marines</div></div>
+            <div><h3>Malik Osei</h3><div class="faction-tag">Space Marines</div></div>
           </div>
           <p>"Joined for the models, stayed for the group chat's ongoing seven-year lore argument."</p>
         </div>
         <div class="mcard">
           <div class="top">
             <div class="avatar"><svg style="width:26px;height:26px;color:var(--steel)"><use href="#ico-chaos"/></svg></div>
-            <div><h4>Lena Fischer</h4><div class="faction-tag">Chaos</div></div>
+            <div><h3>Lena Fischer</h3><div class="faction-tag">Chaos</div></div>
           </div>
           <p>"I main a faction whose whole ethos is losing gloriously. It suits my dice luck perfectly."</p>
         </div>
         <div class="mcard">
           <div class="top">
             <div class="avatar"><svg style="width:26px;height:26px;color:var(--steel)"><use href="#ico-tank"/></svg></div>
-            <div><h4>Cole Ferreira</h4><div class="faction-tag">Astra Militarum</div></div>
+            <div><h3>Cole Ferreira</h3><div class="faction-tag">Astra Militarum</div></div>
           </div>
           <p>"Bring enough tanks and eventually the math works out in your favor. Eventually."</p>
         </div>
@@ -203,6 +204,6 @@
   </div>
 </footer>
 
-<script src="script.js?v=202609222255"></script>
+<script src="script.js?v=202609230910"></script>
 </body>
 </html>

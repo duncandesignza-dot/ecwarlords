@@ -18,9 +18,10 @@
 <meta name="twitter:description" content="Browse painted Warhammer 40,000 armies from Eastern Cape Warlords club members — real miniatures, real painters, from tabletop-ready to display-case quality.">
 <meta name="twitter:image" content="https://ecwarlords.co.za/assets/logo.webp">
 <link rel="icon" href="assets/logo.webp">
-<link rel="stylesheet" href="style.css?v=202609222255">
+<link rel="stylesheet" href="style.css?v=202609230910">
 </head>
 <body data-page="gallery">
+<a class="skip-link" href="#main">Skip to main content</a>
 
 <img class="page-flank page-flank-left" src="assets/hero-left.webp" alt="" aria-hidden="true">
 <img class="page-flank page-flank-right" src="assets/hero-right.webp" alt="" aria-hidden="true">
@@ -55,7 +56,7 @@
 </defs>
 </svg>
 
-<nav class="topnav">
+<nav class="topnav" aria-label="Main">
   <div class="wrap">
     <a href="./" class="brand">
       <img src="assets/logo.webp" alt="Eastern Cape Warlords crest">
@@ -71,11 +72,11 @@
       <li><a href="tools" data-page="tools">Tools</a></li>
       <li><a href="join" data-page="join" class="nav-cta">Join Us</a></li>
     </ul>
-    <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+    <button class="burger" id="burgerBtn" aria-label="Menu" aria-controls="navlinks" aria-expanded="false"><span></span></button>
   </div>
 </nav>
 
-<main id="main">
+<main id="main" tabindex="-1">
 
   <div class="subhero texture-void texture-stripes" style="--hero-img:url('assets/armory-banner.webp');">
     <div class="wrap">
@@ -87,6 +88,7 @@
 
   <div class="section" style="padding-top:20px;">
     <div class="wrap">
+      <h2 class="sr-only">Gallery</h2>
       <div class="filter-row reveal" id="filterRow">
         <button class="filter-btn active" data-filter="all">All Factions</button>
         <button class="filter-btn" data-filter="marines">Space Marines</button>
@@ -143,6 +145,6 @@
   </div>
 </footer>
 
-<script src="script.js?v=202609222255"></script>
+<script src="script.js?v=202609230910"></script>
 </body>
 </html>

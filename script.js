@@ -7,8 +7,65 @@
   /* ---------- ACTIVE NAV LINK ---------- */
   var current = document.body.getAttribute('data-page');
   document.querySelectorAll('.navlinks a[data-page]').forEach(function(a){
-    if(a.getAttribute('data-page') === current) a.classList.add('active');
+    if(a.getAttribute('data-page') === current){
+      a.classList.add('active');
+      // "page" when this IS the nav page; "true" for sub-pages (e.g. a tool under Tools)
+      var file = (location.pathname.split('/').pop() || 'index').replace(/\.html$/,'');
+      var target = (a.getAttribute('href') || '').replace(/^\.\//,'') || 'index';
+      a.setAttribute('aria-current', file === target ? 'page' : 'true');
+    }
   });
+
+  /* ---------- ACCESSIBILITY HELPERS ---------- */
+  // Keep aria-pressed in sync with the visual "on"/"active" state of every
+  // toggle chip and filter button, whichever page script flips the class.
+  function syncPressed(el){
+    if(el.classList.contains('chip') || el.classList.contains('filter-btn')){
+      el.setAttribute('aria-pressed', (el.classList.contains('on') || el.classList.contains('active')) ? 'true' : 'false');
+    }
+  }
+  document.querySelectorAll('button.chip, button.filter-btn').forEach(syncPressed);
+  if('MutationObserver' in window){
+    new MutationObserver(function(muts){
+      muts.forEach(function(m){ if(m.target.tagName === 'BUTTON') syncPressed(m.target); });
+    }).observe(document.body, {attributes:true, attributeFilter:['class'], subtree:true});
+  }
+
+  // Modal dialog behaviour: focus moves in on open, Tab stays inside,
+  // focus returns to whatever opened it on close.
+  function makeDialog(el, closeBtn){
+    var lastFocus = null;
+    el.addEventListener('keydown', function(e){
+      if(e.key !== 'Tab') return;
+      var f = el.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+      if(!f.length) return;
+      var first = f[0], last = f[f.length-1];
+      if(e.shiftKey && document.activeElement === first){ e.preventDefault(); last.focus(); }
+      else if(!e.shiftKey && document.activeElement === last){ e.preventDefault(); first.focus(); }
+    });
+    return {
+      open: function(){
+        lastFocus = document.activeElement; el.classList.add('open');
+        // the dialog fades in from visibility:hidden, so focus once it's focusable
+        if(closeBtn) setTimeout(function(){ closeBtn.focus(); }, 40);
+      },
+      close: function(){
+        if(!el.classList.contains('open')) return;
+        el.classList.remove('open');
+        if(lastFocus && lastFocus.focus) lastFocus.focus();
+      }
+    };
+  }
+
+  // Make a non-button card open with Enter/Space like a button would
+  function makeActivatable(el, label){
+    el.setAttribute('tabindex','0');
+    el.setAttribute('role','button');
+    if(label) el.setAttribute('aria-label', label);
+    el.addEventListener('keydown', function(e){
+      if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); el.click(); }
+    });
+  }
 
   /* ---------- MOBILE NAV ---------- */
   var burgerBtn = document.getElementById('burgerBtn');
@@ -27,6 +84,15 @@
   window.addEventListener('load', setNavHeight);
 
   if(burgerBtn && navlinks){
+    burgerBtn.setAttribute('aria-controls','navlinks');
+    document.addEventListener('keydown', function(e){
+      if(e.key === 'Escape' && navlinks.classList.contains('open')){
+        navlinks.classList.remove('open');
+        burgerBtn.setAttribute('aria-expanded','false');
+        document.body.style.overflow = '';
+        burgerBtn.focus();
+      }
+    });
     burgerBtn.addEventListener('click', function(){
       var open = navlinks.classList.toggle('open');
       burgerBtn.setAttribute('aria-expanded', open ? 'true':'false');
@@ -106,15 +172,16 @@
       var artInner = item.img
         ? '<div class="art has-photo"><img src="'+item.img+'" alt="'+altText+'" loading="lazy"></div>'
         : '<div class="art" style="background:radial-gradient(circle at 50% 40%, '+item.color+'33, #0d0707 70%)">'+
-            '<svg style="color:'+item.color+'"><use href="#'+item.icon+'"/></svg>'+
+            '<svg aria-hidden="true" style="color:'+item.color+'"><use href="#'+item.icon+'"/></svg>'+
           '</div>';
       card.innerHTML =
         artInner +
         '<div class="meta">'+
           '<div class="faction">'+item.label+'</div>'+
-          '<h4>'+item.title+'</h4>'+
+          '<h3>'+item.title+'</h3>'+
           '<div class="painter">by '+item.painter+'</div>'+
         '</div>';
+      makeActivatable(card, 'View ' + item.title + ', painted by ' + item.painter);
       galleryGrid.appendChild(card);
     });
 
@@ -144,18 +211,20 @@
           lbArt.innerHTML = '<img src="'+item.img+'" alt="'+escAttr(item.title + ' painted by ' + item.painter)+'">';
         } else {
           lbArt.className = 'art';
-          lbArt.innerHTML = '<svg viewBox="0 0 100 100" style="color:'+item.color+'"><use href="#'+item.icon+'"/></svg>';
+          lbArt.innerHTML = '<svg aria-hidden="true" viewBox="0 0 100 100" style="color:'+item.color+'"><use href="#'+item.icon+'"/></svg>';
         }
         document.getElementById('lbFaction').textContent = item.label;
         document.getElementById('lbTitle').textContent = item.title;
         document.getElementById('lbDesc').textContent = item.desc;
         document.getElementById('lbPainter').textContent = 'Painted by '+item.painter;
-        lightbox.classList.add('open');
+        lbDialog.open();
       });
       var lbClose = document.getElementById('lbClose');
-      if(lbClose) lbClose.addEventListener('click', function(){lightbox.classList.remove('open');});
-      lightbox.addEventListener('click', function(e){ if(e.target===lightbox) lightbox.classList.remove('open'); });
-      document.addEventListener('keydown', function(e){ if(e.key==='Escape') lightbox.classList.remove('open'); });
+      var lbDialog = makeDialog(lightbox, lbClose);
+      lightbox.setAttribute('aria-labelledby','lbTitle');
+      if(lbClose) lbClose.addEventListener('click', lbDialog.close);
+      lightbox.addEventListener('click', function(e){ if(e.target===lightbox) lbDialog.close(); });
+      document.addEventListener('keydown', function(e){ if(e.key==='Escape') lbDialog.close(); });
     }
   }
 
@@ -204,7 +273,8 @@
       icon.className = 'f-icon';
       icon.style.borderColor = item.color;
       icon.style.background = item.color + '2e';
-      icon.innerHTML = '<svg viewBox="0 0 100 100"><use href="#'+item.icon+'"/></svg>';
+      icon.setAttribute('aria-hidden','true');
+      icon.innerHTML = '<svg viewBox="0 0 100 100" focusable="false"><use href="#'+item.icon+'"/></svg>';
       card.appendChild(icon);
 
       var align = document.createElement('div');
@@ -282,6 +352,12 @@
   if(photoGrid && photoLightbox){
     var plbImg = document.getElementById('plbImg');
     var plbCap = document.getElementById('plbCap');
+    var plbClose = document.getElementById('plbClose');
+    var plbDialog = makeDialog(photoLightbox, plbClose);
+    photoGrid.querySelectorAll('.photo-card').forEach(function(card){
+      var im = card.querySelector('img');
+      makeActivatable(card, 'Enlarge photo: ' + (card.dataset.caption || (im && im.alt) || ''));
+    });
     photoGrid.addEventListener('click', function(e){
       var card = e.target.closest('.photo-card');
       if(!card) return;
@@ -289,17 +365,24 @@
       plbImg.src = img.src;
       plbImg.alt = img.alt;
       plbCap.textContent = card.dataset.caption || img.alt || '';
-      photoLightbox.classList.add('open');
+      plbDialog.open();
     });
-    var plbClose = document.getElementById('plbClose');
-    if(plbClose) plbClose.addEventListener('click', function(){ photoLightbox.classList.remove('open'); });
-    photoLightbox.addEventListener('click', function(e){ if(e.target===photoLightbox) photoLightbox.classList.remove('open'); });
-    document.addEventListener('keydown', function(e){ if(e.key==='Escape') photoLightbox.classList.remove('open'); });
+    if(plbClose) plbClose.addEventListener('click', plbDialog.close);
+    photoLightbox.addEventListener('click', function(e){ if(e.target===photoLightbox) plbDialog.close(); });
+    document.addEventListener('keydown', function(e){ if(e.key==='Escape') plbDialog.close(); });
   }
 
   /* ---------- FAQ ACCORDION ---------- */
   var faqList = document.getElementById('faqList');
   if(faqList){
+    faqList.querySelectorAll('.faq-item').forEach(function(fi, i){
+      var q = fi.querySelector('.faq-q'), a = fi.querySelector('.faq-a');
+      if(!q || !a) return;
+      a.id = a.id || ('faq-a-' + (i+1));
+      q.setAttribute('aria-controls', a.id);
+      q.setAttribute('aria-expanded', fi.classList.contains('open') ? 'true' : 'false');
+      var plus = q.querySelector('.plus'); if(plus) plus.setAttribute('aria-hidden','true');
+    });
     faqList.addEventListener('click', function(e){
       var q = e.target.closest('.faq-q');
       if(!q) return;
@@ -308,9 +391,11 @@
       item.parentElement.querySelectorAll('.faq-item').forEach(function(fi){
         fi.classList.remove('open');
         fi.querySelector('.faq-a').style.maxHeight = null;
+        var fq = fi.querySelector('.faq-q'); if(fq) fq.setAttribute('aria-expanded','false');
       });
       if(!wasOpen){
         item.classList.add('open');
+        q.setAttribute('aria-expanded','true');
         var a = item.querySelector('.faq-a');
         a.style.maxHeight = a.scrollHeight + 'px';
       }

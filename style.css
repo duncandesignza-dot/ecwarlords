@@ -10,7 +10,7 @@
   --crimson-deep:#3d0a0e;
   --crimson:#8a1220;
   --crimson-bright:#c41e2a;
-  --crimson-glow:#e63946;
+  --crimson-glow:#e9505b;
   --gold:#b8933f;
   --gold-bright:#d9b76a;
   --bone:#eee1d6;
@@ -52,6 +52,18 @@ button{font-family:inherit;cursor:pointer;background:none;border:none;
 .wrap{max-width:1180px;margin:0 auto;padding:0 28px;}
 ::selection{background:var(--crimson-bright);color:#150707;}
 :focus-visible{outline:2px solid var(--crimson-glow);outline-offset:3px;}
+/* Form fields: many component rules set outline:none on :focus, so restore a
+   visible keyboard ring for every field regardless of component styling. */
+:is(input,select,textarea):focus-visible{outline:2px solid var(--crimson-glow) !important;outline-offset:1px;}
+/* Screen-reader-only text + skip link */
+main:focus{outline:none;}
+.sr-only{position:absolute !important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;}
+.skip-link{position:fixed;top:10px;left:10px;z-index:3000;padding:10px 16px;background:var(--crimson-bright);color:#fff;font-weight:700;letter-spacing:.04em;transform:translateY(-160%);transition:transform .15s var(--ease);}
+.skip-link:focus,.skip-link:focus-visible{transform:none;outline:2px solid var(--bone);outline-offset:2px;}
+/* Inline links inside running text are underlined so they don't rely on colour alone */
+main p a:not(.btn):not(.t-cta){text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;}
+/* Keyboard-openable cards (gallery + home photo grid) */
+.gcard:focus-visible,.photo-card:focus-visible{outline:2px solid var(--crimson-glow);outline-offset:3px;}
 
 h1,h2,h3,h4{font-family:var(--font-display);font-weight:700;letter-spacing:.01em;color:var(--bone);}
 .eyebrow{font-family:var(--font-body);font-weight:700;color:var(--crimson-glow);font-size:.8rem;letter-spacing:.14em;}
@@ -273,7 +285,7 @@ h1.title{
   background:var(--void-2);padding:34px 26px;position:relative;overflow:hidden;transition:background .25s ease;
 }
 .teaser:hover{background:#231010;}
-.teaser .t-num{font-family:var(--font-display);font-size:.78rem;color:var(--crimson-bright);letter-spacing:.14em;}
+.teaser .t-num{font-family:var(--font-display);font-size:.78rem;color:var(--crimson-glow);letter-spacing:.14em;}
 .teaser h3{font-size:1.3rem;margin:14px 0 10px;}
 .teaser p{color:var(--bone-dim);font-size:1.01rem;}
 .teaser .t-link{display:inline-block;margin-top:16px;font-weight:700;font-size:.82rem;color:var(--crimson-glow);letter-spacing:.05em;position:relative;}
@@ -367,7 +379,7 @@ h1.title{
   repeating-linear-gradient(115deg, rgba(255,255,255,.03) 0 2px, transparent 2px 6px);}
 .gcard .meta{padding:16px 18px;border-top:1px solid var(--iron);}
 .gcard .meta .faction{font-size:.7rem;letter-spacing:.12em;color:var(--crimson-glow);font-weight:700;}
-.gcard .meta h4{font-size:1.05rem;margin:6px 0 4px;}
+.gcard .meta h3,.gcard .meta h4{font-size:1.05rem;margin:6px 0 4px;}
 .gcard .meta .painter{font-size:.93rem;color:var(--bone-dim);}
 
 /* lightbox */
@@ -424,7 +436,7 @@ h1.title{
   display:flex;align-items:center;justify-content:center;background:var(--void-2);
 }
 .officer .ring svg{width:52px;height:52px;}
-.officer h4{font-size:1.02rem;}
+.officer h3,.officer h4{font-size:1.02rem;}
 .officer span{display:block;font-size:.8rem;color:var(--crimson-glow);margin-top:4px;}
 .officer p{font-size:.93rem;color:var(--bone-dim);margin-top:8px;}
 
@@ -436,7 +448,7 @@ h1.title{
 .mcard .top{display:flex;gap:14px;align-items:center;margin-bottom:14px;}
 .mcard .avatar{width:52px;height:52px;border-radius:50%;background:var(--void-2);border:1px solid var(--iron);display:flex;align-items:center;justify-content:center;flex:none;}
 .mcard .avatar svg{width:28px;height:28px;}
-.mcard h4{font-size:1.05rem;}
+.mcard h3,.mcard h4{font-size:1.05rem;}
 .mcard .faction-tag{font-size:.76rem;color:var(--crimson-glow);font-weight:700;}
 .mcard p{font-size:.98rem;color:var(--bone-dim);font-style:italic;}
 
@@ -446,7 +458,7 @@ h1.title{
 @media (max-width:560px){.steps{grid-template-columns:1fr;}}
 .step{border-top:2px solid var(--crimson-bright);padding-top:16px;}
 .step .s-num{font-family:var(--font-display);font-size:1.6rem;color:var(--bone);}
-.step h4{margin:8px 0 8px;font-size:1.05rem;}
+.step h3,.step h4{margin:8px 0 8px;font-size:1.05rem;}
 .step p{font-size:.98rem;color:var(--bone-dim);}
 
 .join-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start;}
@@ -792,7 +804,7 @@ body.loaded main{animation:pageIn .5s ease both;}
 
 .frow{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px;}
 .frow.one{grid-template-columns:1fr;}
-.fld label{display:block;font-size:.82rem;letter-spacing:.09em;font-weight:700;color:var(--crimson-glow);margin-bottom:6px;}
+.fld label,.fld .lbl-like{display:block;font-size:.82rem;letter-spacing:.09em;font-weight:700;color:var(--crimson-glow);margin-bottom:6px;}
 .fld input,.fld select{
   width:100%;background:var(--void-2);border:1px solid var(--iron);color:var(--bone);
   padding:11px 13px;font-family:var(--font-body);font-size:1.06rem;font-weight:600;
@@ -829,7 +841,7 @@ body.loaded main{animation:pageIn .5s ease both;}
 }
 .die.hit{border-color:var(--crimson-bright);color:var(--crimson-glow);}
 .die.crit{border-color:var(--gold,#b8933f);color:#e0bd7d;background:#22160c;}
-.die.miss{color:var(--steel);}
+.die.miss{color:#95807b;}
 @keyframes dieIn{from{opacity:0;transform:scale(.6) rotate(-12deg);}to{opacity:1;transform:none;}}
 
 /* --- turn tracker --- */
@@ -1119,10 +1131,10 @@ body.loaded main{animation:pageIn .5s ease both;}
 .fcard.show{display:block;}
 .fcard:hover{border-color:var(--crimson-bright);transform:translateY(-3px);box-shadow:0 14px 34px -18px rgba(0,0,0,.9);}
 .fcard .f-icon{
-  width:52px;height:52px;border-radius:50%;border:1px solid var(--iron);background:var(--void-2);
-  display:flex;align-items:center;justify-content:center;margin-bottom:16px;
+  width:68px;height:68px;border-radius:50%;border:1px solid var(--iron);background:var(--void-2);
+  display:flex;align-items:center;justify-content:center;margin-bottom:16px;color:var(--bone);
 }
-.fcard .f-icon svg{width:28px;height:28px;}
+.fcard .f-icon svg{width:40px;height:40px;}
 .fcard .f-align{font-size:.7rem;letter-spacing:.12em;color:var(--crimson-glow);font-weight:700;}
 .fcard h3{font-size:1.18rem;margin:8px 0 2px;}
 .fcard .f-sub{font-size:.87rem;color:var(--bone-dim);font-style:italic;margin-bottom:12px;}

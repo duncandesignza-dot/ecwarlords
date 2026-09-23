@@ -18,7 +18,7 @@
 <meta name="twitter:description" content="Current Blood Bowl and Warhammer 40,000 league standings for the Eastern Cape Warlords, plus past champions and season archive.">
 <meta name="twitter:image" content="https://ecwarlords.co.za/assets/logo.webp">
 <link rel="icon" href="assets/logo.webp">
-<link rel="stylesheet" href="style.css?v=202609222255">
+<link rel="stylesheet" href="style.css?v=202609230910">
 <style>
   /* ============ STANDINGS ============ */
   .lg-tabs{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:30px;}
@@ -80,6 +80,7 @@
 </style>
 </head>
 <body data-page="standings">
+<a class="skip-link" href="#main">Skip to main content</a>
 
 <img class="page-flank page-flank-left" src="assets/hero-left.webp" alt="" aria-hidden="true">
 <img class="page-flank page-flank-right" src="assets/hero-right.webp" alt="" aria-hidden="true">
@@ -92,7 +93,7 @@
 </defs>
 </svg>
 
-<nav class="topnav">
+<nav class="topnav" aria-label="Main">
   <div class="wrap">
     <a href="./" class="brand">
       <img src="assets/logo.webp" alt="Eastern Cape Warlords crest">
@@ -108,11 +109,11 @@
       <li><a href="tools" data-page="tools">Tools</a></li>
       <li><a href="join" data-page="join" class="nav-cta">Join Us</a></li>
     </ul>
-    <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+    <button class="burger" id="burgerBtn" aria-label="Menu" aria-controls="navlinks" aria-expanded="false"><span></span></button>
   </div>
 </nav>
 
-<main id="main">
+<main id="main" tabindex="-1">
 
   <div class="subhero texture-void texture-stripes" style="--hero-img:url('assets/banner-news.jpg');">
     <div class="wrap">
@@ -124,14 +125,15 @@
 
   <div class="section" style="padding-top:20px;">
     <div class="wrap">
+      <h2 class="sr-only">Leagues and champions</h2>
 
-      <div class="lg-tabs reveal" role="tablist">
-        <button class="lg-tab active" role="tab" aria-selected="true" aria-controls="lg-bb" data-target="lg-bb">Blood Bowl</button>
-        <button class="lg-tab" role="tab" aria-selected="false" aria-controls="lg-40k" data-target="lg-40k">Warhammer 40,000</button>
+      <div class="lg-tabs reveal" role="tablist" aria-label="League">
+        <button class="lg-tab active" role="tab" id="tab-bb" aria-selected="true" aria-controls="lg-bb" data-target="lg-bb">Blood Bowl</button>
+        <button class="lg-tab" role="tab" id="tab-40k" aria-selected="false" tabindex="-1" aria-controls="lg-40k" data-target="lg-40k">Warhammer 40,000</button>
       </div>
 
       <!-- ===== BLOOD BOWL ===== -->
-      <div class="lg-panel active" id="lg-bb" role="tabpanel">
+      <div class="lg-panel active" id="lg-bb" role="tabpanel" aria-labelledby="tab-bb">
         <div class="lg-meta">
           <span>Season 2</span>
           <span>Round 4 of 7</span>
@@ -139,7 +141,7 @@
           <span>Updated after each league night</span>
         </div>
 
-        <div class="lg-table-wrap reveal">
+        <div class="lg-table-wrap reveal" tabindex="0" role="region" aria-label="Blood Bowl league table">
           <table class="lg-table">
             <thead>
               <tr>
@@ -161,7 +163,7 @@
         </div>
 
         <h3 class="lg-sub">Season 2 fixtures</h3>
-        <div class="lg-table-wrap reveal">
+        <div class="lg-table-wrap reveal" tabindex="0" role="region" aria-label="Blood Bowl Season 2 fixtures">
           <table class="lg-table">
             <thead>
               <tr><th>Round</th><th>Date</th><th>Status</th><th>Notes</th></tr>
@@ -180,7 +182,7 @@
       </div>
 
       <!-- ===== 40K ===== -->
-      <div class="lg-panel" id="lg-40k" role="tabpanel">
+      <div class="lg-panel" id="lg-40k" role="tabpanel" aria-labelledby="tab-40k">
         <div class="lg-meta">
           <span>Crusade of Embers</span>
           <span>Session 3 of 6</span>
@@ -188,7 +190,7 @@
           <span>2000 pts matched play</span>
         </div>
 
-        <div class="lg-table-wrap reveal">
+        <div class="lg-table-wrap reveal" tabindex="0" role="region" aria-label="Crusade of Embers league table">
           <table class="lg-table">
             <thead>
               <tr>
@@ -210,7 +212,7 @@
         </div>
 
         <h3 class="lg-sub">Campaign sessions</h3>
-        <div class="lg-table-wrap reveal">
+        <div class="lg-table-wrap reveal" tabindex="0" role="region" aria-label="Crusade of Embers campaign sessions">
           <table class="lg-table">
             <thead>
               <tr><th>Session</th><th>Date</th><th>Status</th><th>Notes</th></tr>
@@ -230,21 +232,21 @@
       <h3 class="lg-sub">Hall of champions</h3>
       <div class="champ-grid reveal stagger">
         <div class="champ">
-          <svg><use href="#ico-trophy"/></svg>
+          <svg aria-hidden="true" focusable="false"><use href="#ico-trophy"/></svg>
           <div class="c-season">Blood Bowl · Season 1</div>
           <h4>Champion name</h4>
           <div class="c-faction">Team / race</div>
           <p>Season summary — record, the match that decided it, and anything worth remembering.</p>
         </div>
         <div class="champ">
-          <svg><use href="#ico-trophy"/></svg>
+          <svg aria-hidden="true" focusable="false"><use href="#ico-trophy"/></svg>
           <div class="c-season">40k · 2025 League</div>
           <h4>Champion name</h4>
           <div class="c-faction">Faction</div>
           <p>Season summary — record, the match that decided it, and anything worth remembering.</p>
         </div>
         <div class="champ">
-          <svg><use href="#ico-trophy"/></svg>
+          <svg aria-hidden="true" focusable="false"><use href="#ico-trophy"/></svg>
           <div class="c-season">40k · End-of-Year 3v3</div>
           <h4>Winning team</h4>
           <div class="c-faction">Mixed armies</div>
@@ -289,11 +291,23 @@
   </div>
 </footer>
 
-<script src="script.js?v=202609222255"></script>
+<script src="script.js?v=202609230910"></script>
 <script>
 (function(){
   var tabs = document.querySelectorAll('.lg-tab');
   if(!tabs.length) return;
+  // Arrow keys move between tabs (standard tablist keyboard pattern)
+  tabs.forEach(function(tab, i){
+    tab.addEventListener('keydown', function(e){
+      var n = null;
+      if(e.key === 'ArrowRight') n = (i+1) % tabs.length;
+      if(e.key === 'ArrowLeft') n = (i-1+tabs.length) % tabs.length;
+      if(e.key === 'Home') n = 0;
+      if(e.key === 'End') n = tabs.length-1;
+      if(n === null) return;
+      e.preventDefault(); tabs[n].focus(); tabs[n].click();
+    });
+  });
   tabs.forEach(function(tab){
     tab.addEventListener('click', function(){
       var id = tab.getAttribute('data-target');
@@ -301,6 +315,7 @@
         var on = t === tab;
         t.classList.toggle('active', on);
         t.setAttribute('aria-selected', on ? 'true' : 'false');
+        t.setAttribute('tabindex', on ? '0' : '-1');
       });
       document.querySelectorAll('.lg-panel').forEach(function(p){
         p.classList.toggle('active', p.id === id);

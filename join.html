@@ -18,9 +18,10 @@
 <meta name="twitter:description" content="Ready to join Eastern Cape Warlords? Here's when we meet, what to bring, and how to get your first game in Port Elizabeth, South Africa.">
 <meta name="twitter:image" content="https://ecwarlords.co.za/assets/logo.webp">
 <link rel="icon" href="assets/logo.webp">
-<link rel="stylesheet" href="style.css?v=202609222255">
+<link rel="stylesheet" href="style.css?v=202609230910">
 </head>
 <body data-page="join">
+<a class="skip-link" href="#main">Skip to main content</a>
 
 <img class="page-flank page-flank-left" src="assets/hero-left.webp" alt="" aria-hidden="true">
 <img class="page-flank page-flank-right" src="assets/hero-right.webp" alt="" aria-hidden="true">
@@ -32,7 +33,7 @@
 </defs>
 </svg>
 
-<nav class="topnav">
+<nav class="topnav" aria-label="Main">
   <div class="wrap">
     <a href="./" class="brand">
       <img src="assets/logo.webp" alt="Eastern Cape Warlords crest">
@@ -48,11 +49,11 @@
       <li><a href="tools" data-page="tools">Tools</a></li>
       <li><a href="join" data-page="join" class="nav-cta">Join Us</a></li>
     </ul>
-    <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+    <button class="burger" id="burgerBtn" aria-label="Menu" aria-controls="navlinks" aria-expanded="false"><span></span></button>
   </div>
 </nav>
 
-<main id="main">
+<main id="main" tabindex="-1">
 
   <div class="subhero texture-void texture-stripes" style="--hero-img:url('assets/join-banner.jpg');">
     <div class="wrap">
@@ -64,25 +65,26 @@
 
   <div class="section" style="padding-top:20px;">
     <div class="wrap">
+      <h2 class="sr-only">How to get started</h2>
       <div class="steps reveal">
         <div class="step">
           <div class="s-num">01</div>
-          <h4>Show up Thursday</h4>
+          <h3>Show up Thursday</h3>
           <p>Drop by any Thursday, 7–10 PM. No sign-up needed for your first visit.</p>
         </div>
         <div class="step">
           <div class="s-num">02</div>
-          <h4>Borrow an army</h4>
+          <h3>Borrow an army</h3>
           <p>No models yet? Use one of our loaner armies for your first three games, free.</p>
         </div>
         <div class="step">
           <div class="s-num">03</div>
-          <h4>Get a mentor</h4>
+          <h3>Get a mentor</h3>
           <p>We pair every new member with a veteran for rules, list-building, and paint advice.</p>
         </div>
         <div class="step">
           <div class="s-num">04</div>
-          <h4>Join the chat</h4>
+          <h3>Join the chat</h3>
           <p>Get added to the Discord for game nights, trades, and the never-ending points debates.</p>
         </div>
       </div>
@@ -143,11 +145,11 @@
             </div>
             <button type="submit" class="btn btn-primary">Send Message</button>
           </form>
-          <p class="form-note" id="formNote"></p>
+          <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
 
           <div class="social-row">
-            <a href="#" class="social-btn"><svg><use href="#ico-discord"/></svg> Discord</a>
-            <a href="#" class="social-btn"><svg><use href="#ico-camera"/></svg> Instagram</a>
+            <a href="#" class="social-btn"><svg aria-hidden="true" focusable="false"><use href="#ico-discord"/></svg> Discord</a>
+            <a href="#" class="social-btn"><svg aria-hidden="true" focusable="false"><use href="#ico-camera"/></svg> Instagram</a>
           </div>
         </div>
       </div>
@@ -183,6 +185,6 @@
   </div>
 </footer>
 
-<script src="script.js?v=202609222255"></script>
+<script src="script.js?v=202609230910"></script>
 </body>
 </html>

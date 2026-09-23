@@ -18,7 +18,7 @@
 <meta name="twitter:description" content="News, battle reports, and updates from the Eastern Cape Warlords wargaming club — straight from the clubhouse.">
 <meta name="twitter:image" content="https://ecwarlords.co.za/assets/logo.webp">
 <link rel="icon" href="assets/logo.webp">
-<link rel="stylesheet" href="style.css?v=202609222255">
+<link rel="stylesheet" href="style.css?v=202609230910">
 <style>
   /* ============ DISPATCH FEED ============ */
   .news-feed{position:relative;margin-top:10px;padding-left:34px;border-left:1px solid var(--iron);}
@@ -76,6 +76,7 @@
 </style>
 </head>
 <body data-page="news">
+<a class="skip-link" href="#main">Skip to main content</a>
 
 <img class="page-flank page-flank-left" src="assets/hero-left.webp" alt="" aria-hidden="true">
 <img class="page-flank page-flank-right" src="assets/hero-right.webp" alt="" aria-hidden="true">
@@ -118,7 +119,7 @@
 </defs>
 </svg>
 
-<nav class="topnav">
+<nav class="topnav" aria-label="Main">
   <div class="wrap">
     <a href="./" class="brand">
       <img src="assets/logo.webp" alt="Eastern Cape Warlords crest">
@@ -134,11 +135,11 @@
       <li><a href="tools" data-page="tools">Tools</a></li>
       <li><a href="join" data-page="join" class="nav-cta">Join Us</a></li>
     </ul>
-    <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+    <button class="burger" id="burgerBtn" aria-label="Menu" aria-controls="navlinks" aria-expanded="false"><span></span></button>
   </div>
 </nav>
 
-<main id="main">
+<main id="main" tabindex="-1">
 
   <div class="subhero texture-void texture-stripes" style="--hero-img:url('assets/dispatch-banner.webp');">
     <div class="wrap">
@@ -150,18 +151,19 @@
 
   <div class="section" style="padding-top:20px;">
     <div class="wrap">
+      <h2 class="sr-only">Quick links</h2>
 
       <div class="hub-grid reveal">
         <a class="tool-card hub-card" href="events">
           <span class="badge live">UPCOMING</span>
-          <svg><use href="#ico-calendar"/></svg>
+          <svg aria-hidden="true" focusable="false"><use href="#ico-calendar"/></svg>
           <h3>Events Calendar</h3>
           <p>Every club night, tournament, campaign session and painting clinic — with dates, times, points limits and RSVP so you know exactly what's on before you drive out.</p>
           <span class="t-cta">See what's coming up</span>
         </a>
         <a class="tool-card hub-card" href="standings">
           <span class="badge live">RESULTS</span>
-          <svg><use href="#ico-trophy"/></svg>
+          <svg aria-hidden="true" focusable="false"><use href="#ico-trophy"/></svg>
           <h3>League Standings</h3>
           <p>Current Blood Bowl table and 40k league positions, plus the archive of past seasons and champions — all in one place instead of buried in old posts below.</p>
           <span class="t-cta">View the tables</span>
@@ -382,7 +384,7 @@
   </div>
 </footer>
 
-<script src="script.js?v=202609222255"></script>
+<script src="script.js?v=202609230910"></script>
 <script>
 (function(){
   var feed = document.getElementById('newsFeed');

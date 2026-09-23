@@ -18,9 +18,10 @@
 <meta name="twitter:description" content="The story, values, and history of the Eastern Cape Warlords tabletop club in Port Elizabeth, South Africa — from a garage in 2019 to a full clubhouse today.">
 <meta name="twitter:image" content="https://ecwarlords.co.za/assets/logo.webp">
 <link rel="icon" href="assets/logo.webp">
-<link rel="stylesheet" href="style.css?v=202609222255">
+<link rel="stylesheet" href="style.css?v=202609230910">
 </head>
 <body data-page="about">
+<a class="skip-link" href="#main">Skip to main content</a>
 
 <img class="page-flank page-flank-left" src="assets/hero-left.webp" alt="" aria-hidden="true">
 <img class="page-flank page-flank-right" src="assets/hero-right.webp" alt="" aria-hidden="true">
@@ -33,7 +34,7 @@
 </defs>
 </svg>
 
-<nav class="topnav">
+<nav class="topnav" aria-label="Main">
   <div class="wrap">
     <a href="./" class="brand">
       <img src="assets/logo.webp" alt="Eastern Cape Warlords crest">
@@ -49,11 +50,11 @@
       <li><a href="tools" data-page="tools">Tools</a></li>
       <li><a href="join" data-page="join" class="nav-cta">Join Us</a></li>
     </ul>
-    <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+    <button class="burger" id="burgerBtn" aria-label="Menu" aria-controls="navlinks" aria-expanded="false"><span></span></button>
   </div>
 </nav>
 
-<main id="main">
+<main id="main" tabindex="-1">
 
   <div class="subhero texture-void texture-stripes" style="--hero-img:url('assets/about-banner.webp');">
     <div class="wrap">
@@ -86,17 +87,17 @@
       </div>
       <div class="pillars reveal">
         <div class="pillar">
-          <svg><use href="#ico-brush"/></svg>
+          <svg aria-hidden="true" focusable="false"><use href="#ico-brush"/></svg>
           <h3>The Hobby</h3>
           <p>Weekly paint nights, technique clinics, and a "no unpainted models on the table" rule we mostly enforce with love, not judgment.</p>
         </div>
         <div class="pillar">
-          <svg><use href="#ico-sword"/></svg>
+          <svg aria-hidden="true" focusable="false"><use href="#ico-sword"/></svg>
           <h3>The Battlefield</h3>
           <p>Pickup games every week, a running narrative campaign, and one blood-and-thunder escalation league per year.</p>
         </div>
         <div class="pillar">
-          <svg><use href="#ico-flame"/></svg>
+          <svg aria-hidden="true" focusable="false"><use href="#ico-flame"/></svg>
           <h3>The Brotherhood</h3>
           <p>Lore debates, army-building help, and a group chat that never sleeps and never stops arguing about points costs.</p>
         </div>
@@ -178,6 +179,6 @@
   </div>
 </footer>
 
-<script src="script.js?v=202609222255"></script>
+<script src="script.js?v=202609230910"></script>
 </body>
 </html>
