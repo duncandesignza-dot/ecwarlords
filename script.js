@@ -386,7 +386,10 @@
     'Custodes Vexilla Detachment',
     'Mortarion, Daemon Primarch of Nurgle',
     'Beastboss',
-    'Abaddon the Despoiler'
+    'Abaddon the Despoiler',
+    'Dark Apostle',
+    'Slann Starmaster',
+    'Kairos Fateweaver'
   ];
   var homeArmory = document.getElementById('homeArmory');
   if(homeArmory){
