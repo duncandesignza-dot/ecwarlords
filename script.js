@@ -378,12 +378,30 @@
   }
 
   /* ---------- HOME: FROM THE ARMORY ---------- */
-  // Shows the six newest real pieces from ARMY_DATA (newest entries are at
-  // the end of the array), so adding a model to the Armory updates the
-  // homepage automatically. Opens in the homepage photo lightbox.
+  // Hand-picked pieces shown on the homepage, by exact ARMY_DATA title.
+  // Edit this list to change the showcase; unknown titles are skipped.
+  var HOME_ARMORY_PICKS = [
+    'Knight Abominant III',
+    'Venerable Dreadnought',
+    'Custodes Vexilla Detachment',
+    'Mortarion, Daemon Primarch of Nurgle',
+    'Beastboss',
+    'Abaddon the Despoiler'
+  ];
   var homeArmory = document.getElementById('homeArmory');
   if(homeArmory){
-    ARMY_DATA.filter(function(i){ return i.img; }).slice(-6).reverse().forEach(function(item){
+    var homeLb = document.getElementById('lightbox');
+    var homeLbClose = document.getElementById('lbClose');
+    var homeLbDialog = homeLb ? makeDialog(homeLb, homeLbClose) : null;
+    if(homeLbDialog){
+      homeLb.setAttribute('aria-labelledby','lbTitle');
+      homeLbClose.addEventListener('click', homeLbDialog.close);
+      homeLb.addEventListener('click', function(e){ if(e.target === homeLb) homeLbDialog.close(); });
+      document.addEventListener('keydown', function(e){ if(e.key === 'Escape') homeLbDialog.close(); });
+    }
+    HOME_ARMORY_PICKS.forEach(function(title){
+      var item = ARMY_DATA.filter(function(i){ return i.title === title && i.img; })[0];
+      if(!item) return;
       var b = document.createElement('button');
       b.type = 'button';
       b.className = 'ha-card';
@@ -396,11 +414,13 @@
           '<span class="ha-painter">by '+escAttr(item.painter)+'</span>'+
         '</span>';
       b.addEventListener('click', function(){
-        if(typeof plbDialog === 'undefined' || !plbDialog){ location.href = 'gallery'; return; }
-        plbImg.src = item.img;
-        plbImg.alt = item.title + ' painted by ' + item.painter;
-        plbCap.textContent = item.title + ' \u2014 painted by ' + item.painter;
-        plbDialog.open();
+        if(!homeLbDialog){ location.href = 'gallery'; return; }
+        document.getElementById('lbArt').innerHTML = '<img src="'+escAttr(item.img)+'" alt="'+escAttr(item.title + ' painted by ' + item.painter)+'">';
+        document.getElementById('lbFaction').textContent = item.label;
+        document.getElementById('lbTitle').textContent = item.title;
+        document.getElementById('lbDesc').textContent = item.desc;
+        document.getElementById('lbPainter').textContent = 'Painted by ' + item.painter;
+        homeLbDialog.open();
       });
       homeArmory.appendChild(b);
     });

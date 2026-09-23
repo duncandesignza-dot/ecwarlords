@@ -18,7 +18,7 @@
 <meta name="twitter:description" content="Eastern Cape Warlords is a Warhammer 40K, Age of Sigmar, Kings of War, D&amp;D and board game club in Port Elizabeth, South Africa. New members always welcome.">
 <meta name="twitter:image" content="https://ecwarlords.co.za/assets/logo.webp">
 <link rel="icon" href="assets/logo.webp">
-<link rel="stylesheet" href="style.css?v=202609232138">
+<link rel="stylesheet" href="style.css?v=202609232146">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -83,7 +83,7 @@
     <img class="hero-flank hero-flank-right" src="assets/hero-right.webp" alt="" aria-hidden="true">
     <div class="wrap">
       <div class="hero-content">
-        <div class="eyebrow">EASTERN CAPE · A TABLETOP COMMUNITY</div>
+        <div class="eyebrow">GQEBERHA · A TABLETOP COMMUNITY</div>
         <h1 class="hero-title">
           <span class="hero-title__word" data-text="Eastern Cape">Eastern Cape</span>
           <span class="hero-title__word" data-text="Warlords">Warlords</span>
@@ -149,7 +149,7 @@
         <div>
           <div class="eyebrow">FROM THE ARMORY</div>
           <h2>Fresh off the painting desk.</h2>
-          <p>The newest pieces off members' painting desks. Tap any model for a closer look.</p>
+          <p>A few favourites from members' painting desks. Tap any model for a closer look.</p>
         </div>
         <a href="gallery" class="head-link">See the full Armory</a>
       </div>
@@ -300,6 +300,19 @@
 
 </main>
 
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Army detail">
+  <div class="lb-panel">
+    <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
+    <div class="art has-photo" id="lbArt"></div>
+    <div class="lb-info">
+      <div class="faction" id="lbFaction"></div>
+      <h3 id="lbTitle"></h3>
+      <p id="lbDesc"></p>
+      <div class="painter-tag" id="lbPainter"></div>
+    </div>
+  </div>
+</div>
+
 <div class="photo-lightbox" id="photoLightbox" role="dialog" aria-modal="true" aria-label="Photo detail">
   <div class="plb-inner">
     <button class="plb-close" id="plbClose" aria-label="Close">&times;</button>
@@ -335,6 +348,6 @@
   </div>
 </footer>
 
-<script src="script.js?v=202609232138"></script>
+<script src="script.js?v=202609232146"></script>
 </body>
 </html>
