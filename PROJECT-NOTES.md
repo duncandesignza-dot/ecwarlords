@@ -640,6 +640,20 @@ with `astartes:true` (Space Marines, the six Codex Chapters, Blood Angels,
 Dark Angels, Space Wolves, Black Templars, Deathwatch, Grey Knights — 13
 cards); the filter code matches `data-astartes="1"` for it.
 
+**Update 2026-09-23 — more real logos.** User-supplied SVGs added for
+Salamanders, Imperial Fists, Iron Hands, Raven Guard, White Scars and Chaos
+Daemons (`ico-logo-*`), replacing their placeholders (the now-unused
+`ico-fflame`/`ico-ffist`/`ico-fgear`/`ico-fraven`/`ico-fbolt`/`ico-fdaemon`
+symbols were deleted). The White Scars file had white-filled background
+shapes (`fill:#fff`) — those were dropped so only the dark artwork is drawn
+in bone-white. **28 of 34 cards now have real logos**; still on
+placeholders: Adeptus Custodes, Imperial Agents, Emperor's Children, Chaos
+Knights, Necrons, T'au Empire.
+Later the same day: Emperor's Children, T'au Empire and Necrons logos added
+(placeholders `ico-fblade`/`ico-fsun`/`ico-fscarab` deleted). **31 of 34
+real logos**; still on placeholders: Adeptus Custodes (`ico-fspear`),
+Imperial Agents (`ico-fhood`), Chaos Knights (`ico-fknight`).
+
 ## 11th edition (added 2026-09-22)
 
 **Important context discovered while doing this work — not yet fully
@@ -993,3 +1007,12 @@ All images live in `assets/`. Notable non-obvious ones:
   names the Codex Chapters so e.g. "Salamanders" is searchable (2026-09-23).
 - Factions page: six Codex Chapters split into their own cards + Adeptus
   Astartes filter chip (2026-09-23).
+- Six more real faction logos (Salamanders, Imperial Fists, Iron Hands,
+  Raven Guard, White Scars, Chaos Daemons) (2026-09-23).
+- Emperor's Children, T'au Empire and Necrons logos added (31/34) (2026-09-23).
+- Instagram added (https://www.instagram.com/ec_warlords): Join page social
+  row + step 04 copy, Dispatch page button, homepage JSON-LD `sameAs`
+  (2026-09-24). Social links are now Facebook + Instagram.
+- Armory: "Sisters of Silence" by Steven John Ovens added (Vigilators,
+  Prosecutors, Witchseeker; `assets/sisters-of-silence.webp`, faction chip
+  `custodes`, label SISTERS OF SILENCE) — 27 real pieces now (2026-09-24).
