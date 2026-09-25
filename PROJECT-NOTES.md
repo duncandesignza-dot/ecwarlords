@@ -1016,3 +1016,16 @@ All images live in `assets/`. Notable non-obvious ones:
 - Armory: "Sisters of Silence" by Steven John Ovens added (Vigilators,
   Prosecutors, Witchseeker; `assets/sisters-of-silence.webp`, faction chip
   `custodes`, label SISTERS OF SILENCE) — 27 real pieces now (2026-09-24).
+- Adeptus Custodes logo added (user-supplied path, no viewBox given — set to
+  the path's bounding box `10.3 8.1 27.9 34.2`); `ico-fspear` deleted. 32 of
+  34 real logos; only Imperial Agents (`ico-fhood`) and Chaos Knights
+  (`ico-fknight`) still on placeholders (2026-09-24).
+- Chaos Daemons logo replaced with a new user-supplied path, and Chaos
+  Knights logo added (`ico-fknight` deleted); viewBoxes set to each path's
+  bounding box. 33 of 34 real logos — only Imperial Agents (`ico-fhood`) left.
+  A new Imperial Fists path was also supplied but renders as only the
+  lightning bolts (the fist is missing — likely one path of a multi-path
+  icon), so the existing Imperial Fists logo was kept pending a complete
+  file (2026-09-24).
+- Google Analytics tag (gtag.js, ID G-5RNM66M0QK) added right after `<head>`
+  on all 17 pages — add the same snippet to any new page (2026-09-25).
