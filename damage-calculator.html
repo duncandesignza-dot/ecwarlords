@@ -27,7 +27,7 @@
 <meta name="twitter:description" content="Warhammer 40,000 damage calculator: expected damage output for any attacker profile against any defender.">
 <meta name="twitter:image" content="https://ecwarlords.co.za/assets/logo.webp">
 <link rel="icon" href="assets/logo.webp">
-<link rel="stylesheet" href="style.css?v=202609242056">
+<link rel="stylesheet" href="style.css?v=202609261900">
 <style>
   .bar-wrap{margin-top:8px;}
   .bar-row{display:flex;align-items:center;gap:12px;margin-bottom:10px;}
@@ -101,7 +101,7 @@
             </div>
             <div class="fld">
               <label for="dc-ap">AP (0 to -5)</label>
-              <input id="dc-ap" type="number" min="-6" max="0" value="-1">
+              <input id="dc-ap" type="number" min="-5" max="0" value="-1">
             </div>
           </div>
           <div class="frow">
@@ -260,7 +260,7 @@
   </div>
 </footer>
 
-<script src="script.js?v=202609242056"></script>
+<script src="script.js?v=202609261900"></script>
 <script>
 (function(){
   "use strict";
@@ -306,12 +306,51 @@
     if(mode === 'ones') return p + (1/6)*p;
     return p;
   }
+  // chance of a critical roll once rerolls are taken into account (a failed
+  // roll, chance 1-p, gets a second go at rolling a crit)
+  function critWithReroll(pCrit, p, mode){
+    if(mode === 'all') return pCrit + (1-p)*pCrit;
+    if(mode === 'ones') return pCrit + (1/6)*pCrit;
+    return pCrit;
+  }
+  // damage-per-wound distribution {dmg: probability}, after Feel No Pain
+  // rolls each point of damage individually
+  function damageDist(spec, pIgnore){
+    var faces = spec === 'd3' ? [1,2,3] : spec === 'd6' ? [1,2,3,4,5,6] :
+                spec === 'd6+2' ? [3,4,5,6,7,8] : [parseInt(spec,10)];
+    var dist = {};
+    faces.forEach(function(k){
+      // binomial: how many of the k points get through
+      var c = 1;
+      for(var j=0;j<=k;j++){
+        var pr = c * Math.pow(1-pIgnore, j) * Math.pow(pIgnore, k-j) / faces.length;
+        dist[j] = (dist[j] || 0) + pr;
+        c = c * (k-j) / (j+1);
+      }
+    });
+    return dist;
+  }
+  // expected unsaved wounds needed to kill one W-wound model when damage past
+  // its remaining wounds is wasted
+  function woundsPerKill(dist, W){
+    var E = [0];
+    var p0 = dist[0] || 0;
+    for(var w=1; w<=W; w++){
+      var e = 1;
+      Object.keys(dist).forEach(function(d){
+        d = +d;
+        if(d > 0) e += dist[d] * E[Math.max(0, w-d)];
+      });
+      E[w] = e / (1 - p0);
+    }
+    return E[W];
+  }
 
   function calc(){
     var A     = Math.max(1, parseInt($('dc-attacks').value,10) || 1);
     var bs    = parseInt($('dc-bs').value,10);
     var S     = parseInt($('dc-str').value,10) || 1;
-    var ap    = parseInt($('dc-ap').value,10) || 0;
+    var ap    = Math.max(-5, Math.min(0, parseInt($('dc-ap').value,10) || 0));
     var dmg   = avgDamage($('dc-dmg').value);
     var sus   = Math.max(0, parseInt($('dc-sustain').value,10) || 0);
     var T     = parseInt($('dc-tough').value,10) || 1;
@@ -325,9 +364,10 @@
     var pCrit  = (7 - critOn)/6;
 
     // ---- hits ----
-    var pHit = pSucc(bs);
-    pHit = withReroll(pHit, flags.rrHitAll ? 'all' : (flags.rrHit1 ? 'ones' : null));
-    var critHits = A * pCrit;
+    var hitMode = flags.rrHitAll ? 'all' : (flags.rrHit1 ? 'ones' : null);
+    var pHitBase = Math.max(pSucc(bs), pCrit);   // a crit always hits
+    var pHit = withReroll(pHitBase, hitMode);
+    var critHits = A * critWithReroll(pCrit, pHitBase, hitMode);
     var normalHits = A * pHit - critHits;
     if(normalHits < 0) normalHits = 0;
 
@@ -338,10 +378,11 @@
 
     // ---- wounds ----
     var wt = woundTarget(S, T);
-    var pWound = pSucc(wt);
-    pWound = withReroll(pWound, flags.rrWoundAll ? 'all' : (flags.rrWound1 ? 'ones' : null));
+    var woundMode = flags.rrWoundAll ? 'all' : (flags.rrWound1 ? 'ones' : null);
+    var pWoundBase = Math.max(pSucc(wt), pCrit);  // a crit always wounds
+    var pWound = withReroll(pWoundBase, woundMode);
 
-    var woundCrits = hitsToWound * pCrit;
+    var woundCrits = hitsToWound * critWithReroll(pCrit, pWoundBase, woundMode);
     var devW = flags.dev ? woundCrits : 0;
     var normalWounds = hitsToWound * pWound - devW;
     if(normalWounds < 0) normalWounds = 0;
@@ -360,8 +401,7 @@
     var rawDamage = unsaved * dmgPer;
 
     // models slain: damage past a model's wounds is wasted
-    var effPerWound = Math.min(dmgPer, W);
-    var slain = (unsaved * effPerWound) / W;
+    var slain = unsaved / woundsPerKill(damageDist($('dc-dmg').value, pFnpIgnore), W);
     if(slain > models) slain = models;
 
     var f1 = function(n){ return (Math.round(n*10)/10).toFixed(1); };

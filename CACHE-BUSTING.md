@@ -25,20 +25,20 @@ If Claude updates `style.css` or `script.js` for you, the version tag gets
 bumped automatically as part of that — you don't need to do anything.
 
 If you ever edit `style.css` or `script.js` **directly on GitHub** yourself
-(without asking Claude), bump the version number in **all 6 HTML files** so
-the change actually shows up for visitors:
+(without asking Claude), bump the version number in **every HTML file** (17
+pages at the time of writing) so the change actually shows up for visitors:
 
 1. Pick any new number — the current date and time works well, e.g. `202601151030`
    (year-month-day-hour-minute), or just increment the existing number by 1.
-2. In each of `index.html`, `about.html`, `gallery.html`, `members.html`,
-   `news.html`, and `join.html`, find these two lines near the top and bottom
-   of the file:
+2. In each `.html` file in the repo root, find these two lines near the top
+   and bottom of the file:
    ```html
    <link rel="stylesheet" href="style.css?v=OLD_NUMBER">
    ...
    <script src="script.js?v=OLD_NUMBER"></script>
    ```
 3. Replace `OLD_NUMBER` with your new number in **both places, in every file**.
+   A find-and-replace across all files on the old number does this in one go.
 4. Commit and push. Done — no more stale cache.
 
 ## Why not one file that "clears cache" instead?

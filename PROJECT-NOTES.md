@@ -134,6 +134,16 @@ Builder's enhancement picker is probably silently empty for more factions
 than just those two. Worth a follow-up pass through `detachments()` to
 also handle flat (non-nested) `Enhancements` groups.
 
+**2026-09-26 update: the Army Builder's generator IS in the repo** — it's
+`build/parse-bsdata.py` (not the root `parse.py`), which emits exactly the
+fields the builder expects (`unitSizes`, `options`, `leads`, top-level
+`detachments`). `build/verify-all.py` and `build/verify-orks.py` are its
+regression tests (both pass). The root `parse.py` only feeds the Datasheet
+Lookup (`assets/data/lookup/`). An older copy of `parse.py` that lived in
+`tools/bsdata-build/` was deleted — a `tools/` folder next to `tools.html`
+can make `/tools` resolve to the folder instead of the page. **Don't create
+a folder with the same name as a page.** The original finding follows:
+
 **2026-09-21: `army-builder.html`'s live JS does not match `parse.py`'s
 output schema — significant finding, unresolved, data kept deliberately
 separate.** While building the Datasheet Lookup, reading `army-builder.html`'s
@@ -278,7 +288,7 @@ real `LIVE · 35 FACTIONS` link, matching the Army Builder card's pattern.
 
 `style.css` and `script.js` are loaded with a version query string, e.g.
 `style.css?v=202609211701`, on every page. **Whenever either file's
-contents change, bump this number on all HTML pages** (14 files, not just
+contents change, bump this number on all HTML pages** (17 files, not just
 six) or visitors may keep seeing a stale cached copy. Full explanation
 in `CACHE-BUSTING.md`. Pattern used to bump it:
 ```
@@ -1029,3 +1039,32 @@ All images live in `assets/`. Notable non-obvious ones:
   file (2026-09-24).
 - Google Analytics tag (gtag.js, ID G-5RNM66M0QK) added right after `<head>`
   on all 17 pages — add the same snippet to any new page (2026-09-25).
+- Bug test and cleanup pass (2026-09-26). Fixed: Army Builder wiping the
+  saved list on reload, keeping the old detachment after a faction switch,
+  and refusing lists saved for another faction (it now switches faction);
+  Damage Calculator crits ignoring rerolls, "Crit on 5+" not counting 5s as
+  successes against 6+ targets, and "models slain" letting damage carry
+  over between models; Dice Roller "reroll all" rerolling the wrong dice
+  with a hit modifier or Crit 5+, and hit modifier now capped at +/-1; AP
+  inputs clamped to 0..-5; Turn Tracker "Reset Game" now also clears the
+  Mission Tracker scoring; the two trackers re-sync via the `storage` event
+  so an open tab no longer overwrites the other's changes, and corrupted
+  saved state no longer crashes them; mobile menu (focus moves into it,
+  Tab out closes it, widening the window unlocks scrolling); Factions page
+  now highlights Tools in the nav; faction search ignores apostrophes
+  ("tau" finds T'au); join form rejects a name of only spaces; 375px
+  overflow on the homepage "What we play" grid, Datasheet Lookup detail
+  and Mission Tracker. Cleanup: both Armory lightboxes share one
+  `openArmoryItem()`; dead "no photo" gallery fallback, unused `color` /
+  `chapter` fields and the unused `js` class removed; unused root
+  `banner.jpg` and `assets/gallery-*.jpg` (superseded by `.webp`) and the
+  committed `build/__pycache__` deleted; `.gitignore` added.
+  **Still open — Army Builder data (fix in `build/parse-bsdata.py`, then
+  regenerate):** Aeldari/Drukhari/Ynnari have 0 detachments; Custodes, Grey
+  Knights, AdMech and Agents only list Imperial Knights/Agents detachments;
+  enhancements empty for most Chaos factions, Necrons and Votann; ~205
+  units' sizes/points disagree between `assets/data/` and
+  `assets/data/lookup/` (e.g. Repentia Squad has a single 1-model size;
+  lookup shows 9/19 Beast Snagga Boyz); `leads` ids that don't match any
+  datasheet (e.g. GSC leaders -> `acolyte-hybrids`, which is split into two
+  datasheets), so those leaders can't be attached.

@@ -391,7 +391,6 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:700;letter-spacing:.01em
   aspect-ratio:1/1;position:relative;overflow:hidden;
   display:flex;align-items:center;justify-content:center;
 }
-.gcard .art svg{width:64%;height:64%;filter:drop-shadow(0 8px 18px rgba(0,0,0,.6));}
 .gcard .art.has-photo{background:var(--void-2);}
 .gcard .art.has-photo img{
   width:100%;height:100%;object-fit:cover;display:block;
@@ -419,7 +418,6 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:700;letter-spacing:.01em
   max-height:90vh;
 }
 .lb-panel .art{aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;background:var(--void-2);max-height:90vh;}
-.lb-panel .art svg{width:70%;height:70%;}
 .lb-info{padding:48px;max-height:90vh;overflow-y:auto;}
 .lb-info .faction{font-size:.8rem;letter-spacing:.12em;color:var(--crimson-glow);font-weight:700;}
 .lb-info h3{font-size:2.1rem;margin:14px 0 18px;}
@@ -871,8 +869,8 @@ body.loaded main{animation:pageIn .5s ease both;}
 @keyframes dieIn{from{opacity:0;transform:scale(.6) rotate(-12deg);}to{opacity:1;transform:none;}}
 
 /* --- turn tracker --- */
-.tt-players{display:grid;grid-template-columns:1fr 1fr;gap:22px;}
-@media (max-width:760px){.tt-players{grid-template-columns:1fr;}}
+.tt-players{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:22px;}
+@media (max-width:760px){.tt-players{grid-template-columns:minmax(0,1fr);}}
 .tt-card{border:1px solid var(--iron);background:var(--panel);padding:24px;text-align:center;transition:border-color .25s var(--ease);}
 .tt-card.active{border-color:var(--crimson-bright);box-shadow:0 0 0 1px var(--crimson-bright) inset;}
 .tt-card .pname{
@@ -1109,8 +1107,8 @@ body.loaded main{animation:pageIn .5s ease both;}
 
 /* ---------- Datasheet Lookup ---------- */
 .dl-cols{display:grid;grid-template-columns:300px minmax(0,1fr);gap:22px;align-items:start;}
-@media (max-width:760px){.dl-cols{grid-template-columns:1fr;}}
-.dl-detail-panel{min-height:200px;}
+@media (max-width:760px){.dl-cols{grid-template-columns:minmax(0,1fr);}}
+.dl-detail-panel{min-height:200px;overflow-x:auto;}
 .dl-head h3{font-family:var(--font-display);font-size:1.5rem;color:var(--bone);margin-bottom:6px;}
 .dl-detail-panel h4{font-size:.87rem;letter-spacing:.1em;font-weight:700;color:var(--crimson-glow);
   margin:20px 0 10px;text-transform:uppercase;}
@@ -1273,14 +1271,14 @@ body.loaded main{animation:pageIn .5s ease both;}
 
 /* --- What we play --- */
 .home-games{list-style:none;display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--iron);border:1px solid var(--iron);}
-@media (max-width:760px){.home-games{grid-template-columns:repeat(2,1fr);}}
+@media (max-width:760px){.home-games{grid-template-columns:repeat(2,minmax(0,1fr));}}
 .home-games a{
   display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;
   min-height:150px;padding:22px 16px;background:var(--panel);text-align:center;
   transition:background .25s var(--ease);
 }
 .home-games a:hover{background:#2a1313;}
-.home-games img{max-width:150px;max-height:48px;width:auto;height:auto;object-fit:contain;filter:grayscale(.2);}
+.home-games img{max-width:min(150px,100%);max-height:48px;width:auto;height:auto;object-fit:contain;filter:grayscale(.2);}
 .home-games img.tall{max-height:64px;}
 .home-games svg{width:44px;height:44px;color:var(--crimson-glow);}
 .home-games span{font-weight:700;font-size:.86rem;letter-spacing:.06em;color:var(--bone-dim);}
