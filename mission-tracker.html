@@ -27,7 +27,7 @@
 <meta name="twitter:description" content="Track objective control and secondary mission scoring per battle round, synced with the Turn Tracker — free tool from the Eastern Cape Warlords that works with any Warhammer 40,000 mission pack.">
 <meta name="twitter:image" content="https://ecwarlords.co.za/assets/logo.webp">
 <link rel="icon" href="assets/logo.webp">
-<link rel="stylesheet" href="style.css?v=202609242056">
+<link rel="stylesheet" href="style.css?v=202609261900">
 </head>
 <body data-page="tools">
 <a class="skip-link" href="#main">Skip to main content</a>
@@ -202,7 +202,7 @@
   </div>
 </footer>
 
-<script src="script.js?v=202609242056"></script>
+<script src="script.js?v=202609261900"></script>
 <script>
 (function(){
   "use strict";
@@ -225,14 +225,20 @@
   function save(){
     try{ localStorage.setItem(KEY, JSON.stringify(state)); }catch(e){}
   }
-  function load(){
+  // keepRunning: re-sync from another tab without stopping this tab's clock
+  function load(keepRunning){
     try{
       var raw = localStorage.getItem(KEY);
       if(raw){
         var s = JSON.parse(raw);
         if(s && typeof s === 'object'){
+          // drop corrupted fields so the defaults stay in place
+          ['vp','cp','names','left'].forEach(function(k){
+            if(!s[k] || typeof s[k] !== 'object') delete s[k];
+          });
+          var wasRunning = state.running;
           state = Object.assign(state, s);
-          state.running = false;
+          state.running = keepRunning ? wasRunning : false;
           if(!Array.isArray(state.objectives) || !state.objectives.length){
             state.objectives = [{owner:0},{owner:0},{owner:0},{owner:0},{owner:0},{owner:0}];
           }
@@ -424,6 +430,16 @@
     state.primaryTotal = {1:0,2:0};
     state.secondaries = {1:[],2:[]};
     syncVP(); save(); renderAll();
+  });
+
+  // Both trackers share one saved game: pick up changes made in another tab
+  // (or while this page sat in the back/forward cache) before this page
+  // saves over them
+  window.addEventListener('storage', function(e){
+    if(e.key === KEY){ load(true); renderAll(); }
+  });
+  window.addEventListener('pageshow', function(e){
+    if(e.persisted){ load(); renderAll(); }
   });
 
   load();

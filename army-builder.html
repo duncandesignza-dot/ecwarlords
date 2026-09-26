@@ -27,7 +27,7 @@
 <meta name="twitter:description" content="Warhammer 40,000 army list builder and points calculator from the Eastern Cape Warlords.">
 <meta name="twitter:image" content="https://ecwarlords.co.za/assets/logo.webp">
 <link rel="icon" href="assets/logo.webp">
-<link rel="stylesheet" href="style.css?v=202609242056">
+<link rel="stylesheet" href="style.css?v=202609261900">
 </head>
 <body data-page="tools">
 <a class="skip-link" href="#main">Skip to main content</a>
@@ -207,7 +207,7 @@
   </div>
 </footer>
 
-<script src="script.js?v=202609242056"></script>
+<script src="script.js?v=202609261900"></script>
 <script>
 (function(){
   "use strict";
@@ -223,6 +223,7 @@
   var limit = 2000;
   var detachmentId = '';
   var filter = '';
+  var factionIndex = [];    // entries from factions.json
   var open = {};            // uid -> loadout panel expanded
 
   // ---------- data loading ----------
@@ -239,7 +240,12 @@
         });
         $('ab-datanote').textContent =
           'Points data generated ' + (idx.generated || '') + ' from BSData.';
-        return loadFaction(idx.factions[0].file);
+        factionIndex = idx.factions;
+        // Open on the faction of the list saved last time, if there is one
+        var saved = readSaved();
+        var start = (saved && factionEntry(saved.factionId)) || idx.factions[0];
+        sel.value = start.file;
+        return loadFaction(start.file, saved);
       })
       .catch(function(){
         $('ab-browse').innerHTML =
@@ -249,7 +255,21 @@
       });
   }
 
-  function loadFaction(file){
+  function factionEntry(id){
+    return factionIndex.filter(function(f){ return f.id === id; })[0];
+  }
+  // Switch to faction `id` (if needed) before a list for it is applied
+  function ensureFaction(id){
+    if(!id || (faction && faction.id === id)) return Promise.resolve();
+    var f = factionEntry(id);
+    if(!f) return Promise.reject(new Error('Unknown faction (' + id + ').'));
+    $('ab-faction').value = f.file;
+    list = [];
+    return loadFaction(f.file);
+  }
+
+  // `saved`: stored state to restore once this faction's data is in
+  function loadFaction(file, saved){
     return fetch('assets/data/' + file)
       .then(function(r){ return r.json(); })
       .then(function(d){
@@ -262,6 +282,9 @@
           ds.appendChild(o);
         });
         $('ab-count').textContent = d.datasheets.length + ' units';
+        // Detachments differ per faction, so the old choice no longer applies
+        detachmentId = ''; open = {};
+        if(saved) restore(saved);
         renderBrowse();
         render();
       });
@@ -697,13 +720,15 @@
       }));
     }catch(e){}
   }
-  function restore(){
+  function readSaved(){
+    try{ return JSON.parse(localStorage.getItem(KEY)); }catch(e){ return null; }
+  }
+  function restore(s){
     try{
-      var raw = localStorage.getItem(KEY);
-      if(!raw) return;
-      var s = JSON.parse(raw);
       if(!s || !faction || s.factionId !== faction.id) return;
-      list = Array.isArray(s.list) ? s.list : [];
+      list = (Array.isArray(s.list) ? s.list : []).filter(function(e){
+        return e && typeof e === 'object' && sheet(e.id);
+      });
       limit = s.limit || 2000;
       detachmentId = s.detachmentId || '';
       $('ab-limit').value = String(limit);
@@ -965,14 +990,21 @@
       }
     } else {
       try{
-        var n = applyPayload(decodeList($('ab-modal-text').value));
-        msg.textContent = 'Imported ' + n + ' unit' + (n===1?'':'s') + '.';
-        msg.className = 'm-msg ok';
-        setTimeout(closeModal, 900);
+        var p = decodeList($('ab-modal-text').value);
       }catch(err){
         msg.textContent = 'Could not read that code. ' + (err.message || '');
         msg.className = 'm-msg err';
+        return;
       }
+      ensureFaction(p.f).then(function(){
+        var n = applyPayload(p);
+        msg.textContent = 'Imported ' + n + ' unit' + (n===1?'':'s') + '.';
+        msg.className = 'm-msg ok';
+        setTimeout(closeModal, 900);
+      }).catch(function(err){
+        msg.textContent = 'Could not read that code. ' + (err.message || '');
+        msg.className = 'm-msg err';
+      });
     }
   });
 
@@ -1000,12 +1032,12 @@
     var rec = savedAll()[name];
     if(!rec) return;
     if(list.length && !confirm('Replace your current list with "' + name + '"?')) return;
-    try{
-      applyPayload(decodeList(rec.code));
+    var fail = function(err){ alert('Could not load that list: ' + (err.message || '')); };
+    try{ var p = decodeList(rec.code); }catch(err){ fail(err); return; }
+    ensureFaction(p.f).then(function(){
+      applyPayload(p);
       $('ab-listname').value = name;
-    }catch(err){
-      alert('Could not load that list: ' + (err.message || ''));
-    }
+    }).catch(fail);
   });
 
   $('ab-delete-btn').addEventListener('click', function(){
@@ -1080,7 +1112,7 @@
 
   refreshSavedSelect();
 
-  loadIndex().then(function(){ restore(); render(); });
+  loadIndex();
 })();
 </script>
 </body>

@@ -1,7 +1,6 @@
 (function(){
   "use strict";
 
-  document.documentElement.classList.add('js');
   window.addEventListener('load', function(){ document.body.classList.add('loaded'); });
 
   /* ---------- ACTIVE NAV LINK ---------- */
@@ -90,11 +89,14 @@
 
   if(burgerBtn && navlinks){
     burgerBtn.setAttribute('aria-controls','navlinks');
+    var closeMenu = function(){
+      navlinks.classList.remove('open');
+      burgerBtn.setAttribute('aria-expanded','false');
+      document.body.style.overflow = '';
+    };
     document.addEventListener('keydown', function(e){
       if(e.key === 'Escape' && navlinks.classList.contains('open')){
-        navlinks.classList.remove('open');
-        burgerBtn.setAttribute('aria-expanded','false');
-        document.body.style.overflow = '';
+        closeMenu();
         burgerBtn.focus();
       }
     });
@@ -102,15 +104,31 @@
       var open = navlinks.classList.toggle('open');
       burgerBtn.setAttribute('aria-expanded', open ? 'true':'false');
       document.body.style.overflow = open ? 'hidden' : '';
+      // The menu comes before the burger in the markup, so move focus into it
+      // once the slide-in has made it visible (hidden elements can't take focus)
+      if(open){
+        setTimeout(function(){
+          var first = navlinks.querySelector('a');
+          if(first && navlinks.classList.contains('open')) first.focus({preventScroll:true});
+        }, 320);
+      }
     });
     // Close the menu (and restore scrolling) when a link is tapped
     navlinks.addEventListener('click', function(e){
-      if(e.target.closest('a')){
-        navlinks.classList.remove('open');
-        burgerBtn.setAttribute('aria-expanded','false');
-        document.body.style.overflow = '';
-      }
+      if(e.target.closest('a')) closeMenu();
     });
+    // Close when keyboard focus leaves both the menu and the burger
+    var onMenuFocusOut = function(e){
+      if(navlinks.classList.contains('open') && e.relatedTarget &&
+         !navlinks.contains(e.relatedTarget) && e.relatedTarget !== burgerBtn) closeMenu();
+    };
+    navlinks.addEventListener('focusout', onMenuFocusOut);
+    burgerBtn.addEventListener('focusout', onMenuFocusOut);
+    // Widening past the burger breakpoint would otherwise leave scrolling locked
+    var desktopNav = window.matchMedia('(min-width:881px)');
+    var onDesktopNav = function(){ if(desktopNav.matches && navlinks.classList.contains('open')) closeMenu(); };
+    if(desktopNav.addEventListener) desktopNav.addEventListener('change', onDesktopNav);
+    else desktopNav.addListener(onDesktopNav);
   }
 
   /* ---------- EMBERS ---------- */
@@ -134,37 +152,61 @@
 
   /* ---------- GALLERY DATA (used on gallery.html) ---------- */
   var ARMY_DATA = [
-    {faction:'chaos', label:'CHAOS SPACE MARINES', title:'Abaddon the Despoiler', painter:'Matthew Carslake', img:'assets/abaddon-despoiler.webp', color:'#2f3d6a', desc:'Warmaster Abaddon himself, Drach\'nyen alight and a fallen foe underfoot, painted in deep Black Legion blue with molten-orange flame licking up his cloak.'},
-    {faction:'marines', label:'SPACE MARINES', title:'Leviathan Siege Dreadnought', painter:'Matthew Carslake', img:'assets/leviathan-dreadnought.webp', color:'#2f4a8a', desc:'A Leviathan Pattern Dreadnought armed with a storm cannon array and siege claw, painted in bold Ultramarine blue with crisp edge highlighting and a suitably grim basing scene.'},
-    {faction:'chaos', label:'DISCIPLES OF TZEENTCH', title:'Tzaangor Enlightened', painter:'Matthew Carslake', img:'assets/tzaangor-enlightened.webp', color:'#5a2d8a', desc:'A Tzaangor Enlightened riding its Disc of Tzeentch, painted in rich purples and teal with contrasting bronze weaponry and a lava-cracked stone base.'},
-    {faction:'chaos', label:'CHAOS KNIGHTS', title:'Knight Abominant', painter:'Matthew Carslake', img:'assets/knight-abominant-i.webp', color:'#5a6b2e', desc:'The first knight of Matthew\'s traitor household, painted in bone, black, and acid-green flame, with rust and blood weathering worked into every panel line and chain-hung trophy skull.'},
-    {faction:'chaos', label:'CHAOS KNIGHTS', title:'Knight Abominant II', painter:'Matthew Carslake', img:'assets/knight-abominant-ii.webp', color:'#5a6b2e', desc:'The household\'s second knight, armed with twin rainbow-glazed cannons and standing on a cracked lava base that matches the rest of the force.'},
-    {faction:'chaos', label:'CHAOS KNIGHTS', title:'Knight Abominant III', painter:'Matthew Carslake', img:'assets/knight-abominant-iii.webp', color:'#5a6b2e', desc:'Household knight the third, wielding a heavy conversion beamer and chain-flail, marked with the household\'s numeral sigil across shield and banner alike.'},
-    {faction:'chaos', label:'CHAOS KNIGHTS', title:'Knight Abominant IV, "Iratus"', painter:'Matthew Carslake', img:'assets/knight-abominant-iv.webp', color:'#5a6b2e', desc:'The named champion of the household, "Iratus" — twin havoc launchers, a blood-stained banner, and daemon familiars perched across its carapace.'},
-    {faction:'chaos', label:'CHAOS DAEMONS', title:'Kairos Fateweaver', painter:'Matthew Carslake', img:'assets/kairos-fateweaver.webp', color:'#2f6a8a', desc:'The two-headed Lord of Change himself, painted in Tzeentchian teal and bronze with a wet-blend across every feather of his vast wings.'},
-    {faction:'chaos', label:'CHAOS SPACE MARINES', title:'Dark Apostle', painter:'Matthew Carslake', img:'assets/dark-apostle.webp', color:'#2f4a6a', desc:'A Word Bearers Dark Apostle mid-sermon, tome ablaze and crozius raised, finished in deep blues with hand-lettered scripture running down his stole.'},
-    {faction:'chaos', label:'CHAOS DAEMONS', title:'Kytan Ravager', painter:'Matthew Carslake', img:'assets/kytan-ravager.webp', color:'#3a4a5a', desc:'A brass-and-shadow engine of Khorne, painted with cold, industrial blues to make its furnace-red details burn even brighter by contrast.'},
-    {faction:'marines', label:'SPACE WOLVES', title:'Logan Grimnar, Great Wolf', painter:'Steven John Ovens', img:'assets/logan-grimnar.webp', color:'#c41e2a', desc:'Steven\'s competition entry — Logan Grimnar flanked by Fenrisian wolves, with freehand frost effects on the axe, layered fur work, and a fully sculpted rocky base. Painted ahead of Leman Russ\'s long-awaited return to 40k.'},
-    {faction:'marines', label:'SPACE WOLVES', title:'Bjorn the Fell-Handed', painter:'Steven John Ovens', img:'assets/bjorn-fell-handed.webp', color:'#4a6a8a', desc:'The legendary Dreadnought of the Space Wolves, painted by Steven in the chapter\'s icy blue and gold, with a hand-painted wolf pelt drape and cracked-ice basing to match the rest of his Fenrisian force.'},
-    {faction:'marines', label:'SPACE WOLVES', title:'The Great Company Assembles', painter:'Steven John Ovens', img:'assets/space-wolves-army.webp', color:'#4a6a8a', desc:'Steven\'s full Space Wolves force on parade — three Dreadnoughts, a full pack of Fenrisian wolves, and squad after squad of Blood Claws and Grey Hunters, all painted to a single, cohesive icy palette.'},
-    {faction:'marines', label:'SPACE WOLVES', title:'Redemptor Dreadnought', painter:'Steven John Ovens', img:'assets/redemptor-dreadnought.webp', color:'#4a6a8a', desc:'A heavy-hitting Redemptor, finished in the pack\'s signature blue and gold with a hand-painted wolf-head icon and warning chevrons picked out in red and yellow.'},
-    {faction:'marines', label:'SPACE WOLVES', title:'Venerable Dreadnought', painter:'Steven John Ovens', img:'assets/venerable-dreadnought.webp', color:'#4a6a8a', desc:'An ancient Venerable Dreadnought armed with a frost axe and storm shield, its armour hung with trophies and painted runes, standing on cracked permafrost basing.'},
-    {faction:'marines', label:'SPACE WOLVES', title:'Chaplain on Bike', painter:'Steven John Ovens', img:'assets/chaplain-on-bike.webp', color:'#2f3d4a', desc:'A Primaris Chaplain riding out on his war-bike, crozius raised and a wolf-pelt trophy lashed to the front — a dark, cathedral-grey scheme with gold reliquary trim.'},
-    {faction:'marines', label:'SPACE MARINES', title:'Chaplain with Jump Pack', painter:'Steven John Ovens', img:'assets/chaplain-jumppack.webp', color:'#2f3d4a', desc:'A dynamic jump-pack Chaplain caught mid-leap, with hand-painted black wings, skull iconography, and copper trim built up in thin glazes for real metallic depth.'},
-    {faction:'custodes', label:'ADEPTUS CUSTODES', title:'Shield-Captain and Custodian Guard', painter:'Steven John Ovens', img:'assets/custodes-guard.webp', color:'#8a1a1a', desc:'A Shield-Captain and Custodian Guard, painted in deep red and green with a rainbow-gradient effect freehanded onto every energy blade — now something of a signature technique for Steven.'},
-    {faction:'custodes', label:'ADEPTUS CUSTODES', title:'Custodes Vexilla Detachment', painter:'Steven John Ovens', img:'assets/custodes-vexilla.webp', color:'#8a1a1a', desc:'Twin Custodian Guards flanking a vexilla bearer, its feathered standard picked out in the same prismatic gradient as the rest of the detachment\'s weapons.'},
-    {faction:'custodes', label:'ADEPTUS CUSTODES', title:'Custodes Grav-Cavalry', painter:'Steven John Ovens', img:'assets/custodes-jetbike.webp', color:'#8a1a1a', desc:'A Custodian outrider on grav-cavalry, lance held high and glowing with the same rainbow energy effect Steven\'s carried across his entire Custodes force.'},
-    {faction:'custodes', label:'SISTERS OF SILENCE', title:'Sisters of Silence', painter:'Steven John Ovens', img:'assets/sisters-of-silence.webp', color:'#4a2d6e', desc:'A squad of the Emperor\'s null-maidens: Vigilators with executioner greatblades, Prosecutors with boltguns and a Witchseeker with her flamer. Burnished gold armour over deep purple cloaks and tabards, pale grey plumes and turquoise gem details, all standing on grey rubble bases with bright green tufts and skulls.'},
-    {faction:'seraphon', label:'SERAPHON', title:'Saurus Oldblood on Carnosaur', painter:'Devin Du Plessis', img:'assets/saurus-oldblood-carnosaur.webp', color:'#8a1a1a', desc:'A Saurus Oldblood riding to war on his Carnosaur, painted in deep crimson scales with black striping and a fully scratch-built jungle base, complete with hand-painted foliage and celestite crystals.'},
-    {faction:'seraphon', label:'SERAPHON', title:'Slann Starmaster', painter:'Devin Du Plessis', img:'assets/slann-starmaster.webp', color:'#3a6a3a', desc:'The Starmaster on his palanquin, attended by skink retainers, painted in vivid jungle greens and golds with an intricate celestial-blue glow worked into every rune and crystal.'},
-    {faction:'chaos', label:'DEATH GUARD', title:'Mortarion, Daemon Primarch of Nurgle', painter:'Sjoerd Leister', img:'assets/mortarion.webp', color:'#3a4a3a', desc:'The Death Guard\'s Primarch in his full daemonic ascension, painted in muted decaying greens and bone, with his scythe\'s inner flame picked out in a hot, glowing orange for contrast against the rot.'},
-    {faction:'chaos', label:'CHAOS DAEMONS', title:'Be\'lakor, the Dark Master', painter:'Devin Du Plessis', img:'assets/belakor.webp', color:'#6a2d6e', desc:'Be\'lakor, the first Daemon Prince, raised to power by the four Chaos Gods and later cursed to rule only from the shadows. Devin\'s version pairs violet-to-amber wings with a molten lava base and a spectral green blade.'},
-    {faction:'orks', label:'ORKS', title:'Beastboss', painter:'Oliver Bilson', img:'assets/beastboss.webp', color:'#4a6b2e', desc:'A Beastboss with his squighound in tow, painted in classic Ork green with rusted metal plating and a desert-red basing scheme finished off with a scattering of purple tufts and cacti.'},
-    {faction:'tyranids', label:'TYRANIDS', title:'Winged Hive Tyrant', painter:'Gabriel Goddard', img:'assets/hive-tyrant.webp', color:'#8a6a1a', desc:'A Winged Hive Tyrant finished in bronze and gold carapace over a bone-white underbelly, with a striking electric-blue glow carried through every talon and bio-weapon tip.'}
+    {faction:'chaos', label:'CHAOS SPACE MARINES', title:'Abaddon the Despoiler', painter:'Matthew Carslake', img:'assets/abaddon-despoiler.webp', desc:'Warmaster Abaddon himself, Drach\'nyen alight and a fallen foe underfoot, painted in deep Black Legion blue with molten-orange flame licking up his cloak.'},
+    {faction:'marines', label:'SPACE MARINES', title:'Leviathan Siege Dreadnought', painter:'Matthew Carslake', img:'assets/leviathan-dreadnought.webp', desc:'A Leviathan Pattern Dreadnought armed with a storm cannon array and siege claw, painted in bold Ultramarine blue with crisp edge highlighting and a suitably grim basing scene.'},
+    {faction:'chaos', label:'DISCIPLES OF TZEENTCH', title:'Tzaangor Enlightened', painter:'Matthew Carslake', img:'assets/tzaangor-enlightened.webp', desc:'A Tzaangor Enlightened riding its Disc of Tzeentch, painted in rich purples and teal with contrasting bronze weaponry and a lava-cracked stone base.'},
+    {faction:'chaos', label:'CHAOS KNIGHTS', title:'Knight Abominant', painter:'Matthew Carslake', img:'assets/knight-abominant-i.webp', desc:'The first knight of Matthew\'s traitor household, painted in bone, black, and acid-green flame, with rust and blood weathering worked into every panel line and chain-hung trophy skull.'},
+    {faction:'chaos', label:'CHAOS KNIGHTS', title:'Knight Abominant II', painter:'Matthew Carslake', img:'assets/knight-abominant-ii.webp', desc:'The household\'s second knight, armed with twin rainbow-glazed cannons and standing on a cracked lava base that matches the rest of the force.'},
+    {faction:'chaos', label:'CHAOS KNIGHTS', title:'Knight Abominant III', painter:'Matthew Carslake', img:'assets/knight-abominant-iii.webp', desc:'Household knight the third, wielding a heavy conversion beamer and chain-flail, marked with the household\'s numeral sigil across shield and banner alike.'},
+    {faction:'chaos', label:'CHAOS KNIGHTS', title:'Knight Abominant IV, "Iratus"', painter:'Matthew Carslake', img:'assets/knight-abominant-iv.webp', desc:'The named champion of the household, "Iratus" — twin havoc launchers, a blood-stained banner, and daemon familiars perched across its carapace.'},
+    {faction:'chaos', label:'CHAOS DAEMONS', title:'Kairos Fateweaver', painter:'Matthew Carslake', img:'assets/kairos-fateweaver.webp', desc:'The two-headed Lord of Change himself, painted in Tzeentchian teal and bronze with a wet-blend across every feather of his vast wings.'},
+    {faction:'chaos', label:'CHAOS SPACE MARINES', title:'Dark Apostle', painter:'Matthew Carslake', img:'assets/dark-apostle.webp', desc:'A Word Bearers Dark Apostle mid-sermon, tome ablaze and crozius raised, finished in deep blues with hand-lettered scripture running down his stole.'},
+    {faction:'chaos', label:'CHAOS DAEMONS', title:'Kytan Ravager', painter:'Matthew Carslake', img:'assets/kytan-ravager.webp', desc:'A brass-and-shadow engine of Khorne, painted with cold, industrial blues to make its furnace-red details burn even brighter by contrast.'},
+    {faction:'marines', label:'SPACE WOLVES', title:'Logan Grimnar, Great Wolf', painter:'Steven John Ovens', img:'assets/logan-grimnar.webp', desc:'Steven\'s competition entry — Logan Grimnar flanked by Fenrisian wolves, with freehand frost effects on the axe, layered fur work, and a fully sculpted rocky base. Painted ahead of Leman Russ\'s long-awaited return to 40k.'},
+    {faction:'marines', label:'SPACE WOLVES', title:'Bjorn the Fell-Handed', painter:'Steven John Ovens', img:'assets/bjorn-fell-handed.webp', desc:'The legendary Dreadnought of the Space Wolves, painted by Steven in the chapter\'s icy blue and gold, with a hand-painted wolf pelt drape and cracked-ice basing to match the rest of his Fenrisian force.'},
+    {faction:'marines', label:'SPACE WOLVES', title:'The Great Company Assembles', painter:'Steven John Ovens', img:'assets/space-wolves-army.webp', desc:'Steven\'s full Space Wolves force on parade — three Dreadnoughts, a full pack of Fenrisian wolves, and squad after squad of Blood Claws and Grey Hunters, all painted to a single, cohesive icy palette.'},
+    {faction:'marines', label:'SPACE WOLVES', title:'Redemptor Dreadnought', painter:'Steven John Ovens', img:'assets/redemptor-dreadnought.webp', desc:'A heavy-hitting Redemptor, finished in the pack\'s signature blue and gold with a hand-painted wolf-head icon and warning chevrons picked out in red and yellow.'},
+    {faction:'marines', label:'SPACE WOLVES', title:'Venerable Dreadnought', painter:'Steven John Ovens', img:'assets/venerable-dreadnought.webp', desc:'An ancient Venerable Dreadnought armed with a frost axe and storm shield, its armour hung with trophies and painted runes, standing on cracked permafrost basing.'},
+    {faction:'marines', label:'SPACE WOLVES', title:'Chaplain on Bike', painter:'Steven John Ovens', img:'assets/chaplain-on-bike.webp', desc:'A Primaris Chaplain riding out on his war-bike, crozius raised and a wolf-pelt trophy lashed to the front — a dark, cathedral-grey scheme with gold reliquary trim.'},
+    {faction:'marines', label:'SPACE MARINES', title:'Chaplain with Jump Pack', painter:'Steven John Ovens', img:'assets/chaplain-jumppack.webp', desc:'A dynamic jump-pack Chaplain caught mid-leap, with hand-painted black wings, skull iconography, and copper trim built up in thin glazes for real metallic depth.'},
+    {faction:'custodes', label:'ADEPTUS CUSTODES', title:'Shield-Captain and Custodian Guard', painter:'Steven John Ovens', img:'assets/custodes-guard.webp', desc:'A Shield-Captain and Custodian Guard, painted in deep red and green with a rainbow-gradient effect freehanded onto every energy blade — now something of a signature technique for Steven.'},
+    {faction:'custodes', label:'ADEPTUS CUSTODES', title:'Custodes Vexilla Detachment', painter:'Steven John Ovens', img:'assets/custodes-vexilla.webp', desc:'Twin Custodian Guards flanking a vexilla bearer, its feathered standard picked out in the same prismatic gradient as the rest of the detachment\'s weapons.'},
+    {faction:'custodes', label:'ADEPTUS CUSTODES', title:'Custodes Grav-Cavalry', painter:'Steven John Ovens', img:'assets/custodes-jetbike.webp', desc:'A Custodian outrider on grav-cavalry, lance held high and glowing with the same rainbow energy effect Steven\'s carried across his entire Custodes force.'},
+    {faction:'custodes', label:'SISTERS OF SILENCE', title:'Sisters of Silence', painter:'Steven John Ovens', img:'assets/sisters-of-silence.webp', desc:'A squad of the Emperor\'s null-maidens: Vigilators with executioner greatblades, Prosecutors with boltguns and a Witchseeker with her flamer. Burnished gold armour over deep purple cloaks and tabards, pale grey plumes and turquoise gem details, all standing on grey rubble bases with bright green tufts and skulls.'},
+    {faction:'seraphon', label:'SERAPHON', title:'Saurus Oldblood on Carnosaur', painter:'Devin Du Plessis', img:'assets/saurus-oldblood-carnosaur.webp', desc:'A Saurus Oldblood riding to war on his Carnosaur, painted in deep crimson scales with black striping and a fully scratch-built jungle base, complete with hand-painted foliage and celestite crystals.'},
+    {faction:'seraphon', label:'SERAPHON', title:'Slann Starmaster', painter:'Devin Du Plessis', img:'assets/slann-starmaster.webp', desc:'The Starmaster on his palanquin, attended by skink retainers, painted in vivid jungle greens and golds with an intricate celestial-blue glow worked into every rune and crystal.'},
+    {faction:'chaos', label:'DEATH GUARD', title:'Mortarion, Daemon Primarch of Nurgle', painter:'Sjoerd Leister', img:'assets/mortarion.webp', desc:'The Death Guard\'s Primarch in his full daemonic ascension, painted in muted decaying greens and bone, with his scythe\'s inner flame picked out in a hot, glowing orange for contrast against the rot.'},
+    {faction:'chaos', label:'CHAOS DAEMONS', title:'Be\'lakor, the Dark Master', painter:'Devin Du Plessis', img:'assets/belakor.webp', desc:'Be\'lakor, the first Daemon Prince, raised to power by the four Chaos Gods and later cursed to rule only from the shadows. Devin\'s version pairs violet-to-amber wings with a molten lava base and a spectral green blade.'},
+    {faction:'orks', label:'ORKS', title:'Beastboss', painter:'Oliver Bilson', img:'assets/beastboss.webp', desc:'A Beastboss with his squighound in tow, painted in classic Ork green with rusted metal plating and a desert-red basing scheme finished off with a scattering of purple tufts and cacti.'},
+    {faction:'tyranids', label:'TYRANIDS', title:'Winged Hive Tyrant', painter:'Gabriel Goddard', img:'assets/hive-tyrant.webp', desc:'A Winged Hive Tyrant finished in bronze and gold carapace over a bone-white underbelly, with a striking electric-blue glow carried through every talon and bio-weapon tip.'}
   ];
 
   function escAttr(s){
     return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');
+  }
+
+  // Armory lightbox (gallery.html and the homepage Armory picks). Wired up
+  // on first use so pages without #lightbox pay nothing.
+  var armoryDialog = null;
+  function openArmoryItem(item){
+    var lightbox = document.getElementById('lightbox');
+    if(!lightbox) return;
+    if(!armoryDialog){
+      var lbClose = document.getElementById('lbClose');
+      armoryDialog = makeDialog(lightbox, lbClose);
+      lightbox.setAttribute('aria-labelledby','lbTitle');
+      if(lbClose) lbClose.addEventListener('click', armoryDialog.close);
+      lightbox.addEventListener('click', function(e){ if(e.target === lightbox) armoryDialog.close(); });
+      document.addEventListener('keydown', function(e){ if(e.key === 'Escape') armoryDialog.close(); });
+    }
+    var lbArt = document.getElementById('lbArt');
+    lbArt.className = 'art has-photo';
+    lbArt.innerHTML = '<img src="'+escAttr(item.img)+'" alt="'+escAttr(item.title + ' painted by ' + item.painter)+'">';
+    document.getElementById('lbFaction').textContent = item.label;
+    document.getElementById('lbTitle').textContent = item.title;
+    document.getElementById('lbDesc').textContent = item.desc;
+    document.getElementById('lbPainter').textContent = 'Painted by ' + item.painter;
+    armoryDialog.open();
   }
 
   var galleryGrid = document.getElementById('galleryGrid');
@@ -175,13 +217,8 @@
       card.dataset.faction = item.faction;
       card.dataset.idx = idx;
       var altText = escAttr(item.title + ' painted by ' + item.painter);
-      var artInner = item.img
-        ? '<div class="art has-photo"><img src="'+item.img+'" alt="'+altText+'" loading="lazy"></div>'
-        : '<div class="art" style="background:radial-gradient(circle at 50% 40%, '+item.color+'33, #0d0707 70%)">'+
-            '<svg aria-hidden="true" style="color:'+item.color+'"><use href="#'+item.icon+'"/></svg>'+
-          '</div>';
       card.innerHTML =
-        artInner +
+        '<div class="art has-photo"><img src="'+item.img+'" alt="'+altText+'" loading="lazy"></div>' +
         '<div class="meta">'+
           '<div class="faction">'+item.label+'</div>'+
           '<h3>'+item.title+'</h3>'+
@@ -205,44 +242,21 @@
       });
     }
 
-    var lightbox = document.getElementById('lightbox');
-    if(lightbox){
-      galleryGrid.addEventListener('click', function(e){
-        var card = e.target.closest('.gcard');
-        if(!card) return;
-        var item = ARMY_DATA[+card.dataset.idx];
-        var lbArt = document.getElementById('lbArt');
-        if(item.img){
-          lbArt.className = 'art has-photo';
-          lbArt.innerHTML = '<img src="'+item.img+'" alt="'+escAttr(item.title + ' painted by ' + item.painter)+'">';
-        } else {
-          lbArt.className = 'art';
-          lbArt.innerHTML = '<svg aria-hidden="true" viewBox="0 0 100 100" style="color:'+item.color+'"><use href="#'+item.icon+'"/></svg>';
-        }
-        document.getElementById('lbFaction').textContent = item.label;
-        document.getElementById('lbTitle').textContent = item.title;
-        document.getElementById('lbDesc').textContent = item.desc;
-        document.getElementById('lbPainter').textContent = 'Painted by '+item.painter;
-        lbDialog.open();
-      });
-      var lbClose = document.getElementById('lbClose');
-      var lbDialog = makeDialog(lightbox, lbClose);
-      lightbox.setAttribute('aria-labelledby','lbTitle');
-      if(lbClose) lbClose.addEventListener('click', lbDialog.close);
-      lightbox.addEventListener('click', function(e){ if(e.target===lightbox) lbDialog.close(); });
-      document.addEventListener('keydown', function(e){ if(e.key==='Escape') lbDialog.close(); });
-    }
+    galleryGrid.addEventListener('click', function(e){
+      var card = e.target.closest('.gcard');
+      if(card) openArmoryItem(ARMY_DATA[+card.dataset.idx]);
+    });
   }
 
   /* ---------- FACTION DATA (used on factions.html) ---------- */
   var FACTION_DATA = [
     {id:'space-marines', name:'Space Marines', sub:'Adeptus Astartes', cat:'imperium', catLabel:'IMPERIUM OF MAN', astartes:true, icon:'ico-logo-space-marines', color:'#8a97a8', tags:['Power Armour','Elite Infantry'], desc:'Genetically-engineered super-soldiers in power armour, organised into a thousand Chapters and scattered across the galaxy to defend humanity wherever the fighting is worst. The Codex Chapters listed next all play from this codex.'},
-    {id:'ultramarines', name:'Ultramarines', sub:'Codex Chapter · plays from the Space Marines codex', cat:'imperium', catLabel:'IMPERIUM OF MAN', astartes:true, chapter:true, icon:'ico-logo-ultramarines', color:'#2f4a8a', tags:['Codex Chapter','Tactical'], desc:'The largest and most renowned of the Codex Chapters, the Ultramarines of Macragge are the model of disciplined, adaptable warfare that every other Chapter is measured against.'},
-    {id:'salamanders', name:'Salamanders', sub:'Codex Chapter · plays from the Space Marines codex', cat:'imperium', catLabel:'IMPERIUM OF MAN', astartes:true, chapter:true, icon:'ico-logo-salamanders', color:'#2f6a3a', tags:['Codex Chapter','Flamers & Melta'], desc:'Forge-born warriors of Nocturne who pair master-crafted wargear with a close-range arsenal of flame and melta, and who are famed for protecting the people they fight for.'},
-    {id:'imperial-fists', name:'Imperial Fists', sub:'Codex Chapter · plays from the Space Marines codex', cat:'imperium', catLabel:'IMPERIUM OF MAN', astartes:true, chapter:true, icon:'ico-logo-imperial-fists', color:'#c49a1e', tags:['Codex Chapter','Siege Warfare'], desc:'Stubborn masters of siege and fortification who hold the line no matter the cost, bringing heavy bolters and methodical firepower to grind any foe down.'},
-    {id:'iron-hands', name:'Iron Hands', sub:'Codex Chapter · plays from the Space Marines codex', cat:'imperium', catLabel:'IMPERIUM OF MAN', astartes:true, chapter:true, icon:'ico-logo-iron-hands', color:'#4a4a52', tags:['Codex Chapter','Resilient'], desc:'Cold and relentless, the Iron Hands replace weak flesh with bionics and favour armoured spearheads of tanks and Dreadnoughts that simply refuse to die.'},
-    {id:'raven-guard', name:'Raven Guard', sub:'Codex Chapter · plays from the Space Marines codex', cat:'imperium', catLabel:'IMPERIUM OF MAN', astartes:true, chapter:true, icon:'ico-logo-raven-guard', color:'#2a2a34', tags:['Codex Chapter','Stealth'], desc:'Shadow-warriors who strike from concealment with jump packs and infiltrators, taking apart the enemy\'s command before vanishing back into the dark.'},
-    {id:'white-scars', name:'White Scars', sub:'Codex Chapter · plays from the Space Marines codex', cat:'imperium', catLabel:'IMPERIUM OF MAN', astartes:true, chapter:true, icon:'ico-logo-white-scars', color:'#9a2020', tags:['Codex Chapter','Fast'], desc:'Lightning-fast raiders of Chogoris who fight from bikes and speeders, hitting hard, moving on and never giving the enemy a still target.'},
+    {id:'ultramarines', name:'Ultramarines', sub:'Codex Chapter · plays from the Space Marines codex', cat:'imperium', catLabel:'IMPERIUM OF MAN', astartes:true, icon:'ico-logo-ultramarines', color:'#2f4a8a', tags:['Codex Chapter','Tactical'], desc:'The largest and most renowned of the Codex Chapters, the Ultramarines of Macragge are the model of disciplined, adaptable warfare that every other Chapter is measured against.'},
+    {id:'salamanders', name:'Salamanders', sub:'Codex Chapter · plays from the Space Marines codex', cat:'imperium', catLabel:'IMPERIUM OF MAN', astartes:true, icon:'ico-logo-salamanders', color:'#2f6a3a', tags:['Codex Chapter','Flamers & Melta'], desc:'Forge-born warriors of Nocturne who pair master-crafted wargear with a close-range arsenal of flame and melta, and who are famed for protecting the people they fight for.'},
+    {id:'imperial-fists', name:'Imperial Fists', sub:'Codex Chapter · plays from the Space Marines codex', cat:'imperium', catLabel:'IMPERIUM OF MAN', astartes:true, icon:'ico-logo-imperial-fists', color:'#c49a1e', tags:['Codex Chapter','Siege Warfare'], desc:'Stubborn masters of siege and fortification who hold the line no matter the cost, bringing heavy bolters and methodical firepower to grind any foe down.'},
+    {id:'iron-hands', name:'Iron Hands', sub:'Codex Chapter · plays from the Space Marines codex', cat:'imperium', catLabel:'IMPERIUM OF MAN', astartes:true, icon:'ico-logo-iron-hands', color:'#4a4a52', tags:['Codex Chapter','Resilient'], desc:'Cold and relentless, the Iron Hands replace weak flesh with bionics and favour armoured spearheads of tanks and Dreadnoughts that simply refuse to die.'},
+    {id:'raven-guard', name:'Raven Guard', sub:'Codex Chapter · plays from the Space Marines codex', cat:'imperium', catLabel:'IMPERIUM OF MAN', astartes:true, icon:'ico-logo-raven-guard', color:'#2a2a34', tags:['Codex Chapter','Stealth'], desc:'Shadow-warriors who strike from concealment with jump packs and infiltrators, taking apart the enemy\'s command before vanishing back into the dark.'},
+    {id:'white-scars', name:'White Scars', sub:'Codex Chapter · plays from the Space Marines codex', cat:'imperium', catLabel:'IMPERIUM OF MAN', astartes:true, icon:'ico-logo-white-scars', color:'#9a2020', tags:['Codex Chapter','Fast'], desc:'Lightning-fast raiders of Chogoris who fight from bikes and speeders, hitting hard, moving on and never giving the enemy a still target.'},
     {id:'blood-angels', name:'Blood Angels', sub:'Space Marine Chapter', cat:'imperium', catLabel:'IMPERIUM OF MAN', astartes:true, icon:'ico-logo-blood-angels', color:'#8a1a1a', tags:['Space Marine Chapter','Melee'], desc:'Noble and tragic, the Blood Angels wage constant war against the Black Rage — a genetic curse that can turn their finest warriors into ravening beasts on the battlefield.'},
     {id:'dark-angels', name:'Dark Angels', sub:'Space Marine Chapter', cat:'imperium', catLabel:'IMPERIUM OF MAN', astartes:true, icon:'ico-logo-dark-angels', color:'#2f4a2f', tags:['Space Marine Chapter','Terminators'], desc:'The First Legion hides a dark secret from the Horus Heresy, and its Deathwing and Ravenwing companies hunt fallen brothers across the stars in an endless, silent inquest.'},
     {id:'space-wolves', name:'Space Wolves', sub:'Space Marine Chapter', cat:'imperium', catLabel:'IMPERIUM OF MAN', astartes:true, icon:'ico-logo-space-wolves', color:'#4a6a8a', tags:['Space Marine Chapter','Aggressive'], desc:'Savage, proud and fiercely loyal, the Space Wolves fight as much with tooth and claw as with bolter and blade, led by Great Companies bound by ancient Fenrisian tradition.'},
@@ -276,12 +290,15 @@
 
   var factionGrid = document.getElementById('factionGrid');
   if(factionGrid){
+    // Lower-case and drop apostrophes, so "tau" finds T'au and a phone's
+    // curly apostrophe still matches "Emperor's"
+    var normSearch = function(str){ return str.toLowerCase().replace(/['\u2019]/g, ''); };
     FACTION_DATA.forEach(function(item){
       var card = document.createElement('div');
       card.className = 'fcard show';
       card.dataset.cat = item.cat;
       if(item.astartes) card.dataset.astartes = '1';
-      card.dataset.search = (item.name + ' ' + (item.sub||'') + ' ' + item.tags.join(' ') + ' ' + item.desc).toLowerCase();
+      card.dataset.search = normSearch(item.name + ' ' + (item.sub||'') + ' ' + item.tags.join(' ') + ' ' + item.desc);
 
       var icon = document.createElement('div');
       icon.className = 'f-icon';
@@ -331,7 +348,7 @@
     var activeCat = 'all';
 
     function applyFactionFilters(){
-      var q = factionSearch ? factionSearch.value.trim().toLowerCase() : '';
+      var q = factionSearch ? normSearch(factionSearch.value.trim()) : '';
       var visible = 0;
       factionGrid.querySelectorAll('.fcard').forEach(function(c){
         var matchesCat = activeCat === 'all' || c.dataset.cat === activeCat ||
@@ -403,17 +420,8 @@
   ];
   var homeArmory = document.getElementById('homeArmory');
   if(homeArmory){
-    var homeLb = document.getElementById('lightbox');
-    var homeLbClose = document.getElementById('lbClose');
-    var homeLbDialog = homeLb ? makeDialog(homeLb, homeLbClose) : null;
-    if(homeLbDialog){
-      homeLb.setAttribute('aria-labelledby','lbTitle');
-      homeLbClose.addEventListener('click', homeLbDialog.close);
-      homeLb.addEventListener('click', function(e){ if(e.target === homeLb) homeLbDialog.close(); });
-      document.addEventListener('keydown', function(e){ if(e.key === 'Escape') homeLbDialog.close(); });
-    }
     HOME_ARMORY_PICKS.forEach(function(title){
-      var item = ARMY_DATA.filter(function(i){ return i.title === title && i.img; })[0];
+      var item = ARMY_DATA.filter(function(i){ return i.title === title; })[0];
       if(!item) return;
       var b = document.createElement('button');
       b.type = 'button';
@@ -426,15 +434,7 @@
           '<span class="ha-title">'+escAttr(item.title)+'</span>'+
           '<span class="ha-painter">by '+escAttr(item.painter)+'</span>'+
         '</span>';
-      b.addEventListener('click', function(){
-        if(!homeLbDialog){ location.href = 'gallery'; return; }
-        document.getElementById('lbArt').innerHTML = '<img src="'+escAttr(item.img)+'" alt="'+escAttr(item.title + ' painted by ' + item.painter)+'">';
-        document.getElementById('lbFaction').textContent = item.label;
-        document.getElementById('lbTitle').textContent = item.title;
-        document.getElementById('lbDesc').textContent = item.desc;
-        document.getElementById('lbPainter').textContent = 'Painted by ' + item.painter;
-        homeLbDialog.open();
-      });
+      b.addEventListener('click', function(){ openArmoryItem(item); });
       homeArmory.appendChild(b);
     });
   }
@@ -514,6 +514,12 @@
     joinForm.addEventListener('submit', function(e){
       e.preventDefault();
       var val = function(id){ var el = document.getElementById(id); return el ? el.value.trim() : ''; };
+      var note = document.getElementById('formNote');
+      if(!val('jf-name')){   // `required` lets a name of only spaces through
+        document.getElementById('jf-name').focus();
+        note.textContent = 'Please enter your name.';
+        return;
+      }
       var lines = [
         'Hi Eastern Cape Warlords! I\'d like to join the club.',
         '',
@@ -529,7 +535,7 @@
       var w = window.open(url, '_blank');
       if(w){ try{ w.opener = null; }catch(err){} }
       else { location.href = url; }   // popup blocked: open in this tab instead
-      document.getElementById('formNote').textContent = 'Opening WhatsApp with your message. Just press send there. If nothing opened, message us on WhatsApp at +27 72 474 9572.';
+      note.textContent = 'Opening WhatsApp with your message. Just press send there. If nothing opened, message us on WhatsApp at +27 72 474 9572.';
     });
   }
 

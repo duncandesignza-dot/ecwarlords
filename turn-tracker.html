@@ -27,7 +27,7 @@
 <meta name="twitter:description" content="Warhammer 40,000 turn tracker: victory points, command points, battle rounds, phases and a chess-clock timer.">
 <meta name="twitter:image" content="https://ecwarlords.co.za/assets/logo.webp">
 <link rel="icon" href="assets/logo.webp">
-<link rel="stylesheet" href="style.css?v=202609242056">
+<link rel="stylesheet" href="style.css?v=202609261900">
 </head>
 <body data-page="tools">
 <a class="skip-link" href="#main">Skip to main content</a>
@@ -211,7 +211,7 @@
   </div>
 </footer>
 
-<script src="script.js?v=202609242056"></script>
+<script src="script.js?v=202609261900"></script>
 <script>
 (function(){
   "use strict";
@@ -229,14 +229,22 @@
   function save(){
     try{ localStorage.setItem(KEY, JSON.stringify(state)); }catch(e){}
   }
-  function load(){
+  // keepRunning: re-sync from another tab without stopping this tab's clock
+  function load(keepRunning){
     try{
       var raw = localStorage.getItem(KEY);
       if(raw){
         var s = JSON.parse(raw);
         if(s && typeof s === 'object'){
+          // drop corrupted fields so the defaults stay in place
+          ['vp','cp','names','left'].forEach(function(k){
+            if(!s[k] || typeof s[k] !== 'object') delete s[k];
+          });
+          var wasRunning = state.running, ownLeft = state.left;
           state = Object.assign(state, s);
-          state.running = false; // never auto-resume a clock on reload
+          state.running = keepRunning ? wasRunning : false; // never auto-resume a clock on reload
+          // this tab's running clock is the live one; other tabs hold a stale copy
+          if(keepRunning && wasRunning) state.left = ownLeft;
         }
       }
     }catch(e){}
@@ -324,6 +332,11 @@
     state.vp = {1:0,2:0}; state.cp = {1:0,2:0};
     state.running = false;
     state.left = {1: state.mins*60, 2: state.mins*60};
+    // Mission Tracker's scoring lives in the same saved game; clear it too
+    // or its VP comes back the next time that page syncs
+    state.primaryLog = []; state.primaryTotal = {1:0,2:0};
+    state.secondaries = {1:[],2:[]};
+    if(Array.isArray(state.objectives)) state.objectives = state.objectives.map(function(){ return {owner:0}; });
     save(); render();
   });
 
@@ -348,6 +361,16 @@
       save();
     }
   }, 1000);
+
+  // Both trackers share one saved game: pick up changes made in another tab
+  // (or while this page sat in the back/forward cache) before this page
+  // saves over them
+  window.addEventListener('storage', function(e){
+    if(e.key === KEY){ load(true); render(); }
+  });
+  window.addEventListener('pageshow', function(e){
+    if(e.persisted){ load(); render(); }
+  });
 
   load();
   render();

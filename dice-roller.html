@@ -27,7 +27,7 @@
 <meta name="twitter:description" content="Warhammer 40,000 dice roller: full attack sequence with rerolls, Sustained Hits, Lethal Hits and Devastating Wounds.">
 <meta name="twitter:image" content="https://ecwarlords.co.za/assets/logo.webp">
 <link rel="icon" href="assets/logo.webp">
-<link rel="stylesheet" href="style.css?v=202609242056">
+<link rel="stylesheet" href="style.css?v=202609261900">
 </head>
 <body data-page="tools">
 <a class="skip-link" href="#main">Skip to main content</a>
@@ -105,7 +105,7 @@
           <div class="frow">
             <div class="fld">
               <label for="dr-ap">AP (0 to -5)</label>
-              <input id="dr-ap" type="number" min="-6" max="0" value="-1">
+              <input id="dr-ap" type="number" min="-5" max="0" value="-1">
             </div>
             <div class="fld">
               <label for="dr-save">Armour save</label>
@@ -178,7 +178,7 @@
             </div>
             <div class="fld">
               <label for="dr-hitmod">Hit roll modifier</label>
-              <input id="dr-hitmod" type="number" min="-2" max="2" value="0">
+              <input id="dr-hitmod" type="number" min="-1" max="1" value="0">
             </div>
           </div>
 
@@ -256,7 +256,7 @@
   </div>
 </footer>
 
-<script src="script.js?v=202609242056"></script>
+<script src="script.js?v=202609261900"></script>
 <script>
 (function(){
   "use strict";
@@ -308,26 +308,27 @@
     var bs       = parseInt($('dr-bs').value,10);
     var S        = parseInt($('dr-str').value,10) || 1;
     var T        = parseInt($('dr-tough').value,10) || 1;
-    var ap       = parseInt($('dr-ap').value,10) || 0;
+    var ap       = Math.max(-5, Math.min(0, parseInt($('dr-ap').value,10) || 0));
     var sv       = parseInt($('dr-save').value,10);
     var inv      = parseInt($('dr-inv').value,10);
     var dmgSpec  = $('dr-dmg').value;
     var fnp      = parseInt($('dr-fnp').value,10);
     var sustain  = Math.max(0, parseInt($('dr-sustain').value,10) || 0);
-    var hitMod   = parseInt($('dr-hitmod').value,10) || 0;
+    // 10th edition caps hit roll modifiers at +1 / -1
+    var hitMod   = Math.max(-1, Math.min(1, parseInt($('dr-hitmod').value,10) || 0));
     var critOn   = flags.crit5 ? 5 : 6;
 
     var hitDice = [], woundDice = [], saveDice = [];
     var hits = 0, autoWounds = 0, mortalish = 0;
 
     // ---- HIT ROLLS ----
+    // unmodified roll decides crits; a natural 1 always fails
+    var hitSucceeds = function(r){ return r >= critOn || (r !== 1 && r + hitMod >= bs); };
     for(var i=0;i<attacks;i++){
       var r = d6();
-      var needsRR = (flags.rrHitAll && (r+hitMod) < bs) || (flags.rrHit1 && r === 1);
-      if(needsRR) r = d6();
-      var eff = r + hitMod;
-      var isCrit = (r >= critOn); // unmodified roll decides crits
-      var success = isCrit || (r !== 1 && eff >= bs);
+      if((flags.rrHitAll && !hitSucceeds(r)) || (flags.rrHit1 && r === 1)) r = d6();
+      var isCrit = (r >= critOn);
+      var success = hitSucceeds(r);
 
       hitDice.push({v:r, i:i, cls: isCrit ? 'crit' : (success ? 'hit' : 'miss')});
 
@@ -348,8 +349,8 @@
     var devWounds = 0;
     for(var j=0;j<hits;j++){
       var w = d6();
-      var wrr = (flags.rrWoundAll && w < wt) || (flags.rrWound1 && w === 1);
-      if(wrr) w = d6();
+      var woundSucceeds = w >= critOn || (w !== 1 && w >= wt);
+      if((flags.rrWoundAll && !woundSucceeds) || (flags.rrWound1 && w === 1)) w = d6();
       var wCrit = (w >= critOn);
       var wSuccess = wCrit || (w !== 1 && w >= wt);
       woundDice.push({v:w, i:j, cls: wCrit ? 'crit' : (wSuccess ? 'hit' : 'miss')});
