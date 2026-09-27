@@ -45,6 +45,8 @@
   .news-card.no-media .news-card-inner{grid-template-columns:1fr;}
   .news-media{position:relative;background:var(--void-2);min-height:180px;}
   .news-media img{width:100%;height:100%;object-fit:cover;display:block;}
+  /* graphics with text in them (standings etc.): show the whole image, don't crop */
+  .news-media.contain img{object-fit:contain;}
   .news-media.icon-media{display:flex;align-items:center;justify-content:center;
     background:radial-gradient(circle at 50% 40%, rgba(196,30,42,.16), #0d0707 70%);}
   .news-media.icon-media svg{width:44%;height:44%;color:var(--crimson-glow);opacity:.9;}
@@ -183,21 +185,17 @@
       <div class="news-feed reveal" id="newsFeed">
 
         <div class="news-item">
-          <span class="news-date">May 5, 2026</span>
+          <span class="news-date">September 26, 2026</span>
           <div class="news-card">
             <div class="news-card-inner">
-              <div class="news-media"><img src="assets/logan-grimnar.webp" alt="Logan Grimnar close-up, painted by Steven John Ovens"></div>
+              <div class="news-media contain"><img src="assets/dispatch-nationals-day1.webp" alt="Nationals 2026 Day 1 standings for the club's five players: Steven 1-1-1, Gabe 1-0-2, Matt 2-0-1, Phil 2-0-1, Brett 1-0-2 (wins, draws, losses)"></div>
               <div class="news-body">
-                <div class="news-tag">The Bat Cave Palette Battle 2026</div>
-                <h3>The High King, in his own words</h3>
-                <p>"The High King does not just kill, he commands discipline. His axe, frozen solid… a daemon bound within, its fury locked beneath the ice. Silent. Controlled. Unstoppable. By Fang and Frost."</p>
-                <div class="news-credit">Steven John Ovens</div>
-                <div class="news-chips">
-                  <span class="news-chip">#SpaceWolves</span>
-                  <span class="news-chip">#LoganGrimnar</span>
-                  <span class="news-chip">#Fenris</span>
-                  <span class="news-chip">#MiniaturePainting</span>
-                </div>
+                <div class="news-tag">40k · Nationals 2026</div>
+                <h3>Nationals 2026: Day 1</h3>
+                <p>A smaller showing from the club this year, but the Eastern Cape Warlords are still putting in a solid performance in Cape Town.</p>
+                <p>Steven, playing his Terminator Space Wolves, faced off against Space Marines, Tyranids and T’au. Gabriel, bringing his smash Imperial Knights, went up against Blood Angels, T’au and Custodes. Matt and his hit-and-run World Eaters took on Aeldari, Daemons and Aeldari again. Phil, running his up-and-down Raven Guard, battled Tyranids, Emperor’s Children and Blood Angels, while Brett’s big bugs infested the battlefield against Chaos, Custodes and Necrons.</p>
+                <p><strong>Day 1 (W-D-L):</strong> Steven 1-1-1 · Gabe 1-0-2 · Matt 2-0-1 · Phil 2-0-1 · Brett 1-0-2</p>
+                <p>We’ll see how they fare tomorrow for Day 2!</p>
               </div>
             </div>
           </div>
@@ -217,6 +215,27 @@
                   <span class="news-chip">#GoldenDemon</span>
                   <span class="news-chip">#AgeOfSigmar</span>
                   <span class="news-chip">#DisplayPainting</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="news-item">
+          <span class="news-date">May 5, 2026</span>
+          <div class="news-card">
+            <div class="news-card-inner">
+              <div class="news-media"><img src="assets/logan-grimnar.webp" alt="Logan Grimnar close-up, painted by Steven John Ovens"></div>
+              <div class="news-body">
+                <div class="news-tag">The Bat Cave Palette Battle 2026</div>
+                <h3>The High King, in his own words</h3>
+                <p>"The High King does not just kill, he commands discipline. His axe, frozen solid… a daemon bound within, its fury locked beneath the ice. Silent. Controlled. Unstoppable. By Fang and Frost."</p>
+                <div class="news-credit">Steven John Ovens</div>
+                <div class="news-chips">
+                  <span class="news-chip">#SpaceWolves</span>
+                  <span class="news-chip">#LoganGrimnar</span>
+                  <span class="news-chip">#Fenris</span>
+                  <span class="news-chip">#MiniaturePainting</span>
                 </div>
               </div>
             </div>
@@ -255,7 +274,7 @@
           </div>
         </div>
 
-        <div class="news-item">
+        <div class="news-item is-extra">
           <span class="news-date">April 26, 2026</span>
           <div class="news-card no-media">
             <div class="news-card-inner">
@@ -351,7 +370,7 @@
 
       <div class="feed-more reveal">
         <button type="button" class="btn btn-ghost" id="feedMoreBtn" aria-expanded="false" aria-controls="newsFeed">
-          Show all 10 posts
+          Show all 11 posts
         </button>
       </div>
 
