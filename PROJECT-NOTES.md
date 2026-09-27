@@ -1107,3 +1107,11 @@ All images live in `assets/`. Notable non-obvious ones:
   (2026-09-27). Code identifiers (`gallery.html`, `.home-armory`,
   `armory-banner.webp`, `HOME_ARMORY_PICKS`) deliberately unchanged. Use
   "Armoury" in new copy.
+- Factions regrouped (2026-09-27): Space Marines + all 12 chapters
+  (incl. Deathwatch, Grey Knights) are their own category `cat:'astartes'`,
+  label "SPACE MARINES", filter chip "Space Marines" (was "Adeptus
+  Astartes"), and no longer appear under Imperium. "Imperium of Man" is now
+  exactly: Adepta Sororitas, Adeptus Custodes, Adeptus Mechanicus, Adeptus
+  Titanicus (new card), Astra Militarum, Imperial Agents, Imperial Knights
+  (alphabetical). 35 cards total. Adeptus Titanicus borrows the Adeptus
+  Mechanicus cog icon until a Collegia Titanica logo is supplied.
