@@ -1472,6 +1472,6 @@ html .nav-join{
   html .nav-join{display:none;}                  /* phones keep Join Us inside the menu */
 }
 
-/* ---------- footer: neutral dark grey instead of red-brown (2026-09-27) ---------- */
-html footer{background:#131313;border-top-color:#262626;}
-html .footer-bottom{border-top-color:#232323;}
+/* ---------- footer: near-black like the header, instead of red-brown (2026-09-27) ---------- */
+html footer{background:#080505;border-top-color:var(--iron);}
+html .footer-bottom{border-top-color:var(--iron-2);}
