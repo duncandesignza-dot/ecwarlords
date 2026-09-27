@@ -1471,3 +1471,7 @@ html .nav-join{
 @media (max-width:880px){
   html .nav-join{display:none;}                  /* phones keep Join Us inside the menu */
 }
+
+/* ---------- footer: neutral dark grey instead of red-brown (2026-09-27) ---------- */
+html footer{background:#131313;border-top-color:#262626;}
+html .footer-bottom{border-top-color:#232323;}
