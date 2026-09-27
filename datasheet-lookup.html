@@ -11,23 +11,29 @@
   gtag('config', 'G-5RNM66M0QK');
 </script>
 <meta charset="UTF-8">
+<meta name="theme-color" content="#0a0707">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Datasheet Lookup — Search Every Unit &amp; Weapon</title>
-<meta name="description" content="Searchable Warhammer 40,000 datasheet reference from the Eastern Cape Warlords — unit stats, weapon profiles, abilities and keywords for every faction.">
+<title>40K Datasheet Lookup - Every Unit &amp; Weapon | EC Warlords</title>
+<meta name="description" content="Searchable Warhammer 40,000 datasheet reference from the Eastern Cape Warlords - unit stats, weapon profiles, abilities and keywords for every faction.">
 <link rel="canonical" href="https://ecwarlords.co.za/datasheet-lookup">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Eastern Cape Warlords">
-<meta property="og:title" content="Datasheet Lookup — Search Every Unit &amp; Weapon | Eastern Cape Warlords">
-<meta property="og:description" content="Searchable Warhammer 40,000 datasheet reference from the Eastern Cape Warlords — unit stats, weapon profiles, abilities and keywords for every faction.">
+<meta property="og:title" content="40K Datasheet Lookup - Every Unit &amp; Weapon | Eastern Cape Warlords">
+<meta property="og:description" content="Searchable Warhammer 40,000 datasheet reference from the Eastern Cape Warlords - unit stats, weapon profiles, abilities and keywords for every faction.">
 <meta property="og:url" content="https://ecwarlords.co.za/datasheet-lookup">
-<meta property="og:image" content="https://ecwarlords.co.za/assets/logo.webp">
+<meta property="og:image" content="https://ecwarlords.co.za/assets/og/banner.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Eastern Cape Warlords crest">
 <meta property="og:locale" content="en_ZA">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Datasheet Lookup — Search Every Unit &amp; Weapon | Eastern Cape Warlords">
-<meta name="twitter:description" content="Searchable Warhammer 40,000 datasheet reference from the Eastern Cape Warlords — unit stats, weapon profiles, abilities and keywords for every faction.">
-<meta name="twitter:image" content="https://ecwarlords.co.za/assets/logo.webp">
+<meta name="twitter:title" content="40K Datasheet Lookup - Every Unit &amp; Weapon | Eastern Cape Warlords">
+<meta name="twitter:description" content="Searchable Warhammer 40,000 datasheet reference from the Eastern Cape Warlords - unit stats, weapon profiles, abilities and keywords for every faction.">
+<meta name="twitter:image" content="https://ecwarlords.co.za/assets/og/banner.jpg">
+<meta name="twitter:image:alt" content="Eastern Cape Warlords crest">
 <link rel="icon" href="assets/logo.webp">
-<link rel="stylesheet" href="style.css?v=202609271500">
+<link rel="stylesheet" href="style.css?v=202609271530">
+<script type="application/ld+json" id="ld-page">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://ecwarlords.co.za/"},{"@type":"ListItem","position":2,"name":"Tools","item":"https://ecwarlords.co.za/tools"},{"@type":"ListItem","position":3,"name":"Datasheet Lookup","item":"https://ecwarlords.co.za/datasheet-lookup"}]},{"@type":"WebApplication","name":"Datasheet Lookup","url":"https://ecwarlords.co.za/datasheet-lookup","applicationCategory":"GameApplication","operatingSystem":"Any (runs in a web browser)","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"ZAR"},"description":"Searchable Warhammer 40,000 datasheet reference from the Eastern Cape Warlords - unit stats, weapon profiles, abilities and keywords for every faction.","publisher":{"@type":"SportsOrganization","name":"Eastern Cape Warlords","url":"https://ecwarlords.co.za/"}}]}</script>
 </head>
 <body data-page="tools">
 <a class="skip-link" href="#main">Skip to main content</a>
@@ -67,7 +73,7 @@
     <div class="wrap">
       <div class="eyebrow"><a href="tools" style="color:inherit;">TOOLS</a> · DATASHEET LOOKUP</div>
       <h1>Datasheet Lookup</h1>
-      <p>Unit stats, weapon profiles, abilities and keywords for every faction — so nobody's scrolling a PDF halfway through a shooting phase. Numbers only; full rules wording links out to Wahapedia.</p>
+      <p>Unit stats, weapon profiles, abilities and keywords for every faction - so nobody's scrolling a PDF halfway through a shooting phase. Numbers only; full rules wording links out to Wahapedia.</p>
     </div>
   </div>
 
@@ -112,11 +118,11 @@
           Stats and weapon profiles are pulled from the community-maintained
           <a href="https://github.com/BSData/wh40k-10e" target="_blank" rel="noopener" style="color:var(--crimson-glow);">BSData wh40k-10e</a>
           project, the same source that powers the Army Builder above. We show ability and keyword
-          <em>names</em> only — for the full official wording of any rule, follow the "View full rules on Wahapedia"
+          <em>names</em> only - for the full official wording of any rule, follow the "View full rules on Wahapedia"
           link on the unit's datasheet, which goes to
           <a href="https://wahapedia.ru" target="_blank" rel="noopener" style="color:var(--crimson-glow);">wahapedia.ru</a>,
           a well-established third-party rules reference. Those links are generated from the unit name and
-          aren't guaranteed to land exactly right for every unit — if one 404s, search Wahapedia directly.
+          aren't guaranteed to land exactly right for every unit - if one 404s, search Wahapedia directly.
         </p>
       </div>
 
@@ -165,7 +171,7 @@
   </div>
 </footer>
 
-<script src="script.js?v=202609271500"></script>
+<script src="script.js?v=202609271530"></script>
 <script>
 (function(){
   var $ = function(id){ return document.getElementById(id); };
@@ -284,7 +290,7 @@
     if (!d) return;
 
     var statRows = (d.stats||[]).map(function(row){
-      var cells = STAT_COLS.map(function(c){ return '<td>' + esc(row.stats[c]||'—') + '</td>'; }).join('');
+      var cells = STAT_COLS.map(function(c){ return '<td>' + esc(row.stats[c]||'-') + '</td>'; }).join('');
       return '<tr><th>' + esc(row.name) + '</th>' + cells + '</tr>';
     }).join('');
     var statsHtml = (d.stats && d.stats.length) ?
@@ -300,7 +306,7 @@
       if (!weapons.length) return '';
       var cols = kind==='ranged' ? ['Range','A','BS','S','AP','D'] : ['Range','A','WS','S','AP','D'];
       var rows = weapons.map(function(w){
-        var cells = cols.map(function(c){ return '<td>' + esc(w.stats[c]||'—') + '</td>'; }).join('');
+        var cells = cols.map(function(c){ return '<td>' + esc(w.stats[c]||'-') + '</td>'; }).join('');
         var kw = (w.stats.Keywords||'').trim();
         if (kw === '-') kw = '';
         return '<tr><th>' + esc(w.name) + '</th>' + cells + '</tr>' +
@@ -322,7 +328,7 @@
       '</a>' : '';
 
     var pts = (d.models||[]).map(function(b){
-      return (b.count ? b.count + ' models' : '') + (b.pts!=null ? ' — ' + b.pts + 'pts' : '');
+      return (b.count ? b.count + ' models' : '') + (b.pts!=null ? ' - ' + b.pts + 'pts' : '');
     }).join(' · ');
 
     $('dl-detail').innerHTML =

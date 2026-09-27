@@ -1079,3 +1079,13 @@ All images live in `assets/`. Notable non-obvious ones:
   blocks. New components should use `var(--r-lg)` + `var(--glow)` on hover
   to match. Full-width bands and top-border dividers (ticker, footer, FAQ,
   join steps) stay square on purpose.
+- SEO pass + no long dashes (2026-09-27). **Site copy uses a plain hyphen
+  "-", never the long dash (em dash) - keep it that way in new content.**
+  En dashes in ranges ("7–10 PM") were left alone. Page titles now follow
+  "Page - Subtitle | EC Warlords" (og/twitter titles use "| Eastern Cape
+  Warlords"), all under ~60 chars; descriptions all under 160. Each page
+  has a 1200x630 share image in `assets/og/` (its banner, darkened, with
+  the crest; built with Playwright - make one the same way for new pages),
+  with og:image width/height/alt. Added `theme-color`, and JSON-LD on every
+  page (`id="ld-page"`): WebSite on home, BreadcrumbList elsewhere, plus
+  WebApplication (free) on the six tool pages. Sitemap lastmods bumped.

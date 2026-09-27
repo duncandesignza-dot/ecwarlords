@@ -11,23 +11,28 @@
   gtag('config', 'G-5RNM66M0QK');
 </script>
 <meta charset="UTF-8">
+<meta name="theme-color" content="#0a0707">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Damage Calculator — Expected Damage Output</title>
+<title>40K Damage Calculator - Expected Damage | EC Warlords</title>
 <meta name="description" content="Warhammer 40,000 damage calculator: expected damage output for any attacker profile against any defender.">
 <link rel="canonical" href="https://ecwarlords.co.za/damage-calculator">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Eastern Cape Warlords">
-<meta property="og:title" content="Damage Calculator — Expected Damage Output | Eastern Cape Warlords">
+<meta property="og:title" content="40K Damage Calculator - Expected Damage | Eastern Cape Warlords">
 <meta property="og:description" content="Warhammer 40,000 damage calculator: expected damage output for any attacker profile against any defender.">
 <meta property="og:url" content="https://ecwarlords.co.za/damage-calculator">
-<meta property="og:image" content="https://ecwarlords.co.za/assets/logo.webp">
+<meta property="og:image" content="https://ecwarlords.co.za/assets/og/banner.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Eastern Cape Warlords crest">
 <meta property="og:locale" content="en_ZA">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Damage Calculator — Expected Damage Output | Eastern Cape Warlords">
+<meta name="twitter:title" content="40K Damage Calculator - Expected Damage | Eastern Cape Warlords">
 <meta name="twitter:description" content="Warhammer 40,000 damage calculator: expected damage output for any attacker profile against any defender.">
-<meta name="twitter:image" content="https://ecwarlords.co.za/assets/logo.webp">
+<meta name="twitter:image" content="https://ecwarlords.co.za/assets/og/banner.jpg">
+<meta name="twitter:image:alt" content="Eastern Cape Warlords crest">
 <link rel="icon" href="assets/logo.webp">
-<link rel="stylesheet" href="style.css?v=202609271500">
+<link rel="stylesheet" href="style.css?v=202609271530">
 <style>
   .bar-wrap{margin-top:8px;}
   .bar-row{display:flex;align-items:center;gap:12px;margin-bottom:10px;}
@@ -37,6 +42,7 @@
     width:0;transition:width .6s var(--ease-out);}
   .bar-row .bv{width:58px;text-align:right;font-weight:700;font-variant-numeric:tabular-nums;font-size:.97rem;}
 </style>
+<script type="application/ld+json" id="ld-page">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://ecwarlords.co.za/"},{"@type":"ListItem","position":2,"name":"Tools","item":"https://ecwarlords.co.za/tools"},{"@type":"ListItem","position":3,"name":"Damage Calculator","item":"https://ecwarlords.co.za/damage-calculator"}]},{"@type":"WebApplication","name":"Damage Calculator","url":"https://ecwarlords.co.za/damage-calculator","applicationCategory":"GameApplication","operatingSystem":"Any (runs in a web browser)","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"ZAR"},"description":"Warhammer 40,000 damage calculator: expected damage output for any attacker profile against any defender.","publisher":{"@type":"SportsOrganization","name":"Eastern Cape Warlords","url":"https://ecwarlords.co.za/"}}]}</script>
 </head>
 <body data-page="tools">
 <a class="skip-link" href="#main">Skip to main content</a>
@@ -70,7 +76,7 @@
     <div class="wrap">
       <div class="eyebrow"><a href="tools" style="color:inherit;">TOOLS</a> · DAMAGE CALCULATOR</div>
       <h1>Damage Calculator</h1>
-      <p>Expected damage, worked out mathematically rather than rolled — so you get the true average instead of one lucky sequence. Updates as you type.</p>
+      <p>Expected damage, worked out mathematically rather than rolled - so you get the true average instead of one lucky sequence. Updates as you type.</p>
     </div>
   </div>
 
@@ -178,7 +184,7 @@
         <div class="panel">
           <h3>Expected result</h3>
           <div class="bigout">
-            <div class="num" id="dc-total">—</div>
+            <div class="num" id="dc-total">-</div>
             <div class="lbl">AVERAGE DAMAGE</div>
           </div>
 
@@ -186,29 +192,29 @@
             <div class="bar-row">
               <span class="bl">Hits</span>
               <span class="bar-track"><span class="bar-fill" id="dc-bar-hit"></span></span>
-              <span class="bv" id="dc-v-hit">—</span>
+              <span class="bv" id="dc-v-hit">-</span>
             </div>
             <div class="bar-row">
               <span class="bl">Wounds</span>
               <span class="bar-track"><span class="bar-fill" id="dc-bar-wnd"></span></span>
-              <span class="bv" id="dc-v-wnd">—</span>
+              <span class="bv" id="dc-v-wnd">-</span>
             </div>
             <div class="bar-row">
               <span class="bl">Unsaved</span>
               <span class="bar-track"><span class="bar-fill" id="dc-bar-uns"></span></span>
-              <span class="bv" id="dc-v-uns">—</span>
+              <span class="bv" id="dc-v-uns">-</span>
             </div>
           </div>
 
           <div class="steps-out">
-            <div class="step-row"><span>Wound roll needed</span><span id="dc-s-wt">—</span></div>
-            <div class="step-row"><span>Save after AP</span><span id="dc-s-sv">—</span></div>
-            <div class="step-row"><span>Models slain (avg)</span><span id="dc-s-slain">—</span></div>
-            <div class="step-row"><span>% of unit destroyed</span><span id="dc-s-pct">—</span></div>
+            <div class="step-row"><span>Wound roll needed</span><span id="dc-s-wt">-</span></div>
+            <div class="step-row"><span>Save after AP</span><span id="dc-s-sv">-</span></div>
+            <div class="step-row"><span>Models slain (avg)</span><span id="dc-s-slain">-</span></div>
+            <div class="step-row"><span>% of unit destroyed</span><span id="dc-s-pct">-</span></div>
           </div>
 
           <p style="color:var(--bone-dim);font-size:.82rem;margin-top:20px;line-height:1.5;">
-            These are true mathematical averages across infinite rolls — a single game will swing either side of them.
+            These are true mathematical averages across infinite rolls - a single game will swing either side of them.
             Models slain assumes damage spills within the unit but is wasted past a model's remaining wounds
             (so high-damage weapons look worse into 1-wound models, as they should).
           </p>
@@ -260,7 +266,7 @@
   </div>
 </footer>
 
-<script src="script.js?v=202609271500"></script>
+<script src="script.js?v=202609271530"></script>
 <script>
 (function(){
   "use strict";
