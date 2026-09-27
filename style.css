@@ -1479,3 +1479,6 @@ html .nav-join{
 /* ---------- footer: near-black like the header, instead of red-brown (2026-09-27) ---------- */
 html footer{background:#080505;border-top-color:var(--iron);}
 html .footer-bottom{border-top-color:var(--iron-2);}
+
+/* status chips on tool/hub cards (LIVE, UPCOMING, RESULTS): white text, crimson outline */
+html .tool-card .badge.live{color:#fff;border-color:var(--crimson-bright);background:rgba(var(--brand-rgb),.14);}
