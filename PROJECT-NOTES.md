@@ -1089,3 +1089,16 @@ All images live in `assets/`. Notable non-obvious ones:
   with og:image width/height/alt. Added `theme-color`, and JSON-LD on every
   page (`id="ld-page"`): WebSite on home, BreadcrumbList elsewhere, plus
   WebApplication (free) on the six tool pages. Sitemap lastmods bumped.
+- 404 page, app icons, small tool fixes (2026-09-27):
+  - `404.html` (GitHub Pages serves it for any missing URL). It uses
+    **root paths** (`/style.css`, `/assets/...`, `href="/gallery"`) because
+    it can be served at a nested address like `/tools/x`; keep it that way.
+    `noindex`, and not in the sitemap. If the nav or footer changes, update
+    it too.
+  - Icons in `assets/icons/` (apple-touch-icon 180, 192, 512, maskable 512,
+    favicon-32 PNG) and `manifest.webmanifest` (standalone, with Dice
+    Roller / Turn Tracker / Army Builder shortcuts). All pages link them.
+  - Datasheet Lookup search also matches weapon names.
+  - Turn Tracker chess clock now counts real elapsed time (Date.now), so it
+    no longer runs slow when a phone locks or the tab is in the background.
+  - Army Builder hero shows the real faction count (from factions.json).
