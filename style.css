@@ -1223,7 +1223,7 @@ body.loaded main{animation:pageIn .5s ease both;}
   transition:transform .25s var(--ease);
 }
 /* The frame is drawn by an overlay ON TOP of the photo, so the zoomed image
-   can never cover it — the red highlight shows on all four sides. */
+   can never cover it - the red highlight shows on all four sides. */
 .ha-card::after{
   content:"";position:absolute;inset:0;z-index:2;pointer-events:none;
   border:1px solid var(--iron);

@@ -11,23 +11,29 @@
   gtag('config', 'G-5RNM66M0QK');
 </script>
 <meta charset="UTF-8">
+<meta name="theme-color" content="#0a0707">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Mission Tracker — Objectives &amp; Secondary Scoring</title>
-<meta name="description" content="Track objective control and secondary mission scoring per battle round, synced with the Turn Tracker — free tool from the Eastern Cape Warlords that works with any Warhammer 40,000 mission pack.">
+<title>40K Mission Tracker - Objectives &amp; Secondaries | EC Warlords</title>
+<meta name="description" content="Free Warhammer 40,000 mission tracker: objective control and secondary scoring per battle round, synced with the Turn Tracker. From the Eastern Cape Warlords.">
 <link rel="canonical" href="https://ecwarlords.co.za/mission-tracker">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Eastern Cape Warlords">
-<meta property="og:title" content="Mission Tracker — Objectives &amp; Secondary Scoring | Eastern Cape Warlords">
-<meta property="og:description" content="Track objective control and secondary mission scoring per battle round, synced with the Turn Tracker — free tool from the Eastern Cape Warlords that works with any Warhammer 40,000 mission pack.">
+<meta property="og:title" content="40K Mission Tracker - Objectives &amp; Secondaries | Eastern Cape Warlords">
+<meta property="og:description" content="Free Warhammer 40,000 mission tracker: objective control and secondary scoring per battle round, synced with the Turn Tracker. From the Eastern Cape Warlords.">
 <meta property="og:url" content="https://ecwarlords.co.za/mission-tracker">
-<meta property="og:image" content="https://ecwarlords.co.za/assets/logo.webp">
+<meta property="og:image" content="https://ecwarlords.co.za/assets/og/banner.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Eastern Cape Warlords crest">
 <meta property="og:locale" content="en_ZA">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Mission Tracker — Objectives &amp; Secondary Scoring | Eastern Cape Warlords">
-<meta name="twitter:description" content="Track objective control and secondary mission scoring per battle round, synced with the Turn Tracker — free tool from the Eastern Cape Warlords that works with any Warhammer 40,000 mission pack.">
-<meta name="twitter:image" content="https://ecwarlords.co.za/assets/logo.webp">
+<meta name="twitter:title" content="40K Mission Tracker - Objectives &amp; Secondaries | Eastern Cape Warlords">
+<meta name="twitter:description" content="Free Warhammer 40,000 mission tracker: objective control and secondary scoring per battle round, synced with the Turn Tracker. From the Eastern Cape Warlords.">
+<meta name="twitter:image" content="https://ecwarlords.co.za/assets/og/banner.jpg">
+<meta name="twitter:image:alt" content="Eastern Cape Warlords crest">
 <link rel="icon" href="assets/logo.webp">
-<link rel="stylesheet" href="style.css?v=202609271500">
+<link rel="stylesheet" href="style.css?v=202609271530">
+<script type="application/ld+json" id="ld-page">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://ecwarlords.co.za/"},{"@type":"ListItem","position":2,"name":"Tools","item":"https://ecwarlords.co.za/tools"},{"@type":"ListItem","position":3,"name":"Mission Tracker","item":"https://ecwarlords.co.za/mission-tracker"}]},{"@type":"WebApplication","name":"Mission Tracker","url":"https://ecwarlords.co.za/mission-tracker","applicationCategory":"GameApplication","operatingSystem":"Any (runs in a web browser)","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"ZAR"},"description":"Free Warhammer 40,000 mission tracker: objective control and secondary scoring per battle round, synced with the Turn Tracker. From the Eastern Cape Warlords.","publisher":{"@type":"SportsOrganization","name":"Eastern Cape Warlords","url":"https://ecwarlords.co.za/"}}]}</script>
 </head>
 <body data-page="tools">
 <a class="skip-link" href="#main">Skip to main content</a>
@@ -61,8 +67,8 @@
     <div class="wrap">
       <div class="eyebrow"><a href="tools" style="color:inherit;">TOOLS</a> · MISSION TRACKER</div>
       <h1>Mission &amp; Objective Tracker</h1>
-      <p>Objective control and secondary mission scoring, round by round. This page shares its saved game with the Turn Tracker, so the battle round and victory points stay in sync between the two — open whichever one you need at the table.</p>
-      <p style="margin-top:10px;font-size:.92rem;">You set today's per-objective points and name your own secondaries each game, so this works with whatever mission pack or edition you're playing — nothing here is locked to one ruleset.</p>
+      <p>Objective control and secondary mission scoring, round by round. This page shares its saved game with the Turn Tracker, so the battle round and victory points stay in sync between the two - open whichever one you need at the table.</p>
+      <p style="margin-top:10px;font-size:.92rem;">You set today's per-objective points and name your own secondaries each game, so this works with whatever mission pack or edition you're playing - nothing here is locked to one ruleset.</p>
     </div>
   </div>
 
@@ -202,7 +208,7 @@
   </div>
 </footer>
 
-<script src="script.js?v=202609271500"></script>
+<script src="script.js?v=202609271530"></script>
 <script>
 (function(){
   "use strict";
@@ -298,7 +304,7 @@
     var body = $('mt-log-body');
     body.innerHTML = '';
     if(!state.primaryLog.length){
-      body.innerHTML = '<tr><td colspan="3" style="color:var(--bone-dim);">No rounds logged yet — use the button above once objectives are set for the round.</td></tr>';
+      body.innerHTML = '<tr><td colspan="3" style="color:var(--bone-dim);">No rounds logged yet - use the button above once objectives are set for the round.</td></tr>';
     } else {
       state.primaryLog.forEach(function(row){
         var tr = document.createElement('tr');

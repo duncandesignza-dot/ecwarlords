@@ -11,23 +11,29 @@
   gtag('config', 'G-5RNM66M0QK');
 </script>
 <meta charset="UTF-8">
+<meta name="theme-color" content="#0a0707">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Dice Roller — Full Attack Sequence Calculator</title>
+<title>40K Dice Roller - Full Attack Sequence | EC Warlords</title>
 <meta name="description" content="Warhammer 40,000 dice roller: full attack sequence with rerolls, Sustained Hits, Lethal Hits and Devastating Wounds.">
 <link rel="canonical" href="https://ecwarlords.co.za/dice-roller">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Eastern Cape Warlords">
-<meta property="og:title" content="Dice Roller — Full Attack Sequence Calculator | Eastern Cape Warlords">
+<meta property="og:title" content="40K Dice Roller - Full Attack Sequence | Eastern Cape Warlords">
 <meta property="og:description" content="Warhammer 40,000 dice roller: full attack sequence with rerolls, Sustained Hits, Lethal Hits and Devastating Wounds.">
 <meta property="og:url" content="https://ecwarlords.co.za/dice-roller">
-<meta property="og:image" content="https://ecwarlords.co.za/assets/logo.webp">
+<meta property="og:image" content="https://ecwarlords.co.za/assets/og/banner.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Eastern Cape Warlords crest">
 <meta property="og:locale" content="en_ZA">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Dice Roller — Full Attack Sequence Calculator | Eastern Cape Warlords">
+<meta name="twitter:title" content="40K Dice Roller - Full Attack Sequence | Eastern Cape Warlords">
 <meta name="twitter:description" content="Warhammer 40,000 dice roller: full attack sequence with rerolls, Sustained Hits, Lethal Hits and Devastating Wounds.">
-<meta name="twitter:image" content="https://ecwarlords.co.za/assets/logo.webp">
+<meta name="twitter:image" content="https://ecwarlords.co.za/assets/og/banner.jpg">
+<meta name="twitter:image:alt" content="Eastern Cape Warlords crest">
 <link rel="icon" href="assets/logo.webp">
-<link rel="stylesheet" href="style.css?v=202609271500">
+<link rel="stylesheet" href="style.css?v=202609271530">
+<script type="application/ld+json" id="ld-page">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://ecwarlords.co.za/"},{"@type":"ListItem","position":2,"name":"Tools","item":"https://ecwarlords.co.za/tools"},{"@type":"ListItem","position":3,"name":"Dice Roller","item":"https://ecwarlords.co.za/dice-roller"}]},{"@type":"WebApplication","name":"Dice Roller","url":"https://ecwarlords.co.za/dice-roller","applicationCategory":"GameApplication","operatingSystem":"Any (runs in a web browser)","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"ZAR"},"description":"Warhammer 40,000 dice roller: full attack sequence with rerolls, Sustained Hits, Lethal Hits and Devastating Wounds.","publisher":{"@type":"SportsOrganization","name":"Eastern Cape Warlords","url":"https://ecwarlords.co.za/"}}]}</script>
 </head>
 <body data-page="tools">
 <a class="skip-link" href="#main">Skip to main content</a>
@@ -192,21 +198,21 @@
         <div class="panel">
           <h3>Result</h3>
           <div class="bigout">
-            <div class="num" id="dr-total">—</div>
+            <div class="num" id="dr-total">-</div>
             <div class="lbl">DAMAGE DEALT</div>
           </div>
 
           <div class="steps-out" id="dr-steps">
-            <div class="step-row"><span>Attacks made</span><span id="dr-s-att">—</span></div>
-            <div class="step-row"><span>Hits</span><span id="dr-s-hit">—</span></div>
-            <div class="step-row"><span>Wounds</span><span id="dr-s-wnd">—</span></div>
-            <div class="step-row"><span>Failed saves</span><span id="dr-s-fail">—</span></div>
-            <div class="step-row"><span>Damage after FNP</span><span id="dr-s-dmg">—</span></div>
+            <div class="step-row"><span>Attacks made</span><span id="dr-s-att">-</span></div>
+            <div class="step-row"><span>Hits</span><span id="dr-s-hit">-</span></div>
+            <div class="step-row"><span>Wounds</span><span id="dr-s-wnd">-</span></div>
+            <div class="step-row"><span>Failed saves</span><span id="dr-s-fail">-</span></div>
+            <div class="step-row"><span>Damage after FNP</span><span id="dr-s-dmg">-</span></div>
           </div>
 
           <div id="dr-trays"></div>
           <p style="color:var(--bone-dim);font-size:.82rem;margin-top:20px;line-height:1.5;" id="dr-note">
-            Set your profile and hit <strong>Roll Attack</strong>. Every die is shown below the summary — crits highlighted in gold.
+            Set your profile and hit <strong>Roll Attack</strong>. Every die is shown below the summary - crits highlighted in gold.
           </p>
         </div>
 
@@ -256,7 +262,7 @@
   </div>
 </footer>
 
-<script src="script.js?v=202609271500"></script>
+<script src="script.js?v=202609271530"></script>
 <script>
 (function(){
   "use strict";
@@ -393,16 +399,16 @@
     $('dr-s-dmg').textContent  = totalDmg;
 
     $('dr-trays').innerHTML =
-      tray('HIT ROLLS — need ' + bs + '+' + (hitMod ? ' (mod ' + (hitMod>0?'+':'') + hitMod + ')' : ''), hitDice) +
-      tray('WOUND ROLLS — need ' + wt + '+', woundDice) +
-      tray('SAVES — need ' + (bestSave >= 7 ? 'none' : bestSave + '+'), saveDice);
+      tray('HIT ROLLS - need ' + bs + '+' + (hitMod ? ' (mod ' + (hitMod>0?'+':'') + hitMod + ')' : ''), hitDice) +
+      tray('WOUND ROLLS - need ' + wt + '+', woundDice) +
+      tray('SAVES - need ' + (bestSave >= 7 ? 'none' : bestSave + '+'), saveDice);
 
     $('dr-note').innerHTML = 'Crits on <strong>' + critOn + '+</strong>. Gold dice are critical rolls; red are successes; grey are failures.';
   });
 
   $('dr-clear').addEventListener('click', function(){
-    $('dr-total').textContent = '—';
-    ['dr-s-att','dr-s-hit','dr-s-wnd','dr-s-fail','dr-s-dmg'].forEach(function(id){ $(id).textContent = '—'; });
+    $('dr-total').textContent = '-';
+    ['dr-s-att','dr-s-hit','dr-s-wnd','dr-s-fail','dr-s-dmg'].forEach(function(id){ $(id).textContent = '-'; });
     $('dr-trays').innerHTML = '';
   });
 })();
