@@ -185,7 +185,7 @@
     return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');
   }
 
-  // Armory lightbox (gallery.html and the homepage Armory picks). Wired up
+  // Armoury lightbox (gallery.html and the homepage Armoury picks). Wired up
   // on first use so pages without #lightbox pay nothing.
   var armoryDialog = null;
   function openArmoryItem(item){
@@ -404,7 +404,7 @@
     document.addEventListener('keydown', function(e){ if(e.key==='Escape') plbDialog.close(); });
   }
 
-  /* ---------- HOME: FROM THE ARMORY ---------- */
+  /* ---------- HOME: FROM THE ARMOURY ---------- */
   // Hand-picked pieces shown on the homepage, by exact ARMY_DATA title.
   // Edit this list to change the showcase; unknown titles are skipped.
   var HOME_ARMORY_PICKS = [

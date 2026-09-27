@@ -1193,7 +1193,7 @@ body.loaded main{animation:pageIn .5s ease both;}
 }
 
 /* ============================================================
-   HOMEPAGE SECTIONS (Armory showcase, Dispatch, games, tools, CTA)
+   HOMEPAGE SECTIONS (Armoury showcase, Dispatch, games, tools, CTA)
    ============================================================ */
 /* thin red divider with a centre diamond between homepage sections */
 .home-divided{padding:80px 0;}
@@ -1214,7 +1214,7 @@ body.loaded main{animation:pageIn .5s ease both;}
 .head-link::after{content:" \2192";}
 .head-link:hover{color:var(--bone);}
 
-/* --- From the Armory --- */
+/* --- From the Armoury --- */
 .home-armory{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
 @media (max-width:900px){.home-armory{grid-template-columns:repeat(2,1fr);}}
 .ha-card{

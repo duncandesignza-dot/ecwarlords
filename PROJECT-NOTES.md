@@ -1102,3 +1102,8 @@ All images live in `assets/`. Notable non-obvious ones:
   - Turn Tracker chess clock now counts real elapsed time (Date.now), so it
     no longer runs slow when a phone locks or the tab is in the background.
   - Army Builder hero shows the real faction count (from factions.json).
+- "Armory" renamed to **"Armoury"** (UK spelling) in all visible text: nav,
+  titles, headings, links, meta/og/JSON-LD, gallery labels in script.js
+  (2026-09-27). Code identifiers (`gallery.html`, `.home-armory`,
+  `armory-banner.webp`, `HOME_ARMORY_PICKS`) deliberately unchanged. Use
+  "Armoury" in new copy.
