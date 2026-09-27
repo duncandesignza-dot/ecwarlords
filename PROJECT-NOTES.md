@@ -1115,3 +1115,10 @@ All images live in `assets/`. Notable non-obvious ones:
   Titanicus (new card), Astra Militarum, Imperial Agents, Imperial Knights
   (alphabetical). 35 cards total. Adeptus Titanicus borrows the Adeptus
   Mechanicus cog icon until a Collegia Titanica logo is supplied.
+- League logos on Standings (2026-09-27): `assets/league-blood-bowl.webp`
+  and `assets/league-battle-of-the-bay.webp` (800x800, transparent). Each
+  tab panel has an `.lg-head` (logo + league name + info chips), and the
+  tab buttons show a small logo. The 40k league on Standings is now named
+  "Battle of the Bay" (from its logo), replacing "Crusade of Embers" there;
+  about.html and events.html still mention "Crusade of Embers" - confirm
+  with the user whether those should change too.
