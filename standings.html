@@ -53,6 +53,18 @@
   .lg-panel.active{display:block;}
 
   .lg-meta{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px;}
+  /* league header: logo beside the league name and its info chips */
+  .lg-head{display:flex;align-items:center;gap:26px;margin-bottom:26px;}
+  .lg-head .lg-meta{margin-bottom:0;}
+  .lg-logo{width:140px;height:140px;flex:none;object-fit:contain;filter:drop-shadow(0 10px 26px rgba(0,0,0,.6)) drop-shadow(0 0 22px rgba(196,30,42,.25));}
+  .lg-title{font-size:clamp(1.5rem,3vw,2rem);margin-bottom:14px;}
+  .lg-tab{display:inline-flex;align-items:center;gap:10px;}
+  .lg-tab img{width:28px;height:28px;object-fit:contain;flex:none;}
+  @media (max-width:560px){
+    .lg-head{gap:16px;align-items:flex-start;}
+    .lg-logo{width:92px;height:92px;}
+    .lg-title{margin-bottom:10px;}
+  }
   .lg-meta span{border:1px solid var(--iron);color:var(--bone-dim);font-size:.8rem;padding:5px 11px;letter-spacing:.04em;}
 
   .lg-table-wrap{overflow-x:auto;border:1px solid var(--iron);background:var(--panel);}
@@ -147,17 +159,23 @@
       <h2 class="sr-only">Leagues and champions</h2>
 
       <div class="lg-tabs reveal" role="tablist" aria-label="League">
-        <button class="lg-tab active" role="tab" id="tab-bb" aria-selected="true" aria-controls="lg-bb" data-target="lg-bb">Blood Bowl</button>
-        <button class="lg-tab" role="tab" id="tab-40k" aria-selected="false" tabindex="-1" aria-controls="lg-40k" data-target="lg-40k">Warhammer 40,000</button>
+        <button class="lg-tab active" role="tab" id="tab-bb" aria-selected="true" aria-controls="lg-bb" data-target="lg-bb"><img src="assets/league-blood-bowl.webp" alt="" width="28" height="28">Blood Bowl</button>
+        <button class="lg-tab" role="tab" id="tab-40k" aria-selected="false" tabindex="-1" aria-controls="lg-40k" data-target="lg-40k"><img src="assets/league-battle-of-the-bay.webp" alt="" width="28" height="28">Warhammer 40,000</button>
       </div>
 
       <!-- ===== BLOOD BOWL ===== -->
       <div class="lg-panel active" id="lg-bb" role="tabpanel" aria-labelledby="tab-bb">
-        <div class="lg-meta">
-          <span>Season 2</span>
-          <span>Round 4 of 7</span>
-          <span>10 coaches</span>
-          <span>Updated after each league night</span>
+        <div class="lg-head">
+          <img class="lg-logo" src="assets/league-blood-bowl.webp" alt="Blood Bowl League logo" width="800" height="800">
+          <div>
+            <h3 class="lg-title">Blood Bowl League</h3>
+            <div class="lg-meta">
+              <span>Season 2</span>
+              <span>Round 4 of 7</span>
+              <span>10 coaches</span>
+              <span>Updated after each league night</span>
+            </div>
+          </div>
         </div>
 
         <div class="lg-table-wrap reveal" tabindex="0" role="region" aria-label="Blood Bowl league table">
@@ -202,14 +220,19 @@
 
       <!-- ===== 40K ===== -->
       <div class="lg-panel" id="lg-40k" role="tabpanel" aria-labelledby="tab-40k">
-        <div class="lg-meta">
-          <span>Crusade of Embers</span>
-          <span>Session 3 of 6</span>
-          <span>12 players</span>
-          <span>2000 pts matched play</span>
+        <div class="lg-head">
+          <img class="lg-logo" src="assets/league-battle-of-the-bay.webp" alt="Battle of the Bay league logo" width="800" height="800">
+          <div>
+            <h3 class="lg-title">Battle of the Bay</h3>
+            <div class="lg-meta">
+              <span>Session 3 of 6</span>
+              <span>12 players</span>
+              <span>2000 pts matched play</span>
+            </div>
+          </div>
         </div>
 
-        <div class="lg-table-wrap reveal" tabindex="0" role="region" aria-label="Crusade of Embers league table">
+        <div class="lg-table-wrap reveal" tabindex="0" role="region" aria-label="Battle of the Bay league table">
           <table class="lg-table">
             <thead>
               <tr>
@@ -231,7 +254,7 @@
         </div>
 
         <h3 class="lg-sub">Campaign sessions</h3>
-        <div class="lg-table-wrap reveal" tabindex="0" role="region" aria-label="Crusade of Embers campaign sessions">
+        <div class="lg-table-wrap reveal" tabindex="0" role="region" aria-label="Battle of the Bay sessions">
           <table class="lg-table">
             <thead>
               <tr><th>Session</th><th>Date</th><th>Status</th><th>Notes</th></tr>
