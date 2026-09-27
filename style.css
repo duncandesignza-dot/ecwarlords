@@ -1311,3 +1311,90 @@ body.loaded main{animation:pageIn .5s ease both;}
 .home-cta h2{font-size:clamp(2.4rem,6vw,4.2rem);margin:14px 0 16px;text-transform:uppercase;}
 .home-cta p{color:var(--bone-dim);font-size:1.15rem;max-width:520px;margin:0 auto;}
 .home-cta .cta-row{margin-top:32px;display:flex;justify-content:center;gap:16px;flex-wrap:wrap;}
+
+/* ============================================================
+   LIVERY LEDGER COMPONENT LAYER (added 2026-09-27)
+   Brings buttons, chips and cards in line with the club's Livery Ledger
+   app: rounded corners, soft translucent surfaces, and a coloured glow on
+   hover instead of a lift. Warlords colours and fonts are unchanged; the
+   glow uses the club crimson. Rules are prefixed with `html` so they also
+   win over the page-level <style> blocks (news, events, games, standings).
+   ============================================================ */
+:root{
+  --brand-rgb:196,30,42;                       /* = --crimson-bright */
+  --r-sm:10px; --r:14px; --r-lg:20px; --r-xl:26px;
+  --surface:rgba(30,15,15,.72);               /* --panel, slightly see-through */
+  --surface-2:rgba(22,11,11,.7);              /* --void-2, slightly see-through */
+  --brand-line:rgba(var(--brand-rgb),.55);
+  --brand-soft:rgba(var(--brand-rgb),.14);
+  --glow:0 14px 40px -18px rgba(var(--brand-rgb),.55);
+  --glow-strong:0 0 0 1px var(--crimson-bright) inset, 0 0 22px -6px rgba(var(--brand-rgb),.65);
+}
+
+/* ---------- buttons ---------- */
+html .btn{
+  clip-path:none;border-radius:var(--r-sm);padding:12px 22px;
+  transition:background .15s, border-color .15s, box-shadow .2s, transform .1s;
+}
+html .btn:hover{transform:none;}
+html .btn:active{transform:translateY(1px);}
+html .btn-primary{border-color:var(--crimson-bright);box-shadow:0 6px 24px -8px rgba(var(--brand-rgb),.7);}
+html .btn-primary:hover{background:linear-gradient(135deg,#d42a36,var(--crimson-bright));box-shadow:0 8px 30px -8px rgba(var(--brand-rgb),.9);}
+html .btn-ghost{background:var(--surface-2);border-color:var(--iron);}
+html .btn-ghost:hover{background:var(--brand-soft);border-color:var(--brand-line);box-shadow:var(--glow);}
+html .nav-cta{border-radius:var(--r-sm);box-shadow:0 6px 24px -10px rgba(var(--brand-rgb),.6);}
+html .burger,html .lb-close,html .photo-lightbox .plb-close,html .m-close,
+html .social-btn,html .ht-links a,html .ab-x,html .score button,
+html .sec-row .sec-score button,html .sec-row .sec-x{border-radius:var(--r-sm);}
+html .social-btn:hover,html .ht-links a:hover{box-shadow:var(--glow);}
+html .ab-toggle,html .sec-add,html #tt-round-down,html #tt-round-up,html #mt-round-down,html #mt-round-up{border-radius:var(--r-sm);}
+html .die{border-radius:8px;}
+
+/* ---------- pills: filters, chips, tabs, tags ---------- */
+html .filter-btn,html .chip,html .lg-tab{border-radius:999px;background:var(--surface-2);}
+html .filter-btn:hover,html .chip:hover,html .lg-tab:hover{border-color:var(--brand-line);}
+html .filter-btn.active,html .chip.on,html .lg-tab.active{
+  background:var(--brand-soft);border-color:var(--crimson-bright);color:var(--bone);box-shadow:var(--glow-strong);
+}
+html .news-chip,html .ev-meta span,html .lg-meta span,html .f-tag,html .ab-kw,html .ab-tag,
+html .tool-card .badge,html .game-card .g-tag{border-radius:999px;}
+
+/* ---------- cards ---------- */
+html .pillar,html .gcard,html .fcard,html .news-card,html .mcard,html .tool-card,html .hd-card,
+html .game-card,html .champ,html .ev,html .spotlight-feature,html .tt-card,html .mt-total-card,
+html .panel,html .ab-panel,html .ab-bar,html .lb-panel,html .ab-modal .m-box{
+  border-radius:var(--r-lg);background-color:var(--surface);
+}
+html .ab-unit,html .ab-item,html .sec-row,html .obj-cell,html .source-note,html .lg-note,html .ev-note,
+html .ab-saved,html .ab-enh,html .ab-attach{border-radius:var(--r);}
+/* grids drawn with 1px gaps, and cards holding photos: clip to the rounded corners */
+html .gcard,html .news-card,html .hd-card,html .spotlight-feature,html .teaser-grid,html .meet-info,
+html .home-games,html .home-tools,html .lg-table-wrap,html .ev{border-radius:var(--r-lg);overflow:hidden;}
+/* the lightbox panel scrolls on phones, so round its photo rather than clipping the panel */
+html .lb-panel .art{border-radius:var(--r-lg) 0 0 var(--r-lg);overflow:hidden;}
+@media (max-width:640px){html .lb-panel .art{border-radius:var(--r-lg) var(--r-lg) 0 0;}}
+html .ha-card,html .ha-card::after{border-radius:var(--r-lg);}
+html .photo-card{clip-path:none;border-radius:var(--r-lg);}
+html .photo-lightbox img{border-radius:var(--r);}
+/* hover: tinted border + soft crimson glow, no lift */
+html .pillar,html .gcard,html .fcard,html .news-card,html .mcard,html .tool-card,html .hd-card,
+html .game-card,html .champ,html .ev,html .ha-card,html .photo-card,html .teaser,html .ab-item,html .obj-cell{
+  transition:border-color .2s, box-shadow .25s, background .2s;
+}
+html .pillar:hover,html .gcard:hover,html .fcard:hover,html .news-card:hover,html .mcard:hover,
+html .tool-card:hover,html .hd-card:hover,html .game-card:hover,html .champ:hover,html .ev:hover,
+html .photo-card:hover{border-color:var(--brand-line);box-shadow:var(--glow);transform:none;}
+html .teaser:hover,html .ha-card:hover{transform:none;}
+html .ha-card:hover{box-shadow:var(--glow);}
+html .ha-card:hover::after{border-color:var(--brand-line);box-shadow:none;}
+html .tool-card.soon:hover{border-color:var(--iron);box-shadow:none;}
+html .tt-card.active{box-shadow:var(--glow-strong), var(--glow);}
+
+/* ---------- form fields ---------- */
+html .field input,html .field textarea,html .field select,html .fld input,html .fld select,
+html .ab-search,html .faction-search,html .ab-unit select,html .ab-enh select,html .ab-attach select,
+html .ab-saved input,html .ab-saved select,html .ab-modal textarea{border-radius:var(--r-sm);}
+html .field input:focus,html .field textarea:focus,html .field select:focus,html .fld input:focus,
+html .fld select:focus,html .ab-search:focus,html .faction-search:focus{
+  border-color:var(--brand-line);box-shadow:0 0 0 3px rgba(var(--brand-rgb),.18);outline:none;
+}

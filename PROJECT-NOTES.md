@@ -1068,3 +1068,14 @@ All images live in `assets/`. Notable non-obvious ones:
   lookup shows 9/19 Beast Snagga Boyz); `leads` ids that don't match any
   datasheet (e.g. GSC leaders -> `acolyte-hybrids`, which is split into two
   datasheets), so those leaders can't be attached.
+- Buttons, chips and cards restyled to match the club's Livery Ledger app
+  (repo `duncandesignza-dot/warhammer40k`, `css/styles.css`) (2026-09-27):
+  rounded corners (`--r-sm` 10px … `--r-xl` 26px), slightly see-through
+  surfaces, and a soft crimson glow on hover instead of a lift; filters,
+  chips and tabs are pills whose active state is a tinted fill with a glow
+  ring. Warlords colours and Cinzel/Rajdhani fonts unchanged. It all lives in
+  one "LIVERY LEDGER COMPONENT LAYER" block at the end of `style.css`, with
+  every rule prefixed `html` so it also beats the page-level `<style>`
+  blocks. New components should use `var(--r-lg)` + `var(--glow)` on hover
+  to match. Full-width bands and top-border dividers (ticker, footer, FAQ,
+  join steps) stay square on purpose.
