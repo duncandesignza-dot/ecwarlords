@@ -1,5 +1,9 @@
 # EC Warlords Website — Project Notes
 
+> **New session? Read `CLAUDE.md` first** - it's the short, current summary.
+> This file is the detailed running log; where an older section disagrees
+> with a later dated entry near the bottom, the later entry wins.
+
 Reference doc summarizing the site's structure, conventions, and content
 policy as of this conversation. Read this before making further changes so
 new work stays consistent with what's already been established.
@@ -65,7 +69,7 @@ files: `style.css`, `script.js`, `assets/` (all images).
 |---|---|---|
 | Home | `index.html` | Home |
 | About | `about.html` | About |
-| Painting gallery | `gallery.html` | The Armory |
+| Painting gallery | `gallery.html` | The Armoury |
 | Members/leadership | `members.html` | The Roster |
 | News feed | `news.html` | The Dispatch |
 | Games played | `games.html` | Games We Play |
@@ -77,8 +81,8 @@ have no link in the main nav — worth deciding whether that's deliberate):
 
 | Page | File | Linked from |
 |---|---|---|
-| Events calendar | `events.html` | not linked from nav; nothing currently links *to* it either — reachable only by direct URL |
-| League standings / Hall of Champions | `standings.html` | linked from `events.html` (a fixtures link) and mentioned in prose on `games.html` |
+| Events calendar | `events.html` | not in the nav; linked from the Dispatch (`news.html`) hub cards |
+| League standings / Hall of Champions | `standings.html` | not in the nav; linked from the Dispatch hub cards and `events.html` |
 
 **Tools sub-pages** (linked from the `tools.html` hub, not from the main nav):
 
@@ -89,7 +93,7 @@ have no link in the main nav — worth deciding whether that's deliberate):
 | Turn Tracker | `turn-tracker.html` | Live |
 | Army List Builder | `army-builder.html` (linked as `href="army-builder"`) | Live |
 | Datasheet Lookup | `datasheet-lookup.html` (linked as `href="datasheet-lookup"`) | Live — 35 factions, 1,485 datasheets |
-| Factions | `factions.html` (linked as `href="factions"`) | Live — 27 factions (see "Factions page" section below) |
+| Factions | `factions.html` (linked as `href="factions"`) | Live - 35 cards: 13 Space Marines, 7 Imperium, 7 Chaos, 8 Xenos (see the 2026-09-27 entry at the bottom) |
 | Mission & Objective Tracker | `mission-tracker.html` (linked as `href="mission-tracker"`) | Live — see "Mission & Objective Tracker" section below |
 
 **Internal links have no `.html` extension** (e.g. `href="gallery"`, home
