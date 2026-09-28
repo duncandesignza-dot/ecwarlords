@@ -11,9 +11,8 @@ try { playwright = require('playwright'); }
 catch (e) { playwright = require('/opt/node22/lib/node_modules/playwright'); }
 
 const BASE = process.env.BASE || 'http://127.0.0.1:8765/';
-const PAGES = ['', 'about', 'gallery', 'members', 'news', 'games', 'tools', 'join',
-  'events', 'standings', 'factions', 'dice-roller', 'damage-calculator',
-  'army-builder', 'datasheet-lookup', 'turn-tracker', 'mission-tracker', 'no-such-page'];
+const PAGES = ['', 'about', 'gallery', 'members', 'news', 'games', 'join',
+  'events', 'standings', 'no-such-page'];
 
 (async () => {
   const browser = await playwright.chromium.launch();

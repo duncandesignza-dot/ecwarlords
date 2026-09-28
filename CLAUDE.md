@@ -17,11 +17,15 @@ Gqeberha (Port Elizabeth), South Africa: https://ecwarlords.co.za
   its own inline `<style>`/`<script>`.
 - Hosted on **GitHub Pages** from the `main` branch (`CNAME` =
   ecwarlords.co.za), with **Cloudflare** (free plan) in front for caching.
-- 17 pages plus `404.html`: home (`index.html`), about, gallery (shown as
+- 9 pages plus `404.html`: home (`index.html`), about, gallery (shown as
   "The Armoury"), members ("The Roster"), news ("The Dispatch"), games,
-  tools, join, events, standings, factions, plus six tools: dice-roller,
-  damage-calculator, army-builder, datasheet-lookup, turn-tracker,
-  mission-tracker.
+  join, events, standings.
+- **The Tools section was removed on 2026-09-28 at the owner's request.**
+  That covered the Tools hub, Dice Roller, Damage Calculator, Army Builder,
+  Datasheet Lookup, Turn Tracker, Mission Tracker, the Factions page, their
+  data (`assets/data/`) and the data scripts (`parse.py`, `build/`). All of
+  it is still in git history (before PR #12) if it's ever wanted back.
+  Don't re-add tools unless asked.
 
 ## How changes go live (the owner's workflow)
 
@@ -82,6 +86,10 @@ non-technical language.
   as a separate red button** (`.nav-join`). The phone menu keeps its own Join
   Us inside `.navlinks`.
 - Footer background is near-black `#080505`, like the header.
+- The Dispatch page's Events and Standings links reuse the old `.tool-card`
+  styles (`.tool-card.hub-card`), so keep that CSS. `style.css` still has
+  some unused styles from the removed tool pages (`.ab-*`, `.dl-*`, `.tt-*`,
+  `.fcard`, dice and tracker styles); they're harmless and can be pruned.
 
 ## Adding a page
 
@@ -92,8 +100,7 @@ Copy the `<head>` of an existing page. Every page has:
   (the page banner darkened with the crest on top, rendered with Playwright);
 - a `theme-color` meta tag, the icon links (`assets/icons/`) and a link to
   `manifest.webmanifest`;
-- a JSON-LD `<script id="ld-page">` block (BreadcrumbList, plus
-  WebApplication for tools);
+- a JSON-LD `<script id="ld-page">` block (a BreadcrumbList);
 - the gtag snippet and the current `?v=` number.
 
 Then add the page to `sitemap.xml` and link it from the nav or a hub page.
@@ -108,26 +115,13 @@ Then add the page to `sitemap.xml` and link it from the nav or a hub page.
   built-in fallback cards in `#homeDispatch` in `index.html`.
 - **Armoury pieces:** the `ARMY_DATA` array in `script.js`.
   `HOME_ARMORY_PICKS` chooses which ones appear on the homepage.
-- **Factions page:** the `FACTION_DATA` array in `script.js`. The
-  categories are `astartes` (Space Marines and all chapters), `imperium` (the
-  other Imperium factions, alphabetical), `chaos` and `xenos`.
 - **League logos and standings:** `standings.html` (`.lg-head` per tab).
-
-## Data pipelines (tools)
-
-- Army Builder data (`assets/data/*.json`) comes from
-  `build/parse-bsdata.py`. It has regression tests:
-  `python3 build/verify-all.py && python3 build/verify-orks.py`.
-- Datasheet Lookup data (`assets/data/lookup/`) comes from the root
-  `parse.py`. Its IP rule: stats, weapon profiles and ability *names* only,
-  never GW rules text.
 
 ## Testing before you push
 
 ```
 python3 dev/serve.py &          # GitHub-Pages-like server on :8765 (extensionless URLs + 404)
 node dev/smoke-test.js          # every page at 1300px and 375px: JS errors, broken files, overflow
-python3 build/verify-all.py     # only if Army Builder data changed
 ```
 
 Playwright and Chromium are needed for the smoke test (they're pre-installed
@@ -146,17 +140,6 @@ when scripting scroll positions: use `behavior:'instant'`.
 - "Crusade of Embers" is still named on the About and Events pages. The 40k
   league on Standings is now "Battle of the Bay". Ask whether to rename the
   others.
-- Adeptus Titanicus uses the Mechanicus cog icon, and Imperial Agents has a
-  placeholder icon. Both need real logos.
-- **Army Builder data problems** (fix in `build/parse-bsdata.py`, then
-  regenerate):
-  - Aeldari, Drukhari and Ynnari have no detachments.
-  - Custodes, Grey Knights, AdMech and Agents only list Knights/Agents
-    detachments.
-  - Enhancements are empty for most Chaos factions, Necrons and Votann.
-  - About 205 units' sizes/points disagree with the lookup data.
-  - Some `leads` ids don't match any datasheet (e.g. Genestealer Cults
-    leaders).
 - Google Search Console showed "Couldn't fetch" for the sitemap on the day
   it was submitted (2026-09-27). The file is valid; recheck it later, and if
   it's still failing, check Cloudflare Bot Fight Mode.

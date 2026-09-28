@@ -1,7 +1,7 @@
 {
   "name": "Eastern Cape Warlords",
   "short_name": "EC Warlords",
-  "description": "Tabletop wargaming club in Gqeberha (Port Elizabeth), with free game-night tools.",
+  "description": "Tabletop wargaming club in Gqeberha (Port Elizabeth), South Africa.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
@@ -9,13 +9,53 @@
   "theme_color": "#0a0707",
   "lang": "en-ZA",
   "icons": [
-    { "src": "/assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "/assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
-    { "src": "/assets/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "/assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ],
   "shortcuts": [
-    { "name": "Dice Roller", "url": "/dice-roller", "icons": [{ "src": "/assets/icons/icon-192.png", "sizes": "192x192" }] },
-    { "name": "Turn Tracker", "url": "/turn-tracker", "icons": [{ "src": "/assets/icons/icon-192.png", "sizes": "192x192" }] },
-    { "name": "Army Builder", "url": "/army-builder", "icons": [{ "src": "/assets/icons/icon-192.png", "sizes": "192x192" }] }
+    {
+      "name": "The Armoury",
+      "url": "/gallery",
+      "icons": [
+        {
+          "src": "/assets/icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "The Dispatch",
+      "url": "/news",
+      "icons": [
+        {
+          "src": "/assets/icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Join Us",
+      "url": "/join",
+      "icons": [
+        {
+          "src": "/assets/icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
   ]
 }

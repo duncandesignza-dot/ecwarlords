@@ -1126,3 +1126,12 @@ All images live in `assets/`. Notable non-obvious ones:
   "Battle of the Bay" (from its logo), replacing "Crusade of Embers" there;
   about.html and events.html still mention "Crusade of Embers" - confirm
   with the user whether those should change too.
+- **Tools section removed (2026-09-28, owner's request):** the Tools hub,
+  all six tools, the Factions page, `assets/data/`, `parse.py` and `build/`
+  were deleted. The nav and footer lose "Tools" (7 links now), the homepage
+  "Tools for the table" section, the Games page factions link and the 404
+  page's tools button are gone, and the sitemap is down to 9 URLs. Manifest
+  shortcuts now point to the Armoury, Dispatch and Join. Everything above
+  about the tools, the factions page, the data pipelines and their known
+  issues is historical. It can be restored from git history if wanted.
+
