@@ -36,7 +36,7 @@
 <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="apple-mobile-web-app-title" content="EC Warlords">
-<link rel="stylesheet" href="style.css?v=202609281751">
+<link rel="stylesheet" href="style.css?v=202610032336">
 <style>
   /* ============ DISPATCH FEED ============ */
   .news-feed{position:relative;margin-top:10px;padding-left:34px;border-left:1px solid var(--iron);}
@@ -80,8 +80,8 @@
   .source-note a.btn{white-space:nowrap;}
 
   /* --- hub cards (events / standings) --- */
-  .hub-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-bottom:64px;}
-  @media (max-width:760px){.hub-grid{grid-template-columns:1fr;}}
+  .hub-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-bottom:64px;}
+  @media (max-width:980px){.hub-grid{grid-template-columns:1fr;}}
   .hub-card{text-decoration:none;}
   .hub-card h3{color:var(--bone);}
 
@@ -186,6 +186,13 @@
           <h3>League Standings</h3>
           <p>Current Blood Bowl table and 40k league positions, plus the archive of past seasons and champions - all in one place instead of buried in old posts below.</p>
           <span class="t-cta">View the tables</span>
+        </a>
+        <a class="tool-card hub-card" href="tournaments">
+          <span class="badge live">COMPETE</span>
+          <svg aria-hidden="true" focusable="false"><use href="#ico-sword"/></svg>
+          <h3>Tournaments</h3>
+          <p>Club-run events and trips further afield - formats, points limits, rules packs, entry fees, how to sign up and recent results.</p>
+          <span class="t-cta">Enter an event</span>
         </a>
       </div>
 
@@ -430,12 +437,12 @@
     </div>
     <div class="footer-bottom">
       <span>&copy; 2026 Eastern Cape Warlords Wargaming Club. Warhammer 40,000, Warhammer Age of Sigmar, and Blood Bowl are trademarks of Games Workshop Ltd. Kings of War is a trademark of Mantic Games. Dungeons &amp; Dragons is a trademark of Wizards of the Coast. Not affiliated with or endorsed by any of the above.</span>
-      <span>Eastern Cape · Wednesdays, 7–10 PM</span>
+      <span>Eastern Cape · Wednesdays, 7–10 PM · <a href="privacy">Privacy</a></span>
     </div>
   </div>
 </footer>
 
-<script src="script.js?v=202609281751"></script>
+<script src="script.js?v=202610032336"></script>
 <script>
 (function(){
   var feed = document.getElementById('newsFeed');
