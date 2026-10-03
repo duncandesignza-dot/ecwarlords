@@ -1488,3 +1488,68 @@ html .footer-bottom a:hover{color:var(--bone);}
 
 /* status chips on tool/hub cards (LIVE, UPCOMING, RESULTS): white text, crimson outline */
 html .tool-card .badge.live{color:#fff;border-color:var(--crimson-bright);background:rgba(var(--brand-rgb),.14);}
+
+/* ============================================================
+   GAME PAGES (warhammer-40k, age-of-sigmar, kings-of-war, ...)
+   One page per system, all built from the same blocks.
+   ============================================================ */
+.gp-sub{font-family:var(--font-display);font-size:clamp(1.4rem,3vw,1.8rem);margin:64px 0 18px;}
+.gp-lead{color:var(--bone-dim);max-width:680px;margin:-6px 0 22px;font-size:1.02rem;}
+.gp-intro{display:grid;grid-template-columns:1.4fr 1fr;gap:40px;align-items:center;}
+@media (max-width:820px){.gp-intro{grid-template-columns:1fr;gap:22px;}}
+.gp-intro h2{font-size:clamp(1.6rem,3.4vw,2.2rem);margin-bottom:14px;}
+.gp-intro p{color:var(--bone-dim);font-size:1.06rem;line-height:1.68;}
+.gp-intro p + p{margin-top:12px;}
+.gp-intro strong{color:var(--bone);}
+.gp-logo{width:100%;max-width:300px;max-height:200px;object-fit:contain;justify-self:center;
+  filter:drop-shadow(0 12px 30px rgba(0,0,0,.6));}
+.gp-logo.gp-icon{max-width:150px;height:150px;color:var(--crimson-glow);}
+@media (max-width:820px){.gp-logo{max-width:220px;max-height:130px;order:-1;justify-self:start;}.gp-logo.gp-icon{width:72px;height:72px;}}
+.gp-facts{list-style:none;margin:22px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px;}
+.gp-facts li{border:1px solid var(--iron);border-radius:999px;color:var(--bone-dim);font-size:.84rem;padding:6px 13px;}
+.gp-facts li b{color:var(--bone);font-weight:700;}
+.gp-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;}
+.gp-grid.three{grid-template-columns:repeat(3,1fr);}
+@media (max-width:900px){.gp-grid.three{grid-template-columns:1fr 1fr;}}
+@media (max-width:640px){.gp-grid,.gp-grid.three{grid-template-columns:1fr;}}
+.gp-card{border:1px solid var(--iron);background:var(--surface);border-radius:var(--r-lg);padding:26px 24px;
+  transition:border-color .2s, box-shadow .25s;}
+.gp-card:hover{border-color:var(--brand-line);box-shadow:var(--glow);}
+.gp-card .gp-kicker{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--crimson-glow);font-weight:700;}
+.gp-card h3{font-size:1.18rem;margin:8px 0 10px;color:var(--bone);}
+.gp-card p{color:var(--bone-dim);font-size:.99rem;line-height:1.6;}
+.gp-card p + p{margin-top:10px;}
+.gp-card strong{color:var(--bone);}
+.gp-card a{color:var(--crimson-glow);font-weight:700;}
+.gp-card a:hover{color:var(--bone);}
+.gp-chips{display:flex;flex-wrap:wrap;gap:10px;margin:0;padding:0;}
+.gp-chips li{list-style:none;border:1px solid var(--iron);background:var(--surface);border-radius:999px;
+  padding:8px 16px;color:var(--bone);font-weight:600;font-size:.95rem;}
+.gp-photos{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.gp-photos.two{grid-template-columns:repeat(2,1fr);}
+@media (max-width:820px){.gp-photos{grid-template-columns:1fr 1fr;}}
+@media (max-width:560px){.gp-photos,.gp-photos.two{grid-template-columns:1fr;}}
+.gp-photos figure{margin:0;border:1px solid var(--iron);border-radius:var(--r-lg);overflow:hidden;background:var(--surface);}
+.gp-photos img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;}
+.gp-photos.white img{background:#fff;object-fit:contain;}
+.gp-photos figcaption{padding:14px 18px;color:var(--bone-dim);font-size:.94rem;line-height:1.5;}
+.gp-photos figcaption b{display:block;color:var(--bone);}
+.gp-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;counter-reset:gp;}
+@media (max-width:860px){.gp-steps{grid-template-columns:1fr;}}
+.gp-step{border:1px solid var(--iron);background:var(--surface);border-radius:var(--r-lg);padding:24px 22px;counter-increment:gp;}
+.gp-step::before{content:counter(gp,decimal-leading-zero);display:block;font-family:var(--font-display);
+  font-size:1.6rem;color:var(--crimson-glow);margin-bottom:8px;}
+.gp-step h3{font-size:1.05rem;margin-bottom:8px;}
+.gp-step p{color:var(--bone-dim);font-size:.96rem;line-height:1.55;}
+.gp-note{border:1px solid var(--iron);background:var(--void-2);border-radius:var(--r);padding:22px 24px;margin-top:56px;
+  display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;}
+.gp-note p{color:var(--bone-dim);font-size:.98rem;max-width:520px;}
+.gp-note .cta-row{display:flex;gap:12px;flex-wrap:wrap;}
+/* board games shelf */
+.bg-list{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+@media (max-width:900px){.bg-list{grid-template-columns:1fr 1fr;}}
+@media (max-width:560px){.bg-list{grid-template-columns:1fr;}}
+.bg-item{border:1px solid var(--iron);background:var(--surface);border-radius:var(--r-lg);padding:18px 20px;}
+.bg-item h3{font-size:1.05rem;color:var(--bone);margin-bottom:6px;}
+.bg-item .bg-meta{color:var(--crimson-glow);font-size:.82rem;font-weight:700;letter-spacing:.04em;}
+.bg-item p{color:var(--bone-dim);font-size:.94rem;line-height:1.5;margin-top:8px;}

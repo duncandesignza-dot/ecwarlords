@@ -12,7 +12,7 @@ catch (e) { playwright = require('/opt/node22/lib/node_modules/playwright'); }
 
 const BASE = process.env.BASE || 'http://127.0.0.1:8765/';
 const PAGES = ['', 'about', 'gallery', 'members', 'news', 'games', 'join',
-  'events', 'standings', 'tournaments', 'privacy', 'blood-bowl', 'no-such-page'];
+  'events', 'standings', 'tournaments', 'privacy', 'blood-bowl', 'warhammer-40k', 'age-of-sigmar', 'kings-of-war', 'dungeons-and-dragons', 'star-wars-legion', 'trench-crusade', 'board-games', 'no-such-page'];
 
 (async () => {
   const browser = await playwright.chromium.launch();
