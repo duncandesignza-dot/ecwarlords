@@ -1553,3 +1553,8 @@ html .tool-card .badge.live{color:#fff;border-color:var(--crimson-bright);backgr
 .bg-item h3{font-size:1.05rem;color:var(--bone);margin-bottom:6px;}
 .bg-item .bg-meta{color:var(--crimson-glow);font-size:.82rem;font-weight:700;letter-spacing:.04em;}
 .bg-item p{color:var(--bone-dim);font-size:.94rem;line-height:1.5;margin-top:8px;}
+.gp-steps.five{grid-template-columns:repeat(5,1fr);}
+@media (max-width:1100px){.gp-steps.five{grid-template-columns:repeat(3,1fr);}}
+@media (max-width:760px){.gp-steps.five{grid-template-columns:1fr 1fr;}}
+@media (max-width:520px){.gp-steps.five{grid-template-columns:1fr;}}
+.gp-steps + .gp-grid{margin-top:20px;}
