@@ -1567,3 +1567,7 @@ html .tool-card .badge.live{color:#fff;border-color:var(--crimson-bright);backgr
 .gp-ph span{font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.8rem;color:var(--bone);}
 .gp-ph small{font-size:.9rem;max-width:420px;}
 @media (max-width:560px){.gp-ph{aspect-ratio:16/9;}}
+/* real images that replaced a .gp-ph placeholder */
+.gp-media{margin:0 0 20px;border:1px solid var(--iron);border-radius:var(--r-lg);overflow:hidden;background:var(--void-2);}
+.gp-media img{display:block;width:100%;height:auto;aspect-ratio:16/5;object-fit:cover;}
+@media (max-width:560px){.gp-media img{aspect-ratio:16/9;}}
