@@ -1558,3 +1558,12 @@ html .tool-card .badge.live{color:#fff;border-color:var(--crimson-bright);backgr
 @media (max-width:760px){.gp-steps.five{grid-template-columns:1fr 1fr;}}
 @media (max-width:520px){.gp-steps.five{grid-template-columns:1fr;}}
 .gp-steps + .gp-grid{margin-top:20px;}
+/* image placeholders on the game pages - swap each for a real <img> later
+   (search the page for "IMAGE PLACEHOLDER") */
+.gp-ph{margin:0 0 20px;aspect-ratio:21/9;border:2px dashed var(--iron);border-radius:var(--r-lg);
+  background:repeating-linear-gradient(135deg,rgba(255,255,255,.015) 0 14px,transparent 14px 28px),var(--void-2);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;text-align:center;padding:20px;color:var(--bone-dim);}
+.gp-ph svg{width:40px;height:40px;color:var(--crimson-glow);opacity:.8;}
+.gp-ph span{font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.8rem;color:var(--bone);}
+.gp-ph small{font-size:.9rem;max-width:420px;}
+@media (max-width:560px){.gp-ph{aspect-ratio:4/3;}}
