@@ -19,8 +19,8 @@ Gqeberha (Port Elizabeth), South Africa: https://ecwarlords.co.za
   ecwarlords.co.za), with **Cloudflare** (free plan) in front for caching.
 - Main pages plus `404.html`: home (`index.html`), about (menu name "The
   Lore"), gallery ("The Armoury"), members ("The Roster"), news ("The
-  Dispatch"), `battlefield` (hub for events, standings and tournaments, which
-  all highlight "Battlefield" in the menu), games, join, and one page per game
+  Dispatch"), `battlefield` ("The Battlefield", hub for events, standings and tournaments, which
+  all highlight "The Battlefield" in the menu), games, join, and one page per game
   (`warhammer-40k`, `age-of-sigmar`, `kings-of-war`, `dungeons-and-dragons`,
   `star-wars-legion`, `trench-crusade`, `blood-bowl`, `board-games`), plus
   `privacy`. Game pages are built from the `.gp-*` styles at the end of
