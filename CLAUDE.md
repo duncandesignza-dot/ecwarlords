@@ -17,9 +17,15 @@ Gqeberha (Port Elizabeth), South Africa: https://ecwarlords.co.za
   its own inline `<style>`/`<script>`.
 - Hosted on **GitHub Pages** from the `main` branch (`CNAME` =
   ecwarlords.co.za), with **Cloudflare** (free plan) in front for caching.
-- 9 pages plus `404.html`: home (`index.html`), about, gallery (shown as
-  "The Armoury"), members ("The Roster"), news ("The Dispatch"), games,
-  join, events, standings.
+- Main pages plus `404.html`: home (`index.html`), about (menu name "The
+  Lore"), gallery ("The Armoury"), members ("The Roster"), news ("The
+  Dispatch"), `battlefield` (hub for events, standings and tournaments, which
+  all highlight "Battlefield" in the menu), games, join, and one page per game
+  (`warhammer-40k`, `age-of-sigmar`, `kings-of-war`, `dungeons-and-dragons`,
+  `star-wars-legion`, `trench-crusade`, `blood-bowl`, `board-games`), plus
+  `privacy`. Game pages are built from the `.gp-*` styles at the end of
+  `style.css`; photo boxes marked `IMAGE PLACEHOLDER` are for images still to
+  come.
 - **The Tools section was removed on 2026-09-28 at the owner's request.**
   That covered the Tools hub, Dice Roller, Damage Calculator, Army Builder,
   Datasheet Lookup, Turn Tracker, Mission Tracker, the Factions page, their
@@ -86,8 +92,8 @@ non-technical language.
   as a separate red button** (`.nav-join`). The phone menu keeps its own Join
   Us inside `.navlinks`.
 - Footer background is near-black `#080505`, like the header.
-- The Dispatch page's Events and Standings links reuse the old `.tool-card`
-  styles (`.tool-card.hub-card`), so keep that CSS. `style.css` still has
+- The Battlefield page's Events, Standings and Tournaments cards reuse the
+  old `.tool-card` styles (`.tool-card.hub-card`), so keep that CSS. `style.css` still has
   some unused styles from the removed tool pages (`.ab-*`, `.dl-*`, `.tt-*`,
   `.fcard`, dice and tracker styles); they're harmless and can be pruned.
 
