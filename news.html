@@ -36,7 +36,7 @@
 <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="apple-mobile-web-app-title" content="EC Warlords">
-<link rel="stylesheet" href="style.css?v=202610041244">
+<link rel="stylesheet" href="style.css?v=202610071940">
 <style>
   /* ============ DISPATCH FEED ============ */
   .news-feed{position:relative;margin-top:10px;padding-left:34px;border-left:1px solid var(--iron);}
@@ -79,12 +79,6 @@
   .source-note p{color:var(--bone-dim);font-size:.98rem;max-width:520px;}
   .source-note a.btn{white-space:nowrap;}
 
-  /* --- hub cards (events / standings) --- */
-  .hub-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-bottom:64px;}
-  @media (max-width:980px){.hub-grid{grid-template-columns:1fr;}}
-  .hub-card{text-decoration:none;}
-  .hub-card h3{color:var(--bone);}
-
   .feed-head{font-size:clamp(1.7rem,3.4vw,2.3rem);margin-bottom:6px;}
 
   /* --- collapsed feed --- */
@@ -120,22 +114,7 @@
     <circle cx="32" cy="68" r="6" fill="#0a0707"/>
     <circle cx="68" cy="68" r="6" fill="#0a0707"/>
   </symbol>
-  <symbol id="ico-trophy" viewBox="0 0 100 100">
-    <path fill="currentColor" d="M30 12h40v6h10a4 4 0 014 4c0 14-10 24-20 26-3 8-10 14-19 15v9h14v6H31v-6h14v-9c-9-1-16-7-19-15C16 46 6 36 6 22a4 4 0 014-4h10zM20 24h-6c0 6 4 12 9 15-2-5-3-10-3-15zm60 0h-6c0 5-1 10-3 15 5-3 9-9 9-15z"/>
-  </symbol>
-  <symbol id="ico-sword" viewBox="0 0 100 100"><path fill="currentColor" d="M60 10l8 8-6 6 20 20-8 8-20-20-6 6-8-8zM40 46l14 14-30 30c-3 3-8 3-11 0-3-3-3-8 0-11z"/></symbol>
   <symbol id="ico-flame" viewBox="0 0 100 100"><path fill="currentColor" d="M50 6c4 14-4 20-10 28-8 10-10 18-10 26 0 18 14 32 20 32s20-14 20-32c0-6-2-10-6-14 2 8-2 14-8 14s-10-6-8-14c-4 4-6 8-6 14 0-16 14-24 8-40 6 6 10 14 10 22 6-8 8-18-10-36z"/></symbol>
-  <symbol id="ico-calendar" viewBox="0 0 100 100">
-    <rect x="10" y="20" width="80" height="72" rx="6" fill="currentColor"/>
-    <rect x="18" y="40" width="64" height="44" fill="#0a0707"/>
-    <rect x="24" y="8" width="10" height="22" rx="4" fill="currentColor"/>
-    <rect x="66" y="8" width="10" height="22" rx="4" fill="currentColor"/>
-    <rect x="28" y="50" width="12" height="10" fill="currentColor"/>
-    <rect x="46" y="50" width="12" height="10" fill="currentColor"/>
-    <rect x="64" y="50" width="12" height="10" fill="currentColor"/>
-    <rect x="28" y="66" width="12" height="10" fill="currentColor"/>
-    <rect x="46" y="66" width="12" height="10" fill="currentColor"/>
-  </symbol>
 </defs>
 </svg>
 
@@ -146,10 +125,11 @@
     </a>
     <ul class="navlinks" id="navlinks">
       <li><a href="./" data-page="home">Home</a></li>
-      <li><a href="about" data-page="about">About</a></li>
+      <li><a href="about" data-page="about">The Lore</a></li>
       <li><a href="gallery" data-page="gallery">The Armoury</a></li>
       <li><a href="members" data-page="members">The Roster</a></li>
       <li><a href="news" data-page="news">The Dispatch</a></li>
+      <li><a href="battlefield" data-page="battlefield">Battlefield</a></li>
       <li><a href="games" data-page="games">Games</a></li>
       <li class="nav-cta-item"><a href="join" data-page="join" class="nav-cta">Join Us</a></li>
     </ul>
@@ -170,32 +150,6 @@
 
   <div class="section" style="padding-top:20px;">
     <div class="wrap">
-      <h2 class="sr-only">Quick links</h2>
-
-      <div class="hub-grid reveal">
-        <a class="tool-card hub-card" href="events">
-          <span class="badge live">UPCOMING</span>
-          <svg aria-hidden="true" focusable="false"><use href="#ico-calendar"/></svg>
-          <h3>Events Calendar</h3>
-          <p>Every club night, tournament, campaign session and painting clinic - with dates, times, points limits and RSVP so you know exactly what's on before you drive out.</p>
-          <span class="t-cta">See what's coming up</span>
-        </a>
-        <a class="tool-card hub-card" href="standings">
-          <span class="badge live">RESULTS</span>
-          <svg aria-hidden="true" focusable="false"><use href="#ico-trophy"/></svg>
-          <h3>League Standings</h3>
-          <p>Current Blood Bowl table and 40k league positions, plus the archive of past seasons and champions - all in one place instead of buried in old posts below.</p>
-          <span class="t-cta">View the tables</span>
-        </a>
-        <a class="tool-card hub-card" href="tournaments">
-          <span class="badge live">COMPETE</span>
-          <svg aria-hidden="true" focusable="false"><use href="#ico-sword"/></svg>
-          <h3>Tournaments</h3>
-          <p>Club-run events and trips further afield - formats, points limits, rules packs, entry fees, how to sign up and recent results.</p>
-          <span class="t-cta">Enter an event</span>
-        </a>
-      </div>
-
       <h2 class="feed-head">Latest from the club</h2>
 
       <div class="news-feed reveal" id="newsFeed">
@@ -427,10 +381,11 @@
       </div>
       <div class="footer-links">
         <a href="./">Home</a>
-        <a href="about">About</a>
+        <a href="about">The Lore</a>
         <a href="gallery">The Armoury</a>
         <a href="members">The Roster</a>
         <a href="news">The Dispatch</a>
+        <a href="battlefield">Battlefield</a>
         <a href="games">Games</a>
         <a href="join">Join Us</a>
       </div>
@@ -442,7 +397,7 @@
   </div>
 </footer>
 
-<script src="script.js?v=202610041244"></script>
+<script src="script.js?v=202610071940"></script>
 <script>
 (function(){
   var feed = document.getElementById('newsFeed');
