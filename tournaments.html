@@ -49,6 +49,11 @@
   .tn-next h3{font-size:1.35rem;margin-bottom:8px;}
   .tn-next p{color:var(--bone-dim);max-width:560px;font-size:1rem;line-height:1.58;}
   .tn-next .cta-row{display:flex;gap:12px;flex-wrap:wrap;}
+  .tn-next-main{flex:1 1 420px;min-width:0;}
+  .tn-detail{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 32px;margin:22px 0 0;max-width:720px;}
+  .tn-detail dt{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--crimson-glow);font-weight:700;}
+  .tn-detail dd{margin:3px 0 0;color:var(--bone);font-size:1rem;line-height:1.45;}
+  @media (max-width:560px){.tn-detail{grid-template-columns:1fr;}}
 
   .tn-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
   @media (max-width:900px){.tn-grid{grid-template-columns:1fr 1fr;}}
@@ -143,14 +148,22 @@
 
       <h2 class="tn-sub">Next up</h2>
       <div class="tn-next reveal">
-        <div>
-          <div class="eyebrow">SIGN-UPS</div>
-          <h3>No event open for entries right now</h3>
-          <p>When the next tournament is announced, its date, format, points limit, entry fee and rules pack go up here and on our Facebook page. Want a heads-up? Message the club and we'll let you know.</p>
+        <div class="tn-next-main">
+          <div class="eyebrow">BLOOD BOWL SEVENS</div>
+          <h3>Solar Scrimmage Sevens the Second</h3>
+          <p>A Blood Bowl Sevens tournament in Gqeberha. Message the club to find out how to enter.</p>
+          <dl class="tn-detail">
+            <div><dt>Date</dt><dd>Saturday, 28 November 2026</dd></div>
+            <div><dt>Venue</dt><dd>GSD Club, 39 Mangold Street, Newton Park, Gqeberha</dd></div>
+            <div><dt>Organiser</dt><dd>Matthew Carslake</dd></div>
+            <div><dt>Rules set</dt><dd>BB7 (Third Season)</dd></div>
+            <div><dt>Mode</dt><dd>Individual</dd></div>
+            <div><dt>Entry fee</dt><dd>TBA</dd></div>
+          </dl>
         </div>
         <div class="cta-row">
-          <a href="https://wa.me/27724749572" target="_blank" rel="noopener" class="btn btn-primary">Message us on WhatsApp</a>
-          <a href="https://www.facebook.com/profile.php?id=61572983876990" target="_blank" rel="noopener" class="btn btn-ghost">Follow on Facebook</a>
+          <a href="https://wa.me/27724749572" target="_blank" rel="noopener" class="btn btn-primary">Message us to enter</a>
+          <a href="blood-bowl" class="btn btn-ghost">About Blood Bowl</a>
         </div>
       </div>
 
