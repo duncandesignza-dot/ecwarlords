@@ -22,7 +22,7 @@ Gqeberha (Port Elizabeth), South Africa: https://ecwarlords.co.za
   Dispatch"), `battlefield` ("The Battlefield", hub for events, standings and tournaments, which
   all highlight "The Battlefield" in the menu), games, join, and one page per game
   (`warhammer-40k`, `age-of-sigmar`, `kings-of-war`, `dungeons-and-dragons`,
-  `star-wars-legion`, `trench-crusade`, `blood-bowl`, `board-games`), plus
+  `star-wars-legion`, `trench-crusade`, `blood-bowl`, `starcraft`), plus
   `privacy`. Game pages are built from the `.gp-*` styles at the end of
   `style.css`; photo boxes marked `IMAGE PLACEHOLDER` are for images still to
   come.
